@@ -52,6 +52,7 @@ is built so more languages slot in later with no code changes.
 | Architecture | Content files + language-agnostic layout-only builders. |
 | Dice | Abstract difficulty bands mapped to whatever dice a family owns; 1d6 always works. |
 | Age model | 3 age-tiered character sheets + a difficulty dial + 2 narration reading levels per language. |
+| Newcomer guide | A generic "Guide for the Grown-Up" for first-time game masters: standalone PDF per language, with a small callout in each kit. |
 | Name registry | Per-world canon files + a repo-wide shared lexicon; "authoritative + lint" binding. |
 | Fonts | Embed a Unicode font (e.g. DejaVu Sans) so accents render; swappable per language. |
 
@@ -89,6 +90,10 @@ but the cooperative, no-player-elimination engine stays underneath).
 ```
 lexicon/                         # repo-wide game vocabulary shared by all worlds
   terms.yaml                     # "Game Master", difficulty band names, dice names, "energy star"...
+
+guide/                           # generic "Guide for the Grown-Up" (newcomer GM guide)
+  en/guide.md                    # adult-facing, single reading level, localized
+  es/guide.md
 
 worlds/
   floating-isles/
@@ -240,7 +245,35 @@ Two layers keep names consistent across stories and languages:
   appendix** ("who's who / what's what"), map labels, the idea bank, and the
   catalog. These can never disagree with canon.
 
-## 10. Build pipeline and i18n
+## 10. Guide for the Grown-Up (for first-time game masters)
+
+A system-wide, generic guide for the adult running the game, written for people
+who may never have played a tabletop role-playing game. It is the single best
+safeguard against a session stalling when a child goes off-script.
+
+- **Scope**: generic and shared across all worlds (not per world). Lives at
+  `guide/<lang>/guide.md`, localized like everything else (EN canonical, ES
+  synced). It is adult-facing, so it has a single reading level (no simple/rich
+  split).
+- **Delivery**: a standalone "Start Here" PDF per language (for example
+  `Guide_for_the_Grown-Up_EN.pdf`). Each kit's rules page carries a small callout
+  ("New to this? Read the Guide for the Grown-Up first") rather than reprinting
+  the whole guide in every kit.
+- **Contents** (about one to two pages): what this kind of game is and that no
+  experience is needed; the grown-up's three jobs (narrator, gentle referee,
+  biggest fan); the golden rule "Yes, and" (never just say no); handling
+  impossible or silly answers with ready scripts; captivating young kids (do
+  voices, hand them the dice, offer choices, keep scenes short, follow their
+  excitement, take breaks); helping when they are stuck (a friendly hint, lower
+  the difficulty, combine magic, or let them succeed); the no-lose ethos (turn a
+  failed roll into a fun detour, not a defeat); pacing and length (stop early,
+  skip a puzzle, play across several sittings); and a handful of ready-to-use
+  phrases.
+- **Optional per-world note (deferred, YAGNI)**: `world.yaml` may later carry a
+  short optional "grown-up note" for tone differences (for example, reassuring
+  kids during scarier Greek moments). Not built now.
+
+## 11. Build pipeline and i18n
 
 - Builders are **layout-only** and take `(world, story, language, reading_level)`.
   They load the relevant content files plus canon and render the kit PDF to
@@ -252,11 +285,14 @@ Two layers keep names consistent across stories and languages:
   this fixes that. The font is selectable per language, so a future
   Japanese world can plug in a CJK font without touching layout code.
 - A per-kit build produces: the story narration kit (map + rules + narration +
-  puzzles + glossary), and the relevant character sheets.
+  puzzles + glossary), and the relevant character sheets. The rules page includes
+  the newcomer callout pointing to the Guide for the Grown-Up.
+- The build also renders the standalone **Guide for the Grown-Up** PDF per
+  language from `guide/<lang>/guide.md`.
 - **Optional, recommended**: a GitHub Action that builds all kits on release and
   attaches the PDFs to the GitHub Release.
 
-## 11. What we author in this effort
+## 12. What we author in this effort
 
 1. **System**: schema, tag vocabularies, dice bands, age-tiered sheet templates,
    canon/lexicon structure, lint, layout-only builders, catalog generation,
@@ -267,19 +303,24 @@ Two layers keep names consistent across stories and languages:
    simple + rich narration; canon populated; three character sheets.
 3. **Greek myth / one new story**: world lore, one short heroic-peril adventure,
    canon populated, EN drafted then ES, simple + rich narration.
+4. **Guide for the Grown-Up**: draft the generic newcomer guide content (EN
+   canonical, then ES), wire its standalone PDF build, and add the rules-page
+   callout that points to it.
 
-## 12. Testing and verification
+## 13. Testing and verification
 
 - **Lint**: canon coverage and EN/ES name consistency pass with no warnings for
   the authored stories.
 - **Build**: every authored `(story, language, reading_level)` combination builds
   a PDF without error, output lands in `dist/`.
+- **Guide**: the standalone Guide for the Grown-Up builds for each language, and
+  the newcomer callout appears on the rules page of each kit.
 - **Visual check**: rasterize each built PDF to PNG and eyeball it (accents
   render, layout intact, map merges correctly) before declaring done.
 - **Catalog**: `catalog.md` regenerates from `story.yaml` files and lists both
   stories with correct tags.
 
-## 13. Open items (to settle during spec review or implementation)
+## 14. Open items (to settle during spec review or implementation)
 
 - **Which Greek myth** the first Greek adventure draws on. Proposed kid-friendly
   seed: a gentle Labyrinth tale where the heroes use Ariadne's thread as a logic
