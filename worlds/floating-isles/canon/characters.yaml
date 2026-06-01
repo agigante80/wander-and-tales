@@ -1,0 +1,14 @@
+# Named characters of the Floating Isles.
+# The two players are mage apprentices the family names themselves, so they are
+# not canon entries.
+
+- id: lonely-sprite
+  names:
+    en-GB: The Lonely Sprite
+    es-ES: El Duende Solitario
+  kind: character
+  disposition: lonely
+  description:
+    en-GB: The little sprite of the Heart who sent the garden to sleep, not out of spite but because it wanted a friend.
+    es-ES: El duendecillo del Corazón que durmió el jardín, no por maldad sino porque quería un amigo.
+  first_seen: sleeping-garden

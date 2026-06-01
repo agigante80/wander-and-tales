@@ -1,0 +1,29 @@
+# Repo-wide game vocabulary shared by every world.
+# System terms only: the role names, the difficulty bands, and the energy star.
+# World flavour (such as the four magics of the Floating Isles) lives in that
+# world's canon/terms.yaml, not here.
+
+- id: game-master
+  names:
+    en-GB: Game Master
+    es-ES: Guía del Juego
+
+- id: band-easy
+  names:
+    en-GB: Easy
+    es-ES: Fácil
+
+- id: band-normal
+  names:
+    en-GB: Normal
+    es-ES: Normal
+
+- id: band-hard
+  names:
+    en-GB: Hard
+    es-ES: Difícil
+
+- id: energy-star
+  names:
+    en-GB: energy star
+    es-ES: estrella de energía

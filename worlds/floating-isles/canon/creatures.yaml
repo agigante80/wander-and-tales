@@ -1,0 +1,56 @@
+# Friendly creatures of the Floating Isles. None of them wishes any harm.
+
+- id: mist-cat
+  names:
+    en-GB: Mist Cat
+    es-ES: Gato de Niebla
+  kind: creature
+  disposition: friendly
+  description:
+    en-GB: A gentle cat made of fog who gives hints.
+    es-ES: Un gato amable hecho de niebla que da pistas.
+  first_seen: sleeping-garden
+
+- id: librarian-owl
+  names:
+    en-GB: Librarian Owl
+    es-ES: Búho Bibliotecario
+  kind: creature
+  disposition: friendly
+  description:
+    en-GB: A wise owl who loves a good riddle.
+    es-ES: Un búho sabio al que le encantan las adivinanzas.
+  first_seen: sleeping-garden
+
+- id: bridge-tortoise
+  names:
+    en-GB: Bridge Tortoise
+    es-ES: Tortuga Puente
+  kind: creature
+  disposition: friendly
+  description:
+    en-GB: A patient tortoise who lets travellers cross on her broad shell.
+    es-ES: Una tortuga paciente que deja cruzar a los viajeros sobre su ancho caparazón.
+  first_seen: sleeping-garden
+
+- id: messenger-butterfly
+  names:
+    en-GB: Messenger Butterfly
+    es-ES: Mariposa Mensajera
+  kind: creature
+  disposition: friendly
+  description:
+    en-GB: A bright butterfly that carries little messages and the odd free hint.
+    es-ES: Una mariposa luminosa que lleva pequeños mensajes y alguna pista gratis.
+  first_seen: sleeping-garden
+
+- id: talking-flowers
+  names:
+    en-GB: Talking Flowers
+    es-ES: Flores Parlantes
+  kind: creature
+  disposition: friendly
+  description:
+    en-GB: Flowers that chat in soft little voices when you lean close.
+    es-ES: Flores que charlan con vocecillas suaves cuando os acercáis.
+  first_seen: sleeping-garden

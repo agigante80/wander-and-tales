@@ -1,0 +1,21 @@
+world: floating-isles
+id: sleeping-garden
+title:
+  en-GB: The Sleeping Garden
+  es-ES: El Jardín Dormido
+age:
+  recommended: young        # one of: early (3-5), young (6-8), older (9-12)
+  also_works_for: [early, older]
+skills:
+  - vocabulary
+  - logic
+  - social-emotional
+peril: gentle               # gentle | mild | heroic
+adult_gm: true
+dice:
+  minimum: 1d6              # the floor; every story must be playable with one d6
+  recommended: d20-set      # the richer set the legacy kit was tuned for
+players:
+  min: 2
+  max: 2
+play_time_minutes: 30
