@@ -1,0 +1,32 @@
+id: floating-isles
+name:
+  en-GB: The Floating Isles
+  es-ES: Las Islas Flotantes
+tone: gentle wonder
+palette:
+  - "#fef9ef"  # cream background
+  - "#4ea24a"  # leaf green
+  - "#2bb3a3"  # teal
+  - "#d36fb0"  # rose
+  - "#3f8fd6"  # sky blue
+  - "#f2a93b"  # golden path
+  - "#8a6fd6"  # soft purple
+lore_summary:
+  en-GB: >
+    The Floating Isles are islands adrift in a calm sky, in a realm where magic
+    only ever helps: it grows, it heals, it changes one thing into another, and
+    it lets you speak with animals and objects. It never harms. On the home
+    island, the House of the Little Mages sits at the highest point, where young
+    mages learn their first spells, and the city where the families live spreads
+    below. Inside the school grounds lies the Great Garden, the green heart of
+    the whole island. Here nobody loses; you find your way by being clever and
+    kind.
+  es-ES: >
+    Las Islas Flotantes son islas que flotan en un cielo tranquilo, en un reino
+    donde la magia solo sirve para ayudar: hace crecer, cura, convierte una cosa
+    en otra y deja hablar con los animales y los objetos. Nunca hace daño. En la
+    isla principal, la Casa de los Pequeños Magos se alza en el punto más alto,
+    donde los jóvenes magos aprenden sus primeros hechizos, y debajo se extiende
+    la ciudad donde viven las familias. Dentro del recinto de la escuela está el
+    Gran Jardín, el corazón verde de toda la isla. Aquí nadie pierde; encontráis
+    el camino siendo listos y amables.

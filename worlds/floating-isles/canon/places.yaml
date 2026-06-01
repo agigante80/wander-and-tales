@@ -1,0 +1,61 @@
+# Named places of the Floating Isles. Ordinary scenery is not listed here.
+
+- id: house-of-little-mages
+  names:
+    en-GB: House of the Little Mages
+    es-ES: Casa de los Pequeños Magos
+  kind: place
+  description:
+    en-GB: The school at the highest point of the home island, where young mages learn their first magic.
+    es-ES: La escuela en el punto más alto de la isla principal, donde los jóvenes magos aprenden su primera magia.
+  first_seen: sleeping-garden
+
+- id: great-garden
+  names:
+    en-GB: The Great Garden
+    es-ES: El Gran Jardín
+  kind: place
+  description:
+    en-GB: The green heart of the home island, inside the school grounds. The whole adventure crosses it.
+    es-ES: El corazón verde de la isla principal, dentro del recinto de la escuela. Toda la aventura lo cruza.
+  first_seen: sleeping-garden
+
+- id: vine-gate
+  names:
+    en-GB: The Vine Gate
+    es-ES: La Puerta de Enredaderas
+  kind: place
+  description:
+    en-GB: The first stop, a gate tied shut by a knot of leaves.
+    es-ES: La primera parada, una puerta cerrada con un nudo de hojas.
+  first_seen: sleeping-garden
+
+- id: flower-bed
+  names:
+    en-GB: The Flower Bed
+    es-ES: El Cantero de Flores
+  kind: place
+  description:
+    en-GB: The second stop, where four flowers must be set in the right order.
+    es-ES: La segunda parada, donde hay que ordenar cuatro flores en el orden correcto.
+  first_seen: sleeping-garden
+
+- id: talking-fountain
+  names:
+    en-GB: The Talking Fountain
+    es-ES: La Fuente Parlanchina
+  kind: place
+  description:
+    en-GB: The third stop, a stone fountain that has gone quiet and sad.
+    es-ES: La tercera parada, una fuente de piedra que se ha quedado callada y triste.
+  first_seen: sleeping-garden
+
+- id: garden-heart
+  names:
+    en-GB: The Heart of the Garden
+    es-ES: El Corazón del Jardín
+  kind: place
+  description:
+    en-GB: The final stop at the centre of the Great Garden, where the adventure ends with a friend, not a fight.
+    es-ES: La parada final en el centro del Gran Jardín, donde la aventura acaba con un amigo, no con una pelea.
+  first_seen: sleeping-garden
