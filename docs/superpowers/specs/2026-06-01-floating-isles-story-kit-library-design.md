@@ -16,6 +16,21 @@ story, language, or age tier is a content task, not a coding task.
 English is the primary (canonical) language; Spanish is kept in sync. The design
 is built so more languages slot in later with no code changes.
 
+### Positioning (one-paragraph pitch)
+
+Seed copy for a future landing page and other promotion. Grounded in the
+evidence and full drafts in `research/` (use associational language, no causal
+or "makes kids smarter" claims):
+
+> Wits & Wonder is a screen-free, cooperative story-and-puzzle adventure you play
+> with your child, where nobody loses and the only way forward is to be clever
+> and kind. As AI reshapes a future none of us can fully picture, the skills
+> experts agree will matter most stay stubbornly human: imagination, creative and
+> critical thinking, problem-solving, curiosity, and working well with others.
+> This game is a simple way to practise exactly those, and a lovely excuse for
+> more attentive, screen-free time together, which research consistently links to
+> how well children grow.
+
 ## 2. Goals and non-goals
 
 ### Goals
