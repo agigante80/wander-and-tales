@@ -115,11 +115,12 @@ and the map merges correctly.
 
 ## Layout pointers
 
-- `El_Jardin_Dormido_kit/` legacy Spanish kit, being migrated into the schema as
-  the story "The Sleeping Garden" in the world "The Floating Isles". Its scripts
-  under `scripts/` are the layout starting point being refactored into the PDF
-  pipeline; their output paths are hardcoded to `/home/claude/...` or
-  `/mnt/user-data/outputs/`. Its inner `CLAUDE.md` is superseded by this file.
+- `El_Jardin_Dormido_kit/scripts/` legacy Spanish kit layout scripts. The kit's
+  content has been migrated into the schema (the world "The Floating Isles", the
+  story "The Sleeping Garden"); only these `reportlab`/`cairosvg`/`pypdf` scripts
+  and `mapa.svg` remain, kept as the layout starting point to refactor into the
+  Plan 2 PDF pipeline. Their output paths are hardcoded to `/home/claude/...` or
+  `/mnt/user-data/outputs/`; change them to a local path before running.
 - `research/` evidence base and marketing copy.
 - `docs/superpowers/specs/` design specs; `docs/superpowers/plans/` the plan set.
 
