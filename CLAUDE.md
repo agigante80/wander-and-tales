@@ -77,5 +77,9 @@ build without error, and the canon/lexicon lint must pass with no warnings.
 
 ## Git
 
-Branch `main`. Commit only when asked. End commit messages with the standard
-co-author trailer.
+This is an open-source project: **commit at every change.** After each logical
+change (a file or a small coherent set), make a descriptive commit; do not leave
+work uncommitted. A `Stop` hook in `.claude/` is the backstop that auto-commits
+anything still pending when a turn ends, so nothing is ever lost. End every
+commit message with the standard co-author trailer. Work on `main`; push only
+when asked.
