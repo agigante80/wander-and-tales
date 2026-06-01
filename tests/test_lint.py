@@ -41,3 +41,24 @@ def test_story_world_mismatch_is_an_error(sample_repo):
     story_yaml.write_text(text, encoding="utf-8")
     issues = lint.lint_repo(sample_repo)
     assert any(i.level == "error" and "world" in i.message.lower() for i in issues)
+
+
+def test_clean_repo_has_no_lexicon_errors(sample_repo):
+    issues = lint.lint_repo(sample_repo)
+    assert not [i for i in issues if "lexicon" in i.message]
+
+
+def test_duplicate_lexicon_id_is_an_error(sample_repo):
+    path = sample_repo / "lexicon" / "terms.yaml"
+    path.write_text(
+        "- id: game-master\n"
+        "  names: {en-GB: Game Master, es-ES: Guia del Juego}\n"
+        "- id: game-master\n"
+        "  names: {en-GB: GM, es-ES: GJ}\n",
+        encoding="utf-8",
+    )
+    issues = lint.lint_repo(sample_repo)
+    assert any(
+        i.level == "error" and "game-master" in i.message and "lexicon" in i.message
+        for i in issues
+    )

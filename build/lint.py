@@ -33,11 +33,35 @@ def _error(message: str, location: str) -> LintIssue:
     return LintIssue("error", message, location)
 
 
+def _lint_lexicon(root: Path) -> list[LintIssue]:
+    """Check the repo-wide lexicon/terms.yaml if present (it is optional)."""
+    issues: list[LintIssue] = []
+    lexicon_path = root / "lexicon" / "terms.yaml"
+    if not lexicon_path.is_file():
+        return issues
+    try:
+        terms = content.load_lexicon(lexicon_path)
+    except ValidationError as exc:
+        issues.append(_error(f"lexicon failed validation: {exc}", str(lexicon_path)))
+        return issues
+    seen: set[str] = set()
+    for term in terms:
+        if term.id in seen:
+            issues.append(
+                _error(f"duplicate lexicon id {term.id!r}", str(lexicon_path))
+            )
+        else:
+            seen.add(term.id)
+    return issues
+
+
 def lint_repo(root: Path) -> list[LintIssue]:
     issues: list[LintIssue] = []
+    issues.extend(_lint_lexicon(root))
     worlds_dir = root / "worlds"
     if not worlds_dir.is_dir():
-        return [_error("no worlds/ directory found", str(root))]
+        issues.append(_error("no worlds/ directory found", str(root)))
+        return issues
 
     for world_dir in sorted(p for p in worlds_dir.iterdir() if p.is_dir()):
         issues.extend(_lint_world(world_dir))
