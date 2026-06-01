@@ -13,8 +13,12 @@ for kids. Content lives as data (text files plus metadata); a layout-only build
 renders printable PDFs per language and per reading level. Adding a new world,
 story, language, or age tier is a content task, not a coding task.
 
-English is the primary (canonical) language; Spanish is kept in sync. The design
-is built so more languages slot in later with no code changes.
+British English (`en-GB`) is the primary (canonical) locale; Spanish from Spain
+(`es-ES`) is kept in sync. Content is keyed by explicit locale code throughout
+(folders, `title:`, canon `names:`, the builder argument), so US English
+(`en-US`), Latin American Spanish (`es-419`), and any other locale slot in later
+as their own languages with no code changes, exactly like `pt-PT` versus
+`pt-BR`.
 
 ### Positioning (one-paragraph pitch)
 
@@ -58,8 +62,8 @@ or "makes kids smarter" claims):
 | Project name | "Wits & Wonder" (repo slug `wits-and-wonder`). |
 | Medium | Stays a printable PDF kit (not digital). |
 | Distribution | Public GitHub repo; PDFs via GitHub Releases. |
-| Primary language | English (canonical). Spanish kept in sync. |
-| Translation workflow | Claude drafts EN; user reviews. EN is source of truth. |
+| Primary language | British English `en-GB` (canonical). Spanish from Spain `es-ES` kept in sync. Other locales (en-US, es-419, ...) are separate languages added later. |
+| Translation workflow | Claude drafts en-GB; user reviews. en-GB is source of truth. |
 | Scope of this effort | Build the full system + migrate the Garden story + author one new Greek-myth story. |
 | First story name | "The Sleeping Garden" / "El Jardin Dormido". |
 | Home world | "The Floating Isles" / "Las Islas Flotantes". |
@@ -107,8 +111,8 @@ lexicon/                         # repo-wide game vocabulary shared by all world
   terms.yaml                     # "Game Master", difficulty band names, dice names, "energy star"...
 
 guide/                           # generic "Guide for the Grown-Up" (newcomer GM guide)
-  en/guide.md                    # adult-facing, single reading level, localized
-  es/guide.md
+  en-GB/guide.md                 # adult-facing, single reading level, localized
+  es-ES/guide.md
 
 worlds/
   floating-isles/
@@ -124,14 +128,14 @@ worlds/
       sleeping-garden/
         story.yaml               # tags / metadata (see section 6)
         content/
-          en/
+          en-GB/
             narration.simple.md
             narration.rich.md
             rules.md
             puzzles.md
             idea-bank.md
-          es/
-            (same set, Spanish)
+          es-ES/
+            (same set, Spanish from Spain)
   greek-myth/
     world.yaml
     canon/ ...
@@ -139,7 +143,7 @@ worlds/
     stories/
       <first-greek-story>/
         story.yaml
-        content/en/... es/...
+        content/en-GB/... es-ES/...
 
 templates/                       # layout templates
   character-sheet.early.*
@@ -160,8 +164,8 @@ docs/superpowers/specs/          # this spec and future ones
 world: floating-isles
 id: sleeping-garden
 title:
-  en: The Sleeping Garden
-  es: El Jardin Dormido
+  en-GB: The Sleeping Garden
+  es-ES: El Jardin Dormido
 age:
   recommended: young        # one of: early (3-5), young (6-8), older (9-12)
   also_works_for: [early, older]
@@ -241,13 +245,13 @@ Two layers keep names consistent across stories and languages:
 # worlds/floating-isles/canon/creatures.yaml
 - id: mist-cat              # stable, language-neutral key
   names:
-    en: Mist Cat
-    es: Gato de Niebla
+    en-GB: Mist Cat
+    es-ES: Gato de Niebla
   kind: creature
   disposition: friendly
   description:
-    en: A gentle cat made of fog who gives hints.
-    es: Un gato amable hecho de niebla que da pistas.
+    en-GB: A gentle cat made of fog who gives hints.
+    es-ES: Un gato amable hecho de niebla que da pistas.
   first_seen: sleeping-garden
 ```
 
@@ -271,7 +275,7 @@ safeguard against a session stalling when a child goes off-script.
   synced). It is adult-facing, so it has a single reading level (no simple/rich
   split).
 - **Delivery**: a standalone "Start Here" PDF per language (for example
-  `Guide_for_the_Grown-Up_EN.pdf`). Each kit's rules page carries a small callout
+  `Guide_for_the_Grown-Up_en-GB.pdf`). Each kit's rules page carries a small callout
   ("New to this? Read the Guide for the Grown-Up first") rather than reprinting
   the whole guide in every kit.
 - **Contents** (about one to two pages): what this kind of game is and that no
@@ -290,7 +294,8 @@ safeguard against a session stalling when a child goes off-script.
 
 ## 11. Build pipeline and i18n
 
-- Builders are **layout-only** and take `(world, story, language, reading_level)`.
+- Builders are **layout-only** and take `(world, story, locale, reading_level)`,
+  where `locale` is an explicit code such as `en-GB` or `es-ES`.
   They load the relevant content files plus canon and render the kit PDF to
   `dist/`. The current hardcoded `/mnt/user-data/outputs/` paths are removed.
 - Toolchain stays the proven one: `reportlab` for layout, `cairosvg` for the

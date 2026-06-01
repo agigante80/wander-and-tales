@@ -27,8 +27,12 @@ this for files (it activates on a normal session start).
 
 ## Core conventions (from the spec)
 
-- **Languages**: English is canonical; Spanish is kept in sync. More languages
-  slot in later with no code changes.
+- **Languages**: British English (`en-GB`) is canonical; Spanish from Spain
+  (`es-ES`) is kept in sync. These are specific locales: write British spelling
+  and idiom, and peninsular Spanish (vosotros, full accents). US English, Latin
+  American Spanish, and any other locale are treated as separate languages that
+  slot in later with no code changes (like `pt-PT` versus `pt-BR`); never mix an
+  Americanism into `en-GB` or a Latin turn of phrase into `es-ES`.
 - **Content-driven**: content is text plus YAML metadata; Python builders are
   layout-only and take `(world, story, language, reading_level)`. Adding a world,
   story, language, or age tier is a content task, not a coding task.
@@ -43,9 +47,25 @@ this for files (it activates on a normal session start).
 ## Build toolchain
 
 Python with `reportlab` (layout), `cairosvg` (SVG map), and `pypdf` (merge).
-Build output goes to `dist/`, which is gitignored. The legacy scripts under
-`El_Jardin_Dormido_kit/scripts/` are the starting point being refactored into the
-content-driven `build/`.
+Install with `pip install reportlab cairosvg pypdf` (no `requirements.txt` yet).
+Build output goes to `dist/`, which is gitignored. The content-driven `build/`
+described in the spec does not exist yet; the legacy scripts under
+`El_Jardin_Dormido_kit/scripts/` are the starting point being refactored into it.
+
+There is no unified build, test suite, or CLI entrypoint yet. To run a legacy
+script, `python El_Jardin_Dormido_kit/scripts/build_01_mapa_y_reglas.py`, but note:
+
+- Output paths are hardcoded to `/home/claude/...` or `/mnt/user-data/outputs/`;
+  change them to a local path before running.
+- `build_01_mapa_y_reglas.py` reads `mapa.svg` from the current directory.
+- `merge_all.py` expects the four PDFs in `../pdfs` and writes one merged file.
+
+## Verification
+
+After generating any PDF, rasterize it to PNG and eyeball it before declaring it
+done: confirm accents render, layout is intact, and the map merges correctly.
+Per the spec, every authored `(story, language, reading_level)` combination must
+build without error, and the canon/lexicon lint must pass with no warnings.
 
 ## Layout pointers
 
