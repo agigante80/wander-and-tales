@@ -7,7 +7,8 @@
           {
             "type": "command",
             "command": "\"$CLAUDE_PROJECT_DIR/.claude/hooks/block-dashes.sh\"",
-            "statusMessage": "Checking for em and en dashes"
+            "statusMessage": "Checking for em and en dashes",
+            "timeout": 10
           }
         ]
       }
