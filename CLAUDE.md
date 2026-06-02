@@ -140,10 +140,10 @@ done; confirm accents render, layout is intact, and the map merges correctly.
 
 - `build/render/` is the live PDF pipeline (Plan 2). The live map is at
   `worlds/floating-isles/assets/map.svg`.
-- `El_Jardin_Dormido_kit/scripts/` are the legacy Spanish kit scripts, now
-  superseded by `build/render/`. They are kept only as a visual-style reference
-  (palette, banner, decorative border) and for the original `mapa.svg`; their
-  output paths are hardcoded to `/home/claude/...` or `/mnt/user-data/outputs/`.
+- The legacy `El_Jardin_Dormido_kit/` scripts have been removed: they were fully
+  superseded by `build/render/` and their content was migrated into the schema.
+  Recover the old `reportlab` decorative-drawing code from git history (it was
+  deleted on the Plan 2 branch) if the canvas-drawn motifs are ever wanted.
 - `research/` evidence base and marketing copy.
 - `docs/superpowers/specs/` design specs; `docs/superpowers/plans/` the plan set.
 
