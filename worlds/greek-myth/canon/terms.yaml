@@ -1,0 +1,31 @@
+# World-flavour vocabulary: the three hero qualities (this world has no magic).
+
+- id: wits
+  names:
+    en-GB: Wits
+    es-ES: Ingenio
+  kind: term
+  description:
+    en-GB: Quick thinking and good questions. In these hills, wits open more doors than strength.
+    es-ES: Pensamiento rápido y buenas preguntas. En estas colinas, el ingenio abre más puertas que la fuerza.
+  first_seen: the-singing-spring
+
+- id: courage
+  names:
+    en-GB: Courage
+    es-ES: Valor
+  kind: term
+  description:
+    en-GB: A steady heart in a scary moment. Courage is not being unafraid; it is being kind and clever even when you are afraid.
+    es-ES: Un corazón firme en un momento de miedo. El valor no es no tener miedo; es ser amable e ingenioso aun cuando lo tienes.
+  first_seen: the-singing-spring
+
+- id: heart
+  names:
+    en-GB: Heart
+    es-ES: Corazón
+  kind: term
+  description:
+    en-GB: Care for others. In this world the greatest heroes are the ones who help, share, and stand by a friend.
+    es-ES: El cuidado por los demás. En este mundo, los mayores héroes son los que ayudan, comparten y no abandonan a un amigo.
+  first_seen: the-singing-spring
