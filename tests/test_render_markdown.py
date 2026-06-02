@@ -34,3 +34,16 @@ def test_mixed_document_keeps_order():
         md.Heading(2, "S"),
         md.Bullets(["a", "b"]),
     ]
+
+
+def test_inline_escapes_then_bolds_and_italics():
+    assert md.inline_to_rl("a & b < c") == "a &amp; b &lt; c"
+    assert md.inline_to_rl("**Easy** and *soft*") == "<b>Easy</b> and <i>soft</i>"
+
+
+def test_inline_bold_wins_over_italic_for_double_stars():
+    assert md.inline_to_rl("**both**") == "<b>both</b>"
+
+
+def test_inline_collapses_newlines_to_spaces():
+    assert md.inline_to_rl("line one\nline two") == "line one line two"
