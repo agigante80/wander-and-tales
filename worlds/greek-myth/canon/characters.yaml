@@ -1,0 +1,23 @@
+# Named characters of the Sunlit Hills of Greece.
+
+- id: daphne-olive-keeper
+  names:
+    en-GB: Daphne the Olive-Keeper
+    es-ES: Dafne la Guardiana de los Olivos
+  kind: character
+  disposition: friendly
+  description:
+    en-GB: The kind old keeper of the town's olive grove, who knows every story of the hills and sends the heroes to wake the spring.
+    es-ES: La amable y anciana guardiana del olivar del pueblo, que conoce todas las historias de las colinas y envía a los héroes a despertar la fuente.
+  first_seen: the-singing-spring
+
+- id: athena
+  names:
+    en-GB: Athena
+    es-ES: Atenea
+  kind: character
+  disposition: kindly
+  description:
+    en-GB: The goddess of wisdom and good ideas, who smiles on heroes that win by thinking and caring rather than by force.
+    es-ES: La diosa de la sabiduría y de las buenas ideas, que sonríe a los héroes que vencen pensando y cuidando, no por la fuerza.
+  first_seen: the-singing-spring

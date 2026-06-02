@@ -1,0 +1,56 @@
+# Creatures of the Sunlit Hills of Greece. None of them is truly wicked.
+
+- id: riddle-sphinx
+  names:
+    en-GB: The Riddle Sphinx
+    es-ES: La Esfinge de los Acertijos
+  kind: creature
+  disposition: fair
+  description:
+    en-GB: A great winged sphinx with a lion's body and a kind, clever face, who guards the gate and asks riddles. She is fair, not cruel: a good answer, or a brave guess, opens the way.
+    es-ES: Una gran esfinge alada con cuerpo de león y un rostro amable e ingenioso, que guarda la puerta y plantea acertijos. Es justa, no cruel: una buena respuesta, o una conjetura valiente, abre el camino.
+  first_seen: the-singing-spring
+
+- id: lonely-cyclops
+  names:
+    en-GB: The Lonely Cyclops
+    es-ES: El Cíclope Solitario
+  kind: creature
+  disposition: lonely
+  description:
+    en-GB: A huge one-eyed giant who guards the spring. He looks fearsome, but he is really just lonely, and a kind word and a shared honey cake do more than any sword.
+    es-ES: Un enorme gigante de un solo ojo que guarda la fuente. Parece temible, pero en realidad solo está solo, y una palabra amable y un pastel de miel compartido logran más que cualquier espada.
+  first_seen: the-singing-spring
+
+- id: singing-nymphs
+  names:
+    en-GB: The Singing Nymphs
+    es-ES: Las Ninfas Cantarinas
+  kind: creature
+  disposition: friendly
+  description:
+    en-GB: Gentle spirits of the spring whose singing makes the water flow. When they are happy, every well in the valley fills again.
+    es-ES: Espíritus amables de la fuente cuyo canto hace fluir el agua. Cuando están contentas, cada pozo del valle vuelve a llenarse.
+  first_seen: the-singing-spring
+
+- id: friendly-satyr
+  names:
+    en-GB: Bramble the Satyr
+    es-ES: Zarza el Sátiro
+  kind: creature
+  disposition: playful
+  description:
+    en-GB: A cheerful, goat-legged satyr of the woods who loves jokes and hands out helpful hints to travellers he likes.
+    es-ES: Un sátiro alegre con patas de cabra, de los bosques, al que le encantan los chistes y que da pistas útiles a los viajeros que le caen bien.
+  first_seen: the-singing-spring
+
+- id: chiron-centaur
+  names:
+    en-GB: Chiron the Centaur
+    es-ES: Quirón el Centauro
+  kind: creature
+  disposition: wise
+  description:
+    en-GB: The wisest and kindest of the centaurs, half horse and half person, a teacher of heroes who believes the best deeds are gentle ones.
+    es-ES: El más sabio y amable de los centauros, mitad caballo y mitad persona, maestro de héroes que cree que las mejores hazañas son las amables.
+  first_seen: the-singing-spring

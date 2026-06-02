@@ -1,0 +1,31 @@
+# Notable items of the Sunlit Hills of Greece.
+
+- id: golden-thread
+  names:
+    en-GB: The Golden Thread
+    es-ES: El Hilo Dorado
+  kind: item
+  description:
+    en-GB: A ball of shining thread. Tie one end at the entrance and you can always find your way back out of the maze.
+    es-ES: Un ovillo de hilo brillante. Ata un extremo en la entrada y siempre podrás encontrar el camino de vuelta para salir del laberinto.
+  first_seen: the-singing-spring
+
+- id: honey-cake
+  names:
+    en-GB: The Honey Cake
+    es-ES: El Pastel de Miel
+  kind: item
+  description:
+    en-GB: A small sweet cake. Shared with a lonely guardian, it can turn a scowl into a smile.
+    es-ES: Un pastelito dulce. Compartido con un guardián solitario, puede convertir el ceño fruncido en una sonrisa.
+  first_seen: the-singing-spring
+
+- id: little-lyre
+  names:
+    en-GB: The Little Lyre
+    es-ES: La Pequeña Lira
+  kind: item
+  description:
+    en-GB: A small harp. A simple tune played from the heart can wake the song of the spring.
+    es-ES: Un arpa pequeña. Una melodía sencilla tocada de corazón puede despertar el canto de la fuente.
+  first_seen: the-singing-spring
