@@ -1,0 +1,79 @@
+world: greek-myth
+id: the-singing-spring
+title:
+  en-GB: The Singing Spring
+  es-ES: La Fuente Cantarina
+age:
+  recommended: older
+  also_works_for: [young]
+skills:
+  - logic
+  - vocabulary
+  - spatial
+  - social-emotional
+peril: heroic
+adult_gm: true
+dice:
+  minimum: 1d6
+  recommended: d20-set
+players:
+  min: 2
+  max: 2
+play_time_minutes: 40
+images:
+  - id: cover
+    role: cover
+    orientation: portrait
+    prompt: >
+      Two young heroes in simple tunics setting out from a little white Greek town
+      at dawn, an olive branch and a coil of golden thread in hand, the hill road
+      climbing toward distant marble gates and a cloud-topped mountain. Hopeful and
+      adventurous.
+    alt:
+      en-GB: Two young heroes setting out from a little white Greek town at dawn, a hill road climbing toward marble gates and a mountain.
+      es-ES: Dos jóvenes héroes saliendo de un pueblecito blanco griego al amanecer, con un camino de colina que sube hacia unas puertas de mármol y una montaña.
+  - id: scene-riddle-gate
+    role: scene
+    orientation: landscape
+    canon_ref: riddle-sphinx
+    prompt: >
+      A friendly winged sphinx resting on the marble steps of a sunlit gate,
+      tilting her kind face as if asking a riddle, two small heroes thinking hard
+      below her. Warm and clever, not frightening.
+    alt:
+      en-GB: A friendly winged sphinx on sunlit marble steps tilting her kind face, two small heroes thinking below.
+      es-ES: Una esfinge alada amable en unos escalones de mármol soleados, inclinando su rostro bondadoso, con dos héroes pequeños pensando debajo.
+  - id: scene-winding-maze
+    role: scene
+    orientation: landscape
+    canon_ref: winding-maze
+    prompt: >
+      Two young heroes walking through a sunlit maze of old stone walls and green
+      hedges, unspooling a glowing golden thread behind them, a cheerful
+      goat-legged satyr peeking around a corner to point the way. Playful and
+      bright.
+    alt:
+      en-GB: Two heroes in a sunlit stone maze trailing a glowing golden thread, a cheerful satyr pointing the way.
+      es-ES: Dos héroes en un laberinto de piedra soleado dejando tras de sí un hilo dorado brillante, con un sátiro alegre señalando el camino.
+  - id: scene-the-cyclops
+    role: scene
+    orientation: landscape
+    canon_ref: lonely-cyclops
+    prompt: >
+      A huge gentle one-eyed giant sitting by a cave, looking shy and sad, as two
+      small heroes hold up a honey cake with kind smiles; a few sheep rest nearby
+      in golden evening light. The giant looks lonely rather than fierce.
+    alt:
+      en-GB: A huge gentle one-eyed giant by a cave looking shy and sad, two small heroes offering a honey cake with kind smiles.
+      es-ES: Un gigante amable de un solo ojo junto a una cueva con aire tímido y triste, mientras dos héroes pequeños le ofrecen un pastel de miel con sonrisas amables.
+  - id: scene-spring-wakes
+    role: scene
+    orientation: landscape
+    canon_ref: singing-nymphs
+    prompt: >
+      A clear spring bursting back to life among marble and ferns, gentle water
+      nymphs rising in the spray and singing, one hero playing a little lyre while
+      the friendly giant smiles and the other hero cheers. Joyful and sparkling.
+    alt:
+      en-GB: A clear spring bursting back to life, gentle water nymphs singing in the spray, a hero playing a little lyre as the giant smiles.
+      es-ES: Una fuente clara que vuelve a la vida, con ninfas de agua cantando entre el rocío, mientras una heroína toca una pequeña lira y el gigante sonríe.
