@@ -41,6 +41,12 @@ def main(argv: list[str] | None = None) -> int:
     prompts_parser.add_argument("--story", default=None)
     prompts_parser.add_argument("--out", type=Path, default=None)
 
+    generate_parser = sub.add_parser("generate-images", help="generate image files")
+    _add_root(generate_parser)
+    generate_parser.add_argument("--world", default=None)
+    generate_parser.add_argument("--story", default=None)
+    generate_parser.add_argument("--force", action="store_true")
+
     args = parser.parse_args(argv)
 
     if args.command == "validate":
@@ -99,6 +105,36 @@ def main(argv: list[str] | None = None) -> int:
             print(f"wrote {args.out}")
         else:
             print(prompts_mod.build_prompts_markdown(entries))
+        return 0
+
+    if args.command == "generate-images":
+        import os
+
+        try:
+            from dotenv import load_dotenv
+
+            load_dotenv(args.root / ".env")
+        except ImportError:
+            pass
+
+        api_key = os.environ.get("OPENAI_API_KEY")
+        if not api_key:
+            print(
+                "OPENAI_API_KEY is not set. Put it in .env (see .env.example) "
+                "or export it, then retry."
+            )
+            return 1
+
+        from build import generate
+
+        client = generate.make_client(api_key)
+        written = generate.generate_all(
+            args.root, world=args.world, story=args.story,
+            force=args.force, client=client,
+        )
+        for path in written:
+            print(f"wrote {path}")
+        print(f"{len(written)} image(s) written")
         return 0
 
     return 2
