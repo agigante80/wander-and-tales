@@ -44,6 +44,8 @@ Use the project virtualenv at `.venv/`.
   --world floating-isles --story sleeping-garden \
   --locale en-GB --reading-level simple        # build one kit PDF into dist/
 .venv/bin/python -m build render-guide --root . --locale en-GB  # build the Guide PDF
+.venv/bin/python -m build prompts --root .            # export image generation prompts
+.venv/bin/python -m build generate-images --root .    # generate PNGs (needs OPENAI_API_KEY in .env)
 ```
 
 Install (editable) into a fresh venv with `pip install -e ".[dev,render]"`. Core
@@ -136,6 +138,12 @@ this for file writes and edits (it activates on a normal session start).
 - **Fonts**: embed a Unicode font so accents render. DejaVu Sans and Serif are
   vendored; a world picks its typeface in `world.yaml` under `fonts` (a `default`
   family plus an optional `by_locale` override), validated against `fontspec.py`.
+- **`visuals.py` is the image vocabulary** (roles, orientations). Worlds and
+  stories declare illustrations in YAML (`images:`, plus a world `visual_style`).
+  `prompts.py` composes copy-paste prompts (locale-neutral, text-free art; only
+  `alt` is localized) and `generate.py` turns them into PNGs in `assets/` via the
+  OpenAI Images API (the optional `images` extra: `pip install -e ".[images]"`, key
+  from `.env`). Embedding images into PDFs is a later step.
 
 ## Verification
 

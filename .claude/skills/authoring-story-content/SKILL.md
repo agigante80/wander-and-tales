@@ -175,6 +175,28 @@ set and avoids multiplying the build.
 - Spanish reads naturally to a native child and uses correct accents.
 - Read narration aloud once: it should sound good in a grown-up's voice.
 
+## Images and art prompts
+
+When authoring a world, write its `visual_style` (one paragraph of art direction:
+medium, mood, the world palette hexes, "nothing scary") and any world-level images
+(a cover, key portraits). When authoring a story, write its `images`: a cover and a
+scene per major beat or stop.
+
+Rules for every image:
+
+- The `prompt` is the subject only, in English, locale-neutral. The world's
+  `visual_style` and a technical line are added automatically at export, so do not
+  repeat the style in each prompt.
+- The art must contain no text, letters, words, or numbers (so one image serves
+  every language, like the maps). Never ask for captions or titles in the image.
+- Keep it gentle and on-palette, in the no-lose, clever-and-kind spirit: nothing
+  frightening, no real violence, friendly faces.
+- Set `canon_ref` to the canon id when an image depicts a named place, character,
+  or creature, so the export adds that entry's description and the art stays
+  consistent with the bible.
+- Write `alt` text in en-GB first, then es-ES, like all other prose, following the
+  en-GB and es-ES conventions (British spelling, peninsular Spanish with accents).
+
 ## Reference files
 
 - `references/voice-and-reading-levels.md`: simple vs rich with worked EN and ES
