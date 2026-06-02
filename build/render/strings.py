@@ -18,7 +18,7 @@ UI: dict[str, dict[str, str]] = {
         "sheet_footer": "Here nobody loses. If a try does not work, find another way.",
     },
     "es-ES": {
-        "glossary_title": "Quien es Quien y Que es Que",
+        "glossary_title": "Quién es Quién y Qué es Qué",
         "group_place": "Lugares",
         "group_character": "Personajes",
         "group_creature": "Criaturas",
@@ -26,12 +26,12 @@ UI: dict[str, dict[str, str]] = {
         "group_term": "Palabras que conviene saber",
         "sheet_title": "Mi Ficha de Aventura",
         "sheet_name": "Mi nombre",
-        "sheet_magic": "Mi magia (escribela o dibujala)",
-        "sheet_energy": "Mis estrellas de energia (colorea una al gastarla)",
-        "sheet_draw": "Dibuja a tu heroe o heroina",
+        "sheet_magic": "Mi magia (escríbela o dibújala)",
+        "sheet_energy": "Mis estrellas de energía (colorea una al gastarla)",
+        "sheet_draw": "Dibuja a tu héroe o heroína",
         "sheet_inventory": "Lo que llevo conmigo",
         "sheet_notes": "Notas",
-        "sheet_footer": "Aqui nadie pierde. Si algo no sale, se busca otra manera.",
+        "sheet_footer": "Aquí nadie pierde. Si algo no sale, se busca otra manera.",
     },
 }
 
