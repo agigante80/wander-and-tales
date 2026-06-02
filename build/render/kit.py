@@ -12,7 +12,16 @@ from pathlib import Path
 from pypdf import PdfReader, PdfWriter
 
 from build import content
-from build.render import fonts, glossary, map as kit_map, pages, sheets, strings, theme
+from build.render import (
+    fonts,
+    glossary,
+    images,
+    map as kit_map,
+    pages,
+    sheets,
+    strings,
+    theme,
+)
 
 NARRATION_BY_LEVEL = {
     "simple": "narration.simple.md",
@@ -21,6 +30,12 @@ NARRATION_BY_LEVEL = {
 
 # Grown-up-facing prose pages that follow the kid-facing narration.
 _PROSE_PAGES = ("rules.md", "puzzles.md", "idea-bank.md")
+
+
+def _image_file(assets_dir: Path, image_id: str) -> Path | None:
+    """Return the assets PNG for an image id if it exists, else None."""
+    path = assets_dir / f"{image_id}.png"
+    return path if path.is_file() else None
 
 
 def _map_label(key: str, story, canon_by_id: dict, locale: str) -> str:
@@ -77,10 +92,49 @@ def build_kit(
     faces = fonts.resolve_faces(world, locale)
     styles = theme.make_styles(th, faces)
 
+    world_assets = world_dir / "assets"
+    story_assets = story_dir / "assets"
+
+    # Resolve which declared images have generated files. Cover and scenes are the
+    # story's; portraits may be world-level or story-level, keyed by canon id.
+    cover_path = next(
+        (
+            f
+            for image in story.images
+            if image.role == "cover"
+            and (f := _image_file(story_assets, image.id)) is not None
+        ),
+        None,
+    )
+    scene_items = [
+        (f, image.alt.get(locale, ""))
+        for image in story.images
+        if image.role == "scene"
+        and (f := _image_file(story_assets, image.id)) is not None
+    ]
+    portrait_paths: dict[str, Path] = {}
+    for assets_dir, declared in (
+        (world_assets, world.images),
+        (story_assets, story.images),
+    ):
+        for image in declared:
+            if image.role == "portrait" and image.canon_ref:
+                found = _image_file(assets_dir, image.id)
+                if found is not None:
+                    portrait_paths[image.canon_ref] = found
+
     out_dir = out_dir if out_dir is not None else root / "dist"
     parts: list[Path] = []
     with tempfile.TemporaryDirectory() as tmp:
         tmp_path = Path(tmp)
+
+        if cover_path is not None:
+            cover = images.cover_flowables(
+                cover_path, story.title.get(locale, story.id), styles
+            )
+            parts.append(
+                pages.render_flowables(cover, tmp_path / "00_cover.pdf", world)
+            )
 
         map_svg = kit_map.find_map(world_dir, story_dir, locale)
         if map_svg is not None:
@@ -90,13 +144,21 @@ def build_kit(
                 for key in kit_map.template_keys(map_svg)
             }
             parts.append(
-                kit_map.render_map_template(map_svg, tmp_path / "00_map.pdf", labels)
+                kit_map.render_map_template(map_svg, tmp_path / "05_map.pdf", labels)
             )
 
         narration = content_dir / NARRATION_BY_LEVEL[reading_level]
         parts.append(
             pages.render_markdown_file(narration, tmp_path / "10_narration.pdf", world, locale)
         )
+
+        if scene_items:
+            gallery = images.gallery_flowables(
+                strings.ui(locale, "gallery_title"), scene_items, styles
+            )
+            parts.append(
+                pages.render_flowables(gallery, tmp_path / "15_scenes.pdf", world)
+            )
 
         for index, filename in enumerate(_PROSE_PAGES, start=2):
             src = content_dir / filename
@@ -106,7 +168,9 @@ def build_kit(
                 )
             )
 
-        gloss = glossary.glossary_flowables(canon, locale, styles, th)
+        gloss = glossary.glossary_flowables(
+            canon, locale, styles, th, portrait_paths
+        )
         parts.append(pages.render_flowables(gloss, tmp_path / "80_glossary.pdf", world))
 
         sheet = tmp_path / "90_sheet.pdf"

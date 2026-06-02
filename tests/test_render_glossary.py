@@ -38,3 +38,15 @@ def test_glossary_uses_the_requested_locale():
     flows = glossary.glossary_flowables(_entries(), "es-ES", _styles(), theme.Theme.default())
     text = " ".join(f.text for f in flows if isinstance(f, Paragraph))
     assert "El Gran Jardin" in text and "Gato de Niebla" in text
+
+
+def test_glossary_includes_portrait_when_provided(tmp_path):
+    from PIL import Image as PILImage
+    from reportlab.platypus import Image as RLImage
+
+    png = tmp_path / "mist-cat.png"
+    PILImage.new("RGB", (80, 80), "white").save(png)
+    flows = glossary.glossary_flowables(
+        _entries(), "en-GB", _styles(), theme.Theme.default(), {"mist-cat": png}
+    )
+    assert any(isinstance(f, RLImage) for f in flows)
