@@ -335,8 +335,14 @@ safeguard against a session stalling when a child goes off-script.
   lives at `worlds/<world>/assets/`. When the art has baked-in text, a per-locale
   variant `map.<locale>.svg` sits beside the generic `map.svg`. A kit resolves its
   map in order: story map for the locale, story map generic, world map for the
-  locale, world map generic. Until canon-driven labels exist (section 9), a locale
-  without its own map omits the map rather than showing another language's labels.
+  locale, world map generic. A map may instead be a neutral template: the art and
+  number badges stay locale-neutral and the text labels are placeholders
+  (`data-label` keys) filled at render time from the story title, the canon place
+  names in the locale, and a few `map_*` UI strings. One `map.svg` then serves every
+  locale, which is the preferred form. The Sleeping Garden uses this, so en-GB and
+  es-ES both render the same board with their own labels and en-GB kits include the
+  map. Per-locale `map.<locale>.svg` files remain supported for art that must be
+  hand-localized.
 - The build also renders the standalone **Guide for the Grown-Up** PDF per
   language from `guide/<lang>/guide.md`.
 - **Optional, recommended**: a GitHub Action that builds all kits on release and
