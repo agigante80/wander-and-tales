@@ -1,4 +1,4 @@
-"""Command line: python -m build {validate,lint,catalog}."""
+"""Command line: python -m build {validate,lint,catalog,render,render-guide,prompts,generate-images}."""
 
 import argparse
 import os
