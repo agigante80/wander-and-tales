@@ -56,3 +56,12 @@ def test_gallery_flowables_image_and_caption_per_scene(tmp_path):
 def test_portrait_flowable_is_an_image(tmp_path):
     p = _png(tmp_path / "p.png", 200, 200)
     assert isinstance(images.portrait_flowable(p), RLImage)
+
+
+def test_embed_flattens_transparency_onto_white(tmp_path):
+    # A fully transparent RGBA PNG (over black) must composite to white, not black.
+    p = tmp_path / "t.png"
+    PILImage.new("RGBA", (20, 20), (0, 0, 0, 0)).save(p)
+    buffer, _, _ = images._embed_jpeg(p)
+    out = PILImage.open(buffer).convert("RGB")
+    assert min(out.getpixel((10, 10))) > 240
