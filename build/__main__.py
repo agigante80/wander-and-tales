@@ -35,6 +35,12 @@ def main(argv: list[str] | None = None) -> int:
     guide_parser.add_argument("--locale", required=True)
     guide_parser.add_argument("--out-dir", type=Path, default=None)
 
+    prompts_parser = sub.add_parser("prompts", help="export image generation prompts")
+    _add_root(prompts_parser)
+    prompts_parser.add_argument("--world", default=None)
+    prompts_parser.add_argument("--story", default=None)
+    prompts_parser.add_argument("--out", type=Path, default=None)
+
     args = parser.parse_args(argv)
 
     if args.command == "validate":
@@ -80,6 +86,19 @@ def main(argv: list[str] | None = None) -> int:
         out = out_dir / f"Guide_for_the_Grown-Up_{args.locale}.pdf"
         pages.render_guide(src, out, args.locale)
         print(f"built {out}")
+        return 0
+
+    if args.command == "prompts":
+        from build import prompts as prompts_mod
+
+        entries = prompts_mod.iter_image_prompts(
+            args.root, world=args.world, story=args.story
+        )
+        if args.out is not None:
+            prompts_mod.write_prompts(entries, args.out)
+            print(f"wrote {args.out}")
+        else:
+            print(prompts_mod.build_prompts_markdown(entries))
         return 0
 
     return 2
