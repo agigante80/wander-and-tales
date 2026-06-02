@@ -66,3 +66,51 @@ def test_wrap_four_words_balanced():
 
 def test_wrap_max_one_returns_whole_text():
     assert kit_map._wrap("The Talking Fountain", 1) == ["The Talking Fountain"]
+
+
+_TEMPLATE_SVG = (
+    '<svg xmlns="http://www.w3.org/2000/svg" width="200" height="120" font-family="DejaVu Sans">'
+    '<rect width="200" height="120" fill="#eaf7e1"/>'
+    '<text data-label="title" x="100" y="30" text-anchor="middle"></text>'
+    '<text data-label="stop:gate" data-wrap="2" x="100" y="80" text-anchor="middle"></text>'
+    "</svg>"
+)
+
+
+def test_template_keys_in_document_order(tmp_path):
+    svg = tmp_path / "map.svg"
+    svg.write_text(_TEMPLATE_SVG, encoding="utf-8")
+    assert kit_map.template_keys(svg) == ["title", "stop:gate"]
+
+
+def test_fill_substitutes_wraps_and_strips_data_attrs():
+    out = kit_map.fill_template(
+        _TEMPLATE_SVG, {"title": "El Jardín", "stop:gate": "La Puerta Verde"}
+    )
+    assert "El Jardín" in out  # accent preserved
+    assert out.count("<tspan") == 2  # "La Puerta Verde" wrapped to two lines
+    assert "data-label" not in out and "data-wrap" not in out
+
+
+def test_fill_leaves_unkeyed_label_empty():
+    out = kit_map.fill_template(_TEMPLATE_SVG, {"title": "Only Title"})
+    assert "Only Title" in out
+
+
+def test_render_map_template_writes_pdf(tmp_path):
+    svg = tmp_path / "map.svg"
+    svg.write_text(_TEMPLATE_SVG, encoding="utf-8")
+    out = tmp_path / "map.pdf"
+    result = kit_map.render_map_template(
+        svg, out, {"title": "El Jardín", "stop:gate": "La Puerta Verde"}
+    )
+    assert result == out
+    assert out.read_bytes().startswith(b"%PDF")
+
+
+def test_render_map_template_passes_plain_svg_through(tmp_path):
+    svg = tmp_path / "plain.svg"
+    svg.write_text(_TINY_SVG, encoding="utf-8")  # no data-label nodes
+    out = tmp_path / "plain.pdf"
+    kit_map.render_map_template(svg, out, {})
+    assert out.read_bytes().startswith(b"%PDF")
