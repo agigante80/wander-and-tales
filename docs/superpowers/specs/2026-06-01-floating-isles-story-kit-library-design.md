@@ -269,6 +269,23 @@ Two layers keep names consistent across stories and languages:
   appendix** ("who's who / what's what"), map labels, the idea bank, and the
   catalog. These can never disagree with canon.
 
+## 9a. Images and art prompts
+
+Worlds and stories may declare illustrations in their YAML. Each image has an `id`
+(unique within its owner), a `role` (cover, scene, portrait, motif), an
+`orientation` (portrait, landscape, square), a `prompt` (the locale-neutral
+subject), localized `alt` text, and an optional `canon_ref`. The world carries one
+`visual_style` preamble shared by all its images.
+
+Art is locale-neutral and free of any in-image text, so one image serves every
+language (the same rule the maps follow); only `alt` is localized. `python -m build
+prompts` exports copy-paste-ready prompts (style preamble plus subject plus a
+technical line plus any canon description). `python -m build generate-images` turns
+those prompts into PNGs via the OpenAI Images API. Generated art lives beside the
+map under `assets/` and is committed as a build input. Embedding images into the
+kit PDFs is a later step. The full design is at
+`docs/superpowers/specs/2026-06-02-images-and-art-prompts-design.md`.
+
 ## 10. Guide for the Grown-Up (for first-time game masters)
 
 A system-wide, generic guide for the adult running the game, written for people
