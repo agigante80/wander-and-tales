@@ -2,11 +2,11 @@
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
-**Goal:** Turn the validated content from Plan 1 into printable kit PDFs: embed a Unicode font, render the per-story markdown (narration, rules, puzzles, idea bank) and the canon-derived glossary into themed A4 pages, merge in the SVG map, add an age-tiered character sheet, and assemble one kit PDF per `(world, story, locale, reading_level)` into `dist/`, plus a standalone Guide for the Grown-Up PDF per locale.
+**Goal:** Turn the validated content from Plan 1 into printable kit PDFs: register per-world typefaces, embed Unicode fonts, render the per-story markdown (narration, rules, puzzles, idea bank) and the canon-derived glossary into themed A4 pages, merge in the SVG map, add an age-tiered character sheet, and assemble one kit PDF per `(world, story, locale, reading_level)` into `dist/`, plus a standalone Guide for the Grown-Up PDF per locale.
 
-**Architecture:** A new sub-package `build/render/` holds layout-only code that imports Plan 1's models. Content is clean GitHub-flavoured markdown, so the core is a small hand-rolled markdown to reportlab-flowables converter (no markdown-parser dependency: the toolchain stays exactly the three the spec names). A themed reportlab document template paints the world palette (background, dashed border) behind flowing content; headings, paragraphs, bullet lists and tables become flowables. The SVG map renders through cairosvg and pages merge through pypdf. Builders take `(world, story, locale, reading_level)` and never hardcode a string, a colour, or an output path.
+**Architecture:** A new sub-package `build/render/` holds layout-only code that imports Plan 1's models. Two new pieces of world identity are added: the world palette (already in `world.yaml`) drives colours, and a new `fonts` block drives the typeface, with a per-locale override inside each world. Fonts are a vocabulary (`build/fontspec.py`), the single source of truth for which families exist and which TTF faces back them; the model validates against it and the renderer registers from it. Content is clean GitHub-flavoured markdown, so the core is a small hand-rolled markdown to reportlab-flowables converter (no markdown-parser dependency: the toolchain stays exactly the three the spec names). A themed reportlab document template paints the world palette behind flowing content. The SVG map renders through cairosvg and pages merge through pypdf. Builders take `(world, story, locale, reading_level)` and never hardcode a string, a colour, a font, or an output path.
 
-**Tech Stack:** Python 3.11+, reportlab (layout and flowables), cairosvg (SVG map to PDF), pypdf (page merge), DejaVu Sans (vendored Unicode TTFs, embedded so accents render). Plan 1's `pydantic` models and YAML loaders are reused unchanged.
+**Tech Stack:** Python 3.11+, reportlab (layout and flowables), cairosvg (SVG map to PDF), pypdf (page merge), DejaVu Sans and DejaVu Serif (vendored Unicode TTFs, embedded so accents render). Plan 1's `pydantic` models and YAML loaders are reused, with one additive model change (the world `fonts` block).
 
 ---
 
@@ -16,65 +16,362 @@ This is **Plan 2** of the sequence introduced in Plan 1. It depends only on Plan
 
 - Plan 1: Content model and tooling. Built.
 - **Plan 2: PDF build pipeline** (this document).
-- Plan 3: The Floating Isles and The Sleeping Garden content. The story already exists in the schema (migrated from El Jardin Dormido); Plan 3 finishes any remaining content polish and wires the three character sheets. It can begin rendering kits the moment Plan 2 lands.
+- Plan 3: The Floating Isles and The Sleeping Garden content. The story already exists in the schema (migrated from El Jardin Dormido); Plan 3 finishes any content polish and wires the three character sheets. It can render kits the moment Plan 2 lands.
 - Plan 4: Greek-myth world and one story.
 - Plan 5: Guide for the Grown-Up content. Plan 2 ships the Guide *renderer* (tested against a fixture); Plan 5 authors the real `guide/<locale>/guide.md` and the rules-page callout.
 
 ### Decisions locked for this plan
 
+- **Fonts are part of the world, overridable per locale.** `world.yaml` gains a `fonts` block: a `default` family for the world and an optional `by_locale` map. Resolution precedence is `by_locale[locale]`, then `default`, then the global default family. Two real families ship vendored (`dejavu-sans`, `dejavu-serif`) so the choice is meaningful; adding a bespoke storybook or carved-stone TTF later is just a new entry in `build/fontspec.py` plus the files.
+- **The font registry is a vocabulary.** `build/fontspec.py` is the single source of truth for which families exist and which TTF faces (regular, bold, italic, bold-italic) back each. The model validates the world `fonts` block against it; the renderer registers faces from it. It is pure (no reportlab), so the model can import it without inverting the layering.
 - **No markdown-parser dependency.** The content is constrained GFM (headings, bold, italics, bullet lists, one pipe table). A small line-based parser in `build/render/markdown.py` handles it, keeping the dependency surface exactly `reportlab`, `cairosvg`, `pypdf` as the spec prescribes.
-- **DejaVu Sans, vendored.** The four TTFs (regular, bold, oblique, bold-oblique) are copied into `build/render/assets/fonts/` and committed, so the build never depends on system fonts. The font is selected per locale through `font_family_for_locale`, so a future CJK world plugs in without touching layout code.
 - **Map labels stay as the existing art for now.** The legacy `mapa.svg` renders as-is. Canon-driven map labels (spec section 9) are a later enhancement, deferred on purpose so this plan ships a working merged kit.
-- **Character sheets are generic and age-tiered.** They carry no world-specific magic list, so they are reusable by the Greek world. Labels are localised through `build/render/strings.py`.
+- **Character sheets are generic and age-tiered.** They carry no world-specific magic list, so they are reusable by the Greek world. Labels are localised through `build/render/strings.py`; the typeface follows the same per-world, per-locale resolution.
 
 ---
 
 ## File structure (Plan 2)
 
 ```
-pyproject.toml                       # add the `render` optional-deps group and the build.render package
+pyproject.toml                       # add the `render` optional-deps group, the build.render package, font package-data
+build/fontspec.py                    # NEW vocabulary: font families -> TTF faces; the single source of truth for fonts
+build/assets/fonts/                  # vendored DejaVu Sans and Serif TTFs (8 files)
+build/models.py                      # MODIFIED: add WorldFonts and World.fonts, validated against fontspec
 build/render/
   __init__.py                        # marks the sub-package
-  assets/fonts/                      # vendored DejaVu Sans TTFs (regular, bold, oblique, bold-oblique)
-  fonts.py                           # register DejaVu with reportlab; per-locale family selection
-  theme.py                           # Theme from world palette; ParagraphStyles; the page-background painter
+  fonts.py                           # register a family with reportlab; resolve faces per (world, locale)
+  theme.py                           # Theme from world palette; ParagraphStyles bound to the resolved faces; page painter
   markdown.py                        # parse GFM into blocks; convert inline markdown to reportlab markup
   flowables.py                       # blocks -> reportlab flowables (headings, paragraphs, bullets, tables)
-  pages.py                           # render a list of flowables to a themed PDF; per-content-file and guide builders
+  pages.py                           # render flowables and whole markdown files to themed PDFs; the guide renderer
   strings.py                         # localised UI strings for the glossary and character sheets
   glossary.py                        # build the who's-who appendix flowables from canon
   sheets.py                          # the three age-tiered character-sheet templates
   map.py                             # cairosvg: an SVG file to a single-page PDF
   kit.py                             # assemble the ordered pages into one kit PDF in dist/
 build/__main__.py                    # add `render` and `render-guide` subcommands
+worlds/floating-isles/world.yaml     # MODIFIED: declare the world's fonts block
+worlds/floating-isles/assets/map.svg # the live map (copied from the legacy kit)
 tests/
+  test_fontspec.py
+  test_models_fonts.py
   test_render_fonts.py
   test_render_markdown.py
+  test_render_theme.py
   test_render_flowables.py
   test_render_pages.py
+  test_render_strings.py
   test_render_glossary.py
-  test_render_sheets.py
   test_render_map.py
+  test_render_sheets.py
   test_render_kit.py
+  test_render_guide.py
   test_cli_render.py
 ```
 
-A note on layering: `fonts` and `theme` are the foundation; `markdown` is pure (no reportlab); `flowables` joins markdown blocks to styled reportlab objects; `pages`, `glossary`, `sheets`, `map` each build one kind of page; `kit` orchestrates the order and the merge. Nothing reaches back up a layer.
+Layering, top to bottom: `fontspec` is a pure vocabulary that both the model and the renderer read; `models` validates the world `fonts` block against it; inside `render`, `fonts` and `theme` are the foundation, `markdown` is pure, `flowables` joins markdown blocks to styled objects, `pages`/`glossary`/`sheets`/`map` build one kind of page each, and `kit` orchestrates the order and the merge. Nothing reaches back up a layer.
 
 ---
 
-## Task 1: Render dependencies and vendored font embedding
+## Task 1: Font registry vocabulary and vendored faces
+
+`build/fontspec.py` is the single source of truth for fonts. It is pure data (pathlib only, no reportlab), so the model can import it for validation.
+
+**Files:**
+- Create: `build/fontspec.py`
+- Create: `build/assets/fonts/` (eight vendored TTFs)
+- Modify: `pyproject.toml` (font package-data; the render deps are added in Task 3)
+- Test: `tests/test_fontspec.py`
+
+- [ ] **Step 1: Vendor the DejaVu Sans and Serif TTFs**
+
+```bash
+mkdir -p build/assets/fonts
+cp /usr/share/fonts/truetype/dejavu/DejaVuSans.ttf             build/assets/fonts/
+cp /usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf        build/assets/fonts/
+cp /usr/share/fonts/truetype/dejavu/DejaVuSans-Oblique.ttf     build/assets/fonts/
+cp /usr/share/fonts/truetype/dejavu/DejaVuSans-BoldOblique.ttf build/assets/fonts/
+cp /usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf            build/assets/fonts/
+cp /usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf       build/assets/fonts/
+cp /usr/share/fonts/truetype/dejavu/DejaVuSerif-Italic.ttf     build/assets/fonts/
+cp /usr/share/fonts/truetype/dejavu/DejaVuSerif-BoldItalic.ttf build/assets/fonts/
+```
+Expected: `ls build/assets/fonts/` lists exactly those eight `.ttf` files. (DejaVu ships under the permissive Bitstream Vera and Arev licences, so vendoring and redistribution are fine.)
+
+- [ ] **Step 2: Add font package-data to pyproject**
+
+In `pyproject.toml`, replace the `[tool.setuptools]` block with one that keeps the package list and adds the font files as package data:
+
+```toml
+[tool.setuptools]
+packages = ["build", "build.render"]
+
+[tool.setuptools.package-data]
+"build" = ["assets/fonts/*.ttf"]
+```
+
+- [ ] **Step 3: Write the failing test**
+
+`tests/test_fontspec.py`:
+
+```python
+import pytest
+
+from build import fontspec
+
+
+def test_known_families_include_sans_and_serif():
+    assert "dejavu-sans" in fontspec.KNOWN_FAMILIES
+    assert "dejavu-serif" in fontspec.KNOWN_FAMILIES
+    assert fontspec.DEFAULT_FAMILY == "dejavu-sans"
+
+
+def test_faces_for_returns_four_existing_files():
+    faces = fontspec.faces_for("dejavu-serif")
+    for filename in (faces.normal, faces.bold, faces.italic, faces.bold_italic):
+        assert fontspec.font_path(filename).is_file()
+
+
+def test_faces_for_unknown_family_raises():
+    with pytest.raises(KeyError):
+        fontspec.faces_for("papyrus")
+```
+
+- [ ] **Step 4: Run the test to verify it fails**
+
+Run: `.venv/bin/python -m pytest tests/test_fontspec.py -v`
+Expected: FAIL with `ModuleNotFoundError: No module named 'build.fontspec'`.
+
+- [ ] **Step 5: Implement the vocabulary**
+
+`build/fontspec.py`:
+
+```python
+"""Font registry: the single source of truth for which typefaces exist.
+
+A family is a named set of four TTF faces (regular, bold, italic, bold-italic).
+Worlds choose a family by key in world.yaml; the model validates against
+KNOWN_FAMILIES here, and the renderer registers the faces with reportlab. This
+module is pure (pathlib only) so the model can import it without pulling in any
+rendering dependency. Add a new typeface by vendoring its TTFs and adding one
+entry below.
+"""
+
+from dataclasses import dataclass
+from pathlib import Path
+
+FONT_DIR = Path(__file__).parent / "assets" / "fonts"
+
+
+@dataclass(frozen=True)
+class FaceFiles:
+    normal: str
+    bold: str
+    italic: str
+    bold_italic: str
+
+
+FAMILIES: dict[str, FaceFiles] = {
+    "dejavu-sans": FaceFiles(
+        "DejaVuSans.ttf",
+        "DejaVuSans-Bold.ttf",
+        "DejaVuSans-Oblique.ttf",
+        "DejaVuSans-BoldOblique.ttf",
+    ),
+    "dejavu-serif": FaceFiles(
+        "DejaVuSerif.ttf",
+        "DejaVuSerif-Bold.ttf",
+        "DejaVuSerif-Italic.ttf",
+        "DejaVuSerif-BoldItalic.ttf",
+    ),
+}
+
+DEFAULT_FAMILY = "dejavu-sans"
+KNOWN_FAMILIES = tuple(FAMILIES)
+
+
+def faces_for(family: str) -> FaceFiles:
+    """Return the four face filenames for a family. Raises KeyError if unknown."""
+    return FAMILIES[family]
+
+
+def font_path(filename: str) -> Path:
+    """Absolute path to a vendored TTF by filename."""
+    return FONT_DIR / filename
+```
+
+- [ ] **Step 6: Run the test to verify it passes**
+
+Run: `.venv/bin/python -m pytest tests/test_fontspec.py -v`
+Expected: PASS.
+
+- [ ] **Step 7: Commit**
+
+```bash
+git add build/fontspec.py build/assets/fonts/ pyproject.toml tests/test_fontspec.py
+git commit -m "feat: font registry vocabulary with vendored DejaVu Sans and Serif"
+```
+
+---
+
+## Task 2: World fonts in the content model
+
+Extend the model so `world.yaml` can declare its typeface, validated against the registry, with a per-locale override.
+
+**Files:**
+- Modify: `build/models.py`
+- Modify: `worlds/floating-isles/world.yaml`
+- Test: `tests/test_models_fonts.py`
+
+- [ ] **Step 1: Write the failing test**
+
+`tests/test_models_fonts.py`:
+
+```python
+import pytest
+from pydantic import ValidationError
+
+from build.models import World
+
+
+def _world(fonts=None):
+    data = {"id": "w", "name": {"en-GB": "W", "es-ES": "W"}}
+    if fonts is not None:
+        data["fonts"] = fonts
+    return data
+
+
+def test_world_without_fonts_is_valid_and_none():
+    world = World.model_validate(_world())
+    assert world.fonts is None
+
+
+def test_world_with_default_family_parses():
+    world = World.model_validate(_world({"default": "dejavu-serif"}))
+    assert world.fonts.default == "dejavu-serif"
+    assert world.fonts.by_locale == {}
+
+
+def test_world_with_per_locale_override_parses():
+    world = World.model_validate(
+        _world({"default": "dejavu-serif", "by_locale": {"es-ES": "dejavu-sans"}})
+    )
+    assert world.fonts.by_locale["es-ES"] == "dejavu-sans"
+
+
+def test_unknown_default_family_fails():
+    with pytest.raises(ValidationError) as err:
+        World.model_validate(_world({"default": "papyrus"}))
+    assert "papyrus" in str(err.value)
+
+
+def test_unknown_override_family_fails():
+    with pytest.raises(ValidationError):
+        World.model_validate(
+            _world({"default": "dejavu-sans", "by_locale": {"es-ES": "comic"}})
+        )
+```
+
+- [ ] **Step 2: Run the test to verify it fails**
+
+Run: `.venv/bin/python -m pytest tests/test_models_fonts.py -v`
+Expected: FAIL (currently `World` forbids the extra `fonts` key, so validation raises; the assertions on `world.fonts` cannot pass).
+
+- [ ] **Step 3: Add the model**
+
+In `build/models.py`, add `fontspec` to the imports:
+
+```python
+from build import dice, fontspec, locales, tags
+```
+
+Add the `WorldFonts` model just above `class World`:
+
+```python
+class WorldFonts(_Strict):
+    """A world's typeface: a default family plus optional per-locale overrides.
+
+    Resolution at render time is by_locale[locale], then default. Families are
+    validated against the fontspec registry so a typo fails at load, not at draw.
+    """
+
+    default: str
+    by_locale: dict[str, str] = {}
+
+    @field_validator("default")
+    @classmethod
+    def _known_default(cls, value: str) -> str:
+        if value not in fontspec.KNOWN_FAMILIES:
+            raise ValueError(
+                f"font family {value!r} not in {fontspec.KNOWN_FAMILIES}"
+            )
+        return value
+
+    @field_validator("by_locale")
+    @classmethod
+    def _known_overrides(cls, value: dict[str, str]) -> dict[str, str]:
+        bad = {
+            loc: fam
+            for loc, fam in value.items()
+            if fam not in fontspec.KNOWN_FAMILIES
+        }
+        if bad:
+            raise ValueError(f"unknown font families in by_locale: {bad}")
+        return value
+```
+
+Add the field to `World` (after `lore_summary`):
+
+```python
+    fonts: WorldFonts | None = None
+```
+
+- [ ] **Step 4: Run the test to verify it passes**
+
+Run: `.venv/bin/python -m pytest tests/test_models_fonts.py -v`
+Expected: PASS.
+
+- [ ] **Step 5: Declare the Floating Isles font**
+
+Append a `fonts` block to `worlds/floating-isles/world.yaml` (a soft storybook serif for the body, demonstrating the feature; change the family later if you prefer the sans look):
+
+```yaml
+fonts:
+  default: dejavu-serif
+```
+
+Then confirm the existing content still loads and validates:
+
+Run: `.venv/bin/python -m build validate --root .`
+Expected: `OK: validated 1 story file(s)`.
+
+- [ ] **Step 6: Run the existing model suite to confirm no regression**
+
+Run: `.venv/bin/python -m pytest tests/test_models.py tests/test_content.py -q`
+Expected: PASS (the new optional field does not disturb existing tests).
+
+- [ ] **Step 7: Commit**
+
+```bash
+git add build/models.py worlds/floating-isles/world.yaml tests/test_models_fonts.py
+git commit -m "feat: per-world fonts in the content model with per-locale override"
+```
+
+---
+
+## Task 3: Render dependencies and font resolution
+
+Install the render extras and add the renderer-side font module: register a family's faces with reportlab and resolve which family a `(world, locale)` pair should use.
 
 **Files:**
 - Modify: `pyproject.toml`
 - Create: `build/render/__init__.py`
-- Create: `build/render/assets/fonts/` (four vendored TTFs)
 - Create: `build/render/fonts.py`
 - Test: `tests/test_render_fonts.py`
 
-- [ ] **Step 1: Add the render dependency group and the sub-package to packaging**
+- [ ] **Step 1: Add the render dependency group**
 
-In `pyproject.toml`, extend the optional dependencies and the package list. Replace the `[project.optional-dependencies]` and `[tool.setuptools]` blocks with:
+In `pyproject.toml`, replace the `[project.optional-dependencies]` block with:
 
 ```toml
 [project.optional-dependencies]
@@ -84,76 +381,74 @@ render = [
     "cairosvg>=2.7",
     "pypdf>=4.0",
 ]
-
-[tool.setuptools]
-packages = ["build", "build.render"]
-
-[tool.setuptools.package-data]
-"build.render" = ["assets/fonts/*.ttf"]
 ```
 
 - [ ] **Step 2: Install the render dependencies**
 
-`cairosvg` needs the system Cairo library. On Debian or Ubuntu it is usually already present as `libcairo2`; if import fails later, install it with the system package manager.
+`cairosvg` needs the system Cairo library. On Debian or Ubuntu it is usually present as `libcairo2`; if import fails later, install it with the system package manager.
 
 Run:
 ```bash
 .venv/bin/pip install -e ".[dev,render]"
 ```
-Expected: install succeeds; `.venv/bin/python -c "import reportlab, cairosvg, pypdf"` prints nothing and exits 0.
+Expected: install succeeds; `.venv/bin/python -c "import reportlab, cairosvg, pypdf"` exits 0.
 
-- [ ] **Step 3: Vendor the DejaVu Sans TTFs**
-
-Copy the four faces from the system DejaVu install into the package so the build is self-contained:
-
-```bash
-mkdir -p build/render/assets/fonts
-cp /usr/share/fonts/truetype/dejavu/DejaVuSans.ttf            build/render/assets/fonts/
-cp /usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf       build/render/assets/fonts/
-cp /usr/share/fonts/truetype/dejavu/DejaVuSans-Oblique.ttf    build/render/assets/fonts/
-cp /usr/share/fonts/truetype/dejavu/DejaVuSans-BoldOblique.ttf build/render/assets/fonts/
-```
-Expected: `ls build/render/assets/fonts/` lists exactly those four `.ttf` files. (DejaVu ships under the permissive Bitstream Vera and Arev licences, so vendoring and redistribution are fine.)
-
-- [ ] **Step 4: Write the failing test**
+- [ ] **Step 3: Write the failing test**
 
 `tests/test_render_fonts.py`:
 
 ```python
 from reportlab.pdfbase import pdfmetrics
 
+from build import fontspec
+from build.models import World
 from build.render import fonts
 
 
-def test_register_is_idempotent_and_registers_all_faces():
-    fonts.register_fonts()
-    fonts.register_fonts()  # calling twice must not raise
+def _world(fonts_block=None):
+    data = {"id": "w", "name": {"en-GB": "W", "es-ES": "W"}}
+    if fonts_block is not None:
+        data["fonts"] = fonts_block
+    return World.model_validate(data)
+
+
+def test_register_family_is_idempotent_and_registers_faces():
+    fonts.register_family("dejavu-sans")
+    faces = fonts.register_family("dejavu-sans")  # twice must not raise
     registered = set(pdfmetrics.getRegisteredFontNames())
-    assert {
-        fonts.BODY,
-        fonts.BODY_BOLD,
-        fonts.BODY_ITALIC,
-        fonts.BODY_BOLD_ITALIC,
-    } <= registered
+    assert {faces.normal, faces.bold, faces.italic, faces.bold_italic} <= registered
 
 
-def test_family_mapping_resolves_bold_and_italic():
-    fonts.register_fonts()
-    # reportlab resolves <b>/<i> markup through the family map
-    assert pdfmetrics.getFont(fonts.BODY).face is not None
+def test_resolve_family_defaults_when_world_has_no_fonts():
+    assert fonts.resolve_family(_world(), "en-GB") == fontspec.DEFAULT_FAMILY
+    assert fonts.resolve_family(None, "en-GB") == fontspec.DEFAULT_FAMILY
 
 
-def test_font_family_for_locale_defaults_to_dejavu():
-    assert fonts.font_family_for_locale("en-GB") == fonts.FAMILY
-    assert fonts.font_family_for_locale("es-ES") == fonts.FAMILY
+def test_resolve_family_uses_world_default():
+    world = _world({"default": "dejavu-serif"})
+    assert fonts.resolve_family(world, "en-GB") == "dejavu-serif"
+    assert fonts.resolve_family(world, "es-ES") == "dejavu-serif"
+
+
+def test_per_locale_override_wins_within_a_world():
+    world = _world({"default": "dejavu-sans", "by_locale": {"es-ES": "dejavu-serif"}})
+    assert fonts.resolve_family(world, "en-GB") == "dejavu-sans"
+    assert fonts.resolve_family(world, "es-ES") == "dejavu-serif"
+
+
+def test_resolve_faces_registers_and_returns_the_resolved_family():
+    world = _world({"default": "dejavu-serif"})
+    faces = fonts.resolve_faces(world, "en-GB")
+    assert faces.normal == "dejavu-serif"
+    assert faces.bold in set(pdfmetrics.getRegisteredFontNames())
 ```
 
-- [ ] **Step 5: Run the test to verify it fails**
+- [ ] **Step 4: Run the test to verify it fails**
 
 Run: `.venv/bin/python -m pytest tests/test_render_fonts.py -v`
 Expected: FAIL with `ModuleNotFoundError: No module named 'build.render.fonts'`.
 
-- [ ] **Step 6: Implement the package marker and the fonts module**
+- [ ] **Step 5: Implement the package marker and the fonts module**
 
 `build/render/__init__.py`:
 
@@ -164,76 +459,93 @@ Expected: FAIL with `ModuleNotFoundError: No module named 'build.render.fonts'`.
 `build/render/fonts.py`:
 
 ```python
-"""Embed and select the Unicode font for kit rendering.
+"""Register typefaces with reportlab and resolve the family for a world+locale.
 
-DejaVu Sans is vendored under assets/fonts so the build never depends on system
-fonts. The family is selectable per locale, so a future world in another script
-(for example a CJK world) plugs in here without any layout code changing.
+The set of families and their TTF files comes from the fontspec vocabulary; this
+module turns a family key into registered reportlab font names (one per face) and
+applies the world's font choices. A face is named '<family>' for normal and
+'<family>-bold', '<family>-italic', '<family>-bolditalic' for the rest.
 """
 
-from pathlib import Path
+from dataclasses import dataclass
 
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
 
-FONT_DIR = Path(__file__).parent / "assets" / "fonts"
-
-FAMILY = "DejaVuSans"
-BODY = "DejaVuSans"
-BODY_BOLD = "DejaVuSans-Bold"
-BODY_ITALIC = "DejaVuSans-Oblique"
-BODY_BOLD_ITALIC = "DejaVuSans-BoldOblique"
-
-_FACES = {
-    BODY: "DejaVuSans.ttf",
-    BODY_BOLD: "DejaVuSans-Bold.ttf",
-    BODY_ITALIC: "DejaVuSans-Oblique.ttf",
-    BODY_BOLD_ITALIC: "DejaVuSans-BoldOblique.ttf",
-}
-
-_registered = False
+from build import fontspec
+from build.models import World
 
 
-def register_fonts() -> None:
-    """Register every DejaVu face and the family map. Safe to call repeatedly."""
-    global _registered
-    if _registered:
-        return
-    for name, filename in _FACES.items():
-        pdfmetrics.registerFont(TTFont(name, str(FONT_DIR / filename)))
-    pdfmetrics.registerFontFamily(
-        FAMILY,
-        normal=BODY,
-        bold=BODY_BOLD,
-        italic=BODY_ITALIC,
-        boldItalic=BODY_BOLD_ITALIC,
+@dataclass(frozen=True)
+class FontFaces:
+    normal: str
+    bold: str
+    italic: str
+    bold_italic: str
+
+
+_registered: set[str] = set()
+
+
+def register_family(family: str) -> FontFaces:
+    """Register a family's four faces with reportlab. Safe to call repeatedly."""
+    faces = FontFaces(
+        normal=family,
+        bold=f"{family}-bold",
+        italic=f"{family}-italic",
+        bold_italic=f"{family}-bolditalic",
     )
-    _registered = True
+    if family in _registered:
+        return faces
+    files = fontspec.faces_for(family)
+    pdfmetrics.registerFont(TTFont(faces.normal, str(fontspec.font_path(files.normal))))
+    pdfmetrics.registerFont(TTFont(faces.bold, str(fontspec.font_path(files.bold))))
+    pdfmetrics.registerFont(TTFont(faces.italic, str(fontspec.font_path(files.italic))))
+    pdfmetrics.registerFont(
+        TTFont(faces.bold_italic, str(fontspec.font_path(files.bold_italic)))
+    )
+    pdfmetrics.registerFontFamily(
+        family,
+        normal=faces.normal,
+        bold=faces.bold,
+        italic=faces.italic,
+        boldItalic=faces.bold_italic,
+    )
+    _registered.add(family)
+    return faces
 
 
-def font_family_for_locale(locale: str) -> str:
-    """The font family to use for a locale. DejaVu covers en-GB and es-ES today."""
-    return FAMILY
+def resolve_family(world: World | None, locale: str) -> str:
+    """Family key for a world and locale: by_locale, then default, then global."""
+    if world is not None and world.fonts is not None:
+        if locale in world.fonts.by_locale:
+            return world.fonts.by_locale[locale]
+        return world.fonts.default
+    return fontspec.DEFAULT_FAMILY
+
+
+def resolve_faces(world: World | None, locale: str) -> FontFaces:
+    """Resolve the family for a world+locale and register it, returning its faces."""
+    return register_family(resolve_family(world, locale))
 ```
 
-- [ ] **Step 7: Run the test to verify it passes**
+- [ ] **Step 6: Run the test to verify it passes**
 
 Run: `.venv/bin/python -m pytest tests/test_render_fonts.py -v`
 Expected: PASS.
 
-- [ ] **Step 8: Commit**
+- [ ] **Step 7: Commit**
 
 ```bash
-git add pyproject.toml build/render/__init__.py build/render/fonts.py \
-        build/render/assets/fonts/ tests/test_render_fonts.py
-git commit -m "feat: render deps and vendored DejaVu font embedding"
+git add pyproject.toml build/render/__init__.py build/render/fonts.py tests/test_render_fonts.py
+git commit -m "feat: render deps and per-world, per-locale font resolution"
 ```
 
 ---
 
-## Task 2: Markdown block parser
+## Task 4: Markdown block parser
 
-This module is pure: no reportlab, no I/O. It turns a markdown string into a list of block objects. Inline markup is left as raw text and converted in Task 3.
+Pure: no reportlab, no I/O. Turns a markdown string into a list of block objects. Inline markup is left as raw text and converted in Task 5.
 
 **Files:**
 - Create: `build/render/markdown.py`
@@ -297,7 +609,7 @@ Expected: FAIL with `ModuleNotFoundError: No module named 'build.render.markdown
 Pure and dependency-free. It recognises ATX headings, blank-line-separated
 paragraphs, '-' or '*' bullet lists (with wrapped continuation lines), and GFM
 pipe tables. Inline markup (**bold**, *italic*) is preserved as raw text and
-converted to reportlab markup later, in flowables.py.
+converted to reportlab markup later, in inline_to_rl.
 """
 
 import re
@@ -418,9 +730,9 @@ git commit -m "feat: dependency-free markdown block parser for kit content"
 
 ---
 
-## Task 3: Inline markdown to reportlab markup
+## Task 5: Inline markdown to reportlab markup
 
-reportlab paragraphs accept a small HTML-like markup (`<b>`, `<i>`, `<br/>`). This converter escapes the dangerous characters and turns `**bold**` and `*italic*` into that markup. It lives in `markdown.py` beside the parser.
+reportlab paragraphs accept a small HTML-like markup. This converter escapes the dangerous characters and turns `**bold**` and `*italic*` into that markup. It lives in `markdown.py` beside the parser.
 
 **Files:**
 - Modify: `build/render/markdown.py`
@@ -476,7 +788,7 @@ def inline_to_rl(text: str) -> str:
 - [ ] **Step 4: Run the test to verify it passes**
 
 Run: `.venv/bin/python -m pytest tests/test_render_markdown.py -v`
-Expected: PASS (all parser and inline tests).
+Expected: PASS (parser and inline tests).
 
 - [ ] **Step 5: Commit**
 
@@ -487,9 +799,9 @@ git commit -m "feat: inline markdown to reportlab markup conversion"
 
 ---
 
-## Task 4: Theme and the page painter
+## Task 6: Theme, styles bound to the resolved faces, and the page painter
 
-The theme reads the world palette into named colours, builds the paragraph styles (using the registered fonts), and provides the background painter that draws the cream fill and the dashed rounded border on every page.
+The theme reads the world palette into named colours, builds the paragraph styles from a given set of resolved font faces, and provides the background painter.
 
 **Files:**
 - Create: `build/render/theme.py`
@@ -531,11 +843,11 @@ def test_theme_default_fills_in_when_palette_is_short():
     assert th.background is not None and th.primary is not None
 
 
-def test_make_styles_uses_registered_body_font():
-    fonts.register_fonts()
-    styles = theme.make_styles(theme.Theme.default())
-    assert styles["body"].fontName == fonts.BODY
-    assert styles["h1"].fontName == fonts.BODY_BOLD
+def test_make_styles_binds_to_the_given_faces():
+    faces = fonts.register_family("dejavu-serif")
+    styles = theme.make_styles(theme.Theme.default(), faces)
+    assert styles["body"].fontName == faces.normal
+    assert styles["h1"].fontName == faces.bold
     assert set(styles) >= {"h1", "h2", "h3", "body", "bullet"}
 ```
 
@@ -553,7 +865,8 @@ Expected: FAIL with `ModuleNotFoundError: No module named 'build.render.theme'`.
 
 The world.yaml palette is an ordered list; this module gives each slot a role
 (background, primary, then accent colours) and falls back to sensible defaults
-when a palette is short or absent, so rendering never crashes on thin content.
+when a palette is short or absent. Paragraph styles are bound to a set of
+resolved font faces (see render.fonts), so a world's typeface flows through here.
 """
 
 from dataclasses import dataclass
@@ -564,7 +877,7 @@ from reportlab.lib.styles import ParagraphStyle
 from reportlab.lib.units import mm
 
 from build.models import World
-from build.render import fonts
+from build.render.fonts import FontFaces
 
 _DEFAULT_PALETTE = (
     "#fef9ef",  # background (cream)
@@ -620,24 +933,24 @@ class Theme:
         )
 
 
-def make_styles(theme: "Theme") -> dict[str, ParagraphStyle]:
-    """Build the paragraph styles. register_fonts() must have run first."""
+def make_styles(theme: "Theme", faces: FontFaces) -> dict[str, ParagraphStyle]:
+    """Build the paragraph styles bound to the resolved font faces."""
     body = ParagraphStyle(
-        "body", fontName=fonts.BODY, fontSize=10, leading=14,
+        "body", fontName=faces.normal, fontSize=10, leading=14,
         textColor=theme.text, spaceAfter=6,
     )
     return {
         "h1": ParagraphStyle(
-            "h1", parent=body, fontName=fonts.BODY_BOLD, fontSize=18, leading=24,
+            "h1", parent=body, fontName=faces.bold, fontSize=18, leading=24,
             textColor=white, backColor=theme.primary, alignment=TA_CENTER,
             borderPadding=(7, 8, 7, 8), spaceAfter=12, spaceBefore=2,
         ),
         "h2": ParagraphStyle(
-            "h2", parent=body, fontName=fonts.BODY_BOLD, fontSize=13,
+            "h2", parent=body, fontName=faces.bold, fontSize=13,
             textColor=theme.primary, spaceBefore=10, spaceAfter=4,
         ),
         "h3": ParagraphStyle(
-            "h3", parent=body, fontName=fonts.BODY_BOLD, fontSize=11,
+            "h3", parent=body, fontName=faces.bold, fontSize=11,
             textColor=theme.teal, spaceBefore=6, spaceAfter=2,
         ),
         "body": body,
@@ -674,14 +987,14 @@ Expected: PASS.
 
 ```bash
 git add build/render/theme.py tests/test_render_theme.py
-git commit -m "feat: world-palette theme, paragraph styles, and page painter"
+git commit -m "feat: theme, face-bound paragraph styles, and the page painter"
 ```
 
 ---
 
-## Task 5: Blocks to flowables, and one content file to a PDF
+## Task 7: Blocks to flowables, and content files to a PDF
 
-This task wires markdown blocks to reportlab flowables, then renders a full markdown file (a narration page) into a themed PDF. After this task a real, viewable kit page exists.
+Wire markdown blocks to reportlab flowables, then render a full markdown file into a themed PDF using the world+locale font. After this task a real, viewable kit page exists in the world's chosen typeface.
 
 **Files:**
 - Create: `build/render/flowables.py`
@@ -696,13 +1009,13 @@ This task wires markdown blocks to reportlab flowables, then renders a full mark
 ```python
 from reportlab.platypus import Paragraph, Table as RLTable
 
-from build.render import fonts, flowables, theme
+from build.render import flowables, fonts, theme
 from build.render import markdown as md
 
 
 def _styles():
-    fonts.register_fonts()
-    return theme.make_styles(theme.Theme.default())
+    faces = fonts.register_family("dejavu-sans")
+    return theme.make_styles(theme.Theme.default(), faces)
 
 
 def test_heading_and_paragraph_become_paragraphs():
@@ -736,7 +1049,11 @@ Expected: FAIL with `ModuleNotFoundError: No module named 'build.render.flowable
 `build/render/flowables.py`:
 
 ```python
-"""Turn markdown blocks into reportlab flowables using the themed styles."""
+"""Turn markdown blocks into reportlab flowables using the themed styles.
+
+Table fonts are taken from the style dict (body and a bold heading style), so a
+world's typeface flows through tables as well as prose.
+"""
 
 from reportlab.lib import colors
 from reportlab.lib.units import mm
@@ -749,13 +1066,13 @@ CONTENT_WIDTH = 210 * mm - 36 * mm  # A4 width minus the page margins
 _BULLET = "•"
 
 
-def _table_style(theme: Theme) -> TableStyle:
+def _table_style(theme: Theme, body_font: str, head_font: str) -> TableStyle:
     return TableStyle(
         [
             ("BACKGROUND", (0, 0), (-1, 0), theme.primary),
             ("TEXTCOLOR", (0, 0), (-1, 0), colors.white),
-            ("FONTNAME", (0, 0), (-1, 0), "DejaVuSans-Bold"),
-            ("FONTNAME", (0, 1), (-1, -1), "DejaVuSans"),
+            ("FONTNAME", (0, 0), (-1, 0), head_font),
+            ("FONTNAME", (0, 1), (-1, -1), body_font),
             ("FONTSIZE", (0, 0), (-1, -1), 9),
             ("GRID", (0, 0), (-1, -1), 0.5, theme.primary),
             ("VALIGN", (0, 0), (-1, -1), "TOP"),
@@ -775,6 +1092,8 @@ def _col_widths(ncols: int) -> list[float]:
 
 def blocks_to_flowables(blocks: list, styles: dict, theme: Theme) -> list:
     """Map each block to one or more reportlab flowables, in order."""
+    body_font = styles["body"].fontName
+    head_font = styles["h2"].fontName
     flows: list = []
     for block in blocks:
         if isinstance(block, md.Heading):
@@ -794,7 +1113,7 @@ def blocks_to_flowables(blocks: list, styles: dict, theme: Theme) -> list:
                 for row in [block.headers, *block.rows]
             ]
             table = Table(data, colWidths=_col_widths(len(block.headers)))
-            table.setStyle(_table_style(theme))
+            table.setStyle(_table_style(theme, body_font, head_font))
             flows.append(Spacer(1, 4))
             flows.append(table)
             flows.append(Spacer(1, 6))
@@ -817,12 +1136,15 @@ from build.models import World
 from build.render import pages
 
 
-def _world():
-    return World.model_validate(
-        {"id": "floating-isles",
-         "name": {"en-GB": "The Floating Isles", "es-ES": "Las Islas Flotantes"},
-         "palette": ["#fef9ef", "#4ea24a", "#2bb3a3"]}
-    )
+def _world(fonts_block=None):
+    data = {
+        "id": "floating-isles",
+        "name": {"en-GB": "The Floating Isles", "es-ES": "Las Islas Flotantes"},
+        "palette": ["#fef9ef", "#4ea24a", "#2bb3a3"],
+    }
+    if fonts_block is not None:
+        data["fonts"] = fonts_block
+    return World.model_validate(data)
 
 
 def test_render_markdown_file_writes_a_valid_pdf(tmp_path):
@@ -833,7 +1155,7 @@ def test_render_markdown_file_writes_a_valid_pdf(tmp_path):
         encoding="utf-8",
     )
     out = tmp_path / "narration.pdf"
-    pages.render_markdown_file(src, out, _world())
+    pages.render_markdown_file(src, out, _world({"default": "dejavu-serif"}), "en-GB")
     assert out.read_bytes().startswith(b"%PDF")
     assert len(PdfReader(str(out)).pages) >= 1
 
@@ -854,7 +1176,11 @@ Expected: FAIL with `ModuleNotFoundError: No module named 'build.render.pages'`.
 `build/render/pages.py`:
 
 ```python
-"""Render flowables, and whole markdown files, into themed PDFs."""
+"""Render flowables, and whole markdown files, into themed PDFs.
+
+The font is resolved per (world, locale) so each page is drawn in the world's
+typeface, honouring any per-locale override.
+"""
 
 from pathlib import Path
 
@@ -863,39 +1189,57 @@ from reportlab.lib.units import mm
 from reportlab.platypus import SimpleDocTemplate
 
 from build.models import World
-from build.render import fonts, flowables, theme
+from build.render import flowables, fonts, theme
 from build.render import markdown as md
 
 
-def _prepare(world: World) -> tuple[theme.Theme, dict]:
-    fonts.register_fonts()
-    th = theme.Theme.from_world(world)
-    return th, theme.make_styles(th)
+def _doc(out_path: Path, *, landscape_page: bool) -> SimpleDocTemplate:
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    return SimpleDocTemplate(
+        str(out_path), pagesize=landscape(A4) if landscape_page else A4,
+        leftMargin=18 * mm, rightMargin=18 * mm,
+        topMargin=16 * mm, bottomMargin=16 * mm,
+    )
 
 
 def render_flowables(
     flows: list, out_path: Path, world: World, *, landscape_page: bool = False
 ) -> Path:
-    """Build a themed PDF from ready-made flowables."""
-    th, _ = _prepare(world)
-    out_path.parent.mkdir(parents=True, exist_ok=True)
-    pagesize = landscape(A4) if landscape_page else A4
-    doc = SimpleDocTemplate(
-        str(out_path), pagesize=pagesize,
-        leftMargin=18 * mm, rightMargin=18 * mm,
-        topMargin=16 * mm, bottomMargin=16 * mm,
-    )
+    """Build a themed PDF from ready-made flowables (already styled)."""
+    th = theme.Theme.from_world(world)
+    doc = _doc(out_path, landscape_page=landscape_page)
     paint = theme.page_painter(th)
     doc.build(list(flows), onFirstPage=paint, onLaterPages=paint)
     return out_path
 
 
-def render_markdown_file(src: Path, out_path: Path, world: World) -> Path:
-    """Parse a markdown content file and render it as a themed PDF page set."""
-    th, styles = _prepare(world)
+def render_markdown_file(src: Path, out_path: Path, world: World, locale: str) -> Path:
+    """Parse a markdown content file and render it in the world+locale typeface."""
+    faces = fonts.resolve_faces(world, locale)
+    th = theme.Theme.from_world(world)
+    styles = theme.make_styles(th, faces)
     blocks = md.parse_markdown(src.read_text(encoding="utf-8"))
     flows = flowables.blocks_to_flowables(blocks, styles, th)
     return render_flowables(flows, out_path, world)
+
+
+def render_guide(src: Path, out_path: Path, locale: str = "en-GB") -> Path:
+    """Render the world-agnostic Guide for the Grown-Up to a themed PDF.
+
+    The guide is shared across worlds, so it uses the default theme and the
+    default family (DejaVu covers en-GB and es-ES today). Per-locale guide
+    typography is deferred until a locale needs a different script.
+    """
+    faces = fonts.resolve_faces(None, locale)
+    th = theme.Theme.default()
+    styles = theme.make_styles(th, faces)
+    blocks = md.parse_markdown(src.read_text(encoding="utf-8"))
+    flows = flowables.blocks_to_flowables(blocks, styles, th)
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    doc = _doc(out_path, landscape_page=False)
+    paint = theme.page_painter(th)
+    doc.build(list(flows), onFirstPage=paint, onLaterPages=paint)
+    return out_path
 ```
 
 - [ ] **Step 8: Run the pages test to verify it passes**
@@ -905,7 +1249,7 @@ Expected: PASS.
 
 - [ ] **Step 9: Manual visual check (optional but recommended)**
 
-Render a real narration file and eyeball it:
+Render a real narration file in the Floating Isles serif and eyeball it:
 ```bash
 .venv/bin/python -c "
 from pathlib import Path
@@ -913,23 +1257,23 @@ from build.content import load_world
 from build.render import pages
 w = load_world(Path('worlds/floating-isles/world.yaml'))
 src = Path('worlds/floating-isles/stories/sleeping-garden/content/es-ES/narration.simple.md')
-pages.render_markdown_file(src, Path('dist/_preview_narration_es.pdf'), w)
+pages.render_markdown_file(src, Path('dist/_preview_narration_es.pdf'), w, 'es-ES')
 print('wrote dist/_preview_narration_es.pdf')
 "
 ```
-Open the PDF (or rasterise it with `pdftoppm -png -r 120 dist/_preview_narration_es.pdf dist/_preview` if poppler is available) and confirm the Spanish accents (ñ, á, í) render and the green title banner appears. Delete the preview afterwards; `dist/` is gitignored so nothing is committed.
+Open it (or rasterise with `pdftoppm -png -r 120 dist/_preview_narration_es.pdf dist/_preview` if poppler is available) and confirm the Spanish accents render, the typeface is the serif the world declared, and the green title banner appears. `dist/` is gitignored, so nothing is committed.
 
 - [ ] **Step 10: Commit**
 
 ```bash
 git add build/render/flowables.py build/render/pages.py \
         tests/test_render_flowables.py tests/test_render_pages.py
-git commit -m "feat: markdown blocks to flowables and a content file to a themed PDF"
+git commit -m "feat: markdown to flowables and content files to themed PDFs"
 ```
 
 ---
 
-## Task 6: Localised UI strings
+## Task 8: Localised UI strings
 
 A small resource of the non-content labels the layout needs (glossary headings, character-sheet field labels). These are layout strings, not story content, so they live in the render package.
 
@@ -1028,7 +1372,7 @@ git commit -m "feat: localised layout strings for glossary and sheets"
 
 ---
 
-## Task 7: Glossary appendix from canon
+## Task 9: Glossary appendix from canon
 
 The glossary is generated from canon, so it can never disagree with the world bible. It groups entries by kind and prints the locale name and description.
 
@@ -1045,6 +1389,11 @@ from reportlab.platypus import Paragraph
 
 from build.models import CanonEntry
 from build.render import fonts, glossary, theme
+
+
+def _styles():
+    faces = fonts.register_family("dejavu-sans")
+    return theme.make_styles(theme.Theme.default(), faces)
 
 
 def _entries():
@@ -1065,9 +1414,7 @@ def _entries():
 
 
 def test_glossary_titles_and_names_appear_for_locale():
-    fonts.register_fonts()
-    styles = theme.make_styles(theme.Theme.default())
-    flows = glossary.glossary_flowables(_entries(), "en-GB", styles, theme.Theme.default())
+    flows = glossary.glossary_flowables(_entries(), "en-GB", _styles(), theme.Theme.default())
     text = " ".join(f.text for f in flows if isinstance(f, Paragraph))
     assert "Who's Who" in text
     assert "Places" in text and "Creatures" in text
@@ -1075,9 +1422,7 @@ def test_glossary_titles_and_names_appear_for_locale():
 
 
 def test_glossary_uses_the_requested_locale():
-    fonts.register_fonts()
-    styles = theme.make_styles(theme.Theme.default())
-    flows = glossary.glossary_flowables(_entries(), "es-ES", styles, theme.Theme.default())
+    flows = glossary.glossary_flowables(_entries(), "es-ES", _styles(), theme.Theme.default())
     text = " ".join(f.text for f in flows if isinstance(f, Paragraph))
     assert "El Gran Jardin" in text and "Gato de Niebla" in text
 ```
@@ -1148,12 +1493,13 @@ git commit -m "feat: glossary appendix generated from canon"
 
 ---
 
-## Task 8: SVG map to a PDF page
+## Task 10: SVG map to a PDF page
 
 cairosvg renders the world's map SVG into a single-page PDF that pypdf can later merge.
 
 **Files:**
 - Create: `build/render/map.py`
+- Create: `worlds/floating-isles/assets/map.svg` (copied from the legacy kit)
 - Test: `tests/test_render_map.py`
 
 - [ ] **Step 1: Write the failing test**
@@ -1215,7 +1561,6 @@ Expected: PASS.
 
 - [ ] **Step 5: Copy the legacy map into the world's assets**
 
-The migrated world needs its map where the kit builder will look for it:
 ```bash
 mkdir -p worlds/floating-isles/assets
 cp El_Jardin_Dormido_kit/scripts/mapa.svg worlds/floating-isles/assets/map.svg
@@ -1231,9 +1576,9 @@ git commit -m "feat: render the world map SVG to a PDF page"
 
 ---
 
-## Task 9: Character sheet templates (three age tiers)
+## Task 11: Character sheet templates (three age tiers)
 
-Generic, age-tiered sheets with localised labels. They carry no world-specific magic list, so the Greek world reuses them unchanged. They are drawn directly on the canvas (form layout, not flowing prose), reusing the theme painter for the background.
+Generic, age-tiered sheets with localised labels, drawn in the resolved typeface. They carry no world-specific magic list, so the Greek world reuses them unchanged.
 
 **Files:**
 - Create: `build/render/sheets.py`
@@ -1247,27 +1592,32 @@ Generic, age-tiered sheets with localised labels. They carry no world-specific m
 import pytest
 from pypdf import PdfReader
 
-from build.render import sheets, theme
+from build.render import fonts, sheets, theme
 from build.tags import AGE_TIERS
+
+
+def _faces():
+    return fonts.register_family("dejavu-sans")
 
 
 @pytest.mark.parametrize("tier", AGE_TIERS)
 def test_each_tier_renders_one_page(tmp_path, tier):
     out = tmp_path / f"sheet_{tier}.pdf"
-    sheets.render_character_sheet(out, "en-GB", tier, theme.Theme.default())
+    sheets.render_character_sheet(out, "en-GB", tier, theme.Theme.default(), _faces())
     assert out.read_bytes().startswith(b"%PDF")
     assert len(PdfReader(str(out)).pages) == 1
 
 
 def test_unknown_tier_raises(tmp_path):
     with pytest.raises(ValueError):
-        sheets.render_character_sheet(tmp_path / "x.pdf", "en-GB", "tween",
-                                      theme.Theme.default())
+        sheets.render_character_sheet(
+            tmp_path / "x.pdf", "en-GB", "tween", theme.Theme.default(), _faces()
+        )
 
 
 def test_spanish_sheet_renders(tmp_path):
     out = tmp_path / "sheet_es.pdf"
-    sheets.render_character_sheet(out, "es-ES", "young", theme.Theme.default())
+    sheets.render_character_sheet(out, "es-ES", "young", theme.Theme.default(), _faces())
     assert out.read_bytes().startswith(b"%PDF")
 ```
 
@@ -1283,9 +1633,9 @@ Expected: FAIL with `ModuleNotFoundError: No module named 'build.render.sheets'`
 ```python
 """The three age-tiered character sheets: early, young, older.
 
-Generic across worlds (no magic list baked in) and localised through strings.py.
-'early' is mostly a drawing space and a name; 'young' adds a magic line and
-energy stars; 'older' adds an inventory and notes.
+Generic across worlds (no magic list baked in), localised through strings.py and
+drawn in the resolved font faces. 'early' is mostly a drawing space and a name;
+'young' adds a magic line and energy stars; 'older' adds an inventory and notes.
 """
 
 import math
@@ -1296,7 +1646,8 @@ from reportlab.lib.pagesizes import A4
 from reportlab.lib.units import mm
 from reportlab.pdfgen import canvas as rl_canvas
 
-from build.render import fonts, strings
+from build.render import strings
+from build.render.fonts import FontFaces
 from build.render.theme import Theme
 from build.tags import AGE_TIERS
 
@@ -1320,27 +1671,24 @@ def _star(c, cx: float, cy: float, r: float, stroke) -> None:
     c.drawPath(p, fill=1, stroke=1)
 
 
-def _label(c, theme: Theme, x: float, y: float, text: str) -> None:
-    c.setFillColor(theme.primary)
-    c.setFont(fonts.BODY_BOLD, 12)
-    c.drawString(x, y, text)
-
-
-def _write_line(c, theme: Theme, x: float, y: float, width: float) -> None:
-    c.setStrokeColor(theme.teal)
-    c.setLineWidth(1.2)
-    c.line(x, y, x + width, y)
-
-
 def render_character_sheet(
-    out_path: Path, locale: str, tier: str, theme: Theme
+    out_path: Path, locale: str, tier: str, theme: Theme, faces: FontFaces
 ) -> Path:
     """Render a one-page character sheet for an age tier. Raises on unknown tier."""
     if tier not in AGE_TIERS:
         raise ValueError(f"unknown age tier {tier!r}, expected one of {AGE_TIERS}")
-    fonts.register_fonts()
     out_path.parent.mkdir(parents=True, exist_ok=True)
     c = rl_canvas.Canvas(str(out_path), pagesize=A4)
+
+    def label(x: float, y: float, text: str) -> None:
+        c.setFillColor(theme.primary)
+        c.setFont(faces.bold, 12)
+        c.drawString(x, y, text)
+
+    def line(x: float, y: float, width: float) -> None:
+        c.setStrokeColor(theme.teal)
+        c.setLineWidth(1.2)
+        c.line(x, y, x + width, y)
 
     # background and border
     c.setFillColor(theme.background)
@@ -1355,27 +1703,26 @@ def render_character_sheet(
     c.setFillColor(theme.primary)
     c.roundRect(18 * mm, H - 38 * mm, W - 36 * mm, 18 * mm, 8, fill=1, stroke=0)
     c.setFillColor(white)
-    c.setFont(fonts.BODY_BOLD, 20)
+    c.setFont(faces.bold, 20)
     c.drawCentredString(W / 2, H - 31 * mm, strings.ui(locale, "sheet_title"))
 
     y = H - 52 * mm
-    _label(c, theme, 20 * mm, y, strings.ui(locale, "sheet_name"))
-    _write_line(c, theme, 60 * mm, y - 1 * mm, W - 80 * mm)
+    label(20 * mm, y, strings.ui(locale, "sheet_name"))
+    line(60 * mm, y - 1 * mm, W - 80 * mm)
 
     if tier in ("young", "older"):
         y -= 14 * mm
-        _label(c, theme, 20 * mm, y, strings.ui(locale, "sheet_magic"))
-        _write_line(c, theme, 20 * mm, y - 8 * mm, W - 40 * mm)
+        label(20 * mm, y, strings.ui(locale, "sheet_magic"))
+        line(20 * mm, y - 8 * mm, W - 40 * mm)
 
         y -= 20 * mm
-        _label(c, theme, 20 * mm, y, strings.ui(locale, "sheet_energy"))
+        label(20 * mm, y, strings.ui(locale, "sheet_energy"))
         for i in range(5):
             _star(c, 28 * mm + i * 22 * mm, y - 12 * mm, 8 * mm, theme.gold)
         y -= 22 * mm
 
-    # drawing box (every tier, largest for 'early')
     box_h = 70 * mm if tier == "early" else 44 * mm
-    _label(c, theme, 20 * mm, y, strings.ui(locale, "sheet_draw"))
+    label(20 * mm, y, strings.ui(locale, "sheet_draw"))
     c.setStrokeColor(theme.teal)
     c.setLineWidth(1.5)
     c.setDash(4, 4)
@@ -1384,16 +1731,16 @@ def render_character_sheet(
     y -= box_h + 14 * mm
 
     if tier == "older":
-        _label(c, theme, 20 * mm, y, strings.ui(locale, "sheet_inventory"))
+        label(20 * mm, y, strings.ui(locale, "sheet_inventory"))
         for k in range(3):
-            _write_line(c, theme, 20 * mm, y - 8 * mm - k * 8 * mm, W - 40 * mm)
+            line(20 * mm, y - 8 * mm - k * 8 * mm, W - 40 * mm)
         y -= 34 * mm
-        _label(c, theme, 20 * mm, y, strings.ui(locale, "sheet_notes"))
+        label(20 * mm, y, strings.ui(locale, "sheet_notes"))
         for k in range(2):
-            _write_line(c, theme, 20 * mm, y - 8 * mm - k * 8 * mm, W - 40 * mm)
+            line(20 * mm, y - 8 * mm - k * 8 * mm, W - 40 * mm)
 
     c.setFillColor(theme.text)
-    c.setFont(fonts.BODY_ITALIC, 9)
+    c.setFont(faces.italic, 9)
     c.drawCentredString(W / 2, 14 * mm, strings.ui(locale, "sheet_footer"))
     c.showPage()
     c.save()
@@ -1414,9 +1761,9 @@ git commit -m "feat: three age-tiered character-sheet templates"
 
 ---
 
-## Task 10: Kit assembly and page merge
+## Task 12: Kit assembly and page merge
 
-This task orchestrates everything: it loads the world, story and canon, renders each page to a temporary PDF in the right order, and merges them with pypdf into one kit PDF in `dist/`. The output name encodes the full tuple, so every `(world, story, locale, reading_level)` is distinct.
+Load the world, story and canon, render each page to a temporary PDF in the right order using the resolved typeface, and merge them with pypdf into one kit PDF in `dist/`. The output name encodes the full tuple.
 
 **Files:**
 - Create: `build/render/kit.py`
@@ -1456,7 +1803,6 @@ def test_build_kit_writes_one_merged_pdf(sample_repo, tmp_path):
 
 
 def test_build_kit_skips_missing_map(sample_repo, tmp_path):
-    # No assets/map.svg: the kit still builds, one page fewer.
     out = kit.build_kit(
         sample_repo, "floating-isles", "sleeping-garden", "es-ES", "rich",
         out_dir=tmp_path,
@@ -1465,7 +1811,7 @@ def test_build_kit_skips_missing_map(sample_repo, tmp_path):
     assert len(PdfReader(str(out)).pages) >= 6
 
 
-def test_reading_level_selects_narration_file(sample_repo, tmp_path):
+def test_reading_level_selects_narration_file():
     assert kit.NARRATION_BY_LEVEL == {
         "simple": "narration.simple.md",
         "rich": "narration.rich.md",
@@ -1484,9 +1830,10 @@ Expected: FAIL with `ModuleNotFoundError: No module named 'build.render.kit'`.
 ```python
 """Assemble one printable kit PDF per (world, story, locale, reading_level).
 
-Loads content through Plan 1's loaders, renders each page to a temporary PDF in
-a fixed order, and merges them with pypdf into dist/. The map page is optional:
-if the world has no assets/map.svg, the kit builds without it.
+Loads content through Plan 1's loaders, resolves the world+locale typeface, then
+renders each page to a temporary PDF in a fixed order and merges them with pypdf
+into dist/. The map page is optional: if the world has no assets/map.svg, the kit
+builds without it.
 """
 
 import tempfile
@@ -1495,14 +1842,14 @@ from pathlib import Path
 from pypdf import PdfReader, PdfWriter
 
 from build import content
-from build.render import flowables, glossary, map as kit_map, pages, sheets, theme
+from build.render import fonts, glossary, map as kit_map, pages, sheets, theme
 
 NARRATION_BY_LEVEL = {
     "simple": "narration.simple.md",
     "rich": "narration.rich.md",
 }
 
-# Grown-up-facing pages that follow the kid-facing narration.
+# Grown-up-facing prose pages that follow the kid-facing narration.
 _PROSE_PAGES = ("rules.md", "puzzles.md", "idea-bank.md")
 
 
@@ -1537,7 +1884,10 @@ def build_kit(
     world = content.load_world(world_dir / "world.yaml")
     story = content.load_story(story_dir / "story.yaml")
     canon = content.load_canon(world_dir / "canon")
+
     th = theme.Theme.from_world(world)
+    faces = fonts.resolve_faces(world, locale)
+    styles = theme.make_styles(th, faces)
 
     out_dir = out_dir if out_dir is not None else root / "dist"
     parts: list[Path] = []
@@ -1550,23 +1900,22 @@ def build_kit(
 
         narration = content_dir / NARRATION_BY_LEVEL[reading_level]
         parts.append(
-            pages.render_markdown_file(narration, tmp_path / "10_narration.pdf", world)
+            pages.render_markdown_file(narration, tmp_path / "10_narration.pdf", world, locale)
         )
 
         for index, filename in enumerate(_PROSE_PAGES, start=2):
             src = content_dir / filename
             parts.append(
-                pages.render_markdown_file(src, tmp_path / f"{index}0_{filename}.pdf", world)
+                pages.render_markdown_file(
+                    src, tmp_path / f"{index}0_{filename}.pdf", world, locale
+                )
             )
 
-        from build.render import fonts
-        fonts.register_fonts()
-        styles = theme.make_styles(th)
         gloss = glossary.glossary_flowables(canon, locale, styles, th)
         parts.append(pages.render_flowables(gloss, tmp_path / "80_glossary.pdf", world))
 
         sheet = tmp_path / "90_sheet.pdf"
-        sheets.render_character_sheet(sheet, locale, story.age.recommended, th)
+        sheets.render_character_sheet(sheet, locale, story.age.recommended, th, faces)
         parts.append(sheet)
 
         out_path = out_dir / f"{world_id}_{story_id}_{locale}_{reading_level}.pdf"
@@ -1578,7 +1927,7 @@ def build_kit(
 Run: `.venv/bin/python -m pytest tests/test_render_kit.py -v`
 Expected: PASS.
 
-- [ ] **Step 5: Build the real Sleeping Garden kit and eyeball it**
+- [ ] **Step 5: Build the real Sleeping Garden kits and eyeball them**
 
 ```bash
 .venv/bin/python -c "
@@ -1590,7 +1939,7 @@ for locale in ('en-GB', 'es-ES'):
         print('built', out)
 "
 ```
-Expected: four PDFs under `dist/`. Open at least the es-ES one and confirm accents render, the map merges, and pages are in order. (`dist/` is gitignored, so nothing is committed.)
+Expected: four PDFs under `dist/`. Open the es-ES one and confirm accents render, the typeface is the world's serif, the map merges, and pages are in order.
 
 - [ ] **Step 6: Commit**
 
@@ -1601,15 +1950,14 @@ git commit -m "feat: assemble and merge the kit PDF per locale and reading level
 
 ---
 
-## Task 11: Standalone Guide for the Grown-Up PDF
+## Task 13: Standalone Guide for the Grown-Up PDF
 
-The Guide content (`guide/<locale>/guide.md`) is authored in Plan 5. This task ships the *renderer* so Plan 5 only has to write prose. The guide is world-agnostic, so it uses the default theme.
+The Guide *renderer* already exists (`pages.render_guide`, added in Task 7). This task pins it with its own test so Plan 5 only has to write the prose at `guide/<locale>/guide.md`.
 
 **Files:**
-- Modify: `build/render/pages.py`
 - Test: `tests/test_render_guide.py`
 
-- [ ] **Step 1: Write the failing test**
+- [ ] **Step 1: Write the test**
 
 `tests/test_render_guide.py`:
 
@@ -1630,56 +1978,31 @@ def test_render_guide_builds_a_pdf_from_markdown(tmp_path):
     pages.render_guide(guide, out)
     assert out.read_bytes().startswith(b"%PDF")
     assert len(PdfReader(str(out)).pages) >= 1
+
+
+def test_render_guide_accepts_spanish(tmp_path):
+    guide = tmp_path / "guia.md"
+    guide.write_text("# Guia\n\nTienes tres trabajos.\n", encoding="utf-8")
+    out = tmp_path / "guia.pdf"
+    pages.render_guide(guide, out, "es-ES")
+    assert out.read_bytes().startswith(b"%PDF")
 ```
 
-- [ ] **Step 2: Run the test to verify it fails**
+- [ ] **Step 2: Run the test to verify it passes**
 
 Run: `.venv/bin/python -m pytest tests/test_render_guide.py -v`
-Expected: FAIL with `AttributeError: module 'build.render.pages' has no attribute 'render_guide'`.
+Expected: PASS (the renderer was implemented in Task 7).
 
-- [ ] **Step 3: Implement render_guide**
-
-Add to `build/render/pages.py` (the imports `A4`, `SimpleDocTemplate`, `md`, `fonts`, `flowables`, `theme` are already present from Task 5):
-
-```python
-def render_guide(src: Path, out_path: Path, locale: str = "en-GB") -> Path:
-    """Render the world-agnostic Guide for the Grown-Up to a themed PDF.
-
-    Uses the default theme because the guide is shared across all worlds. The
-    locale argument is accepted for symmetry and future per-locale typography;
-    DejaVu covers en-GB and es-ES today.
-    """
-    fonts.register_fonts()
-    th = theme.Theme.default()
-    styles = theme.make_styles(th)
-    blocks = md.parse_markdown(src.read_text(encoding="utf-8"))
-    flows = flowables.blocks_to_flowables(blocks, styles, th)
-    out_path.parent.mkdir(parents=True, exist_ok=True)
-    doc = SimpleDocTemplate(
-        str(out_path), pagesize=A4,
-        leftMargin=18 * mm, rightMargin=18 * mm,
-        topMargin=16 * mm, bottomMargin=16 * mm,
-    )
-    paint = theme.page_painter(th)
-    doc.build(list(flows), onFirstPage=paint, onLaterPages=paint)
-    return out_path
-```
-
-- [ ] **Step 4: Run the test to verify it passes**
-
-Run: `.venv/bin/python -m pytest tests/test_render_guide.py -v`
-Expected: PASS.
-
-- [ ] **Step 5: Commit**
+- [ ] **Step 3: Commit**
 
 ```bash
-git add build/render/pages.py tests/test_render_guide.py
-git commit -m "feat: standalone Guide for the Grown-Up PDF renderer"
+git add tests/test_render_guide.py
+git commit -m "test: pin the standalone Guide for the Grown-Up renderer"
 ```
 
 ---
 
-## Task 12: CLI: render and render-guide
+## Task 14: CLI: render and render-guide
 
 Extend the Plan 1 CLI so kits and the guide build from the command line, matching the existing `validate`/`lint`/`catalog` style.
 
@@ -1711,8 +2034,7 @@ def test_render_builds_a_kit(sample_repo, tmp_path, capsys):
         "--out-dir", str(tmp_path),
     ])
     assert code == 0
-    out = capsys.readouterr().out
-    assert "floating-isles_sleeping-garden_en-GB_simple.pdf" in out
+    assert "floating-isles_sleeping-garden_en-GB_simple.pdf" in capsys.readouterr().out
     assert (tmp_path / "floating-isles_sleeping-garden_en-GB_simple.pdf").is_file()
 
 
@@ -1726,6 +2048,14 @@ def test_render_guide_builds_from_root(sample_repo, tmp_path, capsys):
     ])
     assert code == 0
     assert (tmp_path / "Guide_for_the_Grown-Up_en-GB.pdf").is_file()
+
+
+def test_render_guide_missing_markdown_returns_one(sample_repo, tmp_path):
+    code = main([
+        "render-guide", "--root", str(sample_repo),
+        "--locale", "es-ES", "--out-dir", str(tmp_path),
+    ])
+    assert code == 1
 ```
 
 - [ ] **Step 2: Run the test to verify it fails**
@@ -1780,7 +2110,7 @@ Then add the two command branches before the final `return 2`:
         return 0
 ```
 
-(The `render` deps are imported lazily inside the branches so `validate`, `lint` and `catalog` keep working in an environment without the render extra installed.)
+(The render deps are imported lazily inside the branches so `validate`, `lint` and `catalog` keep working in an environment without the render extra installed.)
 
 - [ ] **Step 4: Run the test to verify it passes**
 
@@ -1801,17 +2131,16 @@ git commit -m "feat: render and render-guide CLI commands"
 
 ---
 
-## Task 13: Documentation refresh
+## Task 15: Documentation refresh
 
-Update the docs that Plan 1 left pointing forward, so the repo reflects that the PDF pipeline now exists.
+Update the docs that Plan 1 left pointing forward, so the repo reflects that the PDF pipeline now exists, including per-world fonts.
 
 **Files:**
 - Modify: `CLAUDE.md`
-- Modify: `README.md` (if present; skip if absent)
 
 - [ ] **Step 1: Update CLAUDE.md status and commands**
 
-In `CLAUDE.md`, in the "Status" section, change the line that says the PDF build pipeline is "Still to come" so Plan 2 is listed as built, and in the "Commands" section add the render commands under the existing CLI examples:
+In `CLAUDE.md`, in the "Status" section, change the line that says the PDF build pipeline is "Still to come" so Plan 2 is listed as built. In the "Commands" section, add the render commands:
 
 ```bash
 .venv/bin/python -m build render --root . \
@@ -1820,11 +2149,11 @@ In `CLAUDE.md`, in the "Status" section, change the line that says the PDF build
 .venv/bin/python -m build render-guide --root . --locale en-GB  # build the Guide PDF
 ```
 
-Also update the dependency note: the render extras (`reportlab`, `cairosvg`, `pypdf`) are now installed via `pip install -e ".[dev,render]"`, and DejaVu Sans is vendored under `build/render/assets/fonts/`.
+Update the dependency note: the render extras (`reportlab`, `cairosvg`, `pypdf`) install via `pip install -e ".[dev,render]"`, and DejaVu Sans and Serif are vendored under `build/assets/fonts/`.
 
-- [ ] **Step 2: Update the layout pointer**
+- [ ] **Step 2: Document fonts and the architecture additions**
 
-In `CLAUDE.md` under "Layout pointers", note that the El Jardin Dormido scripts have now been refactored into `build/render/`, and that the live map lives at `worlds/floating-isles/assets/map.svg`. Keep the legacy scripts reference only if they are still useful; otherwise note they are superseded.
+In the "Architecture" section, add a short note that `build/fontspec.py` is the font vocabulary (families to TTF faces), that a world declares its typeface in `world.yaml` under `fonts` (a `default` plus an optional `by_locale` override), and that `build/render/` holds the layout-only pipeline. In "Layout pointers", note that the El Jardin Dormido scripts are now refactored into `build/render/` and the live map is at `worlds/floating-isles/assets/map.svg`.
 
 - [ ] **Step 3: Run the suite once more as a sanity check**
 
@@ -1835,7 +2164,7 @@ Expected: all green.
 
 ```bash
 git add CLAUDE.md
-git commit -m "docs: mark Plan 2 PDF pipeline built and document render commands"
+git commit -m "docs: mark Plan 2 built and document render commands and fonts"
 ```
 
 ---
@@ -1843,20 +2172,20 @@ git commit -m "docs: mark Plan 2 PDF pipeline built and document render commands
 ## Self-review
 
 **Spec coverage (section 11, build pipeline, and the section 12 system items that are rendering):**
-- Layout-only builders taking `(world, story, locale, reading_level)`: Task 10 `kit.build_kit`. Covered. No hardcoded output paths; output is `dist/` or an explicit `out_dir`.
-- Toolchain `reportlab` + `cairosvg` + `pypdf`: Tasks 1, 5, 8, 10. Covered, and no fourth parser dependency was added.
-- Unicode font embedding (DejaVu, per-locale selectable): Task 1 (`fonts.py`, vendored TTFs, `font_family_for_locale`). Covered, and Task 5's manual check confirms Spanish accents.
-- Per-kit pages (map + rules + narration + puzzles + glossary) and the character sheet: Tasks 5, 7, 8, 9, 10. Covered. Idea-bank is included as an extra grown-up page.
-- Glossary, map labels, idea bank generated from canon and content: glossary from canon (Task 7). Map labels from canon are explicitly deferred (stated in "Decisions locked"); the map art still renders (Task 8).
-- Rules page newcomer callout: the callout text lives in the authored `rules.md` (it is already present in the migrated content), so it renders through Task 5 with no extra code. Wiring the callout is Plan 5's remaining job for any new story.
-- Standalone Guide for the Grown-Up PDF per locale: Task 11 renderer plus Task 12 `render-guide` CLI. The content is authored in Plan 5; the build is delivered here, as the spec requires.
-- GitHub Action on release (optional): not included. It is marked optional in the spec and depends on having content for more than one story; it belongs in a later, separate change.
+- Layout-only builders taking `(world, story, locale, reading_level)`: Task 12 `kit.build_kit`. Covered. No hardcoded output paths; output is `dist/` or an explicit `out_dir`.
+- Toolchain `reportlab` + `cairosvg` + `pypdf`: Tasks 3, 7, 10, 12. Covered, with no fourth parser dependency.
+- Unicode font embedding, selectable per language: Tasks 1, 3 (`fontspec.py`, vendored TTFs, `resolve_family`/`resolve_faces`). Covered, and extended per the user's request to be per-world with a per-locale override (Task 2 model, Task 3 resolver). Task 7's manual check confirms Spanish accents in the world's typeface.
+- Per-kit pages (map + rules + narration + puzzles + glossary) and the character sheet: Tasks 7, 9, 10, 11, 12. Covered, with the idea bank included as an extra grown-up page.
+- Glossary generated from canon: Task 9. Covered. Map labels from canon are explicitly deferred (the map art still renders, Task 10).
+- Rules-page newcomer callout: the callout text lives in the authored `rules.md` (already present in the migrated content), so it renders through Task 7 with no extra code; wiring it for new stories is Plan 5's job.
+- Standalone Guide for the Grown-Up PDF per locale: Task 7 renderer, Task 13 test, Task 14 `render-guide` CLI. Content is authored in Plan 5; the build is delivered here, as the spec requires.
+- GitHub Action on release (optional): not included, per its optional status and its dependence on having more than one story; it belongs in a later, separate change.
 
-**Items intentionally NOT in this plan (and where they go):** the actual world, story, and guide *prose* (Plans 3 to 5); canon-driven map labels (deferred enhancement); the release automation (optional, later). The Sleeping Garden content already exists from the migration, so Task 10's manual step builds real kits as an end-to-end check.
+**Items intentionally NOT in this plan (and where they go):** the actual world, story, and guide *prose* (Plans 3 to 5); canon-driven map labels (deferred enhancement); release automation (optional, later). The Sleeping Garden content already exists, so Task 12's manual step builds real kits end to end.
 
-**Placeholder scan:** every code step contains complete, runnable code. The only deferred item, canon-driven map labels, is called out in prose, not left as a TODO inside a task; the map still renders as authored art.
+**Placeholder scan:** every code step contains complete, runnable code. The only deferred item, canon-driven map labels, is called out in prose, not left as a TODO; the map still renders as authored art.
 
-**Type and name consistency across tasks:** `fonts.register_fonts`, `fonts.BODY/BODY_BOLD/BODY_ITALIC/BODY_BOLD_ITALIC/FAMILY`, `fonts.font_family_for_locale`; `theme.Theme.from_world/default`, `theme.make_styles`, `theme.page_painter`; `markdown.parse_markdown`, `markdown.inline_to_rl`, and the blocks `Heading/Para/Bullets/Table`; `flowables.blocks_to_flowables` (signature `(blocks, styles, theme)`, used identically in Tasks 7 and 10); `pages.render_flowables` (keyword `landscape_page`), `pages.render_markdown_file`, `pages.render_guide`; `glossary.glossary_flowables(entries, locale, styles, theme)`; `map.render_svg_to_pdf`; `sheets.render_character_sheet(out_path, locale, tier, theme)`; `kit.build_kit(root, world_id, story_id, locale, reading_level, *, out_dir)` and `kit.NARRATION_BY_LEVEL`; `strings.ui(locale, key)` and `strings.UI`. The kit builder reads content through Plan 1's `content.load_world/load_story/load_canon`, matching their signatures, and selects the sheet tier from `story.age.recommended` (an `Age` field defined in Plan 1).
+**Type and name consistency across tasks:** `fontspec.FAMILIES/KNOWN_FAMILIES/DEFAULT_FAMILY/faces_for/font_path/FaceFiles`; `models.WorldFonts` and `World.fonts`; `fonts.register_family`, `fonts.resolve_family`, `fonts.resolve_faces`, and `fonts.FontFaces` (with `.normal/.bold/.italic/.bold_italic`); `markdown.parse_markdown`, `markdown.inline_to_rl`, and the blocks `Heading/Para/Bullets/Table`; `theme.Theme.from_world/default`, `theme.make_styles(theme, faces)`, `theme.page_painter`; `flowables.blocks_to_flowables(blocks, styles, theme)`; `pages.render_flowables(flows, out, world, *, landscape_page)`, `pages.render_markdown_file(src, out, world, locale)`, `pages.render_guide(src, out, locale)`; `glossary.glossary_flowables(entries, locale, styles, theme)`; `map.render_svg_to_pdf`; `sheets.render_character_sheet(out, locale, tier, theme, faces)`; `kit.build_kit(root, world_id, story_id, locale, reading_level, *, out_dir)` and `kit.NARRATION_BY_LEVEL`; `strings.ui(locale, key)` and `strings.UI`. The kit reads content through Plan 1's `content.load_world/load_story/load_canon`, resolves faces once per `(world, locale)`, and selects the sheet tier from `story.age.recommended`.
 
 ---
 
@@ -1864,7 +2193,7 @@ git commit -m "docs: mark Plan 2 PDF pipeline built and document render commands
 
 Plan complete and saved to `docs/superpowers/plans/2026-06-02-wits-and-wonder-02-pdf-build-pipeline.md`.
 
-Plans 3 to 5 (the two worlds and their stories, and the Guide content) build on this pipeline. The Sleeping Garden content already exists in the schema, so the moment Plan 2 lands, real kits render end to end.
+Plans 3 to 5 build on this pipeline. The Sleeping Garden content already exists in the schema, so the moment Plan 2 lands, real kits render end to end in the world's chosen typeface.
 
 Two execution options:
 
