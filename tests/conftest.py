@@ -71,3 +71,83 @@ def sample_repo(tmp_path: Path) -> Path:
     """).lstrip(), encoding="utf-8")
 
     return tmp_path
+
+
+@pytest.fixture
+def repo_with_images(tmp_path: Path) -> Path:
+    world_dir = tmp_path / "worlds" / "w"
+    canon_dir = world_dir / "canon"
+    story_dir = world_dir / "stories" / "s"
+    for directory in (canon_dir, story_dir):
+        directory.mkdir(parents=True)
+
+    (world_dir / "world.yaml").write_text(textwrap.dedent("""
+        id: w
+        name:
+          en-GB: World
+          es-ES: Mundo
+        visual_style: Soft test storybook art in cream and green.
+        images:
+          - id: cover
+            role: cover
+            orientation: portrait
+            prompt: A wide calm island in a gentle sky.
+            alt:
+              en-GB: A calm island.
+              es-ES: Una isla tranquila.
+          - id: beast
+            role: portrait
+            orientation: square
+            canon_ref: creature1
+            prompt: The friendly creature, curled and calm.
+            alt:
+              en-GB: A friendly creature.
+              es-ES: Una criatura amable.
+    """).lstrip(), encoding="utf-8")
+
+    (canon_dir / "creatures.yaml").write_text(textwrap.dedent("""
+        - id: creature1
+          names:
+            en-GB: Test Beast
+            es-ES: Bestia de Prueba
+          kind: creature
+          description:
+            en-GB: A gentle test creature.
+            es-ES: Una criatura amable de prueba.
+    """).lstrip(), encoding="utf-8")
+
+    (story_dir / "story.yaml").write_text(textwrap.dedent("""
+        world: w
+        id: s
+        title:
+          en-GB: Story
+          es-ES: Cuento
+        age:
+          recommended: young
+        skills: [logic]
+        peril: gentle
+        adult_gm: true
+        dice:
+          minimum: 1d6
+        players:
+          min: 2
+          max: 2
+        play_time_minutes: 30
+        images:
+          - id: cover
+            role: cover
+            orientation: portrait
+            prompt: The story scene at dawn.
+            alt:
+              en-GB: The story at dawn.
+              es-ES: El cuento al amanecer.
+          - id: scene-1
+            role: scene
+            orientation: landscape
+            prompt: A wide gentle moment in the tale.
+            alt:
+              en-GB: A gentle moment.
+              es-ES: Un momento tranquilo.
+    """).lstrip(), encoding="utf-8")
+
+    return tmp_path
