@@ -1,0 +1,8 @@
+# The maintainer reviews all content and toolchain changes.
+# GitHub requests review from these owners automatically on every PR.
+
+*               @agigante80
+/worlds/        @agigante80
+/guide/         @agigante80
+/lexicon/       @agigante80
+/build/         @agigante80
