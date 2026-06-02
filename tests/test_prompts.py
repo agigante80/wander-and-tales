@@ -65,3 +65,5 @@ def test_markdown_has_fenced_prompt_and_alt(repo_with_images):
     assert "```" in md
     assert "Alt text:" in md
     assert "- en-GB:" in md
+    assert "## World: w" in md
+    assert "## Story: w / s" in md

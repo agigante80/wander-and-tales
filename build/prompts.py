@@ -44,7 +44,10 @@ def compose_prompt(world: World, image: Image, canon_by_id: dict[str, CanonEntry
     if entry is not None:
         name = entry.names.get(locales.CANONICAL_LOCALE, image.canon_ref)
         desc = (entry.description or {}).get(locales.CANONICAL_LOCALE, "")
-        parts.append(f"Depicts: {name}, {desc}".rstrip(", ").rstrip())
+        depicts = f"Depicts: {name}"
+        if desc:
+            depicts = f"{depicts}, {desc}"
+        parts.append(depicts)
     return "\n\n".join(p for p in parts if p)
 
 
