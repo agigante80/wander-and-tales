@@ -16,12 +16,15 @@ The full, approved design lives at
 treat the spec as the source of truth. The work is split into a sequence of plans
 under `docs/superpowers/plans/`.
 
-**Plan 1 (content model and tooling) is built**: the `build` package, its pytest
-suite, and the `validate`/`lint`/`catalog` CLI all exist and pass. Still to come:
-the PDF build pipeline (Plan 2: `templates/`, font embedding, layout-only
-builders, page merge), then the actual `worlds/`, `lexicon/`, and `guide/` content
-(Plans 3 to 5). So the `worlds/` tree the loaders read does not have real content
-yet; `tests/conftest.py` builds a tiny valid world on a tmp path to test against.
+**Plans 1 and 2 are built.** Plan 1 (content model and tooling): the `build`
+package, its pytest suite, and the `validate`/`lint`/`catalog` CLI. Plan 2 (PDF
+build pipeline): the `build/render/` package (font embedding, the markdown to
+PDF renderer, themed pages, glossary from canon, SVG map merge, character sheets,
+kit assembly, the Guide renderer) and the `render`/`render-guide` CLI. The
+Floating Isles / Sleeping Garden content already exists, so real kits build into
+`dist/`. Still to come: the remaining `worlds/`, `lexicon/`, and `guide/` content
+(Plans 3 to 5). `tests/conftest.py` still builds a tiny valid world on a tmp path
+for the data-layer tests.
 
 ## Commands
 
@@ -36,12 +39,18 @@ Use the project virtualenv at `.venv/`.
 .venv/bin/python -m build validate --root .   # load + validate all content
 .venv/bin/python -m build lint --root .       # structural lint (exit 1 on error)
 .venv/bin/python -m build catalog --root . --out catalog.md
+
+.venv/bin/python -m build render --root . \
+  --world floating-isles --story sleeping-garden \
+  --locale en-GB --reading-level simple        # build one kit PDF into dist/
+.venv/bin/python -m build render-guide --root . --locale en-GB  # build the Guide PDF
 ```
 
-Install (editable) into a fresh venv with `pip install -e ".[dev]"`. Runtime deps
-are `pydantic>=2.6` and `PyYAML>=6.0` (see `pyproject.toml`). The PDF renderer
-deps (`reportlab`, `cairosvg`, `pypdf`) arrive with Plan 2 and are not installed
-yet.
+Install (editable) into a fresh venv with `pip install -e ".[dev,render]"`. Core
+runtime deps are `pydantic>=2.6` and `PyYAML>=6.0`; the `render` extra adds
+`reportlab`, `cairosvg`, and `pypdf` (see `pyproject.toml`). DejaVu Sans and Serif
+are vendored under `build/assets/fonts/` and embedded, so accents render and the
+build never depends on system fonts.
 
 ## Architecture
 
@@ -73,6 +82,18 @@ so there is no clash. Data flows in one direction:
 - **`spelling.py` is a deliberate stub.** The path-scoped en-GB/es-ES spelling
   lint is deferred until locale content exists; `check_text` returns no findings
   today so callers can wire the seam in safely.
+- **`fontspec.py` is the font vocabulary.** It is the single source of truth for
+  which typefaces exist (family key to TTF faces); the model validates the world
+  `fonts` block against it. A world declares its typeface in `world.yaml` under
+  `fonts` (a `default` family plus an optional `by_locale` override); resolution
+  is `by_locale[locale]`, then `default`, then the global default family.
+- **`build/render/` is the layout-only PDF pipeline.** Builders take
+  `(world, story, locale, reading_level)` and never hardcode a colour, font, or
+  path. `markdown.py` parses the content GFM, `theme.py` themes pages from the
+  world palette and resolved faces, `flowables.py`/`pages.py` render, `glossary.py`
+  builds the appendix from canon, `map.py` renders the SVG via cairosvg, `sheets.py`
+  draws the age-tiered character sheets, and `kit.py` merges the ordered pages with
+  pypdf into `dist/`. Output is `dist/<world>_<story>_<locale>_<level>.pdf`.
 
 Authoring any kid-facing or grown-up-facing prose or YAML content is a content
 task, not a coding task: use the `authoring-story-content` skill, which encodes
@@ -103,24 +124,26 @@ this for file writes and edits (it activates on a normal session start).
   plus skills, players, play time. An `adult_gm` badge appears on every kit.
 - **Canon**: each world has a name registry (`canon/`) and there is a repo-wide
   `lexicon/`; story prose follows canon, checked by a lightweight lint.
-- **Fonts**: embed a Unicode font (e.g. DejaVu Sans) so accents render.
+- **Fonts**: embed a Unicode font so accents render. DejaVu Sans and Serif are
+  vendored; a world picks its typeface in `world.yaml` under `fonts` (a `default`
+  family plus an optional `by_locale` override), validated against `fontspec.py`.
 
 ## Verification
 
 Per the spec, every authored `(story, language, reading_level)` combination must
-build without error, and the canon/lexicon lint must pass with no warnings. Once
-the PDF pipeline exists (Plan 2): after generating any PDF, rasterize it to PNG
-and eyeball it before declaring it done; confirm accents render, layout is intact,
-and the map merges correctly.
+build without error, and the canon/lexicon lint must pass with no warnings. The
+PDF pipeline exists (Plan 2): after generating any PDF, rasterize it to PNG (for
+example `pdftoppm -png -r 110 file.pdf out`) and eyeball it before declaring it
+done; confirm accents render, layout is intact, and the map merges correctly.
 
 ## Layout pointers
 
-- `El_Jardin_Dormido_kit/scripts/` legacy Spanish kit layout scripts. The kit's
-  content has been migrated into the schema (the world "The Floating Isles", the
-  story "The Sleeping Garden"); only these `reportlab`/`cairosvg`/`pypdf` scripts
-  and `mapa.svg` remain, kept as the layout starting point to refactor into the
-  Plan 2 PDF pipeline. Their output paths are hardcoded to `/home/claude/...` or
-  `/mnt/user-data/outputs/`; change them to a local path before running.
+- `build/render/` is the live PDF pipeline (Plan 2). The live map is at
+  `worlds/floating-isles/assets/map.svg`.
+- `El_Jardin_Dormido_kit/scripts/` are the legacy Spanish kit scripts, now
+  superseded by `build/render/`. They are kept only as a visual-style reference
+  (palette, banner, decorative border) and for the original `mapa.svg`; their
+  output paths are hardcoded to `/home/claude/...` or `/mnt/user-data/outputs/`.
 - `research/` evidence base and marketing copy.
 - `docs/superpowers/specs/` design specs; `docs/superpowers/plans/` the plan set.
 
