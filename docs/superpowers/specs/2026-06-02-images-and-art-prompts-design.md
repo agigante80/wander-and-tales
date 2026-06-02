@@ -22,15 +22,21 @@ text; only the alternative text is localized.
 - Keep prompts DRY and visually consistent: the world owns one art direction
   preamble; each image owns only its subject.
 - Export a copy and paste ready prompt list with a CLI.
+- Generate the image files directly from those prompts with an optional command
+  that calls the OpenAI Images API, so a key holder can fill in the art in one
+  step.
 - Make prompt authoring part of the content authoring workflow (skill and spec),
   so every future world and story ships with its prompts.
 
 ## Non-goals (deferred, by agreement)
 
-- Generating the image files (done by an external tool, by hand for now).
-- Embedding images into the kit PDFs. The schema is shaped so this drops in later.
+- Embedding images into the kit PDFs. The schema and the generated files are
+  shaped so this drops in later, exactly like the optional map page.
 - A lint that every declared image has a matching file on disk. Add when files
   start arriving.
+- Support for image providers other than OpenAI. The generator is one small module
+  behind a narrow interface, so another backend can be added later without
+  touching the schema or the prompts.
 
 ## Vocabulary (single source of truth)
 
@@ -120,6 +126,62 @@ Output is grouped by world then story; each image shows a heading
 (`<owner> / <id> [role, orientation]`), the composed prompt in a fenced block for
 easy copying, and the alt text per locale.
 
+## Image generation (optional command)
+
+A key holder can generate the actual art from the composed prompts in one step,
+without leaving the repo. This is optional: it is the same composed prompts as the
+`prompts` export, just sent to the OpenAI Images API instead of printed.
+
+A new module `build/generate.py` wraps generation behind a narrow interface so a
+different backend could replace it later:
+
+- `image_size_for(orientation) -> str` maps the orientation vocabulary to an
+  OpenAI size: `portrait` to `1024x1536`, `landscape` to `1536x1024`, `square` to
+  `1024x1024`.
+- `generate_image(prompt, orientation, out_path, *, client=None) -> Path` calls
+  the OpenAI Images API (`gpt-image-1`), decodes the returned base64 PNG, and
+  writes it to `out_path`. The `client` argument is injectable so tests pass a fake
+  and never hit the network.
+- `target_path(root, entry) -> Path` returns the asset path for a `PromptEntry`:
+  `worlds/<world>/assets/<id>.png` for a world image, or
+  `worlds/<world>/stories/<story>/assets/<id>.png` for a story image. This is the
+  same `assets/` location the map uses and the future embedding step will read.
+- `generate_all(root, *, world=None, story=None, force=False, client) -> list[Path]`
+  is the orchestrator the CLI calls: it resolves prompts with
+  `iter_image_prompts`, applies the `--world`/`--story` filters, skips existing
+  targets unless `force`, and calls `generate_image` for the rest, returning the
+  paths written. The `client` is passed in, so tests drive it with a fake and the
+  CLI constructs the real OpenAI client only after confirming the key exists.
+
+A new CLI subcommand:
+
+```
+python -m build generate-images --root .                      # all missing images
+python -m build generate-images --root . --world floating-isles --story sleeping-garden
+python -m build generate-images --root . --force              # regenerate existing
+```
+
+Behaviour:
+
+- Resolves prompts with the same `iter_image_prompts` the `prompts` command uses,
+  so what you generate is exactly what you previewed.
+- Skips any image whose target file already exists, unless `--force` is given.
+- Requires the `OPENAI_API_KEY` environment variable; if it is missing the command
+  prints a clear message and exits non-zero before calling the API.
+- Reports each file written and a final count.
+
+`openai` is added as a new optional dependency group `images` in `pyproject.toml`,
+so the core install and the `render` install stay lean. The command imports
+`openai` lazily inside its branch, so `validate`, `lint`, `catalog`, `prompts`,
+and `render` all keep working without it installed.
+
+Generated PNGs land in `assets/<id>.png`, the same place the map SVG lives, and
+are committed like any other build asset. Reason: this is an open print and play
+library, so the repo must build complete kits without anyone re-spending API
+money; the chosen art is a build input, exactly like `map.svg`. The command writes
+one file per image id (the chosen art), and `--force` overwrites it in place, so
+the tree never fills with throwaway candidates.
+
 ## Authoring workflow (the "future generation" requirement)
 
 Two documentation changes make prompts a standard part of authoring:
@@ -157,22 +219,32 @@ real prompts to paste into a generator.
   the alt text.
 - `tests/test_cli_prompts.py`: the `prompts` subcommand prints and writes, and the
   `--world`/`--story` filters narrow the output.
+- `tests/test_generate.py`: `image_size_for` maps each orientation correctly;
+  `target_path` returns the right `assets/` location for world and story images;
+  `generate_image` with an injected fake client writes the decoded PNG bytes and
+  never touches the network.
+- `tests/test_cli_generate.py`: the `generate-images` subcommand, run with a fake
+  client, writes the expected files, skips existing files without `--force`,
+  overwrites with `--force`, and exits non-zero with a clear message when
+  `OPENAI_API_KEY` is absent.
 - `python -m build validate --root .` stays green with the new content.
 
 ## File touch list
 
-- New: `build/visuals.py`, `build/prompts.py`, and their tests.
+- New: `build/visuals.py`, `build/prompts.py`, `build/generate.py`, and their
+  tests.
 - Modified: `build/models.py` (Image, `World.visual_style`, `World.images`,
-  `Story.images`), `build/__main__.py` (the `prompts` subcommand),
-  `build/lint.py` (optional `canon_ref` existence warning).
+  `Story.images`), `build/__main__.py` (the `prompts` and `generate-images`
+  subcommands), `build/lint.py` (optional `canon_ref` existence warning),
+  `pyproject.toml` (the `images` optional dependency group for `openai`).
 - Content: `worlds/floating-isles/world.yaml`,
   `worlds/floating-isles/stories/sleeping-garden/story.yaml`.
 - Docs: the main spec's new section, and the `authoring-story-content` skill.
 
 ## Future work (named, not built here)
 
-- Generate the image files (external tool) and drop them in story or world
-  `assets/`.
 - Embed images into kit PDFs by role and orientation, optional and skipped when a
   file is absent, exactly like the map page.
 - A lint that every declared image has a file once generation begins.
+- Additional image backends behind the same `generate.py` interface, if a provider
+  other than OpenAI is ever wanted.
