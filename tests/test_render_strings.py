@@ -15,3 +15,13 @@ def test_ui_returns_text_and_raises_on_unknown_key():
     assert strings.ui("es-ES", "glossary_title")
     with pytest.raises(KeyError):
         strings.ui("en-GB", "no_such_key")
+
+
+def test_map_strings_present_in_both_locales():
+    for locale in ("en-GB", "es-ES"):
+        for key in (
+            "map_subtitle", "map_start", "map_hint_start", "map_goal",
+            "map_legend_title", "map_legend_a1", "map_legend_a2",
+            "map_legend_b1", "map_legend_b2", "map_legend_foot",
+        ):
+            assert strings.ui(locale, key)
