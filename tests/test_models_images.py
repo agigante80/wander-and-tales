@@ -44,6 +44,11 @@ def test_image_defaults_canon_ref_to_none():
     assert Image.model_validate(_image()).canon_ref is None
 
 
+def test_blank_canon_ref_fails():
+    with pytest.raises(ValidationError):
+        Image.model_validate(_image(canon_ref="   "))
+
+
 def test_unknown_role_fails():
     with pytest.raises(ValidationError):
         Image.model_validate(_image(role="banner"))
