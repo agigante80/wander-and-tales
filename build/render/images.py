@@ -6,10 +6,11 @@ portraits beside their canon entries in the glossary. This module only builds
 flowables; the kit decides which image files exist and passes them in.
 """
 
+import io
 from pathlib import Path
 
+from PIL import Image as PILImage
 from reportlab.lib.units import mm
-from reportlab.lib.utils import ImageReader
 from reportlab.platypus import Image as RLImage, Paragraph, Spacer
 
 from build.render import markdown as md
@@ -19,12 +20,37 @@ _COVER_MAX_HEIGHT = 222 * mm
 _SCENE_MAX_HEIGHT = 115 * mm
 _PORTRAIT_SIZE = 34 * mm
 
+# The largest pixel dimension we embed. A full A4-width image at 200 DPI is about
+# 1370 px, so 1400 keeps print quality while letting us recompress the source art
+# (multi-megabyte watercolour PNGs) to small JPEGs, keeping kit PDFs a few MB
+# rather than tens of MB.
+_MAX_EMBED_PX = 1400
+_JPEG_QUALITY = 82
+
+
+def _embed_jpeg(path: Path) -> tuple[io.BytesIO, int, int]:
+    """Downscale to a print-sane size and recompress to JPEG for a small PDF.
+
+    Returns the JPEG buffer and its pixel width and height.
+    """
+    with PILImage.open(path) as opened:
+        image = opened.convert("RGB")
+        image.thumbnail((_MAX_EMBED_PX, _MAX_EMBED_PX))
+        width, height = image.size
+        buffer = io.BytesIO()
+        image.save(buffer, format="JPEG", quality=_JPEG_QUALITY)
+    buffer.seek(0)
+    return buffer, width, height
+
 
 def image_flowable(path: Path, max_width: float, max_height: float) -> RLImage:
-    """A reportlab Image scaled to fit within the box, preserving aspect ratio."""
-    iw, ih = ImageReader(str(path)).getSize()
+    """A reportlab Image scaled to fit within the box, preserving aspect ratio.
+
+    The source is recompressed to a print-sized JPEG so kit PDFs stay small.
+    """
+    buffer, iw, ih = _embed_jpeg(path)
     scale = min(max_width / iw, max_height / ih)
-    img = RLImage(str(path), width=iw * scale, height=ih * scale)
+    img = RLImage(buffer, width=iw * scale, height=ih * scale)
     img.hAlign = "CENTER"
     return img
 
