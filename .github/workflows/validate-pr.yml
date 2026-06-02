@@ -1,0 +1,50 @@
+name: Validate PR
+
+on:
+  pull_request:
+    paths:
+      - 'worlds/**'
+      - 'guide/**'
+      - 'lexicon/**'
+      - 'build/**'
+      - 'tests/**'
+      - 'pyproject.toml'
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install Cairo
+        run: sudo apt-get update && sudo apt-get install -y libcairo2
+      - name: Install the toolchain
+        run: pip install -e ".[dev,render]"
+      - name: Run the test suite
+        run: python -m pytest -q
+      - name: Validate content
+        run: python -m build validate --root .
+      - name: Lint content
+        run: python -m build lint --root .
+      - name: Build preview kits
+        run: |
+          mkdir -p preview
+          python - <<'PY'
+          from pathlib import Path
+          from build import content
+          from build.render import kit
+          for story_yaml in sorted(Path("worlds").glob("*/stories/*/story.yaml")):
+              story = content.load_story(story_yaml)
+              world = story_yaml.parents[2].name
+              for locale in ("en-GB", "es-ES"):
+                  kit.build_kit(Path("."), world, story.id, locale, "simple", out_dir=Path("preview"))
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: preview-kits
+          path: preview/*.pdf
