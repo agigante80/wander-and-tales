@@ -34,7 +34,14 @@ def _embed_jpeg(path: Path) -> tuple[io.BytesIO, int, int]:
     Returns the JPEG buffer and its pixel width and height.
     """
     with PILImage.open(path) as opened:
-        image = opened.convert("RGB")
+        if opened.mode in ("RGBA", "LA", "P"):
+            # Flatten any transparency onto white so transparent areas print white,
+            # not whatever colour sat hidden beneath the alpha.
+            rgba = opened.convert("RGBA")
+            white = PILImage.new("RGBA", rgba.size, (255, 255, 255, 255))
+            image = PILImage.alpha_composite(white, rgba).convert("RGB")
+        else:
+            image = opened.convert("RGB")
         image.thumbnail((_MAX_EMBED_PX, _MAX_EMBED_PX))
         width, height = image.size
         buffer = io.BytesIO()
