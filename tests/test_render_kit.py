@@ -109,3 +109,36 @@ def test_neutral_map_serves_en_gb_and_es_es(sample_repo, tmp_path):
     # The neutral template adds a map page for BOTH locales (en-GB no longer omitted).
     assert len(PdfReader(str(en)).pages) == base + 1
     assert len(PdfReader(str(es)).pages) == base + 1
+
+
+def test_kit_embeds_a_cover_page_when_the_image_exists(sample_repo, tmp_path):
+    from PIL import Image as PILImage
+
+    story_dir = sample_repo / "worlds/floating-isles/stories/sleeping-garden"
+    base = len(
+        PdfReader(
+            str(
+                kit.build_kit(
+                    sample_repo, "floating-isles", "sleeping-garden", "en-GB",
+                    "simple", out_dir=tmp_path / "a",
+                )
+            )
+        ).pages
+    )
+    assets = story_dir / "assets"
+    assets.mkdir(parents=True, exist_ok=True)
+    PILImage.new("RGB", (400, 600), "white").save(assets / "cover.png")
+    sy = story_dir / "story.yaml"
+    sy.write_text(
+        sy.read_text(encoding="utf-8")
+        + (
+            "images:\n  - id: cover\n    role: cover\n    orientation: portrait\n"
+            "    prompt: A cover.\n    alt:\n      en-GB: A cover.\n      es-ES: Una portada.\n"
+        ),
+        encoding="utf-8",
+    )
+    out = kit.build_kit(
+        sample_repo, "floating-isles", "sleeping-garden", "en-GB", "simple",
+        out_dir=tmp_path / "b",
+    )
+    assert len(PdfReader(str(out)).pages) == base + 1
