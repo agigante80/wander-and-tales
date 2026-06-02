@@ -85,12 +85,30 @@ python -m build generate-images --root .               # generate art (needs OPE
 - `docs/superpowers/specs/` and `docs/superpowers/plans/` hold the design specs and
   implementation plans.
 
-### Add your own world or story
+## Contributing a story
 
-Adding content is a writing task. Author the YAML and Markdown under `worlds/`
-(British English first, then Spanish from Spain), keep every name consistent with
-the world's `canon/`, run `validate` and `lint`, then build a kit. The voice,
-reading-level, peril-tone, and canon rules are described in `CLAUDE.md` and the
+This library grows through contributions, and adding a world or a story is a writing
+task, not a coding task.
+
+The easiest way is the **`create-story` skill** in Claude Code: ask to "create a
+story" and it guides you through choosing or creating a world, picking or writing an
+idea, setting the audience and challenges, writing the content in British English and
+Spanish from Spain, validating it, previewing the kit, and opening a draft pull
+request. It follows the project's voice and ethos rules for you. You can also author
+the files by hand if you prefer.
+
+A few things worth knowing, with the rest in [`CONTRIBUTING.md`](CONTRIBUTING.md):
+
+- A maintainer reviews and merges every pull request.
+- You do **not** need an OpenAI key. A prompts-only story is illustrated by the
+  maintainer after it is accepted; their key is never used by a contributor. If you
+  want to, you may include pictures you made yourself or generated with your own key.
+- Please do not commit built PDFs; continuous integration validates your PR and
+  builds a preview kit you can download.
+- British English is the source of truth; non-English text is treated as
+  machine-drafted and may get a native-speaker review.
+
+The voice, reading-level, peril-tone, and canon rules live in `CLAUDE.md` and the
 `authoring-story-content` guidance.
 
 ## The promise
