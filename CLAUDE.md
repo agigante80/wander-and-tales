@@ -94,6 +94,15 @@ so there is no clash. Data flows in one direction:
   builds the appendix from canon, `map.py` renders the SVG via cairosvg, `sheets.py`
   draws the age-tiered character sheets, and `kit.py` merges the ordered pages with
   pypdf into `dist/`. Output is `dist/<world>_<story>_<locale>_<level>.pdf`.
+- **Maps are world-level or story-level, and may be per-locale.** A story map
+  lives at `worlds/<world>/stories/<story>/assets/`, a world map at
+  `worlds/<world>/assets/`. `map.py:find_map` resolves a kit's map in order: story
+  map for the locale (`map.<locale>.svg`), story map generic (`map.svg`), then the
+  same two at the world level. When the art has baked-in text, add a
+  `map.<locale>.svg`; a locale with no matching map omits the map page rather than
+  showing another language's labels. The Sleeping Garden's map is es-ES only today
+  (`stories/sleeping-garden/assets/map.es-ES.svg`), so en-GB kits currently have no
+  map until an en-GB version or canon-driven labels exist.
 
 Authoring any kid-facing or grown-up-facing prose or YAML content is a content
 task, not a coding task: use the `authoring-story-content` skill, which encodes
@@ -138,8 +147,9 @@ done; confirm accents render, layout is intact, and the map merges correctly.
 
 ## Layout pointers
 
-- `build/render/` is the live PDF pipeline (Plan 2). The live map is at
-  `worlds/floating-isles/assets/map.svg`.
+- `build/render/` is the live PDF pipeline (Plan 2). The Sleeping Garden's story
+  map is at `worlds/floating-isles/stories/sleeping-garden/assets/map.es-ES.svg`
+  (es-ES only so far; see the map-resolution note in Architecture).
 - The legacy `El_Jardin_Dormido_kit/` scripts have been removed: they were fully
   superseded by `build/render/` and their content was migrated into the schema.
   Recover the old `reportlab` decorative-drawing code from git history (it was
