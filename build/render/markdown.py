@@ -108,3 +108,22 @@ def parse_markdown(text: str) -> list:
             i += 1
         blocks.append(Para(" ".join(para)))
     return blocks
+
+
+_BOLD = re.compile(r"\*\*(.+?)\*\*")
+_ITALIC = re.compile(r"(?<!\*)\*(?!\*)(.+?)(?<!\*)\*(?!\*)")
+
+
+def inline_to_rl(text: str) -> str:
+    """Convert inline markdown to reportlab paragraph markup.
+
+    Escapes &, < and > first (so content cannot inject markup), then turns
+    **bold** and *italic* into <b> and <i>. Bold is handled before italic so a
+    double star is never mistaken for two italics. Newlines collapse to spaces.
+    """
+    escaped = (
+        text.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+    )
+    bolded = _BOLD.sub(r"<b>\1</b>", escaped)
+    italicised = _ITALIC.sub(r"<i>\1</i>", bolded)
+    return " ".join(italicised.split("\n"))
