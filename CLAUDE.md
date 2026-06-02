@@ -102,9 +102,11 @@ so there is no clash. Data flows in one direction:
   map for the locale (`map.<locale>.svg`), story map generic (`map.svg`), then the
   same two at the world level. When the art has baked-in text, add a
   `map.<locale>.svg`; a locale with no matching map omits the map page rather than
-  showing another language's labels. The Sleeping Garden's map is es-ES only today
-  (`stories/sleeping-garden/assets/map.es-ES.svg`), so en-GB kits currently have no
-  map until an en-GB version or canon-driven labels exist.
+  showing another language's labels. A map may also be a neutral template: text
+  becomes `data-label` placeholders that `map.py:render_map_template` fills per
+  locale from the story title, canon names, and `map_*` UI strings, so one `map.svg`
+  serves every language. The Sleeping Garden uses this (its old `map.es-ES.svg` is
+  gone), so en-GB kits now include the map too.
 
 Authoring any kid-facing or grown-up-facing prose or YAML content is a content
 task, not a coding task: use the `authoring-story-content` skill, which encodes
