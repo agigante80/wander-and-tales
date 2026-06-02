@@ -25,18 +25,20 @@ def test_generate_images_writes_files(repo_with_images, monkeypatch, capsys):
     assert "4 image(s) written" in capsys.readouterr().out
 
 
-def test_generate_images_skips_then_forces(repo_with_images, monkeypatch):
+def test_generate_images_skips_then_forces(repo_with_images, monkeypatch, capsys):
     monkeypatch.setenv("OPENAI_API_KEY", "test-key")
     monkeypatch.setattr(generate, "make_client", lambda api_key: _FakeClient())
     main(["generate-images", "--root", str(repo_with_images)])
+    capsys.readouterr()  # discard first-run output
     cover = repo_with_images / "worlds" / "w" / "assets" / "cover.png"
     mtime = cover.stat().st_mtime_ns
-    # second run skips (file already exists), so the bytes are not rewritten
+    # second run skips every image (files already exist), writing nothing
     main(["generate-images", "--root", str(repo_with_images)])
+    assert "0 image(s) written" in capsys.readouterr().out
     assert cover.stat().st_mtime_ns == mtime
-    # force regenerates
+    # force regenerates all four
     main(["generate-images", "--root", str(repo_with_images), "--force"])
-    assert cover.is_file()
+    assert "4 image(s) written" in capsys.readouterr().out
 
 
 def test_generate_images_missing_key_returns_one(repo_with_images, monkeypatch, capsys):

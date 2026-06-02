@@ -1,6 +1,7 @@
 """Command line: python -m build {validate,lint,catalog}."""
 
 import argparse
+import os
 import sys
 from pathlib import Path
 
@@ -108,8 +109,6 @@ def main(argv: list[str] | None = None) -> int:
         return 0
 
     if args.command == "generate-images":
-        import os
-
         try:
             from dotenv import load_dotenv
 
