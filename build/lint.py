@@ -4,6 +4,7 @@ What it guarantees: canon ids are unique within a world, every canon and lexicon
 entry carries all required locales (enforced by the models, surfaced here as a
 readable report), each story's `world` matches the directory it lives in, and
 every required content file exists for every required locale.
+It also warns when an image's canon_ref names no canon entry.
 """
 
 from dataclasses import dataclass
@@ -12,6 +13,7 @@ from pathlib import Path
 from pydantic import ValidationError
 
 from build import content, locales
+from build.models import Image
 
 _REQUIRED_CONTENT_FILES = (
     "narration.simple.md",
@@ -110,7 +112,7 @@ def _lint_world(world_dir: Path) -> list[LintIssue]:
     return issues
 
 
-def _lint_image_refs(images, canon_ids: set[str], location: str) -> list[LintIssue]:
+def _lint_image_refs(images: list[Image], canon_ids: set[str], location: str) -> list[LintIssue]:
     issues: list[LintIssue] = []
     for image in images:
         if image.canon_ref and image.canon_ref not in canon_ids:

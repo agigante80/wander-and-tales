@@ -36,3 +36,30 @@ def test_known_canon_ref_is_clean(sample_repo):
     assert not any(
         i.level == "warning" and "canon_ref" in i.message for i in issues
     )
+
+
+def _set_world_image(sample_repo, canon_ref):
+    world_yaml = sample_repo / "worlds/floating-isles/world.yaml"
+    world_yaml.write_text(
+        world_yaml.read_text(encoding="utf-8")
+        + (
+            "images:\n"
+            "  - id: cover\n"
+            "    role: cover\n"
+            "    orientation: portrait\n"
+            f"    canon_ref: {canon_ref}\n"
+            "    prompt: A world image.\n"
+            "    alt:\n"
+            "      en-GB: A world image.\n"
+            "      es-ES: Una imagen del mundo.\n"
+        ),
+        encoding="utf-8",
+    )
+
+
+def test_unknown_world_image_canon_ref_is_a_warning(sample_repo):
+    _set_world_image(sample_repo, "no-such-world-ref")
+    issues = lint.lint_repo(sample_repo)
+    assert any(
+        i.level == "warning" and "no-such-world-ref" in i.message for i in issues
+    )
