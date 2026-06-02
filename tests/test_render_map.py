@@ -50,3 +50,19 @@ def test_locale_specific_map_overrides_generic(tmp_path):
     assert kit_map.find_map(world, story, "es-ES") == story / "assets" / "map.es-ES.svg"
     # a locale without its own map falls back to the generic story map
     assert kit_map.find_map(world, story, "en-GB") == story / "assets" / "map.svg"
+
+
+def test_wrap_one_word_stays_one_line():
+    assert kit_map._wrap("Mist", 2) == ["Mist"]
+
+
+def test_wrap_two_words_split_one_each():
+    assert kit_map._wrap("Vine Gate", 2) == ["Vine", "Gate"]
+
+
+def test_wrap_four_words_balanced():
+    assert kit_map._wrap("La Puerta de Enredaderas", 2) == ["La Puerta", "de Enredaderas"]
+
+
+def test_wrap_max_one_returns_whole_text():
+    assert kit_map._wrap("The Talking Fountain", 1) == ["The Talking Fountain"]

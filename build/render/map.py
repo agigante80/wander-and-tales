@@ -15,6 +15,26 @@ from pathlib import Path
 import cairosvg
 
 
+def _wrap(text: str, max_lines: int) -> list[str]:
+    """Split text on spaces into at most max_lines balanced lines, preserving order.
+
+    One word stays on one line; a two-word name splits one word per line; a longer
+    name is balanced as evenly as possible. No word is ever dropped.
+    """
+    words = text.split()
+    if max_lines <= 1 or len(words) <= 1:
+        return [text] if text else []
+    lines_wanted = min(max_lines, len(words))
+    per = len(words) / lines_wanted
+    lines: list[str] = []
+    start = 0
+    for index in range(lines_wanted):
+        end = round((index + 1) * per)
+        lines.append(" ".join(words[start:end]))
+        start = end
+    return [line for line in lines if line]
+
+
 def find_map(world_dir: Path, story_dir: Path, locale: str) -> Path | None:
     """Resolve the map for a (world, story, locale), or None if there is none.
 
