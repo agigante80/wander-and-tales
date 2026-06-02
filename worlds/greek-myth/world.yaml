@@ -1,0 +1,80 @@
+id: greek-myth
+name:
+  en-GB: The Sunlit Hills of Greece
+  es-ES: Las Colinas Soleadas de Grecia
+tone: sunlit heroism
+palette:
+  - "#fdf6e3"  # warm parchment background
+  - "#2f6fb0"  # Aegean blue (primary)
+  - "#3a9aa0"  # sea teal
+  - "#c96f4a"  # terracotta
+  - "#3f6fa0"  # deep sea blue
+  - "#e0a93b"  # ochre gold
+  - "#7a5aa0"  # amphora purple
+fonts:
+  default: dejavu-serif
+lore_summary:
+  en-GB: >
+    The sunlit hills of Greece roll down to a bright blue sea, dotted with olive
+    groves, white marble columns, and little towns where everyone knows your
+    name. High above, hidden in the clouds of Mount Olympus, the gods watch over
+    the world, and the hills are full of wonders: riddling sphinxes, kindly
+    centaurs, shy satyrs, and nymphs who sing by the springs. Here a hero is not
+    the strongest or the loudest, but the one who keeps a cool head, asks good
+    questions, and stands by a friend. The grandest deeds are done by being
+    clever and brave and kind. Even a fearsome guardian, met with courage and a
+    fair word, often turns out to be lonelier than it is wicked.
+  es-ES: >
+    Las colinas soleadas de Grecia bajan hasta un mar azul brillante, salpicadas
+    de olivares, columnas de mármol blanco y pueblecitos donde todos te conocen.
+    Allá arriba, escondidos entre las nubes del Monte Olimpo, los dioses cuidan
+    del mundo, y las colinas están llenas de maravillas: esfinges que plantean
+    acertijos, centauros amables, sátiros tímidos y ninfas que cantan junto a las
+    fuentes. Aquí un héroe no es el más fuerte ni el que más grita, sino quien
+    mantiene la cabeza fría, hace buenas preguntas y no abandona a un amigo. Las
+    hazañas más grandes se logran siendo listos, valientes y amables. Incluso un
+    guardián temible, si lo afrontáis con valor y buenas palabras, a menudo
+    resulta estar más solo que malvado.
+visual_style: >
+  Soft, warm storybook illustration in gentle watercolour and coloured-pencil
+  texture, with a sunlit Mediterranean mood: bright blue sky and sea, white marble
+  columns, silver-green olive trees, terracotta roofs and golden light. Use a
+  palette of warm parchment (#fdf6e3), Aegean blue (#2f6fb0), sea teal (#3a9aa0),
+  terracotta (#c96f4a), deep sea blue (#3f6fa0), ochre gold (#e0a93b) and amphora
+  purple (#7a5aa0). Rounded, friendly shapes and kind faces. Brave and hopeful,
+  never grim: even fearsome creatures look more lonely than scary, and there is no
+  blood, no weapons raised in anger, and no real violence.
+images:
+  - id: cover
+    role: cover
+    orientation: portrait
+    prompt: >
+      A wide establishing view of the sunlit hills of Greece at golden hour: olive
+      groves and a little white town with terracotta roofs above a bright blue
+      bay, marble columns on a hill, and the cloud-wrapped peak of a great
+      mountain far in the distance. Welcoming and grand.
+    alt:
+      en-GB: The sunlit hills of Greece at golden hour, a little white town and olive groves above a blue bay, with a great mountain far away.
+      es-ES: Las colinas soleadas de Grecia al atardecer dorado, un pueblecito blanco y olivares sobre una bahía azul, con una gran montaña a lo lejos.
+  - id: riddle-sphinx
+    role: portrait
+    orientation: square
+    canon_ref: riddle-sphinx
+    prompt: >
+      A friendly sphinx resting on warm marble steps: the calm face of a kind
+      person, the body of a lion with folded golden wings, smiling gently as if
+      about to ask a clever riddle. Wise and welcoming, not frightening.
+    alt:
+      en-GB: A friendly sphinx with a kind face and folded golden wings, resting on marble steps.
+      es-ES: Una esfinge amable de rostro bondadoso y alas doradas plegadas, descansando en unos escalones de mármol.
+  - id: lonely-cyclops
+    role: portrait
+    orientation: square
+    canon_ref: lonely-cyclops
+    prompt: >
+      A big, gentle one-eyed giant sitting alone by a cave mouth at dusk, knees
+      hugged, looking shy and a little sad rather than fierce, with a few sheep
+      resting nearby. Tender and sympathetic, not scary.
+    alt:
+      en-GB: A big gentle one-eyed giant sitting alone by a cave, looking shy and sad rather than fierce.
+      es-ES: Un gigante amable de un solo ojo sentado solo junto a una cueva, con aire tímido y triste más que feroz.
