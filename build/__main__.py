@@ -21,6 +21,20 @@ def main(argv: list[str] | None = None) -> int:
     _add_root(catalog_parser)
     catalog_parser.add_argument("--out", type=Path, default=Path("catalog.md"))
 
+    render_parser = sub.add_parser("render", help="build a kit PDF")
+    _add_root(render_parser)
+    render_parser.add_argument("--world", required=True)
+    render_parser.add_argument("--story", required=True)
+    render_parser.add_argument("--locale", required=True)
+    render_parser.add_argument("--reading-level", required=True,
+                               choices=("simple", "rich"))
+    render_parser.add_argument("--out-dir", type=Path, default=None)
+
+    guide_parser = sub.add_parser("render-guide", help="build the Guide PDF")
+    _add_root(guide_parser)
+    guide_parser.add_argument("--locale", required=True)
+    guide_parser.add_argument("--out-dir", type=Path, default=None)
+
     args = parser.parse_args(argv)
 
     if args.command == "validate":
@@ -43,6 +57,29 @@ def main(argv: list[str] | None = None) -> int:
         stories = list(content.iter_stories(args.root / "worlds"))
         catalog.write_catalog(stories, args.out)
         print(f"wrote {args.out}")
+        return 0
+
+    if args.command == "render":
+        from build.render import kit
+
+        out = kit.build_kit(
+            args.root, args.world, args.story, args.locale, args.reading_level,
+            out_dir=args.out_dir,
+        )
+        print(f"built {out}")
+        return 0
+
+    if args.command == "render-guide":
+        from build.render import pages
+
+        src = args.root / "guide" / args.locale / "guide.md"
+        if not src.is_file():
+            print(f"no guide markdown at {src}")
+            return 1
+        out_dir = args.out_dir if args.out_dir is not None else args.root / "dist"
+        out = out_dir / f"Guide_for_the_Grown-Up_{args.locale}.pdf"
+        pages.render_guide(src, out, args.locale)
+        print(f"built {out}")
         return 0
 
     return 2
