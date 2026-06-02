@@ -32,3 +32,45 @@ lore_summary:
     el camino siendo listos y amables.
 fonts:
   default: dejavu-serif
+visual_style: >
+  Soft, warm children's storybook illustration in gentle watercolour and
+  coloured-pencil texture, with a cosy, hopeful mood of quiet wonder. Use a
+  palette of cream (#fef9ef), leaf green (#4ea24a), teal (#2bb3a3), rose
+  (#d36fb0), sky blue (#3f8fd6), a golden path (#f2a93b) and soft purple
+  (#8a6fd6). Rounded, friendly shapes, soft light, and plenty of calm space. A
+  peaceful world of islands floating in a gentle sky, where magic only ever helps
+  and nothing is ever frightening.
+images:
+  - id: cover
+    role: cover
+    orientation: portrait
+    prompt: >
+      A wide establishing view of the Floating Isles at golden hour: green
+      islands drifting in a calm sky, the tallest crowned by a friendly little
+      school tower beside a great walled garden, soft clouds passing below the
+      islands, a few tiny birds. Welcoming and serene.
+    alt:
+      en-GB: The Floating Isles at golden hour, green islands in a calm sky with a little school tower and a walled garden on the tallest.
+      es-ES: Las Islas Flotantes al atardecer dorado, islas verdes en un cielo tranquilo con una pequena torre de escuela y un jardin amurallado en la mas alta.
+  - id: mist-cat
+    role: portrait
+    orientation: square
+    canon_ref: mist-cat
+    prompt: >
+      A gentle cat made of soft grey mist, curled and friendly, with kind eyes
+      and a faint sparkle of fog around it, sitting on a mossy stone. Cosy and
+      reassuring.
+    alt:
+      en-GB: A gentle cat made of soft grey mist, sitting on a mossy stone.
+      es-ES: Un gato amable hecho de niebla gris suave, sentado en una piedra con musgo.
+  - id: lonely-sprite
+    role: portrait
+    orientation: square
+    canon_ref: lonely-sprite
+    prompt: >
+      A small, shy sprite glowing with a soft warm light, sitting with its knees
+      hugged, looking hopeful rather than sad, surrounded by gently waking
+      flowers. Tender and kind, not scary at all.
+    alt:
+      en-GB: A small shy sprite glowing softly, hugging its knees among waking flowers.
+      es-ES: Un pequeno duende timido que brilla con suavidad, abrazandose las rodillas entre flores que despiertan.

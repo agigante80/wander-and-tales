@@ -19,3 +19,59 @@ players:
   min: 2
   max: 2
 play_time_minutes: 30
+images:
+  - id: cover
+    role: cover
+    orientation: portrait
+    prompt: >
+      A great walled garden on a floating island at dawn, gently asleep: flowers
+      with closed petals, a still grey fountain, and a soft golden path winding
+      from a little gate toward the garden's heart, under a calm pale sky with
+      clouds drifting below the island's edge. Leave calm space near the top.
+    alt:
+      en-GB: A sleeping walled garden on a floating island at dawn, with closed flowers, a still fountain and a winding golden path.
+      es-ES: Un jardin amurallado dormido en una isla flotante al amanecer, con flores cerradas, una fuente quieta y un camino dorado serpenteante.
+  - id: scene-vine-gate
+    role: scene
+    orientation: landscape
+    canon_ref: vine-gate
+    prompt: >
+      A tall garden gate woven shut by a big soft knot of green leaves and vines,
+      with the gentle grey Mist Cat watching nearby, and the first sleepy flower
+      beginning to open one petal. Inviting, not threatening.
+    alt:
+      en-GB: A tall gate tied shut with a knot of green vines, the Mist Cat watching nearby.
+      es-ES: Una puerta alta cerrada con un nudo de enredaderas verdes, con el Gato de Niebla observando cerca.
+  - id: scene-flower-bed
+    role: scene
+    orientation: landscape
+    canon_ref: flower-bed
+    prompt: >
+      A flower bed with four large friendly flowers in yellow, blue, red and
+      white, a little out of order, with a tiny humming voice suggested by soft
+      musical sparkles in the air. Bright and playful.
+    alt:
+      en-GB: A flower bed of four big flowers in yellow, blue, red and white, slightly out of order.
+      es-ES: Un cantero con cuatro flores grandes amarilla, azul, roja y blanca, un poco desordenadas.
+  - id: scene-talking-fountain
+    role: scene
+    orientation: landscape
+    canon_ref: talking-fountain
+    prompt: >
+      A stone fountain that has gone quiet and a little sad, its water sitting
+      still, beginning to sparkle and rise again as if cheered up. Warm and
+      hopeful.
+    alt:
+      en-GB: A quiet stone fountain beginning to sparkle and flow again.
+      es-ES: Una fuente de piedra callada que empieza a brillar y a manar de nuevo.
+  - id: scene-garden-heart
+    role: scene
+    orientation: landscape
+    canon_ref: garden-heart
+    prompt: >
+      The heart of the garden waking all at once: a small shy sprite smiling as
+      two little mages offer friendship, flowers opening, the fountain singing,
+      and warm golden light spreading across the whole garden. Joyful and gentle.
+    alt:
+      en-GB: The garden's heart waking, the shy sprite smiling as two little mages offer friendship, flowers opening in golden light.
+      es-ES: El corazon del jardin despertando, el duende timido sonrie mientras dos pequenos magos le ofrecen amistad, las flores se abren bajo una luz dorada.
