@@ -49,6 +49,8 @@ def test_generate_image_writes_decoded_bytes(tmp_path):
     assert result == out
     assert out.read_bytes() == b"PNGDATA"
     assert client.images.calls[0]["size"] == "1024x1536"
+    assert client.images.calls[0]["prompt"] == "a prompt"
+    assert client.images.calls[0]["model"] == "gpt-image-1"
 
 
 def test_generate_all_skips_existing_unless_forced(repo_with_images):
