@@ -4,7 +4,8 @@ What it guarantees: canon ids are unique within a world, every canon and lexicon
 entry carries all required locales (enforced by the models, surfaced here as a
 readable report), each story's `world` matches the directory it lives in, and
 every required content file exists for every required locale.
-It also warns when an image's canon_ref names no canon entry.
+It also warns when an image's canon_ref names no canon entry, when a declared
+image has no generated file, and when an assets PNG has no image declaration.
 """
 
 from dataclasses import dataclass
@@ -104,6 +105,9 @@ def _lint_world(world_dir: Path) -> list[LintIssue]:
             issues.append(_error(f"world failed validation: {exc}", str(world_yaml)))
         else:
             issues.extend(_lint_image_refs(world.images, canon_ids, str(world_yaml)))
+            issues.extend(
+                _lint_image_files(world.images, world_dir / "assets", str(world_yaml))
+            )
 
     stories_dir = world_dir / "stories"
     if stories_dir.is_dir():
@@ -123,6 +127,37 @@ def _lint_image_refs(images: list[Image], canon_ids: set[str], location: str) ->
                     location,
                 )
             )
+    return issues
+
+
+def _lint_image_files(
+    images: list[Image], assets_dir: Path, source_location: str
+) -> list[LintIssue]:
+    """Warn on declared images with no PNG, and on PNGs with no declaration.
+
+    Each declared image `id` is expected at `<assets_dir>/<id>.png`. The orphan
+    check only looks at PNG files, so non-image assets (the map SVG, for example)
+    are ignored.
+    """
+    issues: list[LintIssue] = []
+    declared: set[str] = set()
+    for image in images:
+        declared.add(image.id)
+        target = assets_dir / f"{image.id}.png"
+        if not target.is_file():
+            issues.append(
+                _warning(f"image {image.id!r} has no generated file at {target}",
+                         source_location)
+            )
+    if assets_dir.is_dir():
+        for png in sorted(assets_dir.glob("*.png")):
+            if png.stem not in declared:
+                issues.append(
+                    _warning(
+                        f"image file {png.name} has no matching image declaration",
+                        str(png),
+                    )
+                )
     return issues
 
 
@@ -148,6 +183,9 @@ def _lint_story(world_id: str, story_dir: Path, canon_ids: set[str]) -> list[Lin
         )
 
     issues.extend(_lint_image_refs(story.images, canon_ids, str(story_yaml)))
+    issues.extend(
+        _lint_image_files(story.images, story_dir / "assets", str(story_yaml))
+    )
 
     for code in locales.REQUIRED_LOCALES:
         for filename in _REQUIRED_CONTENT_FILES:
