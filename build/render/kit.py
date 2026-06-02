@@ -64,8 +64,8 @@ def build_kit(
     with tempfile.TemporaryDirectory() as tmp:
         tmp_path = Path(tmp)
 
-        map_svg = world_dir / "assets" / "map.svg"
-        if map_svg.is_file():
+        map_svg = kit_map.find_map(world_dir, story_dir, locale)
+        if map_svg is not None:
             parts.append(kit_map.render_svg_to_pdf(map_svg, tmp_path / "00_map.pdf"))
 
         narration = content_dir / NARRATION_BY_LEVEL[reading_level]

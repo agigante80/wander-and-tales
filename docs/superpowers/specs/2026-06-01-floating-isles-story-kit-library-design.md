@@ -123,10 +123,15 @@ worlds/
       creatures.yaml
       items.yaml
       terms.yaml                 # world-flavor vocabulary (e.g. the four magics)
-    assets/                      # shared art (map base SVG, icons)
+    assets/                      # WORLD-level art: a world map and shared icons
+      map.svg                    # optional world map (overview of the setting)
+      map.es-ES.svg              # optional per-locale variant when art has baked text
     stories/
       sleeping-garden/
         story.yaml               # tags / metadata (see section 6)
+        assets/                  # STORY-level art: this adventure's own map
+          map.svg                # optional generic story map
+          map.es-ES.svg          # optional per-locale story map (labels in that locale)
         content/
           en-GB/
             narration.simple.md
@@ -307,6 +312,14 @@ safeguard against a session stalling when a child goes off-script.
 - A per-kit build produces: the story narration kit (map + rules + narration +
   puzzles + glossary), and the relevant character sheets. The rules page includes
   the newcomer callout pointing to the Guide for the Grown-Up.
+- **Maps come in two kinds and may be per-locale.** A **story map** is specific to
+  one adventure (for example the Sleeping Garden's path of stops) and lives at
+  `stories/<story>/assets/`; a **world map** is an overview of the setting and
+  lives at `worlds/<world>/assets/`. When the art has baked-in text, a per-locale
+  variant `map.<locale>.svg` sits beside the generic `map.svg`. A kit resolves its
+  map in order: story map for the locale, story map generic, world map for the
+  locale, world map generic. Until canon-driven labels exist (section 9), a locale
+  without its own map omits the map rather than showing another language's labels.
 - The build also renders the standalone **Guide for the Grown-Up** PDF per
   language from `guide/<lang>/guide.md`.
 - **Optional, recommended**: a GitHub Action that builds all kits on release and

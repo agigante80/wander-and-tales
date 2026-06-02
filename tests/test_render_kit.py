@@ -8,10 +8,23 @@ _TINY_SVG = (
 )
 
 
-def _add_map(sample_repo):
+def _add_world_map(sample_repo):
     assets = sample_repo / "worlds" / "floating-isles" / "assets"
     assets.mkdir(parents=True, exist_ok=True)
     (assets / "map.svg").write_text(_TINY_SVG, encoding="utf-8")
+
+
+def _add_map(sample_repo):  # backwards-compatible alias used below
+    _add_world_map(sample_repo)
+
+
+def _story_assets(sample_repo):
+    assets = (
+        sample_repo / "worlds" / "floating-isles"
+        / "stories" / "sleeping-garden" / "assets"
+    )
+    assets.mkdir(parents=True, exist_ok=True)
+    return assets
 
 
 def test_build_kit_writes_one_merged_pdf(sample_repo, tmp_path):
@@ -33,6 +46,23 @@ def test_build_kit_skips_missing_map(sample_repo, tmp_path):
     )
     assert out.read_bytes().startswith(b"%PDF")
     assert len(PdfReader(str(out)).pages) >= 6
+
+
+def test_kit_uses_a_locale_specific_story_map(sample_repo, tmp_path):
+    # Only an es-ES story map exists: es-ES gets it, en-GB omits the map.
+    assets = _story_assets(sample_repo)
+    (assets / "map.es-ES.svg").write_text(_TINY_SVG, encoding="utf-8")
+
+    es = kit.build_kit(
+        sample_repo, "floating-isles", "sleeping-garden", "es-ES", "simple",
+        out_dir=tmp_path,
+    )
+    en = kit.build_kit(
+        sample_repo, "floating-isles", "sleeping-garden", "en-GB", "simple",
+        out_dir=tmp_path,
+    )
+    # es-ES has the map page, en-GB does not, so the es-ES kit is one page longer.
+    assert len(PdfReader(str(es)).pages) == len(PdfReader(str(en)).pages) + 1
 
 
 def test_reading_level_selects_narration_file():
