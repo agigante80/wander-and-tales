@@ -9,8 +9,7 @@ touching the schema or the prompts.
 import base64
 from pathlib import Path
 
-from build import prompts
-from build.prompts import PromptEntry
+from build.prompts import PromptEntry, iter_image_prompts
 
 _SIZES = {
     "portrait": "1024x1536",
@@ -60,10 +59,11 @@ def generate_all(
 ) -> list[Path]:
     """Generate every declared image (filtered), skipping existing unless force."""
     written: list[Path] = []
-    for entry in prompts.iter_image_prompts(root, world=world, story=story):
+    for entry in iter_image_prompts(root, world=world, story=story):
         out = target_path(root, entry)
         if out.exists() and not force:
             continue
-        generate_image(entry.text, entry.image.orientation, out, client=client)
-        written.append(out)
+        written.append(
+            generate_image(entry.text, entry.image.orientation, out, client=client)
+        )
     return written
