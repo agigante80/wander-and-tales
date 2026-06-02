@@ -30,3 +30,5 @@ lore_summary:
     la ciudad donde viven las familias. Dentro del recinto de la escuela está el
     Gran Jardín, el corazón verde de toda la isla. Aquí nadie pierde; encontráis
     el camino siendo listos y amables.
+fonts:
+  default: dejavu-serif
