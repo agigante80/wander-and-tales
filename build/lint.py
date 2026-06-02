@@ -33,6 +33,10 @@ def _error(message: str, location: str) -> LintIssue:
     return LintIssue("error", message, location)
 
 
+def _warning(message: str, location: str) -> LintIssue:
+    return LintIssue("warning", message, location)
+
+
 def _lint_lexicon(root: Path) -> list[LintIssue]:
     """Check the repo-wide lexicon/terms.yaml if present (it is optional)."""
     issues: list[LintIssue] = []
@@ -72,6 +76,7 @@ def _lint_world(world_dir: Path) -> list[LintIssue]:
     issues: list[LintIssue] = []
     world_id = world_dir.name
 
+    canon_ids: set[str] = set()
     canon_dir = world_dir / "canon"
     if canon_dir.is_dir():
         try:
@@ -87,15 +92,39 @@ def _lint_world(world_dir: Path) -> list[LintIssue]:
                 )
             else:
                 seen[entry.id] = str(canon_dir)
+        canon_ids = set(seen)
+
+    world_yaml = world_dir / "world.yaml"
+    if world_yaml.is_file():
+        try:
+            world = content.load_world(world_yaml)
+        except ValidationError as exc:
+            issues.append(_error(f"world failed validation: {exc}", str(world_yaml)))
+        else:
+            issues.extend(_lint_image_refs(world.images, canon_ids, str(world_yaml)))
 
     stories_dir = world_dir / "stories"
     if stories_dir.is_dir():
         for story_dir in sorted(p for p in stories_dir.iterdir() if p.is_dir()):
-            issues.extend(_lint_story(world_id, story_dir))
+            issues.extend(_lint_story(world_id, story_dir, canon_ids))
     return issues
 
 
-def _lint_story(world_id: str, story_dir: Path) -> list[LintIssue]:
+def _lint_image_refs(images, canon_ids: set[str], location: str) -> list[LintIssue]:
+    issues: list[LintIssue] = []
+    for image in images:
+        if image.canon_ref and image.canon_ref not in canon_ids:
+            issues.append(
+                _warning(
+                    f"image {image.id!r} canon_ref {image.canon_ref!r} "
+                    f"names no canon entry",
+                    location,
+                )
+            )
+    return issues
+
+
+def _lint_story(world_id: str, story_dir: Path, canon_ids: set[str]) -> list[LintIssue]:
     issues: list[LintIssue] = []
     story_yaml = story_dir / "story.yaml"
     if not story_yaml.is_file():
@@ -115,6 +144,8 @@ def _lint_story(world_id: str, story_dir: Path) -> list[LintIssue]:
                 str(story_yaml),
             )
         )
+
+    issues.extend(_lint_image_refs(story.images, canon_ids, str(story_yaml)))
 
     for code in locales.REQUIRED_LOCALES:
         for filename in _REQUIRED_CONTENT_FILES:
