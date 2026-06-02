@@ -12,7 +12,7 @@ from pathlib import Path
 from pypdf import PdfReader, PdfWriter
 
 from build import content
-from build.render import fonts, glossary, map as kit_map, pages, sheets, theme
+from build.render import fonts, glossary, map as kit_map, pages, sheets, strings, theme
 
 NARRATION_BY_LEVEL = {
     "simple": "narration.simple.md",
@@ -21,6 +21,24 @@ NARRATION_BY_LEVEL = {
 
 # Grown-up-facing prose pages that follow the kid-facing narration.
 _PROSE_PAGES = ("rules.md", "puzzles.md", "idea-bank.md")
+
+
+def _map_label(key: str, story, canon_by_id: dict, locale: str) -> str:
+    """Resolve one map data-label key to its localized text.
+
+    `title` comes from the story; `stop:<id>` from canon when <id> is a canon id,
+    otherwise from a `map_<id>` UI string (this covers `stop:start`); any other key
+    maps to a `map_<key>` UI string (colons and hyphens become underscores).
+    """
+    if key == "title":
+        return story.title.get(locale, story.id)
+    if key.startswith("stop:"):
+        canon_id = key[len("stop:"):]
+        entry = canon_by_id.get(canon_id)
+        if entry is not None:
+            return entry.names.get(locale, canon_id)
+        return strings.ui(locale, "map_" + canon_id)
+    return strings.ui(locale, "map_" + key.replace(":", "_").replace("-", "_"))
 
 
 def _merge(parts: list[Path], out_path: Path) -> Path:
@@ -66,7 +84,14 @@ def build_kit(
 
         map_svg = kit_map.find_map(world_dir, story_dir, locale)
         if map_svg is not None:
-            parts.append(kit_map.render_svg_to_pdf(map_svg, tmp_path / "00_map.pdf"))
+            canon_by_id = {entry.id: entry for entry in canon}
+            labels = {
+                key: _map_label(key, story, canon_by_id, locale)
+                for key in kit_map.template_keys(map_svg)
+            }
+            parts.append(
+                kit_map.render_map_template(map_svg, tmp_path / "00_map.pdf", labels)
+            )
 
         narration = content_dir / NARRATION_BY_LEVEL[reading_level]
         parts.append(

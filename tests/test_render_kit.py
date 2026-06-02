@@ -70,3 +70,42 @@ def test_reading_level_selects_narration_file():
         "simple": "narration.simple.md",
         "rich": "narration.rich.md",
     }
+
+
+_NEUTRAL_MAP = (
+    '<svg xmlns="http://www.w3.org/2000/svg" width="200" height="120" font-family="DejaVu Sans">'
+    '<rect width="200" height="120" fill="#eaf7e1"/>'
+    '<text data-label="title" x="100" y="20" text-anchor="middle"></text>'
+    '<text data-label="subtitle" x="100" y="40" text-anchor="middle"></text>'
+    '<text data-label="stop:start" x="40" y="100" text-anchor="middle"></text>'
+    '<text data-label="stop:mist-cat" data-wrap="2" x="150" y="100" text-anchor="middle"></text>'
+    "</svg>"
+)
+
+
+def test_neutral_map_serves_en_gb_and_es_es(sample_repo, tmp_path):
+    # Baseline: en-GB with no map yet.
+    en_nomap = kit.build_kit(
+        sample_repo, "floating-isles", "sleeping-garden", "en-GB", "simple",
+        out_dir=tmp_path / "a",
+    )
+    base = len(PdfReader(str(en_nomap)).pages)
+
+    assets = (
+        sample_repo / "worlds" / "floating-isles"
+        / "stories" / "sleeping-garden" / "assets"
+    )
+    assets.mkdir(parents=True, exist_ok=True)
+    (assets / "map.svg").write_text(_NEUTRAL_MAP, encoding="utf-8")
+
+    en = kit.build_kit(
+        sample_repo, "floating-isles", "sleeping-garden", "en-GB", "simple",
+        out_dir=tmp_path / "b",
+    )
+    es = kit.build_kit(
+        sample_repo, "floating-isles", "sleeping-garden", "es-ES", "simple",
+        out_dir=tmp_path / "c",
+    )
+    # The neutral template adds a map page for BOTH locales (en-GB no longer omitted).
+    assert len(PdfReader(str(en)).pages) == base + 1
+    assert len(PdfReader(str(es)).pages) == base + 1
