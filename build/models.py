@@ -2,7 +2,7 @@
 
 from pydantic import BaseModel, ConfigDict, field_validator, model_validator
 
-from build import dice, locales, tags
+from build import dice, fontspec, locales, tags
 
 _CANON_KINDS = ("place", "character", "creature", "item", "term")
 
@@ -130,12 +130,45 @@ class LexiconTerm(_Strict):
         return value
 
 
+class WorldFonts(_Strict):
+    """A world's typeface: a default family plus optional per-locale overrides.
+
+    Resolution at render time is by_locale[locale], then default. Families are
+    validated against the fontspec registry so a typo fails at load, not at draw.
+    """
+
+    default: str
+    by_locale: dict[str, str] = {}
+
+    @field_validator("default")
+    @classmethod
+    def _known_default(cls, value: str) -> str:
+        if value not in fontspec.KNOWN_FAMILIES:
+            raise ValueError(
+                f"font family {value!r} not in {fontspec.KNOWN_FAMILIES}"
+            )
+        return value
+
+    @field_validator("by_locale")
+    @classmethod
+    def _known_overrides(cls, value: dict[str, str]) -> dict[str, str]:
+        bad = {
+            loc: fam
+            for loc, fam in value.items()
+            if fam not in fontspec.KNOWN_FAMILIES
+        }
+        if bad:
+            raise ValueError(f"unknown font families in by_locale: {bad}")
+        return value
+
+
 class World(_Strict):
     id: str
     name: dict[str, str]
     tone: str | None = None
     palette: list[str] = []
     lore_summary: dict[str, str] | None = None
+    fonts: WorldFonts | None = None
 
     @field_validator("name")
     @classmethod
