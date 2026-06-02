@@ -10,9 +10,14 @@ another language's labels. The page keeps the SVG's own aspect ratio, so the map
 is typically landscape and merges cleanly with the portrait content pages.
 """
 
+import xml.etree.ElementTree as ET
 from pathlib import Path
 
 import cairosvg
+import defusedxml.ElementTree as DefusedET
+
+_SVG_NS = "http://www.w3.org/2000/svg"
+_LINE_DY = 15  # vertical gap between wrapped label lines, in SVG user units
 
 
 def _wrap(text: str, max_lines: int) -> list[str]:
@@ -58,4 +63,57 @@ def render_svg_to_pdf(svg_path: Path, out_path: Path) -> Path:
     """Convert an SVG file to a one-page PDF at out_path. Returns out_path."""
     out_path.parent.mkdir(parents=True, exist_ok=True)
     cairosvg.svg2pdf(url=str(svg_path), write_to=str(out_path))
+    return out_path
+
+
+def template_keys(svg_path: Path) -> list[str]:
+    """Return every data-label value in the template, in document order."""
+    root = DefusedET.parse(svg_path).getroot()
+    return [
+        element.get("data-label")
+        for element in root.iter()
+        if element.get("data-label") is not None
+    ]
+
+
+def fill_template(svg_text: str, labels: dict[str, str]) -> str:
+    """Write localized text into the data-label placeholders and return the SVG.
+
+    A node with data-wrap="N" has its text balanced into up to N centered tspans.
+    The data-label and data-wrap attributes are stripped from the output. Nodes
+    without a data-label are left untouched, so a plain SVG comes back unchanged.
+
+    Parsing uses defusedxml so a malicious contributed SVG cannot mount an XXE or
+    entity-expansion attack; building and serializing use the stdlib ElementTree.
+    """
+    ET.register_namespace("", _SVG_NS)
+    root = DefusedET.fromstring(svg_text)
+    for element in root.iter():
+        key = element.get("data-label")
+        if key is None:
+            continue
+        text = labels.get(key, "")
+        wrap = element.get("data-wrap")
+        element.text = None
+        for child in list(element):
+            element.remove(child)
+        if wrap:
+            x = element.get("x", "0")
+            for index, line in enumerate(_wrap(text, int(wrap))):
+                tspan = ET.SubElement(element, f"{{{_SVG_NS}}}tspan")
+                tspan.set("x", x)
+                tspan.set("dy", "0" if index == 0 else str(_LINE_DY))
+                tspan.text = line
+        else:
+            element.text = text
+        for attribute in ("data-label", "data-wrap"):
+            element.attrib.pop(attribute, None)
+    return ET.tostring(root, encoding="unicode")
+
+
+def render_map_template(svg_path: Path, out_path: Path, labels: dict[str, str]) -> Path:
+    """Fill a template SVG with localized labels and render it to a one-page PDF."""
+    filled = fill_template(svg_path.read_text(encoding="utf-8"), labels)
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    cairosvg.svg2pdf(bytestring=filled.encode("utf-8"), write_to=str(out_path))
     return out_path

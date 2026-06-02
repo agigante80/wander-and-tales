@@ -18,6 +18,7 @@ render = [
     "reportlab>=4.0",
     "cairosvg>=2.7",
     "pypdf>=4.0",
+    "defusedxml>=0.7",
 ]
 images = [
     "openai>=1.0",
