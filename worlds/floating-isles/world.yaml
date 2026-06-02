@@ -51,7 +51,7 @@ images:
       islands, a few tiny birds. Welcoming and serene.
     alt:
       en-GB: The Floating Isles at golden hour, green islands in a calm sky with a little school tower and a walled garden on the tallest.
-      es-ES: Las Islas Flotantes al atardecer dorado, islas verdes en un cielo tranquilo con una pequena torre de escuela y un jardin amurallado en la mas alta.
+      es-ES: Las Islas Flotantes al atardecer dorado, islas verdes en un cielo tranquilo con una pequeña torre de escuela y un jardín amurallado en la más alta.
   - id: mist-cat
     role: portrait
     orientation: square
@@ -73,4 +73,4 @@ images:
       flowers. Tender and kind, not scary at all.
     alt:
       en-GB: A small shy sprite glowing softly, hugging its knees among waking flowers.
-      es-ES: Un pequeno duende timido que brilla con suavidad, abrazandose las rodillas entre flores que despiertan.
+      es-ES: Un pequeño duende tímido que brilla con suavidad, abrazándose las rodillas entre flores que despiertan.
