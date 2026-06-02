@@ -2,7 +2,7 @@
 
 from pydantic import BaseModel, ConfigDict, field_validator, model_validator
 
-from build import dice, fontspec, locales, tags
+from build import dice, fontspec, locales, tags, visuals
 
 _CANON_KINDS = ("place", "character", "creature", "item", "term")
 
@@ -63,6 +63,60 @@ class Players(_Strict):
         return self
 
 
+class Image(_Strict):
+    """A declared illustration plus its generation prompt.
+
+    The prompt is the locale-neutral subject; the world's visual_style preamble
+    and a technical line are added at export time (see build/prompts.py). Art is
+    text-free and language-neutral; only alt is localized.
+    """
+
+    id: str
+    role: str
+    orientation: str
+    prompt: str
+    alt: dict[str, str]
+    canon_ref: str | None = None
+
+    @field_validator("role")
+    @classmethod
+    def _known_role(cls, value: str) -> str:
+        if value not in visuals.IMAGE_ROLES:
+            raise ValueError(f"image role {value!r} not in {visuals.IMAGE_ROLES}")
+        return value
+
+    @field_validator("orientation")
+    @classmethod
+    def _known_orientation(cls, value: str) -> str:
+        if value not in visuals.ORIENTATIONS:
+            raise ValueError(
+                f"image orientation {value!r} not in {visuals.ORIENTATIONS}"
+            )
+        return value
+
+    @field_validator("alt")
+    @classmethod
+    def _alt_locales(cls, value: dict[str, str]) -> dict[str, str]:
+        _require_locales(value, "alt")
+        return value
+
+    @field_validator("canon_ref")
+    @classmethod
+    def _canon_ref_nonempty(cls, value: str | None) -> str | None:
+        if value is not None and not value.strip():
+            raise ValueError("canon_ref, when given, must be a non-empty id")
+        return value
+
+
+def _unique_image_ids(images: list[Image]) -> list[Image]:
+    seen: set[str] = set()
+    for image in images:
+        if image.id in seen:
+            raise ValueError(f"duplicate image id {image.id!r}")
+        seen.add(image.id)
+    return images
+
+
 class Story(_Strict):
     world: str
     id: str
@@ -74,6 +128,7 @@ class Story(_Strict):
     dice: Dice
     players: Players
     play_time_minutes: int
+    images: list[Image] = []
 
     @field_validator("title")
     @classmethod
@@ -95,6 +150,11 @@ class Story(_Strict):
         if value not in tags.PERILS:
             raise ValueError(f"peril {value!r} not in {tags.PERILS}")
         return value
+
+    @field_validator("images")
+    @classmethod
+    def _unique_images(cls, value: list[Image]) -> list[Image]:
+        return _unique_image_ids(value)
 
 
 class CanonEntry(_Strict):
@@ -169,9 +229,16 @@ class World(_Strict):
     palette: list[str] = []
     lore_summary: dict[str, str] | None = None
     fonts: WorldFonts | None = None
+    visual_style: str | None = None
+    images: list[Image] = []
 
     @field_validator("name")
     @classmethod
     def _name_locales(cls, value: dict[str, str]) -> dict[str, str]:
         _require_locales(value, "name")
         return value
+
+    @field_validator("images")
+    @classmethod
+    def _unique_images(cls, value: list[Image]) -> list[Image]:
+        return _unique_image_ids(value)
