@@ -16,7 +16,10 @@ dependencies = [
 dev = ["pytest>=8.0"]
 
 [tool.setuptools]
-packages = ["build"]
+packages = ["build", "build.render"]
+
+[tool.setuptools.package-data]
+"build" = ["assets/fonts/*.ttf"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
