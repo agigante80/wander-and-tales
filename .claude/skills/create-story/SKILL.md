@@ -71,7 +71,10 @@ child's ear, not word for word. Produce:
   with a `prompt`, locale-neutral and text-free, plus localized `alt`, following the
   authoring skill's image rules).
 - `worlds/<world>/stories/<story>/content/<locale>/`: `narration.simple.md`,
-  `narration.rich.md`, `rules.md`, `puzzles.md`, `idea-bank.md`.
+  `narration.rich.md`, `rules.md`, `puzzles.md`.
+- `worlds/<world>/content/<locale>/idea-bank.md`: the world-level idea bank. Author it
+  once when you create a world; when you add a story to an existing world, reuse the
+  world's idea bank rather than writing a per-story one.
 - For a new world: `worlds/<world>/world.yaml` and `worlds/<world>/canon/*.yaml`.
 
 Image entries always include prompts. They do not require generated art.

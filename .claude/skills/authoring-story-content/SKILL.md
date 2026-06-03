@@ -85,7 +85,7 @@ These are small and unforgiving, so check them deliberately.
 | `content/<locale>/narration.rich.md` | kid (read aloud or self) | rich | covers `older` |
 | `content/<locale>/rules.md` | adult GM | adult | difficulty bands, the no-lose golden rule, the newcomer callout |
 | `content/<locale>/puzzles.md` | adult GM | adult | the challenges and their solutions |
-| `content/<locale>/idea-bank.md` | adult GM | adult | improv prompts; partly drawn from canon |
+| `worlds/<world>/content/<locale>/idea-bank.md` | adult GM | adult | world-level improv prompts; one per world, shared by its stories |
 | `worlds/<world>/world.yaml` | adult | adult | world name per language, tone, palette, lore summary |
 | `worlds/<world>/canon/*.yaml` | system | both | the name registry (see below) |
 | `guide/<locale>/guide.md` | adult GM | adult | the generic Guide for the Grown-Up |
@@ -97,6 +97,10 @@ key the `title:` map in `story.yaml` and the `names:` map in canon.
 
 Glossary appendices, map labels, and the catalog are **generated from canon**, so
 you do not hand-write them; you keep canon correct and they follow.
+
+The idea bank is world-level (one per world per locale), not per story; the narration,
+rules, and puzzles remain per story. Version numbers, the colophon, and the licence are
+added automatically at build time, so you never edit them.
 
 ## The authoring workflow
 
