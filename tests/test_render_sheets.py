@@ -28,3 +28,10 @@ def test_spanish_sheet_renders(tmp_path):
     out = tmp_path / "sheet_es.pdf"
     sheets.render_character_sheet(out, "es-ES", "young", theme.Theme.default(), _faces())
     assert out.read_bytes().startswith(b"%PDF")
+
+
+def test_older_spanish_sheet_renders_one_page(tmp_path):
+    out = tmp_path / "sheet_older_es.pdf"
+    sheets.render_character_sheet(out, "es-ES", "older", theme.Theme.default(), _faces())
+    assert out.read_bytes().startswith(b"%PDF")
+    assert len(PdfReader(str(out)).pages) == 1
