@@ -1,0 +1,99 @@
+world: floating-isles
+id: lantern-festival
+title:
+  en-GB: The Lost Lantern Festival
+  es-ES: La Fiesta de las Luces Perdida
+  it-IT: La Festa delle Luci Perduta
+age:
+  recommended: young        # one of: early (3-5), young (6-8), older (9-12)
+  also_works_for: [early, older]
+skills:
+  - observation
+  - vocabulary
+  - social-emotional
+peril: gentle               # gentle | mild | heroic
+adult_gm: true
+dice:
+  minimum: 1d6
+  recommended: d20-set
+players:
+  min: 2
+  max: 5
+play_time_minutes: 30
+images:
+  - id: cover
+    role: cover
+    orientation: portrait
+    prompt: >
+      Lantern Square on a floating island at dusk on festival evening, warm and
+      gentle: a wide square with a few families looking up, while glowing paper
+      sky lanterns drift away upward into a soft cloud bank above the island, two
+      small mages pointing at the rising lights. Leave calm space near the top.
+    alt:
+      en-GB: A festival square on a floating island at dusk, glowing sky lanterns drifting up into the clouds while two small mages look up.
+      es-ES: Una plaza de fiesta en una isla flotante al atardecer, con faroles del cielo luminosos que suben hacia las nubes mientras dos pequeños magos miran arriba.
+      it-IT: Una piazza in festa su un'isola volante al tramonto, con lanterne del cielo luminose che salgono verso le nuvole mentre due piccoli maghi guardano in alto.
+  - id: scene-dim-square
+    role: scene
+    orientation: landscape
+    canon_ref: lantern-square
+    prompt: >
+      A dim festival square at dusk with one unlit paper lantern sitting on a
+      stone, the gentle grey Mist Cat beside it looking up at the sky, and a faint
+      trail of soft light leading up toward distant clouds. Quiet and hopeful, not
+      sad.
+    alt:
+      en-GB: A dim festival square with one unlit lantern, the Mist Cat beside it, and a faint trail of light leading up to the clouds.
+      es-ES: Una plaza de fiesta en penumbra con un farol apagado, el Gato de Niebla a su lado y un leve rastro de luz que sube hacia las nubes.
+      it-IT: Una piazza in festa in penombra con una lanterna spenta, il Gatto di Nebbia accanto e una debole scia di luce che sale verso le nuvole.
+  - id: scene-cloud-bank
+    role: scene
+    orientation: landscape
+    canon_ref: cloud-bank
+    prompt: >
+      A low bank of soft clouds at the island's edge, a few of the clouds glowing
+      warmly from inside where hidden lanterns rest, a bright Messenger Butterfly
+      fluttering near and a green vine growing up to reach them. Bright and
+      playful.
+    alt:
+      en-GB: A low cloud bank where a few clouds glow warmly from hidden lanterns, a Messenger Butterfly nearby and a vine growing up to reach them.
+      es-ES: Un banco de nubes bajo donde algunas nubes brillan por dentro con faroles escondidos, con una Mariposa Mensajera cerca y una enredadera que sube para alcanzarlos.
+      it-IT: Un basso banco di nuvole dove alcune nuvole brillano dall'interno per le lanterne nascoste, con una Farfalla Messaggera vicino e un rampicante che cresce per raggiungerle.
+  - id: scene-high-ledge
+    role: scene
+    orientation: landscape
+    canon_ref: high-ledge
+    prompt: >
+      The biggest festival sky lantern resting gently against a high rocky ledge
+      above the square, a soft breeze curling around it and a thick green vine and
+      a cushion of leaves grown up below to catch it kindly. Safe and warm, never
+      scary.
+    alt:
+      en-GB: The biggest lantern resting against a high rocky ledge, a soft breeze around it and a vine with a cushion of leaves grown up below.
+      es-ES: El farol más grande apoyado en una repisa de roca en lo alto, con una brisa suave alrededor y una enredadera con un cojín de hojas crecido abajo.
+      it-IT: La lanterna più grande appoggiata a una cengia di roccia in alto, con una brezza leggera intorno e un rampicante con un cuscino di foglie cresciuto sotto.
+  - id: cloud-whale-portrait
+    role: portrait
+    orientation: square
+    canon_ref: cloud-whale-calf
+    prompt: >
+      A small, gentle cloud-whale calf with a soft round face and kind eyes, made
+      of pale fluffy cloud, a warm glow of gathered lantern light shining softly
+      inside it. Shy and lovable, not scary.
+    alt:
+      en-GB: A small gentle cloud-whale calf with a kind face, a warm glow of lantern light shining softly inside it.
+      es-ES: Una ballenita de nube pequeña y dulce con cara bondadosa, con un brillo cálido de luz de farol que reluce suavemente dentro.
+      it-IT: Un piccolo e dolce balenotto di nuvole dal viso buono, con un caldo chiarore di luce di lanterna che brilla dolcemente al suo interno.
+  - id: scene-nimbo
+    role: scene
+    orientation: landscape
+    canon_ref: cloud-whale-calf
+    prompt: >
+      A small shy cloud-whale calf glowing with gathered lantern light as two
+      little mages reach up with kind smiles to offer friendship, while the freed
+      sky lanterns rise again and the whole evening sky fills with warm golden
+      light. Joyful and gentle.
+    alt:
+      en-GB: A shy cloud-whale calf glowing with gathered light as two little mages offer friendship and the freed lanterns rise into a golden sky.
+      es-ES: Una ballenita de nube tímida que brilla con la luz reunida mientras dos pequeños magos le ofrecen amistad y los faroles liberados suben a un cielo dorado.
+      it-IT: Un timido balenotto di nuvole che brilla con la luce raccolta mentre due piccoli maghi gli offrono amicizia e le lanterne liberate salgono in un cielo dorato.

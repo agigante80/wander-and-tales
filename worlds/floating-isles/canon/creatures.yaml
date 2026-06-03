@@ -64,3 +64,16 @@
     es-ES: Flores que charlan con vocecillas suaves cuando os acercáis.
     it-IT: Fiori che chiacchierano con vocine dolci quando vi avvicinate.
   first_seen: sleeping-garden
+
+- id: cloud-whale-calf
+  names:
+    en-GB: Nimbo the Cloud-Whale Calf
+    es-ES: Nimbo, la Ballenita de Nube
+    it-IT: Nimbo, il Balenotto delle Nuvole
+  kind: creature
+  disposition: lonely
+  description:
+    en-GB: A small, gentle cloud-whale who gathered the festival lanterns because it was lonely and loved their glow.
+    es-ES: Una ballenita de nube pequeña y dulce que recogió los faroles de la fiesta porque estaba sola y le encantaba su brillo.
+    it-IT: Un piccolo e dolce balenotto di nuvole che ha raccolto le lanterne della festa perché era solo e ne amava il chiarore.
+  first_seen: lantern-festival
