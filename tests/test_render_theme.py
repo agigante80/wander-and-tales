@@ -1,7 +1,11 @@
-from reportlab.lib.colors import HexColor
+from reportlab.lib.colors import HexColor, white
 
 from build.models import World
 from build.render import fonts, theme
+
+
+def test_page_fill_is_white():
+    assert theme.PAGE_FILL == white
 
 
 def _world():

@@ -15,7 +15,7 @@ from reportlab.pdfgen import canvas as rl_canvas
 
 from build.render import strings
 from build.render.fonts import FontFaces
-from build.render.theme import Theme
+from build.render.theme import Theme, PAGE_FILL
 from build.tags import AGE_TIERS
 
 W, H = A4
@@ -58,7 +58,7 @@ def render_character_sheet(
         c.line(x, y, x + width, y)
 
     # background and border
-    c.setFillColor(theme.background)
+    c.setFillColor(PAGE_FILL)
     c.rect(0, 0, W, H, fill=1, stroke=0)
     c.setStrokeColor(theme.border)
     c.setLineWidth(3)
