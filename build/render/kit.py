@@ -1,9 +1,10 @@
-"""Assemble one printable kit PDF per (world, story, locale, reading_level).
+"""Assemble one printable Story Pack PDF per (world, story, locale, reading_level).
 
-Loads content through Plan 1's loaders, resolves the world+locale typeface, then
-renders each page to a temporary PDF in a fixed order and merges them with pypdf
-into dist/. The map page is optional: if the world has no assets/map.svg, the kit
-builds without it.
+The Story Pack is the child-safe play material: a front page (title, a short world
+paragraph, the cover art when it exists), the map, the narration for the reading
+level, the story-in-pictures gallery, the character sheet, and the colophon. The
+rules, puzzles, idea bank, and glossary live in the Grown-up's Playbook and the World
+Book, not here. Pages are merged with pypdf, then the footer and metadata are stamped.
 """
 
 import tempfile
@@ -13,14 +14,16 @@ from pypdf import PdfReader, PdfWriter
 
 from build import content
 from build.render import (
+    colophon,
     fonts,
-    glossary,
+    footer,
     images,
     map as kit_map,
     pages,
     sheets,
     strings,
     theme,
+    version,
 )
 
 NARRATION_BY_LEVEL = {
@@ -28,23 +31,13 @@ NARRATION_BY_LEVEL = {
     "rich": "narration.rich.md",
 }
 
-# Grown-up-facing prose pages that follow the kid-facing narration.
-_PROSE_PAGES = ("rules.md", "puzzles.md", "idea-bank.md")
-
 
 def _image_file(assets_dir: Path, image_id: str) -> Path | None:
-    """Return the assets PNG for an image id if it exists, else None."""
     path = assets_dir / f"{image_id}.png"
     return path if path.is_file() else None
 
 
 def _map_label(key: str, story, canon_by_id: dict, locale: str) -> str:
-    """Resolve one map data-label key to its localized text.
-
-    `title` comes from the story; `stop:<id>` from canon when <id> is a canon id,
-    otherwise from a `map_<id>` UI string (this covers `stop:start`); any other key
-    maps to a `map_<key>` UI string (colons and hyphens become underscores).
-    """
     if key == "title":
         return story.title.get(locale, story.id)
     if key.startswith("stop:"):
@@ -67,7 +60,7 @@ def _merge(parts: list[Path], out_path: Path) -> Path:
     return out_path
 
 
-def build_kit(
+def build_story_pack(
     root: Path,
     world_id: str,
     story_id: str,
@@ -75,8 +68,9 @@ def build_kit(
     reading_level: str,
     *,
     out_dir: Path | None = None,
+    version_info: version.VersionInfo | None = None,
 ) -> Path:
-    """Build the kit PDF and return its path under out_dir (default dist/)."""
+    """Build the Story Pack and return its nested, versioned path under out_dir."""
     if reading_level not in NARRATION_BY_LEVEL:
         raise ValueError(f"unknown reading level {reading_level!r}")
 
@@ -92,11 +86,7 @@ def build_kit(
     faces = fonts.resolve_faces(world, locale)
     styles = theme.make_styles(th, faces)
 
-    world_assets = world_dir / "assets"
     story_assets = story_dir / "assets"
-
-    # Resolve which declared images have generated files. Cover and scenes are the
-    # story's; portraits may be world-level or story-level, keyed by canon id.
     cover_path = next(
         (
             f
@@ -112,29 +102,24 @@ def build_kit(
         if image.role == "scene"
         and (f := _image_file(story_assets, image.id)) is not None
     ]
-    portrait_paths: dict[str, Path] = {}
-    for assets_dir, declared in (
-        (world_assets, world.images),
-        (story_assets, story.images),
-    ):
-        for image in declared:
-            if image.role == "portrait" and image.canon_ref:
-                found = _image_file(assets_dir, image.id)
-                if found is not None:
-                    portrait_paths[image.canon_ref] = found
+
+    if version_info is None:
+        version_info = version.version_info(
+            root,
+            version.story_pack_inputs(root, world_id, story_id, locale, reading_level),
+        )
 
     out_dir = out_dir if out_dir is not None else root / "dist"
+    title = story.title.get(locale, story.id)
+    world_paragraph = (world.lore_summary or {}).get(locale, "")
+    label = strings.ui(locale, "colophon_artifact_storypack")
+
     parts: list[Path] = []
     with tempfile.TemporaryDirectory() as tmp:
         tmp_path = Path(tmp)
 
-        if cover_path is not None:
-            cover = images.cover_flowables(
-                cover_path, story.title.get(locale, story.id), styles
-            )
-            parts.append(
-                pages.render_flowables(cover, tmp_path / "00_cover.pdf", world)
-            )
+        front = images.frontpage_flowables(title, world_paragraph, cover_path, styles)
+        parts.append(pages.render_flowables(front, tmp_path / "00_front.pdf", world))
 
         map_svg = kit_map.find_map(world_dir, story_dir, locale)
         if map_svg is not None:
@@ -149,7 +134,9 @@ def build_kit(
 
         narration = content_dir / NARRATION_BY_LEVEL[reading_level]
         parts.append(
-            pages.render_markdown_file(narration, tmp_path / "10_narration.pdf", world, locale)
+            pages.render_markdown_file(
+                narration, tmp_path / "10_narration.pdf", world, locale
+            )
         )
 
         if scene_items:
@@ -160,22 +147,28 @@ def build_kit(
                 pages.render_flowables(gallery, tmp_path / "15_scenes.pdf", world)
             )
 
-        for index, filename in enumerate(_PROSE_PAGES, start=2):
-            src = content_dir / filename
-            parts.append(
-                pages.render_markdown_file(
-                    src, tmp_path / f"{index}0_{filename}.pdf", world, locale
-                )
-            )
-
-        gloss = glossary.glossary_flowables(
-            canon, locale, styles, th, portrait_paths
-        )
-        parts.append(pages.render_flowables(gloss, tmp_path / "80_glossary.pdf", world))
-
-        sheet = tmp_path / "90_sheet.pdf"
+        sheet = tmp_path / "80_sheet.pdf"
         sheets.render_character_sheet(sheet, locale, story.age.recommended, th, faces)
         parts.append(sheet)
 
-        out_path = out_dir / f"{world_id}_{story_id}_{locale}_{reading_level}.pdf"
-        return _merge(parts, out_path)
+        qr = f"{colophon.PROJECT_URL}/tree/main/kits/{locale}/{world_id}/{story_id}"
+        colo = colophon.colophon_flowables(styles, locale, version_info, label, qr)
+        parts.append(pages.render_flowables(colo, tmp_path / "90_colophon.pdf", world))
+
+        out_path = (
+            out_dir / locale / world_id / story_id
+            / f"story-pack-{reading_level}-{version_info.label}.pdf"
+        )
+        _merge(parts, out_path)
+
+    footer.stamp_footers(
+        out_path, identity=f"Wits and Wonder · {label} · {title}",
+        locale=locale, version_info=version_info,
+    )
+    footer.set_metadata(
+        out_path,
+        title=f"{title}, {label}, {locale}, {version_info.label}",
+        subject=f"Story Pack, {version_info.label}, {version_info.updated}",
+        keywords=f"{world_id}, {story_id}, {locale}, {reading_level}, {version_info.label}",
+    )
+    return out_path

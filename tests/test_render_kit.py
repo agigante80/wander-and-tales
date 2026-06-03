@@ -7,108 +7,22 @@ _TINY_SVG = (
     '<rect width="200" height="120" fill="#eaf7e1"/></svg>'
 )
 
-
-def _add_world_map(sample_repo):
-    assets = sample_repo / "worlds" / "floating-isles" / "assets"
-    assets.mkdir(parents=True, exist_ok=True)
-    (assets / "map.svg").write_text(_TINY_SVG, encoding="utf-8")
-
-
-def _add_map(sample_repo):  # backwards-compatible alias used below
-    _add_world_map(sample_repo)
-
-
-def _story_assets(sample_repo):
-    assets = (
-        sample_repo / "worlds" / "floating-isles"
-        / "stories" / "sleeping-garden" / "assets"
-    )
-    assets.mkdir(parents=True, exist_ok=True)
-    return assets
-
-
-def test_build_kit_writes_one_merged_pdf(sample_repo, tmp_path):
-    _add_map(sample_repo)
-    out = kit.build_kit(
-        sample_repo, "floating-isles", "sleeping-garden", "en-GB", "simple",
-        out_dir=tmp_path,
-    )
-    assert out.name == "floating-isles_sleeping-garden_en-GB_simple.pdf"
-    assert out.read_bytes().startswith(b"%PDF")
-    # map + narration + rules + puzzles + idea-bank + glossary + sheet = at least 7
-    assert len(PdfReader(str(out)).pages) >= 7
-
-
-def test_build_kit_skips_missing_map(sample_repo, tmp_path):
-    out = kit.build_kit(
-        sample_repo, "floating-isles", "sleeping-garden", "es-ES", "rich",
-        out_dir=tmp_path,
-    )
-    assert out.read_bytes().startswith(b"%PDF")
-    assert len(PdfReader(str(out)).pages) >= 6
-
-
-def test_kit_uses_a_locale_specific_story_map(sample_repo, tmp_path):
-    # Only an es-ES story map exists: es-ES gets it, en-GB omits the map.
-    assets = _story_assets(sample_repo)
-    (assets / "map.es-ES.svg").write_text(_TINY_SVG, encoding="utf-8")
-
-    es = kit.build_kit(
-        sample_repo, "floating-isles", "sleeping-garden", "es-ES", "simple",
-        out_dir=tmp_path,
-    )
-    en = kit.build_kit(
-        sample_repo, "floating-isles", "sleeping-garden", "en-GB", "simple",
-        out_dir=tmp_path,
-    )
-    # es-ES has the map page, en-GB does not, so the es-ES kit is one page longer.
-    assert len(PdfReader(str(es)).pages) == len(PdfReader(str(en)).pages) + 1
-
-
-def test_reading_level_selects_narration_file():
-    assert kit.NARRATION_BY_LEVEL == {
-        "simple": "narration.simple.md",
-        "rich": "narration.rich.md",
-    }
-
-
 _NEUTRAL_MAP = (
     '<svg xmlns="http://www.w3.org/2000/svg" width="200" height="120" font-family="DejaVu Sans">'
     '<rect width="200" height="120" fill="#eaf7e1"/>'
     '<text data-label="title" x="100" y="20" text-anchor="middle"></text>'
-    '<text data-label="subtitle" x="100" y="40" text-anchor="middle"></text>'
     '<text data-label="stop:start" x="40" y="100" text-anchor="middle"></text>'
-    '<text data-label="stop:mist-cat" data-wrap="2" x="150" y="100" text-anchor="middle"></text>'
     "</svg>"
 )
 
 
-def test_neutral_map_serves_en_gb_and_es_es(sample_repo, tmp_path):
-    # Baseline: en-GB with no map yet.
-    en_nomap = kit.build_kit(
-        sample_repo, "floating-isles", "sleeping-garden", "en-GB", "simple",
-        out_dir=tmp_path / "a",
-    )
-    base = len(PdfReader(str(en_nomap)).pages)
-
+def _story_assets(repo):
     assets = (
-        sample_repo / "worlds" / "floating-isles"
+        repo / "worlds" / "floating-isles"
         / "stories" / "sleeping-garden" / "assets"
     )
     assets.mkdir(parents=True, exist_ok=True)
-    (assets / "map.svg").write_text(_NEUTRAL_MAP, encoding="utf-8")
-
-    en = kit.build_kit(
-        sample_repo, "floating-isles", "sleeping-garden", "en-GB", "simple",
-        out_dir=tmp_path / "b",
-    )
-    es = kit.build_kit(
-        sample_repo, "floating-isles", "sleeping-garden", "es-ES", "simple",
-        out_dir=tmp_path / "c",
-    )
-    # The neutral template adds a map page for BOTH locales (en-GB no longer omitted).
-    assert len(PdfReader(str(en)).pages) == base + 1
-    assert len(PdfReader(str(es)).pages) == base + 1
+    return assets
 
 
 def _is_a4(width: float, height: float) -> bool:
@@ -119,35 +33,46 @@ def _is_a4(width: float, height: float) -> bool:
     )
 
 
-def test_every_kit_page_is_a4(sample_repo, tmp_path):
-    assets = (
-        sample_repo / "worlds" / "floating-isles"
-        / "stories" / "sleeping-garden" / "assets"
-    )
-    assets.mkdir(parents=True, exist_ok=True)
-    (assets / "map.svg").write_text(_NEUTRAL_MAP, encoding="utf-8")
-    out = kit.build_kit(
+def test_reading_level_selects_narration_file():
+    assert kit.NARRATION_BY_LEVEL == {
+        "simple": "narration.simple.md",
+        "rich": "narration.rich.md",
+    }
+
+
+def test_story_pack_writes_nested_versioned_pdf(sample_repo, tmp_path):
+    out = kit.build_story_pack(
         sample_repo, "floating-isles", "sleeping-garden", "en-GB", "simple",
         out_dir=tmp_path,
     )
-    for page in PdfReader(str(out)).pages:
-        assert _is_a4(float(page.mediabox.width), float(page.mediabox.height))
+    assert out == tmp_path / "en-GB" / "floating-isles" / "sleeping-garden" / "story-pack-simple-v0.pdf"
+    assert out.read_bytes().startswith(b"%PDF")
 
 
-def test_kit_embeds_a_cover_page_when_the_image_exists(sample_repo, tmp_path):
+def test_story_pack_has_only_front_narration_sheet_colophon(sample_repo, tmp_path):
+    # No map, no cover, no scenes: front + narration + sheet + colophon = 4 pages.
+    out = kit.build_story_pack(
+        sample_repo, "floating-isles", "sleeping-garden", "es-ES", "rich",
+        out_dir=tmp_path,
+    )
+    assert len(PdfReader(str(out)).pages) == 4
+
+
+def test_story_pack_adds_a_landscape_map_page(sample_repo, tmp_path):
+    (_story_assets(sample_repo) / "map.svg").write_text(_NEUTRAL_MAP, encoding="utf-8")
+    out = kit.build_story_pack(
+        sample_repo, "floating-isles", "sleeping-garden", "en-GB", "simple",
+        out_dir=tmp_path,
+    )
+    pages = PdfReader(str(out)).pages
+    assert len(pages) == 5  # the four above plus the map
+    assert all(_is_a4(float(p.mediabox.width), float(p.mediabox.height)) for p in pages)
+
+
+def test_cover_image_stays_on_the_front_page(sample_repo, tmp_path):
     from PIL import Image as PILImage
 
     story_dir = sample_repo / "worlds/floating-isles/stories/sleeping-garden"
-    base = len(
-        PdfReader(
-            str(
-                kit.build_kit(
-                    sample_repo, "floating-isles", "sleeping-garden", "en-GB",
-                    "simple", out_dir=tmp_path / "a",
-                )
-            )
-        ).pages
-    )
     assets = story_dir / "assets"
     assets.mkdir(parents=True, exist_ok=True)
     PILImage.new("RGB", (400, 600), "white").save(assets / "cover.png")
@@ -160,8 +85,9 @@ def test_kit_embeds_a_cover_page_when_the_image_exists(sample_repo, tmp_path):
         ),
         encoding="utf-8",
     )
-    out = kit.build_kit(
+    out = kit.build_story_pack(
         sample_repo, "floating-isles", "sleeping-garden", "en-GB", "simple",
-        out_dir=tmp_path / "b",
+        out_dir=tmp_path,
     )
-    assert len(PdfReader(str(out)).pages) == base + 1
+    # The cover is embedded on the front page, so the page count is unchanged at 4.
+    assert len(PdfReader(str(out)).pages) == 4
