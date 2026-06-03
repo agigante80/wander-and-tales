@@ -3,9 +3,10 @@
 *¿Es la primera vez? Leed antes la Guía del Juego. Explica toda la idea en dos
 páginas y no la necesitaréis nunca más.*
 
-Vosotros sois la Guía del Juego, que en las Islas significa tres pequeñas tareas a
-la vez: narrador, árbitro amable y el mayor admirador de los niños. Este es un
-juego cooperativo para dos jugadores que juegan juntos. Nadie compite y nadie
+Vosotros sois la Guía del Juego, que en las Islas significa unas pequeñas tareas a
+la vez: narrador, árbitro amable, el mayor admirador de los niños y un aventurero más
+que juega con ellos. Este es un juego cooperativo para dos o más que juegan juntos,
+una persona adulta y uno o varios niños, todos del mismo lado. Nadie compite y nadie
 pierde.
 
 ## Preparar la partida
@@ -36,7 +37,7 @@ Una tirada fallida nunca es una derrota. Es un desvío hacia otro camino. Cuando
 una tirada no llega a la banda, los jugadores siempre tienen una salida:
 
 - **Gastar una estrella de energía** para volver a intentar la misma idea, o
-- **Combinar vuestras dos magias** una vez por parada para superar el reto sin
+- **Combinar dos magias** una vez por parada para superar el reto sin
   tirar (por ejemplo Luz y Voz, o Crecer y Cambio, actuando como una sola).
 
 Las estrellas de energía vuelven cuando los jugadores pasan a la siguiente parada
@@ -45,7 +46,7 @@ nadie se queda atascado.
 
 ## Ayudarse
 
-En cualquier momento un jugador puede ayudar al otro en lugar de actuar solo.
+En cualquier momento un jugador puede ayudar a otro en lugar de actuar solo.
 Cuando lo hace, haced la tirada de ayuda: si tiene éxito, el reto queda superado
 para la pareja, aunque la primera tirada fallara. Ayudar es generoso, así que
 premiadlo; además recupera una estrella de energía. La lección que hay debajo de

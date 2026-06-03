@@ -18,7 +18,7 @@ dice:
   recommended: d20-set
 players:
   min: 2
-  max: 2
+  max: 5
 play_time_minutes: 40
 images:
   - id: cover

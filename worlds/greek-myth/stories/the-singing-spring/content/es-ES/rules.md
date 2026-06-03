@@ -3,11 +3,12 @@
 *¿Es la primera vez? Leed antes la Guía para el Adulto. Explica toda la idea en dos
 páginas y no la necesitaréis nunca más.*
 
-Eres el Guía del Juego, lo que aquí significa tres pequeños trabajos a la vez:
-contar la historia, ser un árbitro amable y ser el mayor admirador de los niños. Es
-un juego cooperativo para dos jugadores que juegan juntos. Nadie compite y nadie
-pierde. Es una historia más valiente que otras, pero el ingenio y la amabilidad
-siguen ganando siempre, y nadie sale herido de verdad.
+Eres el Guía del Juego, lo que aquí significa unos pequeños trabajos a la vez:
+contar la historia, ser un árbitro amable, ser el mayor admirador de los niños y ser
+un aventurero más que juega con ellos. Es un juego cooperativo para dos o más que
+juegan juntos, una persona adulta y uno o varios niños, todos del mismo lado. Nadie
+compite y nadie pierde. Es una historia más valiente que otras, pero el ingenio y la
+amabilidad siguen ganando siempre, y nadie sale herido de verdad.
 
 ## Preparar la partida
 
@@ -38,7 +39,7 @@ Una tirada fallida nunca es una derrota. Es un desvío hacia otro camino. Cuando
 tirada no alcanza el nivel, los jugadores siempre tienen una manera de seguir:
 
 - **Gastar una estrella de energía** para serenarse y volver a intentar la idea, o
-- **Unir sus dos cualidades** una vez por parada para superar el reto sin tirar
+- **Unir dos cualidades** una vez por parada para superar el reto sin tirar
   (Ingenio y Corazón juntos, por ejemplo, o Valor e Ingenio).
 
 Las estrellas de energía se recuperan al pasar de parada y al ayudarse. Nadie puede
@@ -46,7 +47,7 @@ quedarse sin ellas mucho tiempo, y nadie se queda atascado.
 
 ## Ayudarse: la Mano que Ayuda
 
-En cualquier momento un jugador puede ayudar al otro en vez de actuar solo. Cuando lo
+En cualquier momento un jugador puede ayudar a otro en vez de actuar solo. Cuando lo
 hace, haced la tirada de ayuda: con un éxito el reto se supera para la pareja, aunque
 la primera tirada fallara. Ayudar es generoso, así que recompensadlo; también
 recupera una estrella de energía. En estas colinas, ningún héroe está solo.

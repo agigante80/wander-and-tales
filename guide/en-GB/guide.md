@@ -5,25 +5,32 @@ kit in the library. It takes about five minutes.*
 
 ## What this is
 
-This is a cooperative story-and-puzzle adventure you play with a child, out loud,
-with a printed kit and a few household bits. There is no app and no screen. You read
-a little story, your child makes choices, and together you solve gentle puzzles with
-simple dice. It is a way to practise imagination, problem-solving, and working
+This is a cooperative story-and-puzzle adventure you play with a child, or a few
+children, out loud, with a printed kit and a few household bits. There is no app and
+no screen. You read a little story, the children make choices, and together you solve
+gentle puzzles with simple dice. You are all on the same side, helping each other
+through, never playing against one another. It is a way to practise imagination, problem-solving, and working
 together, and a lovely excuse for unhurried, screen-free time, which researchers
 link to how well children settle and thrive. You need no experience at all. If you
 can read a bedtime story, you can run this.
 
-## Your three jobs
+## Your jobs, and you get to play too
 
-You are the **Game Master**, which is just three small jobs at once:
+You are the **Game Master**, which is just a few small jobs at once. You are also a
+fellow adventurer at the table, not a referee standing apart: you play on the
+children's side, helping them find the way.
 
 - **The narrator.** Read the story parts aloud, warmly. Do a silly voice if you
-  fancy it. Pause at the questions and let your child answer.
+  fancy it. Pause at the questions and let the children answer.
 - **The gentle referee.** When the players try something, you decide how it goes,
   always leaning towards yes. The puzzle pages give you the answers, so you are never
   caught out.
 - **The biggest fan.** Cheer every idea, especially the odd ones. Your delight is
   the engine of the whole game.
+- **A fellow adventurer.** Take a hero of your own and play along. You have read
+  ahead, but you do not have to act like it: let yourself be surprised, wonder out
+  loud, and discover each turn with the children. Helping them through is the whole
+  point, not being the one who knows.
 
 ## The one golden rule: yes, and
 
@@ -37,7 +44,7 @@ leaning in. Saying no, again and again, is the one sure way to lose them.
 
 This is the heart of every kit: **a failed roll is never a defeat, only a detour.**
 If a dice roll comes up short, do not stop the story. The players can spend an energy
-star and try again, combine their two strengths, accept a helpful nudge from a
+star and try again, combine their strengths, accept a helpful nudge from a
 friendly creature, or simply find another way round. Treat a miss as a funny
 surprise, not a failure. No child is ever knocked out, left behind, or made to feel
 they have let the team down.
@@ -48,7 +55,7 @@ Sticking is normal. Reach for these, in order:
 
 - Offer a **friendly hint** through a character ("the cat nudges a loose vine...").
 - **Lower the difficulty** one band, or let the helper roll carry it.
-- Let them **combine their two strengths** for an automatic success.
+- Let them **combine their strengths** for an automatic success.
 - If all else stalls, **just let them succeed.** Momentum matters more than rigour.
   A child who feels clever will play for an hour; a child who feels stuck will wander
   off.
