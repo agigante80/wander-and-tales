@@ -17,6 +17,7 @@ from build.render import markdown as md
 
 CONTENT_WIDTH = 210 * mm - 36 * mm  # A4 width minus the page margins
 _COVER_MAX_HEIGHT = 222 * mm
+_FRONT_COVER_MAX_HEIGHT = 170 * mm  # leaves room above for the title and paragraph
 _SCENE_MAX_HEIGHT = 115 * mm
 _PORTRAIT_SIZE = 34 * mm
 
@@ -69,6 +70,24 @@ def cover_flowables(cover_path: Path, title: str, styles: dict) -> list:
         Spacer(1, 10),
         image_flowable(cover_path, CONTENT_WIDTH, _COVER_MAX_HEIGHT),
     ]
+
+
+def frontpage_flowables(
+    title: str, world_paragraph: str, cover_path: Path | None, styles: dict
+) -> list:
+    """The always-on front page: title banner, a short world paragraph, optional cover.
+
+    The cover image is omitted cleanly when there is no art, so a story with no cover
+    still opens with its title and the world paragraph.
+    """
+    flows: list = [Paragraph(md.inline_to_rl(title), styles["h1"])]
+    if world_paragraph:
+        flows.append(Spacer(1, 8))
+        flows.append(Paragraph(md.inline_to_rl(world_paragraph), styles["body"]))
+    if cover_path is not None:
+        flows.append(Spacer(1, 12))
+        flows.append(image_flowable(cover_path, CONTENT_WIDTH, _FRONT_COVER_MAX_HEIGHT))
+    return flows
 
 
 def gallery_flowables(title: str, scenes: list, styles: dict) -> list:
