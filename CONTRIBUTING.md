@@ -44,6 +44,21 @@ artifacts that continuous integration and the maintainer rebuild.
 - The story keeps the promise every kit makes: cooperative play, nobody loses, and
   you win by being clever and kind.
 
+## Maintainer: publishing a merged story
+
+This part is for the maintainer, after a story or world is merged. Contributors do not
+do this; built PDFs are never in a contributor PR.
+
+Publishing turns merged content into the committed library: every declared image is
+generated (with the maintainer's key), the translations are double-reviewed, the kits
+are built, the root README catalogue is regenerated, and the PDFs are checked. The
+**`publish-story` skill** in Claude Code runs this end to end (ask to "publish this
+story"). By hand, the short version is: ensure the art exists
+(`python -m build generate-images --root . --world <w>`), commit the content and art,
+then build and refresh the README from a clean tree
+(`python -m build rebuild --root .`), confirm `python -m pytest` is green and no
+filename carries a `+`, and commit `kits/` and `README.md`.
+
 ## Licensing
 
 By opening a pull request you agree that your contribution is offered under the
