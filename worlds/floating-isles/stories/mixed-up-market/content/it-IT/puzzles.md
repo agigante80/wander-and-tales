@@ -40,7 +40,7 @@ bambini ricordino e mettano ogni coppia al suo posto. Arrivarci con l'aiuto del
 fiore conta comunque come un successo completo.
 
 **Appoggio.** Se si bloccano, fate che il Fiore Parlante canti l'ordine lentamente,
-una bancarella alla volta, e lasciate che i giocatori mettano una coppia per verso.
+una bancarella per volta, e lasciate che i giocatori sistemino una coppia alla volta.
 Arrivarci con una spinta fa recuperare una stella di energia.
 
 ## Tappa 3: L'Ultimo Scambio (Normale)

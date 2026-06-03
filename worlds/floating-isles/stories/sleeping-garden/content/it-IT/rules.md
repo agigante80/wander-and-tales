@@ -3,8 +3,8 @@
 *È la prima volta? Leggete prima la Guida del Gioco. Spiega tutta l'idea in due
 pagine e non ne avrete mai più bisogno.*
 
-Voi siete la Guida del Gioco, che sulle Isole significa qualche piccolo compito
-allo stesso tempo: narratore, arbitro gentile, il più grande tifoso dei bambini e
+Voi siete la Guida del Gioco, che sulle Isole significa diversi piccoli compiti
+tutti insieme: narratore, arbitro gentile, il più grande tifoso dei bambini e
 un avventuriero in più che gioca con loro. Questo è un gioco cooperativo per due o
 più che giocano insieme, una persona adulta e uno o più bambini, tutti dalla
 stessa parte. Nessuno gareggia e nessuno perde.

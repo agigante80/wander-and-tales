@@ -6,8 +6,8 @@ provare.*
 
 ## Prima di cominciare
 
-Stasera è la Festa delle Luci. Ogni anno le famiglie delle Isole Fluttuanti fanno
-salire lanterne del cielo luminose nel cielo calmo della sera. Ma quando guardate
+Stasera è la Festa delle Luci. Ogni anno le famiglie delle Isole Volanti fanno
+salire luminose lanterne del cielo nella sera calma. Ma quando guardate
 fuori dalla Casa dei Piccoli Maghi, il cielo è buio. La Piazza delle Lanterne è
 grigia e silenziosa. Le lanterne sono volate via.
 

@@ -1,7 +1,7 @@
 # Guida per l'Adulto
 
 *È la tua prima volta? Qui trovi tutto quello che ti serve. Leggila una volta e
-sarai pronto per qualunque kit della biblioteca. Ti porterà via circa cinque
+potrai usare qualunque kit della biblioteca. Ti porterà via circa cinque
 minuti.*
 
 ## Che cos'è
@@ -29,7 +29,7 @@ la strada.
   rispondere.
 - **L'arbitro gentile.** Quando i giocatori provano qualcosa, sei tu a decidere come
   va a finire, pendendo sempre verso il sì. Le pagine dei rompicapi ti danno le
-  soluzioni, così non ti fai mai cogliere impreparato.
+  soluzioni, così non ti fai mai cogliere alla sprovvista.
 - **Il fan numero uno.** Applaudi ogni idea, soprattutto quelle strane. Il tuo
   entusiasmo è il motore di tutto il gioco.
 - **Un avventuriero in più.** Prendi un eroe tutto tuo e gioca con loro. Hai letto
