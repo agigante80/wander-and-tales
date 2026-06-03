@@ -27,6 +27,12 @@ UI: dict[str, dict[str, str]] = {
         "map_legend_b1": "The golden path leads you from",
         "map_legend_b2": "1 to 4, solving each puzzle.",
         "map_legend_foot": "Build the objects from bricks.",
+        "colophon_project": "Wits and Wonder",
+        "colophon_artifact_guide": "Guide for the Grown-Up",
+        "colophon_licence": "Content licence: {code} ({url})",
+        "colophon_version": "Version {number}, updated {updated}, {locale}",
+        "colophon_qr_caption": "Scan for the latest version",
+        "colophon_promise": "Here nobody loses. If a try does not work, find another way.",
     },
     "es-ES": {
         "glossary_title": "Quién es Quién y Qué es Qué",
@@ -54,6 +60,12 @@ UI: dict[str, dict[str, str]] = {
         "map_legend_b1": "El camino dorado os lleva del",
         "map_legend_b2": "1 al 4 resolviendo cada puzle.",
         "map_legend_foot": "Construid los objetos con piezas.",
+        "colophon_project": "Wits and Wonder",
+        "colophon_artifact_guide": "Guía para la persona adulta",
+        "colophon_licence": "Licencia del contenido: {code} ({url})",
+        "colophon_version": "Versión {number}, actualizada el {updated}, {locale}",
+        "colophon_qr_caption": "Escanea para la última versión",
+        "colophon_promise": "Aquí nadie pierde. Si algo no sale, se busca otra manera.",
     },
 }
 

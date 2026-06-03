@@ -19,6 +19,7 @@ render = [
     "cairosvg>=2.7",
     "pypdf>=4.0",
     "defusedxml>=0.7",
+    "segno>=1.6",
 ]
 images = [
     "openai>=1.0",
