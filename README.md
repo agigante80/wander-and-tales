@@ -39,6 +39,14 @@ more children), and playable with a single ordinary die.
 - The Floating Isles: [English](kits/en-GB/floating-isles/world-book-v10.pdf) · [Español](kits/es-ES/floating-isles/world-book-v10.pdf) · [Italiano](kits/it-IT/floating-isles/world-book-v9.pdf)
 - The Sunlit Hills of Greece: [English](kits/en-GB/greek-myth/world-book-v9.pdf) · [Español](kits/es-ES/greek-myth/world-book-v9.pdf) · [Italiano](kits/it-IT/greek-myth/world-book-v7.pdf)
 
+### Example heroes
+
+Ready-to-use sample adventure sheets, two for ages 6 to 8 and two for ages
+9 to 12, each with a hero drawn in, to play straight away or use as ideas:
+
+- The Floating Isles: [English](kits/en-GB/floating-isles/example-heroes-v9.pdf) · [Español](kits/es-ES/floating-isles/example-heroes-v9.pdf) · [Italiano](kits/it-IT/floating-isles/example-heroes-v9.pdf)
+- The Sunlit Hills of Greece: [English](kits/en-GB/greek-myth/example-heroes-v6.pdf) · [Español](kits/es-ES/greek-myth/example-heroes-v6.pdf) · [Italiano](kits/it-IT/greek-myth/example-heroes-v6.pdf)
+
 **New to running a game like this?** Read the Guide for the Grown-Up: [English](kits/guides/Guide_for_the_Grown-Up_en-GB-v2.pdf) · [Español](kits/guides/Guide_for_the_Grown-Up_es-ES-v2.pdf) · [Italiano](kits/guides/Guide_for_the_Grown-Up_it-IT-v1.pdf).
 
 <!-- END KIT TABLE -->
