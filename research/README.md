@@ -1,12 +1,20 @@
-# Research: why a game like this matters in an AI world
+# Research
 
-This folder gathers credible evidence behind the idea that a screen-free,
-cooperative, imaginative, critical-thinking game played by a parent and child
-helps build exactly the capacities the next generation will need. It exists to
-ground our marketing in real research rather than vibes, and to keep us honest
-about what the evidence does and does not show.
+This folder holds two bodies of research, in two subfolders.
 
-## How this folder is organized
+- **`evidence-base/`**: the credible evidence behind the idea that a screen-free,
+  cooperative, imaginative, critical-thinking game played by a parent and child
+  helps build exactly the capacities the next generation will need. It grounds our
+  marketing in real research rather than vibes and keeps us honest about what the
+  evidence does and does not show.
+- **`landscape/`**: a scan of the wider field, the kindred work this project sits
+  among. Two parts: digital tools that generate children's stories, and printed or
+  purchasable story-adventure kits and games. It studies what each does well, how
+  they shape stories for different ages, and what readers and players say, then
+  draws out ideas to improve this project. Sample files downloaded for study live in
+  `landscape/samples/`, which is gitignored (we do not redistribute others' content).
+
+## The evidence base (`evidence-base/`)
 
 - `01-screens-ai-and-children.md` how mobile/screen use and emerging AI tools
   relate to children's cognitive development, attention, creativity, and
@@ -19,6 +27,19 @@ about what the evidence does and does not show.
 - `marketing-paragraph.md` a drafted marketing paragraph in the founder's
   voice, grounded in the sources here, plus the evidence notes behind each
   claim.
+
+## The landscape scan (`landscape/`)
+
+- `digital-story-generators.md` apps and websites that generate or co-create
+  children's stories (including AI tools), what they output, how they handle age,
+  and what users say.
+- `printed-and-purchasable-kits.md` published, printed, or print-and-play
+  story-adventure kits and cooperative games for children, their formats by age,
+  and what reviewers say.
+- `sample-teardowns.md` close reads of real sample PDFs (free and legally
+  downloadable) to learn concrete layout and reading-level choices.
+- `comparison-and-ideas.md` the synthesis: a comparison and a prioritised set of
+  ideas to improve this project.
 
 ## Credibility tiers (used throughout)
 

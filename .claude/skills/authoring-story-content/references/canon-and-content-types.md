@@ -118,4 +118,4 @@ Aim for about one to two pages, covering:
 Keep the claims rule in mind here especially: this is grown-up-facing copy, so any
 mention of benefits to children stays associational and soft (a chance to
 practise curiosity and teamwork, screen-free time together), never a promise that
-the game makes a child smarter. See `research/marketing-paragraph.md`.
+the game makes a child smarter. See `research/evidence-base/marketing-paragraph.md`.

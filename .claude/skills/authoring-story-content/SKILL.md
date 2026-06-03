@@ -63,8 +63,8 @@ These are small and unforgiving, so check them deliberately.
    shared screen-free time is "associated with" or "linked to" good outcomes, not
    a cause of them. Keep verbs soft: *practise, nurture, exercise, a chance to*,
    not *builds, boosts, increases, improves*. This rule comes straight from the
-   evidence base; see `research/marketing-paragraph.md` for the exact phrasings
-   that are cleared and the list of claims never to make. It governs all
+   evidence base; see `research/evidence-base/marketing-paragraph.md` for the exact
+   phrasings that are cleared and the list of claims never to make. It governs all
    grown-up-facing copy (world intros, the Guide, any positioning text).
 
 3. **Write British English (en-GB) and Spanish from Spain (es-ES).** These are
