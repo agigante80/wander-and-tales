@@ -1,20 +1,19 @@
 ---
 name: create-story
-description: Use when a user wants to create a new Wits & Wonder story (or a new world for one) and optionally open a pull request to contribute it. Guides choosing or creating a world, choosing or writing a story idea, setting the audience and challenges, authoring the content in every project locale (en-GB first, then es-ES) with image prompts, validating and previewing the kit, and opening a draft PR. Defers all voice, reading-level, peril-tone, and canon-name rules to the authoring-story-content skill. Trigger on requests like "create a story", "add a new adventure", "make a kit about X", "I want to contribute a story", or "start a new world".
+description: Use when a user wants to create their own Wits & Wonder story (or a new world) and build their own printable kit to play at home. Guides choosing or creating a world, choosing or writing an idea, setting the audience and challenges, authoring the content in British English and Spanish from Spain with image prompts, optionally generating the pictures with the user's own OpenAI key (or leaving prompts to paste elsewhere), validating, and building the printable PDFs into dist/. Defers all voice, reading-level, peril-tone, and canon-name rules to the authoring-story-content skill. Sharing the story with the public library is optional and handled by the separate contribute-story skill. Trigger on requests like "create a story", "make my own adventure", "make a kit about X", "write a new story to print", or "start a new world".
 ---
 
-# Creating a Wits & Wonder story
+# Creating your own Wits & Wonder kit
 
-This skill is an **orchestrator**. It runs the interview and the mechanical steps
-(scaffold, validate, preview, submit) and leaves all the writing rules to the
-`authoring-story-content` skill. Your job here is to take an author from an idea to
-a valid, on-brand story and, if they wish, a clean draft pull request, without ever
-touching the maintainer's OpenAI key.
+This skill is an **orchestrator** for making your own kit. It runs the interview and
+the mechanical steps (scaffold, validate, build) and leaves all the writing rules to
+the `authoring-story-content` skill. The goal is to take the author from an idea to a
+valid, on-brand story and their own printable PDFs, ready to print and play at home.
 
-The trust model in short: contributions are draft PRs a maintainer reviews; the PR
-carries text and image prompts, and optionally pictures the author made themselves;
-built PDFs and the maintainer's key are never in a contributor PR. See
-`CONTRIBUTING.md` for the full contributor guidance.
+Sharing the story with the public library is optional and separate: when the kit is
+done, the `contribute-story` skill opens a draft pull request if the author wants one.
+This skill never needs the maintainer's key; any images are generated with the author's
+own key.
 
 ## Step 0: load the authoring rules
 
@@ -78,21 +77,23 @@ child's ear, not word for word. Produce:
 
 Image entries always include prompts. They do not require generated art.
 
-## Step 6: pictures, optionally
+## Step 6: pictures, your choice
 
-Offer the author a choice, and respect it:
+Offer the author a choice and respect it. None of these is required for a playable kit;
+the art can always be added later.
 
-- **Prompts only (default, no key needed).** The maintainer illustrates the story
-  after accepting it. Leave the `assets/` art empty.
-- **Generate now with the author's own key.** If the author has their own
-  `OPENAI_API_KEY` and wants to, run `python -m build generate-images --root .
-  --world <world> --story <story>`. This uses the author's key, never the
-  maintainer's.
-- **Bring their own art.** The author drops their own original pictures into the
-  story or world `assets/` as `<image-id>.png`.
-
-If the author supplies art, remind them the PR will ask them to confirm it is
-theirs to give.
+- **Generate now with your own key.** If the author has their own `OPENAI_API_KEY` in
+  `.env` and wants pictures, run `python -m build generate-images --root . --world
+  <world>` (omit `--story` so the world-level cover and portraits are generated too;
+  the prompt filter excludes world-level images when a story is named). This uses the
+  author's key only, never a maintainer key. Confirm before spending credits, target
+  only this world, and eyeball each image for on-brand, text-free, gentle art.
+- **Prompts only, no key.** Leave `assets/` empty. The author can export the prompts
+  (`python -m build prompts --root . --world <world>`), paste them into any image
+  generator they like, and drop the PNGs in as `<image-id>.png`, or just play
+  text-only.
+- **Bring their own art.** The author drops their own original pictures into the story
+  or world `assets/` as `<image-id>.png`.
 
 ## Step 7: advisory consistency check
 
@@ -102,20 +103,34 @@ using a gentle creature as a villain, or giving a place a nature that clashes wi
 another story). Raise these for the author to resolve. This is advisory guidance,
 not a hard gate.
 
-## Step 8: validate, preview, and submit
-
-Follow `references/submitting.md` exactly:
+## Step 8: validate and build the printable kit
 
 1. `python -m build validate --root .` and `python -m build lint --root .` (fix any
-   errors; image-file warnings are expected for a prompts-only story).
-2. `python -m build render ...` to build a preview kit the author can open, and
-   `python -m build catalog --root . --out catalog.md` to refresh the catalogue.
-3. Then either:
-   - **Contribute:** create a branch, commit the content and any proposed art (but
-     not built PDFs or anything under `dist/`), and open a **draft PR** with the
-     template. Use the `gh` CLI or the GitHub MCP; if neither is authenticated,
-     prepare the branch and print the exact steps for the author.
-   - **Keep it for yourself:** stop here with a local kit.
+   errors; image-file warnings are expected if the author chose prompts-only).
+2. Build the full kit into `dist/` (the gitignored scratch folder). Kits are bilingual
+   by design, so build every required locale:
+
+   ```bash
+   for loc in en-GB es-ES; do
+     python -m build render --root . --world <world> --story <story> --locale "$loc" --reading-level simple
+     python -m build render --root . --world <world> --story <story> --locale "$loc" --reading-level rich
+     python -m build render-playbook --root . --world <world> --story <story> --locale "$loc"
+     python -m build render-world --root . --world <world> --locale "$loc"
+   done
+   ```
+
+   Tell the author the PDFs are under `dist/<locale>/<world>/...` (the Story Pack to
+   play from, the Grown-up's Playbook with the answers, and the World Book) and that
+   they can print and play.
+3. Eyeball one built Story Pack (rasterize a page) to confirm it looks right: A4, the
+   front page with the world paragraph, accents render, and any images embed.
+
+Do **not** run `python -m build rebuild`: that rewrites the committed `kits/` tree and
+the root README, which is the maintainer's publish step, not a personal build.
+
+If the author wants their story added to the public library, hand off to the
+**`contribute-story`** skill (it opens a draft pull request). That is entirely
+optional; the author already has their own printable kit.
 
 ## Quick checklist before you call it done
 
@@ -123,5 +138,6 @@ Follow `references/submitting.md` exactly:
 - en-GB and every required locale are present and complete.
 - Every named thing is in canon with matching names; no existing entry was rewritten.
 - `validate` passes and `lint` has no errors.
-- The PR (if any) is a draft, carries no built PDFs, and the template is filled in.
-- The maintainer's OpenAI key was never used.
+- The printable kit built into `dist/` and was eyeballed.
+- Only the author's own OpenAI key was ever used (never a maintainer key), and built
+  PDFs were not committed.

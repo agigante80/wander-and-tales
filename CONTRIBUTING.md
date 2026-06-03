@@ -3,17 +3,20 @@
 Thank you for wanting to add a story. This library grows through contributions, and
 adding a world or a story is a writing task, not a coding task.
 
-## The easiest way: the create-story skill
+## The easiest way: two skills in Claude Code
 
-In Claude Code, ask to "create a story" (or "add an adventure", "start a new
-world"). The `create-story` skill walks you through everything: choosing or creating
-a world, picking or writing an idea, setting the audience and challenges, writing the
-content in British English and Spanish from Spain, validating it, previewing the kit,
-and opening a draft pull request. It follows the project's voice and ethos rules for
-you (see `CLAUDE.md` and the `authoring-story-content` guidance).
+Most people start by making their own kit, then decide whether to share it.
 
-You can also author the files by hand if you prefer; the skill just removes the
-friction.
+- **`create-story`** walks you through writing your own adventure (choosing or
+  creating a world, the idea, the audience, the challenges, in British English and
+  Spanish from Spain) and builds your printable PDFs into `dist/`. That is all you need
+  to print and play at home; sharing is optional.
+- **`contribute-story`** is the optional next step: when your story is done, it opens a
+  draft pull request so a maintainer can review it for the public library.
+
+Both follow the project's voice and ethos rules for you (see `CLAUDE.md` and the
+`authoring-story-content` guidance). You can also author the files by hand if you
+prefer; the skills just remove the friction.
 
 ## What a pull request should contain
 
