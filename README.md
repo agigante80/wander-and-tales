@@ -25,15 +25,15 @@ more children), and playable with a single ordinary die.
 
 | Story | World | Ages | Skills | Peril | Time | Get the kit |
 |---|---|---|---|---|---|---|
-| The Sleeping Garden | The Floating Isles | 6 to 8 | vocabulary, logic, social-emotional | gentle | 30 min | English: [Simple](kits/en-GB/floating-isles/sleeping-garden/story-pack-simple-v7.pdf) · [Rich](kits/en-GB/floating-isles/sleeping-garden/story-pack-rich-v7.pdf) · [Playbook](kits/en-GB/floating-isles/sleeping-garden/playbook-v5.pdf)<br>Español: [Sencillo](kits/es-ES/floating-isles/sleeping-garden/story-pack-simple-v7.pdf) · [Completo](kits/es-ES/floating-isles/sleeping-garden/story-pack-rich-v7.pdf) · [Cuaderno](kits/es-ES/floating-isles/sleeping-garden/playbook-v5.pdf) |
-| The Singing Spring | The Sunlit Hills of Greece | 9 to 12 | logic, vocabulary, spatial, social-emotional | heroic | 40 min | English: [Simple](kits/en-GB/greek-myth/the-singing-spring/story-pack-simple-v5.pdf) · [Rich](kits/en-GB/greek-myth/the-singing-spring/story-pack-rich-v5.pdf) · [Playbook](kits/en-GB/greek-myth/the-singing-spring/playbook-v4.pdf)<br>Español: [Sencillo](kits/es-ES/greek-myth/the-singing-spring/story-pack-simple-v5.pdf) · [Completo](kits/es-ES/greek-myth/the-singing-spring/story-pack-rich-v5.pdf) · [Cuaderno](kits/es-ES/greek-myth/the-singing-spring/playbook-v4.pdf) |
+| The Sleeping Garden | The Floating Isles | 6 to 8 | vocabulary, logic, social-emotional | gentle | 30 min | English: [Simple](kits/en-GB/floating-isles/sleeping-garden/story-pack-simple-v8.pdf) · [Rich](kits/en-GB/floating-isles/sleeping-garden/story-pack-rich-v8.pdf) · [Playbook](kits/en-GB/floating-isles/sleeping-garden/playbook-v6.pdf)<br>Español: [Sencillo](kits/es-ES/floating-isles/sleeping-garden/story-pack-simple-v8.pdf) · [Completo](kits/es-ES/floating-isles/sleeping-garden/story-pack-rich-v8.pdf) · [Cuaderno](kits/es-ES/floating-isles/sleeping-garden/playbook-v6.pdf)<br>Italiano: [Semplice](kits/it-IT/floating-isles/sleeping-garden/story-pack-simple-v8.pdf) · [Completo](kits/it-IT/floating-isles/sleeping-garden/story-pack-rich-v8.pdf) · [Quaderno](kits/it-IT/floating-isles/sleeping-garden/playbook-v6.pdf) |
+| The Singing Spring | The Sunlit Hills of Greece | 9 to 12 | logic, vocabulary, spatial, social-emotional | heroic | 40 min | English: [Simple](kits/en-GB/greek-myth/the-singing-spring/story-pack-simple-v6.pdf) · [Rich](kits/en-GB/greek-myth/the-singing-spring/story-pack-rich-v6.pdf) · [Playbook](kits/en-GB/greek-myth/the-singing-spring/playbook-v5.pdf)<br>Español: [Sencillo](kits/es-ES/greek-myth/the-singing-spring/story-pack-simple-v6.pdf) · [Completo](kits/es-ES/greek-myth/the-singing-spring/story-pack-rich-v6.pdf) · [Cuaderno](kits/es-ES/greek-myth/the-singing-spring/playbook-v5.pdf)<br>Italiano: [Semplice](kits/it-IT/greek-myth/the-singing-spring/story-pack-simple-v5.pdf) · [Completo](kits/it-IT/greek-myth/the-singing-spring/story-pack-rich-v5.pdf) · [Quaderno](kits/it-IT/greek-myth/the-singing-spring/playbook-v4.pdf) |
 
 ### World books
 
-- The Floating Isles: [English](kits/en-GB/floating-isles/world-book-v7.pdf) · [Español](kits/es-ES/floating-isles/world-book-v7.pdf)
-- The Sunlit Hills of Greece: [English](kits/en-GB/greek-myth/world-book-v8.pdf) · [Español](kits/es-ES/greek-myth/world-book-v8.pdf)
+- The Floating Isles: [English](kits/en-GB/floating-isles/world-book-v8.pdf) · [Español](kits/es-ES/floating-isles/world-book-v8.pdf) · [Italiano](kits/it-IT/floating-isles/world-book-v7.pdf)
+- The Sunlit Hills of Greece: [English](kits/en-GB/greek-myth/world-book-v9.pdf) · [Español](kits/es-ES/greek-myth/world-book-v9.pdf) · [Italiano](kits/it-IT/greek-myth/world-book-v7.pdf)
 
-**New to running a game like this?** Read the Guide for the Grown-Up: [English](kits/guides/Guide_for_the_Grown-Up_en-GB-v2.pdf) · [Español](kits/guides/Guide_for_the_Grown-Up_es-ES-v2.pdf).
+**New to running a game like this?** Read the Guide for the Grown-Up: [English](kits/guides/Guide_for_the_Grown-Up_en-GB-v2.pdf) · [Español](kits/guides/Guide_for_the_Grown-Up_es-ES-v2.pdf) · [Italiano](kits/guides/Guide_for_the_Grown-Up_it-IT-v1.pdf).
 
 <!-- END KIT TABLE -->
 
