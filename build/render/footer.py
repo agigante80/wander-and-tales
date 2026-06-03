@@ -39,13 +39,14 @@ def stamp_footers(
     """Draw a discreet footer on every page of the merged PDF, in place."""
     reader = PdfReader(str(pdf_path))
     total = len(reader.pages)
-    writer = PdfWriter()
-    for index, page in enumerate(reader.pages, start=1):
+    # Clone into the writer first, then merge overlays onto the writer's own pages:
+    # merging onto reader pages not attached to a writer is deprecated in pypdf.
+    writer = PdfWriter(clone_from=reader)
+    for index, page in enumerate(writer.pages, start=1):
         width = float(page.mediabox.width)
         height = float(page.mediabox.height)
         right = f"{locale} · {version_info.label} · page {index} of {total}"
         page.merge_page(_overlay_page(width, height, identity, right))
-        writer.add_page(page)
     with pdf_path.open("wb") as handle:
         writer.write(handle)
     return pdf_path
