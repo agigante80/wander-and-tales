@@ -6,9 +6,11 @@
   names:
     en-GB: The Lonely Sprite
     es-ES: El Duende Solitario
+    it-IT: Il Folletto Solitario
   kind: character
   disposition: lonely
   description:
     en-GB: The little sprite of the Heart who sent the garden to sleep, not out of spite but because it wanted a friend.
     es-ES: El duendecillo del Corazón que durmió el jardín, no por maldad sino porque quería un amigo.
+    it-IT: Il piccolo folletto del Cuore che ha addormentato il giardino, non per cattiveria ma perché desiderava un amico.
   first_seen: sleeping-garden

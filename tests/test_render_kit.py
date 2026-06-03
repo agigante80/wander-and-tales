@@ -81,7 +81,7 @@ def test_cover_image_stays_on_the_front_page(sample_repo, tmp_path):
         sy.read_text(encoding="utf-8")
         + (
             "images:\n  - id: cover\n    role: cover\n    orientation: portrait\n"
-            "    prompt: A cover.\n    alt:\n      en-GB: A cover.\n      es-ES: Una portada.\n"
+            "    prompt: A cover.\n    alt:\n      en-GB: A cover.\n      es-ES: Una portada.\n      it-IT: Una copertina.\n"
         ),
         encoding="utf-8",
     )

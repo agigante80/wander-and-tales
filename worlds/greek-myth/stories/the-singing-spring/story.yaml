@@ -3,6 +3,7 @@ id: the-singing-spring
 title:
   en-GB: The Singing Spring
   es-ES: La Fuente Cantarina
+  it-IT: La Fonte Canterina
 age:
   recommended: older
   also_works_for: [young]
@@ -32,6 +33,7 @@ images:
     alt:
       en-GB: Two young heroes setting out from a little white Greek town at dawn, a hill road climbing toward marble gates and a mountain.
       es-ES: Dos jóvenes héroes saliendo de un pueblecito blanco griego al amanecer, con un camino de colina que sube hacia unas puertas de mármol y una montaña.
+      it-IT: Due giovani eroi che partono all'alba da un piccolo paese bianco della Grecia, con una strada di collina che sale verso porte di marmo e una montagna.
   - id: scene-riddle-gate
     role: scene
     orientation: landscape
@@ -43,6 +45,7 @@ images:
     alt:
       en-GB: A friendly winged sphinx on sunlit marble steps tilting her kind face, two small heroes thinking below.
       es-ES: Una esfinge alada amable en unos escalones de mármol soleados, inclinando su rostro bondadoso, con dos héroes pequeños pensando debajo.
+      it-IT: Una sfinge alata gentile su gradini di marmo assolati che inclina il suo volto buono, con due piccoli eroi che pensano sotto di lei.
   - id: scene-winding-maze
     role: scene
     orientation: landscape
@@ -55,6 +58,7 @@ images:
     alt:
       en-GB: Two heroes in a sunlit stone maze trailing a glowing golden thread, a cheerful satyr pointing the way.
       es-ES: Dos héroes en un laberinto de piedra soleado dejando tras de sí un hilo dorado brillante, con un sátiro alegre señalando el camino.
+      it-IT: Due eroi in un labirinto di pietra assolato che si lasciano dietro un filo dorato luminoso, con un satiro allegro che indica la via.
   - id: scene-the-cyclops
     role: scene
     orientation: landscape
@@ -66,6 +70,7 @@ images:
     alt:
       en-GB: A huge gentle one-eyed giant by a cave looking shy and sad, two small heroes offering a honey cake with kind smiles.
       es-ES: Un gigante amable de un solo ojo junto a una cueva con aire tímido y triste, mientras dos héroes pequeños le ofrecen un pastel de miel con sonrisas amables.
+      it-IT: Un enorme gigante gentile con un solo occhio accanto a una grotta, dall'aria timida e triste, mentre due piccoli eroi gli offrono una focaccia al miele con sorrisi gentili.
   - id: scene-spring-wakes
     role: scene
     orientation: landscape
@@ -77,3 +82,4 @@ images:
     alt:
       en-GB: A clear spring bursting back to life, gentle water nymphs singing in the spray, a hero playing a little lyre as the giant smiles.
       es-ES: Una fuente clara que vuelve a la vida, con ninfas de agua cantando entre el rocío, mientras una heroína toca una pequeña lira y el gigante sonríe.
+      it-IT: Una fonte limpida che torna alla vita, con gentili ninfe d'acqua che cantano tra gli spruzzi, mentre un'eroina suona una piccola lira e il gigante sorride.

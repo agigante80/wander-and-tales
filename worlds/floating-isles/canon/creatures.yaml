@@ -4,53 +4,63 @@
   names:
     en-GB: Mist Cat
     es-ES: Gato de Niebla
+    it-IT: Gatto di Nebbia
   kind: creature
   disposition: friendly
   description:
     en-GB: A gentle cat made of fog who gives hints.
     es-ES: Un gato amable hecho de niebla que da pistas.
+    it-IT: Un gatto gentile fatto di nebbia che dà indizi.
   first_seen: sleeping-garden
 
 - id: librarian-owl
   names:
     en-GB: Librarian Owl
     es-ES: Búho Bibliotecario
+    it-IT: Gufo Bibliotecario
   kind: creature
   disposition: friendly
   description:
     en-GB: A wise owl who loves a good riddle.
     es-ES: Un búho sabio al que le encantan las adivinanzas.
+    it-IT: Un gufo saggio che adora un bell'indovinello.
   first_seen: sleeping-garden
 
 - id: bridge-tortoise
   names:
     en-GB: Bridge Tortoise
     es-ES: Tortuga Puente
+    it-IT: Tartaruga Ponte
   kind: creature
   disposition: friendly
   description:
     en-GB: A patient tortoise who lets travellers cross on her broad shell.
     es-ES: Una tortuga paciente que deja cruzar a los viajeros sobre su ancho caparazón.
+    it-IT: Una tartaruga paziente che lascia attraversare i viaggiatori sul suo ampio guscio.
   first_seen: sleeping-garden
 
 - id: messenger-butterfly
   names:
     en-GB: Messenger Butterfly
     es-ES: Mariposa Mensajera
+    it-IT: Farfalla Messaggera
   kind: creature
   disposition: friendly
   description:
     en-GB: A bright butterfly that carries little messages and the odd free hint.
     es-ES: Una mariposa luminosa que lleva pequeños mensajes y alguna pista gratis.
+    it-IT: Una farfalla luminosa che porta piccoli messaggi e qualche indizio gratis.
   first_seen: sleeping-garden
 
 - id: talking-flowers
   names:
     en-GB: Talking Flowers
     es-ES: Flores Parlantes
+    it-IT: Fiori Parlanti
   kind: creature
   disposition: friendly
   description:
     en-GB: Flowers that chat in soft little voices when you lean close.
     es-ES: Flores que charlan con vocecillas suaves cuando os acercáis.
+    it-IT: Fiori che chiacchierano con vocine dolci quando vi avvicinate.
   first_seen: sleeping-garden

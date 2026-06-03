@@ -5,8 +5,8 @@ grown-up and a child to play together. You print a kit, grab a die and a few
 household bits, and share a gentle story-and-puzzle adventure. There is no app and
 no screen. **Nobody competes, and nobody loses:** you win by being clever and kind.
 
-Every kit comes ready to play in British English and in Spanish from Spain, at two
-reading levels. It is a lovely excuse for unhurried, screen-free time together, and
+Every kit comes ready to play in British English, Spanish from Spain, and Italian, at
+two reading levels. It is a lovely excuse for unhurried, screen-free time together, and
 a way to practise imagination, problem-solving, and teamwork. Adding a world, a
 story, or a language is a writing task, not a coding task.
 
@@ -69,7 +69,7 @@ optional (see step 4).
 
 **3. In Claude Code, ask to "create a story".** The `create-story` skill walks you
 through choosing or inventing a world, the idea, the audience, and the challenges,
-writes it in British English and Spanish from Spain, and builds your kit. It follows
+writes it in British English, Spanish from Spain, and Italian, and builds your kit. It follows
 the project's gentle, no-lose voice for you. You can also author the files by hand.
 
 **4. Pictures, your choice.** The skill can generate them with your own OpenAI key, or
@@ -78,11 +78,11 @@ PNGs in, or you can skip art and play text-only. None of this is required to get
 playable kit.
 
 **5. Print and play.** Your kit (the Story Pack, the Grown-up's Playbook, and the World
-Book, in both languages) is built into `dist/`. Print it, grab a die and a few
+Book, in all three languages) is built into `dist/`. Print it, grab a die and a few
 household bits, and play.
 
-Kits are bilingual by design (British English and Spanish from Spain), so your story is
-written and built in both.
+Kits are multilingual by design (British English, Spanish from Spain, and Italian), so
+your story is written and built in all three.
 
 ## Share your story (optional)
 

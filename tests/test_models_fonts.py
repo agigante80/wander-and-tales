@@ -5,7 +5,7 @@ from build.models import World
 
 
 def _world(fonts=None):
-    data = {"id": "w", "name": {"en-GB": "W", "es-ES": "W"}}
+    data = {"id": "w", "name": {"en-GB": "W", "es-ES": "W", "it-IT": "W"}}
     if fonts is not None:
         data["fonts"] = fonts
     return data

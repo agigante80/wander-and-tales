@@ -6,7 +6,7 @@ from build.render import fonts
 
 
 def _world(fonts_block=None):
-    data = {"id": "w", "name": {"en-GB": "W", "es-ES": "W"}}
+    data = {"id": "w", "name": {"en-GB": "W", "es-ES": "W", "it-IT": "W"}}
     if fonts_block is not None:
         data["fonts"] = fonts_block
     return World.model_validate(data)

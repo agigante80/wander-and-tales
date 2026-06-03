@@ -7,7 +7,8 @@ from build.render import pages
 def _world(fonts_block=None):
     data = {
         "id": "floating-isles",
-        "name": {"en-GB": "The Floating Isles", "es-ES": "Las Islas Flotantes"},
+        "name": {"en-GB": "The Floating Isles", "es-ES": "Las Islas Flotantes",
+                 "it-IT": "Le Isole Fluttuanti"},
         "palette": ["#fef9ef", "#4ea24a", "#2bb3a3"],
     }
     if fonts_block is not None:

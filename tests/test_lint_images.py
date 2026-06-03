@@ -17,6 +17,7 @@ def _set_story_image(sample_repo, canon_ref):
             "    alt:\n"
             "      en-GB: A scene.\n"
             "      es-ES: Una escena.\n"
+            "      it-IT: Una scena.\n"
         ),
         encoding="utf-8",
     )
@@ -54,6 +55,7 @@ def _set_world_image(sample_repo, canon_ref):
             "    alt:\n"
             "      en-GB: A world image.\n"
             "      es-ES: Una imagen del mundo.\n"
+            "      it-IT: Un'immagine del mondo.\n"
         ),
         encoding="utf-8",
     )
@@ -76,6 +78,7 @@ _IMAGE_BLOCK = (
     "    alt:\n"
     "      en-GB: A scene.\n"
     "      es-ES: Una escena.\n"
+    "      it-IT: Una scena.\n"
 )
 
 

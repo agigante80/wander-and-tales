@@ -8,8 +8,9 @@ adding a world or a story is a writing task, not a coding task.
 Most people start by making their own kit, then decide whether to share it.
 
 - **`create-story`** walks you through writing your own adventure (choosing or
-  creating a world, the idea, the audience, the challenges, in British English and
-  Spanish from Spain) and builds your printable PDFs into `dist/`. That is all you need
+  creating a world, the idea, the audience, the challenges, in British English,
+  Spanish from Spain, and Italian) and builds your printable PDFs into `dist/`. That is
+  all you need
   to print and play at home; sharing is optional.
 - **`contribute-story`** is the optional next step: when your story is done, it opens a
   draft pull request so a maintainer can review it for the public library.

@@ -2,6 +2,7 @@ id: floating-isles
 name:
   en-GB: The Floating Isles
   es-ES: Las Islas Flotantes
+  it-IT: Le Isole Volanti
 tone: gentle wonder
 palette:
   - "#fef9ef"  # cream background
@@ -30,6 +31,15 @@ lore_summary:
     la ciudad donde viven las familias. Dentro del recinto de la escuela está el
     Gran Jardín, el corazón verde de toda la isla. Aquí nadie pierde; encontráis
     el camino siendo listos y amables.
+  it-IT: >
+    Le Isole Volanti sono isole che galleggiano in un cielo tranquillo, in un
+    regno dove la magia serve solo ad aiutare: fa crescere, guarisce, trasforma
+    una cosa in un'altra e permette di parlare con gli animali e con gli oggetti.
+    Non fa mai del male. Sull'isola principale, la Casa dei Piccoli Maghi si
+    erge nel punto più alto, dove i giovani maghi imparano i loro primi
+    incantesimi, e sotto si stende la città dove vivono le famiglie. Dentro il
+    recinto della scuola si trova il Grande Giardino, il cuore verde di tutta
+    l'isola. Qui nessuno perde; trovate la strada essendo svegli e gentili.
 fonts:
   default: dejavu-serif
 visual_style: >
@@ -52,6 +62,7 @@ images:
     alt:
       en-GB: The Floating Isles at golden hour, green islands in a calm sky with a little school tower and a walled garden on the tallest.
       es-ES: Las Islas Flotantes al atardecer dorado, islas verdes en un cielo tranquilo con una pequeña torre de escuela y un jardín amurallado en la más alta.
+      it-IT: Le Isole Volanti all'ora dorata, isole verdi in un cielo tranquillo con una piccola torre della scuola e un giardino cinto di mura su quella più alta.
   - id: mist-cat
     role: portrait
     orientation: square
@@ -63,6 +74,7 @@ images:
     alt:
       en-GB: A gentle cat made of soft grey mist, sitting on a mossy stone.
       es-ES: Un gato amable hecho de niebla gris suave, sentado en una piedra con musgo.
+      it-IT: Un gatto gentile fatto di morbida nebbia grigia, seduto su una pietra coperta di muschio.
   - id: lonely-sprite
     role: portrait
     orientation: square
@@ -74,3 +86,4 @@ images:
     alt:
       en-GB: A small shy sprite glowing softly, hugging its knees among waking flowers.
       es-ES: Un pequeño duende tímido que brilla con suavidad, abrazándose las rodillas entre flores que despiertan.
+      it-IT: Un piccolo folletto timido che brilla dolcemente, abbracciato alle ginocchia tra fiori che si svegliano.

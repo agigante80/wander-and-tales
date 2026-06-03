@@ -8,7 +8,8 @@ def _valid_story_data():
     return {
         "world": "floating-isles",
         "id": "sleeping-garden",
-        "title": {"en-GB": "The Sleeping Garden", "es-ES": "El Jardin Dormido"},
+        "title": {"en-GB": "The Sleeping Garden", "es-ES": "El Jardin Dormido",
+                  "it-IT": "Il Giardino Addormentato"},
         "age": {"recommended": "young", "also_works_for": ["early", "older"]},
         "skills": ["vocabulary", "logic", "social-emotional"],
         "peril": "gentle",

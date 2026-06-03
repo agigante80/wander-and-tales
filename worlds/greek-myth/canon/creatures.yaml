@@ -4,53 +4,63 @@
   names:
     en-GB: The Riddle Sphinx
     es-ES: La Esfinge de los Acertijos
+    it-IT: La Sfinge degli Indovinelli
   kind: creature
   disposition: fair
   description:
     en-GB: A great winged sphinx with a lion's body and a kind, clever face, who guards the gate and asks riddles. She is fair, not cruel, and a good answer or a brave guess opens the way.
     es-ES: Una gran esfinge alada con cuerpo de león y un rostro amable e ingenioso, que guarda la puerta y plantea acertijos. Es justa, no cruel, y una buena respuesta o una conjetura valiente abre el camino.
+    it-IT: Una grande sfinge alata con il corpo di leone e un volto buono e ingegnoso, che custodisce la porta e pone indovinelli. È giusta, non crudele, e una buona risposta o una supposizione coraggiosa apre la via.
   first_seen: the-singing-spring
 
 - id: lonely-cyclops
   names:
     en-GB: The Lonely Cyclops
     es-ES: El Cíclope Solitario
+    it-IT: Il Ciclope Solitario
   kind: creature
   disposition: lonely
   description:
     en-GB: A huge one-eyed giant who guards the spring. He looks fearsome, but he is really just lonely, and a kind word and a shared honey cake do more than any sword.
     es-ES: Un enorme gigante de un solo ojo que guarda la fuente. Parece temible, pero en realidad solo está solo, y una palabra amable y un pastel de miel compartido logran más que cualquier espada.
+    it-IT: Un enorme gigante con un solo occhio che custodisce la fonte. Sembra spaventoso, ma in realtà è solo solitario, e una parola gentile e una focaccia al miele condivisa valgono più di qualsiasi spada.
   first_seen: the-singing-spring
 
 - id: singing-nymphs
   names:
     en-GB: The Singing Nymphs
     es-ES: Las Ninfas Cantarinas
+    it-IT: Le Ninfe Canterine
   kind: creature
   disposition: friendly
   description:
     en-GB: Gentle spirits of the spring whose singing makes the water flow. When they are happy, every well in the valley fills again.
     es-ES: Espíritus amables de la fuente cuyo canto hace fluir el agua. Cuando están contentas, cada pozo del valle vuelve a llenarse.
+    it-IT: Spiriti gentili della fonte il cui canto fa scorrere l'acqua. Quando sono felici, ogni pozzo della valle torna a riempirsi.
   first_seen: the-singing-spring
 
 - id: friendly-satyr
   names:
     en-GB: Bramble the Satyr
     es-ES: Zarza el Sátiro
+    it-IT: Pruno il Satiro
   kind: creature
   disposition: playful
   description:
     en-GB: A cheerful, goat-legged satyr of the woods who loves jokes and hands out helpful hints to travellers he likes.
     es-ES: Un sátiro alegre con patas de cabra, de los bosques, al que le encantan los chistes y que da pistas útiles a los viajeros que le caen bien.
+    it-IT: Un satiro allegro con le zampe di capra, dei boschi, che adora gli scherzi e dà indizi utili ai viaggiatori che gli stanno simpatici.
   first_seen: the-singing-spring
 
 - id: chiron-centaur
   names:
     en-GB: Chiron the Centaur
     es-ES: Quirón el Centauro
+    it-IT: Chirone il Centauro
   kind: creature
   disposition: wise
   description:
     en-GB: The wisest and kindest of the centaurs, half horse and half person, a teacher of heroes who believes the best deeds are gentle ones.
     es-ES: El más sabio y amable de los centauros, mitad caballo y mitad persona, maestro de héroes que cree que las mejores hazañas son las amables.
+    it-IT: Il più saggio e gentile dei centauri, metà cavallo e metà persona, un maestro di eroi che crede che le imprese migliori siano quelle gentili.
   first_seen: the-singing-spring
