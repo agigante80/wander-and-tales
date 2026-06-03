@@ -1,0 +1,109 @@
+# Four example heroes for the Blossom Mountains of Yamato: ready-to-use sample
+# adventure sheets, two for ages 6 to 8 (young) and two for ages 9 to 12 (older).
+# This world has no magic; the three slots hold the three hero qualities (canon term
+# ids). The hero image is drawn in the sheet's "Draw your hero" box.
+
+- id: hana
+  tier: young
+  name: Hana
+  hero_of:
+    en-GB: the Blossom Mountains of Yamato
+    es-ES: las Montañas en Flor de Yamato
+    it-IT: i Monti in Fiore di Yamato
+  magics: [wisdom, kindness, courage]
+  energy: 4
+  carry:
+    - { en-GB: a paper lantern, es-ES: un farol de papel, it-IT: una lanterna di carta }
+    - { en-GB: a folding fan, es-ES: un abanico plegable, it-IT: un ventaglio pieghevole }
+    - { en-GB: a sweet rice cake, es-ES: un pastel de arroz dulce, it-IT: un dolce di riso }
+  image:
+    id: hero-hana
+    role: hero
+    orientation: portrait
+    prompt: >
+      A bright young hero in a simple flowered kimono with a friendly grin, holding a
+      small glowing paper lantern, cherry blossom drifting around, ready for an
+      adventure.
+    alt:
+      en-GB: A bright young hero in a flowered kimono holding a small glowing paper lantern, cherry blossom drifting.
+      es-ES: Una joven heroína radiante con un kimono de flores que sostiene un farol de papel encendido, con pétalos de cerezo al viento.
+      it-IT: Una giovane eroina radiosa con un kimono a fiori che tiene una lanterna di carta accesa, con petali di ciliegio nel vento.
+
+- id: taro
+  tier: young
+  name: Taro
+  hero_of:
+    en-GB: the Blossom Mountains of Yamato
+    es-ES: las Montañas en Flor de Yamato
+    it-IT: i Monti in Fiore di Yamato
+  magics: [courage, kindness, wisdom]
+  energy: 3
+  carry:
+    - { en-GB: a little bell, es-ES: una campanilla, it-IT: un campanello }
+    - { en-GB: a ball of red thread, es-ES: un ovillo de hilo rojo, it-IT: un gomitolo di filo rosso }
+    - { en-GB: a snack for the tanuki, es-ES: una golosina para el tanuki, it-IT: uno spuntino per il tanuki }
+  image:
+    id: hero-taro
+    role: hero
+    orientation: portrait
+    prompt: >
+      A cheerful young hero in a simple indigo yukata and straw sandals, standing
+      proudly with a little bronze bell, warm and kind rather than fierce, bamboo
+      behind.
+    alt:
+      en-GB: A cheerful young hero in an indigo yukata holding a little bronze bell, bamboo behind.
+      es-ES: Un joven héroe alegre con una yukata índigo que sostiene una campanilla de bronce, con bambú detrás.
+      it-IT: Un giovane eroe allegro con uno yukata indaco che tiene un campanello di bronzo, con il bambù dietro.
+
+- id: mei
+  tier: older
+  name: Mei
+  hero_of:
+    en-GB: the Blossom Mountains of Yamato
+    es-ES: las Montañas en Flor de Yamato
+    it-IT: i Monti in Fiore di Yamato
+  magics: [wisdom, courage, kindness]
+  energy: 5
+  carry:
+    - { en-GB: a scroll of riddles, es-ES: un pergamino de acertijos, it-IT: un rotolo di indovinelli }
+    - { en-GB: a little bronze bell, es-ES: una campanilla de bronce, it-IT: un campanello di bronzo }
+    - { en-GB: a coil of red thread, es-ES: un rollo de hilo rojo, it-IT: una matassa di filo rosso }
+    - { en-GB: a friendship charm, es-ES: un amuleto de la amistad, it-IT: un amuleto dell'amicizia }
+  image:
+    id: hero-mei
+    role: hero
+    orientation: portrait
+    prompt: >
+      A confident older hero in a flowing kimono with a calm, clever face and hair
+      tied back, holding a small scroll, ready for a real adventure, misty mountains
+      behind.
+    alt:
+      en-GB: A confident older hero in a flowing kimono with hair tied back, holding a small scroll, misty mountains behind.
+      es-ES: Una heroína mayor y segura con un kimono largo y el pelo recogido, sosteniendo un pequeño pergamino, con montañas neblinosas detrás.
+      it-IT: Un'eroina più grande e sicura con un kimono lungo e i capelli raccolti, che tiene un piccolo rotolo, con montagne nebbiose dietro.
+
+- id: ren
+  tier: older
+  name: Ren
+  hero_of:
+    en-GB: the Blossom Mountains of Yamato
+    es-ES: las Montañas en Flor de Yamato
+    it-IT: i Monti in Fiore di Yamato
+  magics: [courage, wisdom, kindness]
+  energy: 4
+  carry:
+    - { en-GB: a bamboo flute, es-ES: una flauta de bambú, it-IT: un flauto di bambù }
+    - { en-GB: a sturdy walking staff, es-ES: un bastón resistente, it-IT: un solido bastone da cammino }
+    - { en-GB: a sweet rice cake, es-ES: un pastel de arroz dulce, it-IT: un dolce di riso }
+  image:
+    id: hero-ren
+    role: hero
+    orientation: portrait
+    prompt: >
+      A steady older hero in a simple travelling kimono with a kind, brave face,
+      leaning on a bamboo walking staff, a red torii gate and misty hills behind,
+      warm and reassuring.
+    alt:
+      en-GB: A steady older hero in a travelling kimono leaning on a bamboo staff, a red torii gate and misty hills behind.
+      es-ES: Un héroe mayor y firme con un kimono de viaje apoyado en un bastón de bambú, con una puerta torii roja y colinas neblinosas detrás.
+      it-IT: Un eroe più grande e saldo con un kimono da viaggio appoggiato a un bastone di bambù, con un portale torii rosso e colline nebbiose dietro.

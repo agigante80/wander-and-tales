@@ -1,0 +1,84 @@
+world: japanese-myth
+id: tanukis-tidy-up
+title:
+  en-GB: The Tanuki's Tidy-Up
+  es-ES: El Lío del Tanuki
+  it-IT: Il Pasticcio del Tanuki
+age:
+  recommended: young
+  also_works_for: [early]
+skills:
+  - maths
+  - logic
+  - observation
+  - social-emotional
+peril: gentle
+adult_gm: true
+dice:
+  minimum: 1d6
+  recommended: d20-set
+players:
+  min: 2
+  max: 5
+play_time_minutes: 25
+images:
+  - id: cover
+    role: cover
+    orientation: portrait
+    prompt: >
+      Two young heroes arriving at a festival market street where a jolly round
+      raccoon-dog stands amid a happy muddle of toppled and mixed-up stalls, paper
+      lanterns and cherry blossom above, everyone bemused but smiling. Lively and
+      warm.
+    alt:
+      en-GB: Two young heroes arriving at a festival market where a jolly round tanuki stands amid a muddle of mixed-up stalls, lanterns and blossom above.
+      es-ES: Dos jóvenes héroes que llegan a un mercado de fiesta donde un alegre y rechoncho tanuki está entre un lío de puestos revueltos, con faroles y flores de cerezo arriba.
+      it-IT: Due giovani eroi che arrivano a un mercato in festa dove un allegro e tondo tanuki sta in mezzo a un pasticcio di bancarelle scombinate, con lanterne e fiori di ciliegio sopra.
+  - id: scene-jumbled-stalls
+    role: scene
+    orientation: landscape
+    canon_ref: pon-tanuki
+    prompt: >
+      A jolly round raccoon-dog looking worried among toppled festival stalls with
+      fruit, fans and lanterns all jumbled together, two small heroes arriving with
+      kind, reassuring smiles. Playful and warm.
+    alt:
+      en-GB: A jolly round tanuki looking worried among toppled festival stalls with fruit, fans and lanterns jumbled together, two small heroes arriving.
+      es-ES: Un alegre y rechoncho tanuki con cara de preocupación entre puestos de fiesta volcados, con fruta, abanicos y faroles revueltos, y dos héroes pequeños que llegan.
+      it-IT: Un allegro e tondo tanuki dall'aria preoccupata tra bancarelle di festa rovesciate, con frutta, ventagli e lanterne mescolati, e due piccoli eroi che arrivano.
+  - id: scene-the-sorting
+    role: scene
+    orientation: landscape
+    canon_ref: pon-tanuki
+    prompt: >
+      Two small heroes and a happy raccoon-dog sorting festival goods back into the
+      right stalls, counting fans and fruit and lanterns into neat rows, thinking
+      hard and cheerfully. Bright and clever.
+    alt:
+      en-GB: Two small heroes and a happy tanuki sorting festival goods back into the right stalls, counting fans and fruit and lanterns into neat rows.
+      es-ES: Dos héroes pequeños y un tanuki feliz que ordenan los artículos de la fiesta en los puestos correctos, contando abanicos, fruta y faroles en filas ordenadas.
+      it-IT: Due piccoli eroi e un tanuki felice che rimettono in ordine le merci della festa nelle bancarelle giuste, contando ventagli, frutta e lanterne in file ordinate.
+  - id: scene-missing-lantern
+    role: scene
+    orientation: landscape
+    canon_ref: kon-fox
+    prompt: >
+      A friendly russet fox offering a clever clue to two small heroes as they search
+      for one last lost festival lantern among the blossom trees, all looking
+      thoughtful and hopeful. Gentle and clever.
+    alt:
+      en-GB: A friendly fox offering a clue to two small heroes searching for one last lost festival lantern among blossom trees.
+      es-ES: Un amable zorro que ofrece una pista a dos héroes pequeños mientras buscan el último farol de fiesta perdido entre los cerezos.
+      it-IT: Una gentile volpe che offre un indizio a due piccoli eroi mentre cercano l'ultima lanterna di festa perduta tra i ciliegi.
+  - id: scene-market-ready
+    role: scene
+    orientation: landscape
+    canon_ref: lantern-village
+    prompt: >
+      A tidy, beautiful festival market all set right at dusk, neat stalls and glowing
+      paper lanterns, a happy raccoon-dog and two small heroes admiring it together,
+      villagers gathering. Joyful and warm.
+    alt:
+      en-GB: A tidy festival market all set right at dusk, neat stalls and glowing lanterns, a happy tanuki and two small heroes admiring it together.
+      es-ES: Un mercado de fiesta ordenado y bonito, ya bien dispuesto al anochecer, con puestos pulcros y faroles encendidos, un tanuki feliz y dos héroes que lo admiran juntos.
+      it-IT: Un mercato di festa ordinato e bello, ormai a posto al crepuscolo, con bancarelle in ordine e lanterne accese, un tanuki felice e due piccoli eroi che lo ammirano insieme.
