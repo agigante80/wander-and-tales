@@ -1,4 +1,4 @@
-"""Command line: python -m build {validate,lint,catalog,render,render-guide,render-playbook,render-world,prompts,generate-images}."""
+"""Command line: python -m build {validate,lint,catalog,render,render-guide,render-playbook,render-world,rebuild,prompts,generate-images}."""
 
 import argparse
 import os
@@ -48,6 +48,12 @@ def main(argv: list[str] | None = None) -> int:
     world_parser.add_argument("--world", required=True)
     world_parser.add_argument("--locale", required=True)
     world_parser.add_argument("--out-dir", type=Path, default=None)
+
+    rebuild_parser = sub.add_parser(
+        "rebuild", help="build the whole library, prune old versions, refresh README and catalogue"
+    )
+    _add_root(rebuild_parser)
+    rebuild_parser.add_argument("--out-dir", type=Path, default=None)
 
     prompts_parser = sub.add_parser("prompts", help="export image generation prompts")
     _add_root(prompts_parser)
@@ -127,6 +133,18 @@ def main(argv: list[str] | None = None) -> int:
             args.root, args.world, args.locale, out_dir=args.out_dir
         )
         print(f"built {out}")
+        return 0
+
+    if args.command == "rebuild":
+        from build.render import library
+
+        out_dir = args.out_dir if args.out_dir is not None else args.root / "kits"
+        built = library.rebuild(args.root, out_dir)
+        total = (
+            len(built.story_packs) + len(built.playbooks)
+            + len(built.world_books) + len(built.guides)
+        )
+        print(f"rebuilt {total} artifact(s) into {out_dir}")
         return 0
 
     if args.command == "prompts":
