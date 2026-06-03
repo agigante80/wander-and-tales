@@ -1,0 +1,83 @@
+world: greek-myth
+id: athenas-owl
+title:
+  en-GB: Athena's Little Owl
+  es-ES: El Pequeño Búho de Atenea
+  it-IT: La Piccola Civetta di Atena
+age:
+  recommended: young
+  also_works_for: [early]
+skills:
+  - observation
+  - logic
+  - spatial
+  - social-emotional
+peril: gentle
+adult_gm: true
+dice:
+  minimum: 1d6
+  recommended: d20-set
+players:
+  min: 2
+  max: 5
+play_time_minutes: 25
+images:
+  - id: cover
+    role: cover
+    orientation: portrait
+    prompt: >
+      Two young heroes in simple Greek tunics in a misty olive town at dawn, gently
+      cradling a tiny wide-eyed owl wrapped in a soft scarf, the pale shapes of white
+      marble columns on a hill rising through the fog above them. Tender and hopeful.
+    alt:
+      en-GB: Two young heroes in a misty olive town at dawn, gently cradling a tiny wide-eyed owl, marble columns on a hill above through the fog.
+      es-ES: Dos jóvenes héroes en un pueblo de olivos neblinoso al amanecer, sosteniendo con cuidado un diminuto búho de ojos grandes, con columnas de mármol en una colina entre la niebla.
+      it-IT: Due giovani eroi in un paese di ulivi nella nebbia all'alba, che tengono con delicatezza una minuscola civetta dagli occhi grandi, con colonne di marmo su una collina tra la foschia.
+  - id: scene-foggy-square
+    role: scene
+    orientation: landscape
+    canon_ref: glaux-owl
+    prompt: >
+      A tiny ruffled owl with big round eyes huddled on the cobblestones of a foggy
+      town square, two small heroes kneeling a little way off, moving slowly and
+      holding out a gentle, steady hand. Soft and reassuring.
+    alt:
+      en-GB: A tiny ruffled owl with big round eyes on foggy cobblestones, two small heroes kneeling and holding out a gentle hand.
+      es-ES: Un diminuto búho despeinado de ojos grandes y redondos sobre los adoquines en la niebla, con dos héroes pequeños arrodillados que le tienden una mano suave.
+      it-IT: Una minuscola civetta arruffata dagli occhi grandi e tondi sui ciottoli nella nebbia, con due piccoli eroi inginocchiati che le tendono una mano gentile.
+  - id: scene-whispering-paths
+    role: scene
+    orientation: landscape
+    canon_ref: friendly-satyr
+    prompt: >
+      Three little paths winding up a misty green hillside, soft grey owl feathers
+      scattered along one of them, a cheerful goat-legged satyr peeking over a low
+      stone wall and pointing the way. Bright and playful.
+    alt:
+      en-GB: Three little paths up a misty hillside, grey owl feathers along one, a cheerful goat-legged satyr peeking over a wall and pointing.
+      es-ES: Tres senderos que suben por una ladera neblinosa, con plumas grises de búho a lo largo de uno, y un sátiro alegre con patas de cabra que asoma sobre un muro y señala el camino.
+      it-IT: Tre piccoli sentieri che salgono per un pendio nella nebbia, con piume grigie di civetta lungo uno di essi, e un satiro allegro con le zampe di capra che fa capolino da un muretto e indica la via.
+  - id: scene-high-perch
+    role: scene
+    orientation: landscape
+    canon_ref: athena-temple
+    prompt: >
+      Two small heroes at the foot of a little white marble temple, gently helping a
+      tired little owl up toward a cosy hollow perch high among the columns, the last
+      of the morning mist curling away. Warm and encouraging.
+    alt:
+      en-GB: Two small heroes at a little marble temple, gently helping a tired owl up to a cosy perch high among the columns as the mist clears.
+      es-ES: Dos héroes pequeños junto a un pequeño templo de mármol, ayudando con cuidado a un búho cansado a subir a un cómodo posadero en lo alto de las columnas mientras se disipa la niebla.
+      it-IT: Due piccoli eroi accanto a un piccolo tempio di marmo, che aiutano con dolcezza una civetta stanca a salire verso un comodo posatoio in alto tra le colonne mentre la foschia si dirada.
+  - id: scene-glaux-home
+    role: scene
+    orientation: landscape
+    canon_ref: athena
+    prompt: >
+      A serene grey-eyed goddess smiling within a sunlit marble temple as a happy
+      little owl settles on a high perch beside her, the morning fog melting away to
+      reveal a golden olive town far below. Joyful and radiant.
+    alt:
+      en-GB: A serene grey-eyed goddess smiling in a sunlit marble temple as a happy little owl settles beside her, a golden olive town far below.
+      es-ES: Una diosa serena de ojos grises que sonríe en un templo de mármol soleado mientras un búho feliz se posa a su lado, con un pueblo de olivos dorado a lo lejos.
+      it-IT: Una dea serena dagli occhi grigi che sorride in un tempio di marmo assolato mentre una civetta felice si posa accanto a lei, con un paese di ulivi dorato in lontananza.

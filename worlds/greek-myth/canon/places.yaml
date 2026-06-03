@@ -59,3 +59,15 @@
     es-ES: La montaña envuelta en nubes donde viven los dioses, que velan por las colinas soleadas desde muy alto.
     it-IT: La montagna avvolta nelle nuvole dove vivono gli dei, che vegliano dall'alto sulle colline assolate.
   first_seen: the-singing-spring
+
+- id: athena-temple
+  names:
+    en-GB: The Temple of Athena
+    es-ES: El Templo de Atenea
+    it-IT: Il Tempio di Atena
+  kind: place
+  description:
+    en-GB: A small temple of white marble on the hill above the Olive Town, ringed with columns, where Athena watches over the valley and her little owl roosts.
+    es-ES: Un pequeño templo de mármol blanco en la colina sobre el Pueblo de los Olivos, rodeado de columnas, donde Atenea vela por el valle y se posa su pequeño búho.
+    it-IT: Un piccolo tempio di marmo bianco sulla collina sopra il Paese degli Ulivi, circondato da colonne, dove Atena veglia sulla valle e si posa la sua piccola civetta.
+  first_seen: athenas-owl
