@@ -48,3 +48,15 @@
     es-ES: Permite hablar con los animales y los objetos, y pedirles ayuda con amabilidad.
     it-IT: Permette di parlare con gli animali e gli oggetti, e di chiedere loro aiuto con gentilezza.
   first_seen: sleeping-garden
+
+- id: festival-of-lights
+  names:
+    en-GB: The Festival of Lights
+    es-ES: La Fiesta de las Luces
+    it-IT: La Festa delle Luci
+  kind: term
+  description:
+    en-GB: The evening when the families of the Isles send glowing sky lanterns up into the calm sky together.
+    es-ES: La noche en que las familias de las Islas hacen subir juntas faroles del cielo luminosos al cielo tranquilo.
+    it-IT: La sera in cui le famiglie delle Isole fanno salire insieme lanterne del cielo luminose nel cielo tranquillo.
+  first_seen: lantern-festival

@@ -1,0 +1,13 @@
+# Named items of the Floating Isles.
+
+- id: sky-lantern
+  names:
+    en-GB: Sky Lantern
+    es-ES: Farol del Cielo
+    it-IT: Lanterna del Cielo
+  kind: item
+  description:
+    en-GB: A soft paper lantern with a warm little flame that floats up into the sky on festival night.
+    es-ES: Un farol de papel suave con una pequeña llama cálida que flota hacia el cielo en la noche de fiesta.
+    it-IT: Una morbida lanterna di carta con una piccola fiamma calda che vola su nel cielo nella notte di festa.
+  first_seen: lantern-festival

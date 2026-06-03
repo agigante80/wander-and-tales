@@ -71,3 +71,39 @@
     es-ES: La parada final en el centro del Gran Jardín, donde la aventura acaba con un amigo, no con una pelea.
     it-IT: La tappa finale al centro del Grande Giardino, dove l'avventura finisce con un amico, non con uno scontro.
   first_seen: sleeping-garden
+
+- id: lantern-square
+  names:
+    en-GB: Lantern Square
+    es-ES: La Plaza de los Faroles
+    it-IT: La Piazza delle Lanterne
+  kind: place
+  description:
+    en-GB: The wide square on the home island where the families gather for the Festival of Lights.
+    es-ES: La amplia plaza de la isla principal donde las familias se reúnen para la Fiesta de las Luces.
+    it-IT: L'ampia piazza dell'isola principale dove le famiglie si riuniscono per la Festa delle Luci.
+  first_seen: lantern-festival
+
+- id: cloud-bank
+  names:
+    en-GB: The Cloud Bank
+    es-ES: El Banco de Nubes
+    it-IT: Il Banco di Nuvole
+  kind: place
+  description:
+    en-GB: A low drift of soft clouds at the island's edge, where some of the lost lanterns are hidden.
+    es-ES: Un banco bajo de nubes suaves al borde de la isla, donde se esconden algunos de los faroles perdidos.
+    it-IT: Un basso ammasso di nuvole morbide al bordo dell'isola, dove si nascondono alcune delle lanterne perdute.
+  first_seen: lantern-festival
+
+- id: high-ledge
+  names:
+    en-GB: The High Ledge
+    es-ES: La Repisa Alta
+    it-IT: La Cengia Alta
+  kind: place
+  description:
+    en-GB: A rocky shelf high above the square, where the biggest festival lantern has caught.
+    es-ES: Una repisa de roca en lo alto sobre la plaza, donde se ha quedado enganchado el farol más grande de la fiesta.
+    it-IT: Una sporgenza di roccia in alto sopra la piazza, dove si è impigliata la lanterna più grande della festa.
+  first_seen: lantern-festival
