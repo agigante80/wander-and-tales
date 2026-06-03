@@ -10,6 +10,10 @@ two reading levels. It is a lovely excuse for unhurried, screen-free time togeth
 a way to practise imagination, problem-solving, and teamwork. Adding a world, a
 story, or a language is a writing task, not a coding task.
 
+You are not limited to the ready-made kits: you can write and print **your own** story
+too, in your family's languages, with a little help from Claude. See
+[Create your own story](#create-your-own-story) below.
+
 ## Print a ready-made kit
 
 Each story comes as a **Story Pack** (what you play from, safe for a child to see), a
