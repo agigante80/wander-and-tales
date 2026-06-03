@@ -24,13 +24,13 @@ version on the last page, and the links below are generated automatically.
 |---|---|---|---|---|---|
 | The Sleeping Garden | The Floating Isles | English | 6 to 8 | [Simple](kits/en-GB/floating-isles/sleeping-garden/story-pack-simple-v7.pdf) · [Rich](kits/en-GB/floating-isles/sleeping-garden/story-pack-rich-v7.pdf) | [Open](kits/en-GB/floating-isles/sleeping-garden/playbook-v5.pdf) |
 | El Jardín Dormido | Las Islas Flotantes | Español | 6 to 8 | [Simple](kits/es-ES/floating-isles/sleeping-garden/story-pack-simple-v7.pdf) · [Rich](kits/es-ES/floating-isles/sleeping-garden/story-pack-rich-v7.pdf) | [Open](kits/es-ES/floating-isles/sleeping-garden/playbook-v5.pdf) |
-| The Singing Spring | The Sunlit Hills of Greece | English | 9 to 12 | [Simple](kits/en-GB/greek-myth/the-singing-spring/story-pack-simple-v4.pdf) · [Rich](kits/en-GB/greek-myth/the-singing-spring/story-pack-rich-v4.pdf) | [Open](kits/en-GB/greek-myth/the-singing-spring/playbook-v4.pdf) |
-| La Fuente Cantarina | Las Colinas Soleadas de Grecia | Español | 9 to 12 | [Simple](kits/es-ES/greek-myth/the-singing-spring/story-pack-simple-v4.pdf) · [Rich](kits/es-ES/greek-myth/the-singing-spring/story-pack-rich-v4.pdf) | [Open](kits/es-ES/greek-myth/the-singing-spring/playbook-v4.pdf) |
+| The Singing Spring | The Sunlit Hills of Greece | English | 9 to 12 | [Simple](kits/en-GB/greek-myth/the-singing-spring/story-pack-simple-v5.pdf) · [Rich](kits/en-GB/greek-myth/the-singing-spring/story-pack-rich-v5.pdf) | [Open](kits/en-GB/greek-myth/the-singing-spring/playbook-v4.pdf) |
+| La Fuente Cantarina | Las Colinas Soleadas de Grecia | Español | 9 to 12 | [Simple](kits/es-ES/greek-myth/the-singing-spring/story-pack-simple-v5.pdf) · [Rich](kits/es-ES/greek-myth/the-singing-spring/story-pack-rich-v5.pdf) | [Open](kits/es-ES/greek-myth/the-singing-spring/playbook-v4.pdf) |
 
 ### World books
 
 - The Floating Isles: [English](kits/en-GB/floating-isles/world-book-v7.pdf) · [Español](kits/es-ES/floating-isles/world-book-v7.pdf)
-- The Sunlit Hills of Greece: [English](kits/en-GB/greek-myth/world-book-v7.pdf) · [Español](kits/es-ES/greek-myth/world-book-v7.pdf)
+- The Sunlit Hills of Greece: [English](kits/en-GB/greek-myth/world-book-v8.pdf) · [Español](kits/es-ES/greek-myth/world-book-v8.pdf)
 
 **New to running a game like this?** Read the Guide for the Grown-Up: [English](kits/guides/Guide_for_the_Grown-Up_en-GB-v2.pdf) · [Español](kits/guides/Guide_for_the_Grown-Up_es-ES-v2.pdf).
 
