@@ -2,7 +2,7 @@
 
 The Playbook is the grown-up's private prep: how to run this story (its rules) and
 the puzzles together with their solutions. It is the only artifact that holds the
-answers, so a child reading the Story Pack never meets one. Single adult level, one
+answers, so a child reading the Story Pack never meets one. One adult level per story
 per locale. Pages are merged with pypdf, then the footer and metadata are stamped.
 """
 

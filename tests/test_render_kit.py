@@ -91,3 +91,25 @@ def test_cover_image_stays_on_the_front_page(sample_repo, tmp_path):
     )
     # The cover is embedded on the front page, so the page count is unchanged at 4.
     assert len(PdfReader(str(out)).pages) == 4
+
+
+def test_story_pack_every_page_is_a4_without_a_map(sample_repo, tmp_path):
+    # The no-map build must still be all A4 (the map test covers the landscape case).
+    out = kit.build_story_pack(
+        sample_repo, "floating-isles", "sleeping-garden", "en-GB", "simple",
+        out_dir=tmp_path,
+    )
+    for page in PdfReader(str(out)).pages:
+        assert _is_a4(float(page.mediabox.width), float(page.mediabox.height))
+
+
+def test_story_pack_omits_the_glossary(sample_repo, tmp_path):
+    # The who's-who glossary belongs in the World Book, never in the child-safe pack.
+    from build.render import strings
+
+    out = kit.build_story_pack(
+        sample_repo, "floating-isles", "sleeping-garden", "en-GB", "simple",
+        out_dir=tmp_path,
+    )
+    text = "\n".join(page.extract_text() or "" for page in PdfReader(str(out)).pages)
+    assert strings.ui("en-GB", "glossary_title") not in text

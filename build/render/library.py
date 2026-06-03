@@ -72,6 +72,10 @@ def prune_old(out_dir: Path, built: Built) -> list[Path]:
         if pdf.resolve() not in keep:
             pdf.unlink()
             removed.append(pdf)
+    # Drop any directory left empty by a removed story or world, deepest first.
+    for directory in sorted(out_dir.rglob("*"), reverse=True):
+        if directory.is_dir() and not any(directory.iterdir()):
+            directory.rmdir()
     return removed
 
 

@@ -48,16 +48,34 @@ def version_info(root: Path, paths: list[Path]) -> VersionInfo:
 def story_pack_inputs(
     root: Path, world_id: str, story_id: str, locale: str, level: str
 ) -> list[Path]:
+    """The source files this Story Pack reads, scoped so versions stay isolated.
+
+    Only what this pack embeds for this locale and level: its narration, story.yaml
+    and world.yaml, the map actually resolved for this locale, and the story cover.
+    Other locales' content, the rules and puzzles, the idea bank, and World-Book-only
+    portraits do not move this version. (Passing whole asset directories would
+    over-couple, e.g. a world portrait change would bump every Story Pack.)
+    """
+    from build import content
+    from build.render import map as kit_map
+
     world_dir = root / "worlds" / world_id
     story_dir = world_dir / "stories" / story_id
     narration = {"simple": "narration.simple.md", "rich": "narration.rich.md"}[level]
-    return [
+    paths = [
         story_dir / "story.yaml",
         story_dir / "content" / locale / narration,
         world_dir / "world.yaml",
-        story_dir / "assets",
-        world_dir / "assets",
     ]
+    resolved_map = kit_map.find_map(world_dir, story_dir, locale)
+    if resolved_map is not None:
+        paths.append(resolved_map)
+    story_yaml = story_dir / "story.yaml"
+    if story_yaml.is_file():
+        for image in content.load_story(story_yaml).images:
+            if image.role == "cover":
+                paths.append(story_dir / "assets" / f"{image.id}.png")
+    return paths
 
 
 def playbook_inputs(
@@ -74,14 +92,31 @@ def playbook_inputs(
 
 
 def world_book_inputs(root: Path, world_id: str, locale: str) -> list[Path]:
+    """The source files this World Book reads, scoped so versions stay isolated.
+
+    World.yaml, the canon, the world idea bank for this locale, the world cover, and
+    per story its story.yaml and its simple narration for this locale (the hook
+    source). Other locales' content and the rules and puzzles do not move this
+    version. (Passing the whole stories/ directory would over-couple, e.g. an es-ES
+    rules edit would bump the en-GB World Book.)
+    """
+    from build import content
+
     world_dir = root / "worlds" / world_id
-    return [
+    paths = [
         world_dir / "world.yaml",
         world_dir / "canon",
         world_dir / "content" / locale / "idea-bank.md",
-        world_dir / "stories",
-        world_dir / "assets",
     ]
+    world_yaml = world_dir / "world.yaml"
+    if world_yaml.is_file():
+        for image in content.load_world(world_yaml).images:
+            if image.role == "cover":
+                paths.append(world_dir / "assets" / f"{image.id}.png")
+    for story_yaml in sorted((world_dir / "stories").glob("*/story.yaml")):
+        paths.append(story_yaml)
+        paths.append(story_yaml.parent / "content" / locale / "narration.simple.md")
+    return paths
 
 
 def guide_inputs(root: Path, locale: str) -> list[Path]:
