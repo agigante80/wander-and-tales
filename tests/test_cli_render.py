@@ -62,3 +62,22 @@ def test_render_world_builds(sample_repo, tmp_path):
     ])
     assert code == 0
     assert (tmp_path / "en-GB" / "floating-isles" / "world-book-v0.pdf").is_file()
+
+
+def test_rebuild_builds_the_library_and_rewrites_readme(sample_repo):
+    from build.__main__ import main
+
+    # the rebuild rewrites README.md between markers, so seed one
+    (sample_repo / "README.md").write_text(
+        "# Wits and Wonder\n\n<!-- BEGIN KIT TABLE -->\nold\n<!-- END KIT TABLE -->\n\nEnd.\n",
+        encoding="utf-8",
+    )
+    code = main(["rebuild", "--root", str(sample_repo), "--out-dir", str(sample_repo / "kits")])
+    assert code == 0
+    assert (
+        sample_repo / "kits" / "en-GB" / "floating-isles" / "world-book-v0.pdf"
+    ).is_file()
+    readme = (sample_repo / "README.md").read_text(encoding="utf-8")
+    assert "The Sleeping Garden" in readme
+    assert "old" not in readme
+    assert "End." in readme
