@@ -25,3 +25,16 @@
     es-ES: La diosa de la sabiduría y de las buenas ideas, que sonríe a los héroes que vencen pensando y cuidando, no por la fuerza.
     it-IT: La dea della saggezza e delle buone idee, che sorride agli eroi che vincono pensando e prendendosi cura degli altri, non con la forza.
   first_seen: the-singing-spring
+
+- id: milo-baker
+  names:
+    en-GB: Milo the Baker
+    es-ES: Milo el Panadero
+    it-IT: Milo il Fornaio
+  kind: character
+  disposition: friendly
+  description:
+    en-GB: The cheerful town baker, who fills the Olive Town with the smell of fresh bread and bakes the great honey cake for the feast.
+    es-ES: El alegre panadero del pueblo, que llena el Pueblo de los Olivos de olor a pan recién hecho y hornea el gran pastel de miel para el banquete.
+    it-IT: L'allegro fornaio del paese, che riempie il Paese degli Ulivi del profumo di pane fresco e prepara la grande focaccia al miele per la festa.
+  first_seen: honey-cake-feast

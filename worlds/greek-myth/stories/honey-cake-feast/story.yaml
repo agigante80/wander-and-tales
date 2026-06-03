@@ -1,0 +1,83 @@
+world: greek-myth
+id: honey-cake-feast
+title:
+  en-GB: The Honey-Cake Feast
+  es-ES: El Banquete del Pastel de Miel
+  it-IT: La Festa della Focaccia al Miele
+age:
+  recommended: young
+  also_works_for: [early]
+skills:
+  - maths
+  - social-emotional
+  - observation
+  - logic
+peril: gentle
+adult_gm: true
+dice:
+  minimum: 1d6
+  recommended: d20-set
+players:
+  min: 2
+  max: 5
+play_time_minutes: 30
+images:
+  - id: cover
+    role: cover
+    orientation: portrait
+    prompt: >
+      Two young heroes in simple Greek tunics carrying a jar of golden honey through a
+      festive olive town at sunset, long tables and hanging lanterns ahead, a big
+      gentle one-eyed giant approaching shyly from the hills. Warm and welcoming.
+    alt:
+      en-GB: Two young heroes carrying a jar of honey through a festive olive town at sunset, lanterns and long tables ahead, a gentle giant approaching from the hills.
+      es-ES: Dos jóvenes héroes que llevan un tarro de miel dorada por un pueblo de olivos en fiesta al atardecer, con mesas largas y farolillos colgantes, y un gigante amable de un solo ojo que se acerca tímido desde las colinas.
+      it-IT: Due giovani eroi che portano un barattolo di miele dorato per un paese di ulivi in festa al tramonto, con lunghe tavole e lanterne appese, e un grande gigante gentile con un solo occhio che si avvicina timido dalle colline.
+  - id: scene-hill-bees
+    role: scene
+    orientation: landscape
+    canon_ref: hill-bees
+    prompt: >
+      A sunny mountain meadow full of flowers, friendly round bumbling bees with
+      smiling faces filling a clay jar with golden honey while two small heroes offer
+      them a posy of wildflowers. Cheerful and bright.
+    alt:
+      en-GB: A sunny flower meadow, friendly smiling bees filling a clay jar with golden honey as two small heroes offer a posy of wildflowers.
+      es-ES: Un prado de montaña soleado lleno de flores, con abejas amables y sonrientes que llenan una jarra de barro con miel dorada mientras dos héroes pequeños les ofrecen un ramillete de flores silvestres.
+      it-IT: Un prato di montagna assolato pieno di fiori, con api gentili e sorridenti che riempiono una giara di terracotta di miele dorato mentre due piccoli eroi offrono loro un mazzolino di fiori di campo.
+  - id: scene-milos-kitchen
+    role: scene
+    orientation: landscape
+    canon_ref: milo-baker
+    prompt: >
+      A cosy sunlit bakery kitchen with a cheerful round-cheeked baker beside an
+      enormous honey cake on a big table, two small heroes counting little plates to
+      share it out fairly. Warm and busy.
+    alt:
+      en-GB: A cosy bakery kitchen, a cheerful baker beside an enormous honey cake, two small heroes counting little plates to share it out.
+      es-ES: Una acogedora cocina de panadería iluminada por el sol, con un panadero alegre de mejillas redondas junto a un enorme pastel de miel, y dos héroes pequeños que cuentan platitos para repartirlo con justicia.
+      it-IT: Una accogliente cucina di panetteria illuminata dal sole, con un fornaio allegro dalle guance paffute accanto a un'enorme focaccia al miele, e due piccoli eroi che contano dei piattini per dividerla con equità.
+  - id: scene-fetching-cyclops
+    role: scene
+    orientation: landscape
+    canon_ref: lonely-cyclops
+    prompt: >
+      Two small heroes at the mouth of a hillside cave, smiling warmly up at a big
+      gentle one-eyed giant who looks shy and unsure, holding up a large slice of honey
+      cake to share. Tender and kind.
+    alt:
+      en-GB: Two small heroes at a cave mouth smiling up at a shy gentle one-eyed giant, holding up a large slice of honey cake to share.
+      es-ES: Dos héroes pequeños a la entrada de una cueva que sonríen a un gigante amable de un solo ojo, de aire tímido, ofreciéndole una gran porción de pastel de miel.
+      it-IT: Due piccoli eroi all'ingresso di una grotta che sorridono a un grande gigante gentile con un solo occhio, dall'aria timida, offrendogli una grande fetta di focaccia al miele.
+  - id: scene-the-feast
+    role: scene
+    orientation: landscape
+    canon_ref: olive-town
+    prompt: >
+      A long festive table under olive trees at golden sunset, a whole little town of
+      happy people sharing a giant honey cake, and right in the middle a big gentle
+      one-eyed giant with the largest slice, laughing among friends. Joyful and warm.
+    alt:
+      en-GB: A long festive table under olive trees at sunset, a whole town sharing a giant honey cake, a gentle one-eyed giant in the middle with the largest slice, laughing.
+      es-ES: Una larga mesa de fiesta bajo los olivos al atardecer dorado, todo un pueblo compartiendo un pastel de miel gigante, y en medio un gigante amable de un solo ojo con la porción más grande, riendo entre amigos.
+      it-IT: Una lunga tavola in festa sotto gli ulivi al tramonto dorato, un intero paese che condivide un'enorme focaccia al miele, e nel mezzo un grande gigante gentile con un solo occhio con la fetta più grande, che ride tra gli amici.

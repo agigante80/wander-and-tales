@@ -64,3 +64,29 @@
     es-ES: El más sabio y amable de los centauros, mitad caballo y mitad persona, maestro de héroes que cree que las mejores hazañas son las amables.
     it-IT: Il più saggio e gentile dei centauri, metà cavallo e metà persona, un maestro di eroi che crede che le imprese migliori siano quelle gentili.
   first_seen: the-singing-spring
+
+- id: glaux-owl
+  names:
+    en-GB: Glaux the Little Owl
+    es-ES: Glaux el Búho
+    it-IT: Glaux la Civetta
+  kind: creature
+  disposition: friendly
+  description:
+    en-GB: Wise Athena's little owl, with wide, bright, clever eyes. She is gentle and friendly, but on a foggy morning even a wise owl can lose her way home.
+    es-ES: El pequeño búho de la sabia Atenea, de ojos grandes, brillantes e ingeniosos. Es dulce y amistoso, pero en una mañana de niebla hasta un búho sabio puede perder el camino a casa.
+    it-IT: La civetta della saggia Atena, dagli occhi grandi, vivaci e ingegnosi. È dolce e amichevole, ma in una mattina di nebbia persino una civetta saggia può perdere la strada di casa.
+  first_seen: athenas-owl
+
+- id: hill-bees
+  names:
+    en-GB: The Hill Bees
+    es-ES: Las Abejas de la Colina
+    it-IT: Le Api della Collina
+  kind: creature
+  disposition: friendly
+  description:
+    en-GB: A hum of gentle bees in the high meadows who keep the sweetest honey in the hills. They share gladly with anyone who comes calmly and asks with kindness.
+    es-ES: Un enjambre de abejas amables de los prados altos que guardan la miel más dulce de las colinas. Comparten de buen grado con quien se acerca con calma y pide con amabilidad.
+    it-IT: Uno sciame di api gentili dei prati alti che custodiscono il miele più dolce delle colline. Condividono volentieri con chiunque si avvicini con calma e chieda con gentilezza.
+  first_seen: honey-cake-feast
