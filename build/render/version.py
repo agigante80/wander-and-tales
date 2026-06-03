@@ -121,3 +121,17 @@ def world_book_inputs(root: Path, world_id: str, locale: str) -> list[Path]:
 
 def guide_inputs(root: Path, locale: str) -> list[Path]:
     return [root / "guide" / locale / "guide.md"]
+
+
+def example_heroes_inputs(root: Path, world_id: str, locale: str) -> list[Path]:
+    """The source files the example-heroes sheets read: the heroes data, the world
+    (theme and palette), the canon (magic names and descriptions), and the hero
+    portraits."""
+    from build import content
+
+    world_dir = root / "worlds" / world_id
+    paths = [world_dir / "heroes.yaml", world_dir / "world.yaml", world_dir / "canon"]
+    if (world_dir / "heroes.yaml").is_file():
+        for hero in content.load_heroes(world_dir):
+            paths.append(world_dir / "assets" / f"{hero.image.id}.png")
+    return paths

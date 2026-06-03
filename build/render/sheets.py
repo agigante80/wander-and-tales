@@ -5,6 +5,10 @@ strings.py and drawn in the resolved font faces on the white page background. 'e
 is a big draw space and a name. 'young' and 'older' fill the whole A4 page: a
 portrait box and identity at the top, a three-slot magics box, and a six-slot
 'What I carry' box; 'older' adds a couple of notes lines.
+
+A blank sheet is the play material. When an `example` (a pre-filled hero) and a
+`hero_image` are passed, the same layout is filled in and the hero drawing is placed
+in the draw box, producing a ready-to-use or inspiration example sheet.
 """
 
 import math
@@ -23,7 +27,7 @@ from build.tags import AGE_TIERS
 W, H = A4
 
 
-def _star(c, cx: float, cy: float, r: float, stroke) -> None:
+def _star(c, cx: float, cy: float, r: float, stroke, *, fill_colour=None) -> None:
     pts = []
     for i in range(10):
         ang = math.radians(-90 + i * 36)
@@ -34,16 +38,28 @@ def _star(c, cx: float, cy: float, r: float, stroke) -> None:
     for pt in pts[1:]:
         p.lineTo(*pt)
     p.close()
-    c.setFillColor(white)
+    c.setFillColor(fill_colour or white)
     c.setStrokeColor(stroke)
     c.setLineWidth(1.5)
     c.drawPath(p, fill=1, stroke=1)
 
 
 def render_character_sheet(
-    out_path: Path, locale: str, tier: str, theme: Theme, faces: FontFaces
+    out_path: Path,
+    locale: str,
+    tier: str,
+    theme: Theme,
+    faces: FontFaces,
+    *,
+    example: dict | None = None,
+    hero_image: Path | None = None,
 ) -> Path:
-    """Render a one-page A4 character sheet for an age tier. Raises on unknown tier."""
+    """Render a one-page A4 character sheet for an age tier. Raises on unknown tier.
+
+    When `example` is given (keys: name, hero_of, magics as (name, does) pairs,
+    energy, carry as a list of strings) the fields are filled in, and `hero_image`,
+    if given, is drawn in the portrait box.
+    """
     if tier not in AGE_TIERS:
         raise ValueError(f"unknown age tier {tier!r}, expected one of {AGE_TIERS}")
     out_path.parent.mkdir(parents=True, exist_ok=True)
@@ -52,6 +68,13 @@ def render_character_sheet(
     def label(x: float, y: float, text: str, size: float = 12, color=None) -> None:
         c.setFillColor(color or theme.primary)
         c.setFont(faces.bold, size)
+        c.drawString(x, y, text)
+
+    def value(x: float, y: float, text: str, size: float = 10) -> None:
+        if not text:
+            return
+        c.setFillColor(theme.text)
+        c.setFont(faces.normal, size)
         c.drawString(x, y, text)
 
     def line(x: float, y: float, width: float) -> None:
@@ -83,12 +106,16 @@ def render_character_sheet(
     if tier == "early":
         label(20 * mm, H - 44 * mm, strings.ui(locale, "sheet_name"))
         line(56 * mm, H - 45 * mm, W - 76 * mm)
+        if example:
+            value(60 * mm, H - 44 * mm, example.get("name", ""))
         label(20 * mm, H - 58 * mm, strings.ui(locale, "sheet_draw"))
         c.setStrokeColor(theme.teal)
         c.setLineWidth(1.5)
         c.setDash(4, 4)
         c.roundRect(20 * mm, 24 * mm, W - 40 * mm, H - 90 * mm, 8, fill=0, stroke=1)
         c.setDash()
+        if hero_image is not None:
+            _draw_hero(c, hero_image, 22 * mm, 26 * mm, W - 44 * mm, H - 94 * mm)
         c.setFillColor(theme.text)
         c.setFont(faces.italic, 9)
         c.drawCentredString(W / 2, 14 * mm, strings.ui(locale, "sheet_footer"))
@@ -103,6 +130,8 @@ def render_character_sheet(
     pbox_w, pbox_h = 66 * mm, 52 * mm
     box(18 * mm, top - pbox_h, pbox_w, pbox_h, theme.teal)
     label(22 * mm, top - 6 * mm, strings.ui(locale, "sheet_draw"), size=10, color=theme.teal)
+    if hero_image is not None:
+        _draw_hero(c, hero_image, 20 * mm, top - pbox_h + 2 * mm, pbox_w - 4 * mm, pbox_h - 11 * mm)
 
     rx = 18 * mm + pbox_w + 8 * mm
     rw = W - 18 * mm - rx
@@ -110,9 +139,16 @@ def render_character_sheet(
     line(rx, top - 12 * mm, rw)
     label(rx, top - 24 * mm, strings.ui(locale, "sheet_hero_type"))
     line(rx, top - 30 * mm, rw)
+    if example:
+        value(rx + 2 * mm, top - 10 * mm, example.get("name", ""))
+        value(rx + 2 * mm, top - 28 * mm, example.get("hero_of", ""))
     label(rx, top - 42 * mm, strings.ui(locale, "sheet_energy"), size=9)
+    energy = int(example.get("energy", 0)) if example else 0
     for i in range(5):
-        _star(c, rx + 6 * mm + i * 12 * mm, top - 50 * mm, 5 * mm, theme.gold)
+        _star(
+            c, rx + 6 * mm + i * 12 * mm, top - 50 * mm, 5 * mm, theme.gold,
+            fill_colour=theme.gold if i < energy else None,
+        )
 
     # magics box: three slots, each a draw-symbol square plus two lines
     mbox_top = top - pbox_h - 8 * mm
@@ -122,6 +158,7 @@ def render_character_sheet(
     label(22 * mm, mbox_top - 7 * mm, strings.ui(locale, "sheet_magics"))
     slot_h = 21 * mm
     square = 14 * mm
+    magics = example.get("magics", []) if example else []
     for s in range(3):
         sy = mbox_top - 14 * mm - s * slot_h
         c.setStrokeColor(theme.rose)
@@ -138,6 +175,10 @@ def render_character_sheet(
         line(tx + 34 * mm, sy - 5 * mm, tw - 34 * mm)
         label(tx, sy - 15 * mm, strings.ui(locale, "sheet_magic_does"), size=10)
         line(tx + 20 * mm, sy - 16 * mm, tw - 20 * mm)
+        if s < len(magics):
+            mname, mdoes = magics[s]
+            value(tx + 36 * mm, sy - 4 * mm, mname)
+            value(tx + 22 * mm, sy - 15 * mm, mdoes, size=8)
 
     # what I carry box: six slots in a 2 by 3 grid
     cbox_top = mbox_y - 8 * mm
@@ -146,11 +187,15 @@ def render_character_sheet(
     box(18 * mm, cbox_y, W - 36 * mm, cbox_h, theme.gold)
     label(22 * mm, cbox_top - 7 * mm, strings.ui(locale, "sheet_inventory"))
     col_w = (W - 36 * mm - 8 * mm) / 2
+    carry = example.get("carry", []) if example else []
     for r in range(3):
         for col in range(2):
             ix = 22 * mm + col * (col_w + 4 * mm)
             iy = cbox_top - 16 * mm - r * 10 * mm
             line(ix, iy, col_w - 6 * mm)
+            idx = r * 2 + col
+            if idx < len(carry):
+                value(ix + 1 * mm, iy + 1.5 * mm, carry[idx], size=9)
 
     if tier == "older":
         ny = cbox_y - 8 * mm
@@ -164,3 +209,14 @@ def render_character_sheet(
     c.showPage()
     c.save()
     return out_path
+
+
+def _draw_hero(c, path: Path, x: float, y: float, w: float, h: float) -> None:
+    """Draw the hero image to fit inside the box, preserving aspect, centred."""
+    try:
+        c.drawImage(
+            str(path), x, y, width=w, height=h,
+            preserveAspectRatio=True, anchor="c", mask="auto",
+        )
+    except Exception:
+        pass

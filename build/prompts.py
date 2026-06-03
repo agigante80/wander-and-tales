@@ -80,6 +80,10 @@ def iter_image_prompts(
                 entries.append(
                     PromptEntry(w.id, None, image, compose_prompt(w, image, canon_by_id))
                 )
+            for hero in content.load_heroes(world_dir):
+                entries.append(
+                    PromptEntry(w.id, None, hero.image, compose_prompt(w, hero.image, canon_by_id))
+                )
         stories_dir = world_dir / "stories"
         if stories_dir.is_dir():
             for story_dir in sorted(p for p in stories_dir.iterdir() if p.is_dir()):

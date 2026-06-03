@@ -179,6 +179,60 @@ class CanonEntry(_Strict):
         return value
 
 
+class ExampleHero(_Strict):
+    """A pre-filled example hero for a world's sample adventure sheets.
+
+    A ready-to-use or inspiration hero: a name, what they are a hero of, three
+    chosen magics or qualities (canon term ids), some filled energy stars, a few
+    carried items, and a text-free hero portrait drawn in the sheet's draw box.
+    """
+
+    id: str
+    tier: str  # young or older (the two example sheet tiers)
+    name: str
+    hero_of: dict[str, str]
+    magics: list[str]  # exactly 3 canon term ids (magics or qualities)
+    energy: int = 0
+    carry: list[dict[str, str]] = []
+    image: Image
+
+    @field_validator("tier")
+    @classmethod
+    def _known_tier(cls, value: str) -> str:
+        if value not in ("young", "older"):
+            raise ValueError(f"example hero tier {value!r} must be 'young' or 'older'")
+        return value
+
+    @field_validator("hero_of")
+    @classmethod
+    def _hero_of_locales(cls, value: dict[str, str]) -> dict[str, str]:
+        _require_locales(value, "hero_of")
+        return value
+
+    @field_validator("magics")
+    @classmethod
+    def _three_magics(cls, value: list[str]) -> list[str]:
+        if len(value) != 3:
+            raise ValueError("a hero needs exactly 3 magics or qualities")
+        return value
+
+    @field_validator("energy")
+    @classmethod
+    def _energy_range(cls, value: int) -> int:
+        if not 0 <= value <= 5:
+            raise ValueError("energy must be 0 to 5")
+        return value
+
+    @field_validator("carry")
+    @classmethod
+    def _carry_locales(cls, value: list[dict[str, str]]) -> list[dict[str, str]]:
+        if len(value) > 6:
+            raise ValueError("at most 6 carry items")
+        for item in value:
+            _require_locales(item, "carry item")
+        return value
+
+
 class LexiconTerm(_Strict):
     id: str
     names: dict[str, str]

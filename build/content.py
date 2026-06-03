@@ -5,7 +5,7 @@ from pathlib import Path
 
 import yaml
 
-from build.models import CanonEntry, LexiconTerm, Story, World
+from build.models import CanonEntry, ExampleHero, LexiconTerm, Story, World
 
 
 def _load_yaml(path: Path):
@@ -28,6 +28,15 @@ def load_canon(canon_dir: Path) -> list[CanonEntry]:
         for row in rows:
             entries.append(CanonEntry.model_validate(row))
     return entries
+
+
+def load_heroes(world_dir: Path) -> list[ExampleHero]:
+    """Load a world's example heroes from heroes.yaml, or [] if there are none."""
+    path = world_dir / "heroes.yaml"
+    if not path.is_file():
+        return []
+    rows = _load_yaml(path) or []
+    return [ExampleHero.model_validate(row) for row in rows]
 
 
 def load_lexicon(path: Path) -> list[LexiconTerm]:

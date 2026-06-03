@@ -11,7 +11,7 @@ from pathlib import Path
 
 from build import content
 from build.locales import REQUIRED_LOCALES
-from build.render import kit, pages, playbook, version, world_pdf
+from build.render import examples, kit, pages, playbook, version, world_pdf
 from build.render.colophon import PROJECT_URL
 
 LEVELS = ("simple", "rich")
@@ -27,6 +27,7 @@ class Built:
     story_packs: dict = field(default_factory=dict)  # (world, story, locale, level) -> Path
     playbooks: dict = field(default_factory=dict)    # (world, story, locale) -> Path
     world_books: dict = field(default_factory=dict)  # (world, locale) -> Path
+    example_heroes: dict = field(default_factory=dict)  # (world, locale) -> Path
     guides: dict = field(default_factory=dict)       # locale -> Path
 
 
@@ -41,6 +42,10 @@ def build_all(root: Path, out_dir: Path) -> Built:
             built.world_books[(world_id, locale)] = world_pdf.build_world_pdf(
                 root, world_id, locale, out_dir=out_dir
             )
+            if (world_yaml.parent / "heroes.yaml").is_file():
+                built.example_heroes[(world_id, locale)] = examples.build_example_heroes(
+                    root, world_id, locale, out_dir=out_dir
+                )
             for story_yaml in stories:
                 story_id = story_yaml.parent.name
                 built.playbooks[(world_id, story_id, locale)] = playbook.build_playbook(
@@ -65,7 +70,10 @@ def build_all(root: Path, out_dir: Path) -> Built:
 def prune_old(out_dir: Path, built: Built) -> list[Path]:
     """Remove every *.pdf under out_dir that the build did not just write."""
     keep = set()
-    for mapping in (built.story_packs, built.playbooks, built.world_books, built.guides):
+    for mapping in (
+        built.story_packs, built.playbooks, built.world_books,
+        built.example_heroes, built.guides,
+    ):
         keep.update(p.resolve() for p in mapping.values())
     removed: list[Path] = []
     for pdf in sorted(out_dir.rglob("*.pdf")):
@@ -149,6 +157,27 @@ def readme_block(root: Path, built: Built) -> str:
             for loc, path in sorted(world_rows[world_id].items())
         )
         lines.append(f"- {name}: {links}")
+
+    if built.example_heroes:
+        lines += [
+            "",
+            "### Example heroes",
+            "",
+            "Ready-to-use sample adventure sheets, two for ages 6 to 8 and two for ages",
+            "9 to 12, each with a hero drawn in, to play straight away or use as ideas:",
+            "",
+        ]
+        hero_rows: dict = {}
+        for (world_id, locale), path in built.example_heroes.items():
+            hero_rows.setdefault(world_id, {})[locale] = path
+        for world_id in sorted(hero_rows):
+            world = content.load_world(root / "worlds" / world_id / "world.yaml")
+            name = world.name.get("en-GB", world_id)
+            links = " · ".join(
+                f"[{_LANG_NAME.get(loc, loc)}]({_rel(root, path)})"
+                for loc, path in sorted(hero_rows[world_id].items())
+            )
+            lines.append(f"- {name}: {links}")
 
     if built.guides:
         guide_links = " · ".join(

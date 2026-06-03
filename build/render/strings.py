@@ -42,6 +42,7 @@ UI: dict[str, dict[str, str]] = {
         "colophon_version": "Version {number}, updated {updated}, {locale}",
         "colophon_qr_caption": "Scan for the latest version",
         "colophon_promise": "Here nobody loses. If a try does not work, find another way.",
+        "examples_title": "Example Heroes",
     },
     "es-ES": {
         "glossary_title": "Quién es Quién y Qué es Qué",
@@ -84,6 +85,7 @@ UI: dict[str, dict[str, str]] = {
         "colophon_version": "Versión {number}, actualizada el {updated}, {locale}",
         "colophon_qr_caption": "Escanea para la última versión",
         "colophon_promise": "Aquí nadie pierde. Si algo no sale, se busca otra manera.",
+        "examples_title": "Héroes de Ejemplo",
     },
     "it-IT": {
         "glossary_title": "Chi è Chi e Cosa è Cosa",
@@ -126,6 +128,7 @@ UI: dict[str, dict[str, str]] = {
         "colophon_version": "Versione {number}, aggiornata il {updated}, {locale}",
         "colophon_qr_caption": "Scansiona per l'ultima versione",
         "colophon_promise": "Qui non perde nessuno. Se un tentativo non funziona, si cerca un'altra strada.",
+        "examples_title": "Eroi di Esempio",
     },
 }
 

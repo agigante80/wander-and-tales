@@ -1,0 +1,104 @@
+# Four example heroes for the Floating Isles: ready-to-use sample adventure sheets,
+# two for ages 6 to 8 (young) and two for ages 9 to 12 (older). The magics are canon
+# term ids; the hero image is drawn in the sheet's "Draw your hero" box.
+
+- id: aria
+  tier: young
+  name: Aria
+  hero_of:
+    en-GB: the Floating Isles
+    es-ES: las Islas Flotantes
+    it-IT: le Isole Volanti
+  magics: [magic-light, magic-voice, magic-grow]
+  energy: 4
+  carry:
+    - { en-GB: a glowing lantern, es-ES: un farol que brilla, it-IT: una lanterna che brilla }
+    - { en-GB: a friendship pebble, es-ES: una piedra de la amistad, it-IT: un sasso dell'amicizia }
+    - { en-GB: a soft feather, es-ES: una pluma suave, it-IT: una piuma morbida }
+  image:
+    id: hero-aria
+    role: hero
+    orientation: portrait
+    prompt: >
+      A cheerful young mage with a bright smile and a small pointed hat, a soft
+      glow of friendly light cupped in their hands, ready for an adventure.
+    alt:
+      en-GB: A cheerful young mage with a small pointed hat holding a soft glow of light.
+      es-ES: Una joven maga alegre con un sombrero puntiagudo sosteniendo un suave resplandor de luz.
+      it-IT: Una giovane maga allegra con un cappello a punta che tiene un dolce chiarore di luce.
+
+- id: tomo
+  tier: young
+  name: Tomo
+  hero_of:
+    en-GB: the Floating Isles
+    es-ES: las Islas Flotantes
+    it-IT: le Isole Volanti
+  magics: [magic-grow, magic-change, magic-voice]
+  energy: 3
+  carry:
+    - { en-GB: a building brick, es-ES: una pieza de construcción, it-IT: un mattoncino }
+    - { en-GB: a snack for the Mist Cat, es-ES: una golosina para el Gato de Niebla, it-IT: uno spuntino per il Gatto di Nebbia }
+    - { en-GB: a little hand-drawn map, es-ES: un mapita dibujado a mano, it-IT: una mappa disegnata a mano }
+  image:
+    id: hero-tomo
+    role: hero
+    orientation: portrait
+    prompt: >
+      A friendly young mage with rosy cheeks and a small pointed hat, a tiny green
+      sprout growing happily from a pot in their hands, looking curious and kind.
+    alt:
+      en-GB: A friendly young mage holding a pot with a tiny green sprout growing from it.
+      es-ES: Un joven mago amable sosteniendo una maceta con un pequeño brote verde.
+      it-IT: Un giovane mago gentile che tiene un vaso con un piccolo germoglio verde.
+
+- id: nadia
+  tier: older
+  name: Nadia
+  hero_of:
+    en-GB: the Floating Isles
+    es-ES: las Islas Flotantes
+    it-IT: le Isole Volanti
+  magics: [magic-light, magic-change, magic-voice]
+  energy: 5
+  carry:
+    - { en-GB: a star chart, es-ES: un mapa de estrellas, it-IT: una mappa delle stelle }
+    - { en-GB: a coil of vine-rope, es-ES: un rollo de cuerda de enredadera, it-IT: una corda di rampicante }
+    - { en-GB: a book of riddles, es-ES: un libro de adivinanzas, it-IT: un libro di indovinelli }
+    - { en-GB: a spare energy token, es-ES: una ficha de energía de repuesto, it-IT: un gettone di energia di scorta }
+  image:
+    id: hero-nadia
+    role: hero
+    orientation: portrait
+    prompt: >
+      A confident older mage with a calm, clever face and a flowing cloak, a soft
+      orb of light floating above one open palm, looking ready for a real challenge.
+    alt:
+      en-GB: A confident older mage in a flowing cloak with a soft orb of light above one palm.
+      es-ES: Una maga mayor y segura con una capa larga y un suave orbe de luz sobre la palma.
+      it-IT: Una maga più grande e sicura con un mantello lungo e un dolce globo di luce sul palmo.
+
+- id: bram
+  tier: older
+  name: Bram
+  hero_of:
+    en-GB: the Floating Isles
+    es-ES: las Islas Flotantes
+    it-IT: le Isole Volanti
+  magics: [magic-voice, magic-grow, magic-light]
+  energy: 4
+  carry:
+    - { en-GB: a wooden flute, es-ES: una flauta de madera, it-IT: un flauto di legno }
+    - { en-GB: a jar of seeds, es-ES: un tarro de semillas, it-IT: un barattolo di semi }
+    - { en-GB: a smooth river stone, es-ES: una piedra lisa de río, it-IT: una liscia pietra di fiume }
+  image:
+    id: hero-bram
+    role: hero
+    orientation: portrait
+    prompt: >
+      A kind older mage with a gentle grin and a satchel, a small bird perched
+      trustingly on one shoulder as they speak softly to it, warm and friendly.
+    alt:
+      en-GB: A kind older mage with a satchel and a small bird perched trustingly on one shoulder.
+      es-ES: Un mago mayor y amable con un zurrón y un pajarito posado con confianza en el hombro.
+      it-IT: Un mago più grande e gentile con una bisaccia e un uccellino posato con fiducia sulla spalla.
