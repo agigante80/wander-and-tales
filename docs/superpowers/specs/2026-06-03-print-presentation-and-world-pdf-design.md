@@ -80,8 +80,12 @@ Why this split:
    git history over its own source files, shown both in the file (colophon and
    metadata) and in its filename. Nothing is bumped by hand.
 8. **A colophon and licensing.** Every PDF ends with a colophon page (project link,
-   licence, version); the content is licensed CC BY-SA 4.0 and the code MIT, recorded
-   in `LICENSE` and `LICENSE-CONTENT` and on the colophon.
+   licence, version, and a QR to the latest version); the content is licensed CC BY-SA
+   4.0 and the code MIT, recorded in `LICENSE` and `LICENSE-CONTENT` and on the
+   colophon.
+9. **A per-page footer.** Every page carries a discreet footer in the bottom margin
+   with the kit identity, locale, version, and `page x of y`, stamped in a final pass
+   over the merged PDF.
 
 ## Non-goals (deferred)
 
@@ -339,13 +343,25 @@ world theme, drawn by a new helper `build/render/colophon.py`
   that is what governs the PDF; the code licence (MIT) is documented in the repo, not
   on the kit.
 - The version line, `Version <number>, updated <updated>, <locale>`.
+- A **QR code** that links to the latest version of this artifact. A printed kit is
+  frozen at the version it was printed at, so the QR is how a reader gets the current
+  one or finds the project. It encodes the artifact's directory on GitHub, which always
+  shows the newest versioned file:
+  - Story Pack and Playbook:
+    `https://github.com/agigante80/wits-and-wonder/tree/main/kits/<locale>/<world>/<story>`
+  - World Book: `.../tree/main/kits/<locale>/<world>`
+  - Guide: `.../tree/main/kits/guides`
+  A short caption sits under it ("Scan for the latest version"). The QR is generated
+  with `segno` (a pure-Python, dependency-light QR library added to the `render`
+  extra), rendered to an SVG or PNG and embedded like any other image.
 - The promise line already used on the character sheet ("here nobody loses, you just
   look for another way").
 
 The colophon's words are localized, so `build/render/strings.py` gains
-`colophon_project`, `colophon_licence`, `colophon_version`, and `colophon_promise` in
-en-GB and es-ES (and it-IT when that locale lands). The licence code ("CC BY-SA 4.0")
-and the two URLs are locale-neutral and not translated.
+`colophon_project`, `colophon_licence`, `colophon_version`, `colophon_qr_caption`, and
+`colophon_promise` in en-GB and es-ES (and it-IT when that locale lands). The licence
+code ("CC BY-SA 4.0"), the URLs, and the QR image itself are locale-neutral and not
+translated.
 
 Two licence files are added at the repository root, and the README documents the dual
 licence:
@@ -360,6 +376,31 @@ The README gains a short **Licence** section naming both: content under CC BY-SA
 code under MIT, with the two links. Contributors agree, by opening a PR, that their
 contribution is offered under these same terms; a line to that effect goes in
 `CONTRIBUTING.md` and the PR template.
+
+## Part 8: the per-page footer
+
+Every page of every artifact carries a discreet footer in the bottom margin, so a
+loose printed page can always be identified and re-found. Because each artifact is
+assembled from several independently built sub-PDFs (narration from reportlab, the map
+from cairosvg, the sheet from a canvas) and merged with pypdf, the footer is applied in
+a **final stamping pass over the merged PDF**, which is the only point where the total
+page count is known and where both portrait and landscape pages can be handled
+uniformly. A new helper `build/render/footer.py` `stamp_footers(pdf_path, label,
+version_info, locale)` reads each page's size, builds a matching reportlab overlay, and
+merges it onto that page with pypdf. Every builder calls it as its last step.
+
+The footer is one thin line, small and grey, with two ends:
+
+- **Left, the identity:** `Wits and Wonder` then the artifact and its title, for
+  example `Wits and Wonder . Story Pack . The Sleeping Garden` (middle dots, never a
+  dash). A readable label is used rather than the raw filename, because the filename is
+  generic and versioned; the label plus the version below identify the file, and the
+  exact path is one tap away through the colophon QR.
+- **Right, the locator:** `<locale> . v<version> . page <x> of <y>`.
+
+The footer is drawn on the map and character-sheet pages too (in the white bottom
+margin, clear of the art), so `page x of y` is continuous and honest across the whole
+document. The colophon page carries it as well.
 
 ## The kits folder structure (built output)
 
@@ -481,8 +522,10 @@ world's lore and ideas), and the licensing section from Part 7.
   there is no history. Builders accept an injected `VersionInfo` so PDF tests stay
   byte-stable and do not depend on the real repository history.
 - Every artifact's filename ends with `-v<number>.pdf`, and its last page is the
-  colophon carrying the project link, the CC BY-SA 4.0 licence line, and the version
-  line. The colophon renders in es-ES as well as en-GB.
+  colophon carrying the project link, the CC BY-SA 4.0 licence line, the version line,
+  and a QR code. The colophon renders in es-ES as well as en-GB.
+- After stamping, every page (portrait and landscape) carries the footer, the `page x
+  of y` count matches the document's page total, and `y` is identical on every page.
 - `rebuild` builds the whole library into a tmp `out_dir`, writes only versioned leaf
   files, prunes a planted stale `*-v<old>.pdf`, regenerates the catalogue, and
   rewrites only the text between the README markers (asserting the surrounding README
@@ -503,9 +546,10 @@ below own them; this list is the checklist.
   list.
 - **`build/render/kit.py`.** `build_kit` becomes `build_story_pack`: strips rules,
   puzzles, idea bank, and glossary; adds the front page and the colophon; sets PDF
-  metadata; writes the versioned, nested path.
-- **`build/render/pages.py`.** `render_guide` gains the colophon, metadata, and the
-  versioned filename.
+  metadata; stamps the footer; writes the versioned, nested path.
+- **`build/render/pages.py`.** `render_guide` gains the colophon, the footer, metadata,
+  and the versioned filename.
+- **`pyproject.toml`.** Add `segno` to the `render` extra for the colophon QR.
 - **`build/content.py`.** Load the idea bank from the world-level path.
 - **`build/lint.py`.** Drop `idea-bank.md` from the per-story required set; add a
   per-world, per-locale check that the world idea bank exists.
@@ -538,12 +582,14 @@ below own them; this list is the checklist.
 1. **Plan 1: print presentation.** A4 hard rule (map to A4 landscape plus the
    page-size test) and the white background (painter and sheet fill). Small and
    self-contained; ship first so everything afterwards inherits it.
-2. **Plan 2: versioning, colophon, and licences (foundation).** Add
+2. **Plan 2: versioning, colophon, footer, and licences (foundation).** Add
    `build/render/version.py` (git-based `version_info` plus the per-artifact input-path
-   helpers), `build/render/colophon.py` and its strings, a PDF-metadata helper, and the
-   `LICENSE` and `LICENSE-CONTENT` files. Wire the colophon, metadata, and versioned
-   filename into the two builders that exist today (the kit and the guide) so the
-   convention is proven before the new artifacts adopt it.
+   helpers), `build/render/colophon.py` and its strings (including the `segno` QR),
+   `build/render/footer.py` (the merged-PDF footer-stamping pass), a PDF-metadata
+   helper, the `segno` dependency in the `render` extra, and the `LICENSE` and
+   `LICENSE-CONTENT` files. Wire the colophon, footer, metadata, and versioned filename
+   into the two builders that exist today (the kit and the guide) so the whole
+   page-furniture convention is proven before the new artifacts adopt it.
 3. **Plan 3: the Story Pack.** Rename `build_kit` to `build_story_pack`, add the
    always-on front page with the world paragraph, remove the rules, puzzles, idea
    bank, and glossary, and write the language-first versioned path
@@ -587,7 +633,14 @@ the old flat kit files are removed in the same rebuild commit.
   others. The version shows in the filename, on the colophon, and in PDF metadata; only
   the latest version of each artifact is kept in `kits/`.
 - Every PDF ends with a **colophon page** carrying the project link
-  (`github.com/agigante80/wits-and-wonder`), the content licence, and the version line.
+  (`github.com/agigante80/wits-and-wonder`), the content licence, the version line, and
+  a **QR code** to that artifact's GitHub directory (its latest version). The QR target
+  is the per-artifact folder rather than the repo root, so a scan lands on the current
+  file; confirm if you would rather it point at the repo root or a Releases page.
+- Every page carries a **discreet footer** with the kit identity, locale, version, and
+  `page x of y`, stamped over the merged PDF. The identity is a readable label (project,
+  artifact, title), not the raw versioned filename; confirm if you would rather the
+  exact filename appear there.
 - **Licences:** content (worlds, guide, lexicon, generated PDFs) under **CC BY-SA
   4.0** (`LICENSE-CONTENT`); code (the `build/` package and tests) under **MIT**
   (`LICENSE`). Contributions are offered under the same terms.
