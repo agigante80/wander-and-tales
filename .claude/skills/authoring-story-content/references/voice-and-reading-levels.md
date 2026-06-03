@@ -126,3 +126,25 @@ blended in here.
   short and words common; rich Spanish may stretch, exactly as in English.
 - Read it aloud in Spanish. If it sounds like a translation, it needs another
   pass.
+
+## Italian (it-IT): register and avoiding translationese
+
+Italian is a synced locale, authored in its own files. It follows the same
+discipline as Spanish.
+
+- **Address the players with "voi"** for the cooperative group ("giocate",
+  "risolvete", "siete voi"), and "tu" when speaking to a single player or to the
+  grown-up running the game. Keep it warm and informal; never the formal "Lei" for
+  kids.
+- **Translate the feeling, not the words.** Find the Italian a native child would
+  actually enjoy; faithful is not the same as literal.
+- **Use correct accents and apostrophes** (a, e, i, o, u with grave or acute as
+  needed: caffe becomes caffè, perche becomes perché; elisions like un', l', c'è,
+  dell').
+- **Follow canon Italian names exactly** (for example "Gatto di Nebbia" for the Mist
+  Cat, "Il Folletto Solitario" for the lonely sprite, "Chirone" for Chiron). If a
+  canon name reads awkwardly in a sentence, fix the canon entry rather than
+  improvising a new name in the prose.
+- **Match the reading level in Italian too.** Simple Italian keeps sentences short
+  and words common; rich Italian may stretch, exactly as in English.
+- Read it aloud in Italian. If it sounds like a translation, it needs another pass.

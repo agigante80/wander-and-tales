@@ -12,7 +12,8 @@ def _world():
     return World.model_validate(
         {
             "id": "floating-isles",
-            "name": {"en-GB": "The Floating Isles", "es-ES": "Las Islas Flotantes"},
+            "name": {"en-GB": "The Floating Isles", "es-ES": "Las Islas Flotantes",
+                     "it-IT": "Le Isole Fluttuanti"},
             "palette": ["#fef9ef", "#4ea24a", "#2bb3a3", "#d36fb0",
                         "#3f8fd6", "#f2a93b", "#8a6fd6"],
         }
@@ -27,7 +28,7 @@ def test_theme_from_world_maps_palette_by_role():
 
 def test_theme_default_fills_in_when_palette_is_short():
     bare = World.model_validate(
-        {"id": "x", "name": {"en-GB": "X", "es-ES": "X"}, "palette": []}
+        {"id": "x", "name": {"en-GB": "X", "es-ES": "X", "it-IT": "X"}, "palette": []}
     )
     th = theme.Theme.from_world(bare)
     assert th.background is not None and th.primary is not None

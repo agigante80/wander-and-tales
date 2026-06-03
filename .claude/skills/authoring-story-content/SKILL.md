@@ -4,8 +4,8 @@ description: >-
   Author or revise content for the Wits & Wonder children's story-kit library:
   story narration (simple and rich reading levels), world lore, canon registry
   entries, puzzles, idea banks, rules-page text, and the Guide for the Grown-Up,
-  in British English (en-GB, canonical) and Spanish from Spain (es-ES, kept in
-  sync). Use this skill whenever you
+  in British English (en-GB, canonical), Spanish from Spain (es-ES), and Italian
+  (it-IT), the synced locales. Use this skill whenever you
   write, draft, translate, or edit any kid-facing or grown-up-facing prose or
   YAML content for Wits & Wonder (any world or story, including The Floating
   Isles / The Sleeping Garden and the Greek-myth world), even when the request
@@ -71,15 +71,16 @@ These are small and unforgiving, so check them deliberately.
    phrasings that are cleared and the list of claims never to make. It governs all
    grown-up-facing copy (world intros, the Guide, any positioning text).
 
-3. **Write British English (en-GB) and Spanish from Spain (es-ES).** These are
-   the two canonical locales, and they are specific: British spelling and idiom
-   (colour, organise, maths, autumn, "have you got"), and peninsular Spanish with
-   "vosotros" for the player pair and full, correct accents (the old font limit
-   that dropped accents is gone). US English and Latin American Spanish are
-   **separate languages** that slot in later, each in its own content files,
-   exactly like European versus Brazilian Portuguese, or Italian, French, and
-   German. Never quietly mix an Americanism into en-GB, or a Latin American turn
-   of phrase into es-ES. See `references/voice-and-reading-levels.md`.
+3. **Write British English (en-GB), Spanish from Spain (es-ES), and Italian
+   (it-IT).** These are the synced locales, and they are specific: British spelling
+   and idiom (colour, organise, maths, autumn, "have you got"); peninsular Spanish
+   with "vosotros" for the players and full, correct accents; and natural Italian
+   with "voi" for the players and full accents (the old font limit that dropped
+   accents is gone). US English, Latin American Spanish, and other languages are
+   **separate languages** that slot in later, each in its own content files, exactly
+   like European versus Brazilian Portuguese, or French and German. Never quietly mix
+   an Americanism into en-GB, a Latin American turn of phrase into es-ES, or a
+   non-native turn into it-IT. See `references/voice-and-reading-levels.md`.
 
 ## Content types and where they live
 

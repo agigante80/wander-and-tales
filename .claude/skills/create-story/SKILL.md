@@ -1,6 +1,6 @@
 ---
 name: create-story
-description: Use when a user wants to create their own Wits & Wonder story (or a new world) and build their own printable kit to play at home. Guides choosing or creating a world, choosing or writing an idea, setting the audience and challenges, authoring the content in British English and Spanish from Spain with image prompts, optionally generating the pictures with the user's own OpenAI key (or leaving prompts to paste elsewhere), validating, and building the printable PDFs into dist/. Defers all voice, reading-level, peril-tone, and canon-name rules to the authoring-story-content skill. Sharing the story with the public library is optional and handled by the separate contribute-story skill. Trigger on requests like "create a story", "make my own adventure", "make a kit about X", "write a new story to print", or "start a new world".
+description: Use when a user wants to create their own Wits & Wonder story (or a new world) and build their own printable kit to play at home. Guides choosing or creating a world, choosing or writing an idea, setting the audience and challenges, authoring the content in British English, Spanish from Spain, and Italian with image prompts, optionally generating the pictures with the user's own OpenAI key (or leaving prompts to paste elsewhere), validating, and building the printable PDFs into dist/. Defers all voice, reading-level, peril-tone, and canon-name rules to the authoring-story-content skill. Sharing the story with the public library is optional and handled by the separate contribute-story skill. Trigger on requests like "create a story", "make my own adventure", "make a kit about X", "write a new story to print", or "start a new world".
 ---
 
 # Creating your own Wits & Wonder kit
@@ -54,7 +54,7 @@ named character they want).
 ## Step 4: reuse canon, never redefine it
 
 Before naming anything, read the world's `canon/*.yaml` and the repo-wide
-`lexicon/terms.yaml`. Reuse existing entries with their exact en-GB and es-ES
+`lexicon/terms.yaml`. Reuse existing entries with their exact en-GB, es-ES, and it-IT
 names, and treat each entry's `description` as a contract: an existing gentle
 creature stays gentle, a named place keeps its nature. Add a new `canon/` entry for
 anything genuinely new before you use it in prose. Never rewrite an existing entry.
@@ -62,8 +62,8 @@ anything genuinely new before you use it in prose. Never rewrite an existing ent
 ## Step 5: author the content
 
 Draft **en-GB first** (the source of truth), then **every locale in
-`build/locales.py` `REQUIRED_LOCALES`** (es-ES today), translating for the target
-child's ear, not word for word. Produce:
+`build/locales.py` `REQUIRED_LOCALES`** (es-ES and it-IT today), translating for the
+target child's ear, not word for word. Produce:
 
 - `worlds/<world>/stories/<story>/story.yaml`: the tags and the image entries (each
   with a `prompt`, locale-neutral and text-free, plus localized `alt`, following the
@@ -107,11 +107,11 @@ not a hard gate.
 
 1. `python -m build validate --root .` and `python -m build lint --root .` (fix any
    errors; image-file warnings are expected if the author chose prompts-only).
-2. Build the full kit into `dist/` (the gitignored scratch folder). Kits are bilingual
-   by design, so build every required locale:
+2. Build the full kit into `dist/` (the gitignored scratch folder). Kits are
+   multilingual by design, so build every required locale:
 
    ```bash
-   for loc in en-GB es-ES; do
+   for loc in en-GB es-ES it-IT; do
      python -m build render --root . --world <world> --story <story> --locale "$loc" --reading-level simple
      python -m build render --root . --world <world> --story <story> --locale "$loc" --reading-level rich
      python -m build render-playbook --root . --world <world> --story <story> --locale "$loc"

@@ -4,7 +4,7 @@ from build.models import Image, World
 
 def _world():
     return World.model_validate(
-        {"id": "w", "name": {"en-GB": "W", "es-ES": "W"},
+        {"id": "w", "name": {"en-GB": "W", "es-ES": "W", "it-IT": "W"},
          "visual_style": "Soft storybook art."}
     )
 
@@ -12,7 +12,7 @@ def _world():
 def _image(**over):
     data = {"id": "cover", "role": "cover", "orientation": "portrait",
             "prompt": "A sleeping garden.",
-            "alt": {"en-GB": "x", "es-ES": "y"}}
+            "alt": {"en-GB": "x", "es-ES": "y", "it-IT": "z"}}
     data.update(over)
     return Image.model_validate(data)
 
@@ -35,8 +35,10 @@ def test_compose_appends_canon_description_when_ref_resolves():
 
     canon = {"mist-cat": CanonEntry.model_validate(
         {"id": "mist-cat", "kind": "creature",
-         "names": {"en-GB": "Mist Cat", "es-ES": "Gato de Niebla"},
-         "description": {"en-GB": "A gentle cat of fog.", "es-ES": "Un gato de niebla."}}
+         "names": {"en-GB": "Mist Cat", "es-ES": "Gato de Niebla",
+                   "it-IT": "Gatto di Nebbia"},
+         "description": {"en-GB": "A gentle cat of fog.", "es-ES": "Un gato de niebla.",
+                         "it-IT": "Un gatto di nebbia."}}
     )}
     text = prompts.compose_prompt(_world(), _image(canon_ref="mist-cat"), canon)
     assert "Mist Cat" in text and "gentle cat of fog" in text

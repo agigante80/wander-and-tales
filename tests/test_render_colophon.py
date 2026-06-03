@@ -13,7 +13,7 @@ def _styles():
 
 def _world():
     return World.model_validate(
-        {"id": "_", "name": {"en-GB": "_", "es-ES": "_"}}
+        {"id": "_", "name": {"en-GB": "_", "es-ES": "_", "it-IT": "_"}}
     )
 
 
