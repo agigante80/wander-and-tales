@@ -1,17 +1,21 @@
-# Wits & Wonder: print presentation, the three-PDF split, and a full-page character sheet
+# Wits & Wonder: print presentation, the three-PDF split, versioning, and a full-page character sheet
 
 **Status:** design for review, reached through a chat thread with the maintainer.
-Decomposes into four implementation plans (see the end). The per-story grown-up
-document is named the **Grown-up's Playbook**.
+Decomposes into six implementation plans (see the end). The per-story grown-up
+document is named the **Grown-up's Playbook**. Content is licensed **CC BY-SA 4.0**
+and the code **MIT**.
 
 **Context:** The kits look good on screen but are not yet ideal for the thing they
 are for, printing at home and running at the table. The maintainer asked for: every
 PDF to be A4 as a hard rule; a white page background so kits print cleanly and
 cheaply; a short world paragraph at the start of each story; a redesigned full-page
-character sheet; and, after researching how published adventures are structured, to
-split the single combined kit into three printable artifacts so a child never holds
-the puzzle answers and the grown-up's material is not duplicated across reading
-levels.
+character sheet; to split the single combined kit (after researching how published
+adventures are structured) into three printable artifacts so a child never holds the
+puzzle answers and the grown-up's material is not duplicated across reading levels; a
+language-first output tree that scales to roughly 7 worlds, 10 stories each, and 3 or
+more languages; an automatic version on every PDF (in the file and in its name, with
+nothing to maintain by hand); and a colophon end page on every PDF carrying the
+project link and licence.
 
 The split follows the standard adventure structure (a player book, a game-master
 guide, and a setting or world book, plus components like character sheets and maps),
@@ -40,7 +44,7 @@ is unchanged and separate from the per-story Grown-up's Playbook above.
 Why this split:
 
 - **A child never holds the answers.** Puzzle solutions live only in the Grown-up's
-  Guide. The narration still presents every obstacle to players (read aloud); only
+  Playbook. The narration still presents every obstacle to players (read aloud); only
   the solution is held back.
 - **No duplication across reading levels.** Rules and puzzles are a single adult
   level, so they are built once per locale instead of being copied into both the
@@ -53,7 +57,7 @@ Why this split:
 ## Goals
 
 1. **A4 everywhere.** Every page of every generated PDF (Story Pack, Grown-up's
-   Guide, World Book, the generic Guide, the character sheet) is A4. Content pages
+   Playbook, World Book, the generic Guide, the character sheet) is A4. Content pages
    are A4 portrait; the map page is A4 landscape (a wide board). Enforced in the
    renderers, not left to chance, and guarded by a test.
 2. **White page background for print.** The page fill is white, not the cream tint,
@@ -70,6 +74,14 @@ Why this split:
 5. **A full-page A4 character sheet** with a portrait and name at the top, a roomy
    magic area with three magic slots, an objects area ("What I carry") at the bottom,
    and the energy stars, filling the whole page. The sheet is a Story Pack component.
+6. **A language-first output tree** under `kits/` (and `dist/`) that scales to many
+   worlds, stories, and languages, with each builder writing its own nested path.
+7. **Automatic versioning.** Every PDF carries a version derived at build time from
+   git history over its own source files, shown both in the file (colophon and
+   metadata) and in its filename. Nothing is bumped by hand.
+8. **A colophon and licensing.** Every PDF ends with a colophon page (project link,
+   licence, version); the content is licensed CC BY-SA 4.0 and the code MIT, recorded
+   in `LICENSE` and `LICENSE-CONTENT` and on the colophon.
 
 ## Non-goals (deferred)
 
@@ -145,7 +157,8 @@ Grown-up's Playbook (Part 3); the glossary and idea bank go to the World Book (P
 The narration still presents every obstacle to the players; only the answers leave.
 
 Output path (see "The kits folder structure" below): `<out_dir>/<locale>/<world>/
-<story>/story-pack-<level>.pdf`.
+<story>/story-pack-<level>-v<version>.pdf`, where `<version>` is the automatic build
+version from Part 6.
 
 ## Part 3: the Grown-up's Playbook (per story)
 
@@ -165,7 +178,7 @@ single adult reading level (not per reading level).
      part not meant for the child's eyes.
 - New CLI subcommand `python -m build render-playbook --root . --world <w> --story <s>
   --locale <loc> [--out-dir <dir>]`.
-- Output path: `<out_dir>/<locale>/<world>/<story>/playbook.pdf`.
+- Output path: `<out_dir>/<locale>/<world>/<story>/playbook-v<version>.pdf`.
 
 This is distinct from the generic, world-agnostic **Guide for the Grown-Up**
 (`render-guide`, `Guide_for_the_Grown-Up_<locale>.pdf`), which stays as is and
@@ -210,7 +223,7 @@ The idea bank is world-generic improv fuel, so it moves from the story to the wo
      `narration.simple.md`, or a fixed fallback if absent).
 - New CLI subcommand `python -m build render-world --root . --world <w> --locale
   <loc> [--out-dir <dir>]`.
-- Output path: `<out_dir>/<locale>/<world>/world-book.pdf`.
+- Output path: `<out_dir>/<locale>/<world>/world-book-v<version>.pdf`.
 
 ## Part 5: the full-page A4 character sheet
 
@@ -251,6 +264,103 @@ A known limitation carried over: the sheet says "magic", which suits the magic
 worlds; the non-magic Greek rules tell players to write their hero quality there.
 Per-world sheet labels are deferred.
 
+## Part 6: automatic versioning
+
+Every generated PDF carries a version, and **nothing about it is manual**. The
+version is computed at build time from git history over exactly the source files that
+compose that PDF. Authors never edit a version field; the version simply reflects how
+many times the relevant content has changed and when it last changed.
+
+A new module `build/render/version.py` provides:
+
+- `version_info(root, paths) -> VersionInfo`, where `VersionInfo` has `number: int`
+  and `updated: str` (an ISO `YYYY-MM-DD` date). It runs git over the given paths:
+  `number` is the count of commits that touched any of those paths
+  (`git -C <root> log --format=%H -- <paths>` line count), and `updated` is the date
+  of the most recent such commit (`git -C <root> log -1 --format=%cs -- <paths>`).
+- A per-artifact input-path helper so each builder asks for the version of *its own*
+  inputs. The input sets are:
+  - **Story Pack** (world, story, locale, level): `story.yaml`, the story's
+    `content/<locale>/narration.<level>.md`, `world.yaml`, and the map and cover asset
+    files it actually resolves.
+  - **Grown-up's Playbook** (world, story, locale): `story.yaml`, the story's
+    `content/<locale>/rules.md` and `content/<locale>/puzzles.md`, and `world.yaml`.
+  - **World Book** (world, locale): `world.yaml`, the world `canon/*.yaml`, the
+    world-level `content/<locale>/idea-bank.md`, every story's `story.yaml`, and each
+    story's `content/<locale>/narration.simple.md` (used for the hook).
+  - **Guide for the Grown-Up** (locale): `guide/<locale>/guide.md`.
+
+Scoping the version to the exact inputs makes it correct per locale and per level for
+free: if only the en-GB narration changes, the it-IT Story Pack's version does not
+move, but a change to the shared map or `world.yaml` bumps every artifact that uses
+it. That answers the "one language is ahead of another" case without any manual
+bookkeeping.
+
+Edge cases:
+
+- **Uncommitted inputs.** If any input file has uncommitted changes (a local working
+  build before commit), `version_info` appends a `+` to the displayed label (for
+  example `v7+`) and uses `number` as the last committed count. This keeps a
+  work-in-progress build honestly distinct from the released one. The committed
+  library is always built from a clean tree, so its filenames never carry the `+`.
+- **No git or no history.** `version_info` falls back to `number = 0` and
+  `updated = "unreleased"`. For tests, `version_info` is injectable (the builders take
+  an optional `VersionInfo` so a fixture can pass a fixed value and keep PDFs
+  byte-stable), so the suite never depends on the repository's real history.
+
+Where the version surfaces:
+
+1. In the **filename** as a `-v<number>` suffix on every leaf (see the folder tree).
+2. On the **colophon** end page (Part 7), as `Version <number>, updated <updated>`.
+3. In the **PDF metadata** set on the final merged file (via pypdf): `/Title` (story
+   or world name, artifact type, locale, version), `/Author` ("Wits and Wonder"),
+   `/Subject` (artifact and version and date), `/Keywords` (world, story, locale,
+   level, version). Metadata text uses commas as separators, never a dash.
+
+Because the version lives in the filename, the committed `kits/` tree holds only the
+latest edition of each artifact: a `rebuild` step builds the whole library, then
+prunes any `*-v<old>.pdf` that the build did not just write, and regenerates the
+catalogue and the README download block (Part 5's "The README" section). `rebuild` is
+a new CLI subcommand, `python -m build rebuild --root . [--out-dir kits]`, and is what
+the art-and-release workflow calls instead of an inline per-kit loop.
+
+## Part 7: the colophon (end page) and licensing
+
+Every artifact (Story Pack, Grown-up's Playbook, World Book, and the generic Guide)
+ends with a **colophon page**: a calm, single A4 page on the white background and the
+world theme, drawn by a new helper `build/render/colophon.py`
+`colophon_flowables(theme, locale, version_info, artifact_label) -> list`. It carries:
+
+- The project name, **Wits and Wonder**, and the project link,
+  `https://github.com/agigante80/wits-and-wonder`.
+- The licensing line: **content is CC BY-SA 4.0**
+  (`https://creativecommons.org/licenses/by-sa/4.0/`), with a short "share it, keep it
+  open, credit Wits and Wonder" gloss. The colophon states the content licence, since
+  that is what governs the PDF; the code licence (MIT) is documented in the repo, not
+  on the kit.
+- The version line, `Version <number>, updated <updated>, <locale>`.
+- The promise line already used on the character sheet ("here nobody loses, you just
+  look for another way").
+
+The colophon's words are localized, so `build/render/strings.py` gains
+`colophon_project`, `colophon_licence`, `colophon_version`, and `colophon_promise` in
+en-GB and es-ES (and it-IT when that locale lands). The licence code ("CC BY-SA 4.0")
+and the two URLs are locale-neutral and not translated.
+
+Two licence files are added at the repository root, and the README documents the dual
+licence:
+
+- `LICENSE` holds the **MIT** licence for the code (the `build/` package and the
+  tests), with the copyright line for the maintainer.
+- `LICENSE-CONTENT` holds the **CC BY-SA 4.0** licence (its full text or the canonical
+  deed link plus a short statement) for everything under `worlds/`, `guide/`,
+  `lexicon/`, and the generated PDFs in `kits/`.
+
+The README gains a short **Licence** section naming both: content under CC BY-SA 4.0,
+code under MIT, with the two links. Contributors agree, by opening a PR, that their
+contribution is offered under these same terms; a line to that effect goes in
+`CONTRIBUTING.md` and the PR template.
+
 ## The kits folder structure (built output)
 
 The library is heading for roughly 7 worlds, 10 stories each, and 3 or more
@@ -264,31 +374,31 @@ root `out_dir`.
 kits/
   <locale>/
     <world>/
-      world-book.pdf
+      world-book-v<version>.pdf
       <story>/
-        story-pack-simple.pdf
-        story-pack-rich.pdf
-        playbook.pdf
+        story-pack-simple-v<version>.pdf
+        story-pack-rich-v<version>.pdf
+        playbook-v<version>.pdf
   guides/
-    Guide_for_the_Grown-Up_<locale>.pdf
+    Guide_for_the_Grown-Up_<locale>-v<version>.pdf
 ```
 
-A worked example:
+A worked example (versions differ per artifact because they track different files):
 
 ```
 kits/
   it-IT/
     floating-isles/
-      world-book.pdf
+      world-book-v4.pdf
       sleeping-garden/
-        story-pack-simple.pdf
-        story-pack-rich.pdf
-        playbook.pdf
+        story-pack-simple-v7.pdf
+        story-pack-rich-v7.pdf
+        playbook-v3.pdf
   en-GB/
     floating-isles/
       ...
   guides/
-    Guide_for_the_Grown-Up_it-IT.pdf
+    Guide_for_the_Grown-Up_it-IT-v2.pdf
 ```
 
 Notes on this layout:
@@ -296,38 +406,54 @@ Notes on this layout:
 - **Language is the top level**, so all of one language's material sits together (a
   reader can grab everything Italian at once), and a new language is a new top-level
   folder with no churn to the others.
-- **Leaf filenames are type-only** (`story-pack-simple.pdf`, `story-pack-rich.pdf`,
-  `playbook.pdf`, `world-book.pdf`): short and uniform, because the path already says
-  the language, world, and story. The cost is that a downloaded file is named
-  generically; the README link text carries the context.
-- The **World Book** sits at `kits/<locale>/<world>/world-book.pdf`, beside the
-  world's story folders.
-- The generic **Guide for the Grown-Up** stays in `kits/guides/` with the locale in
-  its filename, since it is world-agnostic and lives outside any one language's world
-  tree.
+- **Leaf filenames are type plus version** (`story-pack-rich-v7.pdf`,
+  `playbook-v3.pdf`, `world-book-v4.pdf`): the path already says the language, world,
+  and story, so the leaf only adds the artifact type and its automatic version (Part
+  6). A downloaded file is therefore named generically apart from the version; the
+  README link text carries the rest of the context.
+- The **World Book** sits at `kits/<locale>/<world>/world-book-v<version>.pdf`,
+  beside the world's story folders.
+- The generic **Guide for the Grown-Up** stays in `kits/guides/` with the locale and
+  version in its filename, since it is world-agnostic and lives outside any one
+  language's world tree.
+- **Only the latest version of each artifact is kept.** Because the version is in the
+  filename, a content change produces a new leaf name; the rebuild (Part 6) deletes
+  the superseded `*-v<old>.pdf` for that artifact so the tree never accumulates stale
+  editions. History stays in git, not as a pile of PDFs.
 - `dist/` (scratch, gitignored) uses the identical structure, so a single render and
   the committed library never disagree on where a file goes.
 
 The `find_map` and asset-resolution paths under `worlds/` are unaffected; only the
 **output** tree changes.
 
-## The README
+## The README download section is generated
 
-After the builders exist, rebuild `kits/` into the tree above and refresh the README
-download section. Per story it gains the Story Pack links (Simple and Rich) and the
-Grown-up's Playbook link, in each language, plus a separate short "World books" list.
+Because the version is in the filename, every content change renames a file, so the
+README download links cannot be hand-maintained. The **rebuild generates them**. The
+download block lives between two HTML-comment markers in `README.md`:
+
+```
+<!-- BEGIN KIT TABLE -->
+... generated rows ...
+<!-- END KIT TABLE -->
+```
+
+`rebuild` (Part 6) walks the built `kits/` tree and rewrites everything between the
+markers, leaving the rest of the README (prose, how-to-run, contributing) untouched.
+The generated block contains:
 
 - A story table: columns for Story, World, Ages, the **Story Pack** links (Simple and
   Rich) in each language, and the **Grown-up's Playbook** link in each language. As
-  languages grow past three, the per-language columns may become per-language rows or
-  a compact list per cell, to keep the table readable.
+  languages grow past three, the generator emits per-language rows rather than ever
+  wider columns, to keep the table readable.
 - A **World books** subsection: one line per world, linking its World Book in each
   language.
-- The existing **Guide for the Grown-Up** callout, unchanged.
+- The existing **Guide for the Grown-Up** callout, regenerated with current versions.
 
-A note explains the split in one or two sentences: the Story Pack is what you play
-from and is safe for the child to see; the Grown-up's Playbook holds the answers; the
-World Book is the world's lore and ideas.
+Outside the markers, the README also gains (hand-written, one time): the one or two
+sentence note explaining the split (the Story Pack is what you play from and is safe
+for the child to see; the Grown-up's Playbook holds the answers; the World Book is the
+world's lore and ideas), and the licensing section from Part 7.
 
 ## Testing
 
@@ -350,30 +476,95 @@ World Book is the world's lore and ideas.
   repo and a fixture world.
 - The character sheet renders one A4 page for `young` and `older` with the three magic
   rows and the "What I carry" grid; `early` still renders; es-ES renders.
+- `version_info` returns the commit count and last-changed date for a set of paths in
+  a small fixture git repo, marks a dirty input with `+`, and falls back cleanly when
+  there is no history. Builders accept an injected `VersionInfo` so PDF tests stay
+  byte-stable and do not depend on the real repository history.
+- Every artifact's filename ends with `-v<number>.pdf`, and its last page is the
+  colophon carrying the project link, the CC BY-SA 4.0 licence line, and the version
+  line. The colophon renders in es-ES as well as en-GB.
+- `rebuild` builds the whole library into a tmp `out_dir`, writes only versioned leaf
+  files, prunes a planted stale `*-v<old>.pdf`, regenerates the catalogue, and
+  rewrites only the text between the README markers (asserting the surrounding README
+  is untouched).
+- `LICENSE` (MIT) and `LICENSE-CONTENT` (CC BY-SA 4.0) exist at the repo root.
 - The full suite, `validate`, and `lint` stay green.
+
+## Impact on skills, scripts, and docs
+
+Beyond the new and changed render modules, these existing files change. The plans
+below own them; this list is the checklist.
+
+- **`build/__main__.py` (CLI).** `render` now builds the Story Pack
+  (`build_story_pack`). Add `render-playbook` (world, story, locale), `render-world`
+  (world, locale), and `rebuild` (build the whole library, prune stale versions,
+  regenerate the catalogue, rewrite the README block). `render-guide` now writes under
+  `<out_dir>/guides/` with the version suffix. Update the module docstring's command
+  list.
+- **`build/render/kit.py`.** `build_kit` becomes `build_story_pack`: strips rules,
+  puzzles, idea bank, and glossary; adds the front page and the colophon; sets PDF
+  metadata; writes the versioned, nested path.
+- **`build/render/pages.py`.** `render_guide` gains the colophon, metadata, and the
+  versioned filename.
+- **`build/content.py`.** Load the idea bank from the world-level path.
+- **`build/lint.py`.** Drop `idea-bank.md` from the per-story required set; add a
+  per-world, per-locale check that the world idea bank exists.
+- **`build/catalog.py`.** Optionally add a version column (the Story Pack version per
+  story and locale); at minimum, keep working after the idea-bank move.
+- **`.github/workflows/validate-pr.yml`.** Rename `build_kit` to `build_story_pack`;
+  set `fetch-depth: 0` on checkout so `version_info` can read history; build the Story
+  Pack preview (the versioned path is fine in `preview/`).
+- **`.github/workflows/build-art.yml`.** Set `fetch-depth: 0`; replace the inline
+  per-kit loop with `python -m build rebuild --root . --out-dir kits`; commit the
+  nested tree, the catalogue, and the regenerated README block.
+- **`.claude/skills/authoring-story-content/SKILL.md`.** In the content-types table,
+  move `idea-bank.md` to the world level and mark its audience; note that a kit is now
+  three artifacts; note that version, colophon, and licence are automatic so authors
+  never touch them.
+- **`.claude/skills/create-story/SKILL.md` and `references/`.** Step 5 authors the
+  idea bank once per world (and, for an existing world, reuses it); the preview step
+  may also build the Playbook and World Book; note the automatic version, colophon,
+  and licence; state in `submitting.md` that contributors still never commit PDFs and
+  that opening a PR offers the work under CC BY-SA 4.0.
+- **`README.md`.** The generated download block between markers; the split note; the
+  new Licence section; the updated command list (`render-playbook`, `render-world`,
+  `rebuild`).
+- **`CONTRIBUTING.md` and `.github/pull_request_template.md`.** A line that
+  contributions are offered under CC BY-SA 4.0 (content) and MIT (code).
+- **New root files.** `LICENSE` (MIT) and `LICENSE-CONTENT` (CC BY-SA 4.0).
 
 ## Decomposition into implementation plans
 
 1. **Plan 1: print presentation.** A4 hard rule (map to A4 landscape plus the
    page-size test) and the white background (painter and sheet fill). Small and
    self-contained; ship first so everything afterwards inherits it.
-2. **Plan 2: the Story Pack.** Rename `build_kit` to `build_story_pack`, add the
+2. **Plan 2: versioning, colophon, and licences (foundation).** Add
+   `build/render/version.py` (git-based `version_info` plus the per-artifact input-path
+   helpers), `build/render/colophon.py` and its strings, a PDF-metadata helper, and the
+   `LICENSE` and `LICENSE-CONTENT` files. Wire the colophon, metadata, and versioned
+   filename into the two builders that exist today (the kit and the guide) so the
+   convention is proven before the new artifacts adopt it.
+3. **Plan 3: the Story Pack.** Rename `build_kit` to `build_story_pack`, add the
    always-on front page with the world paragraph, remove the rules, puzzles, idea
-   bank, and glossary from the pack, and write to the language-first output tree
-   (`<out_dir>/<locale>/<world>/<story>/story-pack-<level>.pdf`). Update the CLI, the
-   two workflows, and the tests. This is where the output-tree convention lands first;
-   Plan 3's builders follow the same `<out_dir>/<locale>/<world>/...` pattern.
-3. **Plan 3: the Grown-up's Playbook and the World Book.** Move the idea bank to the
+   bank, and glossary, and write the language-first versioned path
+   (`<out_dir>/<locale>/<world>/<story>/story-pack-<level>-v<version>.pdf`). Update the
+   CLI and the two workflows. The output-tree convention lands here; Plan 4's builders
+   follow the same pattern.
+4. **Plan 4: the Grown-up's Playbook and the World Book.** Move the idea bank to the
    world level (content move, loader, lint), then build `playbook.py`
-   (`render-playbook`) and `world_pdf.py` (`render-world`). Update the authoring and
-   create-story references for the world-level idea bank.
-4. **Plan 4: the full-page character sheet.** The `sheets.py` redesign and the new
+   (`render-playbook`) and `world_pdf.py` (`render-world`), each with its colophon,
+   metadata, and version. Update the authoring and create-story references for the
+   world-level idea bank.
+5. **Plan 5: the full-page character sheet.** The `sheets.py` redesign and the new
    strings.
+6. **Plan 6: rebuild, README generation, and docs.** The `rebuild` CLI subcommand
+   (build all, prune superseded versions, regenerate the catalogue, rewrite the README
+   block), the README Licence section and split note, the `CONTRIBUTING.md` and PR
+   template licence line, and the final library rebuild into `kits/`.
 
-After all four, rebuild `kits/` into the language-first tree (the three artifacts per
-story plus the World Books), regenerate the catalogue, and refresh the README links
-and the split note. Because the paths move from flat to nested, the old flat kit files
-in `kits/` are removed in the same rebuild commit.
+After all six, the committed `kits/` holds the three versioned artifacts per story
+plus the World Books and Guides, the catalogue and README block are regenerated, and
+the old flat kit files are removed in the same rebuild commit.
 
 ## Decisions made for the maintainer to confirm
 
@@ -385,11 +576,23 @@ in `kits/` are removed in the same rebuild commit.
 - Puzzle **answers appear only in the Grown-up's Playbook**; the Story Pack presents
   obstacles through narration but holds no solutions.
 - Output is a **language-first tree** under `kits/` (and `dist/`):
-  `<locale>/<world>/world-book.pdf` and `<locale>/<world>/<story>/{story-pack-simple,
-  story-pack-rich,playbook}.pdf`, with the generic Guide in `kits/guides/`. Leaf names
-  are type-only (the path carries the language, world, and story); downloaded files are
-  therefore named generically, which the README link text compensates for. The
-  per-story Grown-up's Playbook is distinct from the generic Guide for the Grown-Up.
+  `<locale>/<world>/world-book-v<n>.pdf` and `<locale>/<world>/<story>/
+  {story-pack-simple,story-pack-rich,playbook}-v<n>.pdf`, with the generic Guide in
+  `kits/guides/`. Leaf names are type plus version (the path carries the language,
+  world, and story). The per-story Grown-up's Playbook is distinct from the generic
+  Guide for the Grown-Up.
+- **Versioning is automatic and git-derived**, per artifact, from that artifact's own
+  source files: `version` is the commit count, `updated` is the last-changed date.
+  Nothing is bumped by hand, and a different language being behind does not bump the
+  others. The version shows in the filename, on the colophon, and in PDF metadata; only
+  the latest version of each artifact is kept in `kits/`.
+- Every PDF ends with a **colophon page** carrying the project link
+  (`github.com/agigante80/wits-and-wonder`), the content licence, and the version line.
+- **Licences:** content (worlds, guide, lexicon, generated PDFs) under **CC BY-SA
+  4.0** (`LICENSE-CONTENT`); code (the `build/` package and tests) under **MIT**
+  (`LICENSE`). Contributions are offered under the same terms.
+- Because versioned filenames change on every content edit, the **README download
+  block is generated** by `rebuild` between markers, not hand-maintained.
 - The world paragraph reuses the existing `lore_summary` rather than a new short
   field, for simplicity and no new authoring.
 - The map page is landscape A4; everything else is portrait A4. A Story Pack therefore
