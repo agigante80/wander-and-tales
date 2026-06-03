@@ -1,0 +1,49 @@
+# Notable items of the Blossom Mountains of Yamato.
+
+- id: paper-lantern
+  names:
+    en-GB: The Paper Lantern
+    es-ES: El Farol de Papel
+    it-IT: La Lanterna di Carta
+  kind: item
+  description:
+    en-GB: A round paper lantern on a little handle. When a friendly firefly spirit nestles inside, it glows warm and lights the way in the dark.
+    es-ES: Un farol de papel redondo con un asa. Cuando un amable espíritu de luciérnaga se acurruca dentro, brilla cálido e ilumina el camino en la oscuridad.
+    it-IT: Una lanterna di carta rotonda con un piccolo manico. Quando un gentile spirito di lucciola si annida dentro, brilla calda e illumina la via nel buio.
+  first_seen: firefly-lanterns
+
+- id: red-thread
+  names:
+    en-GB: The Red Thread
+    es-ES: El Hilo Rojo
+    it-IT: Il Filo Rosso
+  kind: item
+  description:
+    en-GB: A length of bright red thread. Tie one end where you start and you can always find your way back, and some say it gently ties friends together too.
+    es-ES: Un trozo de hilo rojo brillante. Ata un extremo donde empiezas y siempre podrás encontrar el camino de vuelta, y algunos dicen que también une con suavidad a los amigos.
+    it-IT: Un filo di un rosso acceso. Lega un'estremità dove parti e potrai sempre ritrovare la via, e c'è chi dice che leghi con dolcezza anche gli amici tra loro.
+  first_seen: firefly-lanterns
+
+- id: rice-cake
+  names:
+    en-GB: The Rice Cake
+    es-ES: El Pastel de Arroz
+    it-IT: Il Dolce di Riso
+  kind: item
+  description:
+    en-GB: A soft, sweet rice cake. Shared with a shy or lonely spirit, it can turn a worried face into a friend.
+    es-ES: Un pastel de arroz blando y dulce. Compartido con un espíritu tímido o solitario, puede convertir una cara preocupada en un amigo.
+    it-IT: Un dolce di riso morbido e dolce. Condiviso con uno spirito timido o solitario, può trasformare un viso preoccupato in un amico.
+  first_seen: firefly-lanterns
+
+- id: little-bell
+  names:
+    en-GB: The Little Bell
+    es-ES: La Campanilla
+    it-IT: Il Campanello
+  kind: item
+  description:
+    en-GB: A small bronze bell with a clear, gentle ring. Its sound calms worried hearts and can wake a sleeping friend ever so softly.
+    es-ES: Una campanilla de bronce de tañido claro y suave. Su sonido calma los corazones inquietos y puede despertar con mucha suavidad a un amigo dormido.
+    it-IT: Un campanello di bronzo dal suono chiaro e dolce. Il suo suono calma i cuori inquieti e può svegliare con grande dolcezza un amico addormentato.
+  first_seen: river-dragons-long-sleep

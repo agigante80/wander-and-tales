@@ -1,0 +1,84 @@
+world: japanese-myth
+id: firefly-lanterns
+title:
+  en-GB: The Firefly Lanterns
+  es-ES: Los Faroles de las Luciérnagas
+  it-IT: Le Lanterne delle Lucciole
+age:
+  recommended: young
+  also_works_for: [early]
+skills:
+  - observation
+  - social-emotional
+  - spatial
+  - logic
+peril: gentle
+adult_gm: true
+dice:
+  minimum: 1d6
+  recommended: d20-set
+players:
+  min: 2
+  max: 5
+play_time_minutes: 25
+images:
+  - id: cover
+    role: cover
+    orientation: portrait
+    prompt: >
+      Two young heroes at a night festival in a village strung with paper lanterns,
+      gently holding up a glowing paper lantern with a tiny shy firefly spirit
+      inside, the other lanterns still dark around them, bamboo and a red torii gate
+      behind. Warm and hopeful.
+    alt:
+      en-GB: Two young heroes at a night festival holding a glowing paper lantern with a tiny firefly spirit inside, dark lanterns and a torii gate around them.
+      es-ES: Dos jóvenes héroes en una fiesta nocturna que sostienen un farol de papel encendido con un diminuto espíritu de luciérnaga dentro, con faroles apagados y una puerta torii alrededor.
+      it-IT: Due giovani eroi a una festa notturna che reggono una lanterna di carta accesa con un minuscolo spirito di lucciola dentro, con lanterne spente e un portale torii attorno.
+  - id: scene-dark-festival
+    role: scene
+    orientation: landscape
+    canon_ref: firefly-spirits
+    prompt: >
+      Two small heroes finding tiny, shy firefly spirits hiding among the stalks of a
+      dark bamboo grove at night, their soft golden glows barely flickering. Gentle
+      and calm.
+    alt:
+      en-GB: Two small heroes finding tiny shy firefly spirits hiding in a dark bamboo grove at night, their glows barely flickering.
+      es-ES: Dos héroes pequeños que encuentran diminutos y tímidos espíritus de luciérnaga escondidos en un oscuro bosque de bambú de noche, con su brillo apenas titilando.
+      it-IT: Due piccoli eroi che trovano minuscoli e timidi spiriti di lucciola nascosti in un buio boschetto di bambù di notte, con il loro bagliore che tremola appena.
+  - id: scene-lantern-path
+    role: scene
+    orientation: landscape
+    canon_ref: lantern-village
+    prompt: >
+      Two small heroes lighting a winding row of paper lanterns one by one along a
+      village path at night, each lantern glowing warm gold as a firefly spirit
+      settles in, the path coming alive with light. Cheerful and bright.
+    alt:
+      en-GB: Two small heroes lighting a winding row of paper lanterns along a village path at night, each glowing warm gold as a firefly spirit settles in.
+      es-ES: Dos héroes pequeños que encienden una hilera ondulante de faroles de papel a lo largo de un camino del pueblo de noche, brillando cada uno al acomodarse un espíritu de luciérnaga.
+      it-IT: Due piccoli eroi che accendono una fila sinuosa di lanterne di carta lungo un sentiero del villaggio di notte, ciascuna che brilla dorata quando uno spirito di lucciola vi si annida.
+  - id: scene-shy-firefly
+    role: scene
+    orientation: landscape
+    canon_ref: kon-fox
+    prompt: >
+      A friendly russet fox and two small heroes gently coaxing the shyest little
+      firefly spirit toward a great unlit festival lantern, cupping their hands with
+      kind, encouraging smiles. Tender and warm.
+    alt:
+      en-GB: A friendly fox and two small heroes gently coaxing the shyest firefly spirit toward a great unlit festival lantern.
+      es-ES: Un amable zorro y dos héroes pequeños que animan con dulzura al espíritu de luciérnaga más tímido hacia un gran farol de fiesta apagado.
+      it-IT: Una gentile volpe e due piccoli eroi che incoraggiano con dolcezza il più timido spirito di lucciola verso una grande lanterna di festa spenta.
+  - id: scene-festival-glows
+    role: scene
+    orientation: landscape
+    canon_ref: firefly-spirits
+    prompt: >
+      A whole village festival glowing with hundreds of lit paper lanterns and
+      swirling firefly spirits at night, two small heroes cheering among happy
+      villagers, cherry blossom and a silver moon above. Joyful and radiant.
+    alt:
+      en-GB: A whole village festival glowing with lit paper lanterns and swirling firefly spirits, two small heroes cheering, a silver moon above.
+      es-ES: Toda una fiesta del pueblo que brilla con faroles de papel encendidos y espíritus de luciérnaga revoloteando, con dos héroes que animan y una luna plateada arriba.
+      it-IT: Un'intera festa del villaggio che brilla di lanterne di carta accese e spiriti di lucciola che volteggiano, con due eroi che esultano e una luna d'argento sopra.

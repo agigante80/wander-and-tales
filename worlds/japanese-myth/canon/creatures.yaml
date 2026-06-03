@@ -1,0 +1,66 @@
+# Creatures of the Blossom Mountains of Yamato. None of them is truly wicked.
+
+- id: kon-fox
+  names:
+    en-GB: Kon the Fox
+    es-ES: Kon el Zorro
+    it-IT: Kon la Volpe
+  kind: creature
+  disposition: playful
+  description:
+    en-GB: A friendly fox spirit of the bamboo grove who loves riddles and clever games, and hands out helpful hints to travellers he likes.
+    es-ES: Un amable espíritu zorro del bosque de bambú al que le encantan los acertijos y los juegos ingeniosos, y que da pistas útiles a los viajeros que le caen bien.
+    it-IT: Un gentile spirito volpe del boschetto di bambù che adora gli indovinelli e i giochi ingegnosi, e dà indizi utili ai viaggiatori che gli stanno simpatici.
+  first_seen: firefly-lanterns
+
+- id: firefly-spirits
+  names:
+    en-GB: The Firefly Spirits
+    es-ES: Los Espíritus de las Luciérnagas
+    it-IT: Gli Spiriti delle Lucciole
+  kind: creature
+  disposition: friendly
+  description:
+    en-GB: Gentle, shy spirits of light who nestle inside the paper lanterns and make them glow. When they feel safe and happy, the whole village shines.
+    es-ES: Espíritus de luz amables y tímidos que se acurrucan dentro de los faroles de papel y los hacen brillar. Cuando se sienten seguros y felices, todo el pueblo resplandece.
+    it-IT: Spiriti di luce gentili e timidi che si annidano dentro le lanterne di carta e le fanno risplendere. Quando si sentono al sicuro e felici, tutto il villaggio brilla.
+  first_seen: firefly-lanterns
+
+- id: pon-tanuki
+  names:
+    en-GB: Pon the Tanuki
+    es-ES: Pon el Tanuki
+    it-IT: Pon il Tanuki
+  kind: creature
+  disposition: playful
+  description:
+    en-GB: A jolly, round raccoon-dog who loves games and surprises. He means well, but his happy bustling sometimes turns everything upside down by mistake.
+    es-ES: Un alegre y rechoncho perro mapache al que le encantan los juegos y las sorpresas. Tiene buenas intenciones, pero con su feliz ajetreo a veces lo pone todo patas arriba sin querer.
+    it-IT: Un allegro e tondo cane procione che adora i giochi e le sorprese. Ha buone intenzioni, ma con il suo allegro affaccendarsi a volte mette tutto sottosopra per sbaglio.
+  first_seen: tanukis-tidy-up
+
+- id: guardian-lion-dogs
+  names:
+    en-GB: The Guardian Lion-Dogs
+    es-ES: Los Perros-León Guardianes
+    it-IT: I Cani-Leone Guardiani
+  kind: creature
+  disposition: fair
+  description:
+    en-GB: A pair of stone lion-dogs who guard the red torii gate. They look fierce but are fair and kind, and they open the way for those who answer a riddle with a cool head.
+    es-ES: Una pareja de perros-león de piedra que guardan la puerta torii roja. Parecen feroces, pero son justos y amables, y abren el camino a quienes responden a un acertijo con la cabeza fría.
+    it-IT: Una coppia di cani-leone di pietra che custodiscono il portale torii rosso. Sembrano feroci, ma sono giusti e gentili, e aprono la via a chi risponde a un indovinello con la testa fredda.
+  first_seen: river-dragons-long-sleep
+
+- id: river-dragon
+  names:
+    en-GB: The Gentle River Dragon
+    es-ES: El Dragón del Río
+    it-IT: Il Drago del Fiume
+  kind: creature
+  disposition: gentle
+  description:
+    en-GB: A great old dragon of the Silver River whose stirring brings the rains. He looks mighty, but he is gentle and a little lonely, and he wakes not to a loud voice but to a soft bell and a kind song.
+    es-ES: Un gran y viejo dragón del Río Plateado cuyo despertar trae las lluvias. Parece poderoso, pero es amable y un poco solitario, y no despierta con una voz fuerte, sino con una campanilla suave y una canción amable.
+    it-IT: Un grande e vecchio drago del Fiume d'Argento il cui risveglio porta le piogge. Sembra possente, ma è gentile e un po' solitario, e si sveglia non a una voce forte, ma a un dolce campanello e a una canzone gentile.
+  first_seen: river-dragons-long-sleep

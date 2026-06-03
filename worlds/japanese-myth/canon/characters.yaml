@@ -1,0 +1,27 @@
+# Named characters of the Blossom Mountains of Yamato.
+
+- id: granny-yuki
+  names:
+    en-GB: Granny Yuki the Tale-Keeper
+    es-ES: La Abuela Yuki, Guardiana de los Cuentos
+    it-IT: Nonna Yuki, Custode dei Racconti
+  kind: character
+  disposition: friendly
+  description:
+    en-GB: The kind old tale-keeper of the Lantern Village, who knows every story of the mountains and sends the heroes out with a warm word and a small gift.
+    es-ES: La amable y anciana guardiana de los cuentos del Pueblo de los Faroles, que conoce todas las historias de las montañas y envía a los héroes con una palabra cálida y un pequeño regalo.
+    it-IT: La gentile e anziana custode dei racconti del Villaggio delle Lanterne, che conosce ogni storia delle montagne e manda gli eroi con una parola calorosa e un piccolo dono.
+  first_seen: firefly-lanterns
+
+- id: amaterasu
+  names:
+    en-GB: Amaterasu the Sun-Kami
+    es-ES: Amaterasu, la Diosa del Sol
+    it-IT: Amaterasu, la Dea del Sole
+  kind: character
+  disposition: kindly
+  description:
+    en-GB: The warm goddess of the sun, who watches over the mountains and smiles on heroes that win by thinking and caring rather than by force.
+    es-ES: La cálida diosa del sol, que vela por las montañas y sonríe a los héroes que vencen pensando y cuidando, no por la fuerza.
+    it-IT: La calda dea del sole, che veglia sulle montagne e sorride agli eroi che vincono pensando e prendendosi cura degli altri, non con la forza.
+  first_seen: firefly-lanterns

@@ -1,0 +1,37 @@
+# World-flavour vocabulary: the three hero qualities (this world has no magic).
+
+- id: wisdom
+  names:
+    en-GB: Wisdom
+    es-ES: Sabiduría
+    it-IT: Saggezza
+  kind: term
+  description:
+    en-GB: A calm mind and a thoughtful question. In these mountains, wisdom solves a riddle that strength never could.
+    es-ES: Una mente serena y una pregunta reflexiva. En estas montañas, la sabiduría resuelve un acertijo que la fuerza jamás podría.
+    it-IT: Una mente serena e una domanda riflessiva. Su questi monti, la saggezza risolve un indovinello che la forza non potrebbe mai.
+  first_seen: firefly-lanterns
+
+- id: courage
+  names:
+    en-GB: Courage
+    es-ES: Valor
+    it-IT: Coraggio
+  kind: term
+  description:
+    en-GB: A steady heart in a quiet, scary moment. Courage is not being unafraid; it is being kind and clever even when you are afraid.
+    es-ES: Un corazón firme en un momento callado y de miedo. El valor no es no tener miedo; es ser amable e ingenioso aun cuando lo tienes.
+    it-IT: Un cuore saldo in un momento silenzioso e di paura. Il coraggio non è non avere paura; è essere gentili e ingegnosi anche quando si ha paura.
+  first_seen: firefly-lanterns
+
+- id: kindness
+  names:
+    en-GB: Kindness
+    es-ES: Bondad
+    it-IT: Gentilezza
+  kind: term
+  description:
+    en-GB: Care for every living thing, from a shy firefly to a great dragon. The greatest heroes of the mountains are the ones who are gentle, share, and help.
+    es-ES: El cuidado de todo ser vivo, desde una luciérnaga tímida hasta un gran dragón. Los mayores héroes de las montañas son los que son amables, comparten y ayudan.
+    it-IT: La cura per ogni essere vivente, da una lucciola timida a un grande drago. I più grandi eroi delle montagne sono quelli che sono gentili, condividono e aiutano.
+  first_seen: firefly-lanterns
