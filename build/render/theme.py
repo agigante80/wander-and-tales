@@ -27,6 +27,7 @@ _DEFAULT_PALETTE = (
 )
 _TEXT = HexColor("#3a5a32")
 _BORDER = HexColor("#9ccf8a")
+PAGE_FILL = white  # printable page background: white prints cleanly and cheaply
 
 
 def _slot(palette: list[str], index: int) -> Color:
@@ -103,7 +104,7 @@ def page_painter(theme: "Theme"):
     def paint(canvas, doc) -> None:
         width, height = doc.pagesize
         canvas.saveState()
-        canvas.setFillColor(theme.background)
+        canvas.setFillColor(PAGE_FILL)
         canvas.rect(0, 0, width, height, fill=1, stroke=0)
         canvas.setStrokeColor(theme.border)
         canvas.setLineWidth(3)
