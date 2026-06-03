@@ -144,9 +144,8 @@ and answers, the idea bank, and the Who's Who glossary. Rules and puzzles go to 
 Grown-up's Playbook (Part 3); the glossary and idea bank go to the World Book (Part 4).
 The narration still presents every obstacle to the players; only the answers leave.
 
-Output name: `<world>_<story>_<locale>_<level>.pdf` (unchanged from today, so the
-Story Pack keeps the current kit filenames and the existing README links still
-resolve to the play material).
+Output path (see "The kits folder structure" below): `<out_dir>/<locale>/<world>/
+<story>/story-pack-<level>.pdf`.
 
 ## Part 3: the Grown-up's Playbook (per story)
 
@@ -166,7 +165,7 @@ single adult reading level (not per reading level).
      part not meant for the child's eyes.
 - New CLI subcommand `python -m build render-playbook --root . --world <w> --story <s>
   --locale <loc> [--out-dir <dir>]`.
-- Output name: `<world>_<story>_<locale>_playbook.pdf`.
+- Output path: `<out_dir>/<locale>/<world>/<story>/playbook.pdf`.
 
 This is distinct from the generic, world-agnostic **Guide for the Grown-Up**
 (`render-guide`, `Guide_for_the_Grown-Up_<locale>.pdf`), which stays as is and
@@ -211,7 +210,7 @@ The idea bank is world-generic improv fuel, so it moves from the story to the wo
      `narration.simple.md`, or a fixed fallback if absent).
 - New CLI subcommand `python -m build render-world --root . --world <w> --locale
   <loc> [--out-dir <dir>]`.
-- Output name: `<world>_<locale>.pdf`.
+- Output path: `<out_dir>/<locale>/<world>/world-book.pdf`.
 
 ## Part 5: the full-page A4 character sheet
 
@@ -252,19 +251,78 @@ A known limitation carried over: the sheet says "magic", which suits the magic
 worlds; the non-magic Greek rules tell players to write their hero quality there.
 Per-world sheet labels are deferred.
 
-## The README and the kits folder
+## The kits folder structure (built output)
 
-After the builders exist, rebuild `kits/` to hold the three artifacts and refresh the
-README. The download section gains, per story, the Story Pack links (by reading
-level) and the Grown-up's Playbook link, with a separate short "World books" list giving
-one World Book per world per locale.
+The library is heading for roughly 7 worlds, 10 stories each, and 3 or more
+languages (en-GB and es-ES today, it-IT next). That is on the order of 650 PDFs, so
+the output is a **language-first tree**, not a flat folder. Every builder writes into
+this tree under its `out_dir` (which is `kits/` for the committed library and `dist/`
+for scratch builds); the builders compute the nested subpath, callers only pass the
+root `out_dir`.
 
-Proposed download layout (the maintainer may rename the artifacts):
+```
+kits/
+  <locale>/
+    <world>/
+      world-book.pdf
+      <story>/
+        story-pack-simple.pdf
+        story-pack-rich.pdf
+        playbook.pdf
+  guides/
+    Guide_for_the_Grown-Up_<locale>.pdf
+```
+
+A worked example:
+
+```
+kits/
+  it-IT/
+    floating-isles/
+      world-book.pdf
+      sleeping-garden/
+        story-pack-simple.pdf
+        story-pack-rich.pdf
+        playbook.pdf
+  en-GB/
+    floating-isles/
+      ...
+  guides/
+    Guide_for_the_Grown-Up_it-IT.pdf
+```
+
+Notes on this layout:
+
+- **Language is the top level**, so all of one language's material sits together (a
+  reader can grab everything Italian at once), and a new language is a new top-level
+  folder with no churn to the others.
+- **Leaf filenames are type-only** (`story-pack-simple.pdf`, `story-pack-rich.pdf`,
+  `playbook.pdf`, `world-book.pdf`): short and uniform, because the path already says
+  the language, world, and story. The cost is that a downloaded file is named
+  generically; the README link text carries the context.
+- The **World Book** sits at `kits/<locale>/<world>/world-book.pdf`, beside the
+  world's story folders.
+- The generic **Guide for the Grown-Up** stays in `kits/guides/` with the locale in
+  its filename, since it is world-agnostic and lives outside any one language's world
+  tree.
+- `dist/` (scratch, gitignored) uses the identical structure, so a single render and
+  the committed library never disagree on where a file goes.
+
+The `find_map` and asset-resolution paths under `worlds/` are unaffected; only the
+**output** tree changes.
+
+## The README
+
+After the builders exist, rebuild `kits/` into the tree above and refresh the README
+download section. Per story it gains the Story Pack links (Simple and Rich) and the
+Grown-up's Playbook link, in each language, plus a separate short "World books" list.
 
 - A story table: columns for Story, World, Ages, the **Story Pack** links (Simple and
-  Rich) in English and in Spanish, and the **Grown-up's Playbook** link in each language.
-- A **World books** subsection: one line per world, linking the World Book in English
-  and in Spanish.
+  Rich) in each language, and the **Grown-up's Playbook** link in each language. As
+  languages grow past three, the per-language columns may become per-language rows or
+  a compact list per cell, to keep the table readable.
+- A **World books** subsection: one line per world, linking its World Book in each
+  language.
 - The existing **Guide for the Grown-Up** callout, unchanged.
 
 A note explains the split in one or two sentences: the Story Pack is what you play
@@ -300,8 +358,11 @@ World Book is the world's lore and ideas.
    page-size test) and the white background (painter and sheet fill). Small and
    self-contained; ship first so everything afterwards inherits it.
 2. **Plan 2: the Story Pack.** Rename `build_kit` to `build_story_pack`, add the
-   always-on front page with the world paragraph, and remove the rules, puzzles, idea
-   bank, and glossary from the pack. Update the CLI, the two workflows, and the tests.
+   always-on front page with the world paragraph, remove the rules, puzzles, idea
+   bank, and glossary from the pack, and write to the language-first output tree
+   (`<out_dir>/<locale>/<world>/<story>/story-pack-<level>.pdf`). Update the CLI, the
+   two workflows, and the tests. This is where the output-tree convention lands first;
+   Plan 3's builders follow the same `<out_dir>/<locale>/<world>/...` pattern.
 3. **Plan 3: the Grown-up's Playbook and the World Book.** Move the idea bank to the
    world level (content move, loader, lint), then build `playbook.py`
    (`render-playbook`) and `world_pdf.py` (`render-world`). Update the authoring and
@@ -309,8 +370,10 @@ World Book is the world's lore and ideas.
 4. **Plan 4: the full-page character sheet.** The `sheets.py` redesign and the new
    strings.
 
-After all four, rebuild `kits/` with the three artifacts per story plus the World
-Books, regenerate the catalogue, and refresh the README links and the split note.
+After all four, rebuild `kits/` into the language-first tree (the three artifacts per
+story plus the World Books), regenerate the catalogue, and refresh the README links
+and the split note. Because the paths move from flat to nested, the old flat kit files
+in `kits/` are removed in the same rebuild commit.
 
 ## Decisions made for the maintainer to confirm
 
@@ -321,10 +384,12 @@ Books, regenerate the catalogue, and refresh the README links and the split note
   idea-bank.md`) and is shared by the world's stories.
 - Puzzle **answers appear only in the Grown-up's Playbook**; the Story Pack presents
   obstacles through narration but holds no solutions.
-- Filenames: Story Pack keeps `<world>_<story>_<locale>_<level>.pdf`; the Grown-up's
-  Guide is `<world>_<story>_<locale>_playbook.pdf`; the World Book is
-  `<world>_<locale>.pdf`. The per-story Grown-up's Playbook is distinct from the generic
-  Guide for the Grown-Up.
+- Output is a **language-first tree** under `kits/` (and `dist/`):
+  `<locale>/<world>/world-book.pdf` and `<locale>/<world>/<story>/{story-pack-simple,
+  story-pack-rich,playbook}.pdf`, with the generic Guide in `kits/guides/`. Leaf names
+  are type-only (the path carries the language, world, and story); downloaded files are
+  therefore named generically, which the README link text compensates for. The
+  per-story Grown-up's Playbook is distinct from the generic Guide for the Grown-Up.
 - The world paragraph reuses the existing `lore_summary` rather than a new short
   field, for simplicity and no new authoring.
 - The map page is landscape A4; everything else is portrait A4. A Story Pack therefore
