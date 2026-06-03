@@ -6,6 +6,7 @@ world-level idea bank, and a list of the stories in the world. One per locale. P
 are merged with pypdf, then the footer and metadata are stamped.
 """
 
+import re
 import tempfile
 from pathlib import Path
 
@@ -28,17 +29,26 @@ from build.render.kit import _image_file, _merge
 
 
 def _first_sentence(path: Path) -> str:
-    """The first prose sentence of a narration file, skipping headings and blanks."""
+    """The first prose sentence of a narration file.
+
+    Works on paragraphs (blank-line separated), so it skips heading paragraphs and a
+    whole italic stage direction even when it wraps across several lines (an opening
+    "*Read aloud, slowly and warmly. ...*" is for the grown-up, not a story hook). Any
+    stray emphasis markers are stripped so an unbalanced `*` never reaches the page.
+    """
     if not path.is_file():
         return ""
-    for line in path.read_text(encoding="utf-8").splitlines():
-        stripped = line.strip()
-        if not stripped or stripped.startswith("#"):
+    for paragraph in re.split(r"\n\s*\n", path.read_text(encoding="utf-8")):
+        collapsed = " ".join(paragraph.split())
+        if not collapsed or collapsed.startswith("#"):
             continue
+        if collapsed.startswith("*") and collapsed.endswith("*"):
+            continue  # a whole italic stage direction, not prose
+        collapsed = collapsed.strip("*_ ")
         for end in (". ", "! ", "? "):
-            if end in stripped:
-                return stripped.split(end)[0] + end.strip()
-        return stripped
+            if end in collapsed:
+                return collapsed.split(end)[0] + end.strip()
+        return collapsed
     return ""
 
 
