@@ -43,3 +43,9 @@ artifacts that continuous integration and the maintainer rebuild.
 - `python -m build lint --root .` reports no errors (image-file warnings are fine).
 - The story keeps the promise every kit makes: cooperative play, nobody loses, and
   you win by being clever and kind.
+
+## Licensing
+
+By opening a pull request you agree that your contribution is offered under the
+project licences: content under CC BY-SA 4.0 (`LICENSE-CONTENT`) and any code under
+MIT (`LICENSE`). Please contribute only material you have the right to give.

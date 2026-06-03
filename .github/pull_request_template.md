@@ -28,3 +28,5 @@ A new or updated Wits & Wonder story or world.
 - [ ] The images I added are mine to give (my own work, art I generated, or otherwise licensed for an open project).
 
 I understand a maintainer will review this PR, may request changes, and may regenerate or replace the art.
+
+- [ ] I license this contribution under CC BY-SA 4.0 (content) and MIT (code), and it is mine to give.
