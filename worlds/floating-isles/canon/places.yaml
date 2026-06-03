@@ -107,3 +107,15 @@
     es-ES: Una repisa de roca en lo alto sobre la plaza, donde se ha quedado enganchado el farol más grande de la fiesta.
     it-IT: Una sporgenza di roccia in alto sopra la piazza, dove si è impigliata la lanterna più grande della festa.
   first_seen: lantern-festival
+
+- id: market-row
+  names:
+    en-GB: The Market Row
+    es-ES: La Calle del Mercado
+    it-IT: La Via del Mercato
+  kind: place
+  description:
+    en-GB: The busy row of family stalls on the home island, below the school, where everyone trades on market day.
+    es-ES: La animada calle de puestos familiares de la isla principal, debajo de la escuela, donde todos comercian en el día de mercado.
+    it-IT: L'animata via di bancarelle di famiglia dell'isola principale, sotto la scuola, dove tutti commerciano nel giorno di mercato.
+  first_seen: mixed-up-market

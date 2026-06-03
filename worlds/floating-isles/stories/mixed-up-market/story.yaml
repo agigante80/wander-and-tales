@@ -1,0 +1,84 @@
+world: floating-isles
+id: mixed-up-market
+title:
+  en-GB: The Market of Mixed-Up Magic
+  es-ES: El Mercado de la Magia Revuelta
+  it-IT: Il Mercato della Magia Pasticciata
+age:
+  recommended: older        # one of: early (3-5), young (6-8), older (9-12)
+  also_works_for: [young]
+skills:
+  - logic
+  - memory
+  - social-emotional
+peril: gentle               # gentle | mild | heroic
+adult_gm: true
+dice:
+  minimum: 1d6
+  recommended: d20-set
+players:
+  min: 2
+  max: 5
+play_time_minutes: 40
+images:
+  - id: cover
+    role: cover
+    orientation: portrait
+    prompt: >
+      The Market Row on a floating island on a bright market morning, in cheerful
+      muddle: a baker holding a pair of boots, a cobbler holding a kite, stalls of
+      bread, fruit and toys all jumbled, two young mages arriving with curious
+      smiles, and the school on the hill above. Warm and playful. Leave calm space
+      near the top.
+    alt:
+      en-GB: A bright floating-island market in cheerful muddle, a baker holding boots and a cobbler holding a kite, two young mages arriving and the school above.
+      es-ES: Un mercado luminoso en una isla flotante en alegre desorden, con un panadero sosteniendo unas botas y un zapatero sosteniendo una cometa, dos jóvenes magos que llegan y la escuela arriba.
+      it-IT: Un luminoso mercato su un'isola volante in allegro disordine, con un fornaio che tiene un paio di stivali e un calzolaio che tiene un aquilone, due giovani maghi che arrivano e la scuola in alto.
+  - id: scene-muddled-stalls
+    role: scene
+    orientation: landscape
+    canon_ref: market-row
+    prompt: >
+      A row of market stalls with all the goods swapped around and looking a little
+      puzzled, soft sparkles of Voice magic in the air as two young mages lean in to
+      ask a pair of boots where they belong. Bright, friendly and funny.
+    alt:
+      en-GB: A row of market stalls with goods swapped around, two young mages asking a pair of boots where they belong amid soft magic sparkles.
+      es-ES: Una hilera de puestos de mercado con las mercancías cambiadas de sitio, dos jóvenes magos preguntando a unas botas dónde van, entre suaves destellos de magia.
+      it-IT: Una fila di bancarelle del mercato con le merci scambiate di posto, due giovani maghi che chiedono a un paio di stivali dove vanno, tra dolci scintille di magia.
+  - id: scene-untangling
+    role: scene
+    orientation: landscape
+    canon_ref: market-row
+    prompt: >
+      Two young mages returning goods to the right stalls, loaves and toys and shoes
+      gently floating back to where they belong, the soft grey Mist Cat beside them
+      helping them remember. Warm and satisfying.
+    alt:
+      en-GB: Two young mages returning goods to the right stalls, loaves and toys floating back, the Mist Cat beside them helping them remember.
+      es-ES: Dos jóvenes magos devolviendo las cosas a los puestos correctos, panes y juguetes que vuelven flotando a su sitio, con el Gato de Niebla a su lado ayudándoles a recordar.
+      it-IT: Due giovani maghi che rimettono le merci alle bancarelle giuste, pani e giocattoli che tornano fluttuando al loro posto, con il Gatto di Nebbia accanto che li aiuta a ricordare.
+  - id: pip-portrait
+    role: portrait
+    orientation: square
+    canon_ref: pip-new-mage
+    prompt: >
+      A young apprentice mage with a kind, worried but hopeful face and a small
+      pointed hat sitting slightly askew, peeking out a little shyly. Gentle and
+      lovable, not sad.
+    alt:
+      en-GB: A young apprentice mage with a worried but hopeful face and a slightly askew pointed hat, peeking out shyly.
+      es-ES: Un joven aprendiz de mago con cara preocupada pero esperanzada y un sombrero puntiagudo algo torcido, asomándose con timidez.
+      it-IT: Un giovane apprendista mago con un viso preoccupato ma speranzoso e un cappello a punta un po' storto, che fa capolino con timidezza.
+  - id: scene-pip
+    role: scene
+    orientation: landscape
+    canon_ref: pip-new-mage
+    prompt: >
+      A shy young apprentice mage peeking out from behind a market stall while two
+      young mages reassure them with warm, kind smiles, the bright market friendly
+      and forgiving all around. Hopeful and gentle.
+    alt:
+      en-GB: A shy young apprentice mage peeking from behind a stall while two young mages reassure them with kind smiles, the friendly market all around.
+      es-ES: Un joven aprendiz de mago tímido que se asoma detrás de un puesto mientras dos jóvenes magos lo tranquilizan con sonrisas amables, con el mercado amistoso alrededor.
+      it-IT: Un giovane apprendista mago timido che fa capolino da dietro una bancarella mentre due giovani maghi lo rassicurano con sorrisi gentili, con il mercato accogliente tutt'intorno.
