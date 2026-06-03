@@ -83,15 +83,18 @@ def main(argv: list[str] | None = None) -> int:
         return 0
 
     if args.command == "render-guide":
-        from build.render import pages
+        from build.render import pages, version as ver
+        from build.render.colophon import PROJECT_URL
 
         src = args.root / "guide" / args.locale / "guide.md"
         if not src.is_file():
             print(f"no guide markdown at {src}")
             return 1
         out_dir = args.out_dir if args.out_dir is not None else args.root / "dist"
-        out = out_dir / f"Guide_for_the_Grown-Up_{args.locale}.pdf"
-        pages.render_guide(src, out, args.locale)
+        vi = ver.version_info(args.root, ver.guide_inputs(args.root, args.locale))
+        out = out_dir / "guides" / f"Guide_for_the_Grown-Up_{args.locale}-{vi.label}.pdf"
+        qr = f"{PROJECT_URL}/tree/main/kits/guides"
+        pages.render_guide(src, out, args.locale, version=vi, qr_url=qr)
         print(f"built {out}")
         return 0
 
