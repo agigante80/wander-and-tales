@@ -8,7 +8,7 @@
   hero_of:
     en-GB: the Floating Isles
     es-ES: las Islas Flotantes
-    it-IT: le Isole Volanti
+    it-IT: delle Isole Volanti
   magics: [magic-light, magic-voice, magic-grow]
   energy: 4
   carry:
@@ -33,7 +33,7 @@
   hero_of:
     en-GB: the Floating Isles
     es-ES: las Islas Flotantes
-    it-IT: le Isole Volanti
+    it-IT: delle Isole Volanti
   magics: [magic-grow, magic-change, magic-voice]
   energy: 3
   carry:
@@ -58,7 +58,7 @@
   hero_of:
     en-GB: the Floating Isles
     es-ES: las Islas Flotantes
-    it-IT: le Isole Volanti
+    it-IT: delle Isole Volanti
   magics: [magic-light, magic-change, magic-voice]
   energy: 5
   carry:
@@ -84,7 +84,7 @@
   hero_of:
     en-GB: the Floating Isles
     es-ES: las Islas Flotantes
-    it-IT: le Isole Volanti
+    it-IT: delle Isole Volanti
   magics: [magic-voice, magic-grow, magic-light]
   energy: 4
   carry:
