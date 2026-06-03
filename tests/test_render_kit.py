@@ -111,6 +111,29 @@ def test_neutral_map_serves_en_gb_and_es_es(sample_repo, tmp_path):
     assert len(PdfReader(str(es)).pages) == base + 1
 
 
+def _is_a4(width: float, height: float) -> bool:
+    portrait = (595.276, 841.890)
+    return (
+        (abs(width - portrait[0]) < 2 and abs(height - portrait[1]) < 2)
+        or (abs(width - portrait[1]) < 2 and abs(height - portrait[0]) < 2)
+    )
+
+
+def test_every_kit_page_is_a4(sample_repo, tmp_path):
+    assets = (
+        sample_repo / "worlds" / "floating-isles"
+        / "stories" / "sleeping-garden" / "assets"
+    )
+    assets.mkdir(parents=True, exist_ok=True)
+    (assets / "map.svg").write_text(_NEUTRAL_MAP, encoding="utf-8")
+    out = kit.build_kit(
+        sample_repo, "floating-isles", "sleeping-garden", "en-GB", "simple",
+        out_dir=tmp_path,
+    )
+    for page in PdfReader(str(out)).pages:
+        assert _is_a4(float(page.mediabox.width), float(page.mediabox.height))
+
+
 def test_kit_embeds_a_cover_page_when_the_image_exists(sample_repo, tmp_path):
     from PIL import Image as PILImage
 
