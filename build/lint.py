@@ -97,6 +97,14 @@ def _lint_world(world_dir: Path) -> list[LintIssue]:
                 seen[entry.id] = str(canon_dir)
         canon_ids = set(seen)
 
+    heroes_path = world_dir / "heroes.yaml"
+    heroes = []
+    if heroes_path.is_file():
+        try:
+            heroes = content.load_heroes(world_dir)
+        except ValidationError as exc:
+            issues.append(_error(f"heroes failed validation: {exc}", str(heroes_path)))
+
     world_yaml = world_dir / "world.yaml"
     if world_yaml.is_file():
         try:
@@ -105,9 +113,36 @@ def _lint_world(world_dir: Path) -> list[LintIssue]:
             issues.append(_error(f"world failed validation: {exc}", str(world_yaml)))
         else:
             issues.extend(_lint_image_refs(world.images, canon_ids, str(world_yaml)))
+            # World-level art is the world images plus the example-hero portraits, so
+            # the orphan check counts both and does not flag the hero pngs.
+            world_images = list(world.images) + [h.image for h in heroes]
             issues.extend(
-                _lint_image_files(world.images, world_dir / "assets", str(world_yaml))
+                _lint_image_files(world_images, world_dir / "assets", str(world_yaml))
             )
+
+    if not heroes_path.is_file():
+        issues.append(_warning(
+            "world has no heroes.yaml (4 example heroes, 2 young and 2 older, "
+            "are recommended)",
+            str(heroes_path),
+        ))
+    else:
+        young = sum(1 for h in heroes if h.tier == "young")
+        older = sum(1 for h in heroes if h.tier == "older")
+        if young < 2 or older < 2:
+            issues.append(_warning(
+                f"world should have at least 2 young and 2 older example heroes "
+                f"(has {young} young, {older} older)",
+                str(heroes_path),
+            ))
+        for hero in heroes:
+            for magic_id in hero.magics:
+                if magic_id not in canon_ids:
+                    issues.append(_warning(
+                        f"example hero {hero.id!r} magic {magic_id!r} "
+                        f"names no canon entry",
+                        str(heroes_path),
+                    ))
 
     for code in locales.REQUIRED_LOCALES:
         idea = world_dir / "content" / code / "idea-bank.md"

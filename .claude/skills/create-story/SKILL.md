@@ -33,7 +33,9 @@ seed list):
   author pick and adjust one.
 - **Create a custom world.** The author describes it; you scaffold `world.yaml`
   (name per locale, tone, a palette of seven hex colours, `fonts.default`,
-  `lore_summary` per locale, `visual_style`) and an initial `canon/`.
+  `lore_summary` per locale, `visual_style`), an initial `canon/`, and
+  `worlds/<world>/heroes.yaml` with four example heroes (two young, two older) for
+  the sample adventure sheets (see Step 5).
 
 ## Step 2: choose or write the story idea
 
@@ -73,7 +75,14 @@ target child's ear, not word for word. Produce:
 - `worlds/<world>/content/<locale>/idea-bank.md`: the world-level idea bank. Author it
   once when you create a world; when you add a story to an existing world, reuse the
   world's idea bank rather than writing a per-story one.
-- For a new world: `worlds/<world>/world.yaml` and `worlds/<world>/canon/*.yaml`.
+- For a new world: `worlds/<world>/world.yaml`, `worlds/<world>/canon/*.yaml`, and
+  `worlds/<world>/heroes.yaml` with **four example heroes** (two `young`, two `older`)
+  for the sample adventure sheets. Each hero has a `name`, `hero_of` (per locale),
+  three `magics` (canon term ids, the world's magics or qualities), `energy` (0 to 5
+  filled stars), a few `carry` items (per locale), and a text-free `image` (role
+  `hero`) drawn in the sheet's draw box. These render to one Example Heroes PDF per
+  world per locale; the build and lint expect them, so add them when you create a
+  world (and to existing worlds that lack them).
 
 Image entries always include prompts. They do not require generated art.
 

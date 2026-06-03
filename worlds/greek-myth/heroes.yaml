@@ -1,0 +1,105 @@
+# Four example heroes for the Sunlit Hills of Greece: ready-to-use sample adventure
+# sheets, two for ages 6 to 8 (young) and two for ages 9 to 12 (older). This world has
+# no magic; the three slots hold the three hero qualities (canon term ids). The hero
+# image is drawn in the sheet's "Draw your hero" box.
+
+- id: lena
+  tier: young
+  name: Lena
+  hero_of:
+    en-GB: the Sunlit Hills of Greece
+    es-ES: las Colinas Soleadas de Grecia
+    it-IT: le Colline Assolate della Grecia
+  magics: [wits, courage, heart]
+  energy: 4
+  carry:
+    - { en-GB: an olive branch, es-ES: una rama de olivo, it-IT: un ramo di ulivo }
+    - { en-GB: a coil of golden thread, es-ES: un ovillo de hilo dorado, it-IT: un gomitolo di filo dorato }
+    - { en-GB: a honey cake, es-ES: un pastel de miel, it-IT: una focaccia al miele }
+  image:
+    id: hero-lena
+    role: hero
+    orientation: portrait
+    prompt: >
+      A bright young hero in a simple Greek tunic with a friendly grin, holding a
+      small olive branch, sunlit and brave, ready to set out into the hills.
+    alt:
+      en-GB: A bright young hero in a simple Greek tunic holding a small olive branch.
+      es-ES: Una joven heroína radiante con una sencilla túnica griega sosteniendo una ramita de olivo.
+      it-IT: Una giovane eroina radiosa con una semplice tunica greca che tiene un rametto di ulivo.
+
+- id: nico
+  tier: young
+  name: Nico
+  hero_of:
+    en-GB: the Sunlit Hills of Greece
+    es-ES: las Colinas Soleadas de Grecia
+    it-IT: le Colline Assolate della Grecia
+  magics: [courage, heart, wits]
+  energy: 3
+  carry:
+    - { en-GB: a little wooden sword, es-ES: una espadita de madera, it-IT: una spadina di legno }
+    - { en-GB: a water skin, es-ES: un odre de agua, it-IT: un otre d'acqua }
+    - { en-GB: a lucky pebble, es-ES: un guijarro de la suerte, it-IT: un sassolino portafortuna }
+  image:
+    id: hero-nico
+    role: hero
+    orientation: portrait
+    prompt: >
+      A cheerful young hero in a simple Greek tunic and sandals, standing proudly
+      with a small wooden sword, warm and kind rather than fierce.
+    alt:
+      en-GB: A cheerful young hero in a Greek tunic standing proudly with a small wooden sword.
+      es-ES: Un joven héroe alegre con túnica griega de pie con orgullo y una espadita de madera.
+      it-IT: Un giovane eroe allegro con una tunica greca, in piedi con orgoglio e una spadina di legno.
+
+- id: selene
+  tier: older
+  name: Selene
+  hero_of:
+    en-GB: the Sunlit Hills of Greece
+    es-ES: las Colinas Soleadas de Grecia
+    it-IT: le Colline Assolate della Grecia
+  magics: [wits, heart, courage]
+  energy: 5
+  carry:
+    - { en-GB: a little lyre, es-ES: una pequeña lira, it-IT: una piccola lira }
+    - { en-GB: a map of the hills, es-ES: un mapa de las colinas, it-IT: una mappa delle colline }
+    - { en-GB: a honey cake, es-ES: un pastel de miel, it-IT: una focaccia al miele }
+    - { en-GB: a white feather, es-ES: una pluma blanca, it-IT: una piuma bianca }
+  image:
+    id: hero-selene
+    role: hero
+    orientation: portrait
+    prompt: >
+      A thoughtful older hero in a flowing Greek robe with a calm, clever face,
+      holding a small lyre, sunlit and gentle, ready for a real adventure.
+    alt:
+      en-GB: A thoughtful older hero in a flowing Greek robe holding a small lyre.
+      es-ES: Una heroína mayor y reflexiva con una túnica griega larga sosteniendo una pequeña lira.
+      it-IT: Un'eroina più grande e riflessiva con una lunga veste greca che tiene una piccola lira.
+
+- id: dario
+  tier: older
+  name: Dario
+  hero_of:
+    en-GB: the Sunlit Hills of Greece
+    es-ES: las Colinas Soleadas de Grecia
+    it-IT: le Colline Assolate della Grecia
+  magics: [courage, wits, heart]
+  energy: 4
+  carry:
+    - { en-GB: a shepherd's staff, es-ES: un cayado de pastor, it-IT: un bastone da pastore }
+    - { en-GB: a reed flute, es-ES: una flauta de caña, it-IT: un flauto di canna }
+    - { en-GB: a smooth stone, es-ES: una piedra lisa, it-IT: una pietra liscia }
+  image:
+    id: hero-dario
+    role: hero
+    orientation: portrait
+    prompt: >
+      A steady older hero in a simple Greek tunic with a kind, brave face, leaning
+      on a shepherd's staff, sunlit hills behind, warm and reassuring.
+    alt:
+      en-GB: A steady older hero in a Greek tunic leaning on a shepherd's staff, sunlit hills behind.
+      es-ES: Un héroe mayor y firme con túnica griega apoyado en un cayado de pastor, con colinas soleadas detrás.
+      it-IT: Un eroe più grande e saldo con una tunica greca appoggiato a un bastone da pastore, con colline assolate dietro.

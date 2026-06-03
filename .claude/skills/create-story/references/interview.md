@@ -44,6 +44,8 @@ first, then a primary and five accents), `fonts.default` (a registered family, s
 paragraph per locale), and `visual_style` (one paragraph of art direction with the
 palette hexes and "nothing scary"). Then create an initial `canon/` with the named
 places, characters, creatures, items, and any world-flavour terms the setting needs.
+Also write `worlds/<world>/heroes.yaml` with four example heroes (two young, two
+older) using the world's magics or qualities, for the sample adventure sheets.
 
 ## 2. The story idea
 

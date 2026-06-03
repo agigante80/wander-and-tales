@@ -72,7 +72,9 @@ so there is no clash. Data flows in one direction:
   `content/<locale>/` (`narration.simple.md`, `narration.rich.md`, `rules.md`,
   `puzzles.md`), the world-level idea bank at
   `worlds/<world>/content/<locale>/idea-bank.md` (one per world, shared by its
-  stories), and a repo-wide `lexicon/terms.yaml`.
+  stories), the world's four example heroes at `worlds/<world>/heroes.yaml` (two
+  young, two older, for the sample adventure sheets), and a repo-wide
+  `lexicon/terms.yaml`.
 - **Lint consumes models.** `lint.py` runs deterministic structural checks (unique
   canon/lexicon ids, story `world` matches its directory, every required content file
   present for every required locale, a world idea bank per locale) and returns

@@ -93,6 +93,7 @@ These are small and unforgiving, so check them deliberately.
 | `worlds/<world>/content/<locale>/idea-bank.md` | adult GM | adult | world-level improv prompts; one per world, shared by its stories |
 | `worlds/<world>/world.yaml` | adult | adult | world name per language, tone, palette, lore summary |
 | `worlds/<world>/canon/*.yaml` | system | both | the name registry (see below) |
+| `worlds/<world>/heroes.yaml` | adult | both | four example heroes (2 young, 2 older) for the sample adventure sheets |
 | `guide/<locale>/guide.md` | adult GM | adult | the generic Guide for the Grown-Up |
 | `story.yaml` | system | n/a | tags and metadata only |
 

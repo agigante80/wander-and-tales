@@ -1,4 +1,4 @@
-"""Command line: python -m build {validate,lint,render,render-guide,render-playbook,render-world,rebuild,prompts,generate-images}."""
+"""Command line: python -m build {validate,lint,render,render-guide,render-playbook,render-world,render-examples,rebuild,prompts,generate-images}."""
 
 import argparse
 import os
@@ -45,6 +45,14 @@ def main(argv: list[str] | None = None) -> int:
     world_parser.add_argument("--world", required=True)
     world_parser.add_argument("--locale", required=True)
     world_parser.add_argument("--out-dir", type=Path, default=None)
+
+    examples_parser = sub.add_parser(
+        "render-examples", help="build a world's example-hero sheets PDF"
+    )
+    _add_root(examples_parser)
+    examples_parser.add_argument("--world", required=True)
+    examples_parser.add_argument("--locale", required=True)
+    examples_parser.add_argument("--out-dir", type=Path, default=None)
 
     rebuild_parser = sub.add_parser(
         "rebuild", help="build the whole library, prune old versions, refresh README and catalogue"
@@ -121,6 +129,15 @@ def main(argv: list[str] | None = None) -> int:
         from build.render import world_pdf
 
         out = world_pdf.build_world_pdf(
+            args.root, args.world, args.locale, out_dir=args.out_dir
+        )
+        print(f"built {out}")
+        return 0
+
+    if args.command == "render-examples":
+        from build.render import examples
+
+        out = examples.build_example_heroes(
             args.root, args.world, args.locale, out_dir=args.out_dir
         )
         print(f"built {out}")

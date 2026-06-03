@@ -117,6 +117,7 @@ python -m build render --root . \
 
 python -m build render-playbook --root . --world floating-isles --story sleeping-garden --locale en-GB
 python -m build render-world --root . --world floating-isles --locale en-GB
+python -m build render-examples --root . --world floating-isles --locale en-GB   # example-hero sheets
 python -m build render-guide --root . --locale en-GB        # build the Guide PDF
 python -m build prompts --root .                            # export the image prompts
 python -m build generate-images --root .                   # generate art (needs your OpenAI key)
@@ -125,7 +126,8 @@ python -m build rebuild --root .                            # maintainer: rebuil
 
 ### Where things live
 
-- `worlds/<world>/` is a world: its `world.yaml`, a `canon/` name registry, an
+- `worlds/<world>/` is a world: its `world.yaml`, a `canon/` name registry, a
+  `heroes.yaml` of four example heroes (for the sample adventure sheets), an
   `assets/` folder for the map and art, and `stories/<story>/` with tags and the
   per-locale prose.
 - `guide/<locale>/guide.md` is the generic Guide for the Grown-Up.
