@@ -11,13 +11,45 @@ is typically landscape and merges cleanly with the portrait content pages.
 """
 
 import xml.etree.ElementTree as ET
+from io import BytesIO
 from pathlib import Path
 
 import cairosvg
 import defusedxml.ElementTree as DefusedET
+from pypdf import PdfReader, PdfWriter, Transformation
+from reportlab.lib.pagesizes import A4, landscape
 
 _SVG_NS = "http://www.w3.org/2000/svg"
 _LINE_DY = 15  # vertical gap between wrapped label lines, in SVG user units
+
+_A4_LANDSCAPE = landscape(A4)  # (841.89, 595.27) points
+_MAP_MARGIN_PT = 18  # keep the board clear of the page edge
+
+
+def _place_on_a4_landscape(native_pdf: bytes, out_path: Path) -> Path:
+    """Centre a native-size one-page PDF on an A4 landscape page, preserving aspect.
+
+    cairosvg renders the SVG at its own size; this fits that page onto A4 landscape
+    so every map, whatever its source dimensions, becomes one A4 landscape page that
+    merges cleanly with the portrait content pages.
+    """
+    target_w, target_h = _A4_LANDSCAPE
+    src = PdfReader(BytesIO(native_pdf)).pages[0]
+    src_w = float(src.mediabox.width)
+    src_h = float(src.mediabox.height)
+    scale = min(
+        (target_w - 2 * _MAP_MARGIN_PT) / src_w,
+        (target_h - 2 * _MAP_MARGIN_PT) / src_h,
+    )
+    tx = (target_w - src_w * scale) / 2
+    ty = (target_h - src_h * scale) / 2
+    writer = PdfWriter()
+    page = writer.add_blank_page(width=target_w, height=target_h)
+    page.merge_transformed_page(src, Transformation().scale(scale).translate(tx, ty))
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    with out_path.open("wb") as handle:
+        writer.write(handle)
+    return out_path
 
 
 def _wrap(text: str, max_lines: int) -> list[str]:
@@ -60,10 +92,9 @@ def find_map(world_dir: Path, story_dir: Path, locale: str) -> Path | None:
 
 
 def render_svg_to_pdf(svg_path: Path, out_path: Path) -> Path:
-    """Convert an SVG file to a one-page PDF at out_path. Returns out_path."""
-    out_path.parent.mkdir(parents=True, exist_ok=True)
-    cairosvg.svg2pdf(url=str(svg_path), write_to=str(out_path))
-    return out_path
+    """Convert an SVG file to a one-page A4 landscape PDF at out_path."""
+    native = cairosvg.svg2pdf(url=str(svg_path))
+    return _place_on_a4_landscape(native, out_path)
 
 
 def template_keys(svg_path: Path) -> list[str]:
@@ -112,8 +143,7 @@ def fill_template(svg_text: str, labels: dict[str, str]) -> str:
 
 
 def render_map_template(svg_path: Path, out_path: Path, labels: dict[str, str]) -> Path:
-    """Fill a template SVG with localized labels and render it to a one-page PDF."""
+    """Fill a template SVG with localized labels, render to one A4 landscape PDF."""
     filled = fill_template(svg_path.read_text(encoding="utf-8"), labels)
-    out_path.parent.mkdir(parents=True, exist_ok=True)
-    cairosvg.svg2pdf(bytestring=filled.encode("utf-8"), write_to=str(out_path))
-    return out_path
+    native = cairosvg.svg2pdf(bytestring=filled.encode("utf-8"))
+    return _place_on_a4_landscape(native, out_path)

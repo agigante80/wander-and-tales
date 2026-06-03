@@ -1,3 +1,5 @@
+from pypdf import PdfReader
+
 from build.render import map as kit_map
 
 _TINY_SVG = (
@@ -5,6 +7,30 @@ _TINY_SVG = (
     '<rect width="200" height="120" fill="#eaf7e1"/>'
     '<text x="20" y="60" font-size="16">Mapa</text></svg>'
 )
+
+_A4_LANDSCAPE = (841.89, 595.28)
+
+
+def test_map_page_is_a4_landscape(tmp_path):
+    svg = tmp_path / "m.svg"
+    svg.write_text(_TINY_SVG, encoding="utf-8")
+    out = kit_map.render_svg_to_pdf(svg, tmp_path / "m.pdf")
+    page = PdfReader(str(out)).pages[0]
+    assert abs(float(page.mediabox.width) - _A4_LANDSCAPE[0]) < 2
+    assert abs(float(page.mediabox.height) - _A4_LANDSCAPE[1]) < 2
+
+
+def test_template_map_page_is_a4_landscape(tmp_path):
+    svg = tmp_path / "m.svg"
+    svg.write_text(
+        '<svg xmlns="http://www.w3.org/2000/svg" width="300" height="100">'
+        '<text data-label="title" x="10" y="20"></text></svg>',
+        encoding="utf-8",
+    )
+    out = kit_map.render_map_template(svg, tmp_path / "t.pdf", {"title": "Hi"})
+    page = PdfReader(str(out)).pages[0]
+    assert abs(float(page.mediabox.width) - _A4_LANDSCAPE[0]) < 2
+    assert abs(float(page.mediabox.height) - _A4_LANDSCAPE[1]) < 2
 
 
 def test_svg_renders_to_a_pdf(tmp_path):
