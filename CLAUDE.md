@@ -75,7 +75,9 @@ so there is no clash. Data flows in one direction:
   `worlds/<world>/canon/*.yaml` (lists of canon entries),
   `worlds/<world>/stories/<story>/story.yaml`, that story's prose under
   `content/<locale>/` (`narration.simple.md`, `narration.rich.md`, `rules.md`,
-  `puzzles.md`, `idea-bank.md`), and a repo-wide `lexicon/terms.yaml`.
+  `puzzles.md`), the world-level idea bank at
+  `worlds/<world>/content/<locale>/idea-bank.md` (one per world, shared by its
+  stories), and a repo-wide `lexicon/terms.yaml`.
 - **Lint and catalog consume models.** `lint.py` runs deterministic structural
   checks (unique canon/lexicon ids, story `world` matches its directory, every
   required content file present for every required locale) and returns
@@ -94,8 +96,13 @@ so there is no clash. Data flows in one direction:
   path. `markdown.py` parses the content GFM, `theme.py` themes pages from the
   world palette and resolved faces, `flowables.py`/`pages.py` render, `glossary.py`
   builds the appendix from canon, `map.py` renders the SVG via cairosvg, `sheets.py`
-  draws the age-tiered character sheets, and `kit.py` merges the ordered pages with
-  pypdf into `dist/`. Output is `dist/<world>_<story>_<locale>_<level>.pdf`.
+  draws the age-tiered character sheets, and `kit.py:build_story_pack` merges the
+  ordered pages with pypdf. Each kit splits into three artifacts (Story Pack,
+  Grown-up's Playbook, World Book) plus the Guide; `version.py` stamps an automatic
+  git-derived version, `colophon.py` adds the end page, `footer.py` the per-page
+  footer, and `library.py` rebuilds the whole library. Output is a language-first
+  versioned tree: `dist|kits/<locale>/<world>/<story>/story-pack-<level>-v<n>.pdf`,
+  `.../playbook-v<n>.pdf`, and `.../<world>/world-book-v<n>.pdf`.
 - **Maps are world-level or story-level, and may be per-locale.** A story map
   lives at `worlds/<world>/stories/<story>/assets/`, a world map at
   `worlds/<world>/assets/`. `map.py:find_map` resolves a kit's map in order: story

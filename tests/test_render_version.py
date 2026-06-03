@@ -57,3 +57,24 @@ def test_story_pack_inputs_lists_the_right_paths(tmp_path):
     assert "story.yaml" in names
     assert "narration.simple.md" in names
     assert "world.yaml" in names
+
+
+def test_story_pack_inputs_are_isolated_per_locale_and_level(tmp_path):
+    # The en-GB simple pack must not be coupled to other locales, levels, or the
+    # grown-up content, or its version would move when those change.
+    paths = {str(p) for p in version.story_pack_inputs(tmp_path, "w", "s", "en-GB", "simple")}
+    assert not any("es-ES" in p for p in paths)
+    assert not any(p.endswith("narration.rich.md") for p in paths)
+    assert not any(p.endswith(("rules.md", "puzzles.md", "idea-bank.md")) for p in paths)
+    # It must not pass a bare assets directory (that over-couples to all art).
+    assert not any(p.endswith("assets") for p in paths)
+
+
+def test_world_book_inputs_scope(sample_repo):
+    paths = {str(p) for p in version.world_book_inputs(sample_repo, "floating-isles", "en-GB")}
+    assert any(p.endswith("narration.simple.md") and "en-GB" in p for p in paths)
+    assert any(p.endswith("story.yaml") for p in paths)
+    assert any(p.endswith("idea-bank.md") for p in paths)
+    assert not any(p.endswith(("rules.md", "puzzles.md", "narration.rich.md")) for p in paths)
+    assert not any("es-ES" in p for p in paths)
+    assert not any(p.endswith("stories") for p in paths)
