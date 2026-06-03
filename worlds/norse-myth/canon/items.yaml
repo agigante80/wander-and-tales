@@ -1,0 +1,37 @@
+# Notable items of the Snowlit Fjords of the North.
+
+- id: everwarm-ember
+  names:
+    en-GB: The Everwarm Ember
+    es-ES: La Brasa Siempre Cálida
+    it-IT: La Brace Sempre Calda
+  kind: item
+  description:
+    en-GB: A glowing coal from the great hearth that never goes cold. It can carry the warmth of home safely across the coldest, darkest night.
+    es-ES: Un carbón encendido del gran hogar que nunca se enfría. Puede llevar el calor del hogar a salvo a través de la noche más fría y oscura.
+    it-IT: Un carbone ardente del grande focolare che non si raffredda mai. Può portare il calore di casa al sicuro attraverso la notte più fredda e buia.
+  first_seen: the-long-winters-night
+
+- id: red-yarn
+  names:
+    en-GB: The Ball of Red Yarn
+    es-ES: El Ovillo de Lana Roja
+    it-IT: Il Gomitolo di Lana Rossa
+  kind: item
+  description:
+    en-GB: A ball of bright red wool. Tie one end where you start and you can always follow it back, however far you wander.
+    es-ES: Un ovillo de lana roja brillante. Ata un extremo donde empiezas y siempre podrás seguirlo de vuelta, por muy lejos que vayas.
+    it-IT: Un gomitolo di lana rossa accesa. Lega un'estremità dove parti e potrai sempre seguirlo per tornare indietro, per quanto lontano tu vada.
+  first_seen: the-lost-little-aurora
+
+- id: honey-bun
+  names:
+    en-GB: The Warm Honey Bun
+    es-ES: El Bollo de Miel
+    it-IT: Il Panino al Miele
+  kind: item
+  description:
+    en-GB: A soft sweet bun, still warm from the hearth. Shared with a lonely giant, it can turn a frown into a friend.
+    es-ES: Un bollo dulce y blando, todavía caliente del hogar. Compartido con un gigante solitario, puede convertir un ceño fruncido en un amigo.
+    it-IT: Un panino dolce e morbido, ancora caldo di focolare. Condiviso con un gigante solitario, può trasformare un cipiglio in un amico.
+  first_seen: the-long-winters-night

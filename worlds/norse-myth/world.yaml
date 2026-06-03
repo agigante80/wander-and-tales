@@ -1,0 +1,104 @@
+id: norse-myth
+name:
+  en-GB: The Snowlit Fjords of the North
+  es-ES: Los Fiordos Nevados del Norte
+  it-IT: I Fiordi Innevati del Nord
+tone: cosy northern wonder
+palette:
+  - "#f3f7fb"  # snow-white background
+  - "#2b5f86"  # deep fjord blue (primary)
+  - "#5a8bb0"  # ice blue
+  - "#3d7a5a"  # pine green
+  - "#6ab0a0"  # aurora teal
+  - "#d9a441"  # hearth amber
+  - "#7a6aa8"  # runic purple
+fonts:
+  default: dejavu-serif
+lore_summary:
+  en-GB: >
+    The snowlit fjords of the north run deep and blue between white mountains and
+    dark green pines, dotted with cosy longhouses whose windows glow warm amber
+    against the snow. Above them arches the Great World Tree, and on clear nights
+    the sky dances with the colours of the aurora. The fjords are full of gentle
+    wonders: a chattering squirrel who carries messages along the tree, two wise
+    ravens, light spirits who dance in the dark, and frost giants who look
+    fearsome but are mostly just cold and lonely. Here a hero is not the strongest
+    or the loudest, but the one who keeps a warm heart, thinks things through, and
+    shares the fire. The grandest deeds are done by being clever and brave and
+    kind, and even a giant met with a friendly word often turns out lonelier than
+    it is fierce.
+  es-ES: >
+    Los fiordos nevados del norte se hunden hondos y azules entre montañas blancas
+    y oscuros pinos verdes, salpicados de acogedoras casas comunales cuyas ventanas
+    brillan con un cálido ámbar sobre la nieve. Por encima se arquea el Gran Árbol
+    del Mundo, y en las noches despejadas el cielo baila con los colores de la
+    aurora. Los fiordos están llenos de maravillas amables: una ardilla parlanchina
+    que lleva mensajes por el árbol, dos cuervos sabios, espíritus de luz que bailan
+    en la oscuridad y gigantes de hielo que parecen temibles pero casi siempre solo
+    tienen frío y se sienten solos. Aquí un héroe no es el más fuerte ni el que más
+    grita, sino quien guarda un corazón cálido, piensa bien las cosas y comparte el
+    fuego. Las hazañas más grandes se logran siendo listos, valientes y amables, y
+    hasta un gigante, si lo afrontáis con buenas palabras, a menudo resulta estar
+    más solo que enfadado.
+  it-IT: >
+    I fiordi innevati del nord scendono profondi e azzurri tra montagne bianche e
+    pini di un verde scuro, punteggiati di accoglienti case lunghe dalle finestre
+    che brillano di un caldo color ambra sulla neve. Sopra di loro si inarca il
+    Grande Albero del Mondo, e nelle notti serene il cielo danza con i colori
+    dell'aurora. I fiordi sono pieni di meraviglie gentili: uno scoiattolo
+    chiacchierone che porta messaggi lungo l'albero, due corvi saggi, spiriti di
+    luce che danzano nel buio e giganti di ghiaccio che sembrano spaventosi ma per
+    lo più hanno soltanto freddo e si sentono soli. Qui un eroe non è il più forte
+    né quello che grida di più, ma chi custodisce un cuore caldo, riflette bene e
+    condivide il fuoco. Le imprese più grandi si compiono essendo ingegnosi,
+    coraggiosi e gentili, e persino un gigante, accolto con una parola gentile,
+    spesso si rivela più solo che feroce.
+visual_style: >
+  Soft, warm storybook illustration in gentle watercolour and coloured-pencil
+  texture, with a cosy northern winter mood: deep blue fjords, snowy white
+  mountains, dark green pines, and turf-roofed longhouses with windows glowing
+  warm amber. On night scenes, a softly glowing aurora of teal, green and purple
+  ripples across the sky. Use a palette of snow white (#f3f7fb), deep fjord blue
+  (#2b5f86), ice blue (#5a8bb0), pine green (#3d7a5a), aurora teal (#6ab0a0),
+  hearth amber (#d9a441) and runic purple (#7a6aa8). Rounded, friendly shapes and
+  kind faces. Brave and hopeful, never grim: even frost giants look more lonely
+  than scary, and there is no blood, no weapons raised in anger, and no real
+  violence.
+images:
+  - id: cover
+    role: cover
+    orientation: portrait
+    prompt: >
+      A wide establishing view of the snowlit fjords of the north at twilight: a
+      deep blue fjord between white mountains and dark pines, a cluster of cosy
+      turf-roofed longhouses with windows glowing warm amber, and a soft ribbon of
+      teal and purple aurora rippling across the darkening sky. Welcoming and
+      wondrous.
+    alt:
+      en-GB: The snowlit fjords at twilight, cosy longhouses with amber windows between white mountains and dark pines, a soft aurora in the sky.
+      es-ES: Los fiordos nevados al anochecer, con acogedoras casas comunales de ventanas ámbar entre montañas blancas y pinos oscuros, y una suave aurora en el cielo.
+      it-IT: I fiordi innevati al crepuscolo, con accoglienti case lunghe dalle finestre ambrate tra montagne bianche e pini scuri, e una dolce aurora nel cielo.
+  - id: frost-giant
+    role: portrait
+    orientation: square
+    canon_ref: lonely-frost-giant
+    prompt: >
+      A big, gentle frost giant of pale blue ice sitting alone on a snowy slope at
+      dusk, knees hugged to his chest, looking shy and a little sad rather than
+      fierce, his breath misting in the cold. Tender and sympathetic, not scary.
+    alt:
+      en-GB: A big gentle frost giant of pale blue ice sitting alone on a snowy slope, looking shy and sad rather than fierce.
+      es-ES: Un gran gigante de hielo amable, de un azul pálido, sentado solo en una ladera nevada, con aire tímido y triste más que feroz.
+      it-IT: Un grande gigante di ghiaccio gentile, di un azzurro pallido, seduto da solo su un pendio innevato, dall'aria timida e triste più che feroce.
+  - id: aurora-spirits
+    role: portrait
+    orientation: square
+    canon_ref: aurora-spirits
+    prompt: >
+      Gentle spirits of the northern lights, soft glowing wisps of teal, green and
+      purple light with kind, dreamy faces, dancing and swirling across a starry
+      night sky above snowy peaks. Magical and calm.
+    alt:
+      en-GB: Gentle northern-lights spirits, soft wisps of teal, green and purple light with kind faces, dancing across a starry sky.
+      es-ES: Espíritus amables de la aurora boreal, suaves volutas de luz turquesa, verde y púrpura con rostros bondadosos, que bailan por un cielo estrellado.
+      it-IT: Gentili spiriti dell'aurora boreale, morbide volute di luce turchese, verde e viola dai volti buoni, che danzano in un cielo stellato.

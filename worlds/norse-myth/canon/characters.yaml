@@ -1,0 +1,27 @@
+# Named characters of the Snowlit Fjords of the North.
+
+- id: edda-saga-keeper
+  names:
+    en-GB: Edda the Saga-Keeper
+    es-ES: Edda la Guardiana de las Sagas
+    it-IT: Edda la Custode delle Saghe
+  kind: character
+  disposition: friendly
+  description:
+    en-GB: The kind old story-keeper of the Hearth Hall, who knows every saga of the fjords and sends the heroes out with a warm word and a good gift.
+    es-ES: La amable y anciana guardiana de las historias del Salón del Hogar, que conoce todas las sagas de los fiordos y envía a los héroes con una palabra cálida y un buen regalo.
+    it-IT: La gentile e anziana custode delle storie della Sala del Focolare, che conosce ogni saga dei fiordi e manda gli eroi con una parola calorosa e un buon dono.
+  first_seen: the-lost-little-aurora
+
+- id: freya-kind
+  names:
+    en-GB: Freya the Kind
+    es-ES: Freya la Bondadosa
+    it-IT: Freya la Gentile
+  kind: character
+  disposition: kindly
+  description:
+    en-GB: The warm-hearted goddess who watches over the fjords, and who smiles on heroes that win by thinking and caring rather than by force.
+    es-ES: La diosa de gran corazón que vela por los fiordos, y que sonríe a los héroes que vencen pensando y cuidando, no por la fuerza.
+    it-IT: La dea dal cuore caldo che veglia sui fiordi, e che sorride agli eroi che vincono pensando e prendendosi cura degli altri, non con la forza.
+  first_seen: the-lost-little-aurora

@@ -1,0 +1,83 @@
+world: norse-myth
+id: the-lost-little-aurora
+title:
+  en-GB: The Lost Little Aurora
+  es-ES: La Pequeña Aurora Perdida
+  it-IT: La Piccola Aurora Smarrita
+age:
+  recommended: young
+  also_works_for: [early]
+skills:
+  - observation
+  - social-emotional
+  - spatial
+  - logic
+peril: gentle
+adult_gm: true
+dice:
+  minimum: 1d6
+  recommended: d20-set
+players:
+  min: 2
+  max: 5
+play_time_minutes: 25
+images:
+  - id: cover
+    role: cover
+    orientation: portrait
+    prompt: >
+      Two young heroes in warm furs in a snowy twilight forest of dark pines, gently
+      cupping a tiny dim aurora spirit, a small shy wisp of pale teal light, the dark
+      sky above waiting for its colours. Tender and hopeful.
+    alt:
+      en-GB: Two young heroes in furs in a snowy twilight forest, gently cupping a tiny dim aurora spirit, the dark sky above waiting for colour.
+      es-ES: Dos jóvenes héroes con pieles en un bosque nevado al anochecer, sosteniendo con cuidado un diminuto espíritu de aurora apagado, con el cielo oscuro esperando sus colores.
+      it-IT: Due giovani eroi con pellicce in un bosco innevato al crepuscolo, che tengono con delicatezza un minuscolo spirito di aurora spento, con il cielo scuro che attende i suoi colori.
+  - id: scene-dark-forest
+    role: scene
+    orientation: landscape
+    canon_ref: aurora-spirits
+    prompt: >
+      Two small heroes finding a tiny, dim aurora spirit hiding among snowy pine
+      trunks at dusk, her soft light barely a glimmer, looking shy and cold. Gentle
+      and reassuring.
+    alt:
+      en-GB: Two small heroes finding a tiny dim aurora spirit hiding among snowy pines at dusk, her light barely a glimmer.
+      es-ES: Dos héroes pequeños que encuentran un diminuto espíritu de aurora apagado escondido entre pinos nevados al anochecer, con su luz apenas un destello.
+      it-IT: Due piccoli eroi che trovano un minuscolo spirito di aurora spento nascosto tra pini innevati al crepuscolo, con la sua luce appena un barlume.
+  - id: scene-three-colours
+    role: scene
+    orientation: landscape
+    canon_ref: aurora-spirits
+    prompt: >
+      A small glowing aurora spirit gathering her colours back, drawing teal from an
+      icicle, green from a pine, and purple from the twilight sky, two small heroes
+      pointing them out with delight. Bright and magical.
+    alt:
+      en-GB: A small aurora spirit gathering back her colours from an icicle, a pine and the twilight sky, two heroes pointing them out.
+      es-ES: Un pequeño espíritu de aurora que recupera sus colores de un carámbano, un pino y el cielo del anochecer, con dos héroes que se los señalan.
+      it-IT: Un piccolo spirito di aurora che recupera i suoi colori da un ghiacciolo, un pino e il cielo del crepuscolo, con due eroi che glieli indicano.
+  - id: scene-the-climb
+    role: scene
+    orientation: landscape
+    canon_ref: nisse-tomte
+    prompt: >
+      A small hearth sprite in a red cap and two small heroes cheering on a glowing
+      little aurora spirit as she gathers her courage to rise from the top of a tall
+      snowy pine. Warm and encouraging.
+    alt:
+      en-GB: A small red-capped hearth sprite and two heroes cheering a glowing little aurora spirit as she gathers courage atop a tall snowy pine.
+      es-ES: Un pequeño duende del hogar con gorro rojo y dos héroes que animan a un pequeño espíritu de aurora brillante mientras reúne valor en lo alto de un alto pino nevado.
+      it-IT: Un piccolo folletto del focolare con il berretto rosso e due eroi che incoraggiano un piccolo spirito di aurora luminoso mentre raccoglie il coraggio in cima a un alto pino innevato.
+  - id: scene-sky-dances
+    role: scene
+    orientation: landscape
+    canon_ref: freya-kind
+    prompt: >
+      A glorious aurora of teal, green and purple dancing across a starry night sky
+      over a snowy fjord, a kind goddess smiling gently from among the stars while two
+      small heroes watch in wonder from below. Joyful and radiant.
+    alt:
+      en-GB: A glorious aurora dancing across a starry sky over a snowy fjord, a kind goddess smiling from the stars as two heroes watch in wonder.
+      es-ES: Una aurora gloriosa que baila por un cielo estrellado sobre un fiordo nevado, con una diosa bondadosa que sonríe entre las estrellas mientras dos héroes miran maravillados.
+      it-IT: Una gloriosa aurora che danza in un cielo stellato sopra un fiordo innevato, con una dea gentile che sorride tra le stelle mentre due eroi guardano meravigliati.

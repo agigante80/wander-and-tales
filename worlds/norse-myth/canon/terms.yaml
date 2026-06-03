@@ -1,0 +1,37 @@
+# World-flavour vocabulary: the three hero qualities (this world has no magic).
+
+- id: wit
+  names:
+    en-GB: Wit
+    es-ES: Astucia
+    it-IT: Ingegno
+  kind: term
+  description:
+    en-GB: Quick thinking and a clever plan. In the north, a good idea is worth more than a strong arm, and a riddle is solved with a cool head.
+    es-ES: Pensamiento rápido y un plan ingenioso. En el norte, una buena idea vale más que un brazo fuerte, y un acertijo se resuelve con la cabeza fría.
+    it-IT: Pensiero rapido e un piano ingegnoso. Al nord, una buona idea vale più di un braccio forte, e un indovinello si risolve con la testa fredda.
+  first_seen: the-lost-little-aurora
+
+- id: courage
+  names:
+    en-GB: Courage
+    es-ES: Valor
+    it-IT: Coraggio
+  kind: term
+  description:
+    en-GB: A warm, steady heart on the longest, darkest night. Courage is not being unafraid; it is being kind and clever even when you are afraid.
+    es-ES: Un corazón cálido y firme en la noche más larga y oscura. El valor no es no tener miedo; es ser amable e ingenioso aun cuando lo tienes.
+    it-IT: Un cuore caldo e saldo nella notte più lunga e buia. Il coraggio non è non avere paura; è essere gentili e ingegnosi anche quando si ha paura.
+  first_seen: the-lost-little-aurora
+
+- id: heart
+  names:
+    en-GB: Heart
+    es-ES: Corazón
+    it-IT: Cuore
+  kind: term
+  description:
+    en-GB: Care for others and a place by the fire for everyone. The greatest heroes of the fjords are the ones who share, help, and stand by a friend.
+    es-ES: El cuidado por los demás y un sitio junto al fuego para todos. Los mayores héroes de los fiordos son los que comparten, ayudan y no abandonan a un amigo.
+    it-IT: La cura per gli altri e un posto accanto al fuoco per tutti. I più grandi eroi dei fiordi sono quelli che condividono, aiutano e non abbandonano un amico.
+  first_seen: the-lost-little-aurora

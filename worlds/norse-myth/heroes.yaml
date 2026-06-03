@@ -1,0 +1,109 @@
+# Four example heroes for the Snowlit Fjords of the North: ready-to-use sample
+# adventure sheets, two for ages 6 to 8 (young) and two for ages 9 to 12 (older).
+# This world has no magic; the three slots hold the three hero qualities (canon term
+# ids). The hero image is drawn in the sheet's "Draw your hero" box.
+
+- id: siv
+  tier: young
+  name: Siv
+  hero_of:
+    en-GB: the Snowlit Fjords of the North
+    es-ES: los Fiordos Nevados del Norte
+    it-IT: i Fiordi Innevati del Nord
+  magics: [wit, heart, courage]
+  energy: 4
+  carry:
+    - { en-GB: a warm woollen cloak, es-ES: una capa de lana caliente, it-IT: un mantello di lana caldo }
+    - { en-GB: a little lantern, es-ES: un farolillo, it-IT: una piccola lanterna }
+    - { en-GB: a honey bun, es-ES: un bollo de miel, it-IT: un panino al miele }
+  image:
+    id: hero-siv
+    role: hero
+    orientation: portrait
+    prompt: >
+      A bright young northern hero in a warm woollen tunic and fur-trimmed cloak with
+      rosy cheeks and a friendly grin, a little lantern in hand, snow falling softly
+      around, ready for an adventure.
+    alt:
+      en-GB: A bright young northern hero in a woollen tunic and fur cloak holding a little lantern, snow falling softly.
+      es-ES: Una joven heroína nórdica radiante con túnica de lana y capa de piel que sostiene un farolillo, con la nieve cayendo suavemente.
+      it-IT: Una giovane eroina nordica radiosa con una tunica di lana e un mantello di pelliccia che tiene una piccola lanterna, con la neve che cade dolcemente.
+
+- id: bjorn
+  tier: young
+  name: Bjorn
+  hero_of:
+    en-GB: the Snowlit Fjords of the North
+    es-ES: los Fiordos Nevados del Norte
+    it-IT: i Fiordi Innevati del Nord
+  magics: [courage, heart, wit]
+  energy: 3
+  carry:
+    - { en-GB: a carved wooden fox, es-ES: un zorro de madera tallada, it-IT: una volpe di legno intagliato }
+    - { en-GB: a ball of red yarn, es-ES: un ovillo de lana roja, it-IT: un gomitolo di lana rossa }
+    - { en-GB: a snack for the squirrel, es-ES: una golosina para la ardilla, it-IT: uno spuntino per lo scoiattolo }
+  image:
+    id: hero-bjorn
+    role: hero
+    orientation: portrait
+    prompt: >
+      A cheerful young northern hero in a chunky knitted jumper and felt boots,
+      standing proudly with a carved wooden fox in one hand, warm and kind rather
+      than fierce, snowy pines behind.
+    alt:
+      en-GB: A cheerful young northern hero in a knitted jumper holding a carved wooden fox, snowy pines behind.
+      es-ES: Un joven héroe nórdico alegre con un jersey de punto que sostiene un zorro de madera tallada, con pinos nevados detrás.
+      it-IT: Un giovane eroe nordico allegro con un maglione di lana che tiene una volpe di legno intagliato, con pini innevati dietro.
+
+- id: astrid
+  tier: older
+  name: Astrid
+  hero_of:
+    en-GB: the Snowlit Fjords of the North
+    es-ES: los Fiordos Nevados del Norte
+    it-IT: i Fiordi Innevati del Nord
+  magics: [wit, courage, heart]
+  energy: 5
+  carry:
+    - { en-GB: a star map of the winter sky, es-ES: un mapa de las estrellas de invierno, it-IT: una mappa delle stelle d'inverno }
+    - { en-GB: the everwarm ember, es-ES: la brasa siempre cálida, it-IT: la brace sempre calda }
+    - { en-GB: a coil of red yarn, es-ES: un rollo de lana roja, it-IT: una matassa di lana rossa }
+    - { en-GB: a friendship rune stone, es-ES: una piedra rúnica de la amistad, it-IT: una pietra runica dell'amicizia }
+  image:
+    id: hero-astrid
+    role: hero
+    orientation: portrait
+    prompt: >
+      A confident older northern hero in a fur-lined cloak and braided hair with a
+      calm, clever face, holding a small glowing ember in cupped hands, ready for a
+      real winter journey.
+    alt:
+      en-GB: A confident older northern hero in a fur-lined cloak with braided hair, holding a small glowing ember in cupped hands.
+      es-ES: Una heroína nórdica mayor y segura con capa forrada de piel y el pelo trenzado, sosteniendo una pequeña brasa encendida entre las manos.
+      it-IT: Un'eroina nordica più grande e sicura con un mantello foderato di pelliccia e i capelli intrecciati, che tiene una piccola brace accesa tra le mani.
+
+- id: leif
+  tier: older
+  name: Leif
+  hero_of:
+    en-GB: the Snowlit Fjords of the North
+    es-ES: los Fiordos Nevados del Norte
+    it-IT: i Fiordi Innevati del Nord
+  magics: [courage, wit, heart]
+  energy: 4
+  carry:
+    - { en-GB: a sturdy walking staff, es-ES: un bastón resistente, it-IT: un solido bastone da cammino }
+    - { en-GB: a wooden flute, es-ES: una flauta de madera, it-IT: un flauto di legno }
+    - { en-GB: a pot of cloudberry jam, es-ES: un tarro de mermelada de bayas, it-IT: un vasetto di marmellata di bacche }
+  image:
+    id: hero-leif
+    role: hero
+    orientation: portrait
+    prompt: >
+      A steady older northern hero in a hooded fur cloak with a kind, brave face,
+      leaning on a sturdy walking staff, snowy mountains and a frozen fjord behind,
+      warm and reassuring.
+    alt:
+      en-GB: A steady older northern hero in a hooded fur cloak leaning on a walking staff, snowy mountains and a frozen fjord behind.
+      es-ES: Un héroe nórdico mayor y firme con una capa de piel con capucha apoyado en un bastón, con montañas nevadas y un fiordo helado detrás.
+      it-IT: Un eroe nordico più grande e saldo con un mantello di pelliccia con cappuccio appoggiato a un bastone, con montagne innevate e un fiordo ghiacciato dietro.
