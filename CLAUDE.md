@@ -11,19 +11,15 @@ content is data and a layout-only build renders the PDFs.
 
 ## Status
 
-The full, approved design lives at
-`docs/superpowers/specs/2026-06-01-floating-isles-story-kit-library-design.md`;
-treat the spec as the source of truth. The work is split into a sequence of plans
-under `docs/superpowers/plans/`.
-
-**Plans 1 and 2 are built.** Plan 1 (content model and tooling): the `build`
-package, its pytest suite, and the `validate`/`lint`/`catalog` CLI. Plan 2 (PDF
-build pipeline): the `build/render/` package (font embedding, the markdown to
-PDF renderer, themed pages, glossary from canon, SVG map merge, character sheets,
-kit assembly, the Guide renderer) and the `render`/`render-guide` CLI. The
-Floating Isles / Sleeping Garden content already exists, so real kits build into
-`dist/`. Still to come: the remaining `worlds/`, `lexicon/`, and `guide/` content
-(Plans 3 to 5). `tests/conftest.py` still builds a tiny valid world on a tmp path
+This file plus the code are the source of truth; the full design history lives in
+git. The project is built and working end to end: the `build` package (content model,
+validation, and the `validate`/`lint`/`catalog` CLI), the `build/render/` PDF
+pipeline, and the content for two worlds (Floating Isles / The Sleeping Garden and the
+Greek-myth Sunlit Hills / The Singing Spring) in en-GB and es-ES. Each story builds
+into three artifacts (a Story Pack, a Grown-up's Playbook, and a World Book) plus the
+shared Guide for the Grown-Up, every PDF carrying an automatic git-derived version, a
+colophon, and a per-page footer, assembled into the language-first `kits/` tree by
+`python -m build rebuild`. `tests/conftest.py` builds a tiny valid world on a tmp path
 for the data-layer tests.
 
 ## Commands
@@ -171,8 +167,8 @@ done; confirm accents render, layout is intact, and the map merges correctly.
   superseded by `build/render/` and their content was migrated into the schema.
   Recover the old `reportlab` decorative-drawing code from git history (it was
   deleted on the Plan 2 branch) if the canvas-drawn motifs are ever wanted.
-- `research/` evidence base and marketing copy.
-- `docs/superpowers/specs/` design specs; `docs/superpowers/plans/` the plan set.
+- `research/` the evidence base (why this matters) and the landscape scan (the wider
+  field and ideas to improve the project), plus the marketing copy.
 
 ## Git
 

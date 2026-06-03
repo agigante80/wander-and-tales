@@ -97,8 +97,6 @@ python -m build generate-images --root .                   # generate art (needs
   `kits/<locale>/<world>/world-book-v<n>.pdf` and
   `kits/<locale>/<world>/<story>/{story-pack-simple,story-pack-rich,playbook}-v<n>.pdf`,
   plus `kits/guides/`. `dist/` is the scratch build output and is not tracked.
-- `docs/superpowers/specs/` and `docs/superpowers/plans/` hold the design specs and
-  implementation plans.
 
 ## Contributing a story
 

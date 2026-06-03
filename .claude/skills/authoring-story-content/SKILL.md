@@ -25,9 +25,8 @@ is the unit of work**. Adding a world, a story, a language, or an age tier is a
 writing task, not a coding task. This skill is how that writing stays consistent,
 warm, and on-brand across every author, language, and session.
 
-Read the design spec at
-`docs/superpowers/specs/2026-06-01-floating-isles-story-kit-library-design.md`
-for the full system. This skill covers how to *write the words*.
+The wider system (architecture, conventions, and build pipeline) is described in
+`CLAUDE.md` at the repository root. This skill covers how to *write the words*.
 
 ## The one thing to hold onto
 

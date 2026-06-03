@@ -11,11 +11,10 @@ This skill is an **orchestrator**. It runs the interview and the mechanical step
 a valid, on-brand story and, if they wish, a clean draft pull request, without ever
 touching the maintainer's OpenAI key.
 
-Read the design at
-`docs/superpowers/specs/2026-06-02-community-story-contributions-design.md` for the
-trust model. The short version: contributions are draft PRs a maintainer reviews;
-the PR carries text and image prompts, and optionally pictures the author made
-themselves; built PDFs and the maintainer's key are never in a contributor PR.
+The trust model in short: contributions are draft PRs a maintainer reviews; the PR
+carries text and image prompts, and optionally pictures the author made themselves;
+built PDFs and the maintainer's key are never in a contributor PR. See
+`CONTRIBUTING.md` for the full contributor guidance.
 
 ## Step 0: load the authoring rules
 
