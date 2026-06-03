@@ -10,7 +10,7 @@ reading levels. It is a lovely excuse for unhurried, screen-free time together, 
 a way to practise imagination, problem-solving, and teamwork. Adding a world, a
 story, or a language is a writing task, not a coding task.
 
-## Download a kit
+## Print a ready-made kit
 
 Each story comes as a **Story Pack** (what you play from, safe for a child to see), a
 **Grown-up's Playbook** (the rules and the puzzle answers), and each world has a
@@ -40,18 +40,22 @@ more children), and playable with a single ordinary die.
 The table above is generated; it lists every story with its tags and the download
 links for each language.
 
-## How to run this project
+## Create your own story
 
-You only need the toolchain if you want to build the PDFs yourself or add your own
-content. Players just download a kit above.
+The whole point of this project is that you can write your own adventure and print it.
+The easiest way is in Claude Code with the **`create-story`** skill, which interviews
+you, writes the content, makes (or prompts for) the pictures, and builds your printable
+PDFs. You do not need to be a programmer.
 
-### Requirements
+**1. Clone the repository.**
 
-- Python 3.11 or newer.
-- A Cairo system library for the SVG maps (on Debian or Ubuntu this is `libcairo2`,
-  which is usually already installed).
+```bash
+git clone https://github.com/agigante80/wits-and-wonder.git
+cd wits-and-wonder
+```
 
-### Set up
+**2. Set up the toolchain** (Python 3.11 or newer; on Debian or Ubuntu you also need
+`libcairo2` for the maps, usually already installed).
 
 ```bash
 python -m venv .venv
@@ -59,16 +63,44 @@ python -m venv .venv
 pip install -e ".[dev,render]"
 ```
 
-The core install needs only `pydantic` and `PyYAML`. The `render` extra adds
-`reportlab`, `cairosvg`, and `pypdf` for the PDF build. A further `images` extra
-(`pip install -e ".[images]"`) adds `openai` and `python-dotenv` for generating the
-illustration art from prompts; put your key in a local `.env` (see `.env.example`).
+For generated pictures, also add the optional `images` extra and put your own OpenAI
+key in a local `.env` (see `.env.example`): `pip install -e ".[images]"`. This is
+optional (see step 4).
 
-### Everyday commands
+**3. In Claude Code, ask to "create a story".** The `create-story` skill walks you
+through choosing or inventing a world, the idea, the audience, and the challenges,
+writes it in British English and Spanish from Spain, and builds your kit. It follows
+the project's gentle, no-lose voice for you. You can also author the files by hand.
+
+**4. Pictures, your choice.** The skill can generate them with your own OpenAI key, or
+just write the prompts so you paste them into any image generator you like and drop the
+PNGs in, or you can skip art and play text-only. None of this is required to get a
+playable kit.
+
+**5. Print and play.** Your kit (the Story Pack, the Grown-up's Playbook, and the World
+Book, in both languages) is built into `dist/`. Print it, grab a die and a few
+household bits, and play.
+
+Kits are bilingual by design (British English and Spanish from Spain), so your story is
+written and built in both.
+
+## Share your story (optional)
+
+If you have a GitHub account and would like your story added to the public library, you
+can open a pull request. In Claude Code, ask to **"contribute my story"** (the
+`contribute-story` skill), or follow [`CONTRIBUTING.md`](CONTRIBUTING.md) by hand. A
+maintainer reviews every pull request and, if it is accepted, illustrates and publishes
+it. You keep your own copy regardless; sharing is entirely optional, and you do not
+commit built PDFs (the pull request carries your text and image prompts, and optionally
+pictures you made yourself).
+
+## For developers: the toolchain
+
+`build/` is an importable Python package (the content model, validation, and the
+layout-only PDF renderer in `build/render/`), driven by a small CLI.
 
 ```bash
 python -m pytest                              # run the test suite
-
 python -m build validate --root .             # load and validate all content
 python -m build lint --root .                 # structural lint (exit 1 on error)
 
@@ -80,9 +112,9 @@ python -m build render --root . \
 python -m build render-playbook --root . --world floating-isles --story sleeping-garden --locale en-GB
 python -m build render-world --root . --world floating-isles --locale en-GB
 python -m build render-guide --root . --locale en-GB        # build the Guide PDF
-python -m build rebuild --root .                            # build the whole library + refresh README
 python -m build prompts --root .                            # export the image prompts
-python -m build generate-images --root .                   # generate art (needs OPENAI_API_KEY)
+python -m build generate-images --root .                   # generate art (needs your OpenAI key)
+python -m build rebuild --root .                            # maintainer: rebuild the library + README
 ```
 
 ### Where things live
@@ -93,33 +125,8 @@ python -m build generate-images --root .                   # generate art (needs
 - `guide/<locale>/guide.md` is the generic Guide for the Grown-Up.
 - `build/` is the importable toolchain: the content model and validation, and the
   layout-only PDF renderer in `build/render/`.
-- `kits/` holds the built PDFs in a language-first tree:
-  `kits/<locale>/<world>/world-book-v<n>.pdf` and
-  `kits/<locale>/<world>/<story>/{story-pack-simple,story-pack-rich,playbook}-v<n>.pdf`,
-  plus `kits/guides/`. `dist/` is the scratch build output and is not tracked.
-
-## Contributing a story
-
-This library grows through contributions, and adding a world or a story is a writing
-task, not a coding task.
-
-The easiest way is the **`create-story` skill** in Claude Code: ask to "create a
-story" and it guides you through choosing or creating a world, picking or writing an
-idea, setting the audience and challenges, writing the content in British English and
-Spanish from Spain, validating it, previewing the kit, and opening a draft pull
-request. It follows the project's voice and ethos rules for you. You can also author
-the files by hand if you prefer.
-
-A few things worth knowing, with the rest in [`CONTRIBUTING.md`](CONTRIBUTING.md):
-
-- A maintainer reviews and merges every pull request.
-- You do **not** need an OpenAI key. A prompts-only story is illustrated by the
-  maintainer after it is accepted; their key is never used by a contributor. If you
-  want to, you may include pictures you made yourself or generated with your own key.
-- Please do not commit built PDFs; continuous integration validates your PR and
-  builds a preview kit you can download.
-- British English is the source of truth; non-English text is treated as
-  machine-drafted and may get a native-speaker review.
+- `kits/` holds the maintainer-published library in a language-first tree; `dist/` is
+  your own scratch build output and is not tracked.
 
 The voice, reading-level, peril-tone, and canon rules live in `CLAUDE.md` and the
 `authoring-story-content` guidance.
