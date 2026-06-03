@@ -1,11 +1,11 @@
-"""Command line: python -m build {validate,lint,catalog,render,render-guide,render-playbook,render-world,rebuild,prompts,generate-images}."""
+"""Command line: python -m build {validate,lint,render,render-guide,render-playbook,render-world,rebuild,prompts,generate-images}."""
 
 import argparse
 import os
 import sys
 from pathlib import Path
 
-from build import catalog, content, lint
+from build import content, lint
 
 
 def _add_root(parser: argparse.ArgumentParser) -> None:
@@ -18,9 +18,6 @@ def main(argv: list[str] | None = None) -> int:
 
     _add_root(sub.add_parser("validate", help="load and validate all content"))
     _add_root(sub.add_parser("lint", help="run structural lint"))
-    catalog_parser = sub.add_parser("catalog", help="generate catalog.md")
-    _add_root(catalog_parser)
-    catalog_parser.add_argument("--out", type=Path, default=Path("catalog.md"))
 
     render_parser = sub.add_parser("render", help="build a kit PDF")
     _add_root(render_parser)
@@ -83,12 +80,6 @@ def main(argv: list[str] | None = None) -> int:
             print(f"{len(errors)} error(s)")
             return 1
         print("lint clean")
-        return 0
-
-    if args.command == "catalog":
-        stories = list(content.iter_stories(args.root / "worlds"))
-        catalog.write_catalog(stories, args.out)
-        print(f"wrote {args.out}")
         return 0
 
     if args.command == "render":

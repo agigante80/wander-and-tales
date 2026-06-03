@@ -83,37 +83,58 @@ def _rel(root: Path, path: Path) -> str:
     return str(path.resolve().relative_to(root.resolve()))
 
 
+# Localized labels for the per-language download links in the catalogue cell.
+_LEVEL_LABELS = {
+    "en-GB": {"simple": "Simple", "rich": "Rich", "playbook": "Playbook"},
+    "es-ES": {"simple": "Sencillo", "rich": "Completo", "playbook": "Cuaderno"},
+    "it-IT": {"simple": "Semplice", "rich": "Completo", "playbook": "Quaderno"},
+}
+
+
 def readme_block(root: Path, built: Built) -> str:
-    """Render the README download block (between the markers) from the built tree."""
-    rows: dict = {}
+    """Render the README catalogue and download block (between the markers).
+
+    One row per story carries its tags (ages, skills, peril, time) and the download
+    links for every language, so the README is the single browse-and-download view.
+    """
+    stories: dict = {}
     for (world_id, story_id, locale, level), path in built.story_packs.items():
-        rows.setdefault((world_id, story_id, locale), {})[level] = path
+        stories.setdefault((world_id, story_id), {}).setdefault(locale, {})[level] = path
+    for (world_id, story_id, locale), path in built.playbooks.items():
+        stories.setdefault((world_id, story_id), {}).setdefault(locale, {})["playbook"] = path
 
     lines = [
         README_BEGIN,
         "",
-        "| Story | World | Language | Ages | Story Pack | Grown-up's Playbook |",
-        "|---|---|---|---|---|---|",
+        "Every story is cooperative and no-lose, for two or more (a grown-up and one or",
+        "more children), and playable with a single ordinary die.",
+        "",
+        "| Story | World | Ages | Skills | Peril | Time | Get the kit |",
+        "|---|---|---|---|---|---|---|",
     ]
-    for key in sorted(rows):
-        world_id, story_id, locale = key
+    for world_id, story_id in sorted(stories):
         story = content.load_story(
             root / "worlds" / world_id / "stories" / story_id / "story.yaml"
         )
         world = content.load_world(root / "worlds" / world_id / "world.yaml")
-        title = story.title.get(locale, story_id)
-        world_name = world.name.get(locale, world_id)
+        title = story.title.get("en-GB", story_id)
+        world_name = world.name.get("en-GB", world_id)
         ages = _AGE_RANGE.get(story.age.recommended, "")
-        lang = _LANG_NAME.get(locale, locale)
-        pack_links = " · ".join(
-            f"[{name}]({_rel(root, rows[key][lvl])})"
-            for name, lvl in (("Simple", "simple"), ("Rich", "rich"))
-            if lvl in rows[key]
-        )
-        playbook_path = built.playbooks.get((world_id, story_id, locale))
-        playbook_link = f"[Open]({_rel(root, playbook_path)})" if playbook_path else ""
+        skills = ", ".join(story.skills)
+        time = f"{story.play_time_minutes} min"
+        cells = []
+        for locale in sorted(stories[(world_id, story_id)]):
+            files = stories[(world_id, story_id)][locale]
+            labels = _LEVEL_LABELS.get(locale, _LEVEL_LABELS["en-GB"])
+            parts = [
+                f"[{labels[kind]}]({_rel(root, files[kind])})"
+                for kind in ("simple", "rich", "playbook")
+                if kind in files
+            ]
+            cells.append(f"{_LANG_NAME.get(locale, locale)}: " + " · ".join(parts))
+        get = "<br>".join(cells)
         lines.append(
-            f"| {title} | {world_name} | {lang} | {ages} | {pack_links} | {playbook_link} |"
+            f"| {title} | {world_name} | {ages} | {skills} | {story.peril} | {time} | {get} |"
         )
 
     lines += ["", "### World books", ""]
@@ -152,11 +173,8 @@ def apply_readme_block(readme_path: Path, block: str) -> None:
 
 
 def rebuild(root: Path, out_dir: Path) -> Built:
-    """Build the library, prune old versions, regenerate the catalogue and README."""
-    from build import catalog
-
+    """Build the library, prune old versions, and rewrite the README catalogue."""
     built = build_all(root, out_dir)
     prune_old(out_dir, built)
-    catalog.write_catalog(list(content.iter_stories(root / "worlds")), root / "catalog.md")
     apply_readme_block(root / "README.md", readme_block(root, built))
     return built
