@@ -9,7 +9,7 @@
   hero_of:
     en-GB: the Sunlit Hills of Greece
     es-ES: las Colinas Soleadas de Grecia
-    it-IT: le Colline Assolate della Grecia
+    it-IT: delle Colline Assolate della Grecia
   magics: [wits, courage, heart]
   energy: 4
   carry:
@@ -34,7 +34,7 @@
   hero_of:
     en-GB: the Sunlit Hills of Greece
     es-ES: las Colinas Soleadas de Grecia
-    it-IT: le Colline Assolate della Grecia
+    it-IT: delle Colline Assolate della Grecia
   magics: [courage, heart, wits]
   energy: 3
   carry:
@@ -59,7 +59,7 @@
   hero_of:
     en-GB: the Sunlit Hills of Greece
     es-ES: las Colinas Soleadas de Grecia
-    it-IT: le Colline Assolate della Grecia
+    it-IT: delle Colline Assolate della Grecia
   magics: [wits, heart, courage]
   energy: 5
   carry:
@@ -85,7 +85,7 @@
   hero_of:
     en-GB: the Sunlit Hills of Greece
     es-ES: las Colinas Soleadas de Grecia
-    it-IT: le Colline Assolate della Grecia
+    it-IT: delle Colline Assolate della Grecia
   magics: [courage, wits, heart]
   energy: 4
   carry:

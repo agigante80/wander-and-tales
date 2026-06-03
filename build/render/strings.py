@@ -96,7 +96,7 @@ UI: dict[str, dict[str, str]] = {
         "group_term": "Parole da Sapere",
         "sheet_title": "La Mia Scheda d'Avventura",
         "sheet_name": "Il mio nome",
-        "sheet_hero_type": "Sono un eroe di",
+        "sheet_hero_type": "Sono un eroe",
         "sheet_magics": "Le mie magie",
         "sheet_magic_is": "La mia magia è",
         "sheet_magic_does": "Può",
