@@ -21,7 +21,7 @@ def test_render_builds_a_kit(sample_repo, tmp_path, capsys):
     assert (tmp_path / "floating-isles_sleeping-garden_en-GB_simple.pdf").is_file()
 
 
-def test_render_guide_builds_from_root(sample_repo, tmp_path, capsys):
+def test_render_guide_builds_under_guides_with_version(sample_repo, tmp_path):
     guide_dir = sample_repo / "guide" / "en-GB"
     guide_dir.mkdir(parents=True)
     (guide_dir / "guide.md").write_text("# Guide\n\nThree jobs.\n", encoding="utf-8")
@@ -30,7 +30,7 @@ def test_render_guide_builds_from_root(sample_repo, tmp_path, capsys):
         "--locale", "en-GB", "--out-dir", str(tmp_path),
     ])
     assert code == 0
-    assert (tmp_path / "Guide_for_the_Grown-Up_en-GB.pdf").is_file()
+    assert (tmp_path / "guides" / "Guide_for_the_Grown-Up_en-GB-v0.pdf").is_file()
 
 
 def test_render_guide_missing_markdown_returns_one(sample_repo, tmp_path):
