@@ -8,8 +8,8 @@ they now lead with what actually sets this project apart: its niche. Pick one, o
 ## What makes it different (the niche)
 
 One line: **a free, printable, cooperative, no-lose story-adventure library for a
-grown-up and a child, written and checked by people, that grows with your child's
-reading and plays in your family's language.**
+grown-up and one or more children, written and checked by people, that grows with
+your child's reading and plays in your family's language.**
 
 This is the honest, defensible space the landscape scan found nobody else occupies all
 at once. State it plainly:
@@ -18,8 +18,10 @@ at once. State it plainly:
   subscription, no credits, no parts to lose or replace. (This is also a direct answer
   to the loudest complaints in the digital corner: subscription traps and shipping
   delays.)
-- **Cooperative and no-lose.** You and your child play on the same side. Nobody loses,
-  and a tricky moment is a detour to another way, never a defeat.
+- **Cooperative and no-lose.** You and your child (or children) play on the same side,
+  and the grown-up plays along too, as a fellow adventurer who helps rather than a
+  referee apart. Nobody loses, and a tricky moment is a detour to another way, never a
+  defeat.
 - **No screen, and no AI in your child's path.** Every story is written and checked by
   a person. There is no chatbot for your child to talk to, and nothing is invented on
   the fly in front of them.
@@ -40,8 +42,9 @@ pointing to, made easy to start.
 > matter most: imagination, creative and critical thinking, problem-solving,
 > curiosity, and knowing how to work well with someone else. Wits & Wonder is a
 > simple way to nurture exactly those, away from a screen. It is a free, printable,
-> cooperative story-and-puzzle adventure you play together with your child, with a
-> single die and a few household bits, where nobody loses and the only way forward is
+> cooperative story-and-puzzle adventure you play together with your child or children,
+> with a single die and a few household bits, where nobody loses and the only way
+> forward is
 > to be clever and kind. Every story is written and checked by people, not generated
 > by a chatbot in your child's hands, and it comes ready to play in British English
 > and Spanish from Spain (with Italian on the way), at a reading level that grows with

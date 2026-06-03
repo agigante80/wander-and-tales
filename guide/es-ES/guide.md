@@ -5,26 +5,33 @@ listo para cualquier kit de la biblioteca. Te llevará unos cinco minutos.*
 
 ## Qué es esto
 
-Es una aventura cooperativa de historia y puzles que juegas con un niño, en voz
-alta, con un kit impreso y unas pocas cosas de casa. No hay aplicación ni pantalla.
-Tú lees un poco de historia, tu hijo toma decisiones y, juntos, resolvéis puzles
-amables con dados sencillos. Es una forma de practicar la imaginación, la resolución
+Es una aventura cooperativa de historia y puzles que juegas con un niño, o con unos
+cuantos niños, en voz alta, con un kit impreso y unas pocas cosas de casa. No hay
+aplicación ni pantalla. Tú lees un poco de historia, los niños toman decisiones y,
+juntos, resolvéis puzles amables con dados sencillos. Jugáis todos en el mismo
+equipo, ayudándoos a salir adelante, nunca unos contra otros. Es una forma de practicar la imaginación, la resolución
 de problemas y el trabajo en equipo, y una bonita excusa para un rato sin prisas y
 sin pantallas, algo que los estudios relacionan con cómo los niños se calman y
 crecen. No hace falta ninguna experiencia. Si sabes leer un cuento antes de dormir,
 sabes dirigir esto.
 
-## Tus tres trabajos
+## Tus trabajos, y tú también juegas
 
-Eres el **Guía del Juego**, que no es más que tres pequeños trabajos a la vez:
+Eres el **Guía del Juego**, que no es más que unos pequeños trabajos a la vez. Y eres
+también un aventurero más en la mesa, no un árbitro que mira desde fuera: juegas del
+lado de los niños, ayudándoles a encontrar el camino.
 
 - **El narrador.** Lee las partes de la historia en voz alta, con cariño. Pon una
-  voz graciosa si te apetece. Para en las preguntas y deja que tu hijo responda.
+  voz graciosa si te apetece. Para en las preguntas y deja que los niños respondan.
 - **El árbitro amable.** Cuando los jugadores intentan algo, tú decides cómo sale,
   inclinándote siempre hacia el sí. Las páginas de puzles traen las soluciones, así
   que nunca te pillan desprevenido.
 - **El mayor admirador.** Aplaude cada idea, sobre todo las raras. Tu entusiasmo es
   el motor de todo el juego.
+- **Un aventurero más.** Coge un héroe propio y juega con ellos. Has leído la historia
+  antes, pero no tienes por qué actuar como si la supieras: déjate sorprender,
+  asómbrate en voz alta y descubre cada turno con los niños. Lo importante es
+  ayudarles a salir adelante, no ser quien lo sabe todo.
 
 ## La regla de oro: sí, y...
 
@@ -39,7 +46,7 @@ segura de perderlo.
 
 Este es el corazón de cada kit: **una tirada fallida nunca es una derrota, solo un
 desvío.** Si un dado se queda corto, no pares la historia. Los jugadores pueden
-gastar una estrella de energía y volver a intentarlo, combinar sus dos fuerzas,
+gastar una estrella de energía y volver a intentarlo, combinar sus fuerzas,
 aceptar un empujoncito de una criatura amable o, sencillamente, buscar otro camino.
 Trata un fallo como una sorpresa divertida, no como un fracaso. A ningún niño se le
 elimina, se le deja atrás ni se le hace sentir que ha fallado al equipo.
@@ -51,7 +58,7 @@ Atascarse es normal. Echa mano de esto, por orden:
 - Ofrece una **pista amable** a través de un personaje ("el gato empuja una
   enredadera suelta...").
 - **Baja la dificultad** un nivel, o deja que la tirada de ayuda lo resuelva.
-- Deja que **combinen sus dos fuerzas** para un éxito automático.
+- Deja que **combinen sus fuerzas** para un éxito automático.
 - Si nada funciona, **deja que lo consigan sin más.** El impulso importa más que el
   rigor. Un niño que se siente listo jugará una hora; uno que se siente atascado se
   irá a otra cosa.

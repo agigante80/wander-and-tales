@@ -17,7 +17,7 @@ dice:
   recommended: d20-set      # the richer set the legacy kit was tuned for
 players:
   min: 2
-  max: 2
+  max: 5
 play_time_minutes: 30
 images:
   - id: cover

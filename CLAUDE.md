@@ -137,7 +137,9 @@ this for file writes and edits (it activates on a normal session start).
 - **Dice**: rules use abstract difficulty bands (Easy/Normal/Hard); every story
   must be playable with a single d6.
 - **Tags**: age tiers `early`/`young`/`older`; peril `gentle`/`mild`/`heroic`;
-  plus skills, players, play time. An `adult_gm` badge appears on every kit.
+  plus skills, players, play time. `players` is two or more (a grown-up and one or
+  more children); the grown-up guides the story and plays along as a fellow
+  adventurer, not just a referee. An `adult_gm` badge appears on every kit.
 - **Canon**: each world has a name registry (`canon/`) and there is a repo-wide
   `lexicon/`; story prose follows canon, checked by a lightweight lint.
 - **Fonts**: embed a Unicode font so accents render. DejaVu Sans and Serif are

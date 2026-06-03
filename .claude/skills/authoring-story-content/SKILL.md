@@ -31,8 +31,13 @@ The wider system (architecture, conventions, and build pipeline) is described in
 ## The one thing to hold onto
 
 Every kit teaches the same quiet lesson: **you win by being clever and kind.**
-The games are cooperative (an adult and a child, together), and **nobody loses.**
-A failed dice roll is never a defeat; it is a detour to a different route. There
+The games are cooperative (a grown-up and one or more children, together, on the same
+side), and **nobody loses.** The grown-up is not a referee standing apart: they guide
+the story and play along as a fellow adventurer, taking a hero of their own, helping
+the children through, and letting themselves be surprised even though they have read
+ahead. Write the rules and the Guide so a story works for two or more players (one
+adult and one or more children), and never assume exactly two. A failed dice roll is
+never a defeat; it is a detour to a different route. There
 are no real villains in gentle and mild stories, and the "antagonist" usually
 turns out to be lonely or misunderstood rather than wicked (in the first story it
 is a sprite who only wanted a friend). Conflicts resolve through imagination,
