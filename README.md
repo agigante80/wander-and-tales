@@ -20,12 +20,13 @@ version on the last page, and the links below are generated automatically.
 
 <!-- BEGIN KIT TABLE -->
 
-| Story | World | Language | Ages | Story Pack | Grown-up's Playbook |
-|---|---|---|---|---|---|
-| The Sleeping Garden | The Floating Isles | English | 6 to 8 | [Simple](kits/en-GB/floating-isles/sleeping-garden/story-pack-simple-v7.pdf) · [Rich](kits/en-GB/floating-isles/sleeping-garden/story-pack-rich-v7.pdf) | [Open](kits/en-GB/floating-isles/sleeping-garden/playbook-v5.pdf) |
-| El Jardín Dormido | Las Islas Flotantes | Español | 6 to 8 | [Simple](kits/es-ES/floating-isles/sleeping-garden/story-pack-simple-v7.pdf) · [Rich](kits/es-ES/floating-isles/sleeping-garden/story-pack-rich-v7.pdf) | [Open](kits/es-ES/floating-isles/sleeping-garden/playbook-v5.pdf) |
-| The Singing Spring | The Sunlit Hills of Greece | English | 9 to 12 | [Simple](kits/en-GB/greek-myth/the-singing-spring/story-pack-simple-v5.pdf) · [Rich](kits/en-GB/greek-myth/the-singing-spring/story-pack-rich-v5.pdf) | [Open](kits/en-GB/greek-myth/the-singing-spring/playbook-v4.pdf) |
-| La Fuente Cantarina | Las Colinas Soleadas de Grecia | Español | 9 to 12 | [Simple](kits/es-ES/greek-myth/the-singing-spring/story-pack-simple-v5.pdf) · [Rich](kits/es-ES/greek-myth/the-singing-spring/story-pack-rich-v5.pdf) | [Open](kits/es-ES/greek-myth/the-singing-spring/playbook-v4.pdf) |
+Every story is cooperative and no-lose, for two or more (a grown-up and one or
+more children), and playable with a single ordinary die.
+
+| Story | World | Ages | Skills | Peril | Time | Get the kit |
+|---|---|---|---|---|---|---|
+| The Sleeping Garden | The Floating Isles | 6 to 8 | vocabulary, logic, social-emotional | gentle | 30 min | English: [Simple](kits/en-GB/floating-isles/sleeping-garden/story-pack-simple-v7.pdf) · [Rich](kits/en-GB/floating-isles/sleeping-garden/story-pack-rich-v7.pdf) · [Playbook](kits/en-GB/floating-isles/sleeping-garden/playbook-v5.pdf)<br>Español: [Sencillo](kits/es-ES/floating-isles/sleeping-garden/story-pack-simple-v7.pdf) · [Completo](kits/es-ES/floating-isles/sleeping-garden/story-pack-rich-v7.pdf) · [Cuaderno](kits/es-ES/floating-isles/sleeping-garden/playbook-v5.pdf) |
+| The Singing Spring | The Sunlit Hills of Greece | 9 to 12 | logic, vocabulary, spatial, social-emotional | heroic | 40 min | English: [Simple](kits/en-GB/greek-myth/the-singing-spring/story-pack-simple-v5.pdf) · [Rich](kits/en-GB/greek-myth/the-singing-spring/story-pack-rich-v5.pdf) · [Playbook](kits/en-GB/greek-myth/the-singing-spring/playbook-v4.pdf)<br>Español: [Sencillo](kits/es-ES/greek-myth/the-singing-spring/story-pack-simple-v5.pdf) · [Completo](kits/es-ES/greek-myth/the-singing-spring/story-pack-rich-v5.pdf) · [Cuaderno](kits/es-ES/greek-myth/the-singing-spring/playbook-v4.pdf) |
 
 ### World books
 
@@ -36,8 +37,8 @@ version on the last page, and the links below are generated automatically.
 
 <!-- END KIT TABLE -->
 
-The full, filterable list of stories and their tags lives in
-[`catalog.md`](catalog.md).
+The table above is generated; it lists every story with its tags and the download
+links for each language.
 
 ## How to run this project
 
@@ -70,7 +71,6 @@ python -m pytest                              # run the test suite
 
 python -m build validate --root .             # load and validate all content
 python -m build lint --root .                 # structural lint (exit 1 on error)
-python -m build catalog --root . --out catalog.md   # regenerate the catalogue
 
 # build one printable Story Pack into dist/
 python -m build render --root . \

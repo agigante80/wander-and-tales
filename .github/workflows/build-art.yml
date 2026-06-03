@@ -34,12 +34,12 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: python -m build generate-images --root . --world "$WORLD" --story "$STORY"
-      - name: Rebuild the library, the catalogue, and the README
+      - name: Rebuild the library and the README catalogue
         run: python -m build rebuild --root .
       - name: Commit the art and kits
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add worlds kits catalog.md README.md
+          git add worlds kits README.md
           git commit -m "art: generate illustrations and rebuild kits for ${WORLD}/${STORY}" || echo "nothing to commit"
           git push

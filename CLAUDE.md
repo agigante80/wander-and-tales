@@ -13,7 +13,7 @@ content is data and a layout-only build renders the PDFs.
 
 This file plus the code are the source of truth; the full design history lives in
 git. The project is built and working end to end: the `build` package (content model,
-validation, and the `validate`/`lint`/`catalog` CLI), the `build/render/` PDF
+validation, and the `validate`/`lint` CLI), the `build/render/` PDF
 pipeline, and the content for two worlds (Floating Isles / The Sleeping Garden and the
 Greek-myth Sunlit Hills / The Singing Spring) in en-GB and es-ES. Each story builds
 into three artifacts (a Story Pack, a Grown-up's Playbook, and a World Book) plus the
@@ -30,11 +30,10 @@ Use the project virtualenv at `.venv/`.
 .venv/bin/python -m pytest                 # whole suite (config in pyproject.toml)
 .venv/bin/python -m pytest tests/test_lint.py            # one file
 .venv/bin/python -m pytest tests/test_lint.py::test_name # one test
-.venv/bin/python -m pytest -k catalog                    # by keyword
+.venv/bin/python -m pytest -k render                     # by keyword
 
 .venv/bin/python -m build validate --root .   # load + validate all content
 .venv/bin/python -m build lint --root .       # structural lint (exit 1 on error)
-.venv/bin/python -m build catalog --root . --out catalog.md
 
 .venv/bin/python -m build render --root . \
   --world floating-isles --story sleeping-garden \
@@ -74,11 +73,12 @@ so there is no clash. Data flows in one direction:
   `puzzles.md`), the world-level idea bank at
   `worlds/<world>/content/<locale>/idea-bank.md` (one per world, shared by its
   stories), and a repo-wide `lexicon/terms.yaml`.
-- **Lint and catalog consume models.** `lint.py` runs deterministic structural
-  checks (unique canon/lexicon ids, story `world` matches its directory, every
-  required content file present for every required locale) and returns
-  `LintIssue`s. `catalog.py` generates `catalog.md` from every `story.yaml` so the
-  catalog can never drift from the tags. `__main__.py` wires these into the CLI.
+- **Lint consumes models.** `lint.py` runs deterministic structural checks (unique
+  canon/lexicon ids, story `world` matches its directory, every required content file
+  present for every required locale, a world idea bank per locale) and returns
+  `LintIssue`s. `__main__.py` wires these into the CLI. The story catalogue is the
+  generated table in the root README (rebuilt by `library.py` from every `story.yaml`,
+  so it cannot drift from the tags); there is no separate `catalog.md`.
 - **`spelling.py` is a deliberate stub.** The path-scoped en-GB/es-ES spelling
   lint is deferred until locale content exists; `check_text` returns no findings
   today so callers can wire the seam in safely.

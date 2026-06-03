@@ -12,10 +12,3 @@ def test_lint_reports_errors_with_nonzero_exit(sample_repo, capsys):
     code = main(["lint", "--root", str(sample_repo)])
     assert code == 1
     assert "rules.md" in capsys.readouterr().out
-
-
-def test_catalog_writes_file(sample_repo):
-    out = sample_repo / "catalog.md"
-    code = main(["catalog", "--root", str(sample_repo), "--out", str(out)])
-    assert code == 0
-    assert out.is_file()
