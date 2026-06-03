@@ -1,4 +1,4 @@
-"""Command line: python -m build {validate,lint,catalog,render,render-guide,prompts,generate-images}."""
+"""Command line: python -m build {validate,lint,catalog,render,render-guide,render-playbook,render-world,prompts,generate-images}."""
 
 import argparse
 import os
@@ -42,6 +42,12 @@ def main(argv: list[str] | None = None) -> int:
     playbook_parser.add_argument("--story", required=True)
     playbook_parser.add_argument("--locale", required=True)
     playbook_parser.add_argument("--out-dir", type=Path, default=None)
+
+    world_parser = sub.add_parser("render-world", help="build a World Book PDF")
+    _add_root(world_parser)
+    world_parser.add_argument("--world", required=True)
+    world_parser.add_argument("--locale", required=True)
+    world_parser.add_argument("--out-dir", type=Path, default=None)
 
     prompts_parser = sub.add_parser("prompts", help="export image generation prompts")
     _add_root(prompts_parser)
@@ -110,6 +116,15 @@ def main(argv: list[str] | None = None) -> int:
 
         out = playbook.build_playbook(
             args.root, args.world, args.story, args.locale, out_dir=args.out_dir
+        )
+        print(f"built {out}")
+        return 0
+
+    if args.command == "render-world":
+        from build.render import world_pdf
+
+        out = world_pdf.build_world_pdf(
+            args.root, args.world, args.locale, out_dir=args.out_dir
         )
         print(f"built {out}")
         return 0
