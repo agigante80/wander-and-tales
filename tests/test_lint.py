@@ -62,3 +62,27 @@ def test_duplicate_lexicon_id_is_an_error(sample_repo):
         i.level == "error" and "game-master" in i.message and "lexicon" in i.message
         for i in issues
     )
+
+
+def test_lint_requires_a_world_level_idea_bank(sample_repo):
+    from build import lint
+
+    target = sample_repo / "worlds" / "floating-isles" / "content" / "en-GB" / "idea-bank.md"
+    target.unlink()
+    issues = lint.lint_repo(sample_repo)
+    assert any(
+        i.level == "error" and "world idea bank" in i.message for i in issues
+    )
+
+
+def test_lint_does_not_require_a_per_story_idea_bank(sample_repo):
+    from build import lint
+
+    story_idea = (
+        sample_repo / "worlds" / "floating-isles" / "stories" / "sleeping-garden"
+        / "content" / "en-GB" / "idea-bank.md"
+    )
+    # There is no per-story idea bank, and that must not be an error.
+    assert not story_idea.exists()
+    errors = [i for i in lint.lint_repo(sample_repo) if i.level == "error"]
+    assert not any("idea-bank.md" in e.message for e in errors)

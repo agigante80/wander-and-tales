@@ -2,8 +2,9 @@
 
 What it guarantees: canon ids are unique within a world, every canon and lexicon
 entry carries all required locales (enforced by the models, surfaced here as a
-readable report), each story's `world` matches the directory it lives in, and
-every required content file exists for every required locale.
+readable report), each story's `world` matches the directory it lives in,
+every required content file exists for every required locale, and each world has a
+world-level idea bank for every required locale.
 It also warns when an image's canon_ref names no canon entry, when a declared
 image has no generated file, and when an assets PNG has no image declaration.
 """
@@ -21,7 +22,6 @@ _REQUIRED_CONTENT_FILES = (
     "narration.rich.md",
     "rules.md",
     "puzzles.md",
-    "idea-bank.md",
 )
 
 
@@ -108,6 +108,11 @@ def _lint_world(world_dir: Path) -> list[LintIssue]:
             issues.extend(
                 _lint_image_files(world.images, world_dir / "assets", str(world_yaml))
             )
+
+    for code in locales.REQUIRED_LOCALES:
+        idea = world_dir / "content" / code / "idea-bank.md"
+        if not idea.is_file():
+            issues.append(_error(f"missing world idea bank for {code}", str(idea)))
 
     stories_dir = world_dir / "stories"
     if stories_dir.is_dir():

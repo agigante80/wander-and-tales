@@ -58,8 +58,15 @@ def sample_repo(tmp_path: Path) -> Path:
 
     for content_dir in (content_en, content_es):
         for name in ("narration.simple.md", "narration.rich.md", "rules.md",
-                     "puzzles.md", "idea-bank.md"):
+                     "puzzles.md"):
             (content_dir / name).write_text("placeholder\n", encoding="utf-8")
+
+    for code in ("en-GB", "es-ES"):
+        world_content = world_dir / "content" / code
+        world_content.mkdir(parents=True)
+        (world_content / "idea-bank.md").write_text(
+            "# Idea bank\n\nImprov fuel for this world.\n", encoding="utf-8"
+        )
 
     lexicon_dir = tmp_path / "lexicon"
     lexicon_dir.mkdir()
