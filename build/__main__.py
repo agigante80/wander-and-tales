@@ -75,7 +75,7 @@ def main(argv: list[str] | None = None) -> int:
     if args.command == "render":
         from build.render import kit
 
-        out = kit.build_kit(
+        out = kit.build_story_pack(
             args.root, args.world, args.story, args.locale, args.reading_level,
             out_dir=args.out_dir,
         )
