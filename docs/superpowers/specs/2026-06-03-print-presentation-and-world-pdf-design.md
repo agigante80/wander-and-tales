@@ -1,7 +1,8 @@
 # Wits & Wonder: print presentation, the three-PDF split, and a full-page character sheet
 
 **Status:** design for review, reached through a chat thread with the maintainer.
-Decomposes into four implementation plans (see the end).
+Decomposes into four implementation plans (see the end). The per-story grown-up
+document is named the **Grown-up's Playbook**.
 
 **Context:** The kits look good on screen but are not yet ideal for the thing they
 are for, printing at home and running at the table. The maintainer asked for: every
@@ -24,7 +25,7 @@ For each story, in each locale, the build produces:
    material the family reads from. Front page (story title, the world paragraph, the
    cover art when it exists), the narration for that reading level, the map, and the
    character sheet. Contains no puzzle answers.
-2. **Grown-up's Guide** (per story, per locale, one adult level): the grown-up's
+2. **Grown-up's Playbook** (per story, per locale, one adult level): the grown-up's
    private prep. How to run this story (its rules and difficulty bands) and the
    puzzles together with their solutions. This is the only place a solution appears,
    so a child reading the Story Pack never meets an answer.
@@ -34,7 +35,7 @@ For each story, in each locale, the build produces:
    fuel), and a list of the stories in the world.
 
 The existing generic **Guide for the Grown-Up** (how to run any kit, for newcomers)
-is unchanged and separate from the per-story Grown-up's Guide above.
+is unchanged and separate from the per-story Grown-up's Playbook above.
 
 Why this split:
 
@@ -64,7 +65,7 @@ Why this split:
    the world's `lore_summary`), and the story cover image when one exists. This also
    gives a front page to a story that has no cover art yet.
 4. **The three-artifact split.** The single combined kit becomes the Story Pack
-   (child-safe), the Grown-up's Guide (rules and answers), and the World Book (world
+   (child-safe), the Grown-up's Playbook (rules and answers), and the World Book (world
    reference and idea bank), with the idea bank moved to the world level.
 5. **A full-page A4 character sheet** with a portrait and name at the top, a roomy
    magic area with three magic slots, an objects area ("What I carry") at the bottom,
@@ -101,7 +102,7 @@ Why this split:
 - Add a test that builds a Story Pack and asserts **every page** is A4, within a
   small tolerance, in one of the two orientations (210 by 297 mm portrait, or 297 by
   210 mm landscape). This makes "A4 always" a checked invariant. Extend it to the
-  Grown-up's Guide and the World Book once those builders exist.
+  Grown-up's Playbook and the World Book once those builders exist.
 
 ### White page background
 
@@ -140,32 +141,32 @@ scene art), character sheet.
 
 What the Story Pack **no longer contains** (these move out): the rules, the puzzles
 and answers, the idea bank, and the Who's Who glossary. Rules and puzzles go to the
-Grown-up's Guide (Part 3); the glossary and idea bank go to the World Book (Part 4).
+Grown-up's Playbook (Part 3); the glossary and idea bank go to the World Book (Part 4).
 The narration still presents every obstacle to the players; only the answers leave.
 
 Output name: `<world>_<story>_<locale>_<level>.pdf` (unchanged from today, so the
 Story Pack keeps the current kit filenames and the existing README links still
 resolve to the play material).
 
-## Part 3: the Grown-up's Guide (per story)
+## Part 3: the Grown-up's Playbook (per story)
 
-A new builder and CLI command produce one Grown-up's Guide per story per locale, at a
+A new builder and CLI command produce one Grown-up's Playbook per story per locale, at a
 single adult reading level (not per reading level).
 
-- New `build/render/grownup_guide.py` with `build_grownup_guide(root, world, story,
+- New `build/render/playbook.py` with `build_playbook(root, world, story,
   locale, out_dir) -> Path`, reusing the flowable and prose helpers.
 - Contents, in order, on A4 portrait pages with the white background and the world's
   theme:
-  1. **Title**: "Grown-up's Guide" plus the story title (in the locale) as the `h1`
+  1. **Title**: "Grown-up's Playbook" plus the story title (in the locale) as the `h1`
      banner.
   2. **How to run this story**: the story's `rules.md` (difficulty bands, the no-lose
      golden rule, the newcomer callout).
   3. **Puzzles and answers**: the story's `puzzles.md`, the challenges together with
      their solutions. A short note at the top reminds the grown-up this is the only
      part not meant for the child's eyes.
-- New CLI subcommand `python -m build render-grownup --root . --world <w> --story <s>
+- New CLI subcommand `python -m build render-playbook --root . --world <w> --story <s>
   --locale <loc> [--out-dir <dir>]`.
-- Output name: `<world>_<story>_<locale>_grownup.pdf`.
+- Output name: `<world>_<story>_<locale>_playbook.pdf`.
 
 This is distinct from the generic, world-agnostic **Guide for the Grown-Up**
 (`render-guide`, `Guide_for_the_Grown-Up_<locale>.pdf`), which stays as is and
@@ -255,25 +256,25 @@ Per-world sheet labels are deferred.
 
 After the builders exist, rebuild `kits/` to hold the three artifacts and refresh the
 README. The download section gains, per story, the Story Pack links (by reading
-level) and the Grown-up's Guide link, with a separate short "World books" list giving
+level) and the Grown-up's Playbook link, with a separate short "World books" list giving
 one World Book per world per locale.
 
 Proposed download layout (the maintainer may rename the artifacts):
 
 - A story table: columns for Story, World, Ages, the **Story Pack** links (Simple and
-  Rich) in English and in Spanish, and the **Grown-up's Guide** link in each language.
+  Rich) in English and in Spanish, and the **Grown-up's Playbook** link in each language.
 - A **World books** subsection: one line per world, linking the World Book in English
   and in Spanish.
 - The existing **Guide for the Grown-Up** callout, unchanged.
 
 A note explains the split in one or two sentences: the Story Pack is what you play
-from and is safe for the child to see; the Grown-up's Guide holds the answers; the
+from and is safe for the child to see; the Grown-up's Playbook holds the answers; the
 World Book is the world's lore and ideas.
 
 ## Testing
 
 - A new test asserts every page of a built Story Pack is A4 (portrait or landscape);
-  extended to the Grown-up's Guide and the World Book.
+  extended to the Grown-up's Playbook and the World Book.
 - The white background is a visual change; verify by rasterising a page and confirming
   the page fill is white with the coloured elements intact.
 - The front page renders for a story with no cover image (title plus world paragraph,
@@ -281,7 +282,7 @@ World Book is the world's lore and ideas.
   Pack gains exactly one front page.
 - The Story Pack no longer contains the rules, puzzles, idea bank, or glossary
   (assert those sections are absent from its flowables).
-- `grownup_guide.build_grownup_guide` produces a valid A4 PDF containing the rules and
+- `playbook.build_playbook` produces a valid A4 PDF containing the rules and
   the puzzles-and-answers for a story; tested against the sample repo and a fixture.
 - The idea-bank relocation: the loader reads the world-level idea bank; the lint
   accepts a world whose idea bank is world-level and flags a world missing it;
@@ -301,9 +302,9 @@ World Book is the world's lore and ideas.
 2. **Plan 2: the Story Pack.** Rename `build_kit` to `build_story_pack`, add the
    always-on front page with the world paragraph, and remove the rules, puzzles, idea
    bank, and glossary from the pack. Update the CLI, the two workflows, and the tests.
-3. **Plan 3: the Grown-up's Guide and the World Book.** Move the idea bank to the
-   world level (content move, loader, lint), then build `grownup_guide.py`
-   (`render-grownup`) and `world_pdf.py` (`render-world`). Update the authoring and
+3. **Plan 3: the Grown-up's Playbook and the World Book.** Move the idea bank to the
+   world level (content move, loader, lint), then build `playbook.py`
+   (`render-playbook`) and `world_pdf.py` (`render-world`). Update the authoring and
    create-story references for the world-level idea bank.
 4. **Plan 4: the full-page character sheet.** The `sheets.py` redesign and the new
    strings.
@@ -314,15 +315,15 @@ Books, regenerate the catalogue, and refresh the README links and the split note
 ## Decisions made for the maintainer to confirm
 
 - The combined kit splits into three artifacts: **Story Pack** (child-safe play
-  material), **Grown-up's Guide** (rules and puzzle answers, per story), and **World
+  material), **Grown-up's Playbook** (rules and puzzle answers, per story), and **World
   Book** (lore, glossary, idea bank, per world). No merged "everything" PDF is built.
 - The **idea bank moves to the world level** (`worlds/<world>/content/<locale>/
   idea-bank.md`) and is shared by the world's stories.
-- Puzzle **answers appear only in the Grown-up's Guide**; the Story Pack presents
+- Puzzle **answers appear only in the Grown-up's Playbook**; the Story Pack presents
   obstacles through narration but holds no solutions.
 - Filenames: Story Pack keeps `<world>_<story>_<locale>_<level>.pdf`; the Grown-up's
-  Guide is `<world>_<story>_<locale>_grownup.pdf`; the World Book is
-  `<world>_<locale>.pdf`. The per-story Grown-up's Guide is distinct from the generic
+  Guide is `<world>_<story>_<locale>_playbook.pdf`; the World Book is
+  `<world>_<locale>.pdf`. The per-story Grown-up's Playbook is distinct from the generic
   Guide for the Grown-Up.
 - The world paragraph reuses the existing `lore_summary` rather than a new short
   field, for simplicity and no new authoring.
