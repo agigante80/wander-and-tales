@@ -16,7 +16,7 @@ giocare.
 Poi arriva un piccolo lampo, un lieve "pop" e un rumore come di tutto il mercato
 che trattiene il fiato per la sorpresa. Quando si dirada, ogni cosa è saltata nel
 posto sbagliato. Il fornaio guarda sbalordito un paio di stivali infangati. Il
-calzolaio rigira tra le mani perplesse un aquilone. La frutta sta dove dovrebbero
+calzolaio rigira perplesso tra le mani un aquilone. La frutta sta dove dovrebbero
 esserci i giocattoli, i giocattoli dove dovrebbe esserci il pane, e nemmeno un
 bottegaio riesce a trovare qualcosa che gli appartenga.
 

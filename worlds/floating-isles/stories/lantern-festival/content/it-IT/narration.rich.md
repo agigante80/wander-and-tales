@@ -7,7 +7,7 @@ sono risposte sbagliate, solo nuove idee da provare.*
 ## Prima di cominciare
 
 Stasera dovrebbe essere la notte più bella dell'anno: la Festa delle Luci, quando
-ogni famiglia delle Isole Fluttuanti fa salire una lanterna del cielo luminosa
+ogni famiglia delle Isole Volanti fa salire una lanterna del cielo luminosa
 nell'aria calma della sera, finché tutto il cielo risplende. Ma dalle alte finestre
 della Casa dei Piccoli Maghi vedete che qualcosa non va. Il cielo è vuoto e buio.
 Là sotto, la Piazza delle Lanterne è grigia e silenziosa, e non si alza nemmeno una

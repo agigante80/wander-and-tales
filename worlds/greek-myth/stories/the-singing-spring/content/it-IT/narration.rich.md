@@ -46,7 +46,7 @@ vecchi muri di pietra dove ogni svolta sembrava identica alla precedente. Una so
 scelta sbagliata e avreste potuto vagare fino al buio.
 
 Un satiro con le zampe di capra si arrampicò con un balzo su un muro, sorridendo. Era
-Pruno, a cui piacevano in egual misura i viaggiatori e i bei scherzi. Canticchiò una
+Pruno, a cui piacevano in egual misura i viaggiatori e i begli scherzi. Canticchiò una
 melodia e piegò la testa verso un vicolo in ombra.
 
 *Come eviterete di perdervi? Portate un gomitolo di filo dorato, e Pruno sembra
