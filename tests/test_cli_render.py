@@ -6,10 +6,7 @@ _TINY_SVG = (
 )
 
 
-def test_render_builds_a_kit(sample_repo, tmp_path, capsys):
-    assets = sample_repo / "worlds" / "floating-isles" / "assets"
-    assets.mkdir(parents=True, exist_ok=True)
-    (assets / "map.svg").write_text(_TINY_SVG, encoding="utf-8")
+def test_render_builds_a_story_pack(sample_repo, tmp_path, capsys):
     code = main([
         "render", "--root", str(sample_repo),
         "--world", "floating-isles", "--story", "sleeping-garden",
@@ -17,8 +14,9 @@ def test_render_builds_a_kit(sample_repo, tmp_path, capsys):
         "--out-dir", str(tmp_path),
     ])
     assert code == 0
-    assert "floating-isles_sleeping-garden_en-GB_simple.pdf" in capsys.readouterr().out
-    assert (tmp_path / "floating-isles_sleeping-garden_en-GB_simple.pdf").is_file()
+    expected = tmp_path / "en-GB" / "floating-isles" / "sleeping-garden" / "story-pack-simple-v0.pdf"
+    assert expected.is_file()
+    assert "story-pack-simple-v0.pdf" in capsys.readouterr().out
 
 
 def test_render_guide_builds_under_guides_with_version(sample_repo, tmp_path):
