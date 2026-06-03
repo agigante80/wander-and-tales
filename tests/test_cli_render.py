@@ -51,3 +51,14 @@ def test_render_playbook_builds(sample_repo, tmp_path):
     assert (
         tmp_path / "en-GB" / "floating-isles" / "sleeping-garden" / "playbook-v0.pdf"
     ).is_file()
+
+
+def test_render_world_builds(sample_repo, tmp_path):
+    from build.__main__ import main
+
+    code = main([
+        "render-world", "--root", str(sample_repo),
+        "--world", "floating-isles", "--locale", "en-GB", "--out-dir", str(tmp_path),
+    ])
+    assert code == 0
+    assert (tmp_path / "en-GB" / "floating-isles" / "world-book-v0.pdf").is_file()
