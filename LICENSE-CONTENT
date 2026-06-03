@@ -1,0 +1,25 @@
+Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+
+This licence covers the creative content of Wits and Wonder: everything under
+worlds/, guide/, and lexicon/, and the generated PDFs under kits/. The software
+toolchain (the build/ package and tests/) is licensed separately under the MIT
+licence in LICENSE.
+
+You are free to share and adapt this content, including for commercial purposes,
+under these terms:
+
+  Attribution. You must give appropriate credit to Wits and Wonder
+  (github.com/agigante80/wits-and-wonder), provide a link to the licence, and
+  indicate if changes were made.
+
+  ShareAlike. If you remix, transform, or build upon the content, you must
+  distribute your contributions under this same CC BY-SA 4.0 licence.
+
+  No additional restrictions. You may not apply legal terms or technological
+  measures that legally restrict others from doing anything the licence permits.
+
+The full legal code is at https://creativecommons.org/licenses/by-sa/4.0/legalcode
+and the human-readable summary at https://creativecommons.org/licenses/by-sa/4.0/.
+
+By contributing content to this project, you agree to license your contribution
+under CC BY-SA 4.0 (and any code contribution under MIT).
