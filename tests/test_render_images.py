@@ -65,3 +65,27 @@ def test_embed_flattens_transparency_onto_white(tmp_path):
     buffer, _, _ = images._embed_jpeg(p)
     out = PILImage.open(buffer).convert("RGB")
     assert min(out.getpixel((10, 10))) > 240
+
+
+def test_frontpage_without_cover_is_title_and_paragraph(tmp_path):
+    from reportlab.platypus import Paragraph
+
+    from build.render import fonts, images, theme
+
+    styles = theme.make_styles(theme.Theme.default(), fonts.register_family("dejavu-sans"))
+    flows = images.frontpage_flowables("The Sleeping Garden", "A world of floating isles.", None, styles)
+    assert all(isinstance(f, Paragraph) or f.__class__.__name__ == "Spacer" for f in flows)
+    assert any(isinstance(f, Paragraph) for f in flows)
+
+
+def test_frontpage_with_cover_includes_an_image(tmp_path):
+    from PIL import Image as PILImage
+    from reportlab.platypus import Image as RLImage
+
+    from build.render import fonts, images, theme
+
+    cover = tmp_path / "cover.png"
+    PILImage.new("RGB", (400, 600), "white").save(cover)
+    styles = theme.make_styles(theme.Theme.default(), fonts.register_family("dejavu-sans"))
+    flows = images.frontpage_flowables("Title", "Paragraph.", cover, styles)
+    assert any(isinstance(f, RLImage) for f in flows)
