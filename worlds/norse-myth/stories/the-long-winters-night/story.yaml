@@ -1,0 +1,85 @@
+world: norse-myth
+id: the-long-winters-night
+title:
+  en-GB: The Long Winter's Night
+  es-ES: La Noche del Largo Invierno
+  it-IT: La Notte del Lungo Inverno
+age:
+  recommended: older
+  also_works_for: [young]
+skills:
+  - logic
+  - spatial
+  - observation
+  - social-emotional
+peril: heroic
+adult_gm: true
+dice:
+  minimum: 1d6
+  recommended: d20-set
+players:
+  min: 2
+  max: 5
+play_time_minutes: 40
+images:
+  - id: cover
+    role: cover
+    orientation: portrait
+    prompt: >
+      Two older heroes in fur cloaks setting out from a glowing longhouse into a deep
+      blue winter night, one carrying a small glowing ember in cupped hands, a frozen
+      fjord and a faint rainbow bridge ahead and a soft aurora above. Brave and
+      hopeful.
+    alt:
+      en-GB: Two older heroes in fur cloaks setting out from a glowing longhouse into a winter night, carrying a glowing ember, a frozen fjord and rainbow bridge ahead.
+      es-ES: Dos héroes mayores con capas de piel que salen de una casa comunal iluminada hacia una noche de invierno, llevando una brasa encendida, con un fiordo helado y un puente del arco iris delante.
+      it-IT: Due eroi più grandi con mantelli di pelliccia che escono da una casa lunga illuminata verso una notte d'inverno, portando una brace accesa, con un fiordo ghiacciato e un ponte dell'arcobaleno davanti.
+  - id: scene-frozen-fjord
+    role: scene
+    orientation: landscape
+    canon_ref: frozen-fjord
+    prompt: >
+      Two heroes crossing a wide sheet of silver-blue fjord ice together, stepping
+      carefully and holding hands, snowy mountains around and a starry sky above, a
+      warm glow from the ember they carry. Tense but hopeful.
+    alt:
+      en-GB: Two heroes crossing a wide sheet of silver-blue fjord ice together, stepping carefully, snowy mountains around and a warm ember glow.
+      es-ES: Dos héroes que cruzan juntos una ancha lámina de hielo azul plateado del fiordo, pisando con cuidado, con montañas nevadas alrededor y el cálido brillo de la brasa.
+      it-IT: Due eroi che attraversano insieme un'ampia lastra di ghiaccio azzurro argenteo del fiordo, camminando con attenzione, con montagne innevate intorno e il caldo bagliore della brace.
+  - id: scene-frost-giant
+    role: scene
+    orientation: landscape
+    canon_ref: lonely-frost-giant
+    prompt: >
+      Two heroes holding up a warm honey bun with kind smiles to a huge gentle frost
+      giant of pale blue ice who sits in the snow looking shy and sad rather than
+      fierce, his breath misting. Tender and warm.
+    alt:
+      en-GB: Two heroes offering a warm honey bun with kind smiles to a huge gentle frost giant of pale blue ice, sitting shy and sad rather than fierce.
+      es-ES: Dos héroes que ofrecen un bollo de miel caliente con sonrisas amables a un enorme gigante de hielo azul pálido, sentado tímido y triste más que feroz.
+      it-IT: Due eroi che offrono un panino al miele caldo con sorrisi gentili a un enorme gigante di ghiaccio azzurro pallido, seduto timido e triste più che feroce.
+  - id: scene-rainbow-bridge
+    role: scene
+    orientation: landscape
+    canon_ref: rainbow-bridge
+    prompt: >
+      Two heroes and a now-friendly frost giant crossing a shimmering bridge of soft
+      rainbow colours arching up into a starry sky, the heroes carrying a glowing
+      ember, the giant smiling. Wondrous and uplifting.
+    alt:
+      en-GB: Two heroes and a now-friendly frost giant crossing a shimmering rainbow bridge into a starry sky, the heroes carrying a glowing ember.
+      es-ES: Dos héroes y un gigante de hielo ya amistoso que cruzan un reluciente puente de colores del arco iris hacia un cielo estrellado, llevando los héroes una brasa encendida.
+      it-IT: Due eroi e un gigante di ghiaccio ormai amico che attraversano uno scintillante ponte dai colori dell'arcobaleno verso un cielo stellato, con gli eroi che portano una brace accesa.
+  - id: scene-dawn-warmth
+    role: scene
+    orientation: landscape
+    canon_ref: hearth-hall
+    prompt: >
+      The first warm light of dawn over a snowy fjord village, the longhouse windows
+      glowing amber again as hearth-fires relight, two heroes and a smiling frost
+      giant arriving home, a kind goddess watching from the brightening sky. Joyful
+      and warm.
+    alt:
+      en-GB: The first warm dawn over a snowy fjord village, longhouse windows glowing amber as hearth-fires relight, two heroes and a smiling frost giant arriving home.
+      es-ES: La primera luz cálida del alba sobre una aldea nevada del fiordo, con las ventanas de la casa comunal de nuevo ámbar al reavivarse los fuegos, y dos héroes y un gigante de hielo sonriente que llegan a casa.
+      it-IT: La prima luce calda dell'alba su un villaggio innevato del fiordo, con le finestre della casa lunga di nuovo ambrate mentre i focolari si riaccendono, e due eroi e un gigante di ghiaccio sorridente che tornano a casa.

@@ -1,0 +1,83 @@
+world: norse-myth
+id: ratatosks-message
+title:
+  en-GB: Ratatosk's Muddled Message
+  es-ES: El Mensaje Enredado de Ratatosk
+  it-IT: Il Messaggio Imbrogliato di Ratatosk
+age:
+  recommended: young
+  also_works_for: [early]
+skills:
+  - memory
+  - logic
+  - vocabulary
+  - social-emotional
+peril: gentle
+adult_gm: true
+dice:
+  minimum: 1d6
+  recommended: d20-set
+players:
+  min: 2
+  max: 5
+play_time_minutes: 25
+images:
+  - id: cover
+    role: cover
+    orientation: portrait
+    prompt: >
+      Two young heroes in warm furs at the foot of an enormous world tree in the snow,
+      a quick red squirrel scurrying down the trunk with a bundle of tangled little
+      message scrolls, two black ravens circling above. Lively and bright.
+    alt:
+      en-GB: Two young heroes at the foot of an enormous snowy world tree, a red squirrel scurrying down with tangled message scrolls, two ravens above.
+      es-ES: Dos jóvenes héroes al pie de un enorme árbol del mundo nevado, con una ardilla roja que baja a toda prisa con un fajo de mensajes enredados y dos cuervos volando arriba.
+      it-IT: Due giovani eroi ai piedi di un enorme albero del mondo innevato, con uno scoiattolo rosso che scende in fretta con un fascio di messaggi aggrovigliati e due corvi che volano sopra.
+  - id: scene-catch-squirrel
+    role: scene
+    orientation: landscape
+    canon_ref: ratatosk-squirrel
+    prompt: >
+      Two small heroes gently coaxing a flustered red squirrel to stop and rest,
+      holding out a little snack with kind smiles, scattered message scrolls in the
+      snow around them. Warm and playful.
+    alt:
+      en-GB: Two small heroes gently coaxing a flustered red squirrel to stop, holding out a snack, message scrolls scattered in the snow.
+      es-ES: Dos héroes pequeños que con dulzura convencen a una ardilla roja nerviosa para que se detenga, ofreciéndole una golosina, con mensajes esparcidos por la nieve.
+      it-IT: Due piccoli eroi che con dolcezza convincono uno scoiattolo rosso agitato a fermarsi, offrendogli uno spuntino, con messaggi sparsi nella neve.
+  - id: scene-sort-messages
+    role: scene
+    orientation: landscape
+    canon_ref: ratatosk-squirrel
+    prompt: >
+      Two small heroes and a red squirrel sorting a row of little rolled message
+      scrolls laid out on the snow, matching each to a small drawn picture, thinking
+      hard and happily. Cheerful and clever.
+    alt:
+      en-GB: Two small heroes and a red squirrel sorting little message scrolls laid out on the snow, matching each to a picture.
+      es-ES: Dos héroes pequeños y una ardilla roja que ordenan una fila de mensajitos enrollados sobre la nieve, emparejando cada uno con un dibujo.
+      it-IT: Due piccoli eroi e uno scoiattolo rosso che ordinano una fila di messaggini arrotolati sulla neve, abbinando ciascuno a un disegno.
+  - id: scene-climb-deliver
+    role: scene
+    orientation: landscape
+    canon_ref: two-ravens
+    prompt: >
+      Two small heroes climbing the snowy branches of the great world tree to deliver
+      a message scroll, two friendly black ravens guiding the way through the boughs.
+      Adventurous and kind.
+    alt:
+      en-GB: Two small heroes climbing the snowy branches of the great world tree to deliver a scroll, two friendly ravens guiding the way.
+      es-ES: Dos héroes pequeños que trepan por las ramas nevadas del gran árbol del mundo para entregar un mensaje, con dos cuervos amables que les guían.
+      it-IT: Due piccoli eroi che si arrampicano sui rami innevati del grande albero del mondo per consegnare un messaggio, con due corvi gentili che indicano la via.
+  - id: scene-friends-again
+    role: scene
+    orientation: landscape
+    canon_ref: world-tree
+    prompt: >
+      A great eagle high in the world tree and a small friend down among the roots,
+      reconciled and waving warmly to each other, a happy red squirrel between them
+      and two small heroes cheering. Joyful and warm.
+    alt:
+      en-GB: A great eagle high in the world tree and a small friend among the roots, reconciled and waving, a happy squirrel between them and two heroes cheering.
+      es-ES: Una gran águila en lo alto del árbol del mundo y un pequeño amigo entre las raíces, reconciliados y saludándose con cariño, con una ardilla feliz en medio y dos héroes que animan.
+      it-IT: Una grande aquila in cima all'albero del mondo e un piccolo amico tra le radici, riconciliati e che si salutano con calore, con uno scoiattolo felice in mezzo e due eroi che esultano.

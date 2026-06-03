@@ -1,0 +1,66 @@
+# Creatures of the Snowlit Fjords of the North. None of them is truly wicked.
+
+- id: lonely-frost-giant
+  names:
+    en-GB: The Lonely Frost Giant
+    es-ES: El Gigante de Hielo Solitario
+    it-IT: Il Gigante di Ghiaccio Solitario
+  kind: creature
+  disposition: lonely
+  description:
+    en-GB: A huge giant of pale blue ice who sits in the way of travellers. He looks fearsome, but he is really just cold and lonely, and a warm word and a shared fire do more than any axe.
+    es-ES: Un enorme gigante de hielo azul pálido que se sienta en el camino de los viajeros. Parece temible, pero en realidad solo tiene frío y se siente solo, y una palabra cálida y un fuego compartido logran más que cualquier hacha.
+    it-IT: Un enorme gigante di ghiaccio azzurro pallido che si siede sul cammino dei viaggiatori. Sembra spaventoso, ma in realtà ha soltanto freddo e si sente solo, e una parola calorosa e un fuoco condiviso valgono più di qualsiasi ascia.
+  first_seen: the-long-winters-night
+
+- id: aurora-spirits
+  names:
+    en-GB: The Aurora Spirits
+    es-ES: Los Espíritus de la Aurora
+    it-IT: Gli Spiriti dell'Aurora
+  kind: creature
+  disposition: friendly
+  description:
+    en-GB: Gentle spirits of the northern lights whose dancing fills the winter sky with colour. When they are happy and brave, the long night glows with teal, green and purple.
+    es-ES: Espíritus amables de la aurora boreal cuyo baile llena de color el cielo de invierno. Cuando están contentos y valientes, la larga noche brilla en turquesa, verde y púrpura.
+    it-IT: Spiriti gentili dell'aurora boreale la cui danza riempie di colore il cielo d'inverno. Quando sono felici e coraggiosi, la lunga notte risplende di turchese, verde e viola.
+  first_seen: the-lost-little-aurora
+
+- id: ratatosk-squirrel
+  names:
+    en-GB: Ratatosk the Squirrel
+    es-ES: Ratatosk la Ardilla
+    it-IT: Ratatosk lo Scoiattolo
+  kind: creature
+  disposition: playful
+  description:
+    en-GB: A quick, chattery red squirrel who races up and down the Great World Tree all day, carrying messages between everyone, though he does sometimes muddle them up.
+    es-ES: Una ardilla roja rápida y parlanchina que sube y baja todo el día por el Gran Árbol del Mundo, llevando mensajes entre todos, aunque a veces los enreda un poco.
+    it-IT: Uno scoiattolo rosso svelto e chiacchierone che corre su e giù per il Grande Albero del Mondo tutto il giorno, portando messaggi fra tutti, anche se ogni tanto li imbroglia un po'.
+  first_seen: ratatosks-message
+
+- id: nisse-tomte
+  names:
+    en-GB: Nori the Tomte
+    es-ES: Nori el Duende del Hogar
+    it-IT: Nori il Folletto del Focolare
+  kind: creature
+  disposition: playful
+  description:
+    en-GB: A small, kindly hearth sprite in a red cap who looks after the longhouse and loves to hand out helpful hints, and the odd harmless prank, to folk he likes.
+    es-ES: Un pequeño y amable duende del hogar con gorro rojo que cuida de la casa comunal y al que le encanta dar pistas útiles, y alguna travesura inofensiva, a quien le cae bien.
+    it-IT: Un piccolo e gentile folletto del focolare con un berretto rosso che si prende cura della casa lunga e ama dare indizi utili, e qualche scherzo innocuo, a chi gli sta simpatico.
+  first_seen: the-lost-little-aurora
+
+- id: two-ravens
+  names:
+    en-GB: The Two Ravens
+    es-ES: Los Dos Cuervos
+    it-IT: I Due Corvi
+  kind: creature
+  disposition: wise
+  description:
+    en-GB: A pair of wise black ravens, Thought and Memory, who fly over all the fjords and bring back news. They nod kindly to heroes who travel with good intentions.
+    es-ES: Un par de sabios cuervos negros, Pensamiento y Memoria, que vuelan sobre todos los fiordos y traen noticias. Saludan con un gesto amable a los héroes que viajan con buenas intenciones.
+    it-IT: Una coppia di saggi corvi neri, Pensiero e Memoria, che volano su tutti i fiordi e riportano notizie. Fanno un cenno gentile agli eroi che viaggiano con buone intenzioni.
+  first_seen: ratatosks-message
