@@ -1,6 +1,11 @@
 # Build output (PDFs are generated from content; do not track build artifacts)
 dist/
 
+# Downloaded third-party sample files studied in the landscape research.
+# We study them locally but never redistribute others' content; keep only the README.
+research/landscape/samples/*
+!research/landscape/samples/README.md
+
 # Python
 __pycache__/
 *.pyc
