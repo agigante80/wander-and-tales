@@ -36,6 +36,13 @@ def main(argv: list[str] | None = None) -> int:
     guide_parser.add_argument("--locale", required=True)
     guide_parser.add_argument("--out-dir", type=Path, default=None)
 
+    playbook_parser = sub.add_parser("render-playbook", help="build a Grown-up's Playbook PDF")
+    _add_root(playbook_parser)
+    playbook_parser.add_argument("--world", required=True)
+    playbook_parser.add_argument("--story", required=True)
+    playbook_parser.add_argument("--locale", required=True)
+    playbook_parser.add_argument("--out-dir", type=Path, default=None)
+
     prompts_parser = sub.add_parser("prompts", help="export image generation prompts")
     _add_root(prompts_parser)
     prompts_parser.add_argument("--world", default=None)
@@ -95,6 +102,15 @@ def main(argv: list[str] | None = None) -> int:
         out = out_dir / "guides" / f"Guide_for_the_Grown-Up_{args.locale}-{vi.label}.pdf"
         qr = f"{PROJECT_URL}/tree/main/kits/guides"
         pages.render_guide(src, out, args.locale, version=vi, qr_url=qr)
+        print(f"built {out}")
+        return 0
+
+    if args.command == "render-playbook":
+        from build.render import playbook
+
+        out = playbook.build_playbook(
+            args.root, args.world, args.story, args.locale, out_dir=args.out_dir
+        )
         print(f"built {out}")
         return 0
 
