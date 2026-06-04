@@ -10,7 +10,7 @@ import tempfile
 from pathlib import Path
 
 from build import content
-from build.render import fonts, footer, sheets, strings, theme, version
+from build.render import footer, sheets, strings, theme, version
 from build.render.kit import _merge
 
 
@@ -29,7 +29,6 @@ def build_example_heroes(
     heroes = content.load_heroes(world_dir)
 
     th = theme.Theme.from_world(world)
-    faces = fonts.resolve_faces(world, locale)
 
     if version_info is None:
         version_info = version.version_info(
@@ -62,7 +61,7 @@ def build_example_heroes(
             hero_image = image_path if image_path.is_file() else None
             sheet = tmp_path / f"{index:02d}_{hero.id}.pdf"
             sheets.render_character_sheet(
-                sheet, locale, hero.tier, th, faces,
+                sheet, locale, hero.tier, th, world_name=world_name,
                 example=example, hero_image=hero_image,
             )
             parts.append(sheet)

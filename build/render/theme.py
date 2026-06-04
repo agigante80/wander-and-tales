@@ -11,7 +11,6 @@ from dataclasses import dataclass
 from reportlab.lib.colors import Color, HexColor, white
 from reportlab.lib.enums import TA_CENTER
 from reportlab.lib.styles import ParagraphStyle
-from reportlab.lib.units import mm
 
 from build.models import World
 from build.render.fonts import FontFaces
@@ -28,6 +27,18 @@ _DEFAULT_PALETTE = (
 _TEXT = HexColor("#3a5a32")
 _BORDER = HexColor("#9ccf8a")
 PAGE_FILL = white  # printable page background: white prints cleanly and cheaply
+
+
+def tint(color: Color, amount: float) -> Color:
+    """Blend a colour toward white by `amount` (0..1), for light section fills.
+
+    A filled header chip plus a faint tint of the same hue reads as one zone, and a
+    light tint keeps home-printer ink coverage low (unlike a full background wash)."""
+    return Color(
+        color.red + (1 - color.red) * amount,
+        color.green + (1 - color.green) * amount,
+        color.blue + (1 - color.blue) * amount,
+    )
 
 
 def _slot(palette: list[str], index: int) -> Color:
@@ -99,18 +110,17 @@ def make_styles(theme: "Theme", faces: FontFaces) -> dict[str, ParagraphStyle]:
 
 
 def page_painter(theme: "Theme"):
-    """Return an onPage(canvas, doc) callback that paints background and border."""
+    """Return an onPage(canvas, doc) callback that paints a plain white page.
+
+    No decorative border: white prints cleanly and cheaply at home, sits safely
+    inside any printer's unprintable margin, and lets the content's own headings and
+    cards carry the design instead of a competing frame."""
 
     def paint(canvas, doc) -> None:
         width, height = doc.pagesize
         canvas.saveState()
         canvas.setFillColor(PAGE_FILL)
         canvas.rect(0, 0, width, height, fill=1, stroke=0)
-        canvas.setStrokeColor(theme.border)
-        canvas.setLineWidth(3)
-        canvas.setDash(2, 10)
-        canvas.roundRect(8 * mm, 8 * mm, width - 16 * mm, height - 16 * mm, 10,
-                         fill=0, stroke=1)
         canvas.restoreState()
 
     return paint

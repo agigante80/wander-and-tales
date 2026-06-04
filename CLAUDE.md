@@ -48,8 +48,9 @@ Use the project virtualenv at `.venv/`.
 Install (editable) into a fresh venv with `pip install -e ".[dev,render]"`. Core
 runtime deps are `pydantic>=2.6` and `PyYAML>=6.0`; the `render` extra adds
 `reportlab`, `cairosvg`, and `pypdf` (see `pyproject.toml`). DejaVu Sans and Serif
-are vendored under `build/assets/fonts/` and embedded, so accents render and the
-build never depends on system fonts.
+(the world prose faces) plus the adventure-sheet faces (Quicksand display, Nunito
+body, Caveat handwriting, all OFL) are vendored under `build/assets/fonts/` and
+embedded, so accents render and the build never depends on system fonts.
 
 ## Architecture
 

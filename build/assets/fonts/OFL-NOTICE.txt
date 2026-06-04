@@ -1,0 +1,22 @@
+Vendored fonts and their licences
+=================================
+
+All typefaces bundled here are free/libre and redistributable.
+
+DejaVu Sans, DejaVu Serif
+  Licence: DejaVu Fonts Licence (a permissive, free licence; Bitstream Vera
+  derivative). Used for the kit prose and as the graceful fallback faces.
+
+Quicksand (Quicksand-SemiBold.ttf), Nunito (Nunito-Regular.ttf,
+Nunito-Bold.ttf), Caveat (Caveat-SemiBold.ttf)
+  Licence: SIL Open Font Licence 1.1 (https://openfontlicense.org).
+  Sources: Google Fonts (https://fonts.google.com). Each is a single static
+  weight instanced from the upstream variable font with fontTools, used only
+  for the adventure sheet: Quicksand for display headings, Nunito for body
+  text, and Caveat as the handwriting face for the pre-filled example answers.
+
+Designers: Quicksand by Andrew Paglinawan; Nunito by Vernon Adams, Cyreal and
+Jacques Le Bailly; Caveat by Impallari Type (Pablo Impallari).
+
+The SIL Open Font Licence permits redistribution and embedding in documents
+(including the generated PDFs); the fonts are not sold on their own.

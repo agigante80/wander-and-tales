@@ -23,7 +23,46 @@ class FontFaces:
     bold_italic: str
 
 
+@dataclass(frozen=True)
+class SheetFaces:
+    """The character sheet's fixed typeface set, the same across worlds (the world
+    identity on a sheet comes from its palette, not its prose face): a rounded
+    display face for headings, a clean body face, and a handwriting face for the
+    pre-filled example answers so a filled sheet reads differently from a blank one."""
+
+    display: str
+    body: str
+    body_bold: str
+    hand: str
+
+
 _registered: set[str] = set()
+
+# Vendored OFL faces for the sheet (instanced static weights under assets/fonts/).
+_SHEET_FONTS = {
+    "ww-display": "Quicksand-SemiBold.ttf",
+    "ww-body": "Nunito-Regular.ttf",
+    "ww-body-bold": "Nunito-Bold.ttf",
+    "ww-hand": "Caveat-SemiBold.ttf",
+}
+
+
+def sheet_faces() -> SheetFaces:
+    """Register and return the sheet typeface set. Falls back to the default family
+    if the vendored OFL TTFs are absent, so the build never breaks on a missing font."""
+    names = SheetFaces("ww-display", "ww-body", "ww-body-bold", "ww-hand")
+    if "ww-sheet" in _registered:
+        return names
+    try:
+        for font_name, filename in _SHEET_FONTS.items():
+            pdfmetrics.registerFont(
+                TTFont(font_name, str(fontspec.font_path(filename)))
+            )
+        _registered.add("ww-sheet")
+        return names
+    except Exception:
+        f = register_family(fontspec.DEFAULT_FAMILY)
+        return SheetFaces(display=f.bold, body=f.normal, body_bold=f.bold, hand=f.italic)
 
 
 def register_family(family: str) -> FontFaces:
