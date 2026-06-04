@@ -8,7 +8,7 @@ def test_playbook_writes_nested_versioned_pdf(sample_repo, tmp_path):
         sample_repo, "floating-isles", "sleeping-garden", "en-GB", out_dir=tmp_path
     )
     assert out == (
-        tmp_path / "en-GB" / "floating-isles" / "sleeping-garden" / "playbook-v0.pdf"
+        tmp_path / "en-GB" / "floating-isles" / "sleeping-garden" / "playbook-v0.0.pdf"
     )
     assert out.read_bytes().startswith(b"%PDF")
     # title + rules + puzzles + colophon = 4 pages

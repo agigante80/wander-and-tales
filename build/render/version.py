@@ -1,25 +1,63 @@
 """Automatic, git-derived versioning for each generated PDF.
 
-An artifact's version comes from git history over exactly the source files that
-compose it: `number` is how many commits have touched those files, `updated` is the
-date of the most recent such commit. Nothing is bumped by hand, so one language
-being behind does not move another language's version.
+A version is two parts, ``vMAJOR.MINOR``, both read from git history with nothing
+bumped by hand:
+
+- MAJOR is the content edition: how many commits have touched the artifact's own
+  source files (its YAML, prose, map, art). Scoped per artifact so one language
+  being behind does not move another's, and a story edit does not move a sibling.
+- MINOR is the layout revision: how many commits have touched the shared
+  render/layout source files (`render_sources`) since that last content commit. So
+  a template or layout change reflows the actual PDF and bumps MINOR, and a fresh
+  content edition (a MAJOR bump) resets MINOR to 0, the way `major.minor` reads.
+
+`updated` is the date of the most recent commit over either set.
 """
 
 import subprocess
 from dataclasses import dataclass
 from pathlib import Path
 
+# The shared render/layout source files that determine how every PDF looks. A
+# commit to any of them is a layout revision (the MINOR part), so a template change
+# re-versions the library even when no content changed. Excludes version.py itself,
+# library.py (orchestration and the README), and the image-generation modules, none
+# of which change a rendered page.
+_RENDER_SOURCES = (
+    "build/render/pages.py",
+    "build/render/kit.py",
+    "build/render/playbook.py",
+    "build/render/world_pdf.py",
+    "build/render/examples.py",
+    "build/render/flowables.py",
+    "build/render/theme.py",
+    "build/render/images.py",
+    "build/render/markdown.py",
+    "build/render/sheets.py",
+    "build/render/glossary.py",
+    "build/render/map.py",
+    "build/render/footer.py",
+    "build/render/colophon.py",
+    "build/render/fonts.py",
+    "build/render/strings.py",
+)
+
 
 @dataclass(frozen=True)
 class VersionInfo:
-    number: int
+    major: int
+    minor: int
     updated: str  # ISO YYYY-MM-DD, or "unreleased" when there is no history
     dirty: bool = False
 
     @property
     def label(self) -> str:
-        return f"v{self.number}{'+' if self.dirty else ''}"
+        return f"v{self.major}.{self.minor}{'+' if self.dirty else ''}"
+
+
+def render_sources(root: Path) -> list[Path]:
+    """The shared layout source files folded into every artifact's MINOR version."""
+    return [root / rel for rel in _RENDER_SOURCES]
 
 
 def _git(root: Path, args: list[str]) -> str:
@@ -29,20 +67,40 @@ def _git(root: Path, args: list[str]) -> str:
     return result.stdout if result.returncode == 0 else ""
 
 
-def version_info(root: Path, paths: list[Path]) -> VersionInfo:
-    """Version for an artifact, from git history over its input paths.
+def version_info(
+    root: Path, content_paths: list[Path], render_paths: list[Path] | None = None
+) -> VersionInfo:
+    """Version for an artifact: MAJOR from its content, MINOR from layout source.
 
-    Missing paths contribute nothing (git simply reports no commits for them), so a
-    caller may list candidate asset files that may not exist yet.
+    MAJOR counts commits over `content_paths` (the artifact's own sources). MINOR
+    counts commits over `render_paths` (typically `render_sources(root)`) made since
+    the most recent content commit, so a content edition resets the layout counter.
+    Missing paths contribute nothing, so a caller may list assets that may not exist
+    yet.
     """
-    rels = [str(p) for p in paths]
-    log = _git(root, ["log", "--format=%H", "--", *rels])
-    number = sum(1 for line in log.splitlines() if line.strip())
-    if number == 0:
-        return VersionInfo(number=0, updated="unreleased", dirty=False)
-    date = _git(root, ["log", "-1", "--format=%cs", "--", *rels]).strip()
-    dirty = bool(_git(root, ["status", "--porcelain", "--", *rels]).strip())
-    return VersionInfo(number=number, updated=date or "unreleased", dirty=dirty)
+    content = [str(p) for p in content_paths]
+    render = [str(p) for p in (render_paths or [])]
+
+    content_commits = [
+        line for line in _git(root, ["log", "--format=%H", "--", *content]).splitlines()
+        if line.strip()
+    ]
+    major = len(content_commits)
+    latest_content = content_commits[0] if content_commits else ""
+
+    minor = 0
+    if render and latest_content:
+        count = _git(
+            root, ["rev-list", "--count", f"{latest_content}..HEAD", "--", *render]
+        ).strip()
+        minor = int(count) if count.isdigit() else 0
+
+    all_paths = content + render
+    if major == 0 and minor == 0:
+        return VersionInfo(0, 0, "unreleased", False)
+    date = _git(root, ["log", "-1", "--format=%cs", "--", *all_paths]).strip()
+    dirty = bool(_git(root, ["status", "--porcelain", "--", *all_paths]).strip())
+    return VersionInfo(major, minor, date or "unreleased", dirty)
 
 
 def story_pack_inputs(

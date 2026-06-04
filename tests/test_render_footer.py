@@ -32,7 +32,7 @@ def test_stamp_footers_draws_page_x_of_y_on_every_page(tmp_path):
     _two_page_pdf(p)
     footer.stamp_footers(
         p, identity="Wits and Wonder · Story Pack · The Sleeping Garden",
-        locale="en-GB", version_info=VersionInfo(7, "2026-06-03"),
+        locale="en-GB", version_info=VersionInfo(7, 0, "2026-06-03"),
     )
     for index, page in enumerate(PdfReader(str(p)).pages, start=1):
         text = page.extract_text()
@@ -45,7 +45,7 @@ def test_stamp_footers_handles_landscape_pages(tmp_path):
     _mixed_orientation_pdf(p)
     footer.stamp_footers(
         p, identity="Wits and Wonder · World Book · The Floating Isles",
-        locale="en-GB", version_info=VersionInfo(4, "2026-06-03"),
+        locale="en-GB", version_info=VersionInfo(4, 0, "2026-06-03"),
     )
     pages = PdfReader(str(p)).pages
     assert "page 2 of 2" in pages[1].extract_text()  # the landscape page got it too
@@ -56,7 +56,7 @@ def test_stamp_footers_keeps_page_count(tmp_path):
     _two_page_pdf(p)
     footer.stamp_footers(
         p, identity="Wits and Wonder . Story Pack . The Sleeping Garden",
-        locale="en-GB", version_info=VersionInfo(7, "2026-06-03"),
+        locale="en-GB", version_info=VersionInfo(7, 0, "2026-06-03"),
     )
     assert len(PdfReader(str(p)).pages) == 2
 

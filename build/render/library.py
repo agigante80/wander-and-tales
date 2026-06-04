@@ -60,7 +60,9 @@ def build_all(root: Path, out_dir: Path) -> Built:
     for locale in REQUIRED_LOCALES:
         guide_md = root / "guide" / locale / "guide.md"
         if guide_md.is_file():
-            vi = version.version_info(root, version.guide_inputs(root, locale))
+            vi = version.version_info(
+                root, version.guide_inputs(root, locale), version.render_sources(root)
+            )
             out = out_dir / "guides" / f"Guide_for_the_Grown-Up_{locale}-{vi.label}.pdf"
             qr = f"{PROJECT_URL}/tree/main/kits/guides"
             built.guides[locale] = pages.render_guide(guide_md, out, locale, version=vi, qr_url=qr)

@@ -39,7 +39,9 @@ def colophon_flowables(
         code=LICENCE_CODE, url=LICENCE_URL
     )
     version_line = strings.ui(locale, "colophon_version").format(
-        number=version_info.number, updated=version_info.updated, locale=locale
+        number=f"{version_info.major}.{version_info.minor}",
+        updated=version_info.updated,
+        locale=locale,
     )
     return [
         Paragraph(md.inline_to_rl(strings.ui(locale, "colophon_project")), styles["h1"]),

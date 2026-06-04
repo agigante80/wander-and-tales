@@ -109,7 +109,9 @@ def main(argv: list[str] | None = None) -> int:
             print(f"no guide markdown at {src}")
             return 1
         out_dir = args.out_dir if args.out_dir is not None else args.root / "dist"
-        vi = ver.version_info(args.root, ver.guide_inputs(args.root, args.locale))
+        vi = ver.version_info(
+            args.root, ver.guide_inputs(args.root, args.locale), ver.render_sources(args.root)
+        )
         out = out_dir / "guides" / f"Guide_for_the_Grown-Up_{args.locale}-{vi.label}.pdf"
         qr = f"{PROJECT_URL}/tree/main/kits/guides"
         pages.render_guide(src, out, args.locale, version=vi, qr_url=qr)

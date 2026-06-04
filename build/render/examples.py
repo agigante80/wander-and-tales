@@ -33,7 +33,9 @@ def build_example_heroes(
 
     if version_info is None:
         version_info = version.version_info(
-            root, version.example_heroes_inputs(root, world_id, locale)
+            root,
+            version.example_heroes_inputs(root, world_id, locale),
+            version.render_sources(root),
         )
 
     out_dir = out_dir if out_dir is not None else root / "dist"
