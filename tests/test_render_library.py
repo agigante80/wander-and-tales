@@ -30,7 +30,11 @@ def test_readme_block_lists_stories_and_links(sample_repo):
     assert library.README_END in block
     assert "The Sleeping Garden" in block
     assert "story-pack-simple-v0.pdf" in block
-    assert "World books" in block
+    # the catalogue is grouped per world, each with its World Book links
+    assert "### The Floating Isles" in block
+    assert "**World Book:**" in block
+    # one column per language in the per-world table header
+    assert "| English | Español | Italiano |" in block
 
 
 def test_apply_readme_block_replaces_only_between_markers(tmp_path):
