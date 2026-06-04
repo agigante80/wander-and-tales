@@ -141,7 +141,10 @@ def build_story_pack(
         )
 
         sheet = tmp_path / "80_sheet.pdf"
-        sheets.render_character_sheet(sheet, locale, story.age.recommended, th, faces)
+        sheets.render_character_sheet(
+            sheet, locale, story.age.recommended, th,
+            world_name=world.name.get(locale, world_id),
+        )
         parts.append(sheet)
 
         qr = f"{colophon.PROJECT_URL}/tree/main/kits/{locale}/{world_id}/{story_id}"
