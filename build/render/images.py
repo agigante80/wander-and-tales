@@ -90,6 +90,11 @@ def frontpage_flowables(
     return flows
 
 
+def scene_flowable(path: Path) -> RLImage:
+    """A scene illustration scaled to the kit's standard scene size."""
+    return image_flowable(path, CONTENT_WIDTH, _SCENE_MAX_HEIGHT)
+
+
 def gallery_flowables(title: str, scenes: list, styles: dict) -> list:
     """A story-in-pictures page: each scene image with a localized caption.
 
@@ -98,7 +103,7 @@ def gallery_flowables(title: str, scenes: list, styles: dict) -> list:
     flows: list = [Paragraph(md.inline_to_rl(title), styles["h1"])]
     for path, caption in scenes:
         flows.append(Spacer(1, 8))
-        flows.append(image_flowable(path, CONTENT_WIDTH, _SCENE_MAX_HEIGHT))
+        flows.append(scene_flowable(path))
         if caption:
             flows.append(Paragraph(md.inline_to_rl(caption), styles["body"]))
     return flows
