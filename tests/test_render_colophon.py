@@ -19,7 +19,7 @@ def _world():
 
 def test_colophon_includes_a_qr_and_text():
     flows = colophon.colophon_flowables(
-        _styles(), "en-GB", VersionInfo(3, "2026-06-03"), "Story Pack",
+        _styles(), "en-GB", VersionInfo(3, 0, "2026-06-03"), "Story Pack",
         "https://example.com/x",
     )
     assert any(isinstance(f, RLImage) for f in flows)
@@ -28,7 +28,7 @@ def test_colophon_includes_a_qr_and_text():
 
 def test_colophon_renders_one_page_in_spanish(tmp_path):
     flows = colophon.colophon_flowables(
-        _styles(), "es-ES", VersionInfo(1, "2026-06-03"), "Libro del Mundo",
+        _styles(), "es-ES", VersionInfo(1, 0, "2026-06-03"), "Libro del Mundo",
         "https://example.com/x",
     )
     out = pages.render_flowables(flows, tmp_path / "c.pdf", _world())
@@ -39,7 +39,7 @@ def test_colophon_page_carries_link_licence_and_version(tmp_path):
     # The colophon must actually show the project link, the CC BY-SA 4.0 licence,
     # and the version line, not merely render some flowables.
     flows = colophon.colophon_flowables(
-        _styles(), "en-GB", VersionInfo(3, "2026-06-03"), "Story Pack",
+        _styles(), "en-GB", VersionInfo(3, 0, "2026-06-03"), "Story Pack",
         "https://example.com/x",
     )
     out = pages.render_flowables(flows, tmp_path / "c.pdf", _world())

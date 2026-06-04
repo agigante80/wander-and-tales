@@ -45,7 +45,7 @@ def test_story_pack_writes_nested_versioned_pdf(sample_repo, tmp_path):
         sample_repo, "floating-isles", "sleeping-garden", "en-GB", "simple",
         out_dir=tmp_path,
     )
-    assert out == tmp_path / "en-GB" / "floating-isles" / "sleeping-garden" / "story-pack-simple-v0.pdf"
+    assert out == tmp_path / "en-GB" / "floating-isles" / "sleeping-garden" / "story-pack-simple-v0.0.pdf"
     assert out.read_bytes().startswith(b"%PDF")
 
 

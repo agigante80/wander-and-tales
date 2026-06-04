@@ -107,6 +107,7 @@ def build_story_pack(
         version_info = version.version_info(
             root,
             version.story_pack_inputs(root, world_id, story_id, locale, reading_level),
+            version.render_sources(root),
         )
 
     out_dir = out_dir if out_dir is not None else root / "dist"

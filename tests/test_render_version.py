@@ -26,18 +26,20 @@ def test_version_counts_commits_and_dates(tmp_path):
     _commit(tmp_path, f, "one", "first")
     _commit(tmp_path, f, "two", "second")
     info = version.version_info(tmp_path, [f])
-    assert info.number == 2
+    assert info.major == 2
+    assert info.minor == 0
     assert info.updated.count("-") == 2  # YYYY-MM-DD
     assert info.dirty is False
-    assert info.label == "v2"
+    assert info.label == "v2.0"
 
 
 def test_version_with_no_history_is_unreleased(tmp_path):
     _init_repo(tmp_path)
     info = version.version_info(tmp_path, [tmp_path / "missing.txt"])
-    assert info.number == 0
+    assert info.major == 0
+    assert info.minor == 0
     assert info.updated == "unreleased"
-    assert info.label == "v0"
+    assert info.label == "v0.0"
 
 
 def test_version_marks_a_dirty_input(tmp_path):
@@ -46,9 +48,28 @@ def test_version_marks_a_dirty_input(tmp_path):
     _commit(tmp_path, f, "one", "first")
     f.write_text("uncommitted change", encoding="utf-8")
     info = version.version_info(tmp_path, [f])
-    assert info.number == 1
+    assert info.major == 1
     assert info.dirty is True
-    assert info.label == "v1+"
+    assert info.label == "v1.0+"
+
+
+def test_minor_counts_render_commits_since_the_last_content_edition(tmp_path):
+    # MINOR tracks layout/render commits made after the content's last commit, and a
+    # fresh content edition resets it, the way major.minor reads.
+    _init_repo(tmp_path)
+    content = tmp_path / "story.yaml"
+    render = tmp_path / "layout.py"
+    _commit(tmp_path, content, "v1", "content: first edition")
+    info = version.version_info(tmp_path, [content], [render])
+    assert info.label == "v1.0"  # no layout commits yet
+    _commit(tmp_path, render, "a", "layout: tweak one")
+    _commit(tmp_path, render, "b", "layout: tweak two")
+    info = version.version_info(tmp_path, [content], [render])
+    assert (info.major, info.minor) == (1, 2)
+    assert info.label == "v1.2"
+    _commit(tmp_path, content, "v2", "content: second edition")
+    info = version.version_info(tmp_path, [content], [render])
+    assert info.label == "v2.0"  # the new edition resets the layout counter
 
 
 def test_story_pack_inputs_lists_the_right_paths(tmp_path):

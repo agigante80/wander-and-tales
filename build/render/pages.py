@@ -119,7 +119,7 @@ def render_guide(
     (DejaVu covers en-GB and es-ES). It ends with the colophon page and is stamped
     with the per-page footer and PDF metadata.
     """
-    version = version or VersionInfo(0, "unreleased")
+    version = version or VersionInfo(0, 0, "unreleased")
     faces = fonts.resolve_faces(None, locale)
     th = theme.Theme.default()
     styles = theme.make_styles(th, faces)

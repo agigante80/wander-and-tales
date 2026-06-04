@@ -14,9 +14,9 @@ def test_render_builds_a_story_pack(sample_repo, tmp_path, capsys):
         "--out-dir", str(tmp_path),
     ])
     assert code == 0
-    expected = tmp_path / "en-GB" / "floating-isles" / "sleeping-garden" / "story-pack-simple-v0.pdf"
+    expected = tmp_path / "en-GB" / "floating-isles" / "sleeping-garden" / "story-pack-simple-v0.0.pdf"
     assert expected.is_file()
-    assert "story-pack-simple-v0.pdf" in capsys.readouterr().out
+    assert "story-pack-simple-v0.0.pdf" in capsys.readouterr().out
 
 
 def test_render_guide_builds_under_guides_with_version(sample_repo, tmp_path):
@@ -28,7 +28,7 @@ def test_render_guide_builds_under_guides_with_version(sample_repo, tmp_path):
         "--locale", "en-GB", "--out-dir", str(tmp_path),
     ])
     assert code == 0
-    assert (tmp_path / "guides" / "Guide_for_the_Grown-Up_en-GB-v0.pdf").is_file()
+    assert (tmp_path / "guides" / "Guide_for_the_Grown-Up_en-GB-v0.0.pdf").is_file()
 
 
 def test_render_guide_missing_markdown_returns_one(sample_repo, tmp_path):
@@ -49,7 +49,7 @@ def test_render_playbook_builds(sample_repo, tmp_path):
     ])
     assert code == 0
     assert (
-        tmp_path / "en-GB" / "floating-isles" / "sleeping-garden" / "playbook-v0.pdf"
+        tmp_path / "en-GB" / "floating-isles" / "sleeping-garden" / "playbook-v0.0.pdf"
     ).is_file()
 
 
@@ -61,7 +61,7 @@ def test_render_world_builds(sample_repo, tmp_path):
         "--world", "floating-isles", "--locale", "en-GB", "--out-dir", str(tmp_path),
     ])
     assert code == 0
-    assert (tmp_path / "en-GB" / "floating-isles" / "world-book-v0.pdf").is_file()
+    assert (tmp_path / "en-GB" / "floating-isles" / "world-book-v0.0.pdf").is_file()
 
 
 def test_rebuild_builds_the_library_and_rewrites_readme(sample_repo):
@@ -75,7 +75,7 @@ def test_rebuild_builds_the_library_and_rewrites_readme(sample_repo):
     code = main(["rebuild", "--root", str(sample_repo), "--out-dir", str(sample_repo / "kits")])
     assert code == 0
     assert (
-        sample_repo / "kits" / "en-GB" / "floating-isles" / "world-book-v0.pdf"
+        sample_repo / "kits" / "en-GB" / "floating-isles" / "world-book-v0.0.pdf"
     ).is_file()
     readme = (sample_repo / "README.md").read_text(encoding="utf-8")
     assert "The Sleeping Garden" in readme

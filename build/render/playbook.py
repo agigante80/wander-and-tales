@@ -40,7 +40,9 @@ def build_playbook(
 
     if version_info is None:
         version_info = version.version_info(
-            root, version.playbook_inputs(root, world_id, story_id, locale)
+            root,
+            version.playbook_inputs(root, world_id, story_id, locale),
+            version.render_sources(root),
         )
 
     out_dir = out_dir if out_dir is not None else root / "dist"
