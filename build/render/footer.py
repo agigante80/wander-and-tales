@@ -25,8 +25,10 @@ def _overlay_page(width: float, height: float, left: str, right: str):
     c = rl_canvas.Canvas(buffer, pagesize=(width, height))
     c.setFillColor(_FOOTER_GREY)
     c.setFont(_FOOTER_FONT, _FOOTER_SIZE)
-    c.drawString(12 * mm, 6 * mm, left)
-    c.drawRightString(width - 12 * mm, 6 * mm, right)
+    # Sit the footer inside the page border (its bottom line is at 8mm) with a clear
+    # gap above it, rather than straddling the line where it gets clipped.
+    c.drawString(12 * mm, 11 * mm, left)
+    c.drawRightString(width - 12 * mm, 11 * mm, right)
     c.showPage()
     c.save()
     buffer.seek(0)
