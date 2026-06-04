@@ -111,73 +111,79 @@ def readme_block(root: Path, built: Built) -> str:
     for (world_id, story_id, locale), path in built.playbooks.items():
         stories.setdefault((world_id, story_id), {}).setdefault(locale, {})["playbook"] = path
 
+    stories_by_world: dict = {}
+    for world_id, story_id in stories:
+        stories_by_world.setdefault(world_id, []).append(story_id)
+    world_books: dict = {}
+    for (world_id, locale), path in built.world_books.items():
+        world_books.setdefault(world_id, {})[locale] = path
+    hero_books: dict = {}
+    for (world_id, locale), path in built.example_heroes.items():
+        hero_books.setdefault(world_id, {})[locale] = path
+
+    locales = ("en-GB", "es-ES", "it-IT")
+
+    def _lang_links(by_locale: dict) -> str:
+        return " · ".join(
+            f"[{_LANG_NAME.get(loc, loc)}]({_rel(root, by_locale[loc])})"
+            for loc in locales
+            if loc in by_locale
+        )
+
+    header = (
+        "| Story | Ages | Peril | Time | Skills | "
+        + " | ".join(_LANG_NAME[loc] for loc in locales)
+        + " |"
+    )
+    divider = "|" + "---|" * (5 + len(locales))
+
     lines = [
         README_BEGIN,
         "",
-        "Every story is cooperative and no-lose, for two or more (a grown-up and one or",
-        "more children), and playable with a single ordinary die.",
-        "",
-        "| Story | World | Ages | Skills | Peril | Time | Get the kit |",
-        "|---|---|---|---|---|---|---|",
+        "Every story is cooperative and no-lose, for two or more (a grown-up and one",
+        "or more children), and playable with a single ordinary die. Each kit comes in",
+        "three languages: pick a Story Pack to play from, the Grown-up's Playbook for the",
+        "answers, and the World Book for the lore.",
     ]
-    for world_id, story_id in sorted(stories):
-        story = content.load_story(
-            root / "worlds" / world_id / "stories" / story_id / "story.yaml"
-        )
+    for world_id in sorted(stories_by_world):
         world = content.load_world(root / "worlds" / world_id / "world.yaml")
-        title = story.title.get("en-GB", story_id)
         world_name = world.name.get("en-GB", world_id)
-        ages = _AGE_RANGE.get(story.age.recommended, "")
-        skills = ", ".join(story.skills)
-        time = f"{story.play_time_minutes} min"
-        cells = []
-        for locale in sorted(stories[(world_id, story_id)]):
-            files = stories[(world_id, story_id)][locale]
-            labels = _LEVEL_LABELS.get(locale, _LEVEL_LABELS["en-GB"])
-            parts = [
-                f"[{labels[kind]}]({_rel(root, files[kind])})"
-                for kind in ("simple", "rich", "playbook")
-                if kind in files
-            ]
-            cells.append(f"{_LANG_NAME.get(locale, locale)}: " + " · ".join(parts))
-        get = "<br>".join(cells)
-        lines.append(
-            f"| {title} | {world_name} | {ages} | {skills} | {story.peril} | {time} | {get} |"
-        )
-
-    lines += ["", "### World books", ""]
-    world_rows: dict = {}
-    for (world_id, locale), path in built.world_books.items():
-        world_rows.setdefault(world_id, {})[locale] = path
-    for world_id in sorted(world_rows):
-        world = content.load_world(root / "worlds" / world_id / "world.yaml")
-        name = world.name.get("en-GB", world_id)
-        links = " · ".join(
-            f"[{_LANG_NAME.get(loc, loc)}]({_rel(root, path)})"
-            for loc, path in sorted(world_rows[world_id].items())
-        )
-        lines.append(f"- {name}: {links}")
-
-    if built.example_heroes:
-        lines += [
-            "",
-            "### Example heroes",
-            "",
-            "Ready-to-use sample adventure sheets, two for ages 6 to 8 and two for ages",
-            "9 to 12, each with a hero drawn in, to play straight away or use as ideas:",
-            "",
-        ]
-        hero_rows: dict = {}
-        for (world_id, locale), path in built.example_heroes.items():
-            hero_rows.setdefault(world_id, {})[locale] = path
-        for world_id in sorted(hero_rows):
-            world = content.load_world(root / "worlds" / world_id / "world.yaml")
-            name = world.name.get("en-GB", world_id)
-            links = " · ".join(
-                f"[{_LANG_NAME.get(loc, loc)}]({_rel(root, path)})"
-                for loc, path in sorted(hero_rows[world_id].items())
+        lines += ["", f"### {world_name}", ""]
+        if world_id in world_books:
+            lines += [f"**World Book:** {_lang_links(world_books[world_id])}", ""]
+        if world_id in hero_books:
+            lines += [f"**Example heroes:** {_lang_links(hero_books[world_id])}", ""]
+        lines += [header, divider]
+        loaded = {
+            sid: content.load_story(
+                root / "worlds" / world_id / "stories" / sid / "story.yaml"
             )
-            lines.append(f"- {name}: {links}")
+            for sid in stories_by_world[world_id]
+        }
+        for story_id in sorted(
+            stories_by_world[world_id],
+            key=lambda sid: loaded[sid].title.get("en-GB", sid),
+        ):
+            story = loaded[story_id]
+            title = story.title.get("en-GB", story_id)
+            ages = _AGE_RANGE.get(story.age.recommended, "")
+            skills = ", ".join(story.skills)
+            time = f"{story.play_time_minutes} min"
+            cols = []
+            for loc in locales:
+                files = stories[(world_id, story_id)].get(loc, {})
+                labels = _LEVEL_LABELS.get(loc, _LEVEL_LABELS["en-GB"])
+                parts = [
+                    f"[{labels[kind]}]({_rel(root, files[kind])})"
+                    for kind in ("simple", "rich", "playbook")
+                    if kind in files
+                ]
+                cols.append(" · ".join(parts))
+            lines.append(
+                f"| {title} | {ages} | {story.peril} | {time} | {skills} | "
+                + " | ".join(cols)
+                + " |"
+            )
 
     if built.guides:
         guide_links = " · ".join(
