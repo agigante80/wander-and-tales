@@ -14,9 +14,10 @@ content is data and a layout-only build renders the PDFs.
 This file plus the code are the source of truth; the full design history lives in
 git. The project is built and working end to end: the `build` package (content model,
 validation, and the `validate`/`lint` CLI), the `build/render/` PDF
-pipeline, and the content for four worlds (Floating Isles, the Greek-myth Sunlit Hills,
-the Norse Snowlit Fjords, and the Japanese Blossom Mountains of Yamato), twelve stories
-in all, in en-GB, es-ES, and it-IT. Each story builds
+pipeline, and the content for six worlds (Floating Isles, the Greek-myth Sunlit Hills,
+the Norse Snowlit Fjords, the Japanese Blossom Mountains of Yamato, the Celtic Emerald
+Isles, and the Epic-Cycle Windswept Shores of Troy), eighteen stories in all, in en-GB,
+es-ES, and it-IT. Each story builds
 into three artifacts (a Story Pack, a Grown-up's Playbook, and a World Book) plus the
 shared Guide for the Grown-Up, every PDF carrying an automatic git-derived version, a
 colophon, and a per-page footer, assembled into the language-first `kits/` tree by
