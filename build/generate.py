@@ -38,10 +38,18 @@ def make_client(api_key: str):
     return OpenAI(api_key=api_key)
 
 
+# Quality requested from the image API. The art is downscaled and recompressed
+# before it is embedded in a PDF anyway, so "high" only bloats the source PNGs (and
+# the repo) with detail the print never uses. "medium" keeps the watercolour look at
+# a fraction of the size.
+_IMAGE_QUALITY = "medium"
+
+
 def generate_image(prompt: str, orientation: str, out_path: Path, *, client) -> Path:
     """Generate one image and write the PNG to out_path. Returns out_path."""
     response = client.images.generate(
-        model="gpt-image-1", prompt=prompt, size=image_size_for(orientation), n=1
+        model="gpt-image-1", prompt=prompt, size=image_size_for(orientation),
+        quality=_IMAGE_QUALITY, n=1,
     )
     data = base64.b64decode(response.data[0].b64_json)
     out_path.parent.mkdir(parents=True, exist_ok=True)

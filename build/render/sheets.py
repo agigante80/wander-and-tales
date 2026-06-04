@@ -19,7 +19,7 @@ from reportlab.lib.pagesizes import A4
 from reportlab.lib.units import mm
 from reportlab.pdfgen import canvas as rl_canvas
 
-from build.render import strings
+from build.render import images, strings
 from build.render.fonts import FontFaces
 from build.render.theme import Theme, PAGE_FILL
 from build.tags import AGE_TIERS
@@ -210,11 +210,15 @@ def render_character_sheet(
 
 
 def _draw_hero(c, path: Path, x: float, y: float, w: float, h: float) -> None:
-    """Draw the hero image to fit inside the box, preserving aspect, centred."""
+    """Draw the hero image to fit inside the box, preserving aspect, centred.
+
+    The art is recompressed to a small print-sized JPEG first, so a sheet of four
+    heroes does not embed four multi-megabyte source PNGs (which made the
+    example-heroes PDFs tens of megabytes)."""
     try:
         c.drawImage(
-            str(path), x, y, width=w, height=h,
-            preserveAspectRatio=True, anchor="c", mask="auto",
+            images.image_reader(path), x, y, width=w, height=h,
+            preserveAspectRatio=True, anchor="c",
         )
     except Exception:
         pass

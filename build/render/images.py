@@ -11,6 +11,7 @@ from pathlib import Path
 
 from PIL import Image as PILImage
 from reportlab.lib.units import mm
+from reportlab.lib.utils import ImageReader
 from reportlab.platypus import Image as RLImage, Paragraph, Spacer
 
 from build.render import markdown as md
@@ -49,6 +50,14 @@ def _embed_jpeg(path: Path) -> tuple[io.BytesIO, int, int]:
         image.save(buffer, format="JPEG", quality=_JPEG_QUALITY)
     buffer.seek(0)
     return buffer, width, height
+
+
+def image_reader(path: Path) -> ImageReader:
+    """A reportlab ImageReader of the recompressed, print-sized image, for canvas
+    drawImage calls (so canvas-drawn art like the hero portrait stays as small in the
+    PDF as the flowable art does, not the multi-megabyte source PNG)."""
+    buffer, _width, _height = _embed_jpeg(path)
+    return ImageReader(buffer)
 
 
 def image_flowable(path: Path, max_width: float, max_height: float) -> RLImage:
