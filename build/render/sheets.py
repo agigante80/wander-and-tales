@@ -143,12 +143,10 @@ def render_character_sheet(
         value(rx + 2 * mm, top - 10 * mm, example.get("name", ""))
         value(rx + 2 * mm, top - 28 * mm, example.get("hero_of", ""))
     label(rx, top - 42 * mm, strings.ui(locale, "sheet_energy"), size=9)
-    energy = int(example.get("energy", 0)) if example else 0
+    # Always leave the five energy stars empty, even on an example hero, so a printed
+    # sheet starts fresh: a star is coloured in only when the player spends energy.
     for i in range(5):
-        _star(
-            c, rx + 6 * mm + i * 12 * mm, top - 50 * mm, 5 * mm, theme.gold,
-            fill_colour=theme.gold if i < energy else None,
-        )
+        _star(c, rx + 6 * mm + i * 12 * mm, top - 50 * mm, 5 * mm, theme.gold)
 
     # magics box: three slots, each a draw-symbol square plus two lines
     mbox_top = top - pbox_h - 8 * mm
