@@ -29,6 +29,8 @@ or more children), and playable with a single ordinary die. Each kit comes in
 three languages: pick a Story Pack to play from, the Grown-up's Playbook for the
 answers, and the World Book for the lore.
 
+**New to running a game like this?** Read the Guide for the Grown-Up: [English](kits/guides/Guide_for_the_Grown-Up_en-GB-v2.pdf) · [Español](kits/guides/Guide_for_the_Grown-Up_es-ES-v2.pdf) · [Italiano](kits/guides/Guide_for_the_Grown-Up_it-IT-v2.pdf).
+
 ### The Floating Isles
 
 **World Book:** [English](kits/en-GB/floating-isles/world-book-v11.pdf) · [Español](kits/es-ES/floating-isles/world-book-v11.pdf) · [Italiano](kits/it-IT/floating-isles/world-book-v10.pdf)
@@ -76,8 +78,6 @@ answers, and the World Book for the lore.
 | Ratatosk's Muddled Message | 6 to 8 | gentle | 25 min | memory, logic, vocabulary, social-emotional | [Simple](kits/en-GB/norse-myth/ratatosks-message/story-pack-simple-v1.pdf) · [Rich](kits/en-GB/norse-myth/ratatosks-message/story-pack-rich-v1.pdf) · [Playbook](kits/en-GB/norse-myth/ratatosks-message/playbook-v1.pdf) | [Sencillo](kits/es-ES/norse-myth/ratatosks-message/story-pack-simple-v1.pdf) · [Completo](kits/es-ES/norse-myth/ratatosks-message/story-pack-rich-v1.pdf) · [Cuaderno](kits/es-ES/norse-myth/ratatosks-message/playbook-v1.pdf) | [Semplice](kits/it-IT/norse-myth/ratatosks-message/story-pack-simple-v1.pdf) · [Completo](kits/it-IT/norse-myth/ratatosks-message/story-pack-rich-v1.pdf) · [Quaderno](kits/it-IT/norse-myth/ratatosks-message/playbook-v1.pdf) |
 | The Long Winter's Night | 9 to 12 | heroic | 40 min | logic, spatial, observation, social-emotional | [Simple](kits/en-GB/norse-myth/the-long-winters-night/story-pack-simple-v1.pdf) · [Rich](kits/en-GB/norse-myth/the-long-winters-night/story-pack-rich-v1.pdf) · [Playbook](kits/en-GB/norse-myth/the-long-winters-night/playbook-v1.pdf) | [Sencillo](kits/es-ES/norse-myth/the-long-winters-night/story-pack-simple-v1.pdf) · [Completo](kits/es-ES/norse-myth/the-long-winters-night/story-pack-rich-v1.pdf) · [Cuaderno](kits/es-ES/norse-myth/the-long-winters-night/playbook-v1.pdf) | [Semplice](kits/it-IT/norse-myth/the-long-winters-night/story-pack-simple-v1.pdf) · [Completo](kits/it-IT/norse-myth/the-long-winters-night/story-pack-rich-v1.pdf) · [Quaderno](kits/it-IT/norse-myth/the-long-winters-night/playbook-v1.pdf) |
 | The Lost Little Aurora | 6 to 8 | gentle | 25 min | observation, social-emotional, spatial, logic | [Simple](kits/en-GB/norse-myth/the-lost-little-aurora/story-pack-simple-v1.pdf) · [Rich](kits/en-GB/norse-myth/the-lost-little-aurora/story-pack-rich-v1.pdf) · [Playbook](kits/en-GB/norse-myth/the-lost-little-aurora/playbook-v1.pdf) | [Sencillo](kits/es-ES/norse-myth/the-lost-little-aurora/story-pack-simple-v1.pdf) · [Completo](kits/es-ES/norse-myth/the-lost-little-aurora/story-pack-rich-v1.pdf) · [Cuaderno](kits/es-ES/norse-myth/the-lost-little-aurora/playbook-v1.pdf) | [Semplice](kits/it-IT/norse-myth/the-lost-little-aurora/story-pack-simple-v1.pdf) · [Completo](kits/it-IT/norse-myth/the-lost-little-aurora/story-pack-rich-v1.pdf) · [Quaderno](kits/it-IT/norse-myth/the-lost-little-aurora/playbook-v1.pdf) |
-
-**New to running a game like this?** Read the Guide for the Grown-Up: [English](kits/guides/Guide_for_the_Grown-Up_en-GB-v2.pdf) · [Español](kits/guides/Guide_for_the_Grown-Up_es-ES-v2.pdf) · [Italiano](kits/guides/Guide_for_the_Grown-Up_it-IT-v2.pdf).
 
 <!-- END KIT TABLE -->
 
