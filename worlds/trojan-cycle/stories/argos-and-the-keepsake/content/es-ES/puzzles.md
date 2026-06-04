@@ -1,0 +1,80 @@
+# Argos y el Recuerdo Perdido: Puzles y Soluciones
+
+*Para vuestros ojos, no para los niños. Cada parada indica su nivel, lo que los
+jugadores deben averiguar, la solución prevista y un apoyo amable para que un niño
+atascado siempre avance. Más de una buena idea debería valer; premiad el ingenio y
+la lealtad por encima de la respuesta "correcta".*
+
+## Parada 1: Siguiendo a Argos (Fácil)
+
+**El reto.** Argos tiene el olor, pero los jugadores deben leer las huellas y las
+pistas de la costa para elegir hacia dónde caminó su amigo. Algunas marcas llevan
+adelante; otras no llevan a ninguna parte.
+
+**Solución prevista.** Es un momento de Observación y Lealtad. Que los niños miren de
+cerca con Argos y ordenen las pistas: las pisadas que siguen en una dirección clara,
+el higo caído y la marca de descanso que están en esa misma línea, frente a
+cualquier marca suelta que dé la vuelta o se desvanezca. Seguir las pistas que
+concuerdan entre sí, y confiar en Argos cuando ladra contento, los lleva por el buen
+camino. Cualquier niño que vaya despacio, mire con cuidado y se mantenga en el rastro
+lo ha resuelto.
+
+**Apoyo.** Si dudan, dejad que Argos dé unos pasos en la dirección correcta y mire
+atrás, o que gasten una estrella de energía para "mirar otra vez" y darse cuenta de
+que las pisadas hondas que siguen adelante apuntan todas al mismo sitio. Ir pegados
+al perro y no rendirse siempre encuentra el rastro; esta parada está pensada para
+sentirse como un comienzo fácil y feliz.
+
+## Parada 2: Las Pozas de la Marea (Normal)
+
+**El reto.** El rastro lleva entre tres pozas de marea llenas de sol, y los jugadores
+deben averiguar junto a qué poza descansó su amigo, donde se le escurrió un hilo de
+la capa.
+
+**El ejemplo resuelto.** Leed la escena para que las tres pozas queden claras. Junto
+a la **poza uno** hay una concha blanca. Junto a la **poza dos** hay una concha
+rayada. Junto a la **poza tres** hay un guijarro gris y liso. Argos da dos pistas
+para tener en mente a la vez: el olor **pasó junto a una concha rayada** (así que no
+la poza de la concha blanca), y el olor **no se detuvo donde estaba el guijarro**
+(así que no la poza del guijarro). Tachad la poza uno y la poza tres, y solo queda la
+**poza dos**, la de la concha rayada y sin guijarro. Ahí es donde se encuentra el
+hilo caído, señalando el camino.
+
+**Solución prevista.** Es un momento de Memoria, Lógica y Observación. La jugada
+lista es recordar las dos pistas de Argos y usarlas para ir descartando pozas una a
+una hasta que quede una sola. Contar con los dedos, señalar cada poza por turno o
+poner una ficha junto a cada una mientras razonan valen todos.
+
+**Apoyo.** Si los niños pierden el hilo, simplificad a una pista cada vez: "Argos
+dice que la concha blanca no, así que ¿qué pozas quedan?", luego "Argos dice que el
+guijarro no, así que ¿cuál es?". O dejad que gasten una estrella de energía mientras
+Argos olfatea directo hasta la poza correcta. Llegar a la poza dos por cualquier
+camino cuenta como un éxito completo y recupera una estrella de energía.
+
+## Parada 3: La Duna Lejana (Normal)
+
+**El reto.** El recuerdo ha caído cerca de una duna solitaria y el viento lo ha medio
+enterrado en la arena. Argos encuentra el sitio; los jugadores deben desenterrarlo
+con cuidado y devolvérselo a su amigo.
+
+**Solución prevista.** Es un momento de Observación y Lealtad. La jugada lista y
+amable es ver hacia dónde apunta la nariz Argos, arrodillarse en ese punto exacto y
+cavar con cuidado juntos, apartando la arena poco a poco y atentos a una esquina de
+madera de olivo en vez de escarbar y esparcirla. Cuando lo hacen, la prenda tallada
+sale caliente y entera, y Argos libera lo último con una pata suave. La paciencia y
+el cuidado, no la fuerza, ganan el día.
+
+**Apoyo.** Si un niño cava en el lugar equivocado o se frustra, que Argos se acerque,
+olfatee una vez y empiece a cavar él mismo justo donde debe ser, para que puedan
+unirse. Gastar una estrella de energía para "mirar más de cerca" también revela el
+destello de la madera. El recuerdo siempre aparece; la única pregunta es con cuánta
+ternura.
+
+## El final
+
+No hay batalla ni perdedor. Cuando el recuerdo vuelve a casa, Lykos está lleno de
+alegría y abraza tanto la prenda como a Argos, Odiseo el Astuto elogia a los héroes
+por no dejar a nadie atrás, y **Tetis, la Madre del Mar**, sonríe sobre el mar en
+calma para que las naves puedan zarpar a casa con cada amigo y cada tesoro a salvo a
+bordo. Los héroes han ganado de la única manera en que se gana aquí: siendo astutos,
+valientes y leales.

@@ -1,0 +1,40 @@
+# Named characters of the Windswept Shores of Troy.
+
+- id: odysseus-clever
+  names:
+    en-GB: Odysseus the Clever
+    es-ES: Odiseo el Astuto
+    it-IT: Odisseo l'Astuto
+  kind: character
+  disposition: friendly
+  description:
+    en-GB: The famously clever captain of the seafarers, who prizes a good idea over a strong arm and sends the heroes out with a clever plan and a kind word.
+    es-ES: El famoso y astuto capitán de los navegantes, que valora más una buena idea que un brazo fuerte y envía a los héroes con un plan ingenioso y una palabra amable.
+    it-IT: Il famoso e astuto capitano dei naviganti, che apprezza più una buona idea di un braccio forte e manda gli eroi con un piano ingegnoso e una parola gentile.
+  first_seen: the-great-wooden-horse
+
+- id: thetis-sea-mother
+  names:
+    en-GB: Thetis the Sea-Mother
+    es-ES: Tetis, la Madre del Mar
+    it-IT: Teti, la Madre del Mare
+  kind: character
+  disposition: kindly
+  description:
+    en-GB: A gentle sea goddess who calms the waves and smiles on heroes that win by thinking and caring rather than by force.
+    es-ES: Una dulce diosa del mar que calma las olas y sonríe a los héroes que vencen pensando y cuidando, no por la fuerza.
+    it-IT: Una dolce dea del mare che calma le onde e sorride agli eroi che vincono pensando e prendendosi cura degli altri, non con la forza.
+  first_seen: the-great-wooden-horse
+
+- id: aeolus-wind-keeper
+  names:
+    en-GB: Aeolus, Keeper of the Winds
+    es-ES: Eolo, Guardián de los Vientos
+    it-IT: Eolo, Custode dei Venti
+  kind: character
+  disposition: kindly
+  description:
+    en-GB: The gentle keeper of the winds on his floating isle, who lends a fair wind to travellers who ask cleverly and kindly, and never out of greed.
+    es-ES: El amable guardián de los vientos en su isla flotante, que presta un viento favorable a los viajeros que lo piden con ingenio y amabilidad, nunca por codicia.
+    it-IT: Il gentile custode dei venti sulla sua isola galleggiante, che concede un vento favorevole ai viaggiatori che lo chiedono con ingegno e gentilezza, mai per avidità.
+  first_seen: the-long-way-home

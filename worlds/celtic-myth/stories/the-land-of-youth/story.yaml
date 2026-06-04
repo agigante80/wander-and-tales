@@ -1,0 +1,83 @@
+world: celtic-myth
+id: the-land-of-youth
+title:
+  en-GB: The Journey to the Land of Youth
+  es-ES: El Viaje a la Tierra de la Juventud
+  it-IT: Il Viaggio alla Terra della Giovinezza
+age:
+  recommended: older
+  also_works_for: [young]
+skills:
+  - logic
+  - spatial
+  - observation
+  - social-emotional
+peril: heroic
+adult_gm: true
+dice:
+  minimum: 1d6
+  recommended: d20-set
+players:
+  min: 2
+  max: 5
+play_time_minutes: 40
+images:
+  - id: cover
+    role: cover
+    orientation: portrait
+    prompt: >
+      Two older Celtic heroes on a misty loch shore at dawn, a sprig of oak in hand,
+      a faint blossoming otherworld of ever-flowering apple trees shimmering across
+      the mist, a leaping silver salmon and a gentle selkie nearby. Brave and serene.
+    alt:
+      en-GB: Two older Celtic heroes on a misty loch shore at dawn with a sprig of oak, a faint blossoming otherworld shimmering across the mist, a leaping salmon and a selkie nearby.
+      es-ES: Dos héroes celtas mayores en la orilla brumosa de un lago al amanecer con una ramita de roble, un tenue Otro Mundo en flor que brilla al otro lado de la niebla, un salmón que salta y una foca encantada cerca.
+      it-IT: Due eroi celtici più grandi sulla riva nebbiosa di un lago all'alba con un rametto di quercia, un tenue Altromondo in fiore che brilla oltre la nebbia, un salmone che salta e una foca incantata vicino.
+  - id: scene-salmons-riddle
+    role: scene
+    orientation: landscape
+    canon_ref: salmon-wisdom
+    prompt: >
+      A bright old silver salmon rising from a still misty loch beside two older
+      heroes who think hard on the shore, ripples spreading around the fish. Calm and
+      clever, not frightening.
+    alt:
+      en-GB: A bright old silver salmon rising from a still misty loch beside two older heroes thinking hard on the shore.
+      es-ES: Un viejo salmón plateado y reluciente que emerge de un lago quieto y brumoso junto a dos héroes mayores que piensan con atención en la orilla.
+      it-IT: Un vecchio salmone argenteo e lucente che emerge da un lago immobile e nebbioso accanto a due eroi più grandi che riflettono con attenzione sulla riva.
+  - id: scene-selkie-crossing
+    role: scene
+    orientation: landscape
+    canon_ref: sorcha-selkie
+    prompt: >
+      A gentle selkie in a grey sealskin cloak rowing two older heroes across a misty
+      loch in a small wooden boat, the heroes offering a warm smile and a honey
+      oatcake. Tender and hopeful.
+    alt:
+      en-GB: A gentle selkie in a grey sealskin cloak rowing two older heroes across a misty loch in a small boat, the heroes offering a smile and an oatcake.
+      es-ES: Una amable foca encantada con capa de piel de foca gris que rema con dos héroes mayores a través de un lago brumoso en una barca pequeña, mientras los héroes le ofrecen una sonrisa y una torta de avena.
+      it-IT: Una gentile foca incantata con un mantello di pelle di foca grigia che rema con due eroi più grandi attraverso un lago nebbioso su una piccola barca, mentre gli eroi le offrono un sorriso e una focaccia d'avena.
+  - id: scene-land-of-youth
+    role: scene
+    orientation: landscape
+    canon_ref: land-of-youth
+    prompt: >
+      A gentle blossoming otherworld of ever-flowering apple trees and soft golden
+      light, two older heroes kindly taking a small friend by the hand to lead them
+      home, blossom drifting on the air. Warm and a little wistful.
+    alt:
+      en-GB: A blossoming otherworld of ever-flowering apple trees and soft golden light, two older heroes kindly taking a small friend by the hand to lead them home.
+      es-ES: Un Otro Mundo en flor de manzanos siempre floridos y suave luz dorada, donde dos héroes mayores toman con cariño de la mano a un amiguito para llevarlo a casa.
+      it-IT: Un Altromondo in fiore di meli sempre fioriti e dolce luce dorata, dove due eroi più grandi prendono con affetto per mano un amichetto per riportarlo a casa.
+  - id: scene-home-across-mist
+    role: scene
+    orientation: landscape
+    canon_ref: danu-kind
+    prompt: >
+      Two older heroes and a small friend safely back on the home loch shore at
+      sunrise, a gentle selkie waving from the water, a kind goddess smiling softly
+      from the brightening green hills. Joyful and warm.
+    alt:
+      en-GB: Two older heroes and a small friend safely back on the home loch shore at sunrise, a gentle selkie waving from the water, a kind goddess smiling from the green hills.
+      es-ES: Dos héroes mayores y un amiguito de vuelta a salvo en la orilla del lago al amanecer, una amable foca encantada que saluda desde el agua y una diosa bondadosa que sonríe desde las colinas verdes.
+      it-IT: Due eroi più grandi e un amichetto di nuovo al sicuro sulla riva del lago all'alba, una gentile foca incantata che saluta dall'acqua e una dea gentile che sorride dalle colline verdi.

@@ -1,0 +1,83 @@
+world: celtic-myth
+id: swan-childrens-lullaby
+title:
+  en-GB: The Swan Children's Lullaby
+  es-ES: La Nana de los Niños Cisne
+  it-IT: La Ninnananna dei Bambini Cigno
+age:
+  recommended: young
+  also_works_for: [early]
+skills:
+  - memory
+  - vocabulary
+  - social-emotional
+  - observation
+peril: gentle
+adult_gm: true
+dice:
+  minimum: 1d6
+  recommended: d20-set
+players:
+  min: 2
+  max: 5
+play_time_minutes: 25
+images:
+  - id: cover
+    role: cover
+    orientation: portrait
+    prompt: >
+      Two young Celtic heroes by a still misty loch at dusk, gently holding a small
+      wooden harp, four graceful white swans with kind faces gathered near, soft grey
+      mist around them waiting to turn to colour. Tender and hopeful.
+    alt:
+      en-GB: Two young Celtic heroes by a misty loch at dusk holding a small harp, four white swans with kind faces near, grey mist waiting to turn to colour.
+      es-ES: Dos jóvenes héroes celtas junto a un lago brumoso al anochecer con una pequeña arpa, cuatro cisnes blancos de rostro amable cerca y niebla gris que espera volverse color.
+      it-IT: Due giovani eroi celtici accanto a un lago nebbioso al crepuscolo con una piccola arpa, quattro cigni bianchi dal volto gentile vicino e nebbia grigia che attende di diventare colore.
+  - id: scene-grey-mist
+    role: scene
+    orientation: landscape
+    canon_ref: swan-children
+    prompt: >
+      Two small heroes gently approaching four graceful white swans gathered close
+      together on a still, grey, misty loch at dusk, moving slowly and kindly. Calm
+      and gentle.
+    alt:
+      en-GB: Two small heroes gently approaching four white swans gathered on a still grey misty loch at dusk.
+      es-ES: Dos héroes pequeños que se acercan con dulzura a cuatro cisnes blancos reunidos en un lago gris, quieto y brumoso al anochecer.
+      it-IT: Due piccoli eroi che si avvicinano con dolcezza a quattro cigni bianchi raccolti su un lago grigio, immobile e nebbioso al crepuscolo.
+  - id: scene-remembering
+    role: scene
+    orientation: landscape
+    canon_ref: swan-children
+    prompt: >
+      Two small heroes and four white swans piecing a forgotten lullaby back
+      together on a misty loch, soft glints of rose and gold light beginning to
+      return to the dusk around them. Hopeful and warm.
+    alt:
+      en-GB: Two small heroes and four white swans piecing a forgotten lullaby back together, soft glints of rose and gold returning to the dusk.
+      es-ES: Dos héroes pequeños y cuatro cisnes blancos que reconstruyen una nana olvidada, con suaves destellos rosados y dorados que vuelven al anochecer.
+      it-IT: Due piccoli eroi e quattro cigni bianchi che ricompongono una ninnananna dimenticata, con dolci bagliori rosati e dorati che tornano nel crepuscolo.
+  - id: scene-playing-together
+    role: scene
+    orientation: landscape
+    canon_ref: little-harp
+    prompt: >
+      A small hero playing a little wooden harp on a misty loch shore while four
+      white swans sing along, the grey mist beginning to lift and glow with colour,
+      the other hero cheering softly. Joyful and gentle.
+    alt:
+      en-GB: A small hero playing a little harp on a misty loch shore as four white swans sing along, the grey mist beginning to lift and glow.
+      es-ES: Una heroína pequeña que toca una pequeña arpa en la orilla brumosa de un lago mientras cuatro cisnes blancos cantan, y la niebla gris empieza a levantarse y brillar.
+      it-IT: Una piccola eroina che suona una piccola arpa sulla riva nebbiosa di un lago mentre quattro cigni bianchi cantano, e la nebbia grigia inizia a sollevarsi e a risplendere.
+  - id: scene-dusk-rose
+    role: scene
+    orientation: landscape
+    canon_ref: standing-stones
+    prompt: >
+      A misty loch dusk turned glorious rose and gold as four white swans sing, an
+      ancient ring of standing stones glowing softly on a green rise, two small
+      heroes watching in wonder. Radiant and serene.
+    alt:
+      en-GB: A misty loch dusk turned rose and gold as four white swans sing, an ancient ring of standing stones glowing on a green rise, two heroes watching in wonder.
+      es-ES: Un anochecer brumoso sobre el lago vuelto rosa y oro mientras cantan cuatro cisnes blancos, con un antiguo círculo de piedras que brilla suave en una loma verde y dos héroes maravillados.
+      it-IT: Un crepuscolo nebbioso sul lago diventato rosa e oro mentre quattro cigni bianchi cantano, con un antico cerchio di pietre che brilla dolce su un'altura verde e due eroi meravigliati.

@@ -1,0 +1,84 @@
+world: celtic-myth
+id: pooks-tangled-paths
+title:
+  en-GB: Pook's Tangled Paths
+  es-ES: Los Senderos Enredados de Pook
+  it-IT: I Sentieri Aggrovigliati di Pook
+age:
+  recommended: young
+  also_works_for: [early]
+skills:
+  - spatial
+  - logic
+  - observation
+  - social-emotional
+peril: gentle
+adult_gm: true
+dice:
+  minimum: 1d6
+  recommended: d20-set
+players:
+  min: 2
+  max: 5
+play_time_minutes: 25
+images:
+  - id: cover
+    role: cover
+    orientation: portrait
+    prompt: >
+      Two young Celtic heroes at the misty edge of an ancient oak grove, holding a
+      ball of bright red wool, soft ribbons of mist tangling the winding paths, a
+      playful shapeshifting faerie peeking from behind a tree as a grinning hare.
+      Bright and hopeful.
+    alt:
+      en-GB: Two young Celtic heroes at the misty edge of an oak grove holding a ball of red wool, ribbons of mist tangling the paths, a grinning faerie hare peeking from a tree.
+      es-ES: Dos jóvenes héroes celtas al borde brumoso de un robledal con un ovillo de lana roja, con cintas de niebla que enredan los senderos y un duende con forma de liebre que asoma entre los árboles.
+      it-IT: Due giovani eroi celtici al margine nebbioso di un querceto con un gomitolo di lana rossa, con nastri di nebbia che aggrovigliano i sentieri e un folletto a forma di lepre che fa capolino tra gli alberi.
+  - id: scene-tangled-grove
+    role: scene
+    orientation: landscape
+    canon_ref: oak-grove
+    prompt: >
+      Two small heroes laying a trail of bright red wool as they walk a looping,
+      misty path among great mossy oak trees, the way doubling back on itself.
+      Cheerful and clever.
+    alt:
+      en-GB: Two small heroes laying a trail of red wool along a looping misty path among great mossy oaks.
+      es-ES: Dos héroes pequeños que van dejando un rastro de lana roja por un sendero brumoso y serpenteante entre grandes robles cubiertos de musgo.
+      it-IT: Due piccoli eroi che srotolano un filo di lana rossa lungo un sentiero nebbioso e tortuoso tra grandi querce coperte di muschio.
+  - id: scene-three-doors
+    role: scene
+    orientation: landscape
+    canon_ref: pook-puca
+    prompt: >
+      Three mossy archway doorways grown from oak branches in a misty grove, a
+      playful faerie perched above giving a teasing clue, two small heroes thinking
+      hard about which way leads on. Playful and bright.
+    alt:
+      en-GB: Three mossy archway doorways of oak branches in a misty grove, a playful faerie above giving a clue, two small heroes thinking which leads on.
+      es-ES: Tres arcos de musgo formados con ramas de roble en un claro brumoso, un duende travieso encima que da una pista y dos héroes pequeños pensando cuál es el bueno.
+      it-IT: Tre archi di muschio formati da rami di quercia in una radura nebbiosa, un folletto burlone sopra che dà un indizio e due piccoli eroi che pensano quale porti avanti.
+  - id: scene-catching-pook
+    role: scene
+    orientation: landscape
+    canon_ref: pook-puca
+    prompt: >
+      Two small heroes sharing a honey oatcake with a small, sheepish-looking
+      shapeshifting faerie who has stopped his mischief, all sitting on a mossy log
+      in the oak grove with kind smiles. Tender and warm.
+    alt:
+      en-GB: Two small heroes sharing a honey oatcake with a small sheepish shapeshifting faerie on a mossy log, all smiling kindly.
+      es-ES: Dos héroes pequeños que comparten una torta de avena y miel con un pequeño duende cambiaformas avergonzado sobre un tronco con musgo, todos sonriendo con amabilidad.
+      it-IT: Due piccoli eroi che condividono una focaccia d'avena e miele con un piccolo folletto mutaforma imbarazzato su un tronco muschioso, tutti con sorrisi gentili.
+  - id: scene-paths-run-true
+    role: scene
+    orientation: landscape
+    canon_ref: danu-kind
+    prompt: >
+      A clear, bright path running true through a sunlit oak grove as cheerful
+      villagers head to a flower-decked May fair, a gentle goddess smiling softly
+      from the green hills, two small heroes waving. Joyful and warm.
+    alt:
+      en-GB: A clear bright path through a sunlit oak grove, cheerful villagers heading to a May fair, a gentle goddess smiling from the green hills, two heroes waving.
+      es-ES: Un sendero claro y luminoso por un robledal soleado, con aldeanos alegres que van a una feria de mayo, una diosa amable que sonríe desde las colinas verdes y dos héroes que saludan.
+      it-IT: Un sentiero chiaro e luminoso in un querceto assolato, con allegri abitanti che vanno a una fiera di maggio, una dea gentile che sorride dalle colline verdi e due eroi che salutano.
