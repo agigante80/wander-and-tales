@@ -1,0 +1,37 @@
+# World-flavour vocabulary: the three hero qualities (this world has no magic).
+
+- id: cleverness
+  names:
+    en-GB: Cleverness
+    es-ES: Astucia
+    it-IT: Astuzia
+  kind: term
+  description:
+    en-GB: Quick thinking and a clever plan. In the green isles, a good idea opens doors that force never could, and a riddle is solved with a cool head.
+    es-ES: Pensamiento rápido y un plan ingenioso. En las islas verdes, una buena idea abre puertas que la fuerza jamás podría, y un acertijo se resuelve con la cabeza fría.
+    it-IT: Pensiero rapido e un piano ingegnoso. Nelle isole verdi, una buona idea apre porte che la forza non potrebbe mai, e un indovinello si risolve con la testa fredda.
+  first_seen: pooks-tangled-paths
+
+- id: courage
+  names:
+    en-GB: Courage
+    es-ES: Valor
+    it-IT: Coraggio
+  kind: term
+  description:
+    en-GB: A steady heart in a misty, scary moment. Courage is not being unafraid; it is being kind and clever even when you are afraid.
+    es-ES: Un corazón firme en un momento brumoso y de miedo. El valor no es no tener miedo; es ser amable e ingenioso aun cuando lo tienes.
+    it-IT: Un cuore saldo in un momento nebbioso e di paura. Il coraggio non è non avere paura; è essere gentili e ingegnosi anche quando si ha paura.
+  first_seen: pooks-tangled-paths
+
+- id: kindness
+  names:
+    en-GB: Kindness
+    es-ES: Bondad
+    it-IT: Gentilezza
+  kind: term
+  description:
+    en-GB: Care for every soul, faerie or friend. The greatest heroes of the isles are the ones who share, help, and keep a promise.
+    es-ES: El cuidado de toda alma, sea hada o amiga. Los mayores héroes de las islas son los que comparten, ayudan y cumplen una promesa.
+    it-IT: La cura per ogni anima, fata o amica. I più grandi eroi delle isole sono quelli che condividono, aiutano e mantengono una promessa.
+  first_seen: pooks-tangled-paths

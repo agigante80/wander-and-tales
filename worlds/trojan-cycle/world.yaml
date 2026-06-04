@@ -1,0 +1,101 @@
+id: trojan-cycle
+name:
+  en-GB: The Windswept Shores of Troy
+  es-ES: Las Costas Ventosas de Troya
+  it-IT: Le Coste Ventose di Troia
+tone: epic seafaring wonder
+palette:
+  - "#f6efe2"  # warm sand background
+  - "#2f5a86"  # wine-dark sea blue (primary)
+  - "#b5742f"  # bronze
+  - "#c0593f"  # terracotta wall red
+  - "#6f8a4a"  # olive green
+  - "#d8b048"  # gold
+  - "#d07a64"  # sunset coral
+fonts:
+  default: dejavu-serif
+lore_summary:
+  en-GB: >
+    The windswept shores of Troy stretch along a bright Aegean sea, where wooden
+    ships with painted eyes lie beached on the long sand and a great city of
+    honey-coloured walls stands proud on the hill above. For a long while two camps,
+    the weary seafarers on the beach and the proud city behind its gates, have been
+    caught in a tired old quarrel that neither truly wants. Across the wine-dark sea
+    lies the long road home, full of wonders: a loyal old hound, a keeper of the
+    winds, and lonely sea-singers on the rocks. Here a hero is not the strongest or
+    the loudest, but the one who is clever, brave, and keeps faith with a friend.
+    The grandest deeds are done not with spears but with a good idea and a kind
+    heart, and the oldest quarrels often end with a single brave act of friendship.
+  es-ES: >
+    Las costas ventosas de Troya se extienden a lo largo de un mar Egeo luminoso,
+    donde naves de madera con ojos pintados reposan varadas en la larga arena y una
+    gran ciudad de murallas color miel se alza orgullosa en la colina. Desde hace
+    mucho, dos campamentos, los cansados navegantes de la playa y la orgullosa
+    ciudad tras sus puertas, están atrapados en una vieja disputa que en realidad
+    nadie quiere. Al otro lado del mar color de vino está el largo camino a casa,
+    lleno de maravillas: un viejo y fiel sabueso, un guardián de los vientos y
+    cantoras solitarias sobre las rocas. Aquí un héroe no es el más fuerte ni el que
+    más grita, sino quien es astuto, valiente y leal con un amigo. Las hazañas más
+    grandes no se logran con lanzas, sino con una buena idea y un buen corazón, y las
+    disputas más antiguas suelen terminar con un solo acto valiente de amistad.
+  it-IT: >
+    Le coste ventose di Troia si stendono lungo un luminoso mare Egeo, dove navi di
+    legno dagli occhi dipinti giacciono in secca sulla lunga sabbia e una grande
+    città dalle mura color miele si erge fiera sulla collina. Da tempo due
+    accampamenti, gli stanchi naviganti sulla spiaggia e la fiera città dietro le sue
+    porte, sono presi in una vecchia lite che in realtà nessuno vuole. Oltre il mare
+    color del vino si trova la lunga via verso casa, piena di meraviglie: un vecchio
+    e fedele cane, un custode dei venti e cantatrici solitarie sugli scogli. Qui un
+    eroe non è il più forte né quello che grida di più, ma chi è astuto, coraggioso e
+    leale con un amico. Le imprese più grandi non si compiono con le lance, ma con
+    una buona idea e un cuore buono, e le liti più antiche spesso finiscono con un
+    solo coraggioso gesto di amicizia.
+visual_style: >
+  Soft, warm storybook illustration in gentle watercolour and coloured-pencil
+  texture, with a sunlit Aegean seafaring mood: a bright blue sea, long sandy
+  shores, wooden ships with painted eyes and white sails, bronze and terracotta,
+  and a great city of honey-coloured stone walls and olive trees on a hill. Golden,
+  hopeful light. Use a palette of warm sand (#f6efe2), wine-dark sea blue (#2f5a86),
+  bronze (#b5742f), terracotta wall red (#c0593f), olive green (#6f8a4a), gold
+  (#d8b048) and sunset coral (#d07a64). Rounded, friendly shapes and kind faces.
+  Brave and hopeful, never grim: the two camps look weary and ready for friendship
+  rather than fierce, and there is no blood, no weapons raised in anger, and no real
+  violence.
+images:
+  - id: cover
+    role: cover
+    orientation: portrait
+    prompt: >
+      A wide establishing view of the windswept shores of Troy at golden hour:
+      wooden ships with painted eyes and furled sails beached on long sand, a great
+      city of honey-coloured walls and olive trees on the hill above, and a bright
+      blue sea stretching to the horizon. Welcoming and grand.
+    alt:
+      en-GB: The windswept shores of Troy at golden hour, wooden ships beached on the sand below a great city of honey-coloured walls, a bright blue sea beyond.
+      es-ES: Las costas ventosas de Troya al atardecer dorado, naves de madera varadas en la arena bajo una gran ciudad de murallas color miel, con un mar azul al fondo.
+      it-IT: Le coste ventose di Troia nell'ora dorata, navi di legno in secca sulla sabbia sotto una grande città dalle mura color miele, con un mare azzurro sullo sfondo.
+  - id: odysseus-clever
+    role: portrait
+    orientation: square
+    canon_ref: odysseus-clever
+    prompt: >
+      A clever, kindly sea-captain with a short curly beard, a bronze-trimmed tunic
+      and a warm, thoughtful smile, holding a small wooden model of a horse as if
+      sharing a clever plan. Wise and friendly, not stern.
+    alt:
+      en-GB: A clever kindly sea-captain with a short curly beard and a warm smile, holding a small wooden model of a horse.
+      es-ES: Un capitán de mar astuto y amable, de barba corta y rizada y sonrisa cálida, que sostiene un pequeño caballo de madera como quien comparte un plan ingenioso.
+      it-IT: Un capitano di mare astuto e gentile, dalla barba corta e riccia e dal sorriso caldo, che tiene un piccolo cavallo di legno come chi condivide un piano ingegnoso.
+  - id: wooden-horse
+    role: portrait
+    orientation: square
+    canon_ref: wooden-horse
+    prompt: >
+      A huge, friendly wooden horse on wooden wheels, garlanded with flowers and
+      olive branches, its door open to show baskets of figs and a little drum inside
+      instead of anything frightening. Cheerful and inviting, a gift rather than a
+      trick.
+    alt:
+      en-GB: A huge friendly wooden horse on wheels, garlanded with flowers, its door open to show baskets of figs and a little drum inside.
+      es-ES: Un enorme y simpático caballo de madera sobre ruedas, adornado con flores, con la puerta abierta que muestra cestas de higos y un tamborcito dentro.
+      it-IT: Un enorme e simpatico cavallo di legno su ruote, ornato di fiori, con lo sportello aperto che mostra ceste di fichi e un tamburello dentro.

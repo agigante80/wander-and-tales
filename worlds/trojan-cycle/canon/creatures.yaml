@@ -1,0 +1,27 @@
+# Creatures of the Windswept Shores of Troy. None of them is truly wicked.
+
+- id: argos-hound
+  names:
+    en-GB: Argos the Faithful Hound
+    es-ES: Argos el Sabueso Fiel
+    it-IT: Argo il Cane Fedele
+  kind: creature
+  disposition: friendly
+  description:
+    en-GB: A loyal old dog who never forgets a friend or a scent, and who helps the heroes track down what is lost along the shore. Loyalty itself, with a wagging tail.
+    es-ES: Un viejo perro fiel que nunca olvida a un amigo ni un olor, y que ayuda a los héroes a rastrear lo perdido por la orilla. La lealtad misma, con la cola moviéndose.
+    it-IT: Un vecchio cane fedele che non dimentica mai un amico né un odore, e che aiuta gli eroi a rintracciare ciò che si è perso lungo la riva. La lealtà in persona, con la coda che scodinzola.
+  first_seen: argos-and-the-keepsake
+
+- id: singing-sirens
+  names:
+    en-GB: The Singing Sirens
+    es-ES: Las Sirenas Cantoras
+    it-IT: Le Sirene Cantatrici
+  kind: creature
+  disposition: lonely
+  description:
+    en-GB: Sea-singers on a rocky isle whose song is beautiful but sad and lonely. They are not wicked, only longing for company, and once cheered and befriended they sing travellers safely on their way.
+    es-ES: Cantoras del mar en una isla rocosa cuyo canto es hermoso pero triste y solitario. No son malvadas, solo anhelan compañía, y una vez animadas y hechas amigas, cantan para guiar a salvo a los viajeros.
+    it-IT: Cantatrici del mare su un'isola rocciosa il cui canto è bello ma triste e solitario. Non sono cattive, solo desiderose di compagnia, e una volta rallegrate e fatte amiche, cantano per guidare i viaggiatori al sicuro.
+  first_seen: the-long-way-home

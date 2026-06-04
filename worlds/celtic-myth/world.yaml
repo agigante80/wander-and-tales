@@ -1,0 +1,101 @@
+id: celtic-myth
+name:
+  en-GB: The Emerald Isles of the Celts
+  es-ES: Las Islas Esmeralda de los Celtas
+  it-IT: Le Isole di Smeraldo dei Celti
+tone: misty green wonder
+palette:
+  - "#f4f6ef"  # cream mist background
+  - "#2f6b4f"  # emerald green (primary)
+  - "#5a8a93"  # misty teal
+  - "#7a5a3a"  # oak brown
+  - "#8a5a96"  # heather purple
+  - "#d8a838"  # celtic gold
+  - "#c8748a"  # dawn rose
+fonts:
+  default: dejavu-serif
+lore_summary:
+  en-GB: >
+    The emerald isles of the Celts roll green and misty between a silver sea and
+    soft grey skies, dotted with thatched roundhouses, ancient oak groves, and
+    rings of humming standing stones. Mist drifts over still lochs, and across it,
+    just out of sight, lies the Land of Youth where no one grows old. The isles are
+    full of gentle wonders: a playful shapeshifting faerie, a wise old salmon, a
+    shy selkie of the loch, and four children long ago turned into singing swans.
+    Here a hero is not the strongest or the loudest, but the one who is clever,
+    listens kindly, and keeps a promise. The grandest deeds are done with
+    cleverness and courage and a kind heart, and even a fearsome-seeming stranger,
+    met with a friendly word, often turns out lonelier than it is unkind.
+  es-ES: >
+    Las islas esmeralda de los celtas ondulan verdes y brumosas entre un mar
+    plateado y cielos de un gris suave, salpicadas de casas redondas con techo de
+    paja, antiguos robledales y círculos de piedras que zumban. La niebla flota
+    sobre lagos quietos y, al otro lado, casi sin verse, está la Tierra de la
+    Juventud, donde nadie envejece. Las islas están llenas de maravillas amables:
+    un travieso duende que cambia de forma, un viejo y sabio salmón, una tímida
+    foca encantada del lago y cuatro niños convertidos hace mucho en cisnes que
+    cantan. Aquí un héroe no es el más fuerte ni el que más grita, sino quien es
+    listo, escucha con amabilidad y cumple una promesa. Las hazañas más grandes se
+    logran con astucia, valor y un buen corazón, y hasta un desconocido de aspecto
+    temible, si lo afrontáis con buenas palabras, suele estar más solo que enojado.
+  it-IT: >
+    Le isole di smeraldo dei celti ondeggiano verdi e nebbiose tra un mare
+    argenteo e cieli di un grigio tenue, punteggiate di case rotonde dal tetto di
+    paglia, antichi querceti e cerchi di pietre che vibrano piano. La nebbia
+    fluttua su laghi immobili e, dall'altra parte, quasi invisibile, si trova la
+    Terra della Giovinezza, dove nessuno invecchia. Le isole sono piene di
+    meraviglie gentili: un folletto burlone che cambia forma, un vecchio e saggio
+    salmone, una timida foca incantata del lago e quattro bambini trasformati tanto
+    tempo fa in cigni che cantano. Qui un eroe non è il più forte né quello che
+    grida di più, ma chi è ingegnoso, ascolta con gentilezza e mantiene una
+    promessa. Le imprese più grandi si compiono con astuzia, coraggio e un cuore
+    buono, e persino uno sconosciuto dall'aria spaventosa, accolto con una parola
+    gentile, spesso si rivela più solo che cattivo.
+visual_style: >
+  Soft, warm storybook illustration in gentle watercolour and coloured-pencil
+  texture, with a misty Celtic mood: rolling emerald-green hills, ancient oak
+  groves, rings of grey standing stones, thatched roundhouses with smoke curling
+  up, and still silver lochs wrapped in soft mist, lit by gentle dawn or dusk
+  light. A few delicate Celtic-knotwork touches. Use a palette of cream mist
+  (#f4f6ef), emerald green (#2f6b4f), misty teal (#5a8a93), oak brown (#7a5a3a),
+  heather purple (#8a5a96), celtic gold (#d8a838) and dawn rose (#c8748a). Rounded,
+  friendly shapes and kind faces. Gentle and hopeful, never grim: even uncanny
+  creatures look more wistful than scary, and there is no blood, no weapons raised
+  in anger, and no real violence.
+images:
+  - id: cover
+    role: cover
+    orientation: portrait
+    prompt: >
+      A wide establishing view of the emerald isles of the Celts at misty dawn:
+      rolling green hills, an ancient oak grove, a ring of grey standing stones on a
+      rise, a thatched roundhouse with smoke curling up, and a still silver loch
+      wrapped in soft mist. Welcoming and wondrous.
+    alt:
+      en-GB: The emerald isles at misty dawn, green hills with a ring of standing stones, a thatched roundhouse and a silver loch wrapped in mist.
+      es-ES: Las islas esmeralda al amanecer brumoso, colinas verdes con un círculo de piedras, una casa redonda de paja y un lago plateado envuelto en niebla.
+      it-IT: Le isole di smeraldo all'alba nebbiosa, colline verdi con un cerchio di pietre, una casa rotonda di paglia e un lago argenteo avvolto nella nebbia.
+  - id: lonely-selkie
+    role: portrait
+    orientation: square
+    canon_ref: sorcha-selkie
+    prompt: >
+      A gentle selkie, a kind seal-person with soft dark eyes and a sleek grey
+      sealskin cloak about her shoulders, sitting on a misty loch shore looking shy
+      and a little lonely rather than frightening. Wistful and tender.
+    alt:
+      en-GB: A gentle selkie, a kind seal-person with soft dark eyes and a grey sealskin cloak, sitting on a misty loch shore looking shy and lonely.
+      es-ES: Una foca encantada amable, con ojos oscuros y dulces y una capa de piel de foca gris, sentada en la orilla brumosa de un lago, con aire tímido y solitario.
+      it-IT: Una gentile foca incantata, dagli occhi scuri e dolci e un mantello di pelle di foca grigia, seduta sulla riva nebbiosa di un lago, dall'aria timida e solitaria.
+  - id: swan-children
+    role: portrait
+    orientation: square
+    canon_ref: swan-children
+    prompt: >
+      Four graceful white swans with gentle, kind faces gliding together on a still
+      misty loch at dusk, a soft glow of dawn-rose and gold light about them as they
+      sing. Serene and magical, not frightening.
+    alt:
+      en-GB: Four graceful white swans with kind faces gliding together on a still misty loch at dusk, a soft glow of rose and gold light about them.
+      es-ES: Cuatro elegantes cisnes blancos de rostro amable que se deslizan juntos por un lago brumoso al anochecer, con un suave resplandor rosado y dorado a su alrededor.
+      it-IT: Quattro eleganti cigni bianchi dal volto gentile che scivolano insieme su un lago nebbioso al crepuscolo, con un dolce chiarore rosato e dorato intorno.

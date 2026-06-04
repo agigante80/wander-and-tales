@@ -1,0 +1,109 @@
+# Four example heroes for the Windswept Shores of Troy: ready-to-use sample
+# adventure sheets, two for ages 6 to 8 (young) and two for ages 9 to 12 (older).
+# This world has no magic; the three slots hold the three hero qualities (canon term
+# ids). The hero image is drawn in the sheet's "Draw your hero" box.
+
+- id: thalia
+  tier: young
+  name: Thalia
+  hero_of:
+    en-GB: the Windswept Shores of Troy
+    es-ES: las Costas Ventosas de Troya
+    it-IT: le Coste Ventose di Troia
+  magics: [cleverness, loyalty, courage]
+  energy: 4
+  carry:
+    - { en-GB: a sailor's cloak, es-ES: una capa de marinero, it-IT: un mantello da marinaio }
+    - { en-GB: a conch horn, es-ES: una caracola, it-IT: una conchiglia }
+    - { en-GB: a fig from the basket, es-ES: un higo de la cesta, it-IT: un fico del cesto }
+  image:
+    id: hero-thalia
+    role: hero
+    orientation: portrait
+    prompt: >
+      A bright young seafaring hero in a simple tunic and sailor's cloak with a
+      friendly grin, holding a spiral conch shell, beached wooden ships and a bright
+      blue sea behind, ready for an adventure.
+    alt:
+      en-GB: A bright young seafaring hero in a tunic and cloak holding a spiral conch shell, beached ships and blue sea behind.
+      es-ES: Una joven heroína marinera radiante con túnica y capa que sostiene una caracola en espiral, con naves varadas y mar azul detrás.
+      it-IT: Una giovane eroina marinara radiosa con tunica e mantello che tiene una conchiglia a spirale, con navi in secca e mare azzurro dietro.
+
+- id: pavlos
+  tier: young
+  name: Pavlos
+  hero_of:
+    en-GB: the Windswept Shores of Troy
+    es-ES: las Costas Ventosas de Troya
+    it-IT: le Coste Ventose di Troia
+  magics: [courage, loyalty, cleverness]
+  energy: 3
+  carry:
+    - { en-GB: a little wooden boat, es-ES: un barquito de madera, it-IT: una barchetta di legno }
+    - { en-GB: a ball of strong thread, es-ES: un ovillo de hilo resistente, it-IT: un gomitolo di filo robusto }
+    - { en-GB: a snack for the hound, es-ES: una golosina para el sabueso, it-IT: uno spuntino per il cane }
+  image:
+    id: hero-pavlos
+    role: hero
+    orientation: portrait
+    prompt: >
+      A cheerful young seafaring hero in a simple tunic and sandals, standing proudly
+      with a small carved wooden boat, warm and kind rather than fierce, a sandy
+      shore and ships behind.
+    alt:
+      en-GB: A cheerful young seafaring hero in a tunic holding a small carved wooden boat, a sandy shore and ships behind.
+      es-ES: Un joven héroe marinero alegre con túnica que sostiene un barquito de madera tallada, con una orilla de arena y naves detrás.
+      it-IT: Un giovane eroe marinaro allegro con tunica che tiene una barchetta di legno intagliato, con una riva di sabbia e navi dietro.
+
+- id: cora
+  tier: older
+  name: Cora
+  hero_of:
+    en-GB: the Windswept Shores of Troy
+    es-ES: las Costas Ventosas de Troya
+    it-IT: le Coste Ventose di Troia
+  magics: [cleverness, courage, loyalty]
+  energy: 5
+  carry:
+    - { en-GB: a sea chart, es-ES: una carta de navegación, it-IT: una carta nautica }
+    - { en-GB: a conch horn, es-ES: una caracola, it-IT: una conchiglia }
+    - { en-GB: a coil of Penelope's thread, es-ES: un rollo del hilo de Penélope, it-IT: una matassa del filo di Penelope }
+    - { en-GB: a friendship token, es-ES: una prenda de amistad, it-IT: un pegno di amicizia }
+  image:
+    id: hero-cora
+    role: hero
+    orientation: portrait
+    prompt: >
+      A confident older seafaring hero in a cloak with a calm, clever face and hair
+      tied back, holding a rolled sea chart, the prow of a ship and the open sea
+      behind, ready for a real voyage.
+    alt:
+      en-GB: A confident older seafaring hero in a cloak with hair tied back, holding a rolled sea chart, a ship's prow and open sea behind.
+      es-ES: Una heroína marinera mayor y segura con capa y el pelo recogido, sosteniendo una carta de navegación enrollada, con la proa de una nave y el mar abierto detrás.
+      it-IT: Un'eroina marinara più grande e sicura con un mantello e i capelli raccolti, che tiene una carta nautica arrotolata, con la prua di una nave e il mare aperto dietro.
+
+- id: linos
+  tier: older
+  name: Linos
+  hero_of:
+    en-GB: the Windswept Shores of Troy
+    es-ES: las Costas Ventosas de Troya
+    it-IT: le Coste Ventose di Troia
+  magics: [courage, cleverness, loyalty]
+  energy: 4
+  carry:
+    - { en-GB: a sturdy oar, es-ES: un remo resistente, it-IT: un solido remo }
+    - { en-GB: a reed flute, es-ES: una flauta de caña, it-IT: un flauto di canna }
+    - { en-GB: a basket of figs, es-ES: una cesta de higos, it-IT: un cesto di fichi }
+  image:
+    id: hero-linos
+    role: hero
+    orientation: portrait
+    prompt: >
+      A steady older seafaring hero in a sailor's cloak with a kind, brave face,
+      leaning on a sturdy oar beside a beached ship, the wine-dark sea and a distant
+      city wall behind, warm and reassuring.
+    alt:
+      en-GB: A steady older seafaring hero in a sailor's cloak leaning on a sturdy oar beside a beached ship, the sea and a distant city wall behind.
+      es-ES: Un héroe marinero mayor y firme con capa apoyado en un remo resistente junto a una nave varada, con el mar y una muralla lejana detrás.
+      it-IT: Un eroe marinaro più grande e saldo con un mantello appoggiato a un solido remo accanto a una nave in secca, con il mare e una muraglia lontana dietro.

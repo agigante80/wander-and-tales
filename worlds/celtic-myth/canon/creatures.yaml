@@ -1,0 +1,53 @@
+# Creatures of the Emerald Isles of the Celts. None of them is truly wicked.
+
+- id: pook-puca
+  names:
+    en-GB: Pook the Puca
+    es-ES: Pook el Puca
+    it-IT: Pook il Puca
+  kind: creature
+  disposition: playful
+  description:
+    en-GB: A playful shapeshifting faerie of the oak grove who loves games and surprises, and hands out helpful hints (and the odd harmless trick) to folk he likes.
+    es-ES: Un travieso duende cambiaformas del robledal al que le encantan los juegos y las sorpresas, y que da pistas útiles (y alguna travesura inofensiva) a quien le cae bien.
+    it-IT: Un folletto burlone e mutaforma del querceto che adora i giochi e le sorprese, e dà indizi utili (e qualche scherzo innocuo) a chi gli sta simpatico.
+  first_seen: pooks-tangled-paths
+
+- id: salmon-wisdom
+  names:
+    en-GB: The Salmon of Wisdom
+    es-ES: El Salmón de la Sabiduría
+    it-IT: Il Salmone della Saggezza
+  kind: creature
+  disposition: wise
+  description:
+    en-GB: An old, bright salmon who swims in the misty loch and knows the answer to any riddle. He is fair and kind, and shares a clue gladly with the clever and the gentle.
+    es-ES: Un salmón viejo y reluciente que nada en el lago brumoso y conoce la respuesta a cualquier acertijo. Es justo y amable, y comparte de buen grado una pista con los ingeniosos y los gentiles.
+    it-IT: Un salmone vecchio e lucente che nuota nel lago nebbioso e conosce la risposta a ogni indovinello. È giusto e gentile, e condivide volentieri un indizio con gli ingegnosi e i gentili.
+  first_seen: the-land-of-youth
+
+- id: sorcha-selkie
+  names:
+    en-GB: Sorcha the Selkie
+    es-ES: Sorcha la Selkie
+    it-IT: Sorcha la Selkie
+  kind: creature
+  disposition: lonely
+  description:
+    en-GB: A gentle seal-person of the loch who can slip off her sealskin to walk ashore. She seems shy and a little lonely, but a kind word makes her a steadfast friend who will ferry travellers across the mist.
+    es-ES: Una amable foca encantada del lago que puede quitarse su piel de foca para caminar por la orilla. Parece tímida y un poco solitaria, pero una palabra amable la convierte en una amiga fiel que cruza a los viajeros a través de la niebla.
+    it-IT: Una gentile foca incantata del lago che può togliersi la pelle di foca per camminare sulla riva. Sembra timida e un po' solitaria, ma una parola gentile la rende un'amica fedele che traghetta i viaggiatori attraverso la nebbia.
+  first_seen: the-land-of-youth
+
+- id: swan-children
+  names:
+    en-GB: The Swan Children
+    es-ES: Los Niños Cisne
+    it-IT: I Bambini Cigno
+  kind: creature
+  disposition: friendly
+  description:
+    en-GB: Four gentle children turned long ago into white swans, whose evening song lifts the mist and colours the dusk. When their song falters, a grey mist lingers over the loch.
+    es-ES: Cuatro niños amables convertidos hace mucho en cisnes blancos, cuyo canto del atardecer levanta la niebla y da color al ocaso. Cuando su canto flaquea, una niebla gris se queda sobre el lago.
+    it-IT: Quattro bambini gentili trasformati tanto tempo fa in cigni bianchi, il cui canto della sera solleva la nebbia e colora il crepuscolo. Quando il loro canto vacilla, una nebbia grigia indugia sul lago.
+  first_seen: swan-childrens-lullaby

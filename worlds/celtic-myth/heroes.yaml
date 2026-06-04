@@ -1,0 +1,107 @@
+# Four example heroes for the Emerald Isles of the Celts: ready-to-use sample
+# adventure sheets, two for ages 6 to 8 (young) and two for ages 9 to 12 (older).
+# This world has no magic; the three slots hold the three hero qualities (canon term
+# ids). The hero image is drawn in the sheet's "Draw your hero" box.
+
+- id: niamh
+  tier: young
+  name: Niamh
+  hero_of:
+    en-GB: the Emerald Isles of the Celts
+    es-ES: las Islas Esmeralda de los Celtas
+    it-IT: le Isole di Smeraldo dei Celti
+  magics: [cleverness, kindness, courage]
+  energy: 4
+  carry:
+    - { en-GB: a woollen cloak, es-ES: una capa de lana, it-IT: un mantello di lana }
+    - { en-GB: a sprig of oak, es-ES: una ramita de roble, it-IT: un rametto di quercia }
+    - { en-GB: a honey oatcake, es-ES: una torta de avena y miel, it-IT: una focaccia d'avena e miele }
+  image:
+    id: hero-niamh
+    role: hero
+    orientation: portrait
+    prompt: >
+      A bright young Celtic hero in a woollen cloak with a small bronze brooch and a
+      friendly grin, a sprig of oak in hand, misty green hills behind, ready for an
+      adventure.
+    alt:
+      en-GB: A bright young Celtic hero in a woollen cloak with a bronze brooch holding a sprig of oak, misty green hills behind.
+      es-ES: Una joven heroína celta radiante con capa de lana y un broche de bronce que sostiene una ramita de roble, con colinas verdes y brumosas detrás.
+      it-IT: Una giovane eroina celtica radiosa con un mantello di lana e una spilla di bronzo che tiene un rametto di quercia, con colline verdi e nebbiose dietro.
+
+- id: cian
+  tier: young
+  name: Cian
+  hero_of:
+    en-GB: the Emerald Isles of the Celts
+    es-ES: las Islas Esmeralda de los Celtas
+    it-IT: le Isole di Smeraldo dei Celti
+  magics: [courage, kindness, cleverness]
+  energy: 3
+  carry:
+    - { en-GB: a little harp, es-ES: un arpa pequeña, it-IT: una piccola arpa }
+    - { en-GB: a ball of red wool, es-ES: un ovillo de lana roja, it-IT: un gomitolo di lana rossa }
+    - { en-GB: a snack for the puca, es-ES: una golosina para el puca, it-IT: uno spuntino per il puca }
+  image:
+    id: hero-cian
+    role: hero
+    orientation: portrait
+    prompt: >
+      A cheerful young Celtic hero in a tunic and felt boots, standing proudly with a
+      small wooden harp, warm and kind rather than fierce, an oak grove behind.
+    alt:
+      en-GB: A cheerful young Celtic hero in a tunic holding a small wooden harp, an oak grove behind.
+      es-ES: Un joven héroe celta alegre con una túnica que sostiene una pequeña arpa de madera, con un robledal detrás.
+      it-IT: Un giovane eroe celtico allegro con una tunica che tiene una piccola arpa di legno, con un querceto dietro.
+
+- id: aoife
+  tier: older
+  name: Aoife
+  hero_of:
+    en-GB: the Emerald Isles of the Celts
+    es-ES: las Islas Esmeralda de los Celtas
+    it-IT: le Isole di Smeraldo dei Celti
+  magics: [cleverness, courage, kindness]
+  energy: 5
+  carry:
+    - { en-GB: a coil of red wool, es-ES: un rollo de lana roja, it-IT: una matassa di lana rossa }
+    - { en-GB: a sprig of oak, es-ES: una ramita de roble, it-IT: un rametto di quercia }
+    - { en-GB: a little harp, es-ES: un arpa pequeña, it-IT: una piccola arpa }
+    - { en-GB: a friendship knot, es-ES: un nudo de la amistad, it-IT: un nodo dell'amicizia }
+  image:
+    id: hero-aoife
+    role: hero
+    orientation: portrait
+    prompt: >
+      A confident older Celtic hero in a hooded cloak with braided hair and a calm,
+      clever face, holding a small harp, a ring of standing stones in the mist
+      behind, ready for a real adventure.
+    alt:
+      en-GB: A confident older Celtic hero in a hooded cloak with braided hair holding a small harp, a ring of standing stones in the mist behind.
+      es-ES: Una heroína celta mayor y segura con capa con capucha y el pelo trenzado, sosteniendo una pequeña arpa, con un círculo de piedras en la niebla detrás.
+      it-IT: Un'eroina celtica più grande e sicura con un mantello con cappuccio e i capelli intrecciati, che tiene una piccola arpa, con un cerchio di pietre nella nebbia dietro.
+
+- id: donal
+  tier: older
+  name: Donal
+  hero_of:
+    en-GB: the Emerald Isles of the Celts
+    es-ES: las Islas Esmeralda de los Celtas
+    it-IT: le Isole di Smeraldo dei Celti
+  magics: [courage, cleverness, kindness]
+  energy: 4
+  carry:
+    - { en-GB: a sturdy walking staff, es-ES: un bastón resistente, it-IT: un solido bastone da cammino }
+    - { en-GB: a fishing line, es-ES: un sedal de pesca, it-IT: una lenza da pesca }
+    - { en-GB: a honey oatcake, es-ES: una torta de avena y miel, it-IT: una focaccia d'avena e miele }
+  image:
+    id: hero-donal
+    role: hero
+    orientation: portrait
+    prompt: >
+      A steady older Celtic hero in a hooded cloak with a kind, brave face, leaning on
+      a sturdy walking staff beside a still misty loch, warm and reassuring.
+    alt:
+      en-GB: A steady older Celtic hero in a hooded cloak leaning on a walking staff beside a still misty loch.
+      es-ES: Un héroe celta mayor y firme con una capa con capucha apoyado en un bastón junto a un lago quieto y brumoso.
+      it-IT: Un eroe celtico più grande e saldo con un mantello con cappuccio appoggiato a un bastone accanto a un lago immobile e nebbioso.

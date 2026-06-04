@@ -1,0 +1,27 @@
+# Named characters of the Emerald Isles of the Celts.
+
+- id: maeve-tale-weaver
+  names:
+    en-GB: Old Maeve the Tale-Weaver
+    es-ES: La Vieja Maeve, Tejedora de Cuentos
+    it-IT: La Vecchia Maeve, Tessitrice di Racconti
+  kind: character
+  disposition: friendly
+  description:
+    en-GB: The kind old story-weaver of the Roundhouse, who knows every tale of the isles and sends the heroes out with a warm word and a good gift.
+    es-ES: La amable y anciana tejedora de cuentos de la Casa Redonda, que conoce todas las historias de las islas y envía a los héroes con una palabra cálida y un buen regalo.
+    it-IT: La gentile e anziana tessitrice di racconti della Casa Rotonda, che conosce ogni storia delle isole e manda gli eroi con una parola calorosa e un buon dono.
+  first_seen: pooks-tangled-paths
+
+- id: danu-kind
+  names:
+    en-GB: Danu the Kind
+    es-ES: Danu la Bondadosa
+    it-IT: Danu la Gentile
+  kind: character
+  disposition: kindly
+  description:
+    en-GB: The gentle mother goddess of the green isles, who watches over land and loch and smiles on heroes that win by thinking and caring rather than by force.
+    es-ES: La dulce diosa madre de las islas verdes, que vela por la tierra y el lago y sonríe a los héroes que vencen pensando y cuidando, no por la fuerza.
+    it-IT: La dolce dea madre delle isole verdi, che veglia sulla terra e sul lago e sorride agli eroi che vincono pensando e prendendosi cura degli altri, non con la forza.
+  first_seen: pooks-tangled-paths

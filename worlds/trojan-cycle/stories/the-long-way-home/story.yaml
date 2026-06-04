@@ -1,0 +1,85 @@
+world: trojan-cycle
+id: the-long-way-home
+title:
+  en-GB: The Long Way Home
+  es-ES: El Largo Camino a Casa
+  it-IT: Il Lungo Viaggio verso Casa
+age:
+  recommended: older
+  also_works_for: [young]
+skills:
+  - logic
+  - spatial
+  - observation
+  - social-emotional
+peril: heroic
+adult_gm: true
+dice:
+  minimum: 1d6
+  recommended: d20-set
+players:
+  min: 2
+  max: 5
+play_time_minutes: 40
+images:
+  - id: cover
+    role: cover
+    orientation: portrait
+    prompt: >
+      Two older seafaring heroes at the prow of a small wooden ship with a white sail
+      crossing a wide wine-dark sea at dawn, a floating bronze-cliffed isle and a
+      distant rocky isle ahead, a gentle sea goddess shimmering in the spray. Brave
+      and serene.
+    alt:
+      en-GB: Two older seafaring heroes at the prow of a small ship with a white sail crossing a wide sea at dawn, a floating isle and a distant rocky isle ahead, a gentle sea goddess in the spray.
+      es-ES: Dos héroes marineros mayores en la proa de una pequeña nave de vela blanca que cruza un ancho mar al amanecer, con una isla flotante y una isla rocosa al frente y una dulce diosa del mar entre la espuma.
+      it-IT: Due eroi marinari più grandi alla prua di una piccola nave dalla vela bianca che attraversa un ampio mare all'alba, con un'isola galleggiante e un'isola rocciosa davanti e una dolce dea del mare tra gli spruzzi.
+  - id: scene-isle-of-winds
+    role: scene
+    orientation: landscape
+    canon_ref: aeolus-wind-keeper
+    prompt: >
+      A gentle keeper of the winds on a floating island ringed with bronze cliffs,
+      kindly handing two older heroes a soft leather bag that holds a fair wind, the
+      sea breeze swirling gently around them. Wondrous and calm.
+    alt:
+      en-GB: A gentle keeper of the winds on a floating bronze-cliffed island, handing two older heroes a soft leather bag holding a fair wind.
+      es-ES: Un amable guardián de los vientos en una isla flotante de acantilados de bronce, que entrega a dos héroes mayores un saco de cuero que guarda un viento favorable.
+      it-IT: Un gentile custode dei venti su un'isola galleggiante dalle scogliere di bronzo, che porge a due eroi più grandi un sacco di cuoio che racchiude un vento favorevole.
+  - id: scene-singing-sirens
+    role: scene
+    orientation: landscape
+    canon_ref: singing-sirens
+    prompt: >
+      Two older heroes on a small ship near a rocky isle where gentle, wistful
+      sea-singers sing, the heroes sounding a conch horn and singing back kindly
+      rather than fleeing, the singers looking lonely and touched rather than
+      frightening. Tender and hopeful.
+    alt:
+      en-GB: Two older heroes on a small ship near a rocky isle where gentle wistful sea-singers sing, the heroes sounding a conch and singing back kindly, the singers looking lonely rather than frightening.
+      es-ES: Dos héroes mayores en una pequeña nave cerca de una isla rocosa donde cantan unas dulces y melancólicas cantoras del mar, mientras los héroes hacen sonar una caracola y responden cantando con amabilidad, y las cantoras parecen solitarias, no temibles.
+      it-IT: Due eroi più grandi su una piccola nave vicino a un'isola rocciosa dove cantano dolci e malinconiche cantatrici del mare, mentre gli eroi suonano una conchiglia e rispondono cantando con gentilezza, e le cantatrici sembrano sole, non spaventose.
+  - id: scene-home-loom
+    role: scene
+    orientation: landscape
+    canon_ref: weaving-hall
+    prompt: >
+      Two older heroes arriving home at last at a warm hall across the sea, a great
+      loom standing in the lamplight and a homecoming feast being laid, old friends
+      rising to greet them. Warm and joyful.
+    alt:
+      en-GB: Two older heroes arriving home at a warm hall across the sea, a great loom in the lamplight and a homecoming feast being laid, old friends rising to greet them.
+      es-ES: Dos héroes mayores que llegan por fin a casa, a una sala cálida al otro lado del mar, con un gran telar a la luz de las lámparas y un banquete de bienvenida, mientras viejos amigos se levantan a recibirlos.
+      it-IT: Due eroi più grandi che arrivano finalmente a casa, in una sala calda oltre il mare, con un grande telaio alla luce delle lampade e un banchetto di ritorno, mentre vecchi amici si alzano ad accoglierli.
+  - id: scene-home-at-last
+    role: scene
+    orientation: landscape
+    canon_ref: thetis-sea-mother
+    prompt: >
+      A joyful homecoming feast in a warm hall, two older heroes reunited with
+      smiling friends and a faithful old hound, a gentle sea goddess smiling softly
+      through a window of evening light. Radiant and warm.
+    alt:
+      en-GB: A joyful homecoming feast in a warm hall, two older heroes reunited with friends and a faithful old hound, a gentle sea goddess smiling through a window of evening light.
+      es-ES: Un alegre banquete de bienvenida en una sala cálida, dos héroes mayores reunidos con amigos sonrientes y un viejo sabueso fiel, y una dulce diosa del mar que sonríe por una ventana de luz del atardecer.
+      it-IT: Un allegro banchetto di ritorno in una sala calda, due eroi più grandi riuniti con amici sorridenti e un vecchio cane fedele, e una dolce dea del mare che sorride da una finestra di luce serale.

@@ -1,0 +1,49 @@
+# Notable items of the Emerald Isles of the Celts.
+
+- id: ball-of-wool
+  names:
+    en-GB: The Ball of Red Wool
+    es-ES: El Ovillo de Lana Roja
+    it-IT: Il Gomitolo di Lana Rossa
+  kind: item
+  description:
+    en-GB: A ball of bright red wool. Tie one end where you start and you can always follow it back, however tangled the path becomes.
+    es-ES: Un ovillo de lana roja brillante. Ata un extremo donde empiezas y siempre podrás seguirlo de vuelta, por muy enredado que se vuelva el camino.
+    it-IT: Un gomitolo di lana rossa accesa. Lega un'estremità dove parti e potrai sempre seguirlo per tornare indietro, per quanto si aggrovigli il cammino.
+  first_seen: pooks-tangled-paths
+
+- id: honey-oatcake
+  names:
+    en-GB: The Honey Oatcake
+    es-ES: La Torta de Avena y Miel
+    it-IT: La Focaccia d'Avena e Miele
+  kind: item
+  description:
+    en-GB: A warm, sweet oatcake. Shared with a shy or lonely soul, it can turn a worried frown into a friend.
+    es-ES: Una torta de avena dulce y caliente. Compartida con un alma tímida o solitaria, puede convertir un ceño preocupado en un amigo.
+    it-IT: Una focaccia d'avena dolce e calda. Condivisa con un'anima timida o solitaria, può trasformare un cipiglio preoccupato in un amico.
+  first_seen: the-land-of-youth
+
+- id: little-harp
+  names:
+    en-GB: The Little Harp
+    es-ES: El Arpa Pequeña
+    it-IT: La Piccola Arpa
+  kind: item
+  description:
+    en-GB: A small wooden harp. A simple tune played from the heart can wake the swan children's song and lift the mist.
+    es-ES: Una pequeña arpa de madera. Una melodía sencilla tocada de corazón puede despertar el canto de los niños cisne y levantar la niebla.
+    it-IT: Una piccola arpa di legno. Una melodia semplice suonata con il cuore può risvegliare il canto dei bambini cigno e sollevare la nebbia.
+  first_seen: swan-childrens-lullaby
+
+- id: sprig-of-oak
+  names:
+    en-GB: The Sprig of Oak
+    es-ES: La Ramita de Roble
+    it-IT: Il Rametto di Quercia
+  kind: item
+  description:
+    en-GB: A small sprig of oak leaves. A token of friendship that the faeries and the folk of the Land of Youth know and respect.
+    es-ES: Una pequeña ramita de hojas de roble. Una muestra de amistad que las hadas y la gente de la Tierra de la Juventud conocen y respetan.
+    it-IT: Un piccolo rametto di foglie di quercia. Un segno di amicizia che le fate e la gente della Terra della Giovinezza conoscono e rispettano.
+  first_seen: the-land-of-youth
