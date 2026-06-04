@@ -145,6 +145,15 @@ def readme_block(root: Path, built: Built) -> str:
         "three languages: pick a Story Pack to play from, the Grown-up's Playbook for the",
         "answers, and the World Book for the lore.",
     ]
+    if built.guides:
+        guide_links = " · ".join(
+            f"[{_LANG_NAME.get(loc, loc)}]({_rel(root, path)})"
+            for loc, path in sorted(built.guides.items())
+        )
+        lines += [
+            "",
+            f"**New to running a game like this?** Read the Guide for the Grown-Up: {guide_links}.",
+        ]
     for world_id in sorted(stories_by_world):
         world = content.load_world(root / "worlds" / world_id / "world.yaml")
         world_name = world.name.get("en-GB", world_id)
@@ -184,16 +193,6 @@ def readme_block(root: Path, built: Built) -> str:
                 + " | ".join(cols)
                 + " |"
             )
-
-    if built.guides:
-        guide_links = " · ".join(
-            f"[{_LANG_NAME.get(loc, loc)}]({_rel(root, path)})"
-            for loc, path in sorted(built.guides.items())
-        )
-        lines += [
-            "",
-            f"**New to running a game like this?** Read the Guide for the Grown-Up: {guide_links}.",
-        ]
 
     lines += ["", README_END]
     return "\n".join(lines)
