@@ -134,18 +134,10 @@ def build_story_pack(
 
         narration = content_dir / NARRATION_BY_LEVEL[reading_level]
         parts.append(
-            pages.render_markdown_file(
-                narration, tmp_path / "10_narration.pdf", world, locale
+            pages.render_story_narration(
+                narration, tmp_path / "10_narration.pdf", world, locale, scene_items
             )
         )
-
-        if scene_items:
-            gallery = images.gallery_flowables(
-                strings.ui(locale, "gallery_title"), scene_items, styles
-            )
-            parts.append(
-                pages.render_flowables(gallery, tmp_path / "15_scenes.pdf", world)
-            )
 
         sheet = tmp_path / "80_sheet.pdf"
         sheets.render_character_sheet(sheet, locale, story.age.recommended, th, faces)

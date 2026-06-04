@@ -8,10 +8,10 @@ from pathlib import Path
 
 from reportlab.lib.pagesizes import A4, landscape
 from reportlab.lib.units import mm
-from reportlab.platypus import PageBreak, SimpleDocTemplate
+from reportlab.platypus import KeepTogether, PageBreak, SimpleDocTemplate, Spacer
 
 from build.models import World
-from build.render import colophon, flowables, fonts, footer, theme
+from build.render import colophon, flowables, fonts, footer, images, theme
 from build.render import markdown as md
 from build.render import strings
 from build.render.version import VersionInfo
@@ -44,6 +44,64 @@ def render_markdown_file(src: Path, out_path: Path, world: World, locale: str) -
     styles = theme.make_styles(th, faces)
     blocks = md.parse_markdown(src.read_text(encoding="utf-8"))
     flows = flowables.blocks_to_flowables(blocks, styles, th)
+    return render_flowables(flows, out_path, world)
+
+
+def render_story_narration(
+    src: Path, out_path: Path, world: World, locale: str, scene_items: list
+) -> Path:
+    """Render the narration with each scene illustration placed inline at its beat.
+
+    The narration's level-2 headings are its beats (the opening, each Stop, the
+    ending). Scene images, in story order, fill the LAST ``len(scene_items)`` beats,
+    so the opening beat pairs with the front-page cover and every later beat gets its
+    own picture in place rather than in a separate gallery at the back. Any extra
+    pictures (more images than beats) follow at the end so none are lost.
+    """
+    faces = fonts.resolve_faces(world, locale)
+    th = theme.Theme.from_world(world)
+    styles = theme.make_styles(th, faces)
+    blocks = md.parse_markdown(src.read_text(encoding="utf-8"))
+
+    preamble: list = []
+    sections: list[list] = []
+    for block in blocks:
+        if isinstance(block, md.Heading) and block.level == 2:
+            sections.append([block])
+        elif sections:
+            sections[-1].append(block)
+        else:
+            preamble.append(block)
+
+    scene_paths = [path for path, _caption in scene_items]
+    start = max(0, len(sections) - len(scene_paths))
+    image_at: dict = {}
+    leftover: list = []
+    for offset, path in enumerate(scene_paths):
+        index = start + offset
+        if index < len(sections):
+            image_at[index] = path
+        else:
+            leftover.append(path)
+
+    flows = flowables.blocks_to_flowables(preamble, styles, th)
+    for i, section in enumerate(sections):
+        heading_flows = flowables.blocks_to_flowables(section[:1], styles, th)
+        body_flows = flowables.blocks_to_flowables(section[1:], styles, th)
+        if i in image_at:
+            # keep the picture directly under its beat heading so it never drifts
+            # onto the next page above the following heading.
+            flows.append(
+                KeepTogether(
+                    [*heading_flows, Spacer(1, 8), images.scene_flowable(image_at[i])]
+                )
+            )
+        else:
+            flows.extend(heading_flows)
+        flows.extend(body_flows)
+    for path in leftover:
+        flows.append(Spacer(1, 10))
+        flows.append(images.scene_flowable(path))
     return render_flowables(flows, out_path, world)
 
 
