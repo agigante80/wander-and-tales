@@ -15,14 +15,14 @@ Pinos Susurrantes, cubiertos de nieve, y perdió sus colores. Ahora es demasiado
 tímida y tiene demasiado frío para brillar.
 
 Edda la Guardiana de las Sagas os llama al cálido Salón del Hogar. "Vosotros dos
-tenéis cabezas listas y corazones buenos", dice. "¿Encontraréis a la pequeña aurora
+tenéis cabezas llenas de ideas y corazones buenos", dice. "¿Encontraréis a la pequeña aurora
 y la ayudaréis a brillar de nuevo?"
 
 Os da tres regalos: un farolillo, un ovillo de lana roja y un bollo de miel
 calentito. Luego sonríe. "Aquí arriba no ganamos por ser los más fuertes. Ganamos
-por ser listos, valientes y amables."
+por ser valientes, amables y con muchas ideas."
 
-*¿Cuál es vuestro nombre de héroe? ¿Sois héroes de Astucia, de Valor o de Corazón?*
+*¿Cuál es vuestro nombre de héroe? ¿Sois héroes de Imaginación, de Valor o de Corazón?*
 
 ## Parada 1: El Bosque Oscuro
 
@@ -80,5 +80,5 @@ Entonces el cielo entero estalla de color. Verde azulado, verde y morado, todos
 bailando juntos sobre el fiordo nevado. La larga noche ya no está oscura.
 
 Allá arriba, entre las estrellas, Freya la Bondadosa os mira y sonríe. Lo habéis
-logrado juntos. Fuisteis listos, fuisteis valientes y, sobre todo, fuisteis
+logrado juntos. Tuvisteis muchas ideas, fuisteis valientes y, sobre todo, fuisteis
 amables. Bien hecho, héroes de los fiordos.

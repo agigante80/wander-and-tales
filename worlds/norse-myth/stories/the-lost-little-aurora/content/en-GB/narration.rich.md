@@ -18,16 +18,16 @@ Now she huddled somewhere among the dark trees, far too shy and far too cold to
 glow, and without her the others would not dance.
 
 Edda the Saga-Keeper called the two of you in from the cold, to the firelight of
-the Hearth Hall. "You have clever heads and kind hearts," she said, "and that is
+the Hearth Hall. "You have bright ideas and kind hearts," she said, "and that is
 worth more on a night like this than any sword. Will you go into the pines and help
 the little aurora shine again?"
 
 Into your hands she pressed three gifts: a little lantern to light your way, a ball
 of bright red yarn, and a honey bun still warm from the hearth. "Remember," she
-said, "up here we do not win by being the strongest. We win by being clever, brave,
-and kind."
+said, "up here we do not win by being the strongest. We win by being brave, kind,
+and full of ideas."
 
-*What is your hero name? Which quality will you carry: Wit, Courage, or Heart?*
+*What is your hero name? Which quality will you carry: Imagination, Courage, or Heart?*
 
 ## Stop 1: The Dark Forest
 
@@ -100,5 +100,5 @@ amber windows of the longhouses below. The long night was dark no longer, and al
 the fjords looked up in wonder.
 
 High among the stars, Freya the Kind looked down and smiled. You had done it, and
-you had done it together: with your wit, with your courage, and above all with your
+you had done it together: with your ideas, with your courage, and above all with your
 heart. Well done, heroes of the Snowlit Fjords of the North.

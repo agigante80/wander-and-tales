@@ -94,5 +94,5 @@ Great Garden wakes around you: petals spring open, the fountain sings, the Mist
 Cat stretches in a patch of new sunlight, and warmth pours back across the whole
 island.
 
-You solved it the way every adventure on the Isles is solved, together, by being
-clever and by being kind. Well done, both of you.
+You solved it the way every adventure on the Isles is solved, together, with
+kindness and with your own ideas. Well done, both of you.

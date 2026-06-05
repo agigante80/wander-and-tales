@@ -15,7 +15,7 @@ para todos, y nadie en ella sale nunca herido de verdad ni se queda fuera.
 - Imprimid el mapa. Cada jugador pone una figura pequeña en la Salida, el Pueblo de
   los Olivos.
 - En este mundo no hay magia. En su lugar, cada héroe se apoya en una de tres
-  cualidades: **Ingenio** (pensar con astucia), **Valor** (un corazón firme) o
+  cualidades: **Imaginación** (inventar ideas), **Valor** (un corazón firme) o
   **Corazón** (cuidar de los demás). En la ficha de héroe, donde dice magia, que
   cada niño escriba la cualidad que más le guste. Dos cualidades distintas funcionan
   mejor juntas.
@@ -40,7 +40,7 @@ tirada no alcanza el nivel, los jugadores siempre tienen una manera de seguir:
 
 - **Gastar una estrella de energía** para serenarse y volver a intentar la idea, o
 - **Unir dos cualidades** una vez por parada para superar el reto sin tirar
-  (Ingenio y Corazón juntos, por ejemplo, o Valor e Ingenio).
+  (Imaginación y Corazón juntos, por ejemplo, o Valor e Imaginación).
 
 Las estrellas de energía se recuperan al pasar de parada y al ayudarse. Nadie puede
 quedarse sin ellas mucho tiempo, y nadie se queda atascado.

@@ -2,7 +2,7 @@
 
 *For your eyes, not the children's. Each stop lists its band, what the players need
 to work out, the intended solution, and a gentle fallback so a stuck child always
-moves forward. More than one good idea should work; reward cleverness and kindness
+moves forward. More than one good idea should work; reward imagination and kindness
 over the "right" answer.*
 
 ## Stop 1: The Tangled Grove (Easy)
@@ -11,7 +11,7 @@ over the "right" answer.*
 back, and the players keep arriving at the same old oak. They must find a way
 through without getting hopelessly lost.
 
-**Intended solution.** This is a Cleverness and Spatial moment. The clever, kind
+**Intended solution.** This is an Imagination and Spatial moment. The good, kind
 move is to use the **ball of red wool**: tie one end at the entrance and unspool
 it as you go, so you can always retrace your steps and never walk the same wrong
 loop twice. Marking each turning, or following the thread back to try a new path,
@@ -66,4 +66,4 @@ There is no battle and no loser. When Pook claps his paws, the ribbons of mist
 unwind, the paths of the grove run straight and true, and Pook skips along to lead
 the heroes out himself. The May fair goes ahead in a swirl of music and dancing,
 and **Danu the Kind** smiles down from above the green isles. The heroes have won
-the only way anyone wins here, by being clever, brave, and kind.
+the only way anyone wins here, by being brave, kind, and full of ideas.

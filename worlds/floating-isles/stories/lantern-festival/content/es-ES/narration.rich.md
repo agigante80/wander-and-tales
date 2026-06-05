@@ -98,5 +98,5 @@ elevan como uno solo, la tarde florece en un oro cálido y sin fin, y Nimbo, la 
 brillante de todas, baja flotando con suavidad para ocupar su sitio entre las
 familias. La Fiesta de las Luces ha empezado, y en ella nadie está solo.
 
-Habéis hecho esto juntos. Habéis sido listos y habéis sido amables, y en las Islas
+Habéis hecho esto juntos. Habéis sido amables y habéis tenido muchas ideas, y en las Islas
 esa es la única manera en que alguien gana.

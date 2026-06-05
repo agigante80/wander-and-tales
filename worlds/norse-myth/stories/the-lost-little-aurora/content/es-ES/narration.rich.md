@@ -19,16 +19,16 @@ oscuros, demasiado tímida y con demasiado frío para brillar, y sin ella las de
 bailarían.
 
 Edda la Guardiana de las Sagas os hizo entrar del frío a vosotros dos, hasta la luz
-del fuego del Salón del Hogar. "Tenéis cabezas listas y corazones buenos", dijo, "y
+del fuego del Salón del Hogar. "Tenéis cabezas llenas de ideas y corazones buenos", dijo, "y
 eso vale más en una noche como esta que cualquier espada. ¿Iréis a los pinos a
 ayudar a la pequeña aurora a brillar de nuevo?"
 
 En vuestras manos puso tres regalos: un farolillo para alumbrar el camino, un ovillo
 de lana roja brillante y un bollo de miel todavía calentito del hogar. "Recordad",
-dijo, "aquí arriba no ganamos por ser los más fuertes. Ganamos por ser listos,
-valientes y amables."
+dijo, "aquí arriba no ganamos por ser los más fuertes. Ganamos por ser valientes,
+amables y con muchas ideas."
 
-*¿Cuál es vuestro nombre de héroe? ¿Qué cualidad llevaréis con vosotros: Astucia,
+*¿Cuál es vuestro nombre de héroe? ¿Qué cualidad llevaréis con vosotros: Imaginación,
 Valor o Corazón?*
 
 ## Parada 1: El Bosque Oscuro
@@ -106,6 +106,6 @@ larga noche ya no estaba oscura, y todos los fiordos miraron hacia arriba con
 asombro.
 
 Allá arriba, entre las estrellas, Freya la Bondadosa miró hacia abajo y sonrió. Lo
-habíais logrado, y lo habíais logrado juntos: con vuestra astucia, con vuestro valor
+habíais logrado, y lo habíais logrado juntos: con vuestras ideas, con vuestro valor
 y, por encima de todo, con vuestro corazón. Bien hecho, héroes de los Fiordos
 Nevados del Norte.

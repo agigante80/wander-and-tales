@@ -3,13 +3,13 @@
 *Carburante per improvvisare quando un bambino si allontana dal copione con allegria.
 Attingete a queste idee liberamente; niente di tutto questo può rompere la storia.
 Tutto è coraggioso e gentile, in sintonia con queste colline, dove gli eroi vincono
-con ingegno, coraggio e cuore, mai con la forza.*
+con immaginazione, coraggio e cuore, mai con la forza.*
 
 ## Le tre qualità dell'eroe
 
-**Ingegno:** notare un indizio che agli altri sfugge, fare l'unica buona domanda,
-risolvere un indovinello, leggere il terreno, un piano astuto, capovolgere un
-problema, ricordare una vecchia storia che aiuta.
+**Immaginazione:** inventare un'idea nuova, fare l'unica buona domanda, provare la
+cosa inaspettata, immaginare la risposta a un indovinello, leggere il terreno,
+capovolgere un problema, ricordare una vecchia storia che aiuta.
 
 **Coraggio:** fare il primo passo su un sentiero buio, parlare con dolcezza a
 qualcosa di spaventoso, ammettere un errore, riprovare dopo un fallimento, mettersi
@@ -22,7 +22,7 @@ scegliere la via gentile invece di quella facile.
 ## Amici che aiutano lungo il cammino
 
 - **Pruno il Satiro** spunta con scherzi e indizi ogni volta che gli eroi si bloccano.
-- **Chirone il Centauro**, il più saggio dei maestri, potrebbe passare al trotto per
+- **Chirone il Centauro**, il più gentile dei maestri, potrebbe passare al trotto per
   offrire una parola serena.
 - Le **Ninfe Canterine** della fonte ricompensano la gentilezza con una canzone.
 - La **Sfinge degli Indovinelli** è severa alla sua porta, ma calorosa una volta che

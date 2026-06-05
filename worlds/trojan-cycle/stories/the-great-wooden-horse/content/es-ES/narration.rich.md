@@ -15,7 +15,7 @@ cómo había empezado, y lo extraño era que ya nadie, en ninguno de los dos lad
 quería de verdad. Los dos campamentos estaban cansados hasta los huesos, y los dos,
 en lo más secreto de su corazón, ansiaban que simplemente terminase.
 
-Odiseo el Astuto os llamó a los dos a su lado. Tenía una barba corta y rizada y una
+Odiseo el Brillante os llamó a los dos a su lado. Tenía una barba corta y rizada y una
 sonrisa amable y chispeante, y daba vueltas en las manos a un caballito tallado
 mientras hablaba. "He tenido una idea", dijo, "y es mejor que cualquier grito a
 través de la arena. Construyamos un gran caballo de madera, tan alto como una casa.
@@ -26,10 +26,10 @@ puede terminar una riña que mil palabras enfadadas nunca pudieron."
 
 En tus manos puso tres regalos: La Cesta de Miel e Higos, un ovillo de El Hilo de
 Penélope y una gran Caracola en espiral. "Recordad", dijo, "en estas costas no
-ganamos por ser los más fuertes. Ganamos por ser astutos, valientes y leales a un
-amigo."
+ganamos por ser los más fuertes. Ganamos por ser valientes, leales a un amigo y con
+muchas ideas."
 
-*¿Cuál es tu nombre de héroe? ¿Qué cualidad llevarás: Astucia, Valor o Lealtad?*
+*¿Cuál es tu nombre de héroe? ¿Qué cualidad llevarás: Imaginación, Valor o Lealtad?*
 
 ## Parada 1: Construir el Caballo
 
@@ -105,7 +105,7 @@ Juntos, codo con codo, los dos campamentos extendieron un gran banquete sobre la
 hierba, como si la larga riña no hubiera sido más que un mal sueño ya felizmente
 olvidado. Allá lejos, en el agua suave y reluciente, Tetis, la Madre del Mar,
 levantó el rostro de entre las olas y sonrió al verlo. Lo habíais logrado, y lo
-habíais logrado juntos: con vuestra astucia, con vuestro valor y, sobre todo, con
-vuestra lealtad a un amigo. La riña más vieja de todas había terminado, no con
+habíais logrado juntos: con vuestro valor, con vuestra lealtad a un amigo y, sobre todo, con
+vuestra imaginación. La riña más vieja de todas había terminado, no con
 lanzas, sino con una sola sorpresa amable. Bien hecho, héroes de las Costas Ventosas
 de Troya.

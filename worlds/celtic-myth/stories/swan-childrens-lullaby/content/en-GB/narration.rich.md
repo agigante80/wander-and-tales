@@ -14,16 +14,16 @@ tune halfway through. A heavy grey mist crept up off the water and settled over 
 loch and the rooftops, and no one could find the sunset behind it.
 
 Old Maeve the Tale-Weaver called the two of you to her side by the warm hearth of
-the Roundhouse. "You have clever heads and kind hearts," she said, "and that is
+the Roundhouse. "You have heads full of ideas and kind hearts," she said, "and that is
 worth more than a loud voice tonight. Will you go down to the loch and help the swan
 children remember their lullaby, so the mist lifts again?"
 
 Into your hands she pressed three gifts: the little harp, worn smooth with playing,
 a sprig of oak for luck, and a honey oatcake wrapped in a leaf. "Remember," she
-said, "here we do not win by being the strongest. We win by being clever, brave,
-and kind."
+said, "here we do not win by being the strongest. We win by being brave, kind,
+and full of ideas."
 
-*What is your hero name? Which quality will you carry: Cleverness, Courage, or
+*What is your hero name? Which quality will you carry: Imagination, Courage, or
 Kindness?*
 
 ## Stop 1: The Grey Mist
@@ -89,6 +89,6 @@ as it does whenever the swan children sing. The four swans glided in a slow circ
 their song pouring out across the water. And high over the loch, Danu the Kind
 looked down on all of it and smiled.
 
-You had done it, and you had done it together: with your cleverness, with your
-courage, and above all with your kindness. Goodnight, heroes of the Emerald Isles.
+You had done it, and you had done it together: with your courage, with your
+kindness, and above all with your bright ideas. Goodnight, heroes of the Emerald Isles.
 Sleep well.

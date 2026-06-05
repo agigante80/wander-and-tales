@@ -15,17 +15,17 @@ For high on the mountain, in a deep bend of the river, slept the Gentle River
 Dragon, whose slow stirring had brought the rains since before anyone could
 remember. This year he had slept far too long, and no one knew how to wake him.
 
-Granny Yuki the Tale-Keeper called the two of you to her side. "You have clever
-heads and kind hearts," she said, "and that is worth more up the mountain than any
+Granny Yuki the Tale-Keeper called the two of you to her side. "You have heads
+full of ideas and kind hearts," she said, "and that is worth more up the mountain than any
 strength. Will you climb over the pass and wake him, gently, before the harvest
 fails?"
 
 Into your hands she pressed three gifts: a little bronze bell with a clear, soft
 ring, a ball of bright red thread, and a sweet rice cake wrapped in a leaf.
 "Remember," she said, "up there we do not win by being the strongest. We win by
-being wise, brave, and kind."
+being brave, kind, and full of ideas."
 
-*What is your hero name? Which quality will you carry: Wisdom, Courage, or
+*What is your hero name? Which quality will you carry: Imagination, Courage, or
 Kindness?*
 
 ## Stop 1: The Guardian Gate
@@ -39,7 +39,7 @@ turned their carved heads to look at you.
 "None may pass," the Guardian Lion-Dogs rumbled together, "until you answer our
 riddle." Their voices were deep as a temple drum, and for a moment your heart beat
 quick. But there was no cruelty in their eyes, only a fair and patient sort of
-watchfulness. They would have liked a clever answer, and they would not have minded
+watchfulness. They would have liked a good idea, and they would not have minded
 a brave, thoughtful guess.
 
 *Will you listen closely and puzzle it out together? Kon the Fox is somewhere near
@@ -103,5 +103,5 @@ to see him again.
 
 As the clouds thinned, Amaterasu the Sun-Kami broke through with a warm gold light
 and smiled down upon you. You had done it, and you had done it together: with your
-wisdom, with your courage, and above all with your kindness. Well done, heroes of
+imagination, with your courage, and above all with your kindness. Well done, heroes of
 the Blossom Mountains.

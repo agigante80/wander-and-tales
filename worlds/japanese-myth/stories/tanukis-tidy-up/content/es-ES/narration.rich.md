@@ -20,16 +20,16 @@ revoltijo, y el pobre Pon se quedó sentado en medio con las orejas gachas y el
 corazón lleno de pena.
 
 La Abuela Yuki, Guardiana de los Cuentos, que conocía cada historia de las montañas,
-os llamó a su lado a los dos. "Tenéis la cabeza lista y el corazón amable", dijo, "y
+os llamó a su lado a los dos. "Tenéis la cabeza llena de ideas y el corazón amable", dijo, "y
 eso vale hoy más que el par de brazos más fuerte. ¿Ayudaréis a Pon a poner el mercado
 en orden antes de que empiece la fiesta?"
 
 En vuestras manos puso tres regalos: un ovillo de hilo rojo brillante, una campanilla
 de bronce y un pastel de arroz blando y dulce. "Recordad", dijo con una sonrisa, "en
-estas montañas no ganamos siendo los más fuertes. Ganamos siendo sabios, valientes y
-bondadosos."
+estas montañas no ganamos siendo los más fuertes. Ganamos siendo valientes, amables y
+con muchas ideas."
 
-*¿Cuál es vuestro nombre de héroe? ¿Qué cualidad llevaréis: Sabiduría, Valor o
+*¿Cuál es vuestro nombre de héroe? ¿Qué cualidad llevaréis: Imaginación, Valor o
 Bondad?*
 
 ## Parada 1: Los puestos revueltos
@@ -49,7 +49,7 @@ más pequeño cuando lo arreglan los amigos juntos. ¿Qué probáis?*
 Cuando vuestras palabras amables le llegaron, Pon se secó la nariz con el dorso de la
 pata y esbozó una pequeña sonrisa valiente. "Sois buenos amigos", dijo. "Después de
 todo, el lío no es tan grande. Vamos, ordenemos juntos." Y se levantó de un salto,
-listo para poner cada cosa en su sitio.
+dispuesto a poner cada cosa en su sitio.
 
 ## Parada 2: El gran reparto
 
@@ -69,7 +69,7 @@ por su color. ¿Cuál es vuestro plan?*
 
 Con paciencia, pieza a pieza, lo separasteis y lo contasteis todo de vuelta a su
 sitio, y poco a poco el mercado se fue poniendo ordenado y luminoso otra vez. Pon
-miraba maravillado y dio palmas con sus patitas. "Sois muy listos y muy tranquilos",
+miraba maravillado y dio palmas con sus patitas. "Tenéis muchas ideas y mucha calma",
 dijo. "Yo me habría dado prisa y lo habría empeorado, pero vosotros lo habéis pensado
 hasta el final."
 
@@ -82,7 +82,7 @@ colgaba muy alto en el centro, aquel cuyo brillo era la señal para que empezara
 fiesta. Sin él, el tambor no podía sonar.
 
 Justo entonces, Kon el Zorro salió trotando del bambú con una hoja en la cabeza y un
-brillo astuto en los ojos. "Se me da bastante bien fijarme en las cosas", dijo. "Y me
+brillo vivo en los ojos. "Se me da bastante bien fijarme en las cosas", dijo. "Y me
 parece que vi algo redondo y rojo rodando, calle abajo, bajo el viejo ciruelo junto
 al puente. Seguid mi pista, y pensad dónde le gusta esconderse a un farol que se ha
 escapado."
@@ -112,5 +112,5 @@ alegre repique la fiesta empezó por fin.
 
 Allá en lo alto, sobre las montañas en flor, Amaterasu, la Diosa del Sol, miró hacia
 abajo a través de la luz cálida y sonrió. Lo habíais conseguido, y lo habíais
-conseguido juntos: con vuestra sabiduría, con vuestro valor y, por encima de todo,
+conseguido juntos: con vuestra imaginación, con vuestro valor y, por encima de todo,
 con vuestra bondad. Bien hecho, héroes de El Pueblo de los Faroles.

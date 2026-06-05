@@ -2,8 +2,8 @@
 
 *Para vuestros ojos, no los de los niños. Cada parada indica su banda, lo que los
 jugadores tienen que averiguar, la solución prevista y un apoyo amable para que un
-niño atascado siempre avance. Más de una buena idea debería funcionar; premiad el
-ingenio y la amabilidad por encima de la respuesta "correcta".*
+niño atascado siempre avance. Más de una buena idea debería funcionar; premiad las
+ideas y la amabilidad por encima de la respuesta "correcta".*
 
 ## Parada 1: La Plaza Apagada (Fácil)
 
@@ -71,5 +71,5 @@ Jugadlo con suavidad. Dejad que los niños decidan cómo acercarse: una palabra
 amable, una invitación a la fiesta, la promesa de visitar las nubes. No hay pelea ni
 truco. Cuando le ofrecen su amistad, Nimbo deja libre la luz, los faroles se elevan
 todos juntos, y Nimbo baja flotando para unirse a las familias, brillando más que
-nadie. Terminad en esa calidez. Los niños han ganado siendo listos y amables, que es
+nadie. Terminad en esa calidez. Los niños han ganado siendo amables y con muchas ideas, que es
 la única manera de ganar en las Islas.

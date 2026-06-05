@@ -2,7 +2,7 @@
 
 *Para vuestros ojos, no para los niños. Cada parada indica su nivel, lo que los
 jugadores deben averiguar, la solución prevista y un apoyo amable para que un niño
-atascado siempre avance. Más de una buena idea debería valer; premiad el ingenio y la
+atascado siempre avance. Más de una buena idea debería valer; premiad la imaginación y la
 amabilidad por encima de la respuesta "correcta".*
 
 ## Parada 1: El Fiordo Helado (Normal)
@@ -11,7 +11,7 @@ amabilidad por encima de la respuesta "correcta".*
 gime y cruje bajo los pies. El peligro no es un monstruo, sino el hielo mismo, que no
 aguantará a un grupo pesado y apresurado de golpe.
 
-**Solución prevista.** Es un momento de Espacio y Lógica. La jugada lista y amable es
+**Solución prevista.** Es un momento de Espacio y Lógica. La jugada atenta y amable es
 **separarse** para repartir el peso, **pisar con suavidad** para tratar el hielo con
 cuidado y **cruzar juntos dándose la mano** para que nadie se quede atrás. Desenrollar
 **El Ovillo de Lana Roja** como línea guía, o tantear el camino con cuidado, vale igual
@@ -48,7 +48,7 @@ solo aguanta firme para quienes lo cruzan con un corazón amable y sincero. Los 
 deben cruzar, llevando la brasa, y llegar al salón de las alturas para volver a encender
 el calor del mundo.
 
-**Solución prevista.** Es un momento de Corazón y Astucia. Como los héroes llevan **La
+**Solución prevista.** Es un momento de Corazón e Imaginación. Como los héroes llevan **La
 Brasa Siempre Cálida** y ahora viajan con **El Gigante de Hielo Solitario** como amigo,
 sus corazones son justo lo que el puente busca. Cruzando con sinceridad y suavidad, con
 su nuevo amigo a su lado, el puente se ilumina y aguanta. Arriba alzan la brasa y el
@@ -66,4 +66,4 @@ hoguera del hogar se reenciende por todo el valle, cada ventana de ámbar vuelve
 brillar, y la noche más larga termina en amanecer y color. Los **Espíritus de la
 Aurora** danzan por encima, El **Gigante de Hielo Solitario** tiene amigos por fin, y
 **Freya la Bondadosa** sonríe desde los salones de las alturas. Los héroes han ganado de
-la única manera en que se gana aquí: siendo listos, valientes y amables.
+la única manera en que se gana aquí: siendo valientes, amables y con muchas ideas.

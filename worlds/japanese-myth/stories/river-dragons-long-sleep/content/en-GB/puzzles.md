@@ -2,7 +2,7 @@
 
 *For your eyes, not the children's. Each stop lists its band, what the players need
 to work out, the intended solution, and a gentle fallback so a stuck child always
-moves forward. More than one good idea should work; reward wisdom and kindness over
+moves forward. More than one good idea should work; reward imagination and kindness over
 the "right" answer.*
 
 ## Stop 1: The Guardian Gate (Normal)
@@ -15,7 +15,7 @@ fair and patient, and they enjoy a good thinking face.
 roof, yet I have no hands. The thirsty fields all call my name. What am I?"* The
 answer is **the rain** (the very thing the valley is waiting for).
 
-**Intended solution.** This is a thinking challenge of Wisdom and a little patience.
+**Intended solution.** This is a thinking challenge of Imagination and a little patience.
 Let the children talk it through together. The Guardian Lion-Dogs accept the right
 answer, and because they are fair and kind, they also accept a brave, thoughtful
 guess.
@@ -30,7 +30,7 @@ answer from the bamboo nearby. A guess made bravely still opens the gate.
 holds firm only for those who cross slowly and calmly, together. The players must
 get safely across.
 
-**Intended solution.** This is a Spatial and Courage moment. The clever move is to
+**Intended solution.** This is a Spatial and Courage moment. The thoughtful move is to
 cross **gently and together**: slow, steady steps, side by side, breathing calm
 rather than rushing in a fright. Tying the **red thread** between them so they stay
 linked, or counting out a slow, even rhythm as they walk, works just as well.
@@ -62,4 +62,4 @@ great dragon wakes warmly and is glad of their company.
 There is no battle and no loser. When the dragon wakes and rises, the soft rains
 return, the Silver River brims, the thirsty rice fields drink and turn green, and
 **Amaterasu the Sun-Kami** smiles down through the clouds. The heroes have won the
-only way anyone wins here, by being wise, brave, and kind.
+only way anyone wins here, by being brave, kind, and full of ideas.

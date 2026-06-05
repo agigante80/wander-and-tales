@@ -2,8 +2,8 @@
 
 *Para vuestros ojos, no los de los niños. Cada parada indica su banda, lo que los
 jugadores tienen que averiguar, la solución prevista y un apoyo amable para que un
-niño atascado siempre avance. Más de una buena idea debería funcionar; premiad el
-ingenio y la amabilidad por encima de la respuesta "correcta".*
+niño atascado siempre avance. Más de una buena idea debería funcionar; premiad las
+ideas y la amabilidad por encima de la respuesta "correcta".*
 
 ## Parada 1: La Puerta de Enredaderas (Fácil)
 
@@ -65,5 +65,5 @@ porque estaba solo y no sabía cómo pedir un amigo.
 Jugadlo con suavidad. Dejad que los niños decidan cómo acercarse: una palabra
 amable, una invitación a jugar, la promesa de volver. No hay pelea ni truco.
 Cuando le ofrecen su amistad, el duende sonríe y todo el jardín se despierta de
-golpe. Terminad en esa calidez. Los niños han ganado siendo listos y amables, que
+golpe. Terminad en esa calidez. Los niños han ganado siendo amables y con muchas ideas, que
 es la única manera de ganar en las Islas.

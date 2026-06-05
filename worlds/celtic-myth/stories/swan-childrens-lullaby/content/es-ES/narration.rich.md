@@ -15,16 +15,16 @@ el agua y se posó sobre el lago y los tejados, y nadie pudo encontrar la puesta
 sol detrás de ella.
 
 La Vieja Maeve, Tejedora de Cuentos, os llamó a su lado junto al fuego cálido de
-la casa redonda. "Tenéis cabezas listas y corazones amables", dijo, "y eso vale
+la casa redonda. "Tenéis cabezas llenas de ideas y corazones amables", dijo, "y eso vale
 más que una voz fuerte esta noche. ¿Bajaréis al lago y ayudaréis a Los Niños Cisne
 a recordar su nana, para que la bruma se levante otra vez?"
 
 En vuestras manos puso tres regalos: El Arpa Pequeña, gastada y suave de tanto
 tocarla, La Ramita de Roble para la suerte, y La Torta de Avena y Miel envuelta en
-una hoja. "Recordad", dijo, "aquí no ganamos por ser los más fuertes. Ganamos por
-ser listos, valientes y amables."
+una hoja. "Recordad", dijo, "aquí no ganamos por ser los más fuertes. Ganamos
+siendo valientes, amables y con muchas ideas."
 
-*¿Cuál es tu nombre de héroe? ¿Qué cualidad llevarás: Astucia, Valor o Bondad?*
+*¿Cuál es tu nombre de héroe? ¿Qué cualidad llevarás: Imaginación, Valor o Bondad?*
 
 ## Parada 1: La Bruma Gris
 
@@ -91,6 +91,6 @@ hace siempre que los niños cisne cantan. Los cuatro cisnes se deslizaron en un
 círculo lento, con su canción derramándose por el agua. Y muy alto sobre el lago,
 Danu la Bondadosa lo miró todo y sonrió.
 
-Lo habíais conseguido, y lo habíais conseguido juntos: con vuestra astucia, con
-vuestro valor y, por encima de todo, con vuestra bondad. Buenas noches, héroes de
+Lo habíais conseguido, y lo habíais conseguido juntos: con vuestro valor, con
+vuestra bondad y, por encima de todo, con vuestras muchas ideas. Buenas noches, héroes de
 las Islas Esmeralda de los Celtas. Dormid bien.

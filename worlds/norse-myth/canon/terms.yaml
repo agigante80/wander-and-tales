@@ -1,15 +1,15 @@
 # World-flavour vocabulary: the three hero qualities (this world has no magic).
 
-- id: wit
+- id: imagination
   names:
-    en-GB: Wit
-    es-ES: Astucia
-    it-IT: Ingegno
+    en-GB: Imagination
+    es-ES: Imaginación
+    it-IT: Immaginazione
   kind: term
   description:
-    en-GB: Quick thinking and a clever plan. In the north, a good idea is worth more than a strong arm, and a riddle is solved with a cool head.
-    es-ES: Pensamiento rápido y un plan ingenioso. En el norte, una buena idea vale más que un brazo fuerte, y un acertijo se resuelve con la cabeza fría.
-    it-IT: Pensiero rapido e un piano ingegnoso. Al nord, una buona idea vale più di un braccio forte, e un indovinello si risolve con la testa fredda.
+    en-GB: Imagining ideas and trying them. In the north, a good idea is worth more than a strong arm, and a riddle is solved with a cool head.
+    es-ES: Imaginar ideas y probarlas. En el norte, una buena idea vale más que un brazo fuerte, y un acertijo se resuelve con la cabeza fría.
+    it-IT: Immaginare idee e provarle. Al nord, una buona idea vale più di un braccio forte, e un indovinello si risolve con la testa fredda.
   first_seen: the-lost-little-aurora
 
 - id: courage
@@ -19,9 +19,9 @@
     it-IT: Coraggio
   kind: term
   description:
-    en-GB: A warm, steady heart on the longest, darkest night. Courage is not being unafraid; it is being kind and clever even when you are afraid.
-    es-ES: Un corazón cálido y firme en la noche más larga y oscura. El valor no es no tener miedo; es ser amable e ingenioso aun cuando lo tienes.
-    it-IT: Un cuore caldo e saldo nella notte più lunga e buia. Il coraggio non è non avere paura; è essere gentili e ingegnosi anche quando si ha paura.
+    en-GB: A warm, steady heart on the longest, darkest night. Courage is not being unafraid; it is staying kind and trying anyway, even when you are afraid.
+    es-ES: Un corazón cálido y firme en la noche más larga y oscura. El valor no es no tener miedo; es seguir siendo amable e intentarlo igualmente, aun cuando lo tienes.
+    it-IT: Un cuore caldo e saldo nella notte più lunga e buia. Il coraggio non è non avere paura; è restare gentili e provarci lo stesso, anche quando si ha paura.
   first_seen: the-lost-little-aurora
 
 - id: heart

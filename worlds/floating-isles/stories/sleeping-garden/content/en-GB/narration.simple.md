@@ -70,4 +70,4 @@ When you offer the sprite your friendship, it smiles for the first time in a lon
 while. All around you, the Great Garden wakes up at once: flowers open, the
 fountain sings, and the island is bright and warm again.
 
-You did it together. You were clever, and you were kind. Well done.
+You did it together. You were kind, and you were full of ideas. Well done.

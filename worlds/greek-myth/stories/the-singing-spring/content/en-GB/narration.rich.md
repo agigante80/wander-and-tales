@@ -12,21 +12,21 @@ one grey morning, the song simply stopped. The wells sank low. The olive leaves
 hung limp and thirsty, and the whole valley felt as if it were holding its breath.
 
 Old Daphne, keeper of the olive grove, called the two of you to her side. "You have
-clever heads and kind hearts," she said, "and that is worth more up there than any
+bright ideas and kind hearts," she said, "and that is worth more up there than any
 sword. Will you climb the hill and wake the spring?"
 
 Into your hands she pressed three gifts: a ball of golden thread, a honey cake
 wrapped in a leaf, and a small lyre worn smooth with playing. "Remember," she said,
-"in these hills we do not win by being the strongest. We win by being clever,
-brave, and kind."
+"in these hills we do not win by being the strongest. We win by being brave,
+kind, and full of ideas."
 
-*What is your hero name? Which quality will you carry: Wits, Courage, or Heart?*
+*What is your hero name? Which quality will you carry: Imagination, Courage, or Heart?*
 
 ## Stop 1: The Riddle Gate
 
 The road climbed into the sun, and at the top stood a tall gate of white marble. On
 its warm steps lay a sphinx, her body a lion's, her wings folded gold, her face
-calm and clever. She watched you with the patience of someone who has all the time
+calm and curious. She watched you with the patience of someone who has all the time
 in the world.
 
 "None may pass," she said, "until they answer my riddle." There was no cruelty in
@@ -83,6 +83,6 @@ voices weaving into a song so bright it seemed to lift the whole hillside. The
 spring leapt back to life, and far below, every well in the Olive Town brimmed cool
 and clear once more.
 
-High on cloud-wrapped Olympus, wise Athena looked down and smiled. You had done it,
-and you had done it together: with your wits, with your courage, and above all with
+High on cloud-wrapped Olympus, kind Athena looked down and smiled. You had done it,
+and you had done it together: with your ideas, with your courage, and above all with
 your kindness. Well done, heroes of the Sunlit Hills.

@@ -17,14 +17,14 @@ lo dijo. Solo fue una confusión. Pero ahora los dos viejos amigos están enfada
 y todo el árbol se siente triste.
 
 Edda la Guardiana de las Sagas os llama al cálido Salón del Hogar. "Tenéis cabezas
-listas y corazones amables", os dice. "¿Ayudaréis a Ratatosk a ordenar sus
+llenas de ideas y corazones amables", os dice. "¿Ayudaréis a Ratatosk a ordenar sus
 mensajes y a arreglarlo todo, para que los dos amigos vuelvan a ser amigos?"
 
 Os da tres regalos: un ovillo de lana roja, una golosina para la ardilla y un
 farolillo. Luego sonríe. "Aquí arriba no ganamos siendo los más fuertes. Ganamos
-siendo listos, valientes y amables."
+siendo valientes, amables y con muchas ideas."
 
-*¿Cuál es vuestro nombre de héroe? ¿Sois héroes de Astucia, de Valor o de Corazón?*
+*¿Cuál es vuestro nombre de héroe? ¿Sois héroes de Imaginación, de Valor o de Corazón?*
 
 ## Parada 1: Atrapad a la Ardilla
 
@@ -46,7 +46,7 @@ pensar."
 ## Parada 2: Ordenad los Mensajes
 
 Ratatosk abre las patitas y caen tres mensajitos, todos revueltos. Hay tres amigos
-esperando: el Águila en la copa, un viejo búho sabio en una rama de en medio y el
+esperando: el Águila en la copa, un viejo búho amable en una rama de en medio y el
 amiguito de las raíces. Cada mensaje pertenece a uno de ellos, pero ¿cuál va a cada
 uno?
 
@@ -88,5 +88,5 @@ Ratatosk da una vuelta feliz alrededor de todo el árbol. "Habéis ordenado mi e
 y habéis arreglado a mis amigos", dice. "¡Gracias, gracias!"
 
 Allá arriba, sobre los Fiordos Nevados del Norte, Freya la Bondadosa mira hacia
-abajo y sonríe. Lo habéis logrado juntos. Habéis sido listos, habéis sido valientes
+abajo y sonríe. Lo habéis logrado juntos. Habéis tenido muchas ideas, habéis sido valientes
 y, sobre todo, habéis sido amables. Bien hecho, héroes.

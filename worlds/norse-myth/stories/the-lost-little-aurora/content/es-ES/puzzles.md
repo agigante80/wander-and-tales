@@ -2,7 +2,7 @@
 
 *Para vuestros ojos, no para los niños. Cada parada indica su nivel, lo que los
 jugadores deben averiguar, la solución prevista y un apoyo amable para que un niño
-atascado siempre avance. Más de una buena idea debería valer; premiad el ingenio y
+atascado siempre avance. Más de una buena idea debería valer; premiad la imaginación y
 la amabilidad por encima de la respuesta "correcta".*
 
 ## Parada 1: El Bosque Oscuro (Fácil)
@@ -11,7 +11,7 @@ la amabilidad por encima de la respuesta "correcta".*
 nevados, tímida, con frío y muy pequeña. Los jugadores deben encontrarla sin
 espantarla.
 
-**Solución prevista.** Es un momento de Observación y Corazón. La jugada lista y
+**Solución prevista.** Es un momento de Observación y Corazón. La jugada atenta y
 amable es ir despacio y mirar con suavidad: vigilar el tenue destello de su luz,
 seguir las huellas pequeñas en la nieve y hablar bajito para que no se asuste.
 Pedirle una pista a **Nori el Duende del Hogar**, el duende del gorro rojo, vale
@@ -28,7 +28,7 @@ encontrarla cuenta como un éxito completo y recupera una estrella de energía.
 verde y el morado, y no puede brillar hasta que los jugadores la ayuden a recogerlos.
 Cada color se esconde en algo del mundo que lo lleva.
 
-**Solución prevista.** Es un momento de Observación y Lógica. La idea lista es
+**Solución prevista.** Es un momento de Observación y Lógica. La buena idea es
 emparejar cada color con el mundo de alrededor: el **verde azulado** de un carámbano
 brillante, el **verde** de una rama oscura de pino y el **morado** del cielo del
 crepúsculo que se va oscureciendo. Vale nombrar cualquier fuente sensata de cada
@@ -61,5 +61,5 @@ No hay batalla ni perdedor. Cuando la pequeña aurora salta de vuelta al cielo, 
 demás **Espíritus de la Aurora** bajan en picado a darle la bienvenida a casa, y el
 cielo nocturno entero baila con verde azulado, verde y morado sobre el fiordo nevado.
 Allá arriba, entre las estrellas, **Freya la Bondadosa** sonríe desde lo alto. Los
-héroes han ganado de la única manera en que se gana aquí: siendo listos, valientes y
-amables.
+héroes han ganado de la única manera en que se gana aquí: siendo valientes, amables y
+con muchas ideas.

@@ -19,7 +19,7 @@ tutti quanti si erano svignati a nascondersi. Erano volati su nel Boschetto di B
 Sussurrante, in fondo tra gli steli scuri, troppo timidi per uscire a risplendere.
 
 Nonna Yuki, Custode dei Racconti, che conosceva ogni storia che i monti avessero mai
-raccontato, chiamò voi due al suo fianco. "Avete la testa saggia e il cuore gentile",
+raccontato, chiamò voi due al suo fianco. "Avete la testa piena di idee e il cuore gentile",
 disse, "e in una notte come questa vale più di qualunque pertica per le lanterne. Salirete
 al boschetto e convincerete con dolcezza gli spiriti delle lucciole a tornare a casa, così
 la nostra festa potrà brillare di nuovo?"
@@ -27,9 +27,9 @@ la nostra festa potrà brillare di nuovo?"
 Nelle vostre mani posò tre doni: una lanterna di carta rotonda con un piccolo manico, un
 gomitolo di filo rosso vivo e un dolce di riso morbido avvolto in una foglia. "Ricordate",
 disse, con gli occhi che si stringevano nel sorriso, "quassù tra questi monti non vinciamo
-mai facendo rumore o con la forza. Vinciamo essendo saggi, coraggiosi e gentili."
+mai facendo rumore o con la forza. Si vince con coraggio, gentilezza e tante idee."
 
-*Come ti chiami, eroe? Quale qualità porterai stanotte: Saggezza, Coraggio o Gentilezza?*
+*Come ti chiami, eroe? Quale qualità porterai stanotte: Immaginazione, Coraggio o Gentilezza?*
 
 ## Tappa 1: Il Bambù Buio
 
@@ -40,7 +40,7 @@ poi ammiccava in un punto nuovo, come stelle che non si decidevano a uscire. Gli
 delle lucciole erano vicini. Ma erano timidi, e il minimo rumore li faceva fuggire
 tremolando.
 
-Dalle ombre verdi uscì una volpe rossiccia con occhi vivaci e furbi e una sola foglia in
+Dalle ombre verdi uscì una volpe rossiccia con occhi vivaci e brillanti e una sola foglia in
 equilibrio sulla testa. Era Kon la Volpe, a cui piacevano un bel gioco e un cuore gentile,
 e vi fece un lento occhiolino amichevole, come a dire che non c'era nessuna fretta.
 
@@ -112,5 +112,5 @@ e Kon la Volpe guardava da un tetto con gli occhi che brillavano.
 
 E quando finalmente arrivò il mattino, la calda Amaterasu, la Dea del Sole, si levò con
 dolcezza sopra i monti in fiore e sorrise alla valle. Ce l'avevate fatta, e ce l'avevate
-fatta insieme: con la vostra saggezza, con il vostro coraggio e, soprattutto, con la
+fatta insieme: con la vostra immaginazione, con il vostro coraggio e, soprattutto, con la
 vostra gentilezza. Bravi, eroi dei monti in fiore.

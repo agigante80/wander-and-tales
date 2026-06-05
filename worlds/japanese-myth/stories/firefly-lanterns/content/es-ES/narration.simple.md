@@ -16,15 +16,15 @@ hondo de El Bosque de Bambú Susurrante, en la oscuridad, demasiado vergonzosos 
 salir.
 
 La Abuela Yuki, Guardiana de los Cuentos, os llama a su lado. "Vosotros dos tenéis la
-cabeza sabia y el corazón bondadoso", os dice. "¿Iréis al bosque a engatusar con
+cabeza llena de ideas y el corazón bondadoso", os dice. "¿Iréis al bosque a engatusar con
 dulzura a los espíritus de las luciérnagas para que vuelvan, y así nuestra fiesta pueda
 brillar?"
 
 Os da tres regalos: un farol de papel, un ovillo de hilo rojo y un pastel de arroz
 blando y dulce. Luego sonríe. "Aquí en las montañas no ganamos siendo ruidosos ni
-fuertes. Ganamos siendo sabios, valientes y bondadosos."
+fuertes. Ganamos siendo valientes, amables y con muchas ideas."
 
-*¿Cómo te llamas, héroe? ¿Llevarás Sabiduría, Valor o Bondad?*
+*¿Cómo te llamas, héroe? ¿Llevarás Imaginación, Valor o Bondad?*
 
 ## Parada 1: El Bambú Oscuro
 
@@ -34,7 +34,7 @@ lucecitas se encienden y se apagan, y luego se esconden otra vez. Los espíritus
 luciérnagas están aquí, pero son tímidos.
 
 Un zorro rojizo sale despacio de las sombras verdes. Es Kon el Zorro, con ojos
-brillantes y listos y una hojita en la cabeza. Os hace un guiño amistoso.
+brillantes y vivos y una hojita en la cabeza. Os hace un guiño amistoso.
 
 *Los espíritus son tímidos. ¿Qué cosa bondadosa podríais hacer? ¿Podríais moveros con
 suavidad y hablar bajito? Tenéis un dulce pastel de arroz para compartir. ¿Podríais
@@ -85,5 +85,5 @@ Todo el pueblo aplaude y ríe y empieza a bailar. Los tambores suenan suaves. Lo
 se mecen como un cielo lleno de pequeñas lunas cálidas.
 
 Cuando llega la mañana, la cálida Amaterasu, la Diosa del Sol, se asoma sobre las
-montañas y os sonríe. Lo habéis logrado juntos. Fuisteis sabios, fuisteis valientes y,
-sobre todo, fuisteis bondadosos. Bien hecho, héroes.
+montañas y os sonríe. Lo habéis logrado juntos. Fuisteis valientes, fuisteis amables y,
+sobre todo, tuvisteis muchas ideas. Bien hecho, héroes.

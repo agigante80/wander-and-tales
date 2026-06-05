@@ -15,7 +15,7 @@ quarrelling, and the heroes win by ending the quarrel with a kind surprise.
 - Print the map. Each player puts a small figure on the Start, the Ship Camp on
   the beach.
 - This world has no magic. Instead each hero leans on one of three qualities:
-  **Cleverness** (a clever plan), **Courage** (a steady heart), or **Loyalty**
+  **Imagination** (dreaming up ideas), **Courage** (a steady heart), or **Loyalty**
   (keeping faith with a friend). On the hero sheet, where it says magic, let each
   child write the quality they like best. Two different qualities work best
   together.
@@ -39,8 +39,8 @@ A failed roll is never a defeat. It is a detour to a different route. When a rol
 does not meet the band, the players always have a way through:
 
 - **Spend an energy star** to gather themselves and try the idea again, or
-- **Join two qualities** once per stop to pass with no roll at all (Cleverness and
-  Loyalty together, say, or Courage and Cleverness).
+- **Join two qualities** once per stop to pass with no roll at all (Imagination and
+  Loyalty together, say, or Courage and Imagination).
 
 Energy stars come back when the players move on to the next stop, and when they
 help each other. Nobody can ever run dry for long, and nobody is ever stuck.
@@ -60,7 +60,7 @@ ordinary die, read the line that matches the number rolled.
 
 | Roll | Twist of Fate |
 |---|---|
-| 1 | Odysseus the Clever gives you one free hint. |
+| 1 | Odysseus the Bright gives you one free hint. |
 | 2 | You catch your second wind, and take back one energy star. |
 | 3 | A fair wind, and the next challenge is Easy. |
 | 4 | Argos the Faithful Hound trots up and wags his tail. All is well. |

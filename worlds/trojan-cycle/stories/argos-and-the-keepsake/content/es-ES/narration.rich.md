@@ -22,11 +22,11 @@ que zarpamos. La he traído todo este largo camino, y ahora la he dejado caer en
 algún lugar de la costa ventosa. Zarpamos al atardecer. No puedo irme a casa y
 dejarla atrás. No puedo."
 
-Odiseo el Astuto, capitán de los marineros, se acercó y se agachó con vosotros. Era
+Odiseo el Brillante, capitán de los marineros, se acercó y se agachó con vosotros. Era
 de esa clase de hombres que prefiere resolver un problema antes que gritar por él.
 "Así que", dijo con dulzura, "un amigo está triste y un pequeño tesoro se ha perdido
 en una playa muy larga. Ese no es un trabajo para lanzas. Ese es un trabajo para
-ojos astutos y un corazón fiel. ¿Iréis a buscarlo antes de que la marea y el viento
+buenas ideas y un corazón fiel. ¿Iréis a buscarlo antes de que la marea y el viento
 lo escondan para siempre?"
 
 En vuestras manos puso tres regalos: La Caracola, una gran concha en espiral que
@@ -40,7 +40,7 @@ hocico gris, con ojos brillantes y amables y un rabo que no paraba.
 olvida a un amigo, y nunca olvida un olor. Seguid su nariz. Seguíos los unos a los
 otros. Y hagáis lo que hagáis, no dejéis a nadie atrás."
 
-*¿Cuál es vuestro nombre de héroe? ¿Qué cualidad llevaréis: Astucia, Valor o
+*¿Cuál es vuestro nombre de héroe? ¿Qué cualidad llevaréis: Imaginación, Valor o
 Lealtad?*
 
 ## Parada 1: Siguiendo a Argos
@@ -122,9 +122,9 @@ todo ese camino a por él. Habéis vuelto a por *mí*." Acunó la pequeña prend
 madera de olivo, y luego rodeó a Argos con los brazos, que meneó el rabo con tanta
 fuerza que casi los tira a los dos a la arena.
 
-Odiseo el Astuto miraba, y había algo tierno en su rostro astuto. "Un brazo fuerte
+Odiseo el Brillante miraba, y había algo tierno en su rostro luminoso. "Un brazo fuerte
 no habría podido hacer esto", dijo. "Solo corazones fieles que no dejarían a un
-amigo atrás. Esa es la astucia más verdadera que existe, y vosotros la tenéis." Y
+amigo atrás. Esa es la mejor idea que existe, y vosotros la tenéis." Y
 allá lejos, donde rodaban las olas brillantes, Tetis, la Madre del Mar, alzó su
 rostro amable del agua y os sonrió, y el mar quedó en calma y amable para el viaje
 que venía.

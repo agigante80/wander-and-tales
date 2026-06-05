@@ -11,23 +11,23 @@ e il suo canto teneva ogni pozzo del Paese degli Ulivi fresco e colmo. Poi, una
 mattina grigia, il canto si fermò di colpo. I pozzi si abbassarono. Le foglie degli
 ulivi pendevano stanche e assetate, e l'intera valle pareva trattenere il fiato.
 
-La vecchia Dafne, guardiana dell'uliveto, vi chiamò al suo fianco. "Avete la testa
-sveglia e il cuore buono", disse, "e lassù vale più di qualsiasi spada. Salirete la
+La vecchia Dafne, guardiana dell'uliveto, vi chiamò al suo fianco. "Avete tante
+idee e il cuore buono", disse, "e lassù vale più di qualsiasi spada. Salirete la
 collina a risvegliare la fonte?"
 
 Tra le vostre mani mise tre regali: un gomitolo di filo dorato, una focaccia al miele
 avvolta in una foglia e una piccola lira consumata dal tanto suonare. "Ricordate",
 disse, "su queste colline non si vince essendo i più forti. Si vince essendo
-ingegnosi, coraggiosi e gentili."
+coraggiosi, gentili e pieni di idee."
 
-*Qual è il vostro nome da eroe? Quale qualità porterete con voi: Ingegno, Coraggio o
+*Qual è il vostro nome da eroe? Quale qualità porterete con voi: Immaginazione, Coraggio o
 Cuore?*
 
 ## Tappa 1: La Porta degli Indovinelli
 
 La strada saliva verso il sole, e in cima si ergeva un'alta porta di marmo bianco.
 Sui suoi gradini tiepidi riposava una sfinge, il corpo di leone, le ali dorate
-ripiegate e il volto sereno e ingegnoso. Vi guardava con la pazienza di chi ha tutto
+ripiegate e il volto sereno e curioso. Vi guardava con la pazienza di chi ha tutto
 il tempo del mondo.
 
 "Nessuno passa", disse, "finché non risponde al mio indovinello." Non c'era crudeltà
@@ -85,7 +85,7 @@ voci che intrecciavano una canzone così luminosa da sembrare capace di sollevar
 l'intera collina. La fonte tornò di colpo alla vita e, laggiù in basso, ogni pozzo del
 Paese degli Ulivi si riempì di nuovo di acqua fresca e limpida.
 
-In cima all'Olimpo, avvolto nelle nuvole, la saggia Atena guardò in basso e sorrise.
-Ce l'avevate fatta, e ce l'avevate fatta insieme: con il vostro ingegno, con il vostro
+In cima all'Olimpo, avvolto nelle nuvole, la buona Atena guardò in basso e sorrise.
+Ce l'avevate fatta, e ce l'avevate fatta insieme: con le vostre idee, con il vostro
 coraggio e, soprattutto, con la vostra gentilezza. Ben fatto, eroi delle Colline
 Assolate.

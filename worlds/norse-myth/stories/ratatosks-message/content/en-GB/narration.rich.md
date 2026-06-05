@@ -20,16 +20,16 @@ them ever did. It was only a tangle of crossed messages. But the two old friends
 have turned their backs on each other, and the whole tree feels the chill of it.
 
 Edda the Saga-Keeper called you to her side by the great fire of the Hearth Hall.
-"You have clever heads and kind hearts," she said, "and that is worth more up there
+"You have bright ideas and kind hearts," she said, "and that is worth more up there
 than any axe. Will you help poor Ratatosk sort his messages and set things right,
 so the two friends make up?"
 
 Into your hands she pressed three gifts: a ball of bright red yarn, a snack to coax
 a flustered squirrel, and a little lantern for the deep dark roots. "Remember," she
 said, "in these fjords we do not win by being the strongest. We win by being
-clever, brave, and kind."
+brave, kind, and full of ideas."
 
-*What is your hero name? Which quality will you carry: Wit, Courage, or Heart?*
+*What is your hero name? Which quality will you carry: Imagination, Courage, or Heart?*
 
 ## Stop 1: Catch the Squirrel
 
@@ -54,7 +54,7 @@ think when somebody is kind to you. Now, to the muddle."
 
 Ratatosk opened his paws and out tumbled three little messages, all jumbled
 together in a heap. Three friends were waiting along the tree, he explained: the
-fierce-looking Eagle high at the very top, a wise old owl on a middle branch, and
+fierce-looking Eagle high at the very top, a kind old owl on a middle branch, and
 the small friend far down among the roots. Each message belonged to just one of
 them. But which message went to which friend? That was the muddle.
 
@@ -107,5 +107,5 @@ never, ever forget it. Thank you, thank you, thank you!"
 
 High above the snowlit fjords, where the aurora ripples teal and green and purple,
 Freya the Kind looked down and smiled. You had done it, and you had done it
-together: with your wit, with your courage, and above all with your kindness. Well
+together: with your ideas, with your courage, and above all with your kindness. Well
 done, heroes of the Snowlit Fjords.

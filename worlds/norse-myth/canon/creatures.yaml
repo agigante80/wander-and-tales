@@ -58,9 +58,9 @@
     es-ES: Los Dos Cuervos
     it-IT: I Due Corvi
   kind: creature
-  disposition: wise
+  disposition: thoughtful
   description:
-    en-GB: A pair of wise black ravens, Thought and Memory, who fly over all the fjords and bring back news. They nod kindly to heroes who travel with good intentions.
-    es-ES: Un par de sabios cuervos negros, Pensamiento y Memoria, que vuelan sobre todos los fiordos y traen noticias. Saludan con un gesto amable a los héroes que viajan con buenas intenciones.
-    it-IT: Una coppia di saggi corvi neri, Pensiero e Memoria, che volano su tutti i fiordi e riportano notizie. Fanno un cenno gentile agli eroi che viaggiano con buone intenzioni.
+    en-GB: A pair of thoughtful black ravens, Thought and Memory, who fly over all the fjords and bring back news. They nod kindly to heroes who travel with good intentions.
+    es-ES: Un par de cuervos negros y reflexivos, Pensamiento y Memoria, que vuelan sobre todos los fiordos y traen noticias. Saludan con un gesto amable a los héroes que viajan con buenas intenciones.
+    it-IT: Una coppia di corvi neri e riflessivi, Pensiero e Memoria, che volano su tutti i fiordi e riportano notizie. Fanno un cenno gentile agli eroi che viaggiano con buone intenzioni.
   first_seen: ratatosks-message

@@ -20,16 +20,16 @@ giacevano in un enorme pasticcio, e il povero Pon sedeva in mezzo con le orecchi
 basse e il cuore pieno di dispiacere.
 
 Nonna Yuki, Custode dei Racconti, che conosceva ogni storia delle montagne, chiamò
-voi due al suo fianco. "Avete una testa sveglia e un cuore gentile", disse, "e oggi
+voi due al suo fianco. "Avete una testa piena di idee e un cuore gentile", disse, "e oggi
 questo vale più del paio di braccia più forte. Aiuterete Pon a rimettere in ordine il
 mercato prima che la festa cominci?"
 
 Nelle vostre mani mise tre regali: un gomitolo di filo rosso vivo, un campanello di
 bronzo e un dolce di riso morbido e dolce. "Ricordate", disse con un sorriso, "su
-queste montagne non vinciamo essendo i più forti. Vinciamo essendo saggi, coraggiosi e
-gentili."
+queste montagne non vinciamo essendo i più forti. Si vince con coraggio, gentilezza e
+tante idee."
 
-*Qual è il vostro nome da eroi? Quale qualità porterete: Saggezza, Coraggio o
+*Qual è il vostro nome da eroi? Quale qualità porterete: Immaginazione, Coraggio o
 Gentilezza?*
 
 ## Tappa 1: I banchi sottosopra
@@ -81,7 +81,7 @@ pendeva in alto sopra il centro, quella il cui bagliore era il segnale perché l
 cominciasse. Senza di lei, il tamburo non poteva suonare.
 
 Proprio allora, Kon la Volpe uscì trotterellando dal bambù con una foglia in testa e un
-luccichio furbo negli occhi. "Sono piuttosto bravo a notare le cose", disse. "E credo
+luccichio vivace negli occhi. "Sono piuttosto bravo a notare le cose", disse. "E credo
 proprio di aver visto qualcosa di tondo e rosso rotolare via, giù per il vicolo, sotto
 il vecchio susino vicino al ponte. Seguite il mio indizio, e pensate dove ama
 nascondersi una lanterna in fuga."
@@ -110,5 +110,5 @@ nella piazza, e con un allegro scampanio la festa cominciò finalmente.
 
 Lassù in alto, sopra i monti in fiore, Amaterasu, la Dea del Sole, guardò in basso
 attraverso la luce calda e sorrise. Ce l'avevate fatta, e ce l'avevate fatta insieme:
-con la vostra saggezza, con il vostro coraggio e, soprattutto, con la vostra
+con la vostra immaginazione, con il vostro coraggio e, soprattutto, con la vostra
 gentilezza. Bravi, eroi del Villaggio delle Lanterne.

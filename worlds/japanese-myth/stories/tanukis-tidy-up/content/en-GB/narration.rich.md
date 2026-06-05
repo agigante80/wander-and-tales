@@ -20,16 +20,16 @@ lanterns lay in one enormous jumble, and poor Pon sat in the middle of it with h
 ears flat and his heart full of sorry.
 
 Granny Yuki the Tale-Keeper, who knew every story in the mountains, called the two
-of you to her side. "You have clever heads and kind hearts," she said, "and that is
+of you to her side. "You have heads full of ideas and kind hearts," she said, "and that is
 worth more today than the strongest pair of arms. Will you help Pon set the market
 right before the festival opens?"
 
 Into your hands she pressed three gifts: a ball of bright red thread, a little
 bronze bell, and a soft, sweet rice cake. "Remember," she said with a smile, "in
-these mountains we do not win by being the strongest. We win by being wise, brave,
-and kind."
+these mountains we do not win by being the strongest. We win by being brave, kind,
+and full of ideas."
 
-*What is your hero name? Which quality will you carry: Wisdom, Courage, or Kindness?*
+*What is your hero name? Which quality will you carry: Imagination, Courage, or Kindness?*
 
 ## Stop 1: The Jumbled Stalls
 
@@ -68,7 +68,7 @@ fruit to its basket by its colour. What is your plan?*
 
 Patiently, piece by piece, you sorted and counted it all back into place, and slowly
 the market grew tidy and bright again. Pon watched in wonder and clapped his small
-paws together. "You are so clever and so calm," he said. "I would have rushed and
+paws together. "You are so full of ideas and so calm," he said. "I would have rushed and
 made it worse, but you thought it all the way through."
 
 ## Stop 3: The Last Lantern
@@ -80,7 +80,7 @@ very middle, the one whose glow was the signal for the festival to begin. Withou
 it, the drum could not sound.
 
 Just then, Kon the Fox came trotting out of the bamboo with a leaf upon his head and
-a clever twinkle in his eye. "I am rather good at noticing things," he said. "And I
+a bright twinkle in his eye. "I am rather good at noticing things," he said. "And I
 do believe I saw something round and red go rolling away, down the lane, under the
 old plum tree by the bridge. Follow my clue, and think where a runaway lantern likes
 to hide."
@@ -109,5 +109,5 @@ with a happy ring the festival opened at last.
 
 High above the blossom mountains, Amaterasu the Sun-Kami looked down through the
 warm light and smiled. You had done it, and you had done it together: with your
-wisdom, with your courage, and above all with your kindness. Well done, heroes of
+imagination, with your courage, and above all with your kindness. Well done, heroes of
 the Lantern Village.

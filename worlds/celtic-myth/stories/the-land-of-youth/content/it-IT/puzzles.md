@@ -2,7 +2,7 @@
 
 *Per i vostri occhi, non per i bambini. Ogni tappa indica il suo livello, ciò che i
 giocatori devono scoprire, la soluzione prevista e un aiuto gentile perché un bambino
-bloccato vada sempre avanti. Più di una buona idea dovrebbe valere; premiate l'ingegno
+bloccato vada sempre avanti. Più di una buona idea dovrebbe valere; premiate l'immaginazione
 e la gentilezza più della risposta "giusta".*
 
 ## Tappa 1: L'Indovinello del Salmone (Normale)
@@ -17,7 +17,7 @@ sparisco nell'attimo in cui ti volti a guardare. Cosa sono?"* La risposta è **l
 nebbia** (o una nuvola, che il salmone accetta con la stessa gioia, perché entrambe
 vagano sopra il lago).
 
-**Soluzione prevista.** È una sfida di pensiero, di Astuzia e un po' di pazienza.
+**Soluzione prevista.** È una sfida di pensiero, di Immaginazione e un po' di pazienza.
 Lasciate che i bambini ne parlino insieme. Il salmone accetta la risposta giusta e,
 poiché è gentile, accetta anche una supposizione coraggiosa e meditata.
 
@@ -50,10 +50,10 @@ perduta, ma l'amica ha mezzo dimenticato la casa e, con dolcezza, spinge tutti a
 restare per sempre. Il richiamo a restare è l'unico pericolo, e i giocatori
 potrebbero sentirlo anche loro. Qui non c'è nessuno da sconfiggere.
 
-**Soluzione prevista.** È un momento di Gentilezza e Astuzia. La mossa intelligente e
+**Soluzione prevista.** È un momento di Gentilezza e Immaginazione. La buona mossa
 gentile è restituire all'amica la sua casa: parlarle con calore della Casa Rotonda,
 delle persone che le vogliono bene, del lago di casa all'alba, finché il ricordo non
-torna. Legare il **gomitolo di lana rossa** al bordo dell'acqua è l'astuzia che
+torna. Legare il **gomitolo di lana rossa** al bordo dell'acqua è la buona idea che
 permette a tutti di ripercorrere la via del ritorno attraverso la nebbia. Quando
 l'amica ricorda, tutti scelgono, insieme, di tornare. Dopo quella scelta non c'è
 tiro: la via di casa si prende e basta.
@@ -68,5 +68,5 @@ nessuno perda il sentiero, per quanto nebbioso diventi.
 Non c'è battaglia né perdente. Quando l'amica ricorda e sceglie la casa, Sorcha li
 traghetta tutti di nuovo attraverso il lago seguendo la scia di lana rossa, la nebbia
 si apre su una verde riva luminosa, e Danu la Gentile sorride dalle colline. Gli eroi
-hanno vinto nell'unico modo in cui si vince qui: essendo astuti, coraggiosi e
-gentili, e mantenendo la promessa di riportare la loro amica a casa.
+hanno vinto nell'unico modo in cui si vince qui: essendo coraggiosi, gentili e
+pieni di idee, e mantenendo la promessa di riportare la loro amica a casa.

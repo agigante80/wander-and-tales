@@ -12,14 +12,14 @@ dejado de brillar de color ámbar. Fuera, la nieve es profunda y la oscuridad se
 siente muy larga.
 
 Edda la Guardiana de las Sagas os llama a su lado. "Vosotros dos tenéis cabezas
-listas y corazones cálidos", dice. "¿Llevaréis de vuelta el calor antes del
+llenas de ideas y corazones cálidos", dice. "¿Llevaréis de vuelta el calor antes del
 amanecer?"
 
 Os da tres regalos: La Brasa Siempre Cálida, El Ovillo de Lana Roja y El Bollo de
 Miel, calentito. Luego sonríe. "Aquí arriba no ganamos siendo los más fuertes.
-Ganamos siendo listos, valientes y amables."
+Ganamos siendo valientes, amables y con muchas ideas."
 
-*¿Cuál es vuestro nombre de héroe? ¿Sois héroes de Astucia, de Valor o de Corazón?*
+*¿Cuál es vuestro nombre de héroe? ¿Sois héroes de Imaginación, de Valor o de Corazón?*
 
 ## Parada 1: El Fiordo Helado
 
@@ -76,5 +76,5 @@ blancas.
 
 Arriba en el cielo, los Espíritus de la Aurora danzan en turquesa, verde y morado.
 El Gigante de Hielo Solitario tiene amigos por fin, y está sonriendo. Y Freya la
-Bondadosa mira hacia abajo y también sonríe. Lo habéis logrado juntos. Fuisteis
-listos, fuisteis valientes y, sobre todo, fuisteis amables. Bien hecho, héroes.
+Bondadosa mira hacia abajo y también sonríe. Lo habéis logrado juntos. Tuvisteis
+muchas ideas, fuisteis valientes y, sobre todo, fuisteis amables. Bien hecho, héroes.

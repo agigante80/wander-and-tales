@@ -12,15 +12,15 @@ now the village folk cannot find their way to the fair.
 Who did this? Pook the Puca, a playful faerie who can change his shape. He did not
 mean any harm. He only wanted a game.
 
-Old Maeve the Tale-Weaver calls you to the Roundhouse. "You two have clever heads
-and kind hearts," she says. "Will you go and untangle the paths, and win Pook over
+Old Maeve the Tale-Weaver calls you to the Roundhouse. "You two have heads full of
+ideas and kind hearts," she says. "Will you go and untangle the paths, and win Pook over
 with a friendly word?"
 
 She gives you three gifts: a ball of red wool, a honey oatcake, and a sprig of
 oak for luck. Then she smiles. "Here we do not win by being the strongest. We win
-by being clever, brave, and kind."
+by being brave, kind, and full of ideas."
 
-*What is your hero name? Are you a hero of Cleverness, of Courage, or of Kindness?*
+*What is your hero name? Are you a hero of Imagination, of Courage, or of Kindness?*
 
 ## Stop 1: The Tangled Grove
 
@@ -82,5 +82,5 @@ proud to help at last. Down in the village, the folk cheer as the paths open, an
 the May fair begins with music and dancing.
 
 High above the green isles, Danu the Kind looks down and smiles. You did it
-together. You were clever, you were brave, and most of all, you were kind. Well
+together. You were brave, you were kind, and you were full of ideas. Well
 done, heroes.

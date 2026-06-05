@@ -14,14 +14,14 @@ vez, y ahora la gente del pueblo no encuentra el camino a la feria.
 No pretendía hacer ningún daño. Solo quería jugar.
 
 La Vieja Maeve, Tejedora de Cuentos, os llama a la Casa Redonda. "Vosotros dos
-tenéis cabezas listas y corazones bondadosos", dice. "¿Iréis a desenredar los
+tenéis cabezas llenas de ideas y corazones bondadosos", dice. "¿Iréis a desenredar los
 senderos y a ganaros a Pook con una palabra amable?"
 
 Os da tres regalos: un ovillo de lana roja, una torta de avena y miel, y una
 ramita de roble para la suerte. Luego sonríe. "Aquí no ganamos por ser los más
-fuertes. Ganamos siendo listos, valientes y bondadosos."
+fuertes. Ganamos siendo valientes, bondadosos y con muchas ideas."
 
-*¿Cuál es tu nombre de héroe? ¿Eres un héroe de la Astucia, del Valor o de la
+*¿Cuál es tu nombre de héroe? ¿Eres un héroe de la Imaginación, del Valor o de la
 Bondad?*
 
 ## Parada 1: El Robledal Enredado
@@ -87,5 +87,5 @@ orgulloso de ayudar por fin. Abajo, en el pueblo, la gente vitorea cuando los
 senderos se abren, y la feria de mayo empieza con música y baile.
 
 En lo alto, sobre las verdes islas, Danu la Bondadosa mira hacia abajo y sonríe.
-Lo habéis logrado juntos. Fuisteis listos, fuisteis valientes y, sobre todo,
-fuisteis bondadosos. Bien hecho, héroes.
+Lo habéis logrado juntos. Fuisteis valientes, fuisteis bondadosos y, sobre todo,
+estuvisteis llenos de ideas. Bien hecho, héroes.

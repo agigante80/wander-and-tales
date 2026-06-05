@@ -18,7 +18,7 @@ reunir lo que necesitamos y a traer a nuestro gran amigo hasta la mesa?"
 Os da un tarro vacío y una sonrisa cálida. "Aquí arriba no celebramos un banquete
 dejando a nadie fuera. Compartimos, y siempre hacemos sitio para uno más."
 
-*¿Cuál es vuestro nombre de héroe? ¿Sois héroes de Ingenio, de Valor o de Corazón?*
+*¿Cuál es vuestro nombre de héroe? ¿Sois héroes de Imaginación, de Valor o de Corazón?*
 
 ## Parada 1: La Colina de las Abejas
 
@@ -65,7 +65,7 @@ los olivos. Y justo en el medio, con la porción más grande de todas, se sienta
 Cíclope, riéndose con sus nuevos amigos.
 
 Nadie se queda fuera. Todos los platos están llenos, todas las caras están contentas.
-En lo alto de la montaña, la sabia Atenea sonríe al banquete desde las alturas.
+En lo alto de la montaña, la buena Atenea sonríe al banquete desde las alturas.
 
-Lo habéis conseguido juntos. Fuisteis listos, fuisteis valientes y, sobre todo,
+Lo habéis conseguido juntos. Fuisteis valientes, estuvisteis llenos de ideas y, sobre todo,
 fuisteis amables. Bien hecho, héroes.

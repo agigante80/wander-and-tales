@@ -25,7 +25,7 @@ lore_summary:
     lanterns, a jolly trickster tanuki, stone guardian dogs, and a great old river
     dragon who brings the rains. Here a hero is not the strongest or the loudest,
     but the one who is patient, thinks things through, and is kind to every living
-    thing. The grandest deeds are done with wisdom and courage and a gentle heart,
+    thing. The grandest deeds are done with imagination and courage and a gentle heart,
     and even a fearsome guardian, met with a calm and friendly word, often turns
     out kinder than it looks.
   es-ES: >
@@ -38,7 +38,7 @@ lore_summary:
     tanuki travieso, perros guardianes de piedra y un gran dragón del río que trae
     las lluvias. Aquí un héroe no es el más fuerte ni el que más grita, sino quien
     es paciente, piensa bien las cosas y es amable con todo ser vivo. Las hazañas
-    más grandes se logran con sabiduría, valor y un corazón amable, y hasta un
+    más grandes se logran con imaginación, valor y un corazón amable, y hasta un
     guardián temible, si lo afrontáis con calma y buenas palabras, a menudo resulta
     más bondadoso de lo que parece.
   it-IT: >
@@ -51,7 +51,7 @@ lore_summary:
     burlone, cani guardiani di pietra e un grande drago del fiume che porta le
     piogge. Qui un eroe non è il più forte né quello che grida di più, ma chi è
     paziente, riflette bene e si mostra gentile con ogni essere vivente. Le imprese
-    più grandi si compiono con saggezza, coraggio e un cuore gentile, e persino un
+    più grandi si compiono con immaginazione, coraggio e un cuore gentile, e persino un
     guardiano spaventoso, accolto con calma e parole gentili, spesso si rivela più
     buono di quanto sembri.
 visual_style: >
@@ -82,11 +82,11 @@ images:
     orientation: square
     canon_ref: kon-fox
     prompt: >
-      A friendly fox spirit with soft russet fur and bright clever eyes sitting
+      A friendly fox spirit with soft russet fur and bright lively eyes sitting
       among bamboo, a playful smile as if about to ask a riddle, a little leaf on its
-      head. Wise and welcoming, not frightening.
+      head. Gentle and welcoming, not frightening.
     alt:
-      en-GB: A friendly russet fox spirit with bright clever eyes sitting among bamboo, smiling as if about to ask a riddle.
+      en-GB: A friendly russet fox spirit with bright lively eyes sitting among bamboo, smiling as if about to ask a riddle.
       es-ES: Un amable espíritu zorro de pelaje rojizo y ojos vivos sentado entre el bambú, sonriendo como si fuera a plantear un acertijo.
       it-IT: Un gentile spirito volpe dal pelo rossiccio e occhi vivaci seduto tra il bambù, che sorride come se stesse per porre un indovinello.
   - id: river-dragon

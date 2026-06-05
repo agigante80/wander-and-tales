@@ -71,4 +71,4 @@ When you tell Pip kindly that all is well, they peek out and smile. With one car
 Change, Pip sets the very last thing right, and the whole market claps. Pip stands a
 little taller.
 
-You did it together. You were clever, and you were kind. Well done.
+You did it together. You were kind, and you were full of ideas. Well done.

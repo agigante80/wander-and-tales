@@ -2,7 +2,7 @@
 
 *For your eyes, not the children's. Each stop lists its band, what the players need
 to work out, the intended solution, and a gentle fallback so a stuck child always
-moves forward. More than one good idea should work; reward cleverness and kindness
+moves forward. More than one good idea should work; reward good ideas and kindness
 over the "right" answer.*
 
 ## Stop 1: The Dim Square (Easy)
@@ -65,5 +65,5 @@ Play it softly. Let the children decide how to reach out: a kind word, an invita
 to the festival, a promise to visit the clouds. There is no fight and no trick. When
 they offer friendship, Nimbo lets the light go, the lanterns rise all together, and
 Nimbo floats down to join the families, glowing brightest of all. End on that warmth.
-The children have won by being clever and kind, which is the only way anyone wins on
+The children have won by being kind and full of ideas, which is the only way anyone wins on
 the Isles.

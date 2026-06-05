@@ -20,8 +20,8 @@ lore_summary:
     island, the House of the Little Mages sits at the highest point, where young
     mages learn their first spells, and the city where the families live spreads
     below. Inside the school grounds lies the Great Garden, the green heart of
-    the whole island. Here nobody loses; you find your way by being clever and
-    kind.
+    the whole island. Here nobody loses; you find your way by being kind and
+    full of ideas.
   es-ES: >
     Las Islas Flotantes son islas que flotan en un cielo tranquilo, en un reino
     donde la magia solo sirve para ayudar: hace crecer, cura, convierte una cosa
@@ -30,7 +30,7 @@ lore_summary:
     donde los jóvenes magos aprenden sus primeros hechizos, y debajo se extiende
     la ciudad donde viven las familias. Dentro del recinto de la escuela está el
     Gran Jardín, el corazón verde de toda la isla. Aquí nadie pierde; encontráis
-    el camino siendo listos y amables.
+    el camino siendo amables y con muchas ideas.
   it-IT: >
     Le Isole Volanti sono isole che galleggiano in un cielo tranquillo, in un
     regno dove la magia serve solo ad aiutare: fa crescere, guarisce, trasforma
@@ -39,7 +39,7 @@ lore_summary:
     erge nel punto più alto, dove i giovani maghi imparano i loro primi
     incantesimi, e sotto si estende la città dove vivono le famiglie. Dentro il
     recinto della scuola si trova il Grande Giardino, il cuore verde di tutta
-    l'isola. Qui nessuno perde; trovate la strada essendo svegli e gentili.
+    l'isola. Qui nessuno perde; trovate la strada con gentilezza e con le vostre idee.
 fonts:
   default: dejavu-serif
 visual_style: >

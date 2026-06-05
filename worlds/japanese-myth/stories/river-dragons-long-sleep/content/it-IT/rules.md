@@ -9,14 +9,14 @@ ed essere un avventuriero in più che gioca con loro. È un gioco cooperativo pe
 più persone che giocano insieme, un adulto e uno o più bambini, tutti dalla stessa
 parte. Nessuno compete e nessuno perde. È una storia più coraggiosa di altre, con una
 lunga salita, un ponte che oscilla al chiaro di luna e un grande drago dormiente, ma la
-saggezza e la gentilezza vincono sempre, e nessuno si fa mai male davvero.
+immaginazione e la gentilezza vincono sempre, e nessuno si fa mai male davvero.
 
 ## Preparare la partita
 
 - Stampate la mappa. Ogni giocatore mette una piccola pedina sulla Partenza, Il
   Villaggio delle Lanterne.
 - In questo mondo non c'è magia. Al suo posto, ogni eroe si appoggia a una di tre
-  qualità: **Saggezza** (una mente calma e riflessiva), **Coraggio** (un cuore saldo) o
+  qualità: **Immaginazione** (inventare idee), **Coraggio** (un cuore saldo) o
   **Gentilezza** (prendersi cura degli altri). Sulla scheda dell'eroe, dove dice magia,
   che ogni bambino scriva la qualità che preferisce. Due qualità diverse funzionano
   meglio insieme.
@@ -42,8 +42,8 @@ Quando un tiro non raggiunge il livello, i giocatori hanno sempre un modo per an
 avanti:
 
 - **Spendere una stella di energia** per ritrovare la calma e riprovare l'idea, oppure
-- **Unire due qualità** una volta per tappa per superare la sfida senza tirare (Saggezza
-  e Gentilezza insieme, per esempio, o Coraggio e Saggezza).
+- **Unire due qualità** una volta per tappa per superare la sfida senza tirare (Immaginazione
+  e Gentilezza insieme, per esempio, o Coraggio e Immaginazione).
 
 Le stelle di energia si recuperano passando alla tappa successiva e aiutandosi a
 vicenda. Nessuno può restarne a corto a lungo, e nessuno resta mai bloccato.

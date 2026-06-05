@@ -19,11 +19,11 @@
     es-ES: El Salmón de la Sabiduría
     it-IT: Il Salmone della Saggezza
   kind: creature
-  disposition: wise
+  disposition: thoughtful
   description:
-    en-GB: An old, bright salmon who swims in the misty loch and knows the answer to any riddle. He is fair and kind, and shares a clue gladly with the clever and the gentle.
-    es-ES: Un salmón viejo y reluciente que nada en el lago brumoso y conoce la respuesta a cualquier acertijo. Es justo y amable, y comparte de buen grado una pista con los ingeniosos y los gentiles.
-    it-IT: Un salmone vecchio e lucente che nuota nel lago nebbioso e conosce la risposta a ogni indovinello. È giusto e gentile, e condivide volentieri un indizio con gli ingegnosi e i gentili.
+    en-GB: An old, bright salmon who swims in the misty loch and knows the answer to any riddle. He is fair and kind, and shares a clue gladly with those full of ideas and those who are gentle.
+    es-ES: Un salmón viejo y reluciente que nada en el lago brumoso y conoce la respuesta a cualquier acertijo. Es justo y amable, y comparte de buen grado una pista con quienes tienen ideas y con los gentiles.
+    it-IT: Un salmone vecchio e lucente che nuota nel lago nebbioso e conosce la risposta a ogni indovinello. È giusto e gentile, e condivide volentieri un indizio con chi ha le idee e con i gentili.
   first_seen: the-land-of-youth
 
 - id: sorcha-selkie

@@ -13,15 +13,15 @@ The reason is a quiet one. Inside each lantern lives a shy little Firefly Spirit
 tonight every one of them has flown off to hide. They are deep in the Whispering
 Bamboo Grove, in the dark, too timid to come out.
 
-Granny Yuki the Tale-Keeper calls you to her side. "You two have wise heads and kind
-hearts," she says. "Will you go to the grove and gently coax the firefly spirits back,
+Granny Yuki the Tale-Keeper calls you to her side. "You two have heads full of ideas and
+kind hearts," she says. "Will you go to the grove and gently coax the firefly spirits back,
 so our festival can glow?"
 
 She gives you three gifts: a paper lantern, a ball of red thread, and a soft, sweet
 rice cake. Then she smiles. "Up in the hills we do not win by being loud or strong. We
-win by being wise, brave, and kind."
+win by being brave, kind, and full of ideas."
 
-*What is your hero name? Will you carry Wisdom, Courage, or Kindness?*
+*What is your hero name? Will you carry Imagination, Courage, or Kindness?*
 
 ## Stop 1: The Dark Bamboo
 
@@ -30,7 +30,7 @@ in the wind. It is dark in here, and very still. Somewhere close, tiny lights bl
 and off, then hide again. The firefly spirits are here, but they are shy.
 
 A russet fox steps softly from the green shadows. It is Kon the Fox, with bright,
-clever eyes and a little leaf on his head. He gives you a friendly wink.
+lively eyes and a little leaf on his head. He gives you a friendly wink.
 
 *The spirits are timid. What kind thing could you do? Could you move gently and speak
 softly? You have a sweet rice cake to share. Could you sit very still and let them come
@@ -80,5 +80,5 @@ The whole village cheers and laughs and begins to dance. Drums beat softly. The 
 sway like a sky full of small warm moons.
 
 When morning comes, warm Amaterasu the Sun-Kami lifts over the hills and smiles down at
-you. You did it together. You were wise, you were brave, and most of all, you were kind.
+you. You did it together. You were brave, you were kind, and most of all, you were full of ideas.
 Well done, heroes.

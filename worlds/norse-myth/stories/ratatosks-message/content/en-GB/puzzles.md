@@ -2,7 +2,7 @@
 
 *For your eyes, not the children's. Each stop lists its band, what the players need
 to work out, the intended solution, and a gentle fallback so a stuck child always
-moves forward. More than one good idea should work; reward cleverness and kindness
+moves forward. More than one good idea should work; reward imagination and kindness
 over the "right" answer.*
 
 ## Stop 1: Catch the Squirrel (Easy)
@@ -44,7 +44,7 @@ out who it belongs to:
 - *"Whoo, hello, lovely to see a friend on my branch!"* The clue is the friendly
   **hoot** from a **branch**, so this message belongs to **the Owl** in the middle.
 
-**Intended solution.** This is a Memory, Logic and Vocabulary moment. The clever
+**Intended solution.** This is a Memory, Logic and Vocabulary moment. The good
 move is to read each message, find the clue word (high sky, deep roots, a hoot), and
 match it to the friend who fits. Matching all three sorts the muddle. The **Two
 Ravens** are on hand to confirm a good guess or nudge a stuck one.
@@ -61,7 +61,7 @@ right message all the way down to the small friend, so each hears the true words
 the two understand each other again. The way up is high and the way down is deep and
 dark.
 
-**Intended solution.** This is a Spatial and Heart moment. The clever, careful move
+**Intended solution.** This is a Spatial and Heart moment. The thoughtful, careful move
 is to tie the **red yarn** at the bottom as a safety line and follow it up and back,
 so the climbers can always find their way, and to light the **little lantern** for
 the deep dark roots. Then comes the kind part: read each friend their true message
@@ -81,4 +81,4 @@ messages. When the right words reach the right friends, the Eagle high in the tr
 and the small friend down in the roots wave warmly to each other and call out,
 "Friends again!" Ratatosk thanks the heroes with a happy loop around the tree, and
 **Freya the Kind** smiles down from above the snowlit fjords. The heroes have won
-the only way anyone wins here, by being clever, brave, and kind.
+the only way anyone wins here, by being brave, kind, and full of ideas.

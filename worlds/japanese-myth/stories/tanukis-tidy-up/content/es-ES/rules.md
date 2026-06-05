@@ -8,14 +8,14 @@ la historia, ser un árbitro amable, ser el mayor admirador de los niños y ser 
 aventurero más que juega con ellos. Es un juego cooperativo para dos o más que juegan
 juntos, una persona adulta y uno o varios niños, todos del mismo lado. Nadie compite y
 nadie pierde. Es un cuento tierno y cálido, sin ningún villano: el único problema es
-un lío feliz, y la sabiduría y la bondad lo arreglan siempre.
+un lío feliz, y la imaginación y la bondad lo arreglan siempre.
 
 ## Preparar la partida
 
 - Imprimid el mapa. Cada jugador pone una figura pequeña en la Salida, el mercado de
   El Pueblo de los Faroles.
 - En este mundo no hay magia. En su lugar, cada héroe se apoya en una de tres
-  cualidades: **Sabiduría** (pensar con calma y astucia), **Valor** (un corazón
+  cualidades: **Imaginación** (inventar ideas), **Valor** (un corazón
   firme) o **Bondad** (cuidar de los demás). En la ficha de héroe, donde dice magia,
   que cada niño escriba la cualidad que más le guste. Dos cualidades distintas
   funcionan mejor juntas.
@@ -42,7 +42,7 @@ tirada no alcanza el nivel, los jugadores siempre tienen una manera de seguir:
 
 - **Gastar una estrella de energía** para serenarse y volver a intentar la idea, o
 - **Unir dos cualidades** una vez por parada para superar el reto sin tirar
-  (Sabiduría y Bondad juntas, por ejemplo, o Valor y Sabiduría).
+  (Imaginación y Bondad juntas, por ejemplo, o Valor e Imaginación).
 
 Las estrellas de energía se recuperan al pasar de parada y al ayudarse. Nadie puede
 quedarse sin ellas mucho tiempo, y nadie se queda atascado.

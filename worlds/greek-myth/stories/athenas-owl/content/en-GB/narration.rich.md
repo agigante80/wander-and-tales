@@ -9,7 +9,7 @@ try.*
 The fog came down over the hills before dawn, soft and grey and thick as wool, and
 with it came a small, lost sound: the frightened hoot of an owl. When the Olive Town
 woke, there in the middle of the square sat a tiny owl, her feathers ruffled and her
-round eyes wide. Her name was Glaux, and she was the companion of wise Athena, whose
+round eyes wide. Her name was Glaux, and she was the companion of kind Athena, whose
 temple stood high on the hill of white marble. In the fog she had lost her way, and
 she could not find the road home.
 
@@ -20,9 +20,9 @@ Athena?"
 
 Gently she wrapped the owl in a soft scarf and placed her in your care. "Remember,"
 she said, "up here we do not help by being the biggest or the boldest. We help by
-being clever, brave, and kind."
+being brave, kind, and full of ideas."
 
-*What is your hero name? Which quality will you carry: Wits, Courage, or Heart?*
+*What is your hero name? Which quality will you carry: Imagination, Courage, or Heart?*
 
 ## Stop 1: The Foggy Square
 
@@ -36,7 +36,7 @@ your voices soft? Might you hold out a steady hand and simply wait for her to ch
 you? What do you try?*
 
 When you grew calm and gentle and let her come to you in her own time, Glaux stopped
-her trembling. She studied you with those wise round eyes, gave a small contented
+her trembling. She studied you with those round amber eyes, gave a small contented
 hoot, and hopped up onto your waiting hand. From that moment she trusted you
 completely.
 
@@ -75,12 +75,12 @@ hollow, safe and snug, and tucked her head beneath one wing.
 ## Glaux Comes Home
 
 As the owl nestled down, two calm grey eyes opened within the temple, bright as
-polished silver. It was Athena herself, goddess of wisdom and good ideas, and she was
+polished silver. It was Athena herself, goddess of good ideas and kindness, and she was
 smiling down at the two of you.
 
 At her smile the morning fog began to lift, thinning and curling and floating away,
 until the sun broke through and poured golden light across the Olive Town far below.
 From her high perch Glaux gave one clear, happy hoot, as if to say thank you.
 
-You had done it, and you had done it together: with your wits, with your courage, and
+You had done it, and you had done it together: with your ideas, with your courage, and
 above all with your kindness. Well done, heroes of the Sunlit Hills.

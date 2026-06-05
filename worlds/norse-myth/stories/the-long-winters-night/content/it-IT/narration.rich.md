@@ -14,16 +14,16 @@ brillavano sempre sopra la neve erano buie, e una a una, lungo tutta la valle, i
 calore se ne andava via.
 
 Edda la Custode delle Saghe vi chiamò al suo fianco, i vecchi occhi vivi nella
-penombra. "Avete teste sveglie e cuori caldi", disse, "e in una notte come questa
+penombra. "Avete teste piene di idee e cuori caldi", disse, "e in una notte come questa
 questo vale più di qualsiasi ascia. Riporterete il calore da noi prima dell'alba?"
 
 Nelle vostre mani mise tre doni: la Brace Sempre Calda, un carbone che non si raffredda
 mai; il Gomitolo di Lana Rossa, di un rosso acceso; e il Panino al Miele, morbido e
 ancora caldo di brace. "Ricordate", disse, "in questi fiordi non si vince essendo i più
-forti. Si vince essendo ingegnosi, coraggiosi e gentili. Attraversate il Ponte
+forti. Si vince con coraggio, gentilezza e tante idee. Attraversate il Ponte
 dell'Arcobaleno fino alle sale dell'alto, e riaccendete il calore del mondo."
 
-*Qual è il vostro nome da eroe? Quale qualità porterete: Ingegno, Coraggio o Cuore?*
+*Qual è il vostro nome da eroe? Quale qualità porterete: Immaginazione, Coraggio o Cuore?*
 
 ## Tappa 1: Il Fiordo Ghiacciato
 
@@ -35,7 +35,7 @@ qualcosa scricchiolò e si assestò. Attraversare di corsa tutti insieme, in un 
 pesante, sarebbe stato chiedergli troppo.
 
 Molto in alto i Due Corvi, Pensiero e Memoria, volteggiavano contro le stelle e vi
-guardavano con occhi pazienti e sapienti.
+guardavano con occhi pazienti e gentili.
 
 *Come attraverserete senza che il ghiaccio ceda? Potreste separarvi per dividere il
 vostro peso e camminare piano, trattando il ghiaccio con cura? Potreste tenervi per
@@ -97,5 +97,5 @@ e verde e viola che ondeggiavano nel cielo che si schiariva. Il Gigante di Ghiac
 Solitario stava in mezzo a voi, finalmente caldo e sorridente, con gli amici che aveva
 aspettato di trovare per tutta la sua lunga vita. E dalle sale dell'alto, Freya la
 Gentile guardò giù e sorrise. Ce l'avevate fatta, e ce l'avevate fatta insieme: con il
-vostro ingegno, con il vostro coraggio e, soprattutto, con il vostro cuore. Bravi, eroi
+vostre idee, con il vostro coraggio e, soprattutto, con il vostro cuore. Bravi, eroi
 dei Fiordi Innevati del Nord.

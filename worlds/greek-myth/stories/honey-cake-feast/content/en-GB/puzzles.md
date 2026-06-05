@@ -2,7 +2,7 @@
 
 *For your eyes, not the children's. Each stop lists its band, what the players need to
 work out, the intended solution, and a gentle fallback so a stuck child always moves
-forward. More than one good idea should work; reward cleverness and kindness over the
+forward. More than one good idea should work; reward fresh ideas and kindness over the
 "right" answer.*
 
 ## Stop 1: The Hill of Bees (Easy)
@@ -43,7 +43,7 @@ him the courage to come.
 **Intended solution.** This is a Heart and Courage moment. Any honest, warm
 reassurance works: telling him plainly that he is wanted, reminding him that the town
 are his friends now, showing him the grand slice saved just for him, or offering to
-walk down at his side. Kindness, not cleverness, carries this stop.
+walk down at his side. Kindness, not any plan, carries this stop.
 
 **Fallback.** If the children are unsure what to say, have the giant ask quietly, "Are
 you really sure there is room for me?" A single kind word is enough, and down the hill
@@ -53,5 +53,5 @@ he comes.
 
 There is no battle and no loser. When the honey is gathered, the cake is shared, and
 the giant takes his seat, the whole **Olive Town** feasts together under the olive
-trees with nobody left out, and wise **Athena** smiles down from the mountain. The
-heroes have won the only way anyone wins here, by being clever, brave, and kind.
+trees with nobody left out, and kind **Athena** smiles down from the mountain. The
+heroes have won the only way anyone wins here, by being brave, kind, and full of ideas.

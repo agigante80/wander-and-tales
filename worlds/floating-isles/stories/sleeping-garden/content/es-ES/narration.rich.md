@@ -96,4 +96,4 @@ fuente canta, el Gato de Niebla se estira en un trozo de sol nuevo y el calor
 vuelve a derramarse por toda la isla.
 
 Lo habéis resuelto como se resuelve cualquier aventura en las Islas, juntos,
-siendo listos y siendo amables. Muy bien, los dos.
+con amabilidad y con vuestras ideas. Muy bien, los dos.

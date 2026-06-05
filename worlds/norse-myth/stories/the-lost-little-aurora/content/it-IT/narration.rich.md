@@ -19,16 +19,16 @@ timida e troppo infreddolita per brillare, e senza di lei le altre non avrebbero
 danzato.
 
 Edda la Custode delle Saghe vi fece entrare dal freddo, voi due, fino alla luce del
-fuoco della Sala del Focolare. "Avete teste sveglie e cuori buoni", disse, "e questo
+fuoco della Sala del Focolare. "Avete teste piene di idee e cuori buoni", disse, "e questo
 vale più di qualsiasi spada in una notte come questa. Andrete tra i pini ad aiutare
 la piccola aurora a brillare di nuovo?"
 
 Nelle vostre mani posò tre regali: una piccola lanterna per illuminarvi il cammino,
 un gomitolo di lana rossa accesa e un panino al miele ancora caldo del focolare.
-"Ricordate", disse, "quassù non vinciamo essendo i più forti. Vinciamo essendo
-svegli, coraggiosi e gentili."
+"Ricordate", disse, "quassù non vinciamo essendo i più forti. Vinciamo con
+coraggio, gentilezza e tante idee."
 
-*Qual è il vostro nome da eroe? Quale qualità porterete con voi: Ingegno, Coraggio o
+*Qual è il vostro nome da eroe? Quale qualità porterete con voi: Immaginazione, Coraggio o
 Cuore?*
 
 ## Tappa 1: Il Bosco Scuro
@@ -104,5 +104,5 @@ innevato e le calde finestre d'ambra delle case lunghe più in basso. La lunga n
 non era più scura, e tutti i fiordi guardarono in su pieni di meraviglia.
 
 Lassù tra le stelle, Freya la Gentile guardò giù e sorrise. Ce l'avevate fatta, e
-l'avevate fatta insieme: con il vostro ingegno, con il vostro coraggio e, soprattutto,
+l'avevate fatta insieme: con le vostre idee, con il vostro coraggio e, soprattutto,
 con il vostro cuore. Bravi, eroi dei Fiordi Innevati del Nord.

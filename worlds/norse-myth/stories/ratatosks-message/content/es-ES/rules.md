@@ -8,7 +8,7 @@ contar la historia, ser un árbitro amable, ser el mayor admirador de los niños
 un aventurero más que juega con ellos. Es un juego cooperativo para dos o más que
 juegan juntos, una persona adulta y uno o varios niños, todos del mismo lado. Nadie
 compite y nadie pierde. Es una historia tierna sobre una confusión que se arregla
-con amabilidad, y el ingenio y el cariño ganan siempre. Nadie es poco amable a
+con amabilidad, y las buenas ideas y el cariño ganan siempre. Nadie es poco amable a
 propósito, y aquí nada se rompe de verdad, solo se enreda y luego se arregla.
 
 ## Preparar la partida
@@ -16,7 +16,7 @@ propósito, y aquí nada se rompe de verdad, solo se enreda y luego se arregla.
 - Imprimid el mapa. Cada jugador pone una figura pequeña en la Salida, el Salón del
   Hogar.
 - En este mundo no hay magia. En su lugar, cada héroe se apoya en una de tres
-  cualidades: **Astucia** (pensar con listeza), **Valor** (un corazón firme y cálido)
+  cualidades: **Imaginación** (inventar ideas), **Valor** (un corazón firme y cálido)
   o **Corazón** (cuidar de los demás). En la ficha de héroe, donde dice magia, que
   cada niño escriba la cualidad que más le guste. Dos cualidades distintas funcionan
   mejor juntas.
@@ -41,7 +41,7 @@ tirada no alcanza el nivel, los jugadores siempre tienen una manera de seguir:
 
 - **Gastar una estrella de energía** para serenarse y volver a intentar la idea, o
 - **Unir dos cualidades** una vez por parada para superar el reto sin tirar
-  (Astucia y Corazón juntos, por ejemplo, o Valor y Astucia).
+  (Imaginación y Corazón juntos, por ejemplo, o Valor e Imaginación).
 
 Las estrellas de energía se recuperan al pasar de parada y al ayudarse. Nadie puede
 quedarse sin ellas mucho tiempo, y nadie se queda atascado.

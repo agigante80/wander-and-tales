@@ -2,7 +2,7 @@
 
 *For your eyes, not the children's. Each stop lists its band, what the players need
 to work out, the intended solution, and a gentle fallback so a stuck child always
-moves forward. More than one good idea should work; reward cleverness and kindness
+moves forward. More than one good idea should work; reward fresh ideas and kindness
 over the "right" answer.*
 
 ## Stop 1: The Riddle Gate (Normal)
@@ -14,7 +14,7 @@ answer her riddle. She is fair and patient, and she enjoys a good thinking face.
 tallest trees. Up, up, up I go, and yet I never grow. What am I?"* The answer is **a
 mountain** (think of Olympus rising above you).
 
-**Intended solution.** This is a thinking challenge of Wits and a little Vocabulary.
+**Intended solution.** This is a thinking challenge of Imagination and a little Vocabulary.
 Let the children talk it through together. The sphinx accepts the right answer, and
 because she is kind, she also accepts a brave, thoughtful guess.
 
@@ -27,7 +27,7 @@ behind a rock. A guess made bravely still opens the gate.
 **The challenge.** Beyond the gate is a maze of stone walls where every path looks
 the same. The players must find their way through without getting lost.
 
-**Intended solution.** This is a Spatial and Logic moment. The clever move is to use
+**Intended solution.** This is a Spatial and Logic moment. The good idea is to use
 the **golden thread**: tie one end at the entrance and unspool it as you go, so you
 can always retrace your steps and never walk the same wrong path twice. Marking each
 turn, or asking **Bramble the Satyr** for a hint, works just as well.
@@ -55,6 +55,6 @@ sings.
 ## The ending
 
 There is no battle and no loser. When the spring sings, every well in the Olive
-Town fills again, the giant has friends at last, and wise **Athena** smiles down
+Town fills again, the giant has friends at last, and kind **Athena** smiles down
 from the mountain. The heroes have won the only way anyone wins here, by being
-clever, brave, and kind.
+brave, kind, and full of ideas.

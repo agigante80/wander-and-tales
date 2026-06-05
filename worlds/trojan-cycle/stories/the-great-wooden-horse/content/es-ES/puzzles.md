@@ -2,7 +2,7 @@
 
 *Para vuestros ojos, no para los niños. Cada parada indica su nivel, lo que los
 jugadores deben averiguar, la solución prevista y un apoyo amable para que un niño
-atascado siempre avance. Más de una buena idea debería valer; premiad el ingenio y
+atascado siempre avance. Más de una buena idea debería valer; premiad la imaginación y
 la amabilidad por encima de la respuesta "correcta".*
 
 ## Parada 1: Construir el Caballo (Normal)
@@ -12,8 +12,8 @@ sus ruedas, con una puertecita en el costado. Los jugadores ayudan a los carpint
 a averiguar cómo encajan y se equilibran las piezas de madera, y cuántos tablones
 hará falta para la obra.
 
-**Solución prevista.** Es un momento de Astucia, Lógica y un poco de pensamiento
-Espacial y Matemáticas. La jugada lista es usar **El Hilo de Penélope** para medir
+**Solución prevista.** Es un momento de Imaginación, Lógica y un poco de pensamiento
+Espacial y Matemáticas. La buena idea es usar **El Hilo de Penélope** para medir
 una pieza antes de cortarla, y contar los tablones juntos para que cada pata
 coincida y el cuerpo se equilibre. Ordenar las piezas por forma, o trazar un plan
 sencillo antes de construir, vale igual de bien. Acordar cualquier plan sensato y
@@ -67,4 +67,4 @@ No hay batalla ni perdedor, y nunca hubo nadie armado dentro del caballo. Cuando
 sorpresa de la amistad funciona, la orgullosa ciudad abre sus puertas, los dos
 campamentos extienden juntos un banquete en la ladera, y **Tetis, la Madre del Mar**,
 sonríe desde el agua tranquila. Los héroes han ganado de la única manera en que se
-gana aquí: siendo astutos, valientes y leales a un amigo.
+gana aquí: siendo valientes, leales a un amigo y con muchas ideas.

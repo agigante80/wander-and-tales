@@ -2,7 +2,7 @@
 
 *Para vuestros ojos, no para los niños. Cada parada indica su nivel, lo que los
 jugadores deben averiguar, la solución prevista y un apoyo amable para que un niño
-atascado siempre avance. Más de una buena idea debería valer; premiad el ingenio y
+atascado siempre avance. Más de una buena idea debería valer; premiad las ideas nuevas y
 la amabilidad por encima de la respuesta "correcta".*
 
 ## Parada 1: La Puerta de los Acertijos (Normal)
@@ -15,7 +15,7 @@ pensar.
 el árbol más alto. Subo y subo y subo, y sin embargo nunca crezco. ¿Qué soy?"* La
 respuesta es **una montaña** (pensad en el Olimpo que se alza sobre vosotros).
 
-**Solución prevista.** Es un reto de pensar, de Ingenio y un poco de Vocabulario.
+**Solución prevista.** Es un reto de pensar, de Imaginación y un poco de Vocabulario.
 Dejad que los niños lo hablen juntos. La esfinge acepta la respuesta correcta y, como
 es amable, también acepta una conjetura valiente y meditada.
 
@@ -28,7 +28,7 @@ Una conjetura hecha con valentía abre igualmente la puerta.
 **El reto.** Tras la puerta hay un laberinto de muros de piedra donde todos los
 caminos parecen iguales. Los jugadores deben cruzarlo sin perderse.
 
-**Solución prevista.** Es un momento de Espacio y Lógica. La jugada lista es usar el
+**Solución prevista.** Es un momento de Espacio y Lógica. La buena idea es usar el
 **hilo dorado**: atad un extremo en la entrada y soltadlo a medida que avanzáis, así
 siempre podéis volver sobre vuestros pasos y nunca recorréis dos veces el mismo
 camino equivocado. Marcar cada giro, o pedirle una pista a **Zarza el Sátiro**, vale
@@ -58,6 +58,6 @@ ninfas despiertan y el agua canta.
 ## El final
 
 No hay batalla ni perdedor. Cuando la fuente canta, cada pozo del Pueblo de los
-Olivos vuelve a llenarse, el gigante tiene amigos por fin, y la sabia **Atenea**
+Olivos vuelve a llenarse, el gigante tiene amigos por fin, y la buena **Atenea**
 sonríe desde la montaña. Los héroes han ganado de la única manera en que se gana
-aquí: siendo listos, valientes y amables.
+aquí: siendo valientes, amables y con muchas ideas.

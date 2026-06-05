@@ -11,15 +11,15 @@ Ma che guaio. Pon il Tanuki era così emozionato che è rimbalzato e rotolato pe
 il mercato, e ha rovesciato ogni banco senza volerlo. Adesso i ventagli, la frutta e
 le lanterne sono tutti in un gran pasticcio, e Pon si sente malissimo.
 
-Nonna Yuki, Custode dei Racconti, vi chiama. "Voi due avete una testa sveglia e un
+Nonna Yuki, Custode dei Racconti, vi chiama. "Voi due avete una testa piena di idee e un
 cuore gentile", vi dice. "Aiuterete Pon a rimettere in ordine il mercato prima che la
 festa cominci?"
 
 Vi dà tre regali: un gomitolo di filo rosso, un campanello e un dolce di riso. Poi
-sorride. "Quassù non vinciamo essendo i più forti. Vinciamo essendo saggi, coraggiosi
-e gentili."
+sorride. "Quassù non vinciamo essendo i più forti. Si vince con coraggio, gentilezza
+e tante idee."
 
-*Qual è il vostro nome da eroi? Siete eroi di Saggezza, di Coraggio o di Gentilezza?*
+*Qual è il vostro nome da eroi? Siete eroi di Immaginazione, di Coraggio o di Gentilezza?*
 
 ## Tappa 1: I banchi sottosopra
 
@@ -78,5 +78,5 @@ Pon il Tanuki è perdonato e, cosa più bella di tutte, è orgoglioso. Il tambur
 a battere, la gente entra ridendo nella piazza e la festa comincia finalmente.
 
 Lassù in alto, Amaterasu, la Dea del Sole, guarda in basso e sorride. Ce l'avete fatta
-insieme. Siete stati saggi, siete stati coraggiosi e, soprattutto, siete stati
-gentili. Bravi, eroi del Villaggio delle Lanterne.
+insieme. Siete stati coraggiosi, siete stati gentili e, soprattutto, avete avuto
+tante idee. Bravi, eroi del Villaggio delle Lanterne.

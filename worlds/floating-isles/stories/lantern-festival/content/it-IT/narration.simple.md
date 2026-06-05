@@ -80,4 +80,4 @@ lascia andare la luce raccolta. Tutte insieme le lanterne del cielo si alzano, t
 la sera si riempie di una calda luce dorata, e Nimbo brilla più di tutti mentre
 scende a unirsi alla festa. La Festa delle Luci è cominciata.
 
-Ce l'avete fatta insieme. Siete stati svegli, e siete stati gentili. Bravi.
+Ce l'avete fatta insieme. Siete stati gentili e pieni di idee. Bravi.

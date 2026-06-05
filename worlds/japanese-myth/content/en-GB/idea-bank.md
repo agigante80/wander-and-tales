@@ -2,7 +2,7 @@
 
 *Improv prompts for the grown-up. When the children want to try something the page
 did not plan for, reach in here. Nothing is a wrong answer; every idea bends toward
-calm, cleverness, and nobody losing.*
+calm, imagination, and nobody losing.*
 
 ## If the heroes are stuck
 

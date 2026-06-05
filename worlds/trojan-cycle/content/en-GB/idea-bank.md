@@ -2,11 +2,11 @@
 
 *Improv prompts for the grown-up. When the children want to try something the page
 did not plan for, reach in here. Nothing is a wrong answer; every idea bends toward
-cleverness, friendship, and nobody losing.*
+imagination, friendship, and nobody losing.*
 
 ## If the heroes are stuck
 
-- Odysseus the Clever wanders past, rubs his beard, and asks a question that is
+- Odysseus the Bright wanders past, rubs his beard, and asks a question that is
   really a hint in disguise.
 - Argos the Faithful Hound trots up, sniffs, and points his nose the right way.
 - A gull wheels overhead and drops a feather on the thing that matters.

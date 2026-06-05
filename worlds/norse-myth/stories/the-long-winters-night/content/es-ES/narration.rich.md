@@ -14,17 +14,17 @@ ventanas de ámbar que siempre brillaban sobre la nieve estaban oscuras, y una p
 una, por todo el valle, el calor se iba escapando.
 
 Edda la Guardiana de las Sagas os llamó a su lado, sus viejos ojos brillantes en la
-penumbra. "Tenéis cabezas listas y corazones cálidos", dijo, "y en una noche como
+penumbra. "Tenéis cabezas llenas de ideas y corazones cálidos", dijo, "y en una noche como
 esta eso vale más que cualquier hacha. ¿Llevaréis de vuelta el calor antes del
 amanecer?"
 
 En vuestras manos puso tres regalos: La Brasa Siempre Cálida, un carbón que nunca se
 enfría; El Ovillo de Lana Roja, de un rojo vivo; y El Bollo de Miel, blandito y aún
 caliente de las brasas. "Recordad", dijo, "en estos fiordos no ganamos siendo los más
-fuertes. Ganamos siendo listos, valientes y amables. Cruzad El Puente del Arco Iris
+fuertes. Ganamos siendo valientes, amables y con muchas ideas. Cruzad El Puente del Arco Iris
 hasta los salones de las alturas, y encended de nuevo el calor del mundo."
 
-*¿Cuál es vuestro nombre de héroe? ¿Qué cualidad llevaréis: Astucia, Valor o
+*¿Cuál es vuestro nombre de héroe? ¿Qué cualidad llevaréis: Imaginación, Valor o
 Corazón?*
 
 ## Parada 1: El Fiordo Helado
@@ -37,7 +37,7 @@ se asentó. Cruzar a la carrera todos juntos, en un montón pesado, sería pedir
 demasiado.
 
 Muy por encima, Los Dos Cuervos, Pensamiento y Memoria, giraban contra las estrellas
-y os miraban con ojos pacientes y sabios.
+y os miraban con ojos pacientes y amables.
 
 *¿Cómo cruzaréis sin que el hielo ceda? ¿Podríais separaros para repartir vuestro
 peso y pisar con suavidad, tratando el hielo con cuidado? ¿Podríais daros la mano e
@@ -100,5 +100,5 @@ turquesa y verde y morado ondeando por el cielo que clareaba. El Gigante de Hiel
 Solitario estaba entre vosotros, cálido por fin y sonriente, con amigos que había
 esperado encontrar toda su larga vida. Y desde los salones de las alturas, Freya la
 Bondadosa miró hacia abajo y sonrió. Lo habíais logrado, y lo habíais logrado juntos:
-con vuestra astucia, con vuestro valor y, por encima de todo, con vuestro corazón.
+con vuestras ideas, con vuestro valor y, por encima de todo, con vuestro corazón.
 Bien hecho, héroes de los Fiordos Nevados del Norte.

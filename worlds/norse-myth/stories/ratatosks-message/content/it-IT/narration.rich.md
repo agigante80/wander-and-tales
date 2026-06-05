@@ -22,16 +22,16 @@ messaggi incrociati. Ma i due vecchi amici si sono voltati le spalle, e tutto
 l'albero ne sente il gelo.
 
 Edda la Custode delle Saghe vi ha chiamati al suo fianco, vicino al grande fuoco
-della Sala del Focolare. "Avete teste sveglie e cuori gentili", ha detto, "e quassù
+della Sala del Focolare. "Avete teste piene di idee e cuori gentili", ha detto, "e quassù
 vale più di qualsiasi ascia. Aiuterete il povero Ratatosk a mettere in ordine i suoi
 messaggi e a sistemare tutto, perché i due amici facciano la pace?"
 
 Nelle vostre mani ha messo tre doni: un gomitolo di lana rossa brillante, uno
 spuntino per ammansire uno scoiattolo agitato e una piccola lanterna per le radici
 profonde e buie. "Ricordate", ha detto, "in questi fiordi non si vince essendo i più
-forti. Si vince essendo ingegnosi, coraggiosi e gentili."
+forti. Si vince con coraggio, gentilezza e tante idee."
 
-*Qual è il vostro nome da eroe? Quale qualità porterete: Ingegno, Coraggio o Cuore?*
+*Qual è il vostro nome da eroe? Quale qualità porterete: Immaginazione, Coraggio o Cuore?*
 
 ## Tappa 1: Acchiappate lo Scoiattolo
 
@@ -58,7 +58,7 @@ a quell'imbroglio."
 
 Ratatosk aprì le zampine e ne caddero tre messaggini, tutti ammucchiati in disordine.
 Tre amici aspettavano lungo l'albero, spiegò: l'Aquila dall'aria fiera proprio in
-cima, un vecchio gufo saggio su un ramo di mezzo e l'amichetto là sotto, tra le
+cima, un vecchio gufo gentile su un ramo di mezzo e l'amichetto là sotto, tra le
 radici. Ogni messaggio apparteneva a uno solo di loro. Ma quale messaggio andava a
 quale amico? Quello era l'imbroglio.
 
@@ -113,5 +113,5 @@ amici", disse. "Non lo dimenticherò mai e poi mai. Grazie, grazie, grazie!"
 
 Lassù, sopra i fiordi innevati, dove l'aurora ondeggia turchese, verde e viola, Freya
 la Gentile guardò giù e sorrise. Ce l'avevate fatta, e ce l'avevate fatta insieme:
-con il vostro ingegno, con il vostro coraggio e, soprattutto, con la vostra
+con le vostre idee, con il vostro coraggio e, soprattutto, con la vostra
 gentilezza. Bravi, eroi dei Fiordi Innevati del Nord.

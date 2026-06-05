@@ -17,7 +17,7 @@ need, and bring our big friend down to the table?"
 She gives you an empty jar and a warm smile. "Up here we do not feast by leaving
 anyone out. We share, and we always make room for one more."
 
-*What is your hero name? Are you a hero of Wits, of Courage, or of Heart?*
+*What is your hero name? Are you a hero of Imagination, of Courage, or of Heart?*
 
 ## Stop 1: The Hill of Bees
 
@@ -63,7 +63,7 @@ trees. And right in the middle, with the biggest slice of all, sits the Cyclops,
 laughing with his new friends.
 
 Nobody is left out. Every plate is full, every face is happy. High on the mountain,
-wise Athena smiles down at the feast.
+kind Athena smiles down at the feast.
 
-You did it together. You were clever, you were brave, and most of all, you were kind.
+You did it together. You were brave, you were full of ideas, and most of all, you were kind.
 Well done, heroes.

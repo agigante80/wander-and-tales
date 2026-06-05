@@ -24,7 +24,7 @@ lore_summary:
     caught in a tired old quarrel that neither truly wants. Across the wine-dark sea
     lies the long road home, full of wonders: a loyal old hound, a keeper of the
     winds, and lonely sea-singers on the rocks. Here a hero is not the strongest or
-    the loudest, but the one who is clever, brave, and keeps faith with a friend.
+    the loudest, but the one who is brave, loyal, and full of ideas.
     The grandest deeds are done not with spears but with a good idea and a kind
     heart, and the oldest quarrels often end with a single brave act of friendship.
   es-ES: >
@@ -36,7 +36,7 @@ lore_summary:
     nadie quiere. Al otro lado del mar color de vino está el largo camino a casa,
     lleno de maravillas: un viejo y fiel sabueso, un guardián de los vientos y
     cantoras solitarias sobre las rocas. Aquí un héroe no es el más fuerte ni el que
-    más grita, sino quien es astuto, valiente y leal con un amigo. Las hazañas más
+    más grita, sino quien es valiente, leal y está lleno de ideas. Las hazañas más
     grandes no se logran con lanzas, sino con una buena idea y un buen corazón, y las
     disputas más antiguas suelen terminar con un solo acto valiente de amistad.
   it-IT: >
@@ -47,8 +47,8 @@ lore_summary:
     porte, sono presi in una vecchia lite che in realtà nessuno vuole. Oltre il mare
     color del vino si trova la lunga via verso casa, piena di meraviglie: un vecchio
     e fedele cane, un custode dei venti e cantatrici solitarie sugli scogli. Qui un
-    eroe non è il più forte né quello che grida di più, ma chi è astuto, coraggioso e
-    leale con un amico. Le imprese più grandi non si compiono con le lance, ma con
+    eroe non è il più forte né quello che grida di più, ma chi è coraggioso, leale e
+    pieno di idee. Le imprese più grandi non si compiono con le lance, ma con
     una buona idea e un cuore buono, e le liti più antiche spesso finiscono con un
     solo coraggioso gesto di amicizia.
 visual_style: >
@@ -75,18 +75,18 @@ images:
       en-GB: The windswept shores of Troy at golden hour, wooden ships beached on the sand below a great city of honey-coloured walls, a bright blue sea beyond.
       es-ES: Las costas ventosas de Troya al atardecer dorado, naves de madera varadas en la arena bajo una gran ciudad de murallas color miel, con un mar azul al fondo.
       it-IT: Le coste ventose di Troia nell'ora dorata, navi di legno in secca sulla sabbia sotto una grande città dalle mura color miele, con un mare azzurro sullo sfondo.
-  - id: odysseus-clever
+  - id: odysseus-bright
     role: portrait
     orientation: square
-    canon_ref: odysseus-clever
+    canon_ref: odysseus-bright
     prompt: >
-      A clever, kindly sea-captain with a short curly beard, a bronze-trimmed tunic
+      A bright, kindly sea-captain with a short curly beard, a bronze-trimmed tunic
       and a warm, thoughtful smile, holding a small wooden model of a horse as if
-      sharing a clever plan. Wise and friendly, not stern.
+      sharing a good idea. Friendly and full of ideas, not stern.
     alt:
-      en-GB: A clever kindly sea-captain with a short curly beard and a warm smile, holding a small wooden model of a horse.
-      es-ES: Un capitán de mar astuto y amable, de barba corta y rizada y sonrisa cálida, que sostiene un pequeño caballo de madera como quien comparte un plan ingenioso.
-      it-IT: Un capitano di mare astuto e gentile, dalla barba corta e riccia e dal sorriso caldo, che tiene un piccolo cavallo di legno come chi condivide un piano ingegnoso.
+      en-GB: A bright kindly sea-captain with a short curly beard and a warm smile, holding a small wooden model of a horse.
+      es-ES: Un capitán de mar amable y lleno de ideas, de barba corta y rizada y sonrisa cálida, que sostiene un pequeño caballo de madera como quien comparte una buena idea.
+      it-IT: Un capitano di mare gentile e pieno di idee, dalla barba corta e riccia e dal sorriso caldo, che tiene un piccolo cavallo di legno come chi condivide una buona idea.
   - id: wooden-horse
     role: portrait
     orientation: square

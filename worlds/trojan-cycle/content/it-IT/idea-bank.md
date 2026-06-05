@@ -2,12 +2,12 @@
 
 *Spunti per improvvisare, pensati per la persona adulta. Quando i bambini vogliono
 provare qualcosa che la pagina non aveva previsto, attingete a queste idee. Qui non
-ci sono risposte sbagliate; ogni idea si piega verso l'astuzia, l'amicizia e il non
+ci sono risposte sbagliate; ogni idea si piega verso l'immaginazione, l'amicizia e il non
 far perdere nessuno.*
 
 ## Se gli eroi si bloccano
 
-- Odisseo l'Astuto passa di lì, si liscia la barba e fa una domanda che in realtà è
+- Odisseo il Brillante passa di lì, si liscia la barba e fa una domanda che in realtà è
   un indizio travestito.
 - Argo il Cane Fedele arriva al trotto, annusa e punta il muso nella direzione
   giusta.

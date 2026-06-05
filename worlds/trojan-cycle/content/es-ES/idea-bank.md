@@ -2,11 +2,11 @@
 
 *Sugerencias de improvisación para la persona adulta. Cuando los niños quieran probar
 algo que la página no había previsto, echad mano de esto. Aquí no hay respuestas
-equivocadas; cada idea se inclina hacia el ingenio, la amistad y que nadie pierda.*
+equivocadas; cada idea se inclina hacia la imaginación, la amistad y que nadie pierda.*
 
 ## Si los héroes se atascan
 
-- Odiseo el Astuto pasa por allí, se acaricia la barba y hace una pregunta que en
+- Odiseo el Brillante pasa por allí, se acaricia la barba y hace una pregunta que en
   realidad es una pista disfrazada.
 - Argos el Sabueso Fiel se acerca trotando, olfatea y apunta con el hocico hacia el
   buen camino.

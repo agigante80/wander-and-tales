@@ -2,7 +2,7 @@
 
 *For your eyes, not the children's. Each stop lists its band, what the players need
 to work out, the intended solution, and a gentle fallback so a stuck child always
-moves forward. More than one good idea should work; reward cleverness and kindness
+moves forward. More than one good idea should work; reward imagination and kindness
 over the "right" answer.*
 
 ## Stop 1: The Dark Bamboo (Easy)
@@ -11,7 +11,7 @@ over the "right" answer.*
 Grove, blinking on and off and darting away. They are gentle but very shy, and they
 cannot be caught or chased.
 
-**Intended solution.** This is a Kindness and Observation moment. The clever, caring
+**Intended solution.** This is a Kindness and Observation moment. The caring
 move is to slow right down: move gently, keep voices soft, sit still, and offer the
 sweet **rice cake** so the spirits feel safe enough to come close on their own. Patience
 and a quiet, friendly manner are what win them over, not speed.
@@ -27,7 +27,7 @@ rest follow. A gentle try always works.
 The players must light them in an order gentle enough that the shy spirits will feel safe
 to follow.
 
-**Intended solution.** This is a Wisdom, Logic and Observation moment. The clever move is
+**Intended solution.** This is an Imagination, Logic and Observation moment. The thoughtful move is
 to find a calm, clear pattern: lighting from the **smallest lantern to the biggest** so
 the path grows gently, or simply following the **red thread** that ties the lanterns in
 their proper line from one to the next. Any thought-through order that the children can
@@ -61,4 +61,4 @@ There is no battle and no loser. When the Great Lantern lights, every lantern in
 village glows gold, the firefly spirits dance free in the warm night, and the whole
 village cheers and begins the festival. By morning, warm **Amaterasu the Sun-Kami** rises
 and smiles down on the valley. The heroes have won the only way anyone wins here, by being
-wise, brave, and kind.
+brave, kind, and full of ideas.

@@ -8,14 +8,14 @@ raccontare la storia, fare l'arbitro gentile, essere il più grande tifoso dei b
 ed essere un avventuriero in più che gioca con loro. È un gioco cooperativo per due o
 più persone che giocano insieme, un adulto e uno o più bambini, tutti dalla stessa
 parte. Nessuno compete e nessuno perde. È una storia più coraggiosa di altre, ma
-l'ingegno e la gentilezza vincono sempre, e nessuno si fa mai male davvero.
+le buone idee e la gentilezza vincono sempre, e nessuno si fa mai male davvero.
 
 ## Preparare la partita
 
 - Stampate la mappa. Ogni giocatore mette una piccola pedina sulla Partenza, il Paese
   degli Ulivi.
 - In questo mondo non c'è magia. Al suo posto, ogni eroe si appoggia a una di tre
-  qualità: **Ingegno** (pensare con astuzia), **Coraggio** (un cuore saldo) o **Cuore**
+  qualità: **Immaginazione** (inventare idee), **Coraggio** (un cuore saldo) o **Cuore**
   (prendersi cura degli altri). Sulla scheda dell'eroe, dove dice magia, che ogni
   bambino scriva la qualità che preferisce. Due qualità diverse funzionano meglio
   insieme.
@@ -41,8 +41,8 @@ Quando un tiro non raggiunge il livello, i giocatori hanno sempre un modo per an
 avanti:
 
 - **Spendere una stella di energia** per ritrovare la calma e riprovare l'idea, oppure
-- **Unire due qualità** una volta per tappa per superare la sfida senza tirare (Ingegno
-  e Cuore insieme, per esempio, o Coraggio e Ingegno).
+- **Unire due qualità** una volta per tappa per superare la sfida senza tirare (Immaginazione
+  e Cuore insieme, per esempio, o Coraggio e Immaginazione).
 
 Le stelle di energia si recuperano passando alla tappa successiva e aiutandosi a
 vicenda. Nessuno può restarne a corto a lungo, e nessuno resta mai bloccato.

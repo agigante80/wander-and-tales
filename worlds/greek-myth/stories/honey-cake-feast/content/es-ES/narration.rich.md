@@ -23,7 +23,7 @@ Os puso en las manos un tarro vacío y sonrió. "Recordad", dijo, "que en este p
 celebramos un banquete dejando a nadie fuera. Compartimos lo que tenemos, y siempre
 hacemos sitio para uno más."
 
-*¿Cuál es vuestro nombre de héroe? ¿Qué cualidad llevaréis: Ingenio, Valor o Corazón?*
+*¿Cuál es vuestro nombre de héroe? ¿Qué cualidad llevaréis: Imaginación, Valor o Corazón?*
 
 ## Parada 1: La Colina de las Abejas
 
@@ -83,8 +83,8 @@ soltando carcajadas entre sus nuevos amigos.
 
 Nadie se había quedado fuera. Todos los platos estaban llenos, todos los farolillos
 encendidos, y todas las caras alrededor de la mesa estaban alegres. En lo alto del
-Olimpo, envuelto en nubes, la sabia Atenea contempló el banquete y sonrió.
+Olimpo, envuelto en nubes, la buena Atenea contempló el banquete y sonrió.
 
-Lo habíais conseguido, y lo habíais conseguido juntos: con vuestro ingenio, con vuestro
+Lo habíais conseguido, y lo habíais conseguido juntos: con vuestras ideas, con vuestro
 valor y, por encima de todo, con vuestra amabilidad. Bien hecho, héroes de las Colinas
 Soleadas.

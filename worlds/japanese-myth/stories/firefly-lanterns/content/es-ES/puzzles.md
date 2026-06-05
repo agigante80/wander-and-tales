@@ -2,7 +2,7 @@
 
 *Para vuestros ojos, no para los niños. Cada parada indica su nivel, lo que los
 jugadores deben averiguar, la solución prevista y un apoyo amable para que un niño
-atascado siempre avance. Más de una buena idea debería valer; premiad el ingenio y
+atascado siempre avance. Más de una buena idea debería valer; premiad la imaginación y
 la amabilidad por encima de la respuesta "correcta".*
 
 ## Parada 1: El Bambú Oscuro (Fácil)
@@ -11,7 +11,7 @@ la amabilidad por encima de la respuesta "correcta".*
 de Bambú Susurrante, encendiéndose y apagándose y escapando a toda prisa. Son dulces
 pero muy tímidos, y no se les puede atrapar ni perseguir.
 
-**Solución prevista.** Es un momento de Bondad y Observación. La jugada lista y cariñosa
+**Solución prevista.** Es un momento de Bondad y Observación. La jugada amable y cariñosa
 es ir muy despacio: moverse con suavidad, mantener las voces bajas, quedarse quietos y
 ofrecer el dulce **pastel de arroz** para que los espíritus se sientan lo bastante
 seguros para acercarse por sí solos. Lo que los conquista es la paciencia y un modo
@@ -28,7 +28,7 @@ baja flotando hasta ellos, y las demás la siguen. Un intento amable siempre fun
 pueblo. Los jugadores deben encenderlos en un orden lo bastante tranquilo para que los
 espíritus tímidos se sientan seguros de seguir.
 
-**Solución prevista.** Es un momento de Sabiduría, Lógica y Observación. La jugada lista
+**Solución prevista.** Es un momento de Imaginación, Lógica y Observación. La jugada reflexiva
 es encontrar un patrón calmado y claro: encender del **farol más pequeño al más grande**
 para que el camino crezca con suavidad, o simplemente seguir el **hilo rojo** que ata
 los faroles en su fila correcta de uno al siguiente. Cualquier orden bien pensado que
@@ -63,4 +63,4 @@ No hay batalla ni perdedor. Cuando se enciende El Gran Farol, cada farol del pue
 brilla dorado, los espíritus de las luciérnagas bailan libres en la noche cálida, y todo
 el pueblo aplaude y empieza la fiesta. Por la mañana, la cálida **Amaterasu, la Diosa
 del Sol**, se alza y sonríe al valle. Los héroes han ganado de la única manera en que se
-gana aquí: siendo sabios, valientes y bondadosos.
+gana aquí: siendo valientes, amables y con muchas ideas.

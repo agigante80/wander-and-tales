@@ -2,7 +2,7 @@
 
 *Per i vostri occhi, non per i bambini. Ogni tappa indica il suo livello, ciò che i
 giocatori devono scoprire, la soluzione prevista e un aiuto gentile perché un bambino
-bloccato vada sempre avanti. Più di una buona idea dovrebbe valere; premiate l'ingegno
+bloccato vada sempre avanti. Più di una buona idea dovrebbe valere; premiate l'immaginazione
 e la gentilezza più della risposta "giusta".*
 
 ## Tappa 1: Il Bambù Buio (Facile)
@@ -11,7 +11,7 @@ e la gentilezza più della risposta "giusta".*
 Sussurrante, accendendosi e spegnendosi e schizzando via. Sono dolci ma molto timidi, e
 non si possono catturare né rincorrere.
 
-**Soluzione prevista.** È un momento di Gentilezza e Osservazione. La mossa intelligente
+**Soluzione prevista.** È un momento di Gentilezza e Osservazione. La mossa premurosa
 e affettuosa è rallentare del tutto: muoversi con dolcezza, tenere le voci basse, restare
 immobili e offrire il dolce **dolce di riso** perché gli spiriti si sentano abbastanza al
 sicuro da avvicinarsi da soli. A conquistarli sono la pazienza e un modo tranquillo e
@@ -29,8 +29,8 @@ sempre.
 villaggio. I giocatori devono accenderle in un ordine abbastanza tranquillo perché gli
 spiriti timidi si sentano sicuri di seguire.
 
-**Soluzione prevista.** È un momento di Saggezza, Logica e Osservazione. La mossa
-intelligente è trovare uno schema calmo e chiaro: accendere dalla **lanterna più piccola
+**Soluzione prevista.** È un momento di Immaginazione, Logica e Osservazione. La mossa
+riflessiva è trovare uno schema calmo e chiaro: accendere dalla **lanterna più piccola
 alla più grande** perché il sentiero cresca con dolcezza, oppure semplicemente seguire il
 **filo rosso** che lega le lanterne nella loro fila giusta una dopo l'altra. Qualunque
 ordine ben pensato che i bambini sappiano spiegare vale altrettanto bene.
@@ -64,4 +64,4 @@ Non c'è battaglia né perdente. Quando la Grande Lanterna si accende, ogni lant
 villaggio brilla dorata, gli spiriti delle lucciole danzano liberi nella notte calda, e
 tutto il villaggio applaude e comincia la festa. Al mattino, la calda **Amaterasu, la Dea
 del Sole**, si leva e sorride alla valle. Gli eroi hanno vinto nell'unico modo in cui si
-vince qui: essendo saggi, coraggiosi e gentili.
+vince qui: con coraggio, gentilezza e tante idee.

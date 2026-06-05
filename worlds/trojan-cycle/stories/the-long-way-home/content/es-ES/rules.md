@@ -8,7 +8,7 @@ contar la historia, ser un árbitro amable, ser el mayor admirador de los niños
 un aventurero más que juega con ellos. Es un juego cooperativo para dos o más que
 juegan juntos, una persona adulta y uno o varios niños, todos del mismo lado. Nadie
 compite y nadie pierde. Es una historia más valiente que otras, con un mar ancho, una
-larga travesía y la atracción de un canto solitario, pero la astucia y la amabilidad
+larga travesía y la atracción de un canto solitario, pero las buenas ideas y la amabilidad
 siguen ganando siempre, y nadie sale herido de verdad.
 
 ## Preparar la partida
@@ -16,7 +16,7 @@ siguen ganando siempre, y nadie sale herido de verdad.
 - Imprimid el mapa. Cada jugador pone una figura pequeña en la Salida, El Campamento
   de las Naves en las Costas Ventosas de Troya.
 - En este mundo no hay magia. En su lugar, cada héroe se apoya en una de tres
-  cualidades: **Astucia** (un plan rápido e ingenioso), **Valor** (un corazón firme
+  cualidades: **Imaginación** (inventar ideas), **Valor** (un corazón firme
   en un mar ancho) o **Lealtad** (mantener la lealtad con un amigo). En la ficha de
   héroe, donde dice magia, que cada niño escriba la cualidad que más le guste. Dos
   cualidades distintas funcionan mejor juntas.
@@ -40,8 +40,8 @@ Una tirada fallida nunca es una derrota. Es un desvío hacia otro camino. Cuando
 tirada no alcanza el nivel, los jugadores siempre tienen una manera de seguir:
 
 - **Gastar una estrella de energía** para serenarse y volver a intentar la idea, o
-- **Unir dos cualidades** una vez por parada para superar el reto sin tirar (Astucia
-  y Lealtad juntas, por ejemplo, o Valor y Astucia).
+- **Unir dos cualidades** una vez por parada para superar el reto sin tirar (Imaginación
+  y Lealtad juntas, por ejemplo, o Valor e Imaginación).
 
 Las estrellas de energía se recuperan al pasar de parada y al ayudarse. Nadie puede
 quedarse sin ellas mucho tiempo, y nadie se queda atascado.
@@ -61,7 +61,7 @@ dado normal, leed la línea que coincida con el número sacado.
 
 | Tirada | El Giro del Destino |
 |---|---|
-| 1 | Odiseo el Astuto os da una pista gratis. |
+| 1 | Odiseo el Brillante os da una pista gratis. |
 | 2 | Recobráis vuestro pulso de marineros y recuperáis una estrella de energía. |
 | 3 | Un viento favorable llena la vela y el próximo reto es Fácil. |
 | 4 | Argos el Sabueso Fiel trota hasta vosotros y mueve la cola. Todo va bien. |

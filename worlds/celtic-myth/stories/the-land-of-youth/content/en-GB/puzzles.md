@@ -2,7 +2,7 @@
 
 *For your eyes, not the children's. Each stop lists its band, what the players need
 to work out, the intended solution, and a gentle fallback so a stuck child always
-moves forward. More than one good idea should work; reward cleverness and kindness
+moves forward. More than one good idea should work; reward imagination and kindness
 over the "right" answer.*
 
 ## Stop 1: The Salmon's Riddle (Normal)
@@ -16,7 +16,7 @@ yet I cross the sky. I cannot be caught and I cannot be kept, and I am gone the
 moment you turn to look. What am I?"* The answer is **the mist** (or a cloud, which
 the salmon accepts just as gladly, since both drift over the loch).
 
-**Intended solution.** This is a thinking challenge of Cleverness and a little
+**Intended solution.** This is a thinking challenge of Imagination and a little
 patience. Let the children talk it through together. The salmon accepts the right
 answer, and because he is kind, he also accepts a brave, thoughtful guess.
 
@@ -47,10 +47,10 @@ friend, but the friend has half-forgotten home and gently urges everyone to stay
 forever. The pull to stay is the only danger, and the players may feel it too. There
 is nobody to defeat.
 
-**Intended solution.** This is a Kindness and Cleverness moment. The clever, kind
+**Intended solution.** This is a Kindness and Imagination moment. The good, kind
 move is to give the friend their home back: talk warmly about the Roundhouse, the
 people who love them, the home loch at dawn, until the memory returns. Tying the
-**ball of red wool** at the water's edge is the cleverness that lets them all retrace
+**ball of red wool** at the water's edge is the bright idea that lets them all retrace
 the way back through the mist. When the friend remembers, everyone chooses, together,
 to return. After that choice there is no roll: the way home is simply taken.
 
@@ -64,5 +64,5 @@ guarantees nobody loses the path, however misty it grows.
 There is no battle and no loser. When the friend remembers and chooses home, Sorcha
 ferries them all back across the loch by the trail of red wool, the mist parts on a
 bright green shore, and **Danu the Kind** smiles down from the hills. The heroes have
-won the only way anyone wins here, by being clever, brave, and kind, and by keeping
+won the only way anyone wins here, by being brave, kind, and full of ideas, and by keeping
 their promise to bring their friend home.

@@ -2,7 +2,7 @@
 
 *Per i vostri occhi, non per i bambini. Ogni tappa indica il suo livello, ciò che i
 giocatori devono scoprire, la soluzione prevista e un aiuto gentile perché un bambino
-bloccato vada sempre avanti. Più di una buona idea dovrebbe valere; premiate l'ingegno
+bloccato vada sempre avanti. Più di una buona idea dovrebbe valere; premiate l'immaginazione
 e la lealtà più della risposta "giusta".*
 
 ## Tappa 1: Seguendo Argo (Facile)
@@ -40,8 +40,8 @@ dove c'era il ciottolo** (quindi non la pozza del ciottolo). Cancellate la pozza
 la pozza tre, e resta solo la **pozza due**, quella della conchiglia rigata e senza
 ciottolo. È lì che si trova il filo caduto, che indica la via.
 
-**Soluzione prevista.** È un momento di Memoria, Logica e Osservazione. La mossa
-intelligente è ricordare entrambi gli indizi di Argo e usarli per escludere le pozze
+**Soluzione prevista.** È un momento di Memoria, Logica e Osservazione. La buona
+idea è ricordare entrambi gli indizi di Argo e usarli per escludere le pozze
 una alla volta finché non ne resta una sola. Contare sulle dita, indicare ogni pozza
 a turno o posare un gettone accanto a ognuna mentre ragionano vanno tutti bene.
 
@@ -57,8 +57,8 @@ per qualsiasi via conta come un successo pieno e recupera una stella di energia.
 sepolto nella sabbia. Argo trova il punto; i giocatori devono dissotterrarlo con
 delicatezza e riconsegnarlo al loro amico.
 
-**Soluzione prevista.** È un momento di Osservazione e Lealtà. La mossa intelligente e
-gentile è guardare dove Argo punta il naso, inginocchiarsi in quel punto esatto e
+**Soluzione prevista.** È un momento di Osservazione e Lealtà. La mossa gentile, con
+una buona idea, è guardare dove Argo punta il naso, inginocchiarsi in quel punto esatto e
 scavare con cura insieme, spostando la sabbia poco alla volta e attenti a un angolo di
 legno d'ulivo invece di raspare e spargerla. Quando lo fanno, il pegno intagliato
 viene su caldo e intero, e Argo libera l'ultimo pezzetto con una zampa gentile. La
@@ -73,8 +73,8 @@ domanda è con quanta tenerezza.
 ## Il finale
 
 Non c'è battaglia né perdente. Quando il ricordo viene riportato a casa, Lykos è pieno
-di gioia e abbraccia sia il pegno sia Argo, Odisseo l'Astuto elogia gli eroi per non
+di gioia e abbraccia sia il pegno sia Argo, Odisseo il Brillante elogia gli eroi per non
 aver lasciato indietro nessuno, e **Teti, la Madre del Mare**, sorride sul mare calmo
 perché le navi possano salpare verso casa con ogni amico e ogni tesoro al sicuro a
-bordo. Gli eroi hanno vinto nell'unico modo in cui si vince qui: essendo astuti,
-coraggiosi e leali.
+bordo. Gli eroi hanno vinto nell'unico modo in cui si vince qui: essendo coraggiosi,
+leali e pieni di idee.

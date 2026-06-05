@@ -14,7 +14,7 @@ gates barred fast. Nobody could say how it had started, and the strange thing wa
 that nobody on either side really wanted it any more. Both camps were weary to the
 bone, and both, in their secret hearts, longed for it simply to end.
 
-Odysseus the Clever called the two of you to his side. He had a short curly beard
+Odysseus the Bright called the two of you to his side. He had a short curly beard
 and a kind, twinkling smile, and he turned a tiny carved horse over in his hands
 as he spoke. "I have had an idea," he said, "and it is a better one than any
 shouting across the sand. Let us build a great wooden horse, as tall as a house.
@@ -25,10 +25,10 @@ words never could."
 
 Into your hands he pressed three gifts: a basket of honey and figs, a ball of
 Penelope's thread, and a great spiral conch horn. "Remember," he said, "on these
-shores we do not win by being the strongest. We win by being clever, brave, and
-loyal to a friend."
+shores we do not win by being the strongest. We win by being brave, loyal to a
+friend, and full of ideas."
 
-*What is your hero name? Which quality will you carry: Cleverness, Courage, or
+*What is your hero name? Which quality will you carry: Imagination, Courage, or
 Loyalty?*
 
 ## Stop 1: Building the Horse
@@ -103,6 +103,6 @@ Together, side by side, the two camps spread a great feast upon the grass, as
 though the long quarrel had been no more than a bad dream now happily forgotten.
 Far out on the gentle, glittering water, Thetis the Sea-Mother raised her face
 from the waves and smiled to see it. You had done it, and you had done it
-together: with your cleverness, with your courage, and above all with your
-loyalty to a friend. The oldest quarrel of all had ended, not with spears, but
+together: with your courage, with your loyalty to a friend, and above all with your
+imagination. The oldest quarrel of all had ended, not with spears, but
 with a single kind surprise. Well done, heroes of the windswept shores of Troy.

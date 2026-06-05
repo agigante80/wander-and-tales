@@ -8,7 +8,7 @@ gentle referee, the children's biggest fan, and a fellow adventurer who plays al
 This is a cooperative game for two or more who play together, a grown-up and one or
 more children, all on the same side. Nobody competes, and nobody loses. This is a
 braver tale than some, with a wide sea and a long voyage and the pull of a lonely
-song, but cleverness and kindness still win every time, and no one is ever truly
+song, but good ideas and kindness still win every time, and no one is ever truly
 hurt.
 
 ## Setting up
@@ -16,7 +16,7 @@ hurt.
 - Print the map. Each player puts a small figure on the Start, the Ship Camp on the
   shores of Troy.
 - This world has no magic. Instead each hero leans on one of three qualities:
-  **Cleverness** (a quick and clever plan), **Courage** (a steady heart on a wide
+  **Imagination** (dreaming up ideas), **Courage** (a steady heart on a wide
   sea), or **Loyalty** (keeping faith with a friend). On the hero sheet, where it
   says magic, let each child write the quality they like best. Two different
   qualities work best together.
@@ -40,8 +40,8 @@ A failed roll is never a defeat. It is a detour to a different route. When a rol
 does not meet the band, the players always have a way through:
 
 - **Spend an energy star** to gather themselves and try the idea again, or
-- **Join two qualities** once per stop to pass with no roll at all (Cleverness and
-  Loyalty together, say, or Courage and Cleverness).
+- **Join two qualities** once per stop to pass with no roll at all (Imagination and
+  Loyalty together, say, or Courage and Imagination).
 
 Energy stars come back when the players move on to the next stop, and when they
 help each other. Nobody can ever run dry for long, and nobody is ever stuck.
@@ -61,7 +61,7 @@ ordinary die, read the line that matches the number rolled.
 
 | Roll | Twist of Fate |
 |---|---|
-| 1 | Odysseus the Clever gives you one free hint. |
+| 1 | Odysseus the Bright gives you one free hint. |
 | 2 | You find your sea-legs again, and take back one energy star. |
 | 3 | A fair wind fills the sail, and the next challenge is Easy. |
 | 4 | Argos the Faithful Hound trots up and wags his tail. All is well. |

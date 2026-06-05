@@ -43,9 +43,9 @@
     it-IT: Il Lago Nebbioso
   kind: place
   description:
-    en-GB: A still grey lake often wrapped in soft mist, home to the wise salmon and the shy selkie, where a boat may slip across to the Land of Youth.
-    es-ES: Un lago gris y quieto, a menudo envuelto en una niebla suave, hogar del sabio salmón y de la tímida foca encantada, desde donde una barca puede cruzar hasta la Tierra de la Juventud.
-    it-IT: Un lago grigio e immobile, spesso avvolto in una nebbia leggera, dimora del saggio salmone e della timida foca incantata, da cui una barca può scivolare fino alla Terra della Giovinezza.
+    en-GB: A still grey lake often wrapped in soft mist, home to the old salmon and the shy selkie, where a boat may slip across to the Land of Youth.
+    es-ES: Un lago gris y quieto, a menudo envuelto en una niebla suave, hogar del viejo salmón y de la tímida foca encantada, desde donde una barca puede cruzar hasta la Tierra de la Juventud.
+    it-IT: Un lago grigio e immobile, spesso avvolto in una nebbia leggera, dimora del vecchio salmone e della timida foca incantata, da cui una barca può scivolare fino alla Terra della Giovinezza.
   first_seen: the-land-of-youth
 
 - id: land-of-youth

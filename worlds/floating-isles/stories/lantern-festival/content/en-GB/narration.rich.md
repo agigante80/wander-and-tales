@@ -92,5 +92,5 @@ one, the evening blooms into warm and endless gold, and Nimbo, brightest of them
 all, drifts gently down to take its place among the families. The Festival of Lights
 has begun, and no one is alone in it.
 
-You did this together. You were clever, and you were kind, and on the Isles that is
+You did this together. You were kind, and you were full of ideas, and on the Isles that is
 the only way anyone ever wins.

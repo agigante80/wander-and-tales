@@ -2,7 +2,7 @@
 
 *Para vuestros ojos, no para los niños. Cada parada indica su nivel, lo que los
 jugadores deben averiguar, la solución prevista y un apoyo amable para que un niño
-atascado siempre avance. Más de una buena idea debería valer; premiad el ingenio y
+atascado siempre avance. Más de una buena idea debería valer; premiad la imaginación y
 la amabilidad por encima de la respuesta "correcta".*
 
 ## Parada 1: El Acertijo del Salmón (Normal)
@@ -17,7 +17,7 @@ y desaparezco en cuanto te vuelves a mirar. ¿Qué soy?"* La respuesta es **la b
 (o una nube, que el salmón acepta con la misma alegría, pues ambas vagan sobre el
 lago).
 
-**Solución prevista.** Es un reto de pensar, de Astucia y un poco de paciencia.
+**Solución prevista.** Es un reto de pensar, de Imaginación y un poco de paciencia.
 Dejad que los niños lo hablen juntos. El salmón acepta la respuesta correcta y, como
 es amable, también acepta una conjetura valiente y meditada.
 
@@ -50,10 +50,10 @@ perdida, pero la amiga ha olvidado a medias su casa y, con dulzura, anima a todo
 quedarse para siempre. La llamada a quedarse es el único peligro, y puede que los
 jugadores también la sientan. Aquí no hay nadie a quien vencer.
 
-**Solución prevista.** Es un momento de Bondad y Astucia. La jugada lista y amable es
+**Solución prevista.** Es un momento de Bondad e Imaginación. La buena jugada amable es
 devolverle a la amiga su casa: hablarle con cariño de La Casa Redonda, de la gente
 que la quiere, del lago de casa al amanecer, hasta que vuelva el recuerdo. Atar el
-**ovillo de lana roja** al borde del agua es la astucia que les permite a todos
+**ovillo de lana roja** al borde del agua es la buena idea que les permite a todos
 desandar el camino de vuelta a través de la bruma. Cuando la amiga recuerda, todos
 eligen, juntos, regresar. Después de esa elección no hay tirada: simplemente se toma
 el camino a casa.
@@ -69,4 +69,4 @@ No hay batalla ni perdedor. Cuando la amiga recuerda y elige su casa, Sorcha los
 cruza a todos de vuelta por el lago siguiendo el rastro de lana roja, la bruma se
 abre sobre una orilla verde y luminosa, y Danu la Bondadosa sonríe desde las
 colinas. Los héroes han ganado de la única manera en que se gana aquí: siendo
-astutos, valientes y bondadosos, y cumpliendo su promesa de traer a su amiga a casa.
+valientes, bondadosos y con muchas ideas, y cumpliendo su promesa de traer a su amiga a casa.

@@ -15,16 +15,16 @@ exactly the danger of it: the longer a soul lingers there, the more they forget 
 faces and the way back home.
 
 Old Maeve the Tale-Weaver called the two of you to the warm hearth of the
-Roundhouse. "You have clever heads and kind hearts," she said, "and that is worth
+Roundhouse. "You have heads full of ideas and kind hearts," she said, "and that is worth
 far more across the mist than any sword. Will you go after our friend and bring them
 home, gently, before the memory of us fades altogether?"
 
 Into your hands she pressed three gifts: a sprig of oak for luck, a honey oatcake
 wrapped in a cloth, and a ball of bright red wool. "Remember," she said, "across the
-mist we do not win by being the strongest. We win by being clever, brave, and kind.
+mist we do not win by being the strongest. We win by being brave, kind, and full of ideas.
 And we keep our promises."
 
-*What is your hero name? Which quality will you carry: Cleverness, Courage, or
+*What is your hero name? Which quality will you carry: Imagination, Courage, or
 Kindness?*
 
 ## Stop 1: The Salmon's Riddle
@@ -102,5 +102,5 @@ morning sun, your small friend safe and smiling between you.
 You had come home together, and you had won a selkie friend besides, for Sorcha
 promised to visit the shallows whenever you called. High on the brightening green
 hills, Danu the Kind looked down and smiled, for the tale had ended the only way the
-best tales do: not by force, but with wits, with courage, and above all with
-kindness, and with a promise kept. Well done, heroes of the Emerald Isles.
+best tales do: not by force, but with courage, with kindness, and above all with
+bright ideas, and with a promise kept. Well done, heroes of the Emerald Isles.

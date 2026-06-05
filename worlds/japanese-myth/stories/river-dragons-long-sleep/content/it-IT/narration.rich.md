@@ -16,17 +16,17 @@ Fiume, che era tanto buono, il cui lento risveglio aveva portato le piogge da pr
 che chiunque potesse ricordare. Quell'anno aveva dormito troppo a lungo, e nessuno
 sapeva come svegliarlo.
 
-Nonna Yuki, Custode dei Racconti, chiamò voi due al suo fianco. "Avete la testa sveglia
+Nonna Yuki, Custode dei Racconti, chiamò voi due al suo fianco. "Avete la testa piena di idee
 e il cuore buono", disse, "e lassù sulla montagna questo vale più di qualsiasi forza.
 Salirete oltre il valico e lo sveglierete, con dolcezza, prima che il raccolto vada
 perduto?"
 
 Nelle vostre mani posò tre doni: un campanello di bronzo dal suono chiaro e dolce, un
 gomitolo di filo rosso vivo e un dolce di riso avvolto in una foglia. "Ricordate",
-disse, "lassù non si vince essendo i più forti. Si vince essendo saggi, coraggiosi e
-gentili."
+disse, "lassù non si vince essendo i più forti. Si vince con coraggio, gentilezza e
+tante idee."
 
-*Qual è il vostro nome da eroe? Quale qualità porterete con voi: Saggezza, Coraggio o
+*Qual è il vostro nome da eroe? Quale qualità porterete con voi: Immaginazione, Coraggio o
 Gentilezza?*
 
 ## Tappa 1: La Porta dei Guardiani
@@ -40,7 +40,7 @@ palpebre, si stiracchiarono e voltarono le loro teste scolpite per guardarvi.
 "Nessuno passa", rimbombarono insieme i Cani-Leone Guardiani, "finché non rispondete al
 nostro indovinello." Le loro voci erano profonde come un tamburo di tempio, e per un
 attimo il cuore vi batté forte. Ma nei loro occhi non c'era crudeltà, solo una
-sorveglianza giusta e paziente. Avrebbero gradito una risposta sveglia, e non gli
+sorveglianza giusta e paziente. Avrebbero gradito una buona idea, e non gli
 sarebbe dispiaciuta una supposizione coraggiosa e ben pensata.
 
 *Ascolterete con attenzione e lo risolverete insieme? Kon la Volpe è da qualche parte
@@ -105,5 +105,5 @@ tornare a trovarlo.
 
 Quando le nuvole si diradarono, Amaterasu, la Dea del Sole, fece capolino con una luce
 dorata e calda e vi sorrise dall'alto. Ce l'avevate fatta, e ce l'avevate fatta
-insieme: con la vostra saggezza, con il vostro coraggio e, soprattutto, con la vostra
+insieme: con la vostra immaginazione, con il vostro coraggio e, soprattutto, con la vostra
 gentilezza. Bravi, eroi dei Monti in Fiore di Yamato.

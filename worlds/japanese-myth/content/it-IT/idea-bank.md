@@ -2,7 +2,7 @@
 
 *Spunti per improvvisare, per la persona adulta. Quando i bambini vogliono provare
 qualcosa che la pagina non aveva previsto, attingete a queste idee. Nessuna idea è
-una risposta sbagliata; tutto si piega verso la calma, l'arguzia e il fatto che
+una risposta sbagliata; tutto si piega verso la calma, le idee e il fatto che
 nessuno perda.*
 
 ## Se gli eroi si bloccano

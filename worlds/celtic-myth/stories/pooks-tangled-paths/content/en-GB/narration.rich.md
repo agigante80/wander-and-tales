@@ -18,16 +18,16 @@ games. He meant no harm by it. To Pook, a tangled path is simply the best sort o
 riddle, and he had quite forgotten that the village folk would mind.
 
 Old Maeve the Tale-Weaver called the two of you to her side by the warm hearth.
-"You have clever heads and kind hearts," she said, "and that is worth more in the
+"You have heads full of ideas and kind hearts," she said, "and that is worth more in the
 grove than the strongest arm. Will you go and untangle the paths, and win our
 Pook over with a friendly word, so he sets them right himself?"
 
 Into your hands she pressed three gifts: a ball of bright red wool, a honey
 oatcake still warm from the hearth, and a small sprig of oak leaves for luck.
 "Remember," she said, "here we do not win by being the strongest. We win by being
-clever, brave, and kind."
+brave, kind, and full of ideas."
 
-*What is your hero name? Which quality will you carry: Cleverness, Courage, or
+*What is your hero name? Which quality will you carry: Imagination, Courage, or
 Kindness?*
 
 ## Stop 1: The Tangled Grove
@@ -104,6 +104,6 @@ in the village the folk cheered as the paths opened before them, and the May fai
 began in a swirl of ribbons and fiddle music and dancing on the green.
 
 High above the emerald isles, Danu the Kind looked down through the parting mist
-and smiled. You had done it, and you had done it together: with your cleverness,
-with your courage, and above all with your kindness. Well done, heroes of the
+and smiled. You had done it, and you had done it together: with your courage,
+with your kindness, and with all your bright ideas. Well done, heroes of the
 Emerald Isles.

@@ -12,23 +12,23 @@ rebosar. Entonces, una mañana gris, el canto se paró sin más. Los pozos bajar
 hojas de los olivos colgaban mustias y sedientas, y todo el valle parecía contener
 el aliento.
 
-La vieja Dafne, guardiana del olivar, os llamó a su lado. "Tenéis la cabeza
-despierta y el corazón bueno", dijo, "y eso vale ahí arriba más que cualquier
+La vieja Dafne, guardiana del olivar, os llamó a su lado. "Tenéis buenas ideas
+y el corazón bueno", dijo, "y eso vale ahí arriba más que cualquier
 espada. ¿Subiréis la colina a despertar la fuente?"
 
 En vuestras manos puso tres regalos: un ovillo de hilo dorado, un pastel de miel
 envuelto en una hoja y una pequeña lira gastada de tanto tocarla. "Recordad", dijo,
-"en estas colinas no se gana siendo el más fuerte. Se gana siendo listos, valientes
-y amables."
+"en estas colinas no se gana siendo el más fuerte. Se gana siendo valientes, amables
+y con muchas ideas."
 
-*¿Cuál es vuestro nombre de héroe? ¿Qué cualidad llevaréis: Ingenio, Valor o
+*¿Cuál es vuestro nombre de héroe? ¿Qué cualidad llevaréis: Imaginación, Valor o
 Corazón?*
 
 ## Parada 1: La Puerta de los Acertijos
 
 El camino subía hacia el sol, y en lo alto se alzaba una puerta de mármol blanco. En
 sus cálidos escalones descansaba una esfinge, con cuerpo de león, las alas doradas
-plegadas y un rostro sereno e ingenioso. Os miraba con la paciencia de quien tiene
+plegadas y un rostro sereno y curioso. Os miraba con la paciencia de quien tiene
 todo el tiempo del mundo.
 
 "Nadie pasa", dijo, "hasta que responda a mi acertijo." No había crueldad en ello.
@@ -86,7 +86,7 @@ voces tejiendo una canción tan luminosa que parecía levantar la colina entera.
 fuente saltó de nuevo a la vida y, allá abajo, cada pozo del Pueblo de los Olivos
 volvió a llenarse de agua fresca y clara.
 
-En lo alto del Olimpo, envuelto en nubes, la sabia Atenea miró hacia abajo y sonrió.
-Lo habíais conseguido, y lo habíais conseguido juntos: con vuestro ingenio, con
+En lo alto del Olimpo, envuelto en nubes, la buena Atenea miró hacia abajo y sonrió.
+Lo habíais conseguido, y lo habíais conseguido juntos: con vuestras ideas, con
 vuestro valor y, por encima de todo, con vuestra amabilidad. Bien hecho, héroes de
 las Colinas Soleadas.

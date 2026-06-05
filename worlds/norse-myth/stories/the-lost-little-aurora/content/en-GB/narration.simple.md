@@ -13,15 +13,15 @@ The littlest Aurora Spirit has tumbled down from the sky. She fell into the snow
 Whispering Pines, and she lost her colours. Now she is too shy and too cold to
 glow.
 
-Edda the Saga-Keeper calls you to the warm Hearth Hall. "You two have clever heads
+Edda the Saga-Keeper calls you to the warm Hearth Hall. "You two have bright ideas
 and kind hearts," she says. "Will you find the little aurora and help her shine
 again?"
 
 She gives you three gifts: a little lantern, a ball of red yarn, and a warm honey
 bun. Then she smiles. "Up here we do not win by being the strongest. We win by
-being clever, brave, and kind."
+being brave, kind, and full of ideas."
 
-*What is your hero name? Are you a hero of Wit, of Courage, or of Heart?*
+*What is your hero name? Are you a hero of Imagination, of Courage, or of Heart?*
 
 ## Stop 1: The Dark Forest
 
@@ -77,5 +77,5 @@ Then the whole sky bursts into colour. Teal, and green, and purple, all dancing
 together over the snowy fjord. The long night is dark no more.
 
 High among the stars, Freya the Kind looks down and smiles at you. You did it
-together. You were clever, you were brave, and most of all, you were kind. Well
+together. You were full of ideas, you were brave, and most of all, you were kind. Well
 done, heroes of the fjords.

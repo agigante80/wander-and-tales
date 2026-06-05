@@ -2,7 +2,7 @@
 
 *Per i vostri occhi, non per i bambini. Ogni tappa indica il suo livello, ciò che i
 giocatori devono scoprire, la soluzione prevista e un aiuto gentile perché un bambino
-bloccato vada sempre avanti. Più di una buona idea dovrebbe valere; premiate l'ingegno
+bloccato vada sempre avanti. Più di una buona idea dovrebbe valere; premiate le idee nuove
 e la gentilezza più della risposta "giusta".*
 
 ## Tappa 1: La Porta degli Indovinelli (Normale)
@@ -15,7 +15,7 @@ faccia che pensa.
 dell'albero più alto. Su, su, su salgo, eppure non cresco mai. Cosa sono?"* La
 risposta è **una montagna** (pensate all'Olimpo che si erge sopra di voi).
 
-**Soluzione prevista.** È una sfida di pensiero, di Ingegno e un po' di Vocabolario.
+**Soluzione prevista.** È una sfida di pensiero, di Immaginazione e un po' di Vocabolario.
 Lasciate che i bambini ne parlino insieme. La sfinge accetta la risposta giusta e,
 poiché è gentile, accetta anche una supposizione coraggiosa e meditata.
 
@@ -28,7 +28,7 @@ roccia. Una supposizione fatta con coraggio apre comunque la porta.
 **La sfida.** Oltre la porta c'è un labirinto di muri di pietra dove tutti i sentieri
 sembrano uguali. I giocatori devono attraversarlo senza perdersi.
 
-**Soluzione prevista.** È un momento di Spazio e Logica. La mossa intelligente è usare
+**Soluzione prevista.** È un momento di Spazio e Logica. La buona idea è usare
 il **filo dorato**: legate un'estremità all'ingresso e srotolatelo mentre avanzate,
 così potete sempre tornare sui vostri passi e non percorrete mai due volte lo stesso
 sentiero sbagliato. Segnare ogni svolta, o chiedere un indizio a **Pruno il Satiro**,
@@ -59,6 +59,6 @@ melodia qualsiasi, le ninfe si svegliano e l'acqua canta.
 ## Il finale
 
 Non c'è battaglia né perdente. Quando la fonte canta, ogni pozzo del Paese degli Ulivi
-torna a riempirsi, il gigante ha finalmente degli amici, e la saggia **Atena** sorride
-dalla montagna. Gli eroi hanno vinto nell'unico modo in cui si vince qui: essendo
-ingegnosi, coraggiosi e gentili.
+torna a riempirsi, il gigante ha finalmente degli amici, e la buona **Atena** sorride
+dalla montagna. Gli eroi hanno vinto nell'unico modo in cui si vince qui: con coraggio,
+gentilezza e tante idee.

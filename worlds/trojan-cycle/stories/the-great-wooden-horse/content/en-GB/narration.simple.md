@@ -11,17 +11,17 @@ beach. The proud city sits up on the hill behind great honey-coloured walls, wit
 its gates shut tight. Nobody quite remembers how the quarrel began. The truth is,
 everyone is rather tired of it, and both camps secretly wish it would just stop.
 
-Odysseus the Clever calls you to him. He has a curly beard and a kind, twinkly
-smile, and in his hands he holds a tiny wooden horse. "I have a clever idea," he
+Odysseus the Bright calls you to him. He has a curly beard and a kind, twinkly
+smile, and in his hands he holds a tiny wooden horse. "I have a good idea," he
 says. "Let us build a great wooden horse, as big as a house. But we will not fill
 it with soldiers. We will fill it with gifts and music and friendship, and roll
 it to the gates as a happy surprise. That is how we end the quarrel."
 
 He gives you three gifts: a basket of honey and figs, Penelope's thread, and a
 conch horn. Then he smiles. "On these shores we do not win by being the
-strongest. We win by being clever, brave, and loyal to a friend."
+strongest. We win by being brave, loyal to a friend, and full of ideas."
 
-*What is your hero name? Will you carry Cleverness, Courage, or Loyalty?*
+*What is your hero name? Will you carry Imagination, Courage, or Loyalty?*
 
 ## Stop 1: Building the Horse
 
@@ -77,6 +77,6 @@ Someone beats the little drum. Someone laughs, and then everyone laughs.
 
 The two camps spread out a great feast together, side by side, as if the quarrel
 had never been. Out on the calm water, Thetis the Sea-Mother lifts her head from
-the waves and smiles. You did it together. You were clever, you were brave, and
-you were loyal, and the oldest quarrel of all has ended with a kind surprise.
+the waves and smiles. You did it together. You were brave, you were loyal, and
+you were full of ideas, and the oldest quarrel of all has ended with a kind surprise.
 Well done, heroes of Troy.

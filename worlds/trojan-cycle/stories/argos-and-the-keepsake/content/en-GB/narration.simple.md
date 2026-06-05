@@ -13,8 +13,8 @@ tent sits your friend Lykos, and he is crying.
 my grandmother gave me. I carried it all this long way, and now it is gone,
 somewhere out on the windswept shore. We sail at sunset. I cannot leave it behind."
 
-Odysseus the Clever kneels beside you. "A friend is sad, and a treasure is lost,"
-he says. "That is a job for clever heads and faithful hearts. Will you go and find
+Odysseus the Bright kneels beside you. "A friend is sad, and a treasure is lost,"
+he says. "That is a job for bright ideas and faithful hearts. Will you go and find
 it before the ships sail?"
 
 He gives you three gifts: the Conch Horn, the Basket of Honey and Figs, and
@@ -24,7 +24,7 @@ and a wagging tail.
 "This is Argos the Faithful Hound," says Odysseus. "He never forgets a friend or a
 scent. Follow his nose, follow each other, and leave no one behind."
 
-*What is your hero name? Will you be a hero of Cleverness, of Courage, or of
+*What is your hero name? Will you be a hero of Imagination, of Courage, or of
 Loyalty?*
 
 ## Stop 1: Following Argos
@@ -82,8 +82,8 @@ sees it, his face lights up like the sunrise.
 "You found it! You came back for it!" he cries, and he hugs the little token, and
 then he hugs Argos, who wags so hard he nearly falls over.
 
-Odysseus the Clever smiles and says, "You did not leave a friend behind. That is the
-truest kind of clever there is." Out on the bright waves, Thetis the Sea-Mother
+Odysseus the Bright smiles and says, "You did not leave a friend behind. That is the
+best idea there ever was." Out on the bright waves, Thetis the Sea-Mother
 lifts her gentle face and smiles upon you.
 
 The ships can sail home now, every friend and every treasure safe aboard. Well done,

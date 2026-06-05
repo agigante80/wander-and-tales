@@ -13,14 +13,14 @@ un lugar precioso. Ese es el peligro. Cuanto más se queda allí vuestra amiga, 
 olvida el camino a casa.
 
 La Vieja Maeve, Tejedora de Cuentos, os llama a su lado. "Vosotros tenéis cabezas
-listas y corazones amables", dice. "¿Cruzaréis la bruma y traeréis con cariño a
+llenas de ideas y corazones amables", dice. "¿Cruzaréis la bruma y traeréis con cariño a
 nuestra amiga a casa, antes de que nos olvide por completo?"
 
 Os da tres regalos: una ramita de roble para la suerte, una torta de avena y miel
 para compartir, y un ovillo de lana roja. Luego sonríe. "Aquí no ganamos siendo los
-más fuertes. Ganamos siendo astutos, valientes y bondadosos."
+más fuertes. Ganamos siendo valientes, bondadosos y con muchas ideas."
 
-*¿Cuál es vuestro nombre de héroe? ¿Sois héroes de Astucia, de Valor o de Bondad?*
+*¿Cuál es vuestro nombre de héroe? ¿Sois héroes de Imaginación, de Valor o de Bondad?*
 
 ## Parada 1: El Acertijo del Salmón
 
@@ -76,5 +76,5 @@ brillante bajo el sol de la mañana, vuestra amiga a salvo y sonriente a vuestro
 lado.
 
 Volvisteis a casa juntos, y ahora tenéis también una amiga selkie. En lo alto de
-las verdes colinas, Danu la Bondadosa os sonríe. Lo conseguisteis. Fuisteis astutos,
-fuisteis valientes y, sobre todo, fuisteis bondadosos. Bien hecho, héroes.
+las verdes colinas, Danu la Bondadosa os sonríe. Lo conseguisteis. Fuisteis valientes,
+fuisteis bondadosos y, sobre todo, estuvisteis llenos de ideas. Bien hecho, héroes.

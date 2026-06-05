@@ -9,14 +9,14 @@ Tonight is the longest night of the whole year. In the Hearth Hall, the great fi
 that warms the whole valley has gone out. The longhouse is cold. The windows have
 stopped glowing amber. Outside, the snow is deep and the dark feels very long.
 
-Edda the Saga-Keeper calls you to her. "You two have clever heads and warm
+Edda the Saga-Keeper calls you to her. "You two have bright ideas and warm
 hearts," she says. "Will you carry the warmth back before dawn?"
 
 She gives you three gifts: the Everwarm Ember, a ball of red yarn, and a warm
 honey bun. Then she smiles. "Up here we do not win by being the strongest. We win
-by being clever, brave, and kind."
+by being brave, kind, and full of ideas."
 
-*What is your hero name? Are you a hero of Wit, of Courage, or of Heart?*
+*What is your hero name? Are you a hero of Imagination, of Courage, or of Heart?*
 
 ## Stop 1: The Frozen Fjord
 
@@ -68,5 +68,5 @@ first light of dawn slips over the white mountains.
 
 Up in the sky, the Aurora Spirits dance in teal and green and purple. The Lonely
 Frost Giant has friends at last, and he is smiling. And Freya the Kind looks down
-and smiles too. You did it together. You were clever, you were brave, and most of
+and smiles too. You did it together. You were full of ideas, you were brave, and most of
 all, you were kind. Well done, heroes.

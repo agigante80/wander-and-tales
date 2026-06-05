@@ -11,16 +11,16 @@ grandi porte di Troia sono spalancate, e ora è ora di salpare verso casa
 attraverso Il Mare Color del Vino. Lontano vi aspetta La Sala del Telaio, dove un
 fuoco caldo, un banchetto di bentornato e i vecchi amici sono pronti per voi.
 
-Odisseo l'Astuto vi accompagna giù alle navi, sulla lunga spiaggia di sabbia. "È un
-lungo viaggio verso casa", dice, "e il mare è vasto. Ma siete astuti, siete coraggiosi
+Odisseo il Brillante vi accompagna giù alle navi, sulla lunga spiaggia di sabbia. "È un
+lungo viaggio verso casa", dice, "e il mare è vasto. Ma siete pieni di idee, siete coraggiosi
 e mantenete la lealtà con i vostri amici. È tutto ciò di cui un marinaio ha davvero
 bisogno."
 
 Vi dona tre regali per il viaggio: una grande Conchiglia a spirale, un Cesto di Miele
 e Fichi e un gomitolo di filo robusto, Il Filo di Penelope. Poi sorride. "Là fuori
-non si vince essendo i più forti. Si vince essendo astuti, coraggiosi e leali."
+non si vince essendo i più forti. Si vince essendo coraggiosi, leali e pieni di idee."
 
-*Qual è il tuo nome da eroe? Sei un eroe di Astuzia, di Coraggio o di Lealtà?*
+*Qual è il tuo nome da eroe? Sei un eroe di Immaginazione, di Coraggio o di Lealtà?*
 
 ## Tappa 1: L'Isola dei Venti
 
@@ -29,13 +29,13 @@ scogliere di bronzo lucente. È L'Isola dei Venti, dove vive Eolo, Custode dei V
 Lui tiene tutti i venti del mondo ben legati dentro un grande sacco di cuoio.
 
 Eolo è gentile, ma è prudente. Presterà un vento favorevole solo ai viaggiatori che
-glielo chiedono con astuzia e buone maniere, e che non sono avidi. "Chiedetemelo con
+glielo chiedono con una buona idea e buone maniere, e che non sono avidi. "Chiedetemelo con
 gentilezza", dice, "e non guardate mai, mai dentro il sacco dei venti."
 
-*Come gli chiederete un vento favorevole? Vi vengono in mente parole astute e gentili
+*Come gli chiederete un vento favorevole? Vi vengono in mente parole buone e gentili
 da dire? Potreste promettere di non guardare dentro il sacco? Cosa provate?*
 
-Quando glielo chiedete con astuzia e gentilezza, Eolo ride e lega un vento leggero
+Quando glielo chiedete con una buona idea e gentilezza, Eolo ride e lega un vento leggero
 nella vostra vela. "Un vento favorevole per gli amici", dice, e vi saluta con la mano
 mentre attraversate le acque.
 
@@ -82,5 +82,5 @@ vostro nome da eroe. Argo il Cane Fedele non si stacca dal vostro fianco.
 
 Lassù, sopra l'acqua tranquilla, Teti, la Madre del Mare, vi sorride dall'alto. Avete
 attraversato tutto Il Mare Color del Vino e siete tornati a casa insieme. Siete stati
-astuti, siete stati coraggiosi e, soprattutto, avete mantenuto la lealtà con i vostri
+coraggiosi, siete stati pieni di idee e, soprattutto, avete mantenuto la lealtà con i vostri
 amici. Bravi, eroi. Bentornati a casa.

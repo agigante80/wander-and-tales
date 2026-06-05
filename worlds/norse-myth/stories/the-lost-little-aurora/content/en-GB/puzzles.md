@@ -2,7 +2,7 @@
 
 *For your eyes, not the children's. Each stop lists its band, what the players need
 to work out, the intended solution, and a gentle fallback so a stuck child always
-moves forward. More than one good idea should work; reward cleverness and kindness
+moves forward. More than one good idea should work; reward imagination and kindness
 over the "right" answer.*
 
 ## Stop 1: The Dark Forest (Easy)
@@ -10,7 +10,7 @@ over the "right" answer.*
 **The challenge.** The littlest Aurora Spirit is hiding among the snowy pines, shy
 and cold and very small. The players must find her without frightening her away.
 
-**Intended solution.** This is a moment for Observation and Heart. The clever, kind
+**Intended solution.** This is a moment for Observation and Heart. The thoughtful, kind
 move is to slow down and look gently: watch for the faint glimmer of her light,
 follow small footprints in the snow, and speak softly so she is not scared. Asking
 **Nori the Tomte**, the red-capped hearth sprite, for a hint works just as well.
@@ -26,7 +26,7 @@ counts as a full success and tops up an energy star.
 purple, and cannot glow until the players help her gather them back. Each colour is
 hiding in something in the world that wears it.
 
-**Intended solution.** This is an Observation and Logic moment. The clever idea is
+**Intended solution.** This is an Observation and Logic moment. The good idea is
 to match each colour to the world around them: **teal** from a shining icicle,
 **green** from a dark pine branch, and **purple** from the deepening twilight sky.
 Naming any sensible source of each colour works; the point is matching colour to
@@ -58,4 +58,4 @@ There is no battle and no loser. When the little aurora leaps back into the sky,
 other **Aurora Spirits** swoop down to welcome her home, and the whole night sky
 dances with teal, green and purple over the snowy fjord. High among the stars,
 **Freya the Kind** smiles down. The heroes have won the only way anyone wins here,
-by being clever, brave, and kind.
+by being brave, kind, and full of ideas.

@@ -1,16 +1,16 @@
 # Named characters of the Windswept Shores of Troy.
 
-- id: odysseus-clever
+- id: odysseus-bright
   names:
-    en-GB: Odysseus the Clever
-    es-ES: Odiseo el Astuto
-    it-IT: Odisseo l'Astuto
+    en-GB: Odysseus the Bright
+    es-ES: Odiseo el Brillante
+    it-IT: Odisseo il Brillante
   kind: character
   disposition: friendly
   description:
-    en-GB: The famously clever captain of the seafarers, who prizes a good idea over a strong arm and sends the heroes out with a clever plan and a kind word.
-    es-ES: El famoso y astuto capitán de los navegantes, que valora más una buena idea que un brazo fuerte y envía a los héroes con un plan ingenioso y una palabra amable.
-    it-IT: Il famoso e astuto capitano dei naviganti, che apprezza più una buona idea di un braccio forte e manda gli eroi con un piano ingegnoso e una parola gentile.
+    en-GB: The captain of the seafarers, famous for his ideas, who prizes a good idea over a strong arm and sends the heroes out with a bright plan and a kind word.
+    es-ES: El capitán de los navegantes, famoso por sus ideas, que valora más una buena idea que un brazo fuerte y envía a los héroes con un buen plan y una palabra amable.
+    it-IT: Il capitano dei naviganti, famoso per le sue idee, che apprezza più una buona idea di un braccio forte e manda gli eroi con un buon piano e una parola gentile.
   first_seen: the-great-wooden-horse
 
 - id: thetis-sea-mother
@@ -34,7 +34,7 @@
   kind: character
   disposition: kindly
   description:
-    en-GB: The gentle keeper of the winds on his floating isle, who lends a fair wind to travellers who ask cleverly and kindly, and never out of greed.
-    es-ES: El amable guardián de los vientos en su isla flotante, que presta un viento favorable a los viajeros que lo piden con ingenio y amabilidad, nunca por codicia.
-    it-IT: Il gentile custode dei venti sulla sua isola galleggiante, che concede un vento favorevole ai viaggiatori che lo chiedono con ingegno e gentilezza, mai per avidità.
+    en-GB: The gentle keeper of the winds on his floating isle, who lends a fair wind to travellers who ask with good ideas and kindly, and never out of greed.
+    es-ES: El amable guardián de los vientos en su isla flotante, que presta un viento favorable a los viajeros que lo piden con buenas ideas y amabilidad, nunca por codicia.
+    it-IT: Il gentile custode dei venti sulla sua isola galleggiante, che concede un vento favorevole ai viaggiatori che lo chiedono con buone idee e gentilezza, mai per avidità.
   first_seen: the-long-way-home

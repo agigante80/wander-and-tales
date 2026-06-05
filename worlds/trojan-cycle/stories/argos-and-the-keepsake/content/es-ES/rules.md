@@ -16,7 +16,7 @@ cosas en su sitio.
 - Imprimid el mapa. Cada jugador pone una figura pequeña en la Salida, El Campamento
   de las Naves.
 - En este mundo no hay magia. En su lugar, cada héroe se apoya en una de tres
-  cualidades: **Astucia** (un plan ingenioso), **Valor** (un corazón firme) o
+  cualidades: **Imaginación** (inventar ideas), **Valor** (un corazón firme) o
   **Lealtad** (acompañar a un amigo). En la ficha de héroe, donde dice magia, que
   cada niño escriba la cualidad que más le guste. Dos cualidades distintas funcionan
   mejor juntas.
@@ -40,8 +40,8 @@ Una tirada fallida nunca es una derrota. Es un desvío hacia otro camino. Cuando
 tirada no alcanza el nivel, los jugadores siempre tienen una manera de seguir:
 
 - **Gastar una estrella de energía** para serenarse y volver a intentar la idea, o
-- **Unir dos cualidades** una vez por parada para superar el reto sin tirar (Astucia
-  y Lealtad juntas, por ejemplo, o Valor y Astucia).
+- **Unir dos cualidades** una vez por parada para superar el reto sin tirar (Imaginación
+  y Lealtad juntas, por ejemplo, o Valor e Imaginación).
 
 Las estrellas de energía se recuperan al pasar de parada y al ayudarse. Nadie puede
 quedarse sin ellas mucho tiempo, y nadie se queda atascado.
@@ -62,7 +62,7 @@ dado normal, leed la línea que coincida con el número sacado.
 
 | Tirada | El Giro del Destino |
 |---|---|
-| 1 | Odiseo el Astuto os da una pista gratis. |
+| 1 | Odiseo el Brillante os da una pista gratis. |
 | 2 | Recobráis el aliento y recuperáis una estrella de energía. |
 | 3 | Sopla un viento favorable desde el mar y el próximo reto es Fácil. |
 | 4 | Argos el Sabueso Fiel se acerca trotando y menea el rabo. Todo va bien. |

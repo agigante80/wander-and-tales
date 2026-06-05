@@ -20,7 +20,7 @@ Bambú Susurrante, en lo hondo entre los tallos oscuros, demasiado vergonzosos p
 a brillar.
 
 La Abuela Yuki, Guardiana de los Cuentos, que conocía cada historia que las montañas
-habían contado, os llamó a los dos a su lado. "Tenéis la cabeza sabia y el corazón
+habían contado, os llamó a los dos a su lado. "Tenéis la cabeza llena de ideas y el corazón
 bondadoso", dijo, "y eso vale más en una noche como esta que cualquier pértiga de
 faroles. ¿Subiréis al bosque y engatusaréis con dulzura a los espíritus de las
 luciérnagas para que vuelvan a casa, y así nuestra fiesta pueda brillar de nuevo?"
@@ -28,9 +28,9 @@ luciérnagas para que vuelvan a casa, y así nuestra fiesta pueda brillar de nue
 En vuestras manos puso tres regalos: un farol de papel redondo con su mango, un ovillo
 de hilo rojo vivo y un pastel de arroz blando y dulce envuelto en una hoja. "Recordad",
 dijo, con los ojos arrugados de sonreír, "aquí en estas montañas nunca ganamos siendo
-ruidosos ni fuertes. Ganamos siendo sabios, valientes y bondadosos."
+ruidosos ni fuertes. Ganamos siendo valientes, amables y con muchas ideas."
 
-*¿Cómo te llamas, héroe? ¿Qué cualidad llevarás esta noche: Sabiduría, Valor o Bondad?*
+*¿Cómo te llamas, héroe? ¿Qué cualidad llevarás esta noche: Imaginación, Valor o Bondad?*
 
 ## Parada 1: El Bambú Oscuro
 
@@ -41,7 +41,7 @@ desaparecía, luego parpadeaba en un sitio nuevo, como estrellas que no se decid
 salir. Los espíritus de las luciérnagas estaban cerca. Pero eran tímidos, y el menor
 ruido los hacía huir parpadeando.
 
-De las sombras verdes salió un zorro rojizo con ojos brillantes y listos y una sola hoja
+De las sombras verdes salió un zorro rojizo con ojos brillantes y vivos y una sola hoja
 en equilibrio sobre la cabeza. Era Kon el Zorro, al que le encantaban un buen juego y un
 corazón bondadoso, y os hizo un guiño lento y amistoso, como diciendo que no había
 ninguna prisa.
@@ -113,5 +113,5 @@ Kon el Zorro miraba desde un tejado con los ojos brillantes.
 
 Y cuando por fin llegó la mañana, la cálida Amaterasu, la Diosa del Sol, se alzó con
 suavidad sobre las montañas en flor y sonrió al valle. Lo habíais logrado, y lo habíais
-logrado juntos: con vuestra sabiduría, con vuestro valor y, por encima de todo, con
+logrado juntos: con vuestra imaginación, con vuestro valor y, por encima de todo, con
 vuestra bondad. Bien hecho, héroes de las montañas en flor.

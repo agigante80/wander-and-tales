@@ -2,13 +2,13 @@
 
 *Improv fuel for when a child goes happily off-script. Pull from these freely; none
 of it can break the story. Everything here is brave and kind, in keeping with these
-hills, where heroes win by wits, courage, and heart, never by force.*
+hills, where heroes win by imagination, courage, and heart, never by force.*
 
 ## The three hero qualities
 
-**Wits:** spotting a clue others miss, asking the one good question, solving a
-riddle, reading the lay of the land, a clever plan, turning a problem upside down,
-remembering an old story that helps.
+**Imagination:** dreaming up a new idea, asking the one good question, trying the
+surprising thing, picturing a riddle's answer, reading the lay of the land, turning a
+problem upside down, remembering an old story that helps.
 
 **Courage:** taking the first step on a dark path, speaking gently to something
 fearsome, owning up to a mistake, trying again after a miss, standing in front of a
@@ -21,7 +21,7 @@ over the easy way.
 ## Helpful friends along the way
 
 - **Bramble the Satyr** pops up with jokes and hints whenever the heroes are stuck.
-- **Chiron the Centaur**, wisest of teachers, might trot by to offer a calm word.
+- **Chiron the Centaur**, gentlest of teachers, might trot by to offer a calm word.
 - The **Singing Nymphs** of the spring reward kindness with a song.
 - The **Riddle Sphinx** is stern at her gate but warm once you have answered.
 - Even the **Lonely Cyclops** becomes a gentle friend who carries the heroes on his

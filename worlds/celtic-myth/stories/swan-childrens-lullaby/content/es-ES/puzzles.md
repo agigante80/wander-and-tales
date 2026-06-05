@@ -2,7 +2,7 @@
 
 *Para vuestros ojos, no para los niños. Cada parada indica su nivel, lo que los
 jugadores deben averiguar, la solución prevista y un apoyo amable para que un niño
-atascado siempre avance. Más de una buena idea debería valer; premiad el ingenio y
+atascado siempre avance. Más de una buena idea debería valer; premiad la imaginación y
 la amabilidad por encima de la respuesta "correcta".*
 
 ## Parada 1: La Bruma Gris (Fácil)
@@ -76,5 +76,5 @@ los cuatro niños cisne se unen a la canción.
 No hay batalla ni perdedor, y nunca hubo un enemigo, solo cuatro niños cisne tímidos
 que habían perdido su canción. Cuando la nana vuelve, la bruma gris se levanta en
 rosa y oro, El Círculo de Piedras tararea, y Danu la Bondadosa sonríe sobre el lago.
-Los héroes han ganado de la única manera en que se gana aquí: siendo listos,
-valientes y amables.
+Los héroes han ganado de la única manera en que se gana aquí: siendo valientes,
+amables y con muchas ideas.

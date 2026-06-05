@@ -8,14 +8,14 @@ gentle referee, the children's biggest fan, and a fellow adventurer who plays al
 This is a cooperative game for two or more who play together, a grown-up and one or
 more children, all on the same side. Nobody competes, and nobody loses. This is a
 braver tale than some, with a long climb, a swaying bridge by moonlight, and a great
-sleeping dragon, but wisdom and kindness still win every time, and no one is ever
+sleeping dragon, but imagination and kindness still win every time, and no one is ever
 truly hurt.
 
 ## Setting up
 
 - Print the map. Each player puts a small figure on the Start, the Lantern Village.
 - This world has no magic. Instead each hero leans on one of three qualities:
-  **Wisdom** (a calm, thoughtful mind), **Courage** (a steady heart), or
+  **Imagination** (dreaming up ideas), **Courage** (a steady heart), or
   **Kindness** (caring for others). On the hero sheet, where it says magic, let each
   child write the quality they like best. Two different qualities work best together.
 - Give each player five energy stars (five small tokens or bricks). They are spent
@@ -38,8 +38,8 @@ A failed roll is never a defeat. It is a detour to a different route. When a rol
 does not meet the band, the players always have a way through:
 
 - **Spend an energy star** to gather themselves and try the idea again, or
-- **Join two qualities** once per stop to pass with no roll at all (Wisdom and
-  Kindness together, say, or Courage and Wisdom).
+- **Join two qualities** once per stop to pass with no roll at all (Imagination and
+  Kindness together, say, or Courage and Imagination).
 
 Energy stars come back when the players move on to the next stop, and when they
 help each other. Nobody can ever run dry for long, and nobody is ever stuck.

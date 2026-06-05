@@ -8,9 +8,9 @@
   kind: creature
   disposition: fair
   description:
-    en-GB: A great winged sphinx with a lion's body and a kind, clever face, who guards the gate and asks riddles. She is fair, not cruel, and a good answer or a brave guess opens the way.
-    es-ES: Una gran esfinge alada con cuerpo de león y un rostro amable e ingenioso, que guarda la puerta y plantea acertijos. Es justa, no cruel, y una buena respuesta o una conjetura valiente abre el camino.
-    it-IT: Una grande sfinge alata con il corpo di leone e un volto buono e ingegnoso, che custodisce la porta e pone indovinelli. È giusta, non crudele, e una buona risposta o una supposizione coraggiosa apre la via.
+    en-GB: A great winged sphinx with a lion's body and a kind, gentle face, who guards the gate and asks riddles. She is fair, not cruel, and a good answer or a brave guess opens the way.
+    es-ES: Una gran esfinge alada con cuerpo de león y un rostro amable y sereno, que guarda la puerta y plantea acertijos. Es justa, no cruel, y una buena respuesta o una conjetura valiente abre el camino.
+    it-IT: Una grande sfinge alata con il corpo di leone e un volto buono e sereno, che custodisce la porta e pone indovinelli. È giusta, non crudele, e una buona risposta o una supposizione coraggiosa apre la via.
   first_seen: the-singing-spring
 
 - id: lonely-cyclops
@@ -60,9 +60,9 @@
   kind: creature
   disposition: wise
   description:
-    en-GB: The wisest and kindest of the centaurs, half horse and half person, a teacher of heroes who believes the best deeds are gentle ones.
-    es-ES: El más sabio y amable de los centauros, mitad caballo y mitad persona, maestro de héroes que cree que las mejores hazañas son las amables.
-    it-IT: Il più saggio e gentile dei centauri, metà cavallo e metà persona, un maestro di eroi che crede che le imprese migliori siano quelle gentili.
+    en-GB: The gentlest and kindest of the centaurs, half horse and half person, a teacher of heroes who believes the best deeds are gentle ones.
+    es-ES: El más amable y bondadoso de los centauros, mitad caballo y mitad persona, maestro de héroes que cree que las mejores hazañas son las amables.
+    it-IT: Il più gentile e buono dei centauri, metà cavallo e metà persona, un maestro di eroi che crede che le imprese migliori siano quelle gentili.
   first_seen: the-singing-spring
 
 - id: glaux-owl
@@ -73,9 +73,9 @@
   kind: creature
   disposition: friendly
   description:
-    en-GB: Wise Athena's little owl, with wide, bright, clever eyes. She is gentle and friendly, but on a foggy morning even a wise owl can lose her way home.
-    es-ES: El pequeño búho de la sabia Atenea, de ojos grandes, brillantes e ingeniosos. Es dulce y amistoso, pero en una mañana de niebla hasta un búho sabio puede perder el camino a casa.
-    it-IT: La civetta della saggia Atena, dagli occhi grandi, vivaci e ingegnosi. È dolce e amichevole, ma in una mattina di nebbia persino una civetta saggia può perdere la strada di casa.
+    en-GB: Kind Athena's little owl, with wide, bright, curious eyes. She is gentle and friendly, but on a foggy morning even the most careful owl can lose her way home.
+    es-ES: El pequeño búho de la buena Atenea, de ojos grandes, brillantes y curiosos. Es dulce y amistoso, pero en una mañana de niebla hasta el búho más cuidadoso puede perder el camino a casa.
+    it-IT: La civetta della buona Atena, dagli occhi grandi, vivaci e curiosi. È dolce e amichevole, ma in una mattina di nebbia persino la civetta più attenta può perdere la strada di casa.
   first_seen: athenas-owl
 
 - id: hill-bees

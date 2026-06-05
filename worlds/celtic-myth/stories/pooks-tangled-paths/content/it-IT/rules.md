@@ -15,7 +15,7 @@ fata solitaria che vuole soltanto un amico, e nessuno si fa mai male davvero.
 - Stampate la mappa. Ogni giocatore mette una piccola pedina sulla Partenza, la Casa
   Rotonda.
 - In questo mondo non c'è magia. Al suo posto, ogni eroe si appoggia a una di tre
-  qualità: **Astuzia** (un piano furbo), **Coraggio** (un cuore saldo) o
+  qualità: **Immaginazione** (inventare idee), **Coraggio** (un cuore saldo) o
   **Gentilezza** (prendersi cura degli altri). Sulla scheda dell'eroe, dove dice
   magia, che ogni bambino scriva la qualità che preferisce. Due qualità diverse
   funzionano meglio insieme.
@@ -41,8 +41,8 @@ Quando un tiro non raggiunge il livello, i giocatori hanno sempre un modo per an
 avanti:
 
 - **Spendere una stella di energia** per ritrovare la calma e riprovare l'idea, oppure
-- **Unire due qualità** una volta per tappa per superare la sfida senza tirare (Astuzia
-  e Gentilezza insieme, per esempio, o Coraggio e Astuzia).
+- **Unire due qualità** una volta per tappa per superare la sfida senza tirare (Immaginazione
+  e Gentilezza insieme, per esempio, o Coraggio e Immaginazione).
 
 Le stelle di energia si recuperano passando alla tappa successiva e aiutandosi a
 vicenda. Nessuno può restarne a corto a lungo, e nessuno resta mai bloccato.

@@ -15,9 +15,9 @@ Vino, todo el camino hasta La Sala del Telar, donde un fuego cálido, un banquet
 bienvenida y los viejos amigos habían estado esperando durante todos los largos años
 de ausencia.
 
-Odiseo el Astuto os acompañó a los dos hasta donde las naves descansaban varadas en
+Odiseo el Brillante os acompañó a los dos hasta donde las naves descansaban varadas en
 la larga arena. "Es un largo camino a casa", dijo, mirando las aguas anchas e
-inquietas, "y el mar guarda sus propios secretos. Pero sois astutos, sois valientes
+inquietas, "y el mar guarda sus propios secretos. Pero estáis llenos de ideas, sois valientes
 y mantenéis la lealtad con vuestros amigos, y eso vale más en una travesía que una
 bodega llena de tesoros."
 
@@ -26,9 +26,9 @@ hacía sonar una nota cálida y llamadora sobre el agua, una Cesta de Miel e Hig
 compartir con cualquier desconocido receloso y un ovillo de hilo fuerte de tejer, El
 Hilo de Penélope, que siempre lleva al viajero de vuelta a casa. "Recordad", dijo,
 "ahí fuera, en el ancho mar, no ganamos siendo los más fuertes. Ganamos siendo
-astutos, siendo valientes y manteniendo la lealtad."
+valientes, manteniendo la lealtad y teniendo muchas ideas."
 
-*¿Cuál es tu nombre de héroe? ¿Qué cualidad llevarás en la travesía: Astucia, Valor
+*¿Cuál es tu nombre de héroe? ¿Qué cualidad llevarás en la travesía: Imaginación, Valor
 o Lealtad?*
 
 ## Parada 1: La Isla de los Vientos
@@ -40,17 +40,17 @@ hogar de Eolo, Guardián de los Vientos, que mantenía cada ráfaga y cada venda
 mundo entero bien atados dentro de un gran saco de cuero.
 
 Eolo os recibió con cara amistosa, pero era un anfitrión cuidadoso. Prestaría un
-viento favorable, explicó, solo a los viajeros que se lo pidieran con astucia y
+viento favorable, explicó, solo a los viajeros que se lo pidieran con una buena idea y
 cortesía, y que no fueran tan codiciosos como para ir fisgando más de lo que
 necesitaban. "Pedídmelo bien", dijo, con un brillo en los ojos, "y dadme vuestra
 palabra de que nunca desataréis el saco de los vientos para mirar dentro. El viento
 es un regalo, no un tesoro para guardar con avaricia."
 
-*¿Cómo le pediréis a Eolo un viento favorable? ¿Sabréis encontrar palabras astutas y
+*¿Cómo le pediréis a Eolo un viento favorable? ¿Sabréis encontrar palabras buenas y
 corteses, y quizá una promesa de que no miraréis dentro del saco? ¿Cuál es vuestro
 plan?*
 
-Cuando se lo pedisteis con astucia y amabilidad, y le disteis vuestra palabra, Eolo
+Cuando se lo pedisteis con una buena idea y amabilidad, y le disteis vuestra palabra, Eolo
 echó la cabeza atrás y se rió de alegría. Recogió un viento suave del oeste en sus
 manos y lo ató con cuidado en vuestra vela. "Un viento favorable para los amigos que
 saben pedir", dijo, y los acantilados de bronce se hundieron tras vosotros mientras
@@ -121,6 +121,6 @@ hecho. Y Argos el Sabueso Fiel no quería separarse de vuestro lado, ni un solo 
 Muy lejos, sobre el mar tranquilo y reluciente, Tetis, la Madre del Mar, levantó la
 vista de las olas suaves y sonrió. Habíais cruzado entero el ancho Mar Color de Vino,
 desde las Costas Ventosas de Troya hasta vuestra propia puerta cálida, y lo habíais
-hecho juntos: con vuestra astucia, con vuestro valor y, sobre todo, manteniendo la
+hecho juntos: con vuestro valor, con vuestra imaginación y, sobre todo, manteniendo la
 lealtad los unos con los otros. Bien hecho, héroes de las Costas Ventosas.
 Bienvenidos a casa.

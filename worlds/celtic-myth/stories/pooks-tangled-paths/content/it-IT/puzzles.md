@@ -2,7 +2,7 @@
 
 *Per i vostri occhi, non per i bambini. Ogni tappa indica il suo livello, ciò che i
 giocatori devono scoprire, la soluzione prevista e un aiuto gentile perché un bambino
-bloccato vada sempre avanti. Più di una buona idea dovrebbe valere; premiate l'ingegno
+bloccato vada sempre avanti. Più di una buona idea dovrebbe valere; premiate l'immaginazione
 e la gentilezza più della risposta "giusta".*
 
 ## Tappa 1: Il Querceto Aggrovigliato (Facile)
@@ -11,7 +11,7 @@ e la gentilezza più della risposta "giusta".*
 indietro, e i giocatori finiscono sempre per arrivare alla stessa vecchia quercia.
 Devono trovare un modo per attraversarlo senza perdersi senza speranza.
 
-**Soluzione prevista.** È un momento di Astuzia e Spazio. La mossa furba e gentile è
+**Soluzione prevista.** È un momento di Immaginazione e Spazio. La buona mossa gentile è
 usare il **gomitolo di lana rossa**: legate un capo all'ingresso e srotolatelo
 mentre avanzate, così potete sempre tornare sui vostri passi e non percorrete mai
 due volte lo stesso sentiero sbagliato. Segnare ogni svolta, o seguire il filo a
@@ -68,5 +68,5 @@ Non c'è battaglia né perdente. Quando Pook batte le zampe, i nastri di nebbia 
 sciolgono, i sentieri del querceto corrono dritti e sinceri, e Pook saltella per
 guidare lui stesso gli eroi verso l'uscita. La fiera di maggio si svolge in un
 turbinio di musica e balli, e **Danu la Gentile** sorride dall'alto, sopra le verdi
-isole. Gli eroi hanno vinto nell'unico modo in cui si vince qui: essendo svegli,
-coraggiosi e gentili.
+isole. Gli eroi hanno vinto nell'unico modo in cui si vince qui: essendo coraggiosi,
+gentili e pieni di idee.

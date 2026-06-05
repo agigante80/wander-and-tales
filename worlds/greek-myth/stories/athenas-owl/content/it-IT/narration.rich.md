@@ -10,7 +10,7 @@ La nebbia scese sulle colline prima dell'alba, morbida e grigia e fitta come lan
 e con lei arrivò un suono piccolo e smarrito: il verso impaurito di una civetta.
 Quando il Paese degli Ulivi si svegliò, là in mezzo alla piazza c'era una piccola
 civetta, le penne arruffate e i tondi occhi spalancati. Si chiamava Glaux ed era la
-compagna della saggia Atena, il cui tempio si ergeva lassù sulla collina di marmo
+compagna della buona Atena, il cui tempio si ergeva lassù sulla collina di marmo
 bianco. Nella nebbia aveva perso la strada e non riusciva a trovare la via di casa.
 
 La vecchia Dafne, custode degli ulivi, vi chiamò entrambi al suo fianco. "Avete
@@ -20,9 +20,9 @@ su da Atena?"
 
 Con dolcezza avvolse la civetta in una sciarpa morbida e la affidò alle vostre
 cure. "Ricordate," disse, "quassù non si aiuta essendo i più grossi o i più audaci.
-Si aiuta essendo ingegnosi, coraggiosi e gentili."
+Si aiuta essendo coraggiosi, gentili e pieni di idee."
 
-*Qual è il vostro nome da eroi? Quale qualità porterete con voi: Ingegno, Coraggio
+*Qual è il vostro nome da eroi? Quale qualità porterete con voi: Immaginazione, Coraggio
 o Cuore?*
 
 ## Tappa 1: La Piazza nella Nebbia
@@ -37,7 +37,7 @@ muovervi piano e tenere basse le voci? Potreste tendere una mano ferma e aspetta
 soltanto che sia lei a scegliervi? Cosa provate?*
 
 Quando diventaste calmi e delicati e la lasciaste venire da voi con i suoi tempi,
-Glaux smise di tremare. Vi studiò con quei saggi occhi rotondi, fece un piccolo verso
+Glaux smise di tremare. Vi studiò con quei grandi occhi rotondi, fece un piccolo verso
 soddisfatto e saltellò sulla vostra mano tesa. Da quel momento si fidò di voi
 completamente.
 
@@ -80,14 +80,14 @@ sicuro e accoccolata, e infilò la testa sotto un'ala.
 ## Glaux Torna a Casa
 
 Mentre la civetta si rannicchiava, due occhi grigi e calmi si aprirono dentro il
-tempio, lucenti come argento lucidato. Era Atena in persona, dea della saggezza e
-delle buone idee, e vi sorrideva a tutti e due.
+tempio, lucenti come argento lucidato. Era Atena in persona, dea delle buone idee e
+della gentilezza, e vi sorrideva a tutti e due.
 
 Al suo sorriso la nebbia del mattino cominciò a sollevarsi, si fece sottile, si
 arricciò e volò via, finché il sole non irruppe e riversò luce dorata sul Paese
 degli Ulivi là sotto. Dal suo posatoio in alto Glaux fece un verso chiaro e felice,
 come per dire grazie.
 
-Ce l'avevate fatta, e l'avevate fatta insieme: con il vostro ingegno, con il vostro
+Ce l'avevate fatta, e l'avevate fatta insieme: con le vostre idee, con il vostro
 coraggio e, soprattutto, con la vostra gentilezza. Bravi, eroi delle Colline
 Assolate.
