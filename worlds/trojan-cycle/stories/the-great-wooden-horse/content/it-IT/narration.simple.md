@@ -13,8 +13,8 @@ Troia, color del miele, con le porte ben chiuse. Nessuno ricorda bene come sia
 cominciato il litigio. La verità è che sono tutti ormai un po' stanchi, e i due
 accampamenti desiderano in segreto che finisca una volta per tutte.
 
-Odisseo l'Astuto ti chiama a sé. Ha la barba riccia e un sorriso gentile e
-scintillante, e tra le mani tiene un cavallino di legno. "Ho un'idea molto furba",
+Odisseo il Brillante ti chiama a sé. Ha la barba riccia e un sorriso gentile e
+scintillante, e tra le mani tiene un cavallino di legno. "Ho un'idea bellissima",
 dice. "Costruiamo un grande cavallo di legno, grande come una casa. Ma non lo
 riempiremo di gente armata. Lo riempiremo di regali, di musica e di amicizia, e lo
 porteremo rotolando fino alle porte come una felice sorpresa. È così che facciamo
@@ -22,9 +22,9 @@ finire il litigio."
 
 Ti consegna tre regali: Il Cesto di Miele e Fichi, Il Filo di Penelope e La
 Conchiglia. Poi sorride. "Su queste coste non vinciamo perché siamo i più forti.
-Vinciamo perché siamo astuti, coraggiosi e leali con un amico."
+Vinciamo perché siamo coraggiosi, leali con un amico e pieni di idee."
 
-*Qual è il tuo nome da eroe? Porterai Astuzia, Coraggio o Lealtà?*
+*Qual è il tuo nome da eroe? Porterai Immaginazione, Coraggio o Lealtà?*
 
 ## Tappa 1: Costruire il Cavallo
 
@@ -83,5 +83,5 @@ tamburello. Qualcuno ride, e allora ridono tutti.
 I due accampamenti preparano insieme un grande banchetto, fianco a fianco, come se il
 litigio non ci fosse mai stato. Là fuori, sull'acqua tranquilla, Teti, la Madre del
 Mare, solleva il capo dalle onde e sorride. Ci siete riusciti insieme. Siete stati
-astuti, siete stati coraggiosi e siete stati leali, e il litigio più vecchio di tutti
+coraggiosi, siete stati leali e siete stati pieni di idee, e il litigio più vecchio di tutti
 è finito con una sorpresa gentile. Bravi, eroi di Troia.

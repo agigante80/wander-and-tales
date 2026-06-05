@@ -3,7 +3,7 @@
 *Per i vostri occhi, non per quelli dei bambini. Ogni tappa indica la sua banda,
 ciò che i giocatori devono capire, la soluzione prevista e un appoggio gentile
 perché un bambino bloccato vada sempre avanti. Più di una buona idea dovrebbe
-funzionare; premiate l'ingegno e la gentilezza più della risposta "giusta".*
+funzionare; premiate le idee e la gentilezza più della risposta "giusta".*
 
 ## Tappa 1: La Piazza Spenta (Facile)
 
@@ -72,5 +72,5 @@ Giocatelo con dolcezza. Lasciate che i bambini decidano come avvicinarsi: una pa
 gentile, un invito alla festa, la promessa di tornare tra le nuvole. Non c'è scontro
 né trucco. Quando offrono la loro amicizia, Nimbo lascia andare la luce, le lanterne
 si alzano tutte insieme, e Nimbo scende a unirsi alle famiglie, brillando più di
-tutti. Finite in quel calore. I bambini hanno vinto essendo svegli e gentili, che è
+tutti. Finite in quel calore. I bambini hanno vinto con gentilezza e con le loro idee, che è
 l'unico modo di vincere sulle Isole.

@@ -10,19 +10,19 @@ La Fuente Cantarina se ha quedado callada. En lo alto de las colinas, el agua
 cantaba todo el día, y su canto mantenía lleno y fresco cada pozo del pueblo. Ahora
 el canto se ha parado. Los pozos están bajos. Los olivos tienen sed.
 
-La vieja Dafne, que cuida el olivar, os llama. "Vosotros dos tenéis la cabeza
-despierta y el corazón bueno", dice. "¿Subiréis la colina a despertar la fuente?"
+La vieja Dafne, que cuida el olivar, os llama. "Vosotros dos tenéis buenas ideas
+y el corazón bueno", dice. "¿Subiréis la colina a despertar la fuente?"
 
 Os da tres regalos: un ovillo de hilo dorado, un pastel de miel y una pequeña lira.
-Luego sonríe. "Aquí arriba no se gana siendo el más fuerte. Se gana siendo listos,
-valientes y amables."
+Luego sonríe. "Aquí arriba no se gana siendo el más fuerte. Se gana siendo valientes,
+amables y con muchas ideas."
 
-*¿Cuál es vuestro nombre de héroe? ¿Sois héroes de Ingenio, de Valor o de Corazón?*
+*¿Cuál es vuestro nombre de héroe? ¿Sois héroes de Imaginación, de Valor o de Corazón?*
 
 ## Parada 1: La Puerta de los Acertijos
 
 Subís el camino soleado y llegáis a una alta puerta de mármol. En los escalones hay
-una esfinge, grande como un león, con alas doradas y un rostro amable e ingenioso.
+una esfinge, grande como un león, con alas doradas y un rostro amable y sereno.
 
 "Nadie pasa", dice, "hasta que responda a mi acertijo." No está enfadada. Le gusta
 ver una buena cara de pensar.
@@ -71,6 +71,6 @@ El agua se estremece. Unas ninfas amables se alzan entre el rocío, riendo y
 cantando. ¡La fuente vuelve a la vida! Allá abajo, cada pozo del pueblo se llena de
 agua fresca y clara.
 
-En lo alto de la montaña, la sabia Atenea os sonríe. Lo habéis conseguido juntos.
-Habéis sido listos, habéis sido valientes y, sobre todo, habéis sido amables. Bien
+En lo alto de la montaña, la buena Atenea os sonríe. Lo habéis conseguido juntos.
+Habéis sido valientes, habéis estado llenos de ideas y, sobre todo, habéis sido amables. Bien
 hecho, héroes.

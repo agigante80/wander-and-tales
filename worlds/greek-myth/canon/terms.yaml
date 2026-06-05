@@ -1,15 +1,15 @@
 # World-flavour vocabulary: the three hero qualities (this world has no magic).
 
-- id: wits
+- id: imagination
   names:
-    en-GB: Wits
-    es-ES: Ingenio
-    it-IT: Ingegno
+    en-GB: Imagination
+    es-ES: Imaginación
+    it-IT: Immaginazione
   kind: term
   description:
-    en-GB: Quick thinking and good questions. In these hills, wits open more doors than strength.
-    es-ES: Pensamiento rápido y buenas preguntas. En estas colinas, el ingenio abre más puertas que la fuerza.
-    it-IT: Pensiero rapido e buone domande. Su queste colline, l'ingegno apre più porte della forza.
+    en-GB: Imagining new ideas and asking good questions. In these hills, a fresh idea opens more doors than strength, and there is no wrong idea.
+    es-ES: Imaginar ideas nuevas y hacer buenas preguntas. En estas colinas, una idea nueva abre más puertas que la fuerza, y aquí no hay ideas equivocadas.
+    it-IT: Immaginare idee nuove e fare buone domande. Su queste colline, un'idea nuova apre più porte della forza, e qui non ci sono idee sbagliate.
   first_seen: the-singing-spring
 
 - id: courage
@@ -19,9 +19,9 @@
     it-IT: Coraggio
   kind: term
   description:
-    en-GB: A steady heart in a scary moment. Courage is not being unafraid; it is being kind and clever even when you are afraid.
-    es-ES: Un corazón firme en un momento de miedo. El valor no es no tener miedo; es ser amable e ingenioso aun cuando lo tienes.
-    it-IT: Un cuore saldo in un momento di paura. Il coraggio non è non avere paura; è essere gentili e ingegnosi anche quando si ha paura.
+    en-GB: A steady heart in a scary moment. Courage is not being unafraid; it is staying kind and trying anyway, even when you are afraid.
+    es-ES: Un corazón firme en un momento de miedo. El valor no es no tener miedo; es seguir siendo amable e intentarlo igualmente, aun cuando lo tienes.
+    it-IT: Un cuore saldo in un momento di paura. Il coraggio non è non avere paura; è restare gentili e provarci lo stesso, anche quando si ha paura.
   first_seen: the-singing-spring
 
 - id: heart

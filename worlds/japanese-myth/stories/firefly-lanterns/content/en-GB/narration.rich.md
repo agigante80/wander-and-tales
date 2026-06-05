@@ -18,16 +18,16 @@ one of them had slipped away to hide. They had flown up into the Whispering Bamb
 deep among the dark stalks, far too timid to come out and shine.
 
 Granny Yuki the Tale-Keeper, who knew every story the mountains had ever told, called the
-two of you to her side. "You have wise heads and kind hearts," she said, "and that is
+two of you to her side. "You have heads full of ideas and kind hearts," she said, "and that is
 worth more on a night like this than any lantern-pole. Will you climb to the grove and
 coax the firefly spirits gently home, so our festival can glow again?"
 
 Into your hands she pressed three gifts: a round paper lantern on a little handle, a ball
 of bright red thread, and a soft, sweet rice cake wrapped in a leaf. "Remember," she
 said, her eyes crinkling, "up in these hills we never win by being loud or strong. We win
-by being wise, brave, and kind."
+by being brave, kind, and full of ideas."
 
-*What is your hero name? Which quality will you carry tonight: Wisdom, Courage, or
+*What is your hero name? Which quality will you carry tonight: Imagination, Courage, or
 Kindness?*
 
 ## Stop 1: The Dark Bamboo
@@ -38,7 +38,7 @@ and very, very still. Here and there a tiny light blinked on, then vanished, the
 somewhere new, like stars that could not decide whether to come out. The firefly spirits
 were close. But they were shy, and the smallest sound sent them flickering away.
 
-From the green shadows stepped a russet fox with bright, clever eyes and a single leaf
+From the green shadows stepped a russet fox with bright, lively eyes and a single leaf
 balanced on his head. It was Kon the Fox, who loved a good game and a kind heart, and he
 gave you a slow, friendly wink, as if to say there was no hurry at all.
 
@@ -108,5 +108,5 @@ Fox watched from a rooftop with his eyes shining.
 
 And when at last the morning came, warm Amaterasu the Sun-Kami rose gently over the
 blossom mountains and smiled down upon the valley. You had done it, and you had done it
-together: with your wisdom, with your courage, and above all with your kindness. Well
+together: with your imagination, with your courage, and above all with your kindness. Well
 done, heroes of the blossom mountains.

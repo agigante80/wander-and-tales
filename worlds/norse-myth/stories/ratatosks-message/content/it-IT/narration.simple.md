@@ -17,14 +17,14 @@ anche lei. Nessuno dei due l'ha fatto. È stata solo una confusione. Ma ora i du
 vecchi amici sono arrabbiati, e tutto l'albero si sente triste.
 
 Edda la Custode delle Saghe vi chiama nella calda Sala del Focolare. "Avete teste
-sveglie e cuori gentili", dice. "Aiuterete Ratatosk a mettere in ordine i suoi
+piene di idee e cuori gentili", dice. "Aiuterete Ratatosk a mettere in ordine i suoi
 messaggi e a sistemare tutto, perché i due amici tornino amici?"
 
 Vi dà tre doni: un gomitolo di lana rossa, uno spuntino per lo scoiattolo e una
 piccola lanterna. Poi sorride. "Quassù non si vince essendo i più forti. Si vince
-essendo ingegnosi, coraggiosi e gentili."
+con coraggio, gentilezza e tante idee."
 
-*Qual è il vostro nome da eroe? Siete eroi di Ingegno, di Coraggio o di Cuore?*
+*Qual è il vostro nome da eroe? Siete eroi di Immaginazione, di Coraggio o di Cuore?*
 
 ## Tappa 1: Acchiappate lo Scoiattolo
 
@@ -46,7 +46,7 @@ pensare."
 ## Tappa 2: Mettete in Ordine i Messaggi
 
 Ratatosk apre le zampine ed escono tre messaggini, tutti in disordine. Ci sono tre
-amici che aspettano: l'Aquila in cima, un vecchio gufo saggio su un ramo di mezzo e
+amici che aspettano: l'Aquila in cima, un vecchio gufo gentile su un ramo di mezzo e
 l'amichetto delle radici. Ogni messaggio appartiene a uno di loro, ma quale va a
 ciascuno?
 
@@ -89,5 +89,5 @@ Ratatosk fa un giro felice attorno a tutto l'albero. "Avete messo in ordine il m
 imbroglio e avete sistemato i miei amici", dice. "Grazie, grazie!"
 
 Lassù, sopra i Fiordi Innevati del Nord, Freya la Gentile guarda giù e sorride. Ce
-l'avete fatta insieme. Siete stati ingegnosi, siete stati coraggiosi e, soprattutto,
+l'avete fatta insieme. Siete stati pieni di idee, siete stati coraggiosi e, soprattutto,
 siete stati gentili. Bravi, eroi.

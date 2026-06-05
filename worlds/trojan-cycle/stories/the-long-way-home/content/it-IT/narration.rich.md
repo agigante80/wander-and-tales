@@ -14,9 +14,9 @@ il più lungo di tutti. Era ora di salpare verso casa attraverso Il Mare Color d
 Vino, fino a La Sala del Telaio, dove un fuoco caldo, un banchetto di bentornato e i
 vecchi amici avevano aspettato per tutti i lunghi anni di lontananza.
 
-Odisseo l'Astuto accompagnò entrambi giù fino al punto in cui le navi giacevano tirate
+Odisseo il Brillante accompagnò entrambi giù fino al punto in cui le navi giacevano tirate
 in secca sulla lunga sabbia. "È un lungo viaggio verso casa", disse, guardando le
-acque vaste e inquiete, "e il mare custodisce i suoi segreti. Ma siete astuti, siete
+acque vaste e inquiete, "e il mare custodisce i suoi segreti. Ma siete pieni di idee, siete
 coraggiosi e mantenete la lealtà con i vostri amici, e questo in una traversata vale
 più di una stiva piena di tesori."
 
@@ -24,10 +24,10 @@ Nelle vostre mani mise tre regali per il cammino: una grande Conchiglia a spiral
 suonava una nota calda e chiamante sull'acqua, un Cesto di Miele e Fichi da dividere
 con qualunque sconosciuto diffidente e un gomitolo di filo robusto da tessere, Il Filo
 di Penelope, che riporta sempre a casa il viaggiatore. "Ricordate", disse, "là fuori,
-sul mare vasto, non si vince essendo i più forti. Si vince essendo astuti, essendo
-coraggiosi e mantenendo la lealtà."
+sul mare vasto, non si vince essendo i più forti. Si vince essendo coraggiosi,
+mantenendo la lealtà e con tante idee."
 
-*Qual è il tuo nome da eroe? Quale qualità porterai nella traversata: Astuzia, Coraggio
+*Qual è il tuo nome da eroe? Quale qualità porterai nella traversata: Immaginazione, Coraggio
 o Lealtà?*
 
 ## Tappa 1: L'Isola dei Venti
@@ -39,16 +39,16 @@ Eolo, Custode dei Venti, che teneva ogni raffica e ogni burrasca del mondo inter
 legate dentro un grande sacco di cuoio.
 
 Eolo vi accolse con un viso amichevole, ma era un ospite prudente. Avrebbe prestato un
-vento favorevole, spiegò, solo ai viaggiatori che glielo chiedevano con astuzia e
+vento favorevole, spiegò, solo ai viaggiatori che glielo chiedevano con una buona idea e
 cortesia, e che non erano tanto avidi da andare a curiosare più del necessario.
 "Chiedetemelo bene", disse, con un luccichio negli occhi, "e datemi la vostra parola
 che non slegherete mai il sacco dei venti per sbirciarci dentro. Il vento è un dono,
 non un tesoro da accumulare."
 
-*Come chiederete a Eolo un vento favorevole? Saprete trovare parole astute e cortesi,
+*Come chiederete a Eolo un vento favorevole? Saprete trovare parole buone e cortesi,
 e magari una promessa che non guarderete dentro il sacco? Qual è il vostro piano?*
 
-Quando glielo chiedeste con astuzia e gentilezza, e gli deste la vostra parola, Eolo
+Quando glielo chiedeste con una buona idea e gentilezza, e gli deste la vostra parola, Eolo
 gettò la testa all'indietro e rise di gioia. Raccolse un vento leggero da ponente nelle
 mani e lo legò con cura nella vostra vela. "Un vento favorevole per gli amici che sanno
 chiedere", disse, e le scogliere di bronzo sprofondarono dietro di voi mentre la
@@ -118,6 +118,6 @@ per un solo momento.
 
 Lontano, sul mare calmo e luminoso, Teti, la Madre del Mare, alzò lo sguardo dalle onde
 gentili e sorrise. Avevate attraversato tutto il vasto Mare Color del Vino, dalle Coste
-Ventose di Troia fino alla vostra porta calda, e lo avevate fatto insieme: con la
-vostra astuzia, con il vostro coraggio e, soprattutto, mantenendo la lealtà gli uni con
+Ventose di Troia fino alla vostra porta calda, e lo avevate fatto insieme: con il
+vostro coraggio, con la vostra immaginazione e, soprattutto, mantenendo la lealtà gli uni con
 gli altri. Bravi, eroi delle Coste Ventose. Bentornati a casa.

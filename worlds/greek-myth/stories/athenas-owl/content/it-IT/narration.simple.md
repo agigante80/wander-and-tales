@@ -8,7 +8,7 @@ da provare.*
 
 Una mattina grigia e nebbiosa, una piccola civetta venne giù rotolando dalla
 nebbia e atterrò, tutta arruffata, in mezzo al Paese degli Ulivi. Si chiama Glaux
-e appartiene alla saggia Atena, lassù sulla collina di marmo bianco. Ma la nebbia
+e appartiene alla buona Atena, lassù sulla collina di marmo bianco. Ma la nebbia
 è fitta e la povera Glaux non riesce a trovare la strada di casa.
 
 La vecchia Dafne, che custodisce gli ulivi, vi chiama a sé. "Voi due avete occhi
@@ -16,9 +16,9 @@ attenti e cuori gentili," dice. "Volete aiutare la piccola Glaux a ritrovare la
 via per tornare su da Atena?"
 
 Avvolge la civetta in una sciarpa morbida e sorride. "Quassù non si aiuta essendo
-i più grossi o i più veloci. Si aiuta essendo ingegnosi, coraggiosi e gentili."
+i più grossi o i più veloci. Si aiuta essendo coraggiosi, gentili e pieni di idee."
 
-*Qual è il vostro nome da eroi? Siete eroi di Ingegno, di Coraggio o di Cuore?*
+*Qual è il vostro nome da eroi? Siete eroi di Immaginazione, di Coraggio o di Cuore?*
 
 ## Tappa 1: La Piazza nella Nebbia
 
@@ -70,5 +70,5 @@ La nebbia del mattino si scioglie. La luce del sole si riversa sul Paese degli
 Ulivi più in basso, calda e dorata. Glaux fa un verso di ringraziamento dal suo
 posatoio.
 
-Ce l'avete fatta insieme. Siete stati ingegnosi, siete stati coraggiosi e,
+Ce l'avete fatta insieme. Siete stati coraggiosi, pieni di idee e,
 soprattutto, siete stati gentili. Bravi, eroi.

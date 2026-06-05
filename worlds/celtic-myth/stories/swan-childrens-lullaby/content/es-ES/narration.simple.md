@@ -12,14 +12,14 @@ la canción se tambalea. Se le olvida su melodía. Una bruma gris y triste se po
 sobre el lago y sobre toda la aldea, y nadie puede ver la puesta de sol.
 
 La Vieja Maeve, Tejedora de Cuentos, os llama a su lado junto al fuego cálido.
-"Vosotros dos tenéis cabezas listas y corazones amables", dice. "¿Ayudaréis a Los
+"Vosotros dos tenéis cabezas llenas de ideas y corazones amables", dice. "¿Ayudaréis a Los
 Niños Cisne a recordar su nana, para que la bruma se levante otra vez?"
 
 Os da tres regalos: El Arpa Pequeña, La Ramita de Roble y La Torta de Avena y
-Miel. Luego sonríe. "Aquí no ganamos por ser los más fuertes. Ganamos por ser
-listos, valientes y amables."
+Miel. Luego sonríe. "Aquí no ganamos por ser los más fuertes. Ganamos siendo
+valientes, amables y con muchas ideas."
 
-*¿Cuál es tu nombre de héroe? ¿Eres un héroe de Astucia, de Valor o de Bondad?*
+*¿Cuál es tu nombre de héroe? ¿Eres un héroe de Imaginación, de Valor o de Bondad?*
 
 ## Parada 1: La Bruma Gris
 
@@ -72,5 +72,5 @@ Arriba, en la loma verde, El Círculo de Piedras tararea bajito y feliz. Los ni�
 cisne se deslizan en círculo, cantando con toda el alma. Y muy alto, sobre el
 lago, Danu la Bondadosa os mira y sonríe.
 
-Lo conseguisteis juntos. Fuisteis listos, fuisteis valientes y, sobre todo,
-fuisteis amables. Buenas noches, héroes. Dulces sueños.
+Lo conseguisteis juntos. Fuisteis valientes, fuisteis amables y, sobre todo,
+estuvisteis llenos de ideas. Buenas noches, héroes. Dulces sueños.

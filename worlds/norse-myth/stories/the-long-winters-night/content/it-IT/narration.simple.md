@@ -11,14 +11,14 @@ fuoco che scalda tutta la valle si è spento. La casa lunga è fredda. Le finest
 hanno smesso di brillare color ambra. Fuori, la neve è alta e il buio sembra
 lunghissimo.
 
-Edda la Custode delle Saghe vi chiama a sé. "Voi due avete teste sveglie e cuori
+Edda la Custode delle Saghe vi chiama a sé. "Voi due avete teste piene di idee e cuori
 caldi", dice. "Riporterete il calore prima dell'alba?"
 
 Vi dà tre doni: la Brace Sempre Calda, il Gomitolo di Lana Rossa e il Panino al Miele,
-ancora caldo. Poi sorride. "Quassù non si vince essendo i più forti. Si vince essendo
-ingegnosi, coraggiosi e gentili."
+ancora caldo. Poi sorride. "Quassù non si vince essendo i più forti. Si vince con
+coraggio, gentilezza e tante idee."
 
-*Qual è il vostro nome da eroe? Siete eroi di Ingegno, di Coraggio o di Cuore?*
+*Qual è il vostro nome da eroe? Siete eroi di Immaginazione, di Coraggio o di Cuore?*
 
 ## Tappa 1: Il Fiordo Ghiacciato
 
@@ -72,4 +72,4 @@ dorata, e la prima luce dell'alba scivola sopra le montagne bianche.
 Su nel cielo, gli Spiriti dell'Aurora danzano nel turchese, nel verde e nel viola. Il
 Gigante di Ghiaccio Solitario ha finalmente degli amici, e sta sorridendo. E Freya la
 Gentile guarda giù e sorride anche lei. Ce l'avete fatta insieme. Siete stati
-ingegnosi, siete stati coraggiosi e, soprattutto, siete stati gentili. Bravi, eroi.
+pieni di idee, siete stati coraggiosi e, soprattutto, siete stati gentili. Bravi, eroi.

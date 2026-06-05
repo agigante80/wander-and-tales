@@ -15,14 +15,14 @@ Sussurranti, coperti di neve, e ha perso i suoi colori. Ora è troppo timida e h
 troppo freddo per brillare.
 
 Edda la Custode delle Saghe vi chiama nella calda Sala del Focolare. "Voi due avete
-teste sveglie e cuori buoni", dice. "Troverete la piccola aurora e l'aiuterete a
+teste piene di idee e cuori buoni", dice. "Troverete la piccola aurora e l'aiuterete a
 brillare di nuovo?"
 
 Vi dà tre regali: una piccola lanterna, un gomitolo di lana rossa e un panino al
 miele ancora caldo. Poi sorride. "Quassù non vinciamo essendo i più forti. Vinciamo
-essendo svegli, coraggiosi e gentili."
+con coraggio, gentilezza e tante idee."
 
-*Qual è il vostro nome da eroe? Siete eroi di Ingegno, di Coraggio o di Cuore?*
+*Qual è il vostro nome da eroe? Siete eroi di Immaginazione, di Coraggio o di Cuore?*
 
 ## Tappa 1: Il Bosco Scuro
 
@@ -80,5 +80,5 @@ Poi tutto il cielo esplode di colore. Verde acqua, verde e viola, tutti che danz
 insieme sopra il fiordo innevato. La lunga notte non è più scura.
 
 Lassù tra le stelle, Freya la Gentile guarda giù e vi sorride. Ce l'avete fatta
-insieme. Siete stati svegli, siete stati coraggiosi e, soprattutto, siete stati
+insieme. Siete stati pieni di idee, siete stati coraggiosi e, soprattutto, siete stati
 gentili. Bravi, eroi dei fiordi.

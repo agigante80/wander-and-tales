@@ -2,7 +2,7 @@
 
 *Para vuestros ojos, no para los niños. Cada parada indica su nivel, lo que los
 jugadores deben averiguar, la solución prevista y un apoyo amable para que un niño
-atascado siempre avance. Más de una buena idea debería valer; premiad el ingenio y
+atascado siempre avance. Más de una buena idea debería valer; premiad las ideas nuevas y
 la amabilidad por encima de la respuesta "correcta".*
 
 ## Parada 1: La Colina de las Abejas (Fácil)
@@ -46,7 +46,7 @@ de venir.
 **Solución prevista.** Es un momento de Corazón y Valor. Vale cualquier consuelo cálido
 y sincero: decirle con claridad que lo quieren allí, recordarle que el pueblo es ahora
 su amigo, enseñarle la gran porción guardada solo para él u ofrecerse a bajar a su lado.
-Esta parada se supera con la amabilidad, no con la astucia.
+Esta parada se supera con la amabilidad, no con ningún plan.
 
 **Apoyo.** Si los niños no saben qué decir, que el gigante pregunte muy bajito:
 "¿De verdad estáis seguros de que hay sitio para mí?" Una sola palabra amable basta, y
@@ -56,6 +56,6 @@ baja la colina.
 
 No hay batalla ni perdedor. Cuando se ha reunido la miel, se ha repartido el pastel y
 el gigante ocupa su asiento, todo el **Pueblo de los Olivos** celebra el banquete junto
-bajo los olivos sin dejar a nadie fuera, y la sabia **Atenea** sonríe desde la montaña.
-Los héroes han ganado de la única manera en que se gana aquí: siendo listos, valientes
-y amables.
+bajo los olivos sin dejar a nadie fuera, y la buena **Atenea** sonríe desde la montaña.
+Los héroes han ganado de la única manera en que se gana aquí: siendo valientes, amables
+y con muchas ideas.

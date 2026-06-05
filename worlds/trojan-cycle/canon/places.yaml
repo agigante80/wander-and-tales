@@ -43,9 +43,9 @@
     it-IT: L'Isola dei Venti
   kind: place
   description:
-    en-GB: A floating island ringed with bronze cliffs where the keeper of the winds lives, and where a fair wind can be asked for with a clever and courteous word.
-    es-ES: Una isla flotante rodeada de acantilados de bronce donde vive el guardián de los vientos, y donde se puede pedir un viento favorable con una palabra ingeniosa y cortés.
-    it-IT: Un'isola galleggiante cinta da scogliere di bronzo dove vive il custode dei venti, e dove si può chiedere un vento favorevole con una parola ingegnosa e cortese.
+    en-GB: A floating island ringed with bronze cliffs where the keeper of the winds lives, and where a fair wind can be asked for with a good idea and a courteous word.
+    es-ES: Una isla flotante rodeada de acantilados de bronce donde vive el guardián de los vientos, y donde se puede pedir un viento favorable con una buena idea y una palabra cortés.
+    it-IT: Un'isola galleggiante cinta da scogliere di bronzo dove vive il custode dei venti, e dove si può chiedere un vento favorevole con una buona idea e una parola cortese.
   first_seen: the-long-way-home
 
 - id: weaving-hall

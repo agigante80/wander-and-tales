@@ -10,7 +10,7 @@
     en-GB: the Windswept Shores of Troy
     es-ES: las Costas Ventosas de Troya
     it-IT: le Coste Ventose di Troia
-  magics: [cleverness, loyalty, courage]
+  magics: [imagination, loyalty, courage]
   energy: 4
   carry:
     - { en-GB: a sailor's cloak, es-ES: una capa de marinero, it-IT: un mantello da marinaio }
@@ -36,7 +36,7 @@
     en-GB: the Windswept Shores of Troy
     es-ES: las Costas Ventosas de Troya
     it-IT: le Coste Ventose di Troia
-  magics: [courage, loyalty, cleverness]
+  magics: [courage, loyalty, imagination]
   energy: 3
   carry:
     - { en-GB: a little wooden boat, es-ES: un barquito de madera, it-IT: una barchetta di legno }
@@ -62,7 +62,7 @@
     en-GB: the Windswept Shores of Troy
     es-ES: las Costas Ventosas de Troya
     it-IT: le Coste Ventose di Troia
-  magics: [cleverness, courage, loyalty]
+  magics: [imagination, courage, loyalty]
   energy: 5
   carry:
     - { en-GB: a sea chart, es-ES: una carta de navegación, it-IT: una carta nautica }
@@ -74,7 +74,7 @@
     role: hero
     orientation: portrait
     prompt: >
-      A confident older seafaring hero in a cloak with a calm, clever face and hair
+      A confident older seafaring hero in a cloak with a calm, bright face and hair
       tied back, holding a rolled sea chart, the prow of a ship and the open sea
       behind, ready for a real voyage.
     alt:
@@ -89,7 +89,7 @@
     en-GB: the Windswept Shores of Troy
     es-ES: las Costas Ventosas de Troya
     it-IT: le Coste Ventose di Troia
-  magics: [courage, cleverness, loyalty]
+  magics: [courage, imagination, loyalty]
   energy: 4
   carry:
     - { en-GB: a sturdy oar, es-ES: un remo resistente, it-IT: un solido remo }

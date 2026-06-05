@@ -8,7 +8,7 @@ raccontare la storia, fare l'arbitro gentile, essere il più grande tifoso dei b
 ed essere un avventuriero in più che gioca con loro. È un gioco cooperativo per due o
 più persone che giocano insieme, un adulto e uno o più bambini, tutti dalla stessa
 parte. Nessuno compete e nessuno perde. È un racconto tenero e caldo, senza nessun
-cattivo: l'unico guaio è un pasticcio allegro, e la saggezza e la gentilezza lo
+cattivo: l'unico guaio è un pasticcio allegro, e l'immaginazione e la gentilezza lo
 sistemano ogni volta.
 
 ## Preparare la partita
@@ -16,7 +16,7 @@ sistemano ogni volta.
 - Stampate la mappa. Ogni giocatore mette una piccola pedina sulla Partenza, il mercato
   del Villaggio delle Lanterne.
 - In questo mondo non c'è magia. Al suo posto, ogni eroe si appoggia a una di tre
-  qualità: **Saggezza** (pensare con calma e astuzia), **Coraggio** (un cuore saldo) o
+  qualità: **Immaginazione** (inventare idee), **Coraggio** (un cuore saldo) o
   **Gentilezza** (prendersi cura degli altri). Sulla scheda dell'eroe, dove dice magia,
   che ogni bambino scriva la qualità che preferisce. Due qualità diverse funzionano
   meglio insieme.
@@ -43,8 +43,8 @@ Un tiro fallito non è mai una sconfitta. È una deviazione verso un altro cammi
 un tiro non raggiunge il livello, i giocatori hanno sempre un modo per andare avanti:
 
 - **Spendere una stella di energia** per ritrovare la calma e riprovare l'idea, oppure
-- **Unire due qualità** una volta per tappa per superare la sfida senza tirare (Saggezza
-  e Gentilezza insieme, per esempio, o Coraggio e Saggezza).
+- **Unire due qualità** una volta per tappa per superare la sfida senza tirare (Immaginazione
+  e Gentilezza insieme, per esempio, o Coraggio e Immaginazione).
 
 Le stelle di energia si recuperano passando alla tappa successiva e aiutandosi a
 vicenda. Nessuno può restarne a corto a lungo, e nessuno resta mai bloccato.

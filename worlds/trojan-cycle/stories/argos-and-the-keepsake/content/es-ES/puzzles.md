@@ -2,7 +2,7 @@
 
 *Para vuestros ojos, no para los niños. Cada parada indica su nivel, lo que los
 jugadores deben averiguar, la solución prevista y un apoyo amable para que un niño
-atascado siempre avance. Más de una buena idea debería valer; premiad el ingenio y
+atascado siempre avance. Más de una buena idea debería valer; premiad la imaginación y
 la lealtad por encima de la respuesta "correcta".*
 
 ## Parada 1: Siguiendo a Argos (Fácil)
@@ -73,8 +73,8 @@ ternura.
 ## El final
 
 No hay batalla ni perdedor. Cuando el recuerdo vuelve a casa, Lykos está lleno de
-alegría y abraza tanto la prenda como a Argos, Odiseo el Astuto elogia a los héroes
+alegría y abraza tanto la prenda como a Argos, Odiseo el Brillante elogia a los héroes
 por no dejar a nadie atrás, y **Tetis, la Madre del Mar**, sonríe sobre el mar en
 calma para que las naves puedan zarpar a casa con cada amigo y cada tesoro a salvo a
-bordo. Los héroes han ganado de la única manera en que se gana aquí: siendo astutos,
-valientes y leales.
+bordo. Los héroes han ganado de la única manera en que se gana aquí: siendo valientes,
+leales y con muchas ideas.

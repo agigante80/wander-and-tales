@@ -78,4 +78,4 @@ la luz que había guardado. De pronto, los faroles del cielo se elevan juntos, t
 la tarde se llena de luz dorada y cálida, y Nimbo brilla más que nadie mientras baja
 flotando para unirse a la fiesta. La Fiesta de las Luces ha empezado.
 
-Lo habéis conseguido juntos. Habéis sido listos y habéis sido amables. Muy bien.
+Lo habéis conseguido juntos. Habéis sido amables y habéis tenido muchas ideas. Muy bien.

@@ -78,4 +78,4 @@ Quando dite a Pip con gentilezza che va tutto bene, fa capolino e sorride. Con u
 Cambiamento attento, Pip rimette a posto l'ultimissima cosa, e tutto il mercato
 applaude. Pip si raddrizza un pochino di più.
 
-Ce l'avete fatta insieme. Siete stati svegli, e siete stati gentili. Bravi.
+Ce l'avete fatta insieme. Siete stati gentili e pieni di idee. Bravi.

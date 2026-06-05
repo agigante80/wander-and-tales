@@ -11,15 +11,15 @@ But oh dear. Pon the Tanuki was so excited that he bounced and rolled right thro
 the market, and he knocked every stall over by mistake. Now the fans, the fruit,
 and the lanterns are all in one big jumble, and Pon feels terrible.
 
-Granny Yuki the Tale-Keeper calls you to her. "You two have clever heads and kind
+Granny Yuki the Tale-Keeper calls you to her. "You two have heads full of ideas and kind
 hearts," she says. "Will you help Pon set the market right before the festival
 opens?"
 
 She gives you three gifts: a ball of red thread, a little bell, and a sweet rice
 cake. Then she smiles. "Up here we do not win by being the strongest. We win by
-being wise, brave, and kind."
+being brave, kind, and full of ideas."
 
-*What is your hero name? Are you a hero of Wisdom, of Courage, or of Kindness?*
+*What is your hero name? Are you a hero of Imagination, of Courage, or of Kindness?*
 
 ## Stop 1: The Jumbled Stalls
 
@@ -50,7 +50,7 @@ you count the lanterns onto the posts? Could you match the fruit by its colour? 
 is your plan?*
 
 When you sort and count it all back into place, the market begins to look right
-again. Pon claps his paws. "You are so clever!" he says.
+again. Pon claps his paws. "What a good idea!" he says.
 
 ## Stop 3: The Last Lantern
 
@@ -78,5 +78,5 @@ Pon the Tanuki is forgiven, and best of all, he is proud. The drum begins to bea
 the people come laughing into the square, and the festival opens at last.
 
 High above, Amaterasu the Sun-Kami looks down and smiles. You did it together. You
-were wise, you were brave, and most of all, you were kind. Well done, heroes of the
+were brave, you were kind, and most of all, you were full of ideas. Well done, heroes of the
 Lantern Village.

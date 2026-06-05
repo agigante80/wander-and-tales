@@ -2,7 +2,7 @@
 
 *Per i vostri occhi, non per i bambini. Ogni tappa indica il suo livello, ciò che i
 giocatori devono scoprire, la soluzione prevista e un aiuto gentile perché un bambino
-bloccato vada sempre avanti. Più di una buona idea dovrebbe valere; premiate l'ingegno e
+bloccato vada sempre avanti. Più di una buona idea dovrebbe valere; premiate l'immaginazione e
 la gentilezza più della risposta "giusta".*
 
 ## Tappa 1: Il Fiordo Ghiacciato (Normale)
@@ -11,7 +11,7 @@ la gentilezza più della risposta "giusta".*
 ghiaccio che geme e scricchiola sotto i piedi. Il pericolo non è un mostro, ma il
 ghiaccio stesso, che non reggerà un gruppo pesante e frettoloso tutto insieme.
 
-**Soluzione prevista.** È un momento di Spazio e Logica. La mossa intelligente e gentile
+**Soluzione prevista.** È un momento di Spazio e Logica. La mossa premurosa e gentile
 è **separarsi** per dividere il peso, **camminare piano** per trattare il ghiaccio con
 cura e **attraversare insieme tenendosi per mano** perché nessuno resti indietro.
 Srotolare il **Gomitolo di Lana Rossa** come linea guida, o tastare il cammino con cura,
@@ -47,7 +47,7 @@ tiene saldo solo per chi lo attraversa con un cuore gentile e sincero. Gli eroi 
 attraversare, portando la brace, e raggiungere la sala dell'alto per riaccendere il
 calore del mondo.
 
-**Soluzione prevista.** È un momento di Cuore e Ingegno. Poiché gli eroi portano la
+**Soluzione prevista.** È un momento di Cuore e Immaginazione. Poiché gli eroi portano la
 **Brace Sempre Calda** e ora viaggiano con il **Gigante di Ghiaccio Solitario** come
 amico, i loro cuori sono esattamente ciò che il ponte cerca. Attraversando con sincerità
 e dolcezza, tenendo il nuovo amico al loro fianco, il ponte si illumina e regge. In cima
@@ -65,4 +65,4 @@ fuoco del focolare si riaccende lungo la valle, ogni finestra d'ambra torna a br
 la notte più lunga finisce nell'alba e nel colore. Gli **Spiriti dell'Aurora** danzano in
 alto, il **Gigante di Ghiaccio Solitario** ha finalmente degli amici, e **Freya la
 Gentile** sorride dall'alto delle sale. Gli eroi hanno vinto nell'unico modo in cui si
-vince qui: essendo ingegnosi, coraggiosi e gentili.
+vince qui: con coraggio, gentilezza e tante idee.

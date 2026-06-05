@@ -10,7 +10,7 @@
     en-GB: the Blossom Mountains of Yamato
     es-ES: las Montañas en Flor de Yamato
     it-IT: i Monti in Fiore di Yamato
-  magics: [wisdom, kindness, courage]
+  magics: [imagination, kindness, courage]
   energy: 4
   carry:
     - { en-GB: a paper lantern, es-ES: un farol de papel, it-IT: una lanterna di carta }
@@ -36,7 +36,7 @@
     en-GB: the Blossom Mountains of Yamato
     es-ES: las Montañas en Flor de Yamato
     it-IT: i Monti in Fiore di Yamato
-  magics: [courage, kindness, wisdom]
+  magics: [courage, kindness, imagination]
   energy: 3
   carry:
     - { en-GB: a little bell, es-ES: una campanilla, it-IT: un campanello }
@@ -62,7 +62,7 @@
     en-GB: the Blossom Mountains of Yamato
     es-ES: las Montañas en Flor de Yamato
     it-IT: i Monti in Fiore di Yamato
-  magics: [wisdom, courage, kindness]
+  magics: [imagination, courage, kindness]
   energy: 5
   carry:
     - { en-GB: a scroll of riddles, es-ES: un pergamino de acertijos, it-IT: un rotolo di indovinelli }
@@ -74,7 +74,7 @@
     role: hero
     orientation: portrait
     prompt: >
-      A confident older hero in a flowing kimono with a calm, clever face and hair
+      A confident older hero in a flowing kimono with a calm, thoughtful face and hair
       tied back, holding a small scroll, ready for a real adventure, misty mountains
       behind.
     alt:
@@ -89,7 +89,7 @@
     en-GB: the Blossom Mountains of Yamato
     es-ES: las Montañas en Flor de Yamato
     it-IT: i Monti in Fiore di Yamato
-  magics: [courage, wisdom, kindness]
+  magics: [courage, imagination, kindness]
   energy: 4
   carry:
     - { en-GB: a bamboo flute, es-ES: una flauta de bambú, it-IT: un flauto di bambù }

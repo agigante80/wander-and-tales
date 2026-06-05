@@ -2,7 +2,7 @@
 
 *Para vuestros ojos, no para los niños. Cada parada indica su nivel, lo que los
 jugadores deben averiguar, la solución prevista y un apoyo amable para que un niño
-atascado siempre avance. Más de una buena idea debería valer; premiad la sabiduría y
+atascado siempre avance. Más de una buena idea debería valer; premiad la imaginación y
 la bondad por encima de la respuesta "correcta".*
 
 ## Parada 1: La Puerta de los Guardianes (Normal)
@@ -16,7 +16,7 @@ tambor en cada tejado, aunque manos no llego a tener. Los campos sedientos me ll
 por mi nombre. ¿Qué soy?"* La respuesta es **la lluvia** (justo lo que el valle está
 esperando).
 
-**Solución prevista.** Es un reto de pensar, de Sabiduría y un poco de paciencia.
+**Solución prevista.** Es un reto de pensar, de Imaginación y un poco de paciencia.
 Dejad que los niños lo hablen juntos. Los Perros-León Guardianes aceptan la respuesta
 correcta y, como son justos y amables, también aceptan una conjetura valiente y
 meditada.
@@ -31,7 +31,7 @@ desde el bambú cercano. Una conjetura hecha con valentía abre igualmente la pu
 aguanta firme para quienes lo cruzan despacio y con calma, juntos. Los jugadores deben
 pasar al otro lado sanos y salvos.
 
-**Solución prevista.** Es un momento de Espacio y Valor. La jugada lista es cruzar
+**Solución prevista.** Es un momento de Espacio y Valor. La jugada reflexiva es cruzar
 **con dulzura y juntos**: pasos lentos y firmes, lado a lado, respirando con calma en
 vez de precipitarse asustados. Atar el **hilo rojo** entre ellos para no separarse, o
 contar un ritmo lento y regular mientras caminan, vale igual de bien.
@@ -66,4 +66,4 @@ de su compañía.
 No hay batalla ni perdedor. Cuando el dragón despierta y se alza, vuelven las lluvias
 suaves, el Río Plateado se llena, los arrozales sedientos beben y se ponen verdes, y
 **Amaterasu, la Diosa del Sol**, sonríe entre las nubes. Los héroes han ganado de la
-única manera en que se gana aquí: siendo sabios, valientes y buenos.
+única manera en que se gana aquí: siendo valientes, amables y con muchas ideas.

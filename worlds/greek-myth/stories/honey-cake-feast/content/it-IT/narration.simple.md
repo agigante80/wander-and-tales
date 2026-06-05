@@ -17,7 +17,7 @@ che ci serve e a portare il nostro grande amico giù al tavolo?"
 Vi dà un vaso vuoto e un sorriso caldo. "Quassù non facciamo festa lasciando fuori
 nessuno. Noi condividiamo, e facciamo sempre posto per uno in più."
 
-*Qual è il vostro nome da eroi? Siete eroi di Ingegno, di Coraggio o di Cuore?*
+*Qual è il vostro nome da eroi? Siete eroi di Immaginazione, di Coraggio o di Cuore?*
 
 ## Tappa 1: La Collina delle Api
 
@@ -64,7 +64,7 @@ gli ulivi. E proprio nel mezzo, con la fetta più grande di tutte, siede il Cicl
 ride con i suoi nuovi amici.
 
 Nessuno è lasciato fuori. Ogni piatto è pieno, ogni viso è felice. In alto sulla
-montagna, la saggia Atena sorride alla festa.
+montagna, la buona Atena sorride alla festa.
 
-Ce l'avete fatta insieme. Siete stati ingegnosi, siete stati coraggiosi e, soprattutto,
+Ce l'avete fatta insieme. Siete stati coraggiosi, pieni di idee e, soprattutto,
 siete stati gentili. Bravi, eroi.

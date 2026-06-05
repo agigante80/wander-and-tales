@@ -15,7 +15,7 @@ cualquier cuento. Y ese es justo su peligro: cuanto más se demora allí un alma
 olvida los rostros y el camino de vuelta a casa.
 
 La Vieja Maeve, Tejedora de Cuentos, os llamó a los dos junto al cálido hogar de La
-Casa Redonda. "Tenéis cabezas listas y corazones amables", dijo, "y eso vale mucho
+Casa Redonda. "Tenéis cabezas llenas de ideas y corazones amables", dijo, "y eso vale mucho
 más al otro lado de la bruma que cualquier espada. ¿Iréis tras nuestra amiga y la
 traeréis a casa, con cariño, antes de que el recuerdo de nosotros se desvanezca por
 completo?"
@@ -23,9 +23,9 @@ completo?"
 En vuestras manos puso tres regalos: una ramita de roble para la suerte, una torta
 de avena y miel envuelta en un paño, y un ovillo de lana de un rojo vivo. "Recordad",
 dijo, "al otro lado de la bruma no ganamos siendo los más fuertes. Ganamos siendo
-astutos, valientes y bondadosos. Y cumplimos nuestras promesas."
+valientes, bondadosos y con muchas ideas. Y cumplimos nuestras promesas."
 
-*¿Cuál es vuestro nombre de héroe? ¿Qué cualidad llevaréis: Astucia, Valor o
+*¿Cuál es vuestro nombre de héroe? ¿Qué cualidad llevaréis: Imaginación, Valor o
 Bondad?*
 
 ## Parada 1: El Acertijo del Salmón
@@ -51,7 +51,7 @@ indicó en qué punto de la orilla esperar a quien podría cruzaros al otro lado
 ## Parada 2: La Travesía de la Selkie
 
 Donde el salmón había señalado, entre los juncos susurrantes, había un botecito de
-madera listo, y junto a él esperaba Sorcha la Selkie, una persona-foca amable
+madera preparado, y junto a él esperaba Sorcha la Selkie, una persona-foca amable
 envuelta en una suave capa de piel de foca gris. Tenía los ojos oscuros y bondadosos,
 pero no llegaba del todo a alzarlos hacia los vuestros. Parecía terriblemente tímida,
 y más sola que todo el lago gris, como si nadie le hubiera dirigido una palabra
@@ -108,6 +108,6 @@ Habíais vuelto a casa juntos, y habíais ganado además una amiga selkie, porqu
 prometió visitar las aguas poco profundas siempre que la llamarais. En lo alto de las
 verdes colinas, cada vez más luminosas, Danu la Bondadosa miró hacia abajo y sonrió,
 porque el cuento había terminado de la única manera en que terminan los mejores
-cuentos: no por la fuerza, sino con ingenio, con valor y, por encima de todo, con
-bondad, y con una promesa cumplida. Bien hecho, héroes de las Islas Esmeralda de los
+cuentos: no por la fuerza, sino con valor, con bondad y, por encima de todo, con
+muchas ideas, y con una promesa cumplida. Bien hecho, héroes de las Islas Esmeralda de los
 Celtas.

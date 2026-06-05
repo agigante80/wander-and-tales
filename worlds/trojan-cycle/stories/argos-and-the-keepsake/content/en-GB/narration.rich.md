@@ -22,10 +22,10 @@ I have carried it all this long way, and now I have dropped it somewhere out on 
 windswept shore. We sail at sunset. I cannot go home and leave it behind. I just
 cannot."
 
-Odysseus the Clever, captain of the seafarers, came and crouched down with you. He
+Odysseus the Bright, captain of the seafarers, came and crouched down with you. He
 was the sort of man who would rather solve a problem than shout about it. "So," he
 said gently, "a friend is sad, and a small treasure is lost on a very long beach.
-That is no job for spears. That is a job for clever eyes and a faithful heart. Will
+That is no job for spears. That is a job for bright ideas and a faithful heart. Will
 you go and find it before the tide and the wind hide it for good?"
 
 Into your hands he gave three gifts: the Conch Horn, a great spiral shell that
@@ -39,7 +39,7 @@ bright, kind eyes and a tail that would not stop.
 never forgets a friend, and he never forgets a scent. Follow his nose. Follow one
 another. And whatever you do, leave no one behind."
 
-*What is your hero name? Which quality will you carry: Cleverness, Courage, or
+*What is your hero name? Which quality will you carry: Imagination, Courage, or
 Loyalty?*
 
 ## Stop 1: Following Argos
@@ -117,9 +117,9 @@ all that way back for it. You came back for *me.*" He cradled the little olive-w
 token, and then he threw his arms around Argos, who wagged so mightily he nearly
 toppled them both into the sand.
 
-Odysseus the Clever watched, and there was something soft in his clever face. "A
+Odysseus the Bright watched, and there was something soft in his bright face. "A
 strong arm could not have done this," he said. "Only faithful hearts that would not
-leave a friend behind. That is the truest kind of cleverness there is, and you have
+leave a friend behind. That is the best idea there ever was, and you have
 it." And far out where the bright waves rolled, Thetis the Sea-Mother lifted her
 gentle face from the water and smiled upon you, and the sea lay calm and kind for
 the voyage ahead.

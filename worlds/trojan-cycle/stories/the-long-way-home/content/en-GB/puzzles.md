@@ -2,22 +2,22 @@
 
 *For your eyes, not the children's. Each stop lists its band, what the players need
 to work out, the intended solution, and a gentle fallback so a stuck child always
-moves forward. More than one good idea should work; reward cleverness and kindness
+moves forward. More than one good idea should work; reward imagination and kindness
 over the "right" answer.*
 
 ## Stop 1: The Isle of Winds (Normal)
 
 **The challenge.** Aeolus, Keeper of the Winds, will lend a fair wind only to
-travellers who ask him cleverly and courteously, and who are not greedy enough to
+travellers who ask him with a good idea and courteously, and who are not greedy enough to
 peek inside his wind-bag. The players must win his help with good manners and a
-clever, honest request.
+good, honest request.
 
 **The riddle.** If your heroes enjoy a puzzle, let Aeolus set one before he agrees:
 *"I have no hands, yet I fill a sail. I have no voice, yet I make the whole sea
 wail. You cannot see me, catch me, or keep me in a sack for long. What am I?"* The
 answer is **the wind** itself.
 
-**Intended solution.** This is a challenge of Cleverness and Courage. The clever,
+**Intended solution.** This is a challenge of Imagination and Courage. The bright,
 courteous move is to ask Aeolus plainly and politely for just a fair wind home, to
 thank him, and to promise faithfully not to untie the wind-bag to peek inside.
 Solving his little wind riddle works just as well. Reward good manners, an honest
@@ -53,7 +53,7 @@ glad and the Sirens become friends at once.
 the last stretch and be sure, then recognise the Weaving Hall and the friends
 waiting inside.
 
-**Intended solution.** This is a moment of Loyalty and Observation. The clever and
+**Intended solution.** This is a moment of Loyalty and Observation. The bright and
 loyal move is to remember the marks of home: the great loom standing in the
 firelight, the face of an old friend, and above all **Argos the Faithful Hound** by
 the hearth, who knows them at once. Naming what they remember, or calling the old
@@ -71,5 +71,5 @@ There is no battle and no loser. When the heroes step into the Weaving Hall, the
 homecoming feast is laid, old friends call them by their hero names, Argos the
 Faithful Hound will not leave their side, and far out on the calm sea **Thetis the
 Sea-Mother** smiles up at them. The whole Wine-Dark Sea is crossed and the long way
-home is done. The heroes have won the only way anyone wins here, by being clever,
-brave, and loyal.
+home is done. The heroes have won the only way anyone wins here, by being brave,
+loyal, and full of ideas.

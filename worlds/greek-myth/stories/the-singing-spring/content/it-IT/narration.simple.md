@@ -9,19 +9,19 @@ La Fonte Canterina è ammutolita. In cima alle colline, l'acqua cantava tutto il
 giorno, e il suo canto teneva pieno e fresco ogni pozzo del paese. Adesso il canto si
 è fermato. I pozzi sono bassi. Gli ulivi hanno sete.
 
-La vecchia Dafne, che cura l'uliveto, vi chiama. "Voi due avete la testa sveglia e il
+La vecchia Dafne, che cura l'uliveto, vi chiama. "Voi due avete tante idee e il
 cuore buono", dice. "Salirete la collina a risvegliare la fonte?"
 
 Vi dà tre regali: un gomitolo di filo dorato, una focaccia al miele e una piccola
 lira. Poi sorride. "Quassù non si vince essendo i più forti. Si vince essendo
-ingegnosi, coraggiosi e gentili."
+coraggiosi, gentili e pieni di idee."
 
-*Qual è il vostro nome da eroe? Siete eroi di Ingegno, di Coraggio o di Cuore?*
+*Qual è il vostro nome da eroe? Siete eroi di Immaginazione, di Coraggio o di Cuore?*
 
 ## Tappa 1: La Porta degli Indovinelli
 
 Salite la strada assolata e arrivate a un'alta porta di marmo. Sui gradini c'è una
-sfinge, grande come un leone, con le ali dorate e un volto buono e ingegnoso.
+sfinge, grande come un leone, con le ali dorate e un volto buono e sereno.
 
 "Nessuno passa", dice, "finché non risponde al mio indovinello." Non è arrabbiata. Le
 piace vedere una bella faccia che pensa.
@@ -70,6 +70,6 @@ L'acqua rabbrividisce. Delle ninfe gentili si alzano tra gli spruzzi, ridendo e
 cantando. La fonte torna alla vita! Laggiù in basso, ogni pozzo del paese si riempie
 di acqua fresca e limpida.
 
-In cima alla montagna, la saggia Atena vi sorride. Ce l'avete fatta insieme. Siete
-stati ingegnosi, siete stati coraggiosi e, soprattutto, siete stati gentili. Ben
+In cima alla montagna, la buona Atena vi sorride. Ce l'avete fatta insieme. Siete
+stati coraggiosi, pieni di idee e, soprattutto, siete stati gentili. Ben
 fatto, eroi.

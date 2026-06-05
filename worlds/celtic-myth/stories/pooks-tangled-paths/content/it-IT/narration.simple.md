@@ -14,14 +14,14 @@ Chi è stato? Pook il Puca, una fata giocherellona che sa cambiare forma. Non vo
 fare nessun male. Voleva solo giocare.
 
 La Vecchia Maeve, Tessitrice di Racconti, vi chiama alla Casa Rotonda. "Voi due
-avete teste sveglie e cuori gentili", dice. "Andrete a sbrogliare i sentieri e a
+avete teste piene di idee e cuori gentili", dice. "Andrete a sbrogliare i sentieri e a
 conquistare Pook con una parola gentile?"
 
 Vi dà tre doni: un gomitolo di lana rossa, una focaccia d'avena e miele, e un
 rametto di quercia per la fortuna. Poi sorride. "Qui non si vince essendo i più
-forti. Si vince essendo svegli, coraggiosi e gentili."
+forti. Si vince con coraggio, gentilezza e tante idee."
 
-*Qual è il tuo nome da eroe? Sei un eroe dell'Astuzia, del Coraggio o della
+*Qual è il tuo nome da eroe? Sei un eroe dell'Immaginazione, del Coraggio o della
 Gentilezza?*
 
 ## Tappa 1: Il Querceto Aggrovigliato
@@ -86,5 +86,5 @@ aiutare finalmente. Giù al villaggio, la gente esulta quando i sentieri si apro
 e la fiera di maggio comincia con musica e balli.
 
 In alto, sopra le verdi isole, Danu la Gentile guarda giù e sorride. Ce l'avete
-fatta insieme. Siete stati svegli, siete stati coraggiosi e, soprattutto, siete
-stati gentili. Bravi, eroi.
+fatta insieme. Siete stati coraggiosi, siete stati gentili e, soprattutto, pieni
+di idee. Bravi, eroi.

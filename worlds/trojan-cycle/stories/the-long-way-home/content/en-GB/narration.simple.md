@@ -10,16 +10,16 @@ great gates of Troy stand open, and now it is time to sail home across the
 Wine-Dark Sea. Far away waits the Weaving Hall, where a warm fire, a homecoming
 feast, and old friends are ready for you.
 
-Odysseus the Clever walks you down to the ships on the long sandy beach. "It is a
-long way home," he says, "and the sea is wide. But you are clever, you are brave,
-and you keep faith with your friends. That is all a sailor truly needs."
+Odysseus the Bright walks you down to the ships on the long sandy beach. "It is a
+long way home," he says, "and the sea is wide. But you are full of ideas, you are
+brave, and you keep faith with your friends. That is all a sailor truly needs."
 
 He gives you three gifts for the journey: a great spiral Conch Horn, a Basket of
 Honey and Figs, and a ball of strong thread, Penelope's Thread. Then he smiles.
-"Out there we do not win by being the strongest. We win by being clever, brave,
-and loyal."
+"Out there we do not win by being the strongest. We win by being brave, loyal,
+and full of ideas."
 
-*What is your hero name? Are you a hero of Cleverness, of Courage, or of Loyalty?*
+*What is your hero name? Are you a hero of Imagination, of Courage, or of Loyalty?*
 
 ## Stop 1: The Isle of Winds
 
@@ -28,13 +28,13 @@ bronze cliffs. This is the Isle of Winds, where Aeolus, Keeper of the Winds,
 lives. He keeps all the winds of the world tied up safe in a great leather bag.
 
 Aeolus is kind, but he is careful. He will only lend a fair wind to travellers
-who ask cleverly and politely, and who are not greedy. "Ask me nicely," he says,
+who ask with a good idea and politely, and who are not greedy. "Ask me nicely," he says,
 "and never, ever peek inside the wind-bag."
 
-*How will you ask for a fair wind? Could you think of clever, kind words to say?
+*How will you ask for a fair wind? Could you think of good, kind words to say?
 Could you promise not to peek inside the bag? What do you try?*
 
-When you ask cleverly and kindly, Aeolus laughs and ties a gentle wind into your
+When you ask with a good idea and kindly, Aeolus laughs and ties a gentle wind into your
 sail. "A fair wind for friends," he says, and waves you off across the water.
 
 ## Stop 2: The Singing Sirens
@@ -79,5 +79,5 @@ bread, sweet figs, and honey. Old friends hug you and call your hero name. Argos
 the Faithful Hound will not leave your side.
 
 High above the calm water, Thetis the Sea-Mother smiles down on you. You crossed
-the whole Wine-Dark Sea and came home together. You were clever, you were brave,
+the whole Wine-Dark Sea and came home together. You were brave, you were full of ideas,
 and most of all you kept faith with your friends. Well done, heroes. Welcome home.

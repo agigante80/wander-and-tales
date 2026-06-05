@@ -16,8 +16,8 @@ che mi ha dato mia nonna. L'ho portato per tutta questa lunga strada, e adesso n
 c'è più, da qualche parte sulla costa ventosa. Salpiamo al tramonto. Non posso
 lasciarlo qui."
 
-Odisseo l'Astuto si inginocchia accanto a voi. "Un amico è triste e un tesoro è
-perduto", dice. "Questo è un lavoro per teste astute e cuori fedeli. Andrete a
+Odisseo il Brillante si inginocchia accanto a voi. "Un amico è triste e un tesoro è
+perduto", dice. "Questo è un lavoro per buone idee e cuori fedeli. Andrete a
 cercarlo prima che le navi salpino?"
 
 Vi dà tre doni: La Conchiglia, Il Cesto di Miele e Fichi e Il Filo di Penelope. Poi
@@ -27,7 +27,7 @@ coda che non smette di scodinzolare.
 "Questo è Argo il Cane Fedele", dice Odisseo. "Non dimentica mai un amico né un
 odore. Seguite il suo naso, seguitevi a vicenda e non lasciate indietro nessuno."
 
-*Qual è il vostro nome da eroe? Sarete eroi di Astuzia, di Coraggio o di Lealtà?*
+*Qual è il vostro nome da eroe? Sarete eroi di Immaginazione, di Coraggio o di Lealtà?*
 
 ## Tappa 1: Seguendo Argo
 
@@ -87,8 +87,8 @@ sicuro. Quando Lykos lo vede, il suo viso si illumina come l'alba.
 "L'avete trovato! Siete tornati a prenderlo!", grida, e abbraccia il piccolo pegno,
 e poi abbraccia Argo, che scodinzola così forte che quasi cade.
 
-Odisseo l'Astuto sorride e dice: "Non avete lasciato indietro un amico. È l'astuzia
-più vera che ci sia." Là sulle onde luminose, Teti, la Madre del Mare, solleva il
+Odisseo il Brillante sorride e dice: "Non avete lasciato indietro un amico. È l'idea
+più bella che ci sia." Là sulle onde luminose, Teti, la Madre del Mare, solleva il
 suo viso gentile e vi sorride.
 
 Le navi possono salpare verso casa adesso, con ogni amico e ogni tesoro al sicuro a

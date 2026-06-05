@@ -2,7 +2,7 @@
 
 *Para vuestros ojos, no para los niños. Cada parada indica su nivel, lo que los
 jugadores deben averiguar, la solución prevista y un apoyo amable para que un niño
-atascado siempre avance. Más de una buena idea debería valer; premiad el ingenio y la
+atascado siempre avance. Más de una buena idea debería valer; premiad la imaginación y la
 amabilidad por encima de la respuesta "correcta".*
 
 ## Parada 1: Los puestos revueltos (Fácil)
@@ -21,7 +21,7 @@ sincera le levanta las orejas y lo pone en pie.
 **Apoyo.** Si los niños no saben qué decir, que Pon solloce y pregunte, muy bajito:
 "¿Creéis que soy un mal tanuki?" Un solo "no" cariñoso derrite la preocupación al
 instante. Una palmadita amistosa o un pastel de arroz compartido también funcionan, y
-Pon se levanta de un salto, listo para ayudar.
+Pon se levanta de un salto, dispuesto a ayudar.
 
 ## Parada 2: El gran reparto (Normal)
 
@@ -30,7 +30,7 @@ jugadores deben separar, contar y emparejar todo de vuelta a su puesto antes de 
 empiece la fiesta.
 
 **Solución prevista.** Es un momento de Matemáticas, Lógica y Observación. La jugada
-lista es separar primero por tipo, luego contar y emparejar. Un ejemplo resuelto para
+reflexiva es separar primero por tipo, luego contar y emparejar. Un ejemplo resuelto para
 guiarlos: haced tres montones, uno para los abanicos, uno para la fruta y uno para los
 faroles. Abrid los abanicos en el puesto de abanicos. Separad la fruta por color, las
 ciruelas rojas en la cesta roja y los caquis dorados en la cesta dorada. Luego contad
@@ -52,9 +52,9 @@ la fiesta que cuelga sobre el centro, y la fiesta no puede empezar sin él. Los
 jugadores deben seguir una pista para encontrarlo, y ayudar a Pon a sentirse orgulloso
 en vez de avergonzado.
 
-**Solución prevista.** Es un momento de Sabiduría y Bondad. **Kon el Zorro** ofrece la
+**Solución prevista.** Es un momento de Imaginación y Bondad. **Kon el Zorro** ofrece la
 pista: algo redondo y rojo rodó, calle abajo, bajo el viejo ciruelo junto al puente.
-Los jugadores listos siguen la pista y piensan dónde le gusta esconderse a un farol
+Los jugadores que se fijan siguen la pista y piensan dónde le gusta esconderse a un farol
 que se ha escapado, y ahí está, a salvo bajo el árbol. Igual de importante: dejan que
 Pon se una a la búsqueda y sea el que señale la rama en la que se enganchó, para que el
 día termine con Pon orgulloso de ayudar en vez de apenado por el lío.
@@ -69,5 +69,5 @@ del hallazgo, para que termine la historia bien erguido.
 No hay batalla ni perdedor, y nunca hubo ningún enemigo. Cuando se cuelga el último
 farol, todo el mercado resplandece, Pon el Tanuki está perdonado y orgulloso, el tambor
 suena y la fiesta empieza, y **Amaterasu, la Diosa del Sol**, sonríe desde el cielo
-cálido. Los héroes han ganado de la única manera en que se gana aquí: siendo sabios,
-valientes y bondadosos.
+cálido. Los héroes han ganado de la única manera en que se gana aquí: siendo valientes,
+amables y con muchas ideas.

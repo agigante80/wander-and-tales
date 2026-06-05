@@ -12,14 +12,14 @@ canzone vacilla. Dimentica la sua melodia. Una nebbia grigia e triste si posa su
 lago e su tutto il villaggio, e nessuno riesce a vedere il tramonto.
 
 La Vecchia Maeve, Tessitrice di Racconti, vi chiama al suo fianco accanto al focolare
-caldo. "Voi due avete teste sveglie e cuori gentili", dice. "Aiuterete I Bambini
+caldo. "Voi due avete teste piene di idee e cuori gentili", dice. "Aiuterete I Bambini
 Cigno a ricordare la loro ninnananna, perché la nebbia si sollevi di nuovo?"
 
 Vi dà tre doni: La Piccola Arpa, Il Rametto di Quercia e La Focaccia d'Avena e
-Miele. Poi sorride. "Qui non si vince essendo i più forti. Si vince essendo svegli,
-coraggiosi e gentili."
+Miele. Poi sorride. "Qui non si vince essendo i più forti. Si vince con coraggio,
+gentilezza e tante idee."
 
-*Qual è il tuo nome da eroe? Sei un eroe di Astuzia, di Coraggio o di Gentilezza?*
+*Qual è il tuo nome da eroe? Sei un eroe di Immaginazione, di Coraggio o di Gentilezza?*
 
 ## Tappa 1: La Nebbia Grigia
 
@@ -73,5 +73,5 @@ In alto, sull'altura verde, Il Cerchio di Pietre canticchia piano e felice. I
 bambini cigno scivolano in cerchio, cantando a squarciagola. E in alto, sopra il
 lago, Danu la Gentile vi guarda e sorride.
 
-Ce l'avete fatta insieme. Siete stati svegli, siete stati coraggiosi e, soprattutto,
-siete stati gentili. Buonanotte, eroi. Sogni d'oro.
+Ce l'avete fatta insieme. Siete stati coraggiosi, siete stati gentili e, soprattutto,
+pieni di idee. Buonanotte, eroi. Sogni d'oro.

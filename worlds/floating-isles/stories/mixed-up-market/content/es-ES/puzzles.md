@@ -2,8 +2,8 @@
 
 *Para vuestros ojos, no los de los niños. Cada parada indica su banda, lo que los
 jugadores tienen que averiguar, la solución prevista y un apoyo amable para que un
-niño atascado siempre avance. Más de una buena idea debería funcionar; premiad el
-ingenio y la amabilidad por encima de la respuesta "correcta".*
+niño atascado siempre avance. Más de una buena idea debería funcionar; premiad las
+ideas y la amabilidad por encima de la respuesta "correcta".*
 
 ## Parada 1: Los Puestos Revueltos (Fácil)
 
@@ -73,4 +73,4 @@ amable, un recordatorio de que todos nos equivocamos, la oferta de quedarse al l
 de Pip mientras vuelve a intentarlo. No hay regañina ni truco. Cuando los niños
 tranquilizan a Pip, Pip encuentra el valor de poner bien la última cosa con un
 Cambio cuidadoso, y el mercado os vitorea. Terminad en esa calidez. Los niños han
-ganado siendo listos y amables, que es la única manera de ganar en las Islas.
+ganado siendo amables y con muchas ideas, que es la única manera de ganar en las Islas.

@@ -10,7 +10,7 @@
     en-GB: the Sunlit Hills of Greece
     es-ES: las Colinas Soleadas de Grecia
     it-IT: delle Colline Assolate della Grecia
-  magics: [wits, courage, heart]
+  magics: [imagination, courage, heart]
   energy: 4
   carry:
     - { en-GB: an olive branch, es-ES: una rama de olivo, it-IT: un ramo di ulivo }
@@ -35,7 +35,7 @@
     en-GB: the Sunlit Hills of Greece
     es-ES: las Colinas Soleadas de Grecia
     it-IT: delle Colline Assolate della Grecia
-  magics: [courage, heart, wits]
+  magics: [courage, heart, imagination]
   energy: 3
   carry:
     - { en-GB: a little wooden sword, es-ES: una espadita de madera, it-IT: una spadina di legno }
@@ -60,7 +60,7 @@
     en-GB: the Sunlit Hills of Greece
     es-ES: las Colinas Soleadas de Grecia
     it-IT: delle Colline Assolate della Grecia
-  magics: [wits, heart, courage]
+  magics: [imagination, heart, courage]
   energy: 5
   carry:
     - { en-GB: a little lyre, es-ES: una pequeña lira, it-IT: una piccola lira }
@@ -72,7 +72,7 @@
     role: hero
     orientation: portrait
     prompt: >
-      A thoughtful older hero in a flowing Greek robe with a calm, clever face,
+      A thoughtful older hero in a flowing Greek robe with a calm, gentle face,
       holding a small lyre, sunlit and gentle, ready for a real adventure.
     alt:
       en-GB: A thoughtful older hero in a flowing Greek robe holding a small lyre.
@@ -86,7 +86,7 @@
     en-GB: the Sunlit Hills of Greece
     es-ES: las Colinas Soleadas de Grecia
     it-IT: delle Colline Assolate della Grecia
-  magics: [courage, wits, heart]
+  magics: [courage, imagination, heart]
   energy: 4
   carry:
     - { en-GB: a shepherd's staff, es-ES: un cayado de pastor, it-IT: un bastone da pastore }

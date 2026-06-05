@@ -14,14 +14,14 @@ arrivano le piogge. Ma stavolta ha dormito troppo, tantissimo tempo, e il fiume
 continua a calare.
 
 Nonna Yuki, Custode dei Racconti, vi chiama al suo fianco. "Voi due avete la testa
-sveglia e il cuore buono", dice. "Salirete sulla montagna e lo sveglierete, con
+piena di idee e il cuore buono", dice. "Salirete sulla montagna e lo sveglierete, con
 dolcezza, prima che il raccolto vada perduto?"
 
 Vi dà tre doni: un campanello di bronzo, un gomitolo di filo rosso e un dolce di riso.
-Poi sorride. "Lassù non si vince essendo i più forti. Si vince essendo saggi,
-coraggiosi e gentili."
+Poi sorride. "Lassù non si vince essendo i più forti. Si vince con coraggio,
+gentilezza e tante idee."
 
-*Qual è il vostro nome da eroe? Siete eroi di Saggezza, di Coraggio o di Gentilezza?*
+*Qual è il vostro nome da eroe? Siete eroi di Immaginazione, di Coraggio o di Gentilezza?*
 
 ## Tappa 1: La Porta dei Guardiani
 
@@ -82,5 +82,5 @@ Il Fiume d'Argento si riempie e brilla. Giù nella valle, le risaie assetate bev
 fondo e tornano verdi. Il drago adesso non è più solo, perché ha degli amici.
 
 In alto, Amaterasu, la Dea del Sole, fa capolino tra le nuvole e vi sorride dall'alto.
-Ce l'avete fatta insieme. Siete stati saggi, siete stati coraggiosi e, soprattutto,
-siete stati gentili. Bravi, eroi.
+Ce l'avete fatta insieme. Siete stati coraggiosi, siete stati gentili e, soprattutto,
+avete avuto tante idee. Bravi, eroi.

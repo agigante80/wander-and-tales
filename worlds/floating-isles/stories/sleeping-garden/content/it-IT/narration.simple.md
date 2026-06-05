@@ -71,4 +71,4 @@ Quando offrite la vostra amicizia al folletto, lui sorride per la prima volta da
 tanto tempo. Tutto intorno a voi, il Grande Giardino si sveglia di colpo: i fiori
 si aprono, la fontana canta, e l'isola torna luminosa e calda.
 
-Ce l'avete fatta insieme. Siete stati svegli, e siete stati gentili. Bravi.
+Ce l'avete fatta insieme. Siete stati gentili e pieni di idee. Bravi.

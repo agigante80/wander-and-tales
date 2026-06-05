@@ -2,7 +2,7 @@
 
 *Per i vostri occhi, non per i bambini. Ogni tappa indica il suo livello, ciò che i
 giocatori devono scoprire, la soluzione prevista e un aiuto gentile perché un bambino
-bloccato vada sempre avanti. Più di una buona idea dovrebbe valere; premiate l'ingegno e
+bloccato vada sempre avanti. Più di una buona idea dovrebbe valere; premiate l'immaginazione e
 la gentilezza più della risposta "giusta".*
 
 ## Tappa 1: I banchi sottosopra (Facile)
@@ -31,7 +31,7 @@ giocatori devono dividere, contare e abbinare tutto rimettendolo al banco giusto
 che la festa cominci.
 
 **Soluzione prevista.** È un momento di Matematica, Logica e Osservazione. La mossa
-intelligente è dividere prima per tipo, poi contare e abbinare. Un esempio svolto per
+riflessiva è dividere prima per tipo, poi contare e abbinare. Un esempio svolto per
 guidarli: fate tre mucchi, uno per i ventagli, uno per la frutta e uno per le lanterne.
 Aprite i ventagli sul banco dei ventagli. Dividete la frutta per colore, le prugne rosse
 nella cesta rossa e i cachi dorati nella cesta dorata. Poi contate le lanterne sui pali,
@@ -52,9 +52,9 @@ della festa che pende sopra il centro, e la festa non può cominciare senza di l
 giocatori devono seguire un indizio per trovarla, e aiutare Pon a sentirsi orgoglioso
 invece che mortificato.
 
-**Soluzione prevista.** È un momento di Saggezza e Gentilezza. **Kon la Volpe** offre
+**Soluzione prevista.** È un momento di Immaginazione e Gentilezza. **Kon la Volpe** offre
 l'indizio: qualcosa di tondo e rosso è rotolato via, giù per il vicolo, sotto il vecchio
-susino vicino al ponte. I giocatori intelligenti seguono l'indizio e pensano dove ama
+susino vicino al ponte. I giocatori attenti seguono l'indizio e pensano dove ama
 nascondersi una lanterna in fuga, ed eccola, al sicuro sotto l'albero. Cosa altrettanto
 importante: lasciano che Pon si unisca alla ricerca e sia lui a individuare il ramo a
 cui si è agganciata, così la giornata finisce con Pon orgoglioso di aver aiutato invece
@@ -70,5 +70,5 @@ Pon vada il merito della scoperta, così finisce la storia bello dritto.
 Non c'è battaglia né perdente, e non c'è mai stato un nemico. Quando l'ultima lanterna è
 appesa, tutto il mercato risplende, Pon il Tanuki è perdonato e orgoglioso, il tamburo
 batte e la festa comincia, e **Amaterasu, la Dea del Sole**, sorride dal cielo caldo.
-Gli eroi hanno vinto nell'unico modo in cui si vince qui: essendo saggi, coraggiosi e
-gentili.
+Gli eroi hanno vinto nell'unico modo in cui si vince qui: con coraggio, gentilezza e
+tante idee.

@@ -22,10 +22,10 @@ mattina in cui salpammo. L'ho portato per tutta questa lunga strada, e adesso l'
 lasciato cadere da qualche parte sulla costa ventosa. Salpiamo al tramonto. Non
 posso tornare a casa e lasciarlo qui. Non posso proprio."
 
-Odisseo l'Astuto, capitano dei marinai, si avvicinò e si accovacciò con voi. Era il
+Odisseo il Brillante, capitano dei marinai, si avvicinò e si accovacciò con voi. Era il
 tipo d'uomo che preferiva risolvere un problema piuttosto che gridarci sopra.
 "Dunque", disse con dolcezza, "un amico è triste e un piccolo tesoro è perduto su
-una spiaggia molto lunga. Non è un lavoro per le lance. È un lavoro per occhi astuti
+una spiaggia molto lunga. Non è un lavoro per le lance. È un lavoro per buone idee
 e un cuore fedele. Andrete a cercarlo prima che la marea e il vento lo nascondano per
 sempre?"
 
@@ -40,7 +40,7 @@ cane dal muso grigio, con occhi vivaci e gentili e una coda che non si fermava.
 dimentica mai un amico, e non dimentica mai un odore. Seguite il suo naso.
 Seguitevi a vicenda. E qualunque cosa facciate, non lasciate indietro nessuno."
 
-*Qual è il vostro nome da eroe? Quale qualità porterete: Astuzia, Coraggio o
+*Qual è il vostro nome da eroe? Quale qualità porterete: Immaginazione, Coraggio o
 Lealtà?*
 
 ## Tappa 1: Seguendo Argo
@@ -123,9 +123,9 @@ indietro per tutta quella strada a prenderlo. Siete tornati per *me*." Cullò il
 piccolo pegno di legno d'ulivo, e poi gettò le braccia attorno ad Argo, che
 scodinzolò così forte da farli quasi cadere entrambi nella sabbia.
 
-Odisseo l'Astuto guardava, e c'era qualcosa di tenero nel suo viso astuto. "Un
+Odisseo il Brillante guardava, e c'era qualcosa di tenero nel suo viso luminoso. "Un
 braccio forte non avrebbe potuto fare questo", disse. "Solo cuori fedeli che non
-avrebbero lasciato indietro un amico. È l'astuzia più vera che ci sia, e voi ce
+avrebbero lasciato indietro un amico. È l'idea più bella che ci sia, e voi ce
 l'avete." E là lontano, dove rotolavano le onde luminose, Teti, la Madre del Mare,
 sollevò il suo viso gentile dall'acqua e vi sorrise, e il mare rimase calmo e
 gentile per il viaggio che vi attendeva.

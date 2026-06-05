@@ -2,7 +2,7 @@
 
 *Para vuestros ojos, no para los niños. Cada parada indica su nivel, lo que los
 jugadores deben averiguar, la solución prevista y un apoyo amable para que un niño
-atascado siempre avance. Más de una buena idea debería valer; premiad el ingenio y
+atascado siempre avance. Más de una buena idea debería valer; premiad la imaginación y
 la amabilidad por encima de la respuesta "correcta".*
 
 ## Parada 1: Atrapad a la Ardilla (Fácil)
@@ -48,8 +48,8 @@ averigüen a quién pertenece:
 - *"¡Ulú, hola, qué alegría ver a un amigo en mi rama!"* La pista es el **ululato**
   amistoso desde una **rama**, así que este mensaje pertenece al **Búho** de en medio.
 
-**Solución prevista.** Es un momento de Memoria, Lógica y Vocabulario. La jugada
-lista es leer cada mensaje, encontrar la palabra pista (cielo alto, raíces hondas,
+**Solución prevista.** Es un momento de Memoria, Lógica y Vocabulario. La buena
+jugada es leer cada mensaje, encontrar la palabra pista (cielo alto, raíces hondas,
 un ululato) y emparejarla con el amigo que encaja. Emparejar los tres ordena el
 enredo. Los **Dos Cuervos** están a mano para confirmar una buena conjetura o dar un
 empujoncito a una atascada.
@@ -67,8 +67,8 @@ mensaje correcto hasta abajo, al amiguito, para que cada uno oiga las palabras
 verdaderas y los dos vuelvan a comprenderse. El camino de subida es alto y el de
 bajada es hondo y oscuro.
 
-**Solución prevista.** Es un momento de Espacio y Corazón. La jugada lista y
-cuidadosa es atar la **lana roja** abajo, como una cuerda de seguridad, y seguirla
+**Solución prevista.** Es un momento de Espacio y Corazón. La jugada cuidadosa y
+atenta es atar la **lana roja** abajo, como una cuerda de seguridad, y seguirla
 arriba y de vuelta, para que los que trepan encuentren siempre el camino, y encender
 el **farolillo** para las raíces hondas y oscuras. Luego viene la parte amable: leed
 a cada amigo su mensaje verdadero con calidez, para que el Águila y el amiguito se
@@ -87,5 +87,5 @@ Cuando las palabras correctas llegan a los amigos correctos, el Águila de lo al
 árbol y el amiguito de las raíces se saludan con calidez y gritan: "¡Amigos de
 nuevo!" Ratatosk da las gracias a los héroes con una vuelta feliz alrededor del
 árbol, y **Freya la Bondadosa** sonríe desde lo alto, sobre los Fiordos Nevados del
-Norte. Los héroes han ganado de la única manera en que se gana aquí: siendo listos,
-valientes y amables.
+Norte. Los héroes han ganado de la única manera en que se gana aquí: siendo valientes,
+amables y con muchas ideas.

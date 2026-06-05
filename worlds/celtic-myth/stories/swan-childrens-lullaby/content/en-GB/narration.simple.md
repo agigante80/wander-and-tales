@@ -10,15 +10,15 @@ lifts the mist and paints the sky rose and gold. But tonight the song goes wobbl
 It forgets its tune. A sad grey mist settles over the loch and over the whole
 village, and nobody can see the sunset.
 
-Old Maeve the Tale-Weaver calls you to her by the warm hearth. "You two have clever
-heads and kind hearts," she says. "Will you help the swan children remember their
+Old Maeve the Tale-Weaver calls you to her by the warm hearth. "You two have heads
+full of ideas and kind hearts," she says. "Will you help the swan children remember their
 lullaby, so the mist lifts again?"
 
 She gives you three gifts: the little harp, a sprig of oak, and a honey oatcake.
 Then she smiles. "Here we do not win by being the strongest. We win by being
-clever, brave, and kind."
+brave, kind, and full of ideas."
 
-*What is your hero name? Are you a hero of Cleverness, of Courage, or of Kindness?*
+*What is your hero name? Are you a hero of Imagination, of Courage, or of Kindness?*
 
 ## Stop 1: The Grey Mist
 
@@ -70,5 +70,5 @@ Up on the green rise, the Ring of Standing Stones hums along, low and happy. The
 swan children glide in a circle, singing their hearts out. And high above the loch,
 Danu the Kind looks down and smiles at you.
 
-You did it together. You were clever, you were brave, and most of all, you were
-kind. Goodnight, heroes. Sweet dreams.
+You did it together. You were brave, you were kind, and most of all, you were
+full of ideas. Goodnight, heroes. Sweet dreams.

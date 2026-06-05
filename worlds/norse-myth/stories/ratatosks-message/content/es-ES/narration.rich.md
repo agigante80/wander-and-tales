@@ -20,16 +20,16 @@ lo dijo nunca. Solo fue una maraña de mensajes cruzados. Pero los dos viejos am
 se han dado la espalda, y todo el árbol siente el frío de eso.
 
 Edda la Guardiana de las Sagas os llamó a su lado, junto al gran fuego del Salón del
-Hogar. "Tenéis cabezas listas y corazones amables", dijo, "y eso vale más aquí
+Hogar. "Tenéis cabezas llenas de ideas y corazones amables", dijo, "y eso vale más aquí
 arriba que cualquier hacha. ¿Ayudaréis al pobre Ratatosk a ordenar sus mensajes y a
 arreglarlo todo, para que los dos amigos hagan las paces?"
 
 En vuestras manos puso tres regalos: un ovillo de lana roja brillante, una golosina
 para engatusar a una ardilla agobiada y un farolillo para las raíces hondas y
 oscuras. "Recordad", dijo, "en estos fiordos no ganamos siendo los más fuertes.
-Ganamos siendo listos, valientes y amables."
+Ganamos siendo valientes, amables y con muchas ideas."
 
-*¿Cuál es vuestro nombre de héroe? ¿Qué cualidad llevaréis: Astucia, Valor o
+*¿Cuál es vuestro nombre de héroe? ¿Qué cualidad llevaréis: Imaginación, Valor o
 Corazón?*
 
 ## Parada 1: Atrapad a la Ardilla
@@ -57,7 +57,7 @@ enredo."
 
 Ratatosk abrió las patitas y cayeron tres mensajitos, todos revueltos en un montón.
 Tres amigos esperaban a lo largo del árbol, explicó: el Águila de aspecto fiero en
-lo más alto, un viejo búho sabio en una rama de en medio y el amiguito allá abajo,
+lo más alto, un viejo búho amable en una rama de en medio y el amiguito allá abajo,
 entre las raíces. Cada mensaje pertenecía a uno solo de ellos. Pero ¿qué mensaje iba
 a qué amigo? Ese era el enredo.
 
@@ -113,5 +113,5 @@ olvidaré nunca, jamás. ¡Gracias, gracias, gracias!"
 
 Allá arriba, sobre los fiordos nevados, donde la aurora ondea turquesa, verde y
 morada, Freya la Bondadosa miró hacia abajo y sonrió. Lo habíais logrado, y lo
-habíais logrado juntos: con vuestra astucia, con vuestro valor y, sobre todo, con
+habíais logrado juntos: con vuestras ideas, con vuestro valor y, sobre todo, con
 vuestra amabilidad. Bien hecho, héroes de los Fiordos Nevados del Norte.

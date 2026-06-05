@@ -93,5 +93,5 @@ out with the smallest of smiles. Then, steadier now, Pip lifts one careful Chang
 sets the very last thing right, and the whole Market Row breaks into applause. Pip
 straightens up and stands a little taller than before.
 
-You did this together. You were clever, and you were kind, and on the Isles that is
+You did this together. You were kind, and you were full of ideas, and on the Isles that is
 the only way anyone ever wins.

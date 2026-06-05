@@ -13,18 +13,18 @@ las Grandes Murallas de Troya, color de miel, con sus puertas bien cerradas. Nad
 recuerda muy bien cómo empezó la riña. La verdad es que todos están ya un poco
 cansados de ella, y los dos campamentos desean en secreto que termine de una vez.
 
-Odiseo el Astuto te llama a su lado. Tiene una barba rizada y una sonrisa amable y
+Odiseo el Brillante te llama a su lado. Tiene una barba rizada y una sonrisa amable y
 chispeante, y entre las manos sostiene un caballito de madera. "Tengo una idea muy
-lista", dice. "Construyamos un gran caballo de madera, tan grande como una casa.
+buena", dice. "Construyamos un gran caballo de madera, tan grande como una casa.
 Pero no lo llenaremos de gente armada. Lo llenaremos de regalos, de música y de
 amistad, y lo llevaremos rodando hasta las puertas como una feliz sorpresa. Así es
 como terminamos la riña."
 
 Te entrega tres regalos: La Cesta de Miel e Higos, El Hilo de Penélope y La
 Caracola. Luego sonríe. "En estas costas no ganamos por ser los más fuertes.
-Ganamos por ser astutos, valientes y leales a un amigo."
+Ganamos por ser valientes, leales a un amigo y con muchas ideas."
 
-*¿Cuál es tu nombre de héroe? ¿Llevarás Astucia, Valor o Lealtad?*
+*¿Cuál es tu nombre de héroe? ¿Llevarás Imaginación, Valor o Lealtad?*
 
 ## Parada 1: Construir el Caballo
 
@@ -83,5 +83,5 @@ toca el tamborcillo. Alguien ríe, y entonces todos ríen.
 Los dos campamentos extienden juntos un gran banquete, codo con codo, como si la
 riña no hubiera existido nunca. Allá fuera, en el agua tranquila, Tetis, la Madre
 del Mar, levanta la cabeza de entre las olas y sonríe. Lo lograsteis juntos.
-Fuisteis astutos, fuisteis valientes y fuisteis leales, y la riña más vieja de todas
+Fuisteis valientes, fuisteis leales y estuvisteis llenos de ideas, y la riña más vieja de todas
 ha terminado con una sorpresa amable. Bien hecho, héroes de Troya.

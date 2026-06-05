@@ -97,5 +97,5 @@ asoma con la más pequeña de las sonrisas. Entonces, ya más firme, Pip levanta
 Cambio cuidadoso y pone bien la última cosa, y toda la Calle del Mercado rompe en
 aplausos. Pip se endereza y se yergue un poco más alto que antes.
 
-Lo habéis hecho juntos. Habéis sido listos y habéis sido amables, y en las Islas
+Lo habéis hecho juntos. Habéis sido amables y habéis tenido muchas ideas, y en las Islas
 esa es la única manera en que alguien gana.

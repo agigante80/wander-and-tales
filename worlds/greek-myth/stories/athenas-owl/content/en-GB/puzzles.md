@@ -2,7 +2,7 @@
 
 *For your eyes, not the children's. Each stop lists its band, what the players need to
 work out, the intended solution, and a gentle fallback so a stuck child always moves
-forward. More than one good idea should work; reward cleverness and kindness over the
+forward. More than one good idea should work; reward fresh ideas and kindness over the
 "right" answer.*
 
 ## Stop 1: The Foggy Square (Easy)
@@ -24,7 +24,7 @@ gentle idea wins her trust and tops up an energy star.
 **The challenge.** Three paths climb into the fog and all look the same. The players
 must find the one that leads to Athena's temple.
 
-**Intended solution.** This is an Observation and Logic moment. The clever move is to
+**Intended solution.** This is an Observation and Logic moment. The good idea is to
 look down and follow the trail of soft grey feathers Glaux shed as she fell. Asking
 **Bramble the Satyr** for a hint, or letting the owl herself turn her head toward
 home, works just as well.
@@ -49,7 +49,7 @@ of any kind, the little owl reaches her perch.
 
 ## The ending
 
-There is no battle and no loser. When Glaux is safely home, wise **Athena** opens her
+There is no battle and no loser. When Glaux is safely home, kind **Athena** opens her
 calm grey eyes, the morning fog lifts, and the sun pours warm and golden over the
-**Olive Town**. The heroes have won the only way anyone wins here, by being clever,
-brave, and kind.
+**Olive Town**. The heroes have won the only way anyone wins here, by being brave,
+kind, and full of ideas.

@@ -100,5 +100,5 @@ sconfinato, e Nimbo, il più luminoso di tutti, scende dolcemente a prendere il 
 posto tra le famiglie. La Festa delle Luci è cominciata, e nessuno vi è lasciato
 solo.
 
-Ce l'avete fatta insieme. Siete stati svegli, e siete stati gentili, e sulle Isole
+Ce l'avete fatta insieme. Siete stati gentili e pieni di idee, e sulle Isole
 è l'unico modo in cui qualcuno vince mai.

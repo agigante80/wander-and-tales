@@ -2,7 +2,7 @@
 
 *For your eyes, not the children's. Each stop lists its band, what the players need
 to work out, the intended solution, and a gentle fallback so a stuck child always
-moves forward. More than one good idea should work; reward cleverness and kindness
+moves forward. More than one good idea should work; reward imagination and kindness
 over the "right" answer.*
 
 ## Stop 1: The Grey Mist (Easy)
@@ -10,7 +10,7 @@ over the "right" answer.*
 **The challenge.** A thick grey mist hides the four swan children on the loch. The
 players need to find them and draw near without frightening them away.
 
-**Intended solution.** This is a Kindness and Observation moment. The clever, kind
+**Intended solution.** This is a Kindness and Observation moment. The good, kind
 move is to slow right down: stand still and listen for a ripple or a soft feathered
 sound, then call out gently and warmly so the swans know a friend has come. Loud or
 sudden approaches make the swans shrink back into the mist; a calm, kind one brings
@@ -73,4 +73,4 @@ There is no battle and no loser, and there never was a foe, only four shy swan
 children who had lost their song. When the lullaby returns, the grey mist lifts into
 rose and gold, the **Ring of Standing Stones** hums along, and **Danu the Kind**
 smiles down on the loch. The heroes have won the only way anyone wins here, by being
-clever, brave, and kind.
+brave, kind, and full of ideas.

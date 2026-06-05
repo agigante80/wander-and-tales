@@ -69,4 +69,4 @@ Cuando le ofrecéis vuestra amistad, sonríe por primera vez en mucho tiempo. A
 vuestro alrededor, el Gran Jardín se despierta de golpe: las flores se abren, la
 fuente canta y la isla vuelve a estar luminosa y cálida.
 
-Lo habéis conseguido juntos. Habéis sido listos y habéis sido amables. Muy bien.
+Lo habéis conseguido juntos. Habéis sido amables y habéis tenido muchas ideas. Muy bien.

@@ -9,14 +9,14 @@ ed essere un avventuriero in più che gioca con loro. È un gioco cooperativo pe
 più persone che giocano insieme, un adulto e uno o più bambini, tutti dalla stessa
 parte. Nessuno compete e nessuno perde. È una storia più coraggiosa di altre,
 ambientata nel nebbioso Altro Mondo con il suo silenzioso richiamo a restare per
-sempre, ma l'ingegno e la gentilezza vincono sempre, e nessuno si fa mai male davvero.
+sempre, ma le buone idee e la gentilezza vincono sempre, e nessuno si fa mai male davvero.
 
 ## Preparare la partita
 
 - Stampate la mappa. Ogni giocatore mette una piccola pedina sulla Partenza, la riva
   del lago vicino a casa.
 - In questo mondo non c'è magia. Al suo posto, ogni eroe si appoggia a una di tre
-  qualità: **Astuzia** (pensare in fretta), **Coraggio** (un cuore saldo) o
+  qualità: **Immaginazione** (inventare idee), **Coraggio** (un cuore saldo) o
   **Gentilezza** (prendersi cura degli altri). Sulla scheda dell'eroe, dove dice
   magia, che ogni bambino scriva la qualità che preferisce. Due qualità diverse
   funzionano meglio insieme.
@@ -43,7 +43,7 @@ avanti:
 
 - **Spendere una stella di energia** per ritrovare la calma e riprovare l'idea, oppure
 - **Unire due qualità** una volta per tappa per superare la sfida senza tirare
-  (Astuzia e Gentilezza insieme, per esempio, o Coraggio e Astuzia).
+  (Immaginazione e Gentilezza insieme, per esempio, o Coraggio e Immaginazione).
 
 Le stelle di energia si recuperano passando alla tappa successiva e aiutandosi a
 vicenda. Nessuno può restarne a corto a lungo, e nessuno resta mai bloccato.

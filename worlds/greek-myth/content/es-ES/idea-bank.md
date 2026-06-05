@@ -2,13 +2,13 @@
 
 *Combustible para improvisar cuando un niño se sale del guion con alegría. Tirad de
 esto con libertad; nada de aquí puede romper la historia. Todo es valiente y amable,
-en consonancia con estas colinas, donde los héroes ganan con ingenio, valor y
+en consonancia con estas colinas, donde los héroes ganan con imaginación, valor y
 corazón, nunca por la fuerza.*
 
 ## Las tres cualidades de héroe
 
-**Ingenio:** ver una pista que a los demás se les escapa, hacer la única buena
-pregunta, resolver un acertijo, leer el terreno, un plan astuto, dar la vuelta a un
+**Imaginación:** inventar una idea nueva, hacer la única buena pregunta, probar lo
+inesperado, imaginar la respuesta a un acertijo, leer el terreno, dar la vuelta a un
 problema, recordar una vieja historia que ayuda.
 
 **Valor:** dar el primer paso en un camino oscuro, hablar con dulzura a algo temible,
@@ -22,7 +22,7 @@ elegir el camino amable antes que el fácil.
 ## Amigos que ayudan por el camino
 
 - **Zarza el Sátiro** aparece con chistes y pistas siempre que los héroes se atascan.
-- **Quirón el Centauro**, el más sabio de los maestros, podría pasar trotando para
+- **Quirón el Centauro**, el más amable de los maestros, podría pasar trotando para
   ofrecer una palabra serena.
 - Las **Ninfas Cantarinas** de la fuente recompensan la amabilidad con una canción.
 - La **Esfinge de los Acertijos** es severa en su puerta, pero cálida una vez le has

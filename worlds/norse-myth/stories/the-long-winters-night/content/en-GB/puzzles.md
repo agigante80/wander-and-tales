@@ -2,7 +2,7 @@
 
 *For your eyes, not the children's. Each stop lists its band, what the players need
 to work out, the intended solution, and a gentle fallback so a stuck child always
-moves forward. More than one good idea should work; reward cleverness and kindness
+moves forward. More than one good idea should work; reward imagination and kindness
 over the "right" answer.*
 
 ## Stop 1: The Frozen Fjord (Normal)
@@ -11,7 +11,7 @@ over the "right" answer.*
 groans and creaks underfoot. The danger is not a monster but the ice itself, which
 will not take a heavy, hasty crowd all at once.
 
-**Intended solution.** This is a Spatial and Logic moment. The clever, kind move is
+**Intended solution.** This is a Spatial and Logic moment. The thoughtful, kind move is
 to **spread out** so their weight is shared, **step gently** so they treat the ice
 kindly, and **cross together holding hands** so no one is left behind. Laying the
 **red yarn** down as a guide line, or testing the way ahead carefully, works just as
@@ -44,7 +44,7 @@ melts him. The kindness is the whole challenge, and it cannot be failed.
 firm only for those who cross with a kind and honest heart. The heroes must cross,
 carrying the ember, and reach the high hall to relight the world's warmth.
 
-**Intended solution.** This is a Heart and Wit moment. Because the heroes carry the
+**Intended solution.** This is a Heart and Imagination moment. Because the heroes carry the
 **Everwarm Ember** and now travel with the **Lonely Frost Giant** as a friend, their
 hearts are exactly what the bridge is looking for. Crossing honestly and gently,
 keeping their new friend beside them, the bridge brightens and holds. At the top they
@@ -61,5 +61,5 @@ There is no battle and no loser. When the ember is lifted at the high hall, ever
 hearth-fire relights down the valley, every amber window glows again, and the longest
 night ends in dawn and colour. The **Aurora Spirits** dance overhead, the **Lonely
 Frost Giant** has friends at last, and **Freya the Kind** smiles down from the high
-halls. The heroes have won the only way anyone wins here, by being clever, brave, and
-kind.
+halls. The heroes have won the only way anyone wins here, by being brave, kind, and
+full of ideas.

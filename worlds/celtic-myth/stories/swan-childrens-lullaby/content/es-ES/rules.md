@@ -8,14 +8,14 @@ contar la historia, ser un árbitro amable, ser el mayor admirador de los niños
 un aventurero más que juega con ellos. Es un juego cooperativo para dos o más que
 juegan juntos, una persona adulta y uno o varios niños, todos del mismo lado. Nadie
 compite y nadie pierde. Es una historia suave: nadie pasa miedo mucho rato, nadie
-sale herido, y el ingenio y la amabilidad ganan siempre.
+sale herido, y las buenas ideas y la amabilidad ganan siempre.
 
 ## Preparar la partida
 
 - Imprimid el mapa. Cada jugador pone una figura pequeña en la Salida, la casa
   redonda.
 - En este mundo no hay magia. En su lugar, cada héroe se apoya en una de tres
-  cualidades: **Astucia** (pensar con rapidez y listeza), **Valor** (un corazón
+  cualidades: **Imaginación** (inventar ideas), **Valor** (un corazón
   firme) o **Bondad** (cuidar de los demás). En la ficha de héroe, donde dice magia,
   que cada niño escriba la cualidad que más le guste. Dos cualidades distintas
   funcionan mejor juntas.
@@ -40,7 +40,7 @@ tirada no alcanza el nivel, los jugadores siempre tienen una manera de seguir:
 
 - **Gastar una estrella de energía** para serenarse y volver a intentar la idea, o
 - **Unir dos cualidades** una vez por parada para superar el reto sin tirar
-  (Astucia y Bondad juntas, por ejemplo, o Valor y Astucia).
+  (Imaginación y Bondad juntas, por ejemplo, o Valor e Imaginación).
 
 Las estrellas de energía se recuperan al pasar de parada y al ayudarse. Nadie puede
 quedarse sin ellas mucho tiempo, y nadie se queda atascado.

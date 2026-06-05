@@ -74,12 +74,12 @@ images:
   - id: scene-quarrel-ends
     role: scene
     orientation: landscape
-    canon_ref: odysseus-clever
+    canon_ref: odysseus-bright
     prompt: >
       The two camps feasting together on the beach at sunset around the garlanded
-      wooden horse, seafarers and city folk sharing figs and laughter, a clever
+      wooden horse, seafarers and city folk sharing figs and laughter, a bright
       kindly sea-captain smiling among them. Joyful and warm.
     alt:
-      en-GB: The two camps feasting together on the beach at sunset around the garlanded wooden horse, seafarers and city folk sharing figs, a clever kindly sea-captain smiling among them.
-      es-ES: Los dos campamentos que celebran juntos en la playa al atardecer en torno al caballo de madera adornado, navegantes y gente de la ciudad compartiendo higos, con un capitán astuto y amable sonriendo entre ellos.
-      it-IT: I due accampamenti che banchettano insieme sulla spiaggia al tramonto attorno al cavallo di legno ornato, naviganti e gente della città che condividono fichi, con un capitano astuto e gentile che sorride tra loro.
+      en-GB: The two camps feasting together on the beach at sunset around the garlanded wooden horse, seafarers and city folk sharing figs, a bright kindly sea-captain smiling among them.
+      es-ES: Los dos campamentos que celebran juntos en la playa al atardecer en torno al caballo de madera adornado, navegantes y gente de la ciudad compartiendo higos, con un capitán amable y lleno de ideas sonriendo entre ellos.
+      it-IT: I due accampamenti che banchettano insieme sulla spiaggia al tramonto attorno al cavallo di legno ornato, naviganti e gente della città che condividono fichi, con un capitano gentile e pieno di idee che sorride tra loro.

@@ -15,16 +15,16 @@ bello di ogni racconto. Ed è proprio questo il suo pericolo: più a lungo un'an
 indugia, più dimentica i volti e la via di casa.
 
 La Vecchia Maeve, Tessitrice di Racconti, vi chiamò entrambi al caldo focolare della
-Casa Rotonda. "Avete teste sveglie e cuori gentili", disse, "e oltre la nebbia
+Casa Rotonda. "Avete teste piene di idee e cuori gentili", disse, "e oltre la nebbia
 questo vale molto più di qualsiasi spada. Andrete a cercare la nostra amica e la
 riporterete a casa, con dolcezza, prima che il ricordo di noi svanisca del tutto?"
 
 Nelle vostre mani pose tre doni: un rametto di quercia per la fortuna, una focaccia
 d'avena e miele avvolta in un panno e un gomitolo di lana di un rosso vivo.
 "Ricordate", disse, "oltre la nebbia non si vince essendo i più forti. Si vince
-essendo astuti, coraggiosi e gentili. E si mantengono le promesse."
+con coraggio, gentilezza e tante idee. E si mantengono le promesse."
 
-*Qual è il vostro nome da eroe? Quale qualità porterete con voi: Astuzia, Coraggio o
+*Qual è il vostro nome da eroe? Quale qualità porterete con voi: Immaginazione, Coraggio o
 Gentilezza?*
 
 ## Tappa 1: L'Indovinello del Salmone
@@ -106,6 +106,6 @@ Eravate tornati a casa insieme, e avevate guadagnato per giunta un'amica selkie,
 perché Sorcha promise di visitare le acque basse ogni volta che la chiamaste. In
 alto sulle verdi colline, sempre più luminose, Danu la Gentile guardò giù e sorrise,
 perché il racconto era finito nell'unico modo in cui finiscono i racconti migliori:
-non con la forza, ma con l'astuzia, con il coraggio e, soprattutto, con la
-gentilezza, e con una promessa mantenuta. Ben fatto, eroi delle Isole di Smeraldo
+non con la forza, ma con il coraggio, con la gentilezza e, soprattutto, con le
+tante idee, e con una promessa mantenuta. Ben fatto, eroi delle Isole di Smeraldo
 dei Celti.

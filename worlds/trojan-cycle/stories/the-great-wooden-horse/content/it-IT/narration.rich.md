@@ -15,7 +15,7 @@ cominciato, e la cosa strana era che ormai nessuno, da nessuna delle due parti, 
 voleva davvero. I due accampamenti erano stanchi fino al midollo, e tutti e due, nel
 segreto del cuore, desideravano soltanto che finisse.
 
-Odisseo l'Astuto chiamò entrambi al suo fianco. Aveva una barba corta e riccia e un
+Odisseo il Brillante chiamò entrambi al suo fianco. Aveva una barba corta e riccia e un
 sorriso gentile e scintillante, e rigirava tra le mani un cavallino intagliato mentre
 parlava. "Ho avuto un'idea", disse, "ed è migliore di qualsiasi grido attraverso la
 sabbia. Costruiamo un grande cavallo di legno, alto come una casa. Ma non lo
@@ -26,10 +26,10 @@ litigio che mille parole arrabbiate non sono mai riuscite a far finire."
 
 Tra le tue mani mise tre regali: Il Cesto di Miele e Fichi, un gomitolo del Filo di
 Penelope e una grande Conchiglia a spirale. "Ricordate", disse, "su queste coste non
-vinciamo perché siamo i più forti. Vinciamo perché siamo astuti, coraggiosi e leali
-con un amico."
+vinciamo perché siamo i più forti. Vinciamo perché siamo coraggiosi, leali con un
+amico e pieni di idee."
 
-*Qual è il tuo nome da eroe? Quale qualità porterai: Astuzia, Coraggio o Lealtà?*
+*Qual è il tuo nome da eroe? Quale qualità porterai: Immaginazione, Coraggio o Lealtà?*
 
 ## Tappa 1: Costruire il Cavallo
 
@@ -103,6 +103,6 @@ Insieme, fianco a fianco, i due accampamenti prepararono un grande banchetto
 sull'erba, come se il lungo litigio non fosse stato altro che un brutto sogno ormai
 felicemente dimenticato. Là lontano, sull'acqua dolce e luccicante, Teti, la Madre
 del Mare, sollevò il viso dalle onde e sorrise nel vederlo. Ci eravate riusciti, e ci
-eravate riusciti insieme: con la vostra astuzia, con il vostro coraggio e, soprattutto,
-con la vostra lealtà a un amico. Il litigio più vecchio di tutti era finito, non con
+eravate riusciti insieme: con il vostro coraggio, con la vostra lealtà a un amico e, soprattutto,
+con la vostra immaginazione. Il litigio più vecchio di tutti era finito, non con
 le lance, ma con una sola sorpresa gentile. Bravi, eroi delle Coste Ventose di Troia.

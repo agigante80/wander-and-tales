@@ -2,7 +2,7 @@
 
 *Carburante per improvvisare, per la persona adulta. Quando i bambini vogliono provare
 qualcosa che la pagina non aveva previsto, attingete a queste idee. Niente è una
-risposta sbagliata; ogni idea si piega verso il calore, l'ingegno e il fatto che
+risposta sbagliata; ogni idea si piega verso il calore, l'immaginazione e il fatto che
 nessuno perda.*
 
 ## Se gli eroi si bloccano

@@ -2,7 +2,7 @@
 
 *Para vuestros ojos, no para los niños. Cada parada indica su nivel, lo que los
 jugadores deben averiguar, la solución prevista y un apoyo amable para que un niño
-atascado siempre avance. Más de una buena idea debería valer; premiad el ingenio y
+atascado siempre avance. Más de una buena idea debería valer; premiad la imaginación y
 la amabilidad por encima de la respuesta "correcta".*
 
 ## Parada 1: El Robledal Enredado (Fácil)
@@ -11,7 +11,7 @@ la amabilidad por encima de la respuesta "correcta".*
 la vuelta, y los jugadores llegan una y otra vez al mismo viejo roble. Deben
 encontrar una manera de cruzar sin perderse sin remedio.
 
-**Solución prevista.** Es un momento de Astucia y Espacio. La jugada lista y
+**Solución prevista.** Es un momento de Imaginación y Espacio. La buena jugada
 bondadosa es usar el **ovillo de lana roja**: atad un extremo en la entrada y
 soltadlo a medida que avanzáis, así siempre podéis volver sobre vuestros pasos y
 nunca recorréis dos veces el mismo camino equivocado. Marcar cada giro, o seguir el
@@ -70,4 +70,4 @@ se deshacen, los senderos del robledal corren rectos y verdaderos, y Pook da bri
 para guiar él mismo a los héroes hacia la salida. La feria de mayo sigue adelante en
 un remolino de música y baile, y **Danu la Bondadosa** sonríe desde lo alto, sobre
 las verdes islas. Los héroes han ganado de la única manera en que se gana aquí:
-siendo listos, valientes y bondadosos.
+siendo valientes, bondadosos y con muchas ideas.

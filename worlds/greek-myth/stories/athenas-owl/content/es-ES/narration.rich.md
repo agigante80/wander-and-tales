@@ -10,7 +10,7 @@ La niebla bajó sobre las colinas antes del amanecer, suave, gris y espesa como 
 lana, y con ella llegó un sonido pequeño y perdido: el ululato asustado de un búho.
 Cuando el Pueblo de los Olivos despertó, allí, en mitad de la plaza, había un búho
 diminuto, con las plumas erizadas y los ojos redondos muy abiertos. Se llamaba Glaux
-y era la compañera de la sabia Atenea, cuyo templo se alzaba en lo alto de la colina
+y era la compañera de la buena Atenea, cuyo templo se alzaba en lo alto de la colina
 de mármol blanco. Con la niebla había perdido el rumbo y no encontraba el camino a
 casa.
 
@@ -21,9 +21,9 @@ de vuelta hasta Atenea?"
 
 Con cuidado envolvió al búho en un pañuelo suave y lo puso a vuestro cargo.
 "Recordad", os dijo, "aquí arriba no ayudamos siendo los más grandes ni los más
-atrevidos. Ayudamos siendo listos, valientes y amables."
+atrevidos. Ayudamos siendo valientes, amables y con muchas ideas."
 
-*¿Cuál es vuestro nombre de héroe? ¿Qué cualidad llevaréis: Ingenio, Valor o
+*¿Cuál es vuestro nombre de héroe? ¿Qué cualidad llevaréis: Imaginación, Valor o
 Corazón?*
 
 ## Parada 1: La Plaza con Niebla
@@ -39,7 +39,7 @@ moviéndoos despacio y manteniendo las voces bajitas? ¿Quizá tendiéndole una 
 firme y esperando, sin más, a que él os eligiera? ¿Qué probáis?*
 
 Cuando os volvisteis tranquilos y suaves y le dejasteis acercarse a su propio ritmo,
-Glaux dejó de temblar. Os estudió con aquellos sabios ojos redondos, soltó un ululato
+Glaux dejó de temblar. Os estudió con aquellos grandes ojos redondos, soltó un ululato
 pequeño y satisfecho y dio un saltito hasta vuestra mano abierta. Desde ese momento
 confió en vosotros del todo.
 
@@ -78,14 +78,14 @@ a salvo y a gusto, y escondió la cabeza bajo un ala.
 ## Glaux vuelve a casa
 
 Cuando el búho se acomodó, dos ojos grises y serenos se abrieron dentro del templo,
-brillantes como plata pulida. Era la propia Atenea, diosa de la sabiduría y de las
-buenas ideas, y os sonreía a los dos.
+brillantes como plata pulida. Era la propia Atenea, diosa de las buenas ideas y de la
+amabilidad, y os sonreía a los dos.
 
 Con su sonrisa, la niebla de la mañana empezó a levantarse, adelgazándose,
 arremolinándose y alejándose flotando, hasta que el sol asomó y derramó luz dorada
 sobre el Pueblo de los Olivos, allá abajo. Desde su percha de lo alto, Glaux soltó un
 ululato claro y feliz, como si dijera gracias.
 
-Lo habíais conseguido, y lo habíais conseguido juntos: con vuestro ingenio, con
+Lo habíais conseguido, y lo habíais conseguido juntos: con vuestras ideas, con
 vuestro valor y, por encima de todo, con vuestra amabilidad. Bien hecho, héroes de
 las Colinas Soleadas.

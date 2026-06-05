@@ -2,7 +2,7 @@
 
 *Per i vostri occhi, non per i bambini. Ogni tappa indica il suo livello, ciò che i
 giocatori devono scoprire, la soluzione prevista e un aiuto gentile perché un bambino
-bloccato vada sempre avanti. Più di una buona idea dovrebbe valere; premiate l'ingegno
+bloccato vada sempre avanti. Più di una buona idea dovrebbe valere; premiate l'immaginazione
 e la gentilezza più della risposta "giusta".*
 
 ## Tappa 1: Costruire il Cavallo (Normale)
@@ -11,8 +11,8 @@ e la gentilezza più della risposta "giusta".*
 ruote, con una porticina sul fianco. I giocatori aiutano i falegnami a capire come si
 incastrano e si bilanciano i pezzi di legno, e quante assi servono per la costruzione.
 
-**Soluzione prevista.** È un momento di Astuzia, Logica e un po' di pensiero Spaziale e
-Matematica. La mossa intelligente è usare **Il Filo di Penelope** per misurare un pezzo
+**Soluzione prevista.** È un momento di Immaginazione, Logica e un po' di pensiero Spaziale e
+Matematica. La buona idea è usare **Il Filo di Penelope** per misurare un pezzo
 prima di tagliarlo, e contare le assi insieme così ogni zampa combacia e il corpo sta
 in equilibrio. Ordinare i pezzi per forma, o tracciare un piano semplice prima di
 costruire, vale altrettanto bene. Accordarsi su un qualunque piano sensato ed
@@ -66,4 +66,4 @@ Non c'è battaglia né perdente, e non c'è mai stata gente armata dentro il cav
 Quando la sorpresa dell'amicizia funziona, la città orgogliosa apre le sue porte, i due
 accampamenti preparano insieme un banchetto sulla collina, e **Teti, la Madre del
 Mare**, sorride dall'acqua tranquilla. Gli eroi hanno vinto nell'unico modo in cui si
-vince qui: essendo astuti, coraggiosi e leali con un amico.
+vince qui: essendo coraggiosi, leali con un amico e pieni di idee.

@@ -17,16 +17,16 @@ que nadie pudiera recordar. Este año había dormido demasiado, y nadie sabía c
 despertarlo.
 
 La Abuela Yuki, Guardiana de los Cuentos, os llamó a su lado. "Tenéis la cabeza
-despierta y el corazón bueno", dijo, "y eso vale más allá arriba en la montaña que
+llena de ideas y el corazón bueno", dijo, "y eso vale más allá arriba en la montaña que
 cualquier fuerza. ¿Subiréis por el paso y lo despertaréis, con dulzura, antes de que
 se pierda la cosecha?"
 
 En vuestras manos puso tres regalos: una campanilla de bronce de tañido claro y
 suave, un ovillo de hilo rojo vivo y un pastel de arroz dulce envuelto en una hoja.
-"Recordad", dijo, "allá arriba no se gana siendo el más fuerte. Se gana siendo sabio,
-valiente y bueno."
+"Recordad", dijo, "allá arriba no se gana siendo el más fuerte. Se gana siendo
+valiente, amable y con muchas ideas."
 
-*¿Cuál es vuestro nombre de héroe? ¿Qué cualidad llevaréis: Sabiduría, Valor o
+*¿Cuál es vuestro nombre de héroe? ¿Qué cualidad llevaréis: Imaginación, Valor o
 Bondad?*
 
 ## Parada 1: La Puerta de los Guardianes
@@ -40,7 +40,7 @@ para miraros.
 "Nadie pasa", retumbaron juntos los Perros-León Guardianes, "hasta que respondáis a
 nuestro acertijo." Sus voces eran hondas como un tambor de templo, y por un momento el
 corazón os latió deprisa. Pero no había crueldad en sus ojos, solo una vigilancia
-justa y paciente. Les habría gustado una respuesta lista, y no les habría molestado
+justa y paciente. Les habría gustado una buena idea, y no les habría molestado
 una conjetura valiente y meditada.
 
 *¿Escucharéis con atención y lo resolveréis juntos? Kon el Zorro anda por algún sitio
@@ -105,5 +105,5 @@ para volver a verlo.
 
 Cuando las nubes se aclararon, Amaterasu, la Diosa del Sol, rompió entre ellas con una
 luz dorada y cálida y os sonrió. Lo habíais conseguido, y lo habíais conseguido
-juntos: con vuestra sabiduría, con vuestro valor y, por encima de todo, con vuestra
+juntos: con vuestra imaginación, con vuestro valor y, por encima de todo, con vuestra
 bondad. Bien hecho, héroes de las Montañas en Flor de Yamato.

@@ -2,7 +2,7 @@
 
 *Per i vostri occhi, non per i bambini. Ogni tappa indica il suo livello, ciò che i
 giocatori devono scoprire, la soluzione prevista e un aiuto gentile perché un bambino
-bloccato vada sempre avanti. Più di una buona idea dovrebbe valere; premiate l'ingegno
+bloccato vada sempre avanti. Più di una buona idea dovrebbe valere; premiate l'immaginazione
 e la gentilezza più della risposta "giusta".*
 
 ## Tappa 1: Acchiappate lo Scoiattolo (Facile)
@@ -48,7 +48,7 @@ scoprano a chi appartiene:
   amichevole da un **ramo**, quindi questo messaggio appartiene al **Gufo** di mezzo.
 
 **Soluzione prevista.** È un momento di Memoria, Logica e Vocabolario. La mossa
-intelligente è leggere ogni messaggio, trovare la parola indizio (cielo alto, radici
+giusta è leggere ogni messaggio, trovare la parola indizio (cielo alto, radici
 profonde, un verso) e abbinarla all'amico che le corrisponde. Abbinarli tutti e tre
 mette in ordine l'imbroglio. I **Due Corvi** sono a portata di mano per confermare una
 buona ipotesi o dare una spintarella a una bloccata.
@@ -65,7 +65,7 @@ stella di energia.
 messaggio giusto fino in fondo, all'amichetto, perché ciascuno senta le parole vere e
 i due tornino a capirsi. La via di salita è alta e quella di discesa è profonda e buia.
 
-**Soluzione prevista.** È un momento di Spazio e Cuore. La mossa intelligente e
+**Soluzione prevista.** È un momento di Spazio e Cuore. La mossa premurosa e
 attenta è legare la **lana rossa** in basso come corda di sicurezza e seguirla in su e
 indietro, così chi si arrampica ritrova sempre la strada, e accendere la **piccola
 lanterna** per le radici profonde e buie. Poi viene la parte gentile: leggete a
@@ -86,4 +86,4 @@ di messaggi. Quando le parole giuste raggiungono gli amici giusti, l'Aquila in c
 all'albero e l'amichetto tra le radici si salutano con calore e gridano: "Di nuovo
 amici!" Ratatosk ringrazia gli eroi con un giro felice attorno all'albero, e **Freya
 la Gentile** sorride dall'alto, sopra i Fiordi Innevati del Nord. Gli eroi hanno vinto
-nell'unico modo in cui si vince qui: essendo ingegnosi, coraggiosi e gentili.
+nell'unico modo in cui si vince qui: con coraggio, gentilezza e tante idee.

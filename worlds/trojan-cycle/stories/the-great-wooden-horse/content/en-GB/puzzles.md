@@ -2,7 +2,7 @@
 
 *For your eyes, not the children's. Each stop lists its band, what the players need
 to work out, the intended solution, and a gentle fallback so a stuck child always
-moves forward. More than one good idea should work; reward cleverness and kindness
+moves forward. More than one good idea should work; reward imagination and kindness
 over the "right" answer.*
 
 ## Stop 1: Building the Horse (Normal)
@@ -12,8 +12,8 @@ on its wheels, with a little door in its side. The players help the carpenters
 work out how the wooden pieces fit and balance, and how many planks the build will
 need.
 
-**Intended solution.** This is a moment of Cleverness, Logic, and a little Spatial
-thinking and Maths. The clever move is to use **Penelope's thread** to measure a
+**Intended solution.** This is a moment of Imagination, Logic, and a little Spatial
+thinking and Maths. The bright move is to use **Penelope's thread** to measure a
 piece before it is cut, and to count the planks together so each leg matches and
 the body balances. Sorting the pieces by shape, or laying out a simple plan before
 building, works just as well. Settling on any sensible, balanced plan passes the
@@ -64,5 +64,5 @@ the wariness and the gates begin to open.
 There is no battle and no loser, and there never was a soldier in the horse. When
 the surprise of friendship works, the proud city opens its gates, the two camps
 spread a feast together on the hillside, and **Thetis the Sea-Mother** smiles from
-the calm water. The heroes have won the only way anyone wins here, by being clever,
-brave, and loyal to a friend.
+the calm water. The heroes have won the only way anyone wins here, by being brave,
+loyal to a friend, and full of ideas.

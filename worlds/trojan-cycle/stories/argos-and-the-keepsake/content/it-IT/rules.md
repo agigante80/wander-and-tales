@@ -16,7 +16,7 @@ aiuta a rimettere le cose a posto.
 - Stampate la mappa. Ogni giocatore mette una piccola pedina sulla Partenza,
   L'Accampamento delle Navi.
 - In questo mondo non c'è magia. Al suo posto, ogni eroe si appoggia a una di tre
-  qualità: **Astuzia** (un piano ingegnoso), **Coraggio** (un cuore saldo) o
+  qualità: **Immaginazione** (inventare idee), **Coraggio** (un cuore saldo) o
   **Lealtà** (restare accanto a un amico). Sulla scheda dell'eroe, dove dice magia,
   che ogni bambino scriva la qualità che preferisce. Due qualità diverse funzionano
   meglio insieme.
@@ -42,8 +42,8 @@ Quando un tiro non raggiunge il livello, i giocatori hanno sempre un modo per an
 avanti:
 
 - **Spendere una stella di energia** per ritrovare la calma e riprovare l'idea, oppure
-- **Unire due qualità** una volta per tappa per superare la sfida senza tirare (Astuzia
-  e Lealtà insieme, per esempio, o Coraggio e Astuzia).
+- **Unire due qualità** una volta per tappa per superare la sfida senza tirare (Immaginazione
+  e Lealtà insieme, per esempio, o Coraggio e Immaginazione).
 
 Le stelle di energia si recuperano passando alla tappa successiva e aiutandosi a
 vicenda. Nessuno può restarne a corto a lungo, e nessuno resta mai bloccato.
@@ -64,7 +64,7 @@ solo dado normale, leggete la riga che corrisponde al numero uscito.
 
 | Tiro | Il Colpo di Scena |
 |---|---|
-| 1 | Odisseo l'Astuto vi dà un indizio gratis. |
+| 1 | Odisseo il Brillante vi dà un indizio gratis. |
 | 2 | Riprendete fiato e recuperate una stella di energia. |
 | 3 | Soffia un vento favorevole dal mare e la prossima sfida è Facile. |
 | 4 | Argo il Cane Fedele arriva trotterellando e scodinzola. Va tutto bene. |

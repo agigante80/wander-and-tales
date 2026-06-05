@@ -2,7 +2,7 @@
 
 *Combustible para improvisar, para la persona adulta. Cuando los niños quieran probar
 algo que la página no había previsto, recurrid a estas ideas. Nada es una respuesta
-equivocada; cada idea se inclina hacia la calidez, el ingenio y que nadie pierda.*
+equivocada; cada idea se inclina hacia la calidez, la imaginación y que nadie pierda.*
 
 ## Si los héroes se atascan
 

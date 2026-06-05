@@ -23,7 +23,7 @@ She pressed an empty jar into your hands and smiled. "Remember," she said, "in t
 town we do not feast by leaving anyone out. We share what we have, and we always make
 room for one more."
 
-*What is your hero name? Which quality will you carry: Wits, Courage, or Heart?*
+*What is your hero name? Which quality will you carry: Imagination, Courage, or Heart?*
 
 ## Stop 1: The Hill of Bees
 
@@ -78,8 +78,8 @@ slice of honey cake balanced happily on one knee, sat the Cyclops, roaring with
 laughter among his new friends.
 
 No one had been left out. Every plate was full, every lantern was lit, and every face
-around the table was glad. High on cloud-wrapped Olympus, wise Athena looked down on
+around the table was glad. High on cloud-wrapped Olympus, kind Athena looked down on
 the feast and smiled.
 
-You had done it, and you had done it together: with your wits, with your courage, and
+You had done it, and you had done it together: with your ideas, with your courage, and
 above all with your kindness. Well done, heroes of the Sunlit Hills.

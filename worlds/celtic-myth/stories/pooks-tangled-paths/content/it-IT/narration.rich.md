@@ -20,16 +20,16 @@ aggrovigliato è semplicemente il più bel tipo di indovinello, e si era del tut
 dimenticato che alla gente del villaggio sarebbe importato.
 
 La Vecchia Maeve, Tessitrice di Racconti, vi chiamò al suo fianco accanto al caldo
-focolare. "Avete teste sveglie e cuori gentili", disse, "e nel querceto questo vale
+focolare. "Avete teste piene di idee e cuori gentili", disse, "e nel querceto questo vale
 più del braccio più forte. Andrete a sbrogliare i sentieri e a conquistare il
 nostro Pook con una parola gentile, perché li sistemi lui stesso?"
 
 Nelle vostre mani mise tre doni: un gomitolo di lana rossa brillante, una focaccia
 d'avena e miele ancora calda di focolare, e un piccolo rametto di foglie di quercia
 per la fortuna. "Ricordate", disse, "qui non si vince essendo i più forti. Si vince
-essendo svegli, coraggiosi e gentili."
+con coraggio, gentilezza e tante idee."
 
-*Qual è il tuo nome da eroe? Quale qualità porterai con te: l'Astuzia, il Coraggio
+*Qual è il tuo nome da eroe? Quale qualità porterai con te: l'Immaginazione, il Coraggio
 o la Gentilezza?*
 
 ## Tappa 1: Il Querceto Aggrovigliato
@@ -112,5 +112,5 @@ balli sul prato.
 
 In alto, sopra le isole di smeraldo, Danu la Gentile guardò giù attraverso la
 nebbia che si apriva e sorrise. Ce l'avevate fatta, e ce l'avevate fatta insieme:
-con la vostra astuzia, con il vostro coraggio e, soprattutto, con la vostra
-gentilezza. Bravi, eroi delle Isole di Smeraldo.
+con il vostro coraggio, con la vostra gentilezza e, soprattutto, con le vostre
+tante idee. Bravi, eroi delle Isole di Smeraldo.

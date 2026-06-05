@@ -14,15 +14,15 @@ Il motivo è silenzioso. Dentro ogni lanterna vive un piccolo e timido Spirito d
 Lucciole, e stasera tutti quanti sono volati via a nascondersi. Sono in fondo al
 Boschetto di Bambù Sussurrante, nel buio, troppo timidi per uscire.
 
-Nonna Yuki, Custode dei Racconti, vi chiama al suo fianco. "Voi due avete la testa saggia
+Nonna Yuki, Custode dei Racconti, vi chiama al suo fianco. "Voi due avete la testa piena di idee
 e il cuore gentile", vi dice. "Andrete nel boschetto a convincere con dolcezza gli spiriti
 delle lucciole a tornare, così la nostra festa potrà brillare?"
 
 Vi dà tre doni: una lanterna di carta, un gomitolo di filo rosso e un dolce di riso
 morbido e dolce. Poi sorride. "Quassù tra i monti non vinciamo facendo rumore o con la
-forza. Vinciamo essendo saggi, coraggiosi e gentili."
+forza. Si vince con coraggio, gentilezza e tante idee."
 
-*Come ti chiami, eroe? Porterai Saggezza, Coraggio o Gentilezza?*
+*Come ti chiami, eroe? Porterai Immaginazione, Coraggio o Gentilezza?*
 
 ## Tappa 1: Il Bambù Buio
 
@@ -31,7 +31,7 @@ sussurrano nel vento. Qui dentro è buio, e molto immobile. Lì vicino, lucine m
 accendono e si spengono, poi si nascondono di nuovo. Gli spiriti delle lucciole sono qui,
 ma sono timidi.
 
-Una volpe rossiccia esce piano dalle ombre verdi. È Kon la Volpe, con occhi vivaci e furbi
+Una volpe rossiccia esce piano dalle ombre verdi. È Kon la Volpe, con occhi vivaci e brillanti
 e una fogliolina in testa. Vi fa l'occhiolino in modo amichevole.
 
 *Gli spiriti sono timidi. Quale cosa gentile potreste fare? Potreste muovervi con dolcezza
@@ -82,5 +82,5 @@ Tutto il villaggio applaude e ride e comincia a danzare. I tamburi suonano piano
 lanterne dondolano come un cielo pieno di piccole lune calde.
 
 Quando arriva il mattino, la calda Amaterasu, la Dea del Sole, si affaccia sopra i monti e
-vi sorride. Ce l'avete fatta insieme. Siete stati saggi, siete stati coraggiosi e,
-soprattutto, siete stati gentili. Bravi, eroi.
+vi sorride. Ce l'avete fatta insieme. Siete stati coraggiosi, siete stati gentili e,
+soprattutto, avete avuto tante idee. Bravi, eroi.

@@ -15,14 +15,14 @@ llegan las lluvias. Pero esta vez ha dormido demasiado, muchísimo tiempo, y el 
 deja de menguar.
 
 La Abuela Yuki, Guardiana de los Cuentos, os llama a su lado. "Vosotros dos tenéis la
-cabeza despierta y el corazón bueno", dice. "¿Subiréis la montaña y lo despertaréis,
+cabeza llena de ideas y el corazón bueno", dice. "¿Subiréis la montaña y lo despertaréis,
 con dulzura, antes de que se pierda la cosecha?"
 
 Os da tres regalos: una campanilla de bronce, un ovillo de hilo rojo y un pastel de
 arroz dulce. Luego sonríe. "Allá arriba no se gana siendo el más fuerte. Se gana
-siendo sabio, valiente y bueno."
+siendo valiente, amable y con muchas ideas."
 
-*¿Cuál es vuestro nombre de héroe? ¿Sois héroes de Sabiduría, de Valor o de Bondad?*
+*¿Cuál es vuestro nombre de héroe? ¿Sois héroes de Imaginación, de Valor o de Bondad?*
 
 ## Parada 1: La Puerta de los Guardianes
 
@@ -82,5 +82,5 @@ beben a fondo y vuelven a ponerse verdes. El dragón ya no está solo, porque ti
 amigos.
 
 Muy en lo alto, Amaterasu, la Diosa del Sol, rompe entre las nubes y os sonríe. Lo
-habéis conseguido juntos. Fuisteis sabios, fuisteis valientes y, sobre todo, fuisteis
-buenos. Bien hecho, héroes.
+habéis conseguido juntos. Fuisteis valientes, fuisteis amables y, sobre todo, tuvisteis
+muchas ideas. Bien hecho, héroes.

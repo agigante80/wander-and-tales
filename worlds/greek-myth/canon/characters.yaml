@@ -21,9 +21,9 @@
   kind: character
   disposition: kindly
   description:
-    en-GB: The goddess of wisdom and good ideas, who smiles on heroes that win by thinking and caring rather than by force.
-    es-ES: La diosa de la sabiduría y de las buenas ideas, que sonríe a los héroes que vencen pensando y cuidando, no por la fuerza.
-    it-IT: La dea della saggezza e delle buone idee, che sorride agli eroi che vincono pensando e prendendosi cura degli altri, non con la forza.
+    en-GB: The goddess of good ideas and kindness, who smiles on heroes that win by imagining and caring rather than by force.
+    es-ES: La diosa de las buenas ideas y de la amabilidad, que sonríe a los héroes que vencen imaginando y cuidando, no por la fuerza.
+    it-IT: La dea delle buone idee e della gentilezza, che sorride agli eroi che vincono immaginando e prendendosi cura degli altri, non con la forza.
   first_seen: the-singing-spring
 
 - id: milo-baker

@@ -74,4 +74,4 @@ Cuando le decís a Pip con cariño que todo está bien, se asoma y sonríe. Con 
 Cambio cuidadoso, Pip pone bien la última cosa, y todo el mercado aplaude. Pip se
 pone un poquito más derecho.
 
-Lo habéis conseguido juntos. Habéis sido listos y habéis sido amables. Muy bien.
+Lo habéis conseguido juntos. Habéis sido amables y habéis tenido muchas ideas. Muy bien.

@@ -11,15 +11,15 @@ the gentle Otherworld, once called Tir na nOg, where no one ever grows old. It i
 lovely place. That is the danger. The longer your friend stays there, the more they
 forget the way home.
 
-Old Maeve the Tale-Weaver calls you to her side. "You two have clever heads and
+Old Maeve the Tale-Weaver calls you to her side. "You two have heads full of ideas and
 kind hearts," she says. "Will you cross the mist and bring our friend gently home,
 before they forget us altogether?"
 
 She gives you three gifts: a sprig of oak for luck, a honey oatcake to share, and a
 ball of red wool. Then she smiles. "Here we do not win by being the strongest. We
-win by being clever, brave, and kind."
+win by being brave, kind, and full of ideas."
 
-*What is your hero name? Are you a hero of Cleverness, of Courage, or of Kindness?*
+*What is your hero name? Are you a hero of Imagination, of Courage, or of Kindness?*
 
 ## Stop 1: The Salmon's Riddle
 
@@ -74,5 +74,5 @@ the red wool home. The mist parts. There is the green shore, bright in the morni
 sun, your friend safe and smiling beside you.
 
 You came home together, and you have a selkie friend now too. High on the green
-hills, Danu the Kind smiles down at you. You did it. You were clever, you were
-brave, and most of all, you were kind. Well done, heroes.
+hills, Danu the Kind smiles down at you. You did it. You were brave, you were
+kind, and most of all, you were full of ideas. Well done, heroes.

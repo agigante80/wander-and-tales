@@ -23,7 +23,7 @@ Vi mise tra le mani un vaso vuoto e sorrise. "Ricordate," disse, "in questo paes
 facciamo festa lasciando fuori nessuno. Condividiamo quello che abbiamo, e facciamo
 sempre posto per uno in più."
 
-*Qual è il vostro nome da eroi? Quale qualità porterete con voi: Ingegno, Coraggio o
+*Qual è il vostro nome da eroi? Quale qualità porterete con voi: Immaginazione, Coraggio o
 Cuore?*
 
 ## Tappa 1: La Collina delle Api
@@ -84,7 +84,7 @@ rideva di gusto tra i suoi nuovi amici.
 
 Nessuno era stato lasciato fuori. Ogni piatto era pieno, ogni lanterna era accesa e ogni
 viso intorno al tavolo era contento. In alto, sull'Olimpo avvolto dalle nuvole, la
-saggia Atena guardò la festa e sorrise.
+buona Atena guardò la festa e sorrise.
 
-Ce l'avevate fatta, e ce l'avevate fatta insieme: con il vostro ingegno, con il vostro
+Ce l'avevate fatta, e ce l'avevate fatta insieme: con le vostre idee, con il vostro
 coraggio e, soprattutto, con la vostra gentilezza. Bravi, eroi delle Colline Assolate.

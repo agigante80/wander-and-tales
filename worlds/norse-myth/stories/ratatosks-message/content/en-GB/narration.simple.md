@@ -15,15 +15,15 @@ something unkind. And the small friend thinks the Eagle said something unkind to
 Neither of them did. It was only a mix-up. But now the two old friends are cross,
 and the whole tree feels sad.
 
-Edda the Saga-Keeper calls you to the warm Hearth Hall. "You have clever heads and
+Edda the Saga-Keeper calls you to the warm Hearth Hall. "You have bright ideas and
 kind hearts," she says. "Will you help Ratatosk sort his messages and set things
 right, so the two friends are friends again?"
 
 She gives you three gifts: a ball of red yarn, a snack for the squirrel, and a
 little lantern. Then she smiles. "Up here we do not win by being the strongest. We
-win by being clever, brave, and kind."
+win by being brave, kind, and full of ideas."
 
-*What is your hero name? Are you a hero of Wit, of Courage, or of Heart?*
+*What is your hero name? Are you a hero of Imagination, of Courage, or of Heart?*
 
 ## Stop 1: Catch the Squirrel
 
@@ -45,7 +45,7 @@ think."
 ## Stop 2: Sort the Messages
 
 Ratatosk opens his paws, and out tumble three little messages, all in a jumble.
-There are three friends waiting: the Eagle at the top, a wise old owl on a middle
+There are three friends waiting: the Eagle at the top, a kind old owl on a middle
 branch, and the small friend down in the roots. Each message belongs to one of
 them, but which goes where?
 
@@ -87,5 +87,5 @@ Ratatosk runs a happy loop around the whole tree. "You sorted my muddle and mend
 my friends," he says. "Thank you, thank you!"
 
 High above the snowy fjords, Freya the Kind looks down and smiles. You did it
-together. You were clever, you were brave, and most of all, you were kind. Well
+together. You were full of ideas, you were brave, and most of all, you were kind. Well
 done, heroes.

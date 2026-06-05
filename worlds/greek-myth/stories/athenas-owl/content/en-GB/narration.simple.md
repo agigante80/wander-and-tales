@@ -7,7 +7,7 @@ no wrong answers here, only kind new ideas to try.*
 
 One grey, misty morning a tiny owl came tumbling out of the fog and landed, all
 ruffled, in the middle of the Olive Town. Her name is Glaux, and she belongs to
-wise Athena, high on the hill of white marble. But the fog is thick, and poor
+kind Athena, high on the hill of white marble. But the fog is thick, and poor
 Glaux cannot find her way home.
 
 Old Daphne, who keeps the olive grove, calls you to her. "You two have sharp eyes
@@ -15,9 +15,9 @@ and kind hearts," she says. "Will you help little Glaux find her way back up to
 Athena?"
 
 She tucks a soft scarf around the owl and smiles. "Up here we do not help by being
-the biggest or the fastest. We help by being clever, brave, and kind."
+the biggest or the fastest. We help by being brave, kind, and full of ideas."
 
-*What is your hero name? Are you a hero of Wits, of Courage, or of Heart?*
+*What is your hero name? Are you a hero of Imagination, of Courage, or of Heart?*
 
 ## Stop 1: The Foggy Square
 
@@ -64,5 +64,5 @@ goddess of good ideas, and she is smiling at you.
 The morning fog melts away. Sunlight pours over the Olive Town below, warm and
 golden. Glaux hoots a thank-you from her perch.
 
-You did it together. You were clever, you were brave, and most of all, you were
+You did it together. You were brave, you were full of ideas, and most of all, you were
 kind. Well done, heroes.

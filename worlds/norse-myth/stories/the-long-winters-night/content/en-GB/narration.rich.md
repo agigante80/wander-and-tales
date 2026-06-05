@@ -13,16 +13,16 @@ The longhouse had fallen cold. The amber windows that always glowed across the s
 were dark, and one by one, all down the valley, the warmth was slipping away.
 
 Edda the Saga-Keeper called the two of you to her side, her old eyes bright in the
-gloom. "You have clever heads and warm hearts," she said, "and on a night like this
+gloom. "You have bright ideas and warm hearts," she said, "and on a night like this
 that is worth more than any axe. Will you carry the warmth back to us before dawn?"
 
 Into your hands she pressed three gifts: the Everwarm Ember, a coal that never goes
 cold; a ball of bright red yarn; and a soft honey bun, still warm from the embers.
 "Remember," she said, "in these fjords we do not win by being the strongest. We win
-by being clever, brave, and kind. Cross the Rainbow Bridge to the high halls, and
+by being brave, kind, and full of ideas. Cross the Rainbow Bridge to the high halls, and
 light the world's warmth again."
 
-*What is your hero name? Which quality will you carry: Wit, Courage, or Heart?*
+*What is your hero name? Which quality will you carry: Imagination, Courage, or Heart?*
 
 ## Stop 1: The Frozen Fjord
 
@@ -33,7 +33,7 @@ long, low groan, and somewhere beneath you something cracked and settled. To rus
 across all together, in one heavy bunch, would be asking too much of it.
 
 Far overhead the Two Ravens, Thought and Memory, wheeled against the stars and
-watched you with patient, knowing eyes.
+watched you with patient, gentle eyes.
 
 *How will you cross without the ice giving way? Could you spread out so your weight
 is shared, and step softly, treating the ice gently? Could you hold hands and go
@@ -93,5 +93,5 @@ High above, the Aurora Spirits woke and danced for joy, ribbons of teal and gree
 and purple rippling across the brightening sky. The Lonely Frost Giant stood among
 you, warm at last and smiling, with friends he had waited his whole long life to
 find. And from the high halls, Freya the Kind looked down and smiled. You had done
-it, and you had done it together: with your wit, with your courage, and above all
+it, and you had done it together: with your ideas, with your courage, and above all
 with your heart. Well done, heroes of the Snowlit Fjords.

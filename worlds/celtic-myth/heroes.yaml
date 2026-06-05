@@ -10,7 +10,7 @@
     en-GB: the Emerald Isles of the Celts
     es-ES: las Islas Esmeralda de los Celtas
     it-IT: le Isole di Smeraldo dei Celti
-  magics: [cleverness, kindness, courage]
+  magics: [imagination, kindness, courage]
   energy: 4
   carry:
     - { en-GB: a woollen cloak, es-ES: una capa de lana, it-IT: un mantello di lana }
@@ -36,7 +36,7 @@
     en-GB: the Emerald Isles of the Celts
     es-ES: las Islas Esmeralda de los Celtas
     it-IT: le Isole di Smeraldo dei Celti
-  magics: [courage, kindness, cleverness]
+  magics: [courage, kindness, imagination]
   energy: 3
   carry:
     - { en-GB: a little harp, es-ES: un arpa pequeña, it-IT: una piccola arpa }
@@ -61,7 +61,7 @@
     en-GB: the Emerald Isles of the Celts
     es-ES: las Islas Esmeralda de los Celtas
     it-IT: le Isole di Smeraldo dei Celti
-  magics: [cleverness, courage, kindness]
+  magics: [imagination, courage, kindness]
   energy: 5
   carry:
     - { en-GB: a coil of red wool, es-ES: un rollo de lana roja, it-IT: una matassa di lana rossa }
@@ -74,7 +74,7 @@
     orientation: portrait
     prompt: >
       A confident older Celtic hero in a hooded cloak with braided hair and a calm,
-      clever face, holding a small harp, a ring of standing stones in the mist
+      kind face, holding a small harp, a ring of standing stones in the mist
       behind, ready for a real adventure.
     alt:
       en-GB: A confident older Celtic hero in a hooded cloak with braided hair holding a small harp, a ring of standing stones in the mist behind.
@@ -88,7 +88,7 @@
     en-GB: the Emerald Isles of the Celts
     es-ES: las Islas Esmeralda de los Celtas
     it-IT: le Isole di Smeraldo dei Celti
-  magics: [courage, cleverness, kindness]
+  magics: [courage, imagination, kindness]
   energy: 4
   carry:
     - { en-GB: a sturdy walking staff, es-ES: un bastón resistente, it-IT: un solido bastone da cammino }

@@ -2,7 +2,7 @@
 
 *Per i vostri occhi, non per i bambini. Ogni tappa indica il suo livello, ciò che i
 giocatori devono scoprire, la soluzione prevista e un aiuto gentile perché un bambino
-bloccato vada sempre avanti. Più di una buona idea dovrebbe valere; premiate l'ingegno
+bloccato vada sempre avanti. Più di una buona idea dovrebbe valere; premiate l'immaginazione
 e la gentilezza più della risposta "giusta".*
 
 ## Tappa 1: Il Bosco Scuro (Facile)
@@ -11,7 +11,7 @@ e la gentilezza più della risposta "giusta".*
 innevati, timida, infreddolita e molto piccola. I giocatori devono trovarla senza
 spaventarla e farla scappare.
 
-**Soluzione prevista.** È un momento di Osservazione e Cuore. La mossa intelligente e
+**Soluzione prevista.** È un momento di Osservazione e Cuore. La mossa premurosa e
 gentile è rallentare e guardare con dolcezza: tenere d'occhio il tenue barlume della
 sua luce, seguire le piccole impronte nella neve e parlare piano così che non si
 spaventi. Chiedere un indizio a **Nori il Folletto del Focolare**, il folletto dal
@@ -29,7 +29,7 @@ una stella di energia.
 il viola, e non può brillare finché i giocatori non l'aiutano a raccoglierli. Ogni
 colore si nasconde in qualcosa nel mondo che lo porta.
 
-**Soluzione prevista.** È un momento di Osservazione e Logica. L'idea intelligente è
+**Soluzione prevista.** È un momento di Osservazione e Logica. La buona idea è
 abbinare ogni colore al mondo intorno a loro: il **verde acqua** da un ghiacciolo
 lucente, il **verde** da un ramo scuro di pino e il **viola** dal cielo del crepuscolo
 che si fa sempre più scuro. Vale nominare qualsiasi fonte sensata di ciascun colore;
@@ -61,4 +61,4 @@ Non c'è battaglia né perdente. Quando la piccola aurora risalta su nel cielo, 
 **Spiriti dell'Aurora** scendono in picchiata a darle il bentornata a casa, e tutto il
 cielo notturno danza con verde acqua, verde e viola sopra il fiordo innevato. Lassù tra
 le stelle, **Freya la Gentile** sorride dall'alto. Gli eroi hanno vinto nell'unico modo
-in cui si vince qui: essendo svegli, coraggiosi e gentili.
+in cui si vince qui: con coraggio, gentilezza e tante idee.

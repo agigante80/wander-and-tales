@@ -9,19 +9,19 @@ The Singing Spring has gone quiet. High in the hills, the water used to sing all
 day, and its song kept every well in the town full and cool. Now the song has
 stopped. The wells are low. The olive trees are thirsty.
 
-Old Daphne, who keeps the olive grove, calls you to her. "You two have clever
-heads and kind hearts," she says. "Will you climb the hill and wake the spring?"
+Old Daphne, who keeps the olive grove, calls you to her. "You two have bright
+ideas and kind hearts," she says. "Will you climb the hill and wake the spring?"
 
 She gives you three gifts: a ball of golden thread, a honey cake, and a little
 lyre. Then she smiles. "Up here we do not win by being the strongest. We win by
-being clever, brave, and kind."
+being brave, kind, and full of ideas."
 
-*What is your hero name? Are you a hero of Wits, of Courage, or of Heart?*
+*What is your hero name? Are you a hero of Imagination, of Courage, or of Heart?*
 
 ## Stop 1: The Riddle Gate
 
 You climb the sunny road and come to a tall marble gate. On the steps sits a
-sphinx, big as a lion, with golden wings and a kind, clever face.
+sphinx, big as a lion, with golden wings and a kind, gentle face.
 
 "None may pass," she says, "until they answer my riddle." She is not cross. She
 likes a good thinking face.
@@ -69,5 +69,5 @@ The water shivers. Gentle nymphs rise up in the spray, laughing and singing. The
 spring bursts back to life! Far below, every well in the town fills up cool and
 clear.
 
-High on the mountain, wise Athena smiles down at you. You did it together. You were
-clever, you were brave, and most of all, you were kind. Well done, heroes.
+High on the mountain, kind Athena smiles down at you. You did it together. You were
+brave, you were full of ideas, and most of all, you were kind. Well done, heroes.

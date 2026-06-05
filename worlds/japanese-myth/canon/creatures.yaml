@@ -8,9 +8,9 @@
   kind: creature
   disposition: playful
   description:
-    en-GB: A friendly fox spirit of the bamboo grove who loves riddles and clever games, and hands out helpful hints to travellers he likes.
-    es-ES: Un amable espíritu zorro del bosque de bambú al que le encantan los acertijos y los juegos ingeniosos, y que da pistas útiles a los viajeros que le caen bien.
-    it-IT: Un gentile spirito volpe del boschetto di bambù che adora gli indovinelli e i giochi ingegnosi, e dà indizi utili ai viaggiatori che gli stanno simpatici.
+    en-GB: A friendly fox spirit of the bamboo grove who loves riddles and games of ideas, and hands out helpful hints to travellers he likes.
+    es-ES: Un amable espíritu zorro del bosque de bambú al que le encantan los acertijos y los juegos de ideas, y que da pistas útiles a los viajeros que le caen bien.
+    it-IT: Un gentile spirito volpe del boschetto di bambù che adora gli indovinelli e i giochi di idee, e dà indizi utili ai viaggiatori che gli stanno simpatici.
   first_seen: firefly-lanterns
 
 - id: firefly-spirits

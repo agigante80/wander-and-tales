@@ -2,7 +2,7 @@
 
 *Per i vostri occhi, non per i bambini. Ogni tappa indica il suo livello, ciò che i
 giocatori devono scoprire, la soluzione prevista e un aiuto gentile perché un bambino
-bloccato vada sempre avanti. Più di una buona idea dovrebbe valere; premiate l'ingegno
+bloccato vada sempre avanti. Più di una buona idea dovrebbe valere; premiate le idee nuove
 e la gentilezza più della risposta "giusta".*
 
 ## Tappa 1: La Piazza nella Nebbia (Facile)
@@ -26,7 +26,7 @@ idea gentile conquista la sua fiducia e recupera una stella di energia.
 **La sfida.** Tre sentieri salgono nella nebbia e sembrano tutti uguali. I giocatori
 devono trovare quello che porta al Tempio di Atena.
 
-**Soluzione prevista.** È un momento di Osservazione e Logica. La mossa intelligente è
+**Soluzione prevista.** È un momento di Osservazione e Logica. La buona idea è
 guardare in basso e seguire la scia di morbide penne grigie che Glaux ha perso mentre
 cadeva. Chiedere un indizio a **Pruno il Satiro**, o lasciare che la civetta stessa
 giri la testa verso casa, vale altrettanto bene.
@@ -53,7 +53,7 @@ civetta raggiunge il suo posatoio.
 
 ## Il finale
 
-Non c'è battaglia né perdente. Quando Glaux è al sicuro a casa, la saggia **Atena**
+Non c'è battaglia né perdente. Quando Glaux è al sicuro a casa, la buona **Atena**
 apre i suoi occhi grigi e calmi, la nebbia del mattino si solleva e il sole si riversa
 caldo e dorato sul **Paese degli Ulivi**. Gli eroi hanno vinto nell'unico modo in cui
-qui si vince: essendo ingegnosi, coraggiosi e gentili.
+qui si vince: con coraggio, gentilezza e tante idee.

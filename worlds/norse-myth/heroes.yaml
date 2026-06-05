@@ -10,7 +10,7 @@
     en-GB: the Snowlit Fjords of the North
     es-ES: los Fiordos Nevados del Norte
     it-IT: i Fiordi Innevati del Nord
-  magics: [wit, heart, courage]
+  magics: [imagination, heart, courage]
   energy: 4
   carry:
     - { en-GB: a warm woollen cloak, es-ES: una capa de lana caliente, it-IT: un mantello di lana caldo }
@@ -36,7 +36,7 @@
     en-GB: the Snowlit Fjords of the North
     es-ES: los Fiordos Nevados del Norte
     it-IT: i Fiordi Innevati del Nord
-  magics: [courage, heart, wit]
+  magics: [courage, heart, imagination]
   energy: 3
   carry:
     - { en-GB: a carved wooden fox, es-ES: un zorro de madera tallada, it-IT: una volpe di legno intagliato }
@@ -62,7 +62,7 @@
     en-GB: the Snowlit Fjords of the North
     es-ES: los Fiordos Nevados del Norte
     it-IT: i Fiordi Innevati del Nord
-  magics: [wit, courage, heart]
+  magics: [imagination, courage, heart]
   energy: 5
   carry:
     - { en-GB: a star map of the winter sky, es-ES: un mapa de las estrellas de invierno, it-IT: una mappa delle stelle d'inverno }
@@ -75,7 +75,7 @@
     orientation: portrait
     prompt: >
       A confident older northern hero in a fur-lined cloak and braided hair with a
-      calm, clever face, holding a small glowing ember in cupped hands, ready for a
+      calm, thoughtful face, holding a small glowing ember in cupped hands, ready for a
       real winter journey.
     alt:
       en-GB: A confident older northern hero in a fur-lined cloak with braided hair, holding a small glowing ember in cupped hands.
@@ -89,7 +89,7 @@
     en-GB: the Snowlit Fjords of the North
     es-ES: los Fiordos Nevados del Norte
     it-IT: i Fiordi Innevati del Nord
-  magics: [courage, wit, heart]
+  magics: [courage, imagination, heart]
   energy: 4
   carry:
     - { en-GB: a sturdy walking staff, es-ES: un bastón resistente, it-IT: un solido bastone da cammino }

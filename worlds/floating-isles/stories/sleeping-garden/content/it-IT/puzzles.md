@@ -3,7 +3,7 @@
 *Per i vostri occhi, non per quelli dei bambini. Ogni tappa indica la sua banda,
 ciò che i giocatori devono capire, la soluzione prevista e un appoggio gentile
 perché un bambino bloccato vada sempre avanti. Più di una buona idea dovrebbe
-funzionare; premiate l'ingegno e la gentilezza più della risposta "giusta".*
+funzionare; premiate le idee e la gentilezza più della risposta "giusta".*
 
 ## Tappa 1: Il Cancello di Rampicanti (Facile)
 
@@ -67,5 +67,5 @@ giardino perché era solo e non sapeva come chiedere un amico.
 Giocatelo con dolcezza. Lasciate che i bambini decidano come avvicinarsi: una
 parola gentile, un invito a giocare, la promessa di tornare. Non c'è scontro né
 trucco. Quando gli offrono la loro amicizia, il folletto sorride e tutto il
-giardino si sveglia di colpo. Finite in quel calore. I bambini hanno vinto essendo
-svegli e gentili, che è l'unico modo di vincere sulle Isole.
+giardino si sveglia di colpo. Finite in quel calore. I bambini hanno vinto con
+gentilezza e con le loro idee, che è l'unico modo di vincere sulle Isole.

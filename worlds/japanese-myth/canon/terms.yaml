@@ -1,15 +1,15 @@
 # World-flavour vocabulary: the three hero qualities (this world has no magic).
 
-- id: wisdom
+- id: imagination
   names:
-    en-GB: Wisdom
-    es-ES: Sabiduría
-    it-IT: Saggezza
+    en-GB: Imagination
+    es-ES: Imaginación
+    it-IT: Immaginazione
   kind: term
   description:
-    en-GB: A calm mind and a thoughtful question. In these mountains, wisdom solves a riddle that strength never could.
-    es-ES: Una mente serena y una pregunta reflexiva. En estas montañas, la sabiduría resuelve un acertijo que la fuerza jamás podría.
-    it-IT: Una mente serena e una domanda riflessiva. Su questi monti, la saggezza risolve un indovinello che la forza non potrebbe mai.
+    en-GB: Imagining ideas and asking a thoughtful question. In these mountains, a good idea solves a riddle that strength never could.
+    es-ES: Imaginar ideas y hacer una pregunta reflexiva. En estas montañas, una buena idea resuelve un acertijo que la fuerza jamás podría.
+    it-IT: Immaginare idee e fare una domanda riflessiva. Su questi monti, una buona idea risolve un indovinello che la forza non potrebbe mai.
   first_seen: firefly-lanterns
 
 - id: courage
@@ -19,9 +19,9 @@
     it-IT: Coraggio
   kind: term
   description:
-    en-GB: A steady heart in a quiet, scary moment. Courage is not being unafraid; it is being kind and clever even when you are afraid.
-    es-ES: Un corazón firme en un momento callado y de miedo. El valor no es no tener miedo; es ser amable e ingenioso aun cuando lo tienes.
-    it-IT: Un cuore saldo in un momento silenzioso e di paura. Il coraggio non è non avere paura; è essere gentili e ingegnosi anche quando si ha paura.
+    en-GB: A steady heart in a quiet, scary moment. Courage is not being unafraid; it is staying kind and trying anyway, even when you are afraid.
+    es-ES: Un corazón firme en un momento callado y de miedo. El valor no es no tener miedo; es seguir siendo amable e intentarlo igualmente, aun cuando lo tienes.
+    it-IT: Un cuore saldo in un momento silenzioso e di paura. Il coraggio non è non avere paura; è restare gentili e provarci lo stesso, anche quando si ha paura.
   first_seen: firefly-lanterns
 
 - id: kindness

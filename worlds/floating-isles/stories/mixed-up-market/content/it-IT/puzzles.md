@@ -3,7 +3,7 @@
 *Per i vostri occhi, non per quelli dei bambini. Ogni tappa indica la sua banda,
 ciò che i giocatori devono capire, la soluzione prevista e un appoggio gentile
 perché un bambino bloccato vada sempre avanti. Più di una buona idea dovrebbe
-funzionare; premiate l'ingegno e la gentilezza più della risposta "giusta".*
+funzionare; premiate le idee e la gentilezza più della risposta "giusta".*
 
 ## Tappa 1: Le Bancarelle Imbrogliate (Facile)
 
@@ -75,5 +75,5 @@ Giocatelo con dolcezza. Lasciate che i bambini decidano come avvicinarsi: una
 parola gentile, il ricordo che tutti sbagliano, l'offerta di stare accanto a Pip
 mentre riprova. Non c'è sgridata né trucco. Quando i bambini rassicurano Pip, lui
 trova il coraggio di sistemare l'ultima cosa con un Cambiamento attento, e il
-mercato esulta. Finite in quel calore. I bambini hanno vinto essendo svegli e
-gentili, che è l'unico modo di vincere sulle Isole.
+mercato esulta. Finite in quel calore. I bambini hanno vinto con gentilezza e con
+le loro idee, che è l'unico modo di vincere sulle Isole.

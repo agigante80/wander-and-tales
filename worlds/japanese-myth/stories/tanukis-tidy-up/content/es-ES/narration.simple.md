@@ -13,14 +13,14 @@ el mercado, y volcó cada puesto sin querer. Ahora los abanicos, la fruta y los
 faroles están todos en un gran revoltijo, y Pon se siente fatal.
 
 La Abuela Yuki, Guardiana de los Cuentos, os llama. "Vosotros dos tenéis la cabeza
-lista y el corazón amable", os dice. "¿Ayudaréis a Pon a poner el mercado en orden
+llena de ideas y el corazón amable", os dice. "¿Ayudaréis a Pon a poner el mercado en orden
 antes de que empiece la fiesta?"
 
 Os da tres regalos: un ovillo de hilo rojo, una campanilla y un pastel de arroz.
-Luego sonríe. "Aquí arriba no ganamos siendo los más fuertes. Ganamos siendo sabios,
-valientes y bondadosos."
+Luego sonríe. "Aquí arriba no ganamos siendo los más fuertes. Ganamos siendo
+valientes, amables y con muchas ideas."
 
-*¿Cuál es vuestro nombre de héroe? ¿Sois héroes de Sabiduría, de Valor o de
+*¿Cuál es vuestro nombre de héroe? ¿Sois héroes de Imaginación, de Valor o de
 Bondad?*
 
 ## Parada 1: Los puestos revueltos
@@ -36,7 +36,7 @@ Podríais decirle que fue un accidente. Podríais decirle que entre todos se pue
 arreglar un lío. ¿Qué probáis?*
 
 Cuando sois amables con Pon, se seca la nariz y esboza una pequeña sonrisa. "Sois
-buenos amigos", dice. "Vamos a ordenar juntos." Y se levanta de un salto, listo para
+buenos amigos", dice. "Vamos a ordenar juntos." Y se levanta de un salto, dispuesto a
 ayudar.
 
 ## Parada 2: El gran reparto
@@ -53,7 +53,7 @@ contar los faroles en los postes? ¿Podríais emparejar la fruta por su color? �
 vuestro plan?*
 
 Cuando lo separáis y lo contáis todo de vuelta a su sitio, el mercado empieza a verse
-bien otra vez. Pon da palmas con sus patitas. "¡Sois listísimos!", dice.
+bien otra vez. Pon da palmas con sus patitas. "¡Qué buena idea!", dice.
 
 ## Parada 3: El último farol
 
@@ -80,5 +80,5 @@ Pon el Tanuki está perdonado y, lo mejor de todo, está orgulloso. El tambor em
 sonar, la gente entra riendo a la plaza y la fiesta empieza por fin.
 
 Allá en lo alto, Amaterasu, la Diosa del Sol, mira hacia abajo y sonríe. Lo habéis
-conseguido juntos. Habéis sido sabios, habéis sido valientes y, sobre todo, habéis
-sido bondadosos. Bien hecho, héroes de El Pueblo de los Faroles.
+conseguido juntos. Habéis sido valientes, habéis sido amables y, sobre todo, habéis
+tenido muchas ideas. Bien hecho, héroes de El Pueblo de los Faroles.

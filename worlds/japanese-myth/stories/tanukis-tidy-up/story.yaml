@@ -53,7 +53,7 @@ images:
     prompt: >
       Two small heroes and a happy raccoon-dog sorting festival goods back into the
       right stalls, counting fans and fruit and lanterns into neat rows, thinking
-      hard and cheerfully. Bright and clever.
+      hard and cheerfully. Bright and cheerful.
     alt:
       en-GB: Two small heroes and a happy tanuki sorting festival goods back into the right stalls, counting fans and fruit and lanterns into neat rows.
       es-ES: Dos héroes pequeños y un tanuki feliz que ordenan los artículos de la fiesta en los puestos correctos, contando abanicos, fruta y faroles en filas ordenadas.
@@ -63,9 +63,9 @@ images:
     orientation: landscape
     canon_ref: kon-fox
     prompt: >
-      A friendly russet fox offering a clever clue to two small heroes as they search
+      A friendly russet fox offering a helpful clue to two small heroes as they search
       for one last lost festival lantern among the blossom trees, all looking
-      thoughtful and hopeful. Gentle and clever.
+      thoughtful and hopeful. Gentle and kind.
     alt:
       en-GB: A friendly fox offering a clue to two small heroes searching for one last lost festival lantern among blossom trees.
       es-ES: Un amable zorro que ofrece una pista a dos héroes pequeños mientras buscan el último farol de fiesta perdido entre los cerezos.

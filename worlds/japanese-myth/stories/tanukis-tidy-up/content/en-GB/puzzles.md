@@ -2,8 +2,8 @@
 
 *For your eyes, not the children's. Each stop lists its band, what the players need
 to work out, the intended solution, and a gentle fallback so a stuck child always
-moves forward. More than one good idea should work; reward kindness and clever
-thinking over the "right" answer.*
+moves forward. More than one good idea should work; reward kindness and imagination
+over the "right" answer.*
 
 ## Stop 1: The Jumbled Stalls (Easy)
 
@@ -30,7 +30,7 @@ ready to help.
 must sort, count, and match everything back to the right stall before the festival
 opens.
 
-**Intended solution.** This is a Maths, Logic, and Observation moment. The clever
+**Intended solution.** This is a Maths, Logic, and Observation moment. The thoughtful
 move is to sort by kind first, then count and match. A worked example to guide them:
 make three piles, one for fans, one for fruit, one for lanterns. Fan out the fans on
 the fan stall. Sort the fruit by colour, the red plums into the red basket and the
@@ -52,9 +52,9 @@ that hangs over the centre is still missing, and the festival cannot begin witho
 it. The players must follow a clue to find it, and help Pon feel proud rather than
 ashamed.
 
-**Intended solution.** This is a Wisdom and Kindness moment. **Kon the Fox** offers
+**Intended solution.** This is an Imagination and Kindness moment. **Kon the Fox** offers
 the clue: something round and red rolled away, down the lane, under the old plum tree
-by the bridge. The clever players follow the clue and think where a runaway lantern
+by the bridge. The thoughtful players follow the clue and think where a runaway lantern
 likes to hide, and there it is, safe under the tree. Just as important, they let Pon
 join the search and be the one to spot the branch it caught on, so the day ends with
 Pon proud of helping rather than sorry for the muddle.
@@ -69,4 +69,4 @@ story standing tall.
 There is no battle and no loser, and there never was a foe. When the last lantern is
 hung, the whole market glows, Pon the Tanuki is forgiven and proud, the drum beats
 and the festival opens, and **Amaterasu the Sun-Kami** smiles down from the warm sky.
-The heroes have won the only way anyone wins here, by being wise, brave, and kind.
+The heroes have won the only way anyone wins here, by being brave, kind, and full of ideas.

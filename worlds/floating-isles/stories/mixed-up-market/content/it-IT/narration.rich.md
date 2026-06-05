@@ -105,5 +105,5 @@ e fa capolino con il più piccolo dei sorrisi. Poi, più sicuro, Pip solleva un
 Cambiamento attento e rimette a posto l'ultimissima cosa, e tutta la Via del
 Mercato scoppia in un applauso. Pip si raddrizza e sta un po' più dritto di prima.
 
-L'avete risolta insieme. Siete stati svegli, e siete stati gentili, e sulle Isole
+L'avete risolta insieme. Siete stati gentili e pieni di idee, e sulle Isole
 è l'unico modo in cui qualcuno vince mai.

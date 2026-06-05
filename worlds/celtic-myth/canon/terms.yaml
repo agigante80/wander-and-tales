@@ -1,15 +1,15 @@
 # World-flavour vocabulary: the three hero qualities (this world has no magic).
 
-- id: cleverness
+- id: imagination
   names:
-    en-GB: Cleverness
-    es-ES: Astucia
-    it-IT: Astuzia
+    en-GB: Imagination
+    es-ES: Imaginación
+    it-IT: Immaginazione
   kind: term
   description:
-    en-GB: Quick thinking and a clever plan. In the green isles, a good idea opens doors that force never could, and a riddle is solved with a cool head.
-    es-ES: Pensamiento rápido y un plan ingenioso. En las islas verdes, una buena idea abre puertas que la fuerza jamás podría, y un acertijo se resuelve con la cabeza fría.
-    it-IT: Pensiero rapido e un piano ingegnoso. Nelle isole verdi, una buona idea apre porte che la forza non potrebbe mai, e un indovinello si risolve con la testa fredda.
+    en-GB: Imagining ideas and trying them. In the green isles, a good idea opens doors that force never could, and a riddle is solved with a cool head.
+    es-ES: Imaginar ideas y probarlas. En las islas verdes, una buena idea abre puertas que la fuerza jamás podría, y un acertijo se resuelve con la cabeza fría.
+    it-IT: Immaginare idee e provarle. Nelle isole verdi, una buona idea apre porte che la forza non potrebbe mai, e un indovinello si risolve con la testa fredda.
   first_seen: pooks-tangled-paths
 
 - id: courage
@@ -19,9 +19,9 @@
     it-IT: Coraggio
   kind: term
   description:
-    en-GB: A steady heart in a misty, scary moment. Courage is not being unafraid; it is being kind and clever even when you are afraid.
-    es-ES: Un corazón firme en un momento brumoso y de miedo. El valor no es no tener miedo; es ser amable e ingenioso aun cuando lo tienes.
-    it-IT: Un cuore saldo in un momento nebbioso e di paura. Il coraggio non è non avere paura; è essere gentili e ingegnosi anche quando si ha paura.
+    en-GB: A steady heart in a misty, scary moment. Courage is not being unafraid; it is staying kind and trying anyway, even when you are afraid.
+    es-ES: Un corazón firme en un momento brumoso y de miedo. El valor no es no tener miedo; es seguir siendo amable e intentarlo igualmente, aun cuando lo tienes.
+    it-IT: Un cuore saldo in un momento nebbioso e di paura. Il coraggio non è non avere paura; è restare gentili e provarci lo stesso, anche quando si ha paura.
   first_seen: pooks-tangled-paths
 
 - id: kindness

@@ -75,4 +75,4 @@ gathered light go. All at once the sky lanterns rise together, the whole evening
 fills with warm golden light, and Nimbo glows brightest of all as it floats down to
 join the festival. The Festival of Lights has begun.
 
-You did it together. You were clever, and you were kind. Well done.
+You did it together. You were kind, and you were full of ideas. Well done.

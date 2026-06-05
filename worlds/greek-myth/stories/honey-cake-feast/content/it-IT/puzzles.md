@@ -2,7 +2,7 @@
 
 *Per i vostri occhi, non per i bambini. Ogni tappa indica il suo livello, ciò che i
 giocatori devono scoprire, la soluzione prevista e un aiuto gentile perché un bambino
-bloccato vada sempre avanti. Più di una buona idea dovrebbe valere; premiate l'ingegno
+bloccato vada sempre avanti. Più di una buona idea dovrebbe valere; premiate le idee nuove
 e la gentilezza più della risposta "giusta".*
 
 ## Tappa 1: La Collina delle Api (Facile)
@@ -45,7 +45,7 @@ il coraggio di venire.
 **Soluzione prevista.** È un momento di Cuore e Coraggio. Vale qualsiasi rassicurazione
 sincera e calda: dirgli chiaramente che è desiderato, ricordargli che ora il paese sono
 i suoi amici, mostrargli la grande fetta messa da parte apposta per lui, oppure offrirsi
-di scendere al suo fianco. È la gentilezza, non l'astuzia, a portare a termine questa
+di scendere al suo fianco. È la gentilezza, non un piano qualsiasi, a portare a termine questa
 tappa.
 
 **Aiuto.** Se i bambini non sanno bene cosa dire, fate chiedere al gigante, a voce
@@ -56,6 +56,6 @@ giù per la collina il gigante scende.
 
 Non c'è battaglia né perdente. Quando il miele è raccolto, la focaccia è divisa e il
 gigante prende il suo posto, tutto il **Paese degli Ulivi** fa festa insieme sotto gli
-ulivi senza lasciare fuori nessuno, e la saggia **Atena** sorride dalla montagna. Gli
-eroi hanno vinto nell'unico modo in cui si vince qui: essendo ingegnosi, coraggiosi e
-gentili.
+ulivi senza lasciare fuori nessuno, e la buona **Atena** sorride dalla montagna. Gli
+eroi hanno vinto nell'unico modo in cui si vince qui: con coraggio, gentilezza e tante
+idee.

@@ -2,22 +2,22 @@
 
 *Per i vostri occhi, non per i bambini. Ogni tappa indica il suo livello, ciò che i
 giocatori devono scoprire, la soluzione prevista e un aiuto gentile perché un bambino
-bloccato vada sempre avanti. Più di una buona idea dovrebbe valere; premiate l'ingegno
+bloccato vada sempre avanti. Più di una buona idea dovrebbe valere; premiate l'immaginazione
 e la gentilezza più della risposta "giusta".*
 
 ## Tappa 1: L'Isola dei Venti (Normale)
 
 **La sfida.** Eolo, Custode dei Venti, presterà un vento favorevole solo ai
-viaggiatori che glielo chiedono con astuzia e cortesia, e che non sono tanto avidi da
+viaggiatori che glielo chiedono con una buona idea e cortesia, e che non sono tanto avidi da
 guardare dentro il suo sacco dei venti. I giocatori devono guadagnarsi il suo aiuto con
-le buone maniere e una richiesta astuta e onesta.
+le buone maniere e una richiesta buona e onesta.
 
 **L'indovinello.** Se ai vostri eroi piace un rompicapo, lasciate che Eolo ne proponga
 uno prima di acconsentire: *"Non ho mani, eppure gonfio una vela. Non ho voce, eppure
 faccio gemere il mare intero. Non puoi vedermi, né prendermi, né tenermi a lungo dentro
 un sacco. Cosa sono?"* La risposta è **il vento**.
 
-**Soluzione prevista.** È una sfida di Astuzia e Coraggio. La mossa astuta e cortese è
+**Soluzione prevista.** È una sfida di Immaginazione e Coraggio. La buona idea, cortese, è
 chiedere a Eolo, con chiarezza e buone maniere, solo un vento favorevole per tornare a
 casa, ringraziarlo e promettergli fedelmente di non slegare il sacco dei venti per
 sbirciarci dentro. Risolvere il suo piccolo indovinello del vento vale altrettanto
@@ -55,7 +55,7 @@ le Sirene diventano amiche all'istante.
 attraversare l'ultimo tratto ed esserne sicuri, e poi riconoscere La Sala del Telaio e
 gli amici che aspettano dentro.
 
-**Soluzione prevista.** È un momento di Lealtà e Osservazione. La mossa astuta e leale è
+**Soluzione prevista.** È un momento di Lealtà e Osservazione. La mossa leale, con una buona idea, è
 ricordare i segni di casa: il grande telaio in piedi alla luce del fuoco, il viso di
 una vecchia amica e, soprattutto, **Argo il Cane Fedele** accanto al focolare, che li
 riconosce all'istante. Nominare ciò che ricordano, o chiamare il vecchio cane per nome,
@@ -74,4 +74,4 @@ banchetto di bentornato è apparecchiato, i vecchi amici li chiamano con i loro 
 eroe, Argo il Cane Fedele non si stacca dal loro fianco e, lontano sul mare calmo,
 **Teti, la Madre del Mare**, sorride loro dall'alto. Tutto Il Mare Color del Vino è
 attraversato e il lungo viaggio verso casa è compiuto. Gli eroi hanno vinto nell'unico
-modo in cui si vince qui: essendo astuti, coraggiosi e leali.
+modo in cui si vince qui: essendo coraggiosi, leali e pieni di idee.

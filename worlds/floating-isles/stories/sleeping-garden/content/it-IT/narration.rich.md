@@ -99,4 +99,4 @@ si schiudono, la fontana canta, il Gatto di Nebbia si stiracchia in una chiazza 
 sole nuovo, e il calore torna a riversarsi su tutta l'isola.
 
 L'avete risolta nel modo in cui si risolve ogni avventura sulle Isole, insieme,
-essendo svegli ed essendo gentili. Bravi, tutti e due.
+con gentilezza e con le vostre idee. Bravi, tutti e due.

@@ -2,7 +2,7 @@
 
 *For your eyes, not the children's. Each stop lists its band, what the players
 need to work out, the intended solution, and a gentle fallback so a stuck child
-always moves forward. More than one good idea should work; reward cleverness and
+always moves forward. More than one good idea should work; reward good ideas and
 kindness over the "right" answer.*
 
 ## Stop 1: The Vine Gate (Easy)
@@ -62,5 +62,5 @@ because it was lonely and did not know how to ask for a friend.
 Play it softly. Let the children decide how to reach out: a kind word, an
 invitation to play, a promise to visit. There is no fight and no trick. When they
 offer friendship, the sprite smiles and the whole garden wakes at once. End on
-that warmth. The children have won by being clever and kind, which is the only way
+that warmth. The children have won by being kind and full of ideas, which is the only way
 anyone wins on the Isles.

@@ -2,8 +2,8 @@
 
 *Per i vostri occhi, non per i bambini. Ogni tappa indica il suo livello, ciò che i
 giocatori devono scoprire, la soluzione prevista e un aiuto gentile perché un bambino
-bloccato vada sempre avanti. Più di una buona idea dovrebbe valere; premiate la
-saggezza e la gentilezza più della risposta "giusta".*
+bloccato vada sempre avanti. Più di una buona idea dovrebbe valere; premiate
+l'immaginazione e la gentilezza più della risposta "giusta".*
 
 ## Tappa 1: La Porta dei Guardiani (Normale)
 
@@ -16,7 +16,7 @@ Tamburello su ogni tetto, eppure mani non ne ho da tenere. I campi assetati mi c
 per nome. Cosa sono?"* La risposta è **la pioggia** (proprio ciò che la valle sta
 aspettando).
 
-**Soluzione prevista.** È una sfida di pensiero, di Saggezza e un po' di pazienza.
+**Soluzione prevista.** È una sfida di pensiero, di Immaginazione e un po' di pazienza.
 Lasciate che i bambini ne parlino insieme. I Cani-Leone Guardiani accettano la risposta
 giusta e, poiché sono giusti e gentili, accettano anche una supposizione coraggiosa e
 ben pensata.
@@ -32,7 +32,7 @@ portale.
 saldo solo per chi lo attraversa piano e con calma, insieme. I giocatori devono passare
 dall'altra parte sani e salvi.
 
-**Soluzione prevista.** È un momento di Spazio e Coraggio. La mossa intelligente è
+**Soluzione prevista.** È un momento di Spazio e Coraggio. La mossa riflessiva è
 attraversare **con dolcezza e insieme**: passi lenti e fermi, fianco a fianco,
 respirando con calma invece di precipitarsi spaventati. Legare il **filo rosso** tra
 loro per restare uniti, o contare un ritmo lento e regolare mentre camminano, vale
@@ -68,4 +68,4 @@ calore ed è contento della loro compagnia.
 Non c'è battaglia né perdente. Quando il drago si sveglia e si solleva, tornano le
 piogge dolci, il Fiume d'Argento si riempie, le risaie assetate bevono e tornano verdi,
 e **Amaterasu, la Dea del Sole**, sorride dall'alto tra le nuvole. Gli eroi hanno vinto
-nell'unico modo in cui si vince qui: essendo saggi, coraggiosi e gentili.
+nell'unico modo in cui si vince qui: con coraggio, gentilezza e tante idee.

@@ -19,16 +19,16 @@ enredado es sencillamente la mejor clase de adivinanza, y había olvidado por
 completo que a la gente del pueblo le importaría.
 
 La Vieja Maeve, Tejedora de Cuentos, os llamó a su lado junto al cálido hogar.
-"Tenéis cabezas listas y corazones bondadosos", dijo, "y eso vale más en el
+"Tenéis cabezas llenas de ideas y corazones bondadosos", dijo, "y eso vale más en el
 robledal que el brazo más fuerte. ¿Iréis a desenredar los senderos y a ganaros a
 nuestro Pook con una palabra amable, para que él mismo lo arregle?"
 
 En vuestras manos puso tres regalos: un ovillo de lana roja brillante, una torta de
 avena y miel todavía caliente del hogar, y una pequeña ramita de hojas de roble
 para la suerte. "Recordad", dijo, "aquí no ganamos por ser los más fuertes. Ganamos
-siendo listos, valientes y bondadosos."
+siendo valientes, bondadosos y con muchas ideas."
 
-*¿Cuál es tu nombre de héroe? ¿Qué cualidad llevarás contigo: la Astucia, el Valor
+*¿Cuál es tu nombre de héroe? ¿Qué cualidad llevarás contigo: la Imaginación, el Valor
 o la Bondad?*
 
 ## Parada 1: El Robledal Enredado
@@ -112,5 +112,5 @@ música de violín y baile en la pradera.
 
 En lo alto, sobre las islas esmeralda, Danu la Bondadosa miró hacia abajo a través
 de la niebla que se abría y sonrió. Lo habíais logrado, y lo habíais logrado
-juntos: con vuestra astucia, con vuestro valor y, por encima de todo, con vuestra
-bondad. Bien hecho, héroes de las Islas Esmeralda.
+juntos: con vuestro valor, con vuestra bondad y, por encima de todo, con vuestras
+muchas ideas. Bien hecho, héroes de las Islas Esmeralda.

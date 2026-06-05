@@ -2,7 +2,7 @@
 
 *For your eyes, not the children's. Each stop lists its band, what the players need
 to work out, the intended solution, and a gentle fallback so a stuck child always
-moves forward. More than one good idea should work; reward cleverness and loyalty
+moves forward. More than one good idea should work; reward imagination and loyalty
 over the "right" answer.*
 
 ## Stop 1: Following Argos (Easy)
@@ -38,7 +38,7 @@ not stop where the pebble was** (so not the pebble pool). Cross off pool one and
 three, and only **pool two**, the striped-shell pool with no pebble, is left. That is
 where the dropped thread is found, pointing the way on.
 
-**Intended solution.** This is a Memory, Logic and Observation moment. The clever
+**Intended solution.** This is a Memory, Logic and Observation moment. The bright
 move is to remember both of Argos's clues and use them to rule pools out one at a
 time until a single pool remains. Counting on fingers, pointing at each pool in turn,
 or laying a token by each one as they reason are all good.
@@ -55,7 +55,7 @@ and tops up an energy star.
 buried it in the sand. Argos finds the spot; the players must dig it out gently and
 reunite their friend with it.
 
-**Intended solution.** This is an Observation and Loyalty moment. The clever, kind
+**Intended solution.** This is an Observation and Loyalty moment. The bright, kind
 move is to watch where Argos points his nose, kneel at that exact spot, and dig
 carefully together, brushing the sand away a little at a time and watching for a
 corner of olive wood rather than scrabbling and scattering it. When they do, the
@@ -70,7 +70,7 @@ keepsake is always found; the only question is how tenderly.
 ## The ending
 
 There is no battle and no loser. When the keepsake is carried home, Lykos is
-overjoyed and hugs both the token and Argos, Odysseus the Clever praises the heroes
+overjoyed and hugs both the token and Argos, Odysseus the Bright praises the heroes
 for leaving no one behind, and **Thetis the Sea-Mother** smiles on the calm sea so
 the ships may sail home with every friend and treasure safe aboard. The heroes have
-won the only way anyone wins here, by being clever, brave, and loyal.
+won the only way anyone wins here, by being brave, loyal, and full of ideas.

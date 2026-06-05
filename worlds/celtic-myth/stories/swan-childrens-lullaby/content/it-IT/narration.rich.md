@@ -15,16 +15,16 @@ dall'acqua e si posò sul lago e sui tetti, e nessuno riuscì a trovare il tramo
 dietro di essa.
 
 La Vecchia Maeve, Tessitrice di Racconti, vi chiamò al suo fianco accanto al
-focolare caldo della casa rotonda. "Avete teste sveglie e cuori gentili", disse, "e
+focolare caldo della casa rotonda. "Avete teste piene di idee e cuori gentili", disse, "e
 stanotte questo vale più di una voce forte. Scenderete al lago e aiuterete I Bambini
 Cigno a ricordare la loro ninnananna, perché la nebbia si sollevi di nuovo?"
 
 Nelle vostre mani posò tre doni: La Piccola Arpa, consumata e liscia per il tanto
 suonare, Il Rametto di Quercia per la fortuna, e La Focaccia d'Avena e Miele
 avvolta in una foglia. "Ricordate", disse, "qui non si vince essendo i più forti. Si
-vince essendo svegli, coraggiosi e gentili."
+vince con coraggio, gentilezza e tante idee."
 
-*Qual è il tuo nome da eroe? Quale qualità porterai: Astuzia, Coraggio o
+*Qual è il tuo nome da eroe? Quale qualità porterai: Immaginazione, Coraggio o
 Gentilezza?*
 
 ## Tappa 1: La Nebbia Grigia
@@ -93,6 +93,6 @@ ogni volta che i bambini cigno cantano. I quattro cigni scivolarono in un cerchi
 lento, con la loro canzone che si riversava sull'acqua. E in alto sopra il lago,
 Danu la Gentile guardò tutto questo e sorrise.
 
-Ce l'avevate fatta, e ce l'avevate fatta insieme: con la vostra astuzia, con il
-vostro coraggio e, soprattutto, con la vostra gentilezza. Buonanotte, eroi delle
+Ce l'avevate fatta, e ce l'avevate fatta insieme: con il vostro coraggio, con la
+vostra gentilezza e, soprattutto, con le vostre tante idee. Buonanotte, eroi delle
 Isole di Smeraldo dei Celti. Dormite bene.

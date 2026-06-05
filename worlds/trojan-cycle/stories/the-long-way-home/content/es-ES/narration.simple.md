@@ -12,16 +12,16 @@ de vuelta a casa cruzando El Mar Color de Vino. Muy lejos os espera La Sala del
 Telar, donde un fuego cálido, un banquete de bienvenida y los viejos amigos están
 listos para vosotros.
 
-Odiseo el Astuto os acompaña hasta las naves, en la larga playa de arena. "Es un
-largo camino a casa", dice, "y el mar es ancho. Pero sois astutos, sois valientes
+Odiseo el Brillante os acompaña hasta las naves, en la larga playa de arena. "Es un
+largo camino a casa", dice, "y el mar es ancho. Pero estáis llenos de ideas, sois valientes
 y mantenéis la lealtad con vuestros amigos. Eso es todo lo que un marinero
 necesita de verdad."
 
 Os da tres regalos para el viaje: una gran Caracola en espiral, una Cesta de Miel
 e Higos y un ovillo de hilo fuerte, El Hilo de Penélope. Luego sonríe. "Ahí fuera
-no ganamos siendo los más fuertes. Ganamos siendo astutos, valientes y leales."
+no ganamos siendo los más fuertes. Ganamos siendo valientes, leales y con muchas ideas."
 
-*¿Cuál es tu nombre de héroe? ¿Eres un héroe de Astucia, de Valor o de Lealtad?*
+*¿Cuál es tu nombre de héroe? ¿Eres un héroe de Imaginación, de Valor o de Lealtad?*
 
 ## Parada 1: La Isla de los Vientos
 
@@ -31,13 +31,13 @@ Guardián de los Vientos. Él guarda todos los vientos del mundo bien atados den
 de un gran saco de cuero.
 
 Eolo es amable, pero es cuidadoso. Solo prestará un viento favorable a los viajeros
-que le pidan con astucia y buenos modales, y que no sean codiciosos. "Pedídmelo con
+que le pidan con una buena idea y buenos modales, y que no sean codiciosos. "Pedídmelo con
 amabilidad", dice, "y nunca, jamás, miréis dentro del saco de los vientos."
 
-*¿Cómo le pediréis un viento favorable? ¿Se os ocurren palabras astutas y amables
+*¿Cómo le pediréis un viento favorable? ¿Se os ocurren palabras buenas y amables
 que decir? ¿Podríais prometer que no miraréis dentro del saco? ¿Qué intentáis?*
 
-Cuando le pedís con astucia y amabilidad, Eolo se ríe y ata un viento suave en
+Cuando le pedís con una buena idea y amabilidad, Eolo se ríe y ata un viento suave en
 vuestra vela. "Un viento favorable para los amigos", dice, y os despide con la mano
 mientras cruzáis las aguas.
 
@@ -84,5 +84,5 @@ vuestro nombre de héroe. Argos el Sabueso Fiel no se separa de vuestro lado.
 
 Allá arriba, sobre el agua tranquila, Tetis, la Madre del Mar, os sonríe desde lo
 alto. Cruzasteis entero El Mar Color de Vino y volvisteis a casa juntos. Fuisteis
-astutos, fuisteis valientes y, sobre todo, mantuvisteis la lealtad con vuestros
+valientes, estuvisteis llenos de ideas y, sobre todo, mantuvisteis la lealtad con vuestros
 amigos. Bien hecho, héroes. Bienvenidos a casa.

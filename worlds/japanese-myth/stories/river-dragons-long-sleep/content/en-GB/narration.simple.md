@@ -12,15 +12,15 @@ the dry blue sky and shake their heads.
 Far up the mountain sleeps the Gentle River Dragon. When he stirs, the rains
 come. But he has slept far, far too long this time, and the river keeps sinking.
 
-Granny Yuki the Tale-Keeper calls you to her side. "You two have clever heads and
+Granny Yuki the Tale-Keeper calls you to her side. "You two have heads full of ideas and
 kind hearts," she says. "Will you climb over the mountain and wake him, gently,
 before the harvest fails?"
 
 She gives you three gifts: a little bronze bell, a ball of red thread, and a sweet
 rice cake. Then she smiles. "Up there we do not win by being the strongest. We win
-by being wise, brave, and kind."
+by being brave, kind, and full of ideas."
 
-*What is your hero name? Are you a hero of Wisdom, of Courage, or of Kindness?*
+*What is your hero name? Are you a hero of Imagination, of Courage, or of Kindness?*
 
 ## Stop 1: The Guardian Gate
 
@@ -74,5 +74,5 @@ The Silver River brims and shines. Down in the valley, the thirsty rice fields
 drink deep and turn green again. The dragon is not lonely now, for he has friends.
 
 High above, Amaterasu the Sun-Kami breaks through the clouds and smiles down on
-you. You did it together. You were wise, you were brave, and most of all, you were
-kind. Well done, heroes.
+you. You did it together. You were brave, you were kind, and most of all, you were
+full of ideas. Well done, heroes.

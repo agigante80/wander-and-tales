@@ -1,15 +1,15 @@
 # World-flavour vocabulary: the three hero qualities (this world has no magic).
 
-- id: cleverness
+- id: imagination
   names:
-    en-GB: Cleverness
-    es-ES: Astucia
-    it-IT: Astuzia
+    en-GB: Imagination
+    es-ES: Imaginación
+    it-IT: Immaginazione
   kind: term
   description:
-    en-GB: Quick thinking and a clever plan. On these shores, a good idea ends a quarrel that a thousand spears never could.
-    es-ES: Pensamiento rápido y un plan ingenioso. En estas costas, una buena idea pone fin a una disputa que mil lanzas jamás podrían.
-    it-IT: Pensiero rapido e un piano ingegnoso. Su queste coste, una buona idea pone fine a una lite che mille lance non potrebbero mai.
+    en-GB: Imagining ideas and trying them. On these shores, a good idea ends a quarrel that a thousand spears never could.
+    es-ES: Imaginar ideas y probarlas. En estas costas, una buena idea pone fin a una disputa que mil lanzas jamás podrían.
+    it-IT: Immaginare idee e provarle. Su queste coste, una buona idea pone fine a una lite che mille lance non potrebbero mai.
   first_seen: the-great-wooden-horse
 
 - id: courage
@@ -19,9 +19,9 @@
     it-IT: Coraggio
   kind: term
   description:
-    en-GB: A steady heart on a wide and stormy sea. Courage is not being unafraid; it is being kind and clever even when you are afraid.
-    es-ES: Un corazón firme en un mar ancho y tormentoso. El valor no es no tener miedo; es ser amable e ingenioso aun cuando lo tienes.
-    it-IT: Un cuore saldo su un mare ampio e in tempesta. Il coraggio non è non avere paura; è essere gentili e ingegnosi anche quando si ha paura.
+    en-GB: A steady heart on a wide and stormy sea. Courage is not being unafraid; it is staying kind and trying anyway, even when you are afraid.
+    es-ES: Un corazón firme en un mar ancho y tormentoso. El valor no es no tener miedo; es seguir siendo amable e intentarlo igualmente, aun cuando lo tienes.
+    it-IT: Un cuore saldo su un mare ampio e in tempesta. Il coraggio non è non avere paura; è restare gentili e provarci lo stesso, anche quando si ha paura.
   first_seen: the-great-wooden-horse
 
 - id: loyalty

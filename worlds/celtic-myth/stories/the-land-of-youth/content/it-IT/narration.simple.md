@@ -12,14 +12,14 @@ nessuno invecchia mai. È un luogo bellissimo. È questo il pericolo. Più la vo
 amica resta là, più dimentica la via di casa.
 
 La Vecchia Maeve, Tessitrice di Racconti, vi chiama al suo fianco. "Voi avete teste
-sveglie e cuori gentili", dice. "Attraverserete la nebbia e riporterete a casa con
+piene di idee e cuori gentili", dice. "Attraverserete la nebbia e riporterete a casa con
 dolcezza la nostra amica, prima che ci dimentichi del tutto?"
 
 Vi dà tre doni: un rametto di quercia per la fortuna, una focaccia d'avena e miele da
 condividere e un gomitolo di lana rossa. Poi sorride. "Qui non si vince essendo i più
-forti. Si vince essendo astuti, coraggiosi e gentili."
+forti. Si vince con coraggio, gentilezza e tante idee."
 
-*Qual è il vostro nome da eroe? Siete eroi di Astuzia, di Coraggio o di Gentilezza?*
+*Qual è il vostro nome da eroe? Siete eroi di Immaginazione, di Coraggio o di Gentilezza?*
 
 ## Tappa 1: L'Indovinello del Salmone
 
@@ -76,5 +76,5 @@ seguendo la lana rossa fino a casa. La nebbia si apre. Ecco la riva verde, lumin
 sotto il sole del mattino, la vostra amica salva e sorridente accanto a voi.
 
 Siete tornati a casa insieme, e ora avete anche un'amica selkie. In alto sulle verdi
-colline, Danu la Gentile vi sorride. Ce l'avete fatta. Siete stati astuti, siete
-stati coraggiosi e, soprattutto, siete stati gentili. Ben fatto, eroi.
+colline, Danu la Gentile vi sorride. Ce l'avete fatta. Siete stati coraggiosi, siete
+stati gentili e, soprattutto, pieni di idee. Ben fatto, eroi.

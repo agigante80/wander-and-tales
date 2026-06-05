@@ -2,7 +2,7 @@
 
 *Para vuestros ojos, no para los niños. Cada parada indica su nivel, lo que los
 jugadores deben averiguar, la solución prevista y un apoyo amable para que un niño
-atascado siempre avance. Más de una buena idea debería valer; premiad el ingenio y
+atascado siempre avance. Más de una buena idea debería valer; premiad las ideas nuevas y
 la amabilidad por encima de la respuesta "correcta".*
 
 ## Parada 1: La Plaza con Niebla (Fácil)
@@ -26,7 +26,7 @@ su confianza y recupera una estrella de energía.
 **El reto.** Tres senderos suben hacia la niebla y todos se ven iguales. Los jugadores
 deben encontrar el que lleva al Templo de Atenea.
 
-**Solución prevista.** Es un momento de Observación y Lógica. La jugada lista es mirar
+**Solución prevista.** Es un momento de Observación y Lógica. La buena idea es mirar
 hacia abajo y seguir el rastro de plumas grises y suaves que Glaux fue soltando al
 caer. Pedirle una pista a **Zarza el Sátiro**, o dejar que el propio búho vuelva la
 cabeza hacia casa, vale igual de bien.
@@ -51,7 +51,7 @@ En cuanto le ofrecen ayuda de cualquier clase, el pequeño búho alcanza su perc
 
 ## El final
 
-No hay batalla ni perdedor. Cuando Glaux está sano y salvo en casa, la sabia
+No hay batalla ni perdedor. Cuando Glaux está sano y salvo en casa, la buena
 **Atenea** abre sus ojos grises y serenos, la niebla de la mañana se levanta y el sol
 cae cálido y dorado sobre el **Pueblo de los Olivos**. Los héroes han ganado de la
-única manera en que se gana aquí: siendo listos, valientes y amables.
+única manera en que se gana aquí: siendo valientes, amables y con muchas ideas.

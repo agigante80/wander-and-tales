@@ -2,7 +2,7 @@
 
 *Per i vostri occhi, non per i bambini. Ogni tappa indica il suo livello, ciò che i
 giocatori devono scoprire, la soluzione prevista e un aiuto gentile perché un bambino
-bloccato vada sempre avanti. Più di una buona idea dovrebbe valere; premiate l'ingegno
+bloccato vada sempre avanti. Più di una buona idea dovrebbe valere; premiate l'immaginazione
 e la gentilezza più della risposta "giusta".*
 
 ## Tappa 1: La Nebbia Grigia (Facile)
@@ -10,8 +10,8 @@ e la gentilezza più della risposta "giusta".*
 **La sfida.** Una fitta nebbia grigia nasconde i quattro bambini cigno sul lago. I
 giocatori devono trovarli e avvicinarsi senza spaventarli.
 
-**Soluzione prevista.** È un momento di Gentilezza e Osservazione. La mossa
-intelligente e gentile è rallentare del tutto: restare fermi e ascoltare
+**Soluzione prevista.** È un momento di Gentilezza e Osservazione. La buona mossa
+gentile è rallentare del tutto: restare fermi e ascoltare
 un'increspatura o un dolce fruscio di piume, e poi chiamare con dolcezza e calore
 perché i cigni sappiano che è arrivato un amico. Gli avvicinamenti rumorosi o
 improvvisi fanno ritrarre i cigni nella nebbia; uno calmo e gentile li fa uscire
@@ -78,4 +78,4 @@ Non c'è battaglia né perdente, e non c'è mai stato un nemico, solo quattro ba
 cigno timidi che avevano perso la loro canzone. Quando la ninnananna torna, la nebbia
 grigia si solleva nel rosa e nell'oro, Il Cerchio di Pietre canticchia, e Danu la
 Gentile sorride sul lago. Gli eroi hanno vinto nell'unico modo in cui si vince qui:
-essendo ingegnosi, coraggiosi e gentili.
+essendo coraggiosi, gentili e pieni di idee.

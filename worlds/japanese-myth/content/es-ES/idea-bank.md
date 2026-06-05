@@ -2,7 +2,7 @@
 
 *Sugerencias de improvisación para la persona adulta. Cuando los niños quieran probar
 algo que la página no había previsto, echad mano de esto. Ninguna idea es una
-respuesta equivocada; todo se inclina hacia la calma, el ingenio y que nadie pierda.*
+respuesta equivocada; todo se inclina hacia la calma, la imaginación y que nadie pierda.*
 
 ## Si los héroes se atascan
 

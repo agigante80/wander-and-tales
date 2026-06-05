@@ -15,8 +15,8 @@ está llorando.
 me dio mi abuela. La traje todo este largo camino, y ahora ya no está, en algún
 lugar de la costa ventosa. Zarpamos al atardecer. No puedo dejarla atrás."
 
-Odiseo el Astuto se arrodilla a vuestro lado. "Un amigo está triste y un tesoro se
-ha perdido", dice. "Ese es un trabajo para cabezas astutas y corazones fieles.
+Odiseo el Brillante se arrodilla a vuestro lado. "Un amigo está triste y un tesoro se
+ha perdido", dice. "Ese es un trabajo para buenas ideas y corazones fieles.
 ¿Iréis a buscarlo antes de que zarpen las naves?"
 
 Os da tres regalos: La Caracola, La Cesta de Miel e Higos y El Hilo de Penélope.
@@ -26,7 +26,7 @@ no para de menearse.
 "Este es Argos el Sabueso Fiel", dice Odiseo. "Nunca olvida a un amigo ni un olor.
 Seguid su nariz, seguíos los unos a los otros y no dejéis a nadie atrás."
 
-*¿Cuál es vuestro nombre de héroe? ¿Seréis héroes de Astucia, de Valor o de
+*¿Cuál es vuestro nombre de héroe? ¿Seréis héroes de Imaginación, de Valor o de
 Lealtad?*
 
 ## Parada 1: Siguiendo a Argos
@@ -85,8 +85,8 @@ buen recaudo. Cuando Lykos lo ve, su cara se ilumina como el amanecer.
 "¡Lo habéis encontrado! ¡Habéis vuelto a por él!", grita, y abraza la pequeña
 prenda, y luego abraza a Argos, que menea el rabo tan fuerte que casi se cae.
 
-Odiseo el Astuto sonríe y dice: "No habéis dejado a un amigo atrás. Esa es la
-astucia más verdadera que existe." Allá en las olas brillantes, Tetis, la Madre del
+Odiseo el Brillante sonríe y dice: "No habéis dejado a un amigo atrás. Esa es la
+mejor idea que existe." Allá en las olas brillantes, Tetis, la Madre del
 Mar, alza su rostro amable y os sonríe.
 
 Las naves ya pueden zarpar a casa, con cada amigo y cada tesoro a salvo a bordo.

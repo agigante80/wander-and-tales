@@ -14,9 +14,9 @@ time to sail home across the Wine-Dark Sea, all the way back to the Weaving Hall
 where a warm fire, a homecoming feast, and old friends had been waiting through all
 the long years away.
 
-Odysseus the Clever walked the two of you down to where the ships lay beached on
+Odysseus the Bright walked the two of you down to where the ships lay beached on
 the long sand. "It is a long way home," he said, looking out at the wide and
-restless water, "and the sea keeps its own counsel. But you are clever, you are
+restless water, "and the sea keeps its own counsel. But you are full of ideas, you are
 brave, and you keep faith with your friends, and that is worth more on a voyage
 than a hold full of treasure."
 
@@ -24,10 +24,10 @@ Into your hands he pressed three gifts for the road: a great spiral Conch Horn t
 sounded a warm, calling note across the water; a Basket of Honey and Figs to share
 with any wary stranger; and a ball of strong weaving thread, Penelope's Thread,
 which always leads a traveller home. "Remember," he said, "out on the wide sea we
-do not win by being the strongest. We win by being clever, by being brave, and by
-keeping faith."
+do not win by being the strongest. We win by being brave, by keeping faith, and by
+being full of ideas."
 
-*What is your hero name? Which quality will you carry on the voyage: Cleverness,
+*What is your hero name? Which quality will you carry on the voyage: Imagination,
 Courage, or Loyalty?*
 
 ## Stop 1: The Isle of Winds
@@ -39,15 +39,15 @@ of the Winds, who kept every gust and gale of the whole world tied up safely ins
 a great leather wind-bag.
 
 Aeolus met you with a friendly face, but he was a careful host. He would lend a
-fair wind, he explained, only to travellers who asked him cleverly and courteously,
+fair wind, he explained, only to travellers who asked him with a good idea and courteously,
 and who were not greedy enough to go peeking after more than they needed. "Ask me
 well," he said, with a twinkle, "and give me your word you will never untie the
 wind-bag to peep inside it. The wind is a gift, not a treasure to be hoarded."
 
-*How will you ask Aeolus for a fair wind? Can you find clever, courteous words, and
+*How will you ask Aeolus for a fair wind? Can you find good, courteous words, and
 perhaps a promise that you will not peek inside the bag? What is your plan?*
 
-When you asked him cleverly and kindly, and gave your word, Aeolus threw back his
+When you asked him with a good idea and kindly, and gave your word, Aeolus threw back his
 head and laughed with delight. He gathered a gentle westerly wind in his hands and
 tied it softly into your sail. "A fair wind for friends who know how to ask," he
 said, and the bronze cliffs sank away behind you as your ship leapt forward over
@@ -114,5 +114,5 @@ Hound would not be parted from your side, not for one single moment.
 Far out over the calm and shining sea, Thetis the Sea-Mother looked up from the
 gentle waves and smiled. You had crossed the whole wide Wine-Dark Sea, from the
 windswept shores of Troy to your own warm door, and you had done it together: with
-your cleverness, with your courage, and above all by keeping faith with one another.
+your courage, with your imagination, and above all by keeping faith with one another.
 Well done, heroes of the windswept shores. Welcome home.
