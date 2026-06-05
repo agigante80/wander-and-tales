@@ -14,9 +14,10 @@ def test_render_builds_a_tale_book(sample_repo, tmp_path, capsys):
         "--out-dir", str(tmp_path),
     ])
     assert code == 0
-    expected = tmp_path / "en-GB" / "floating-isles" / "sleeping-garden" / "tale-book-simple-v0.0.pdf"
+    name = "floating-isles-sleeping-garden-tale-book-simple-en-GB-v0.0.pdf"
+    expected = tmp_path / "en-GB" / "floating-isles" / "sleeping-garden" / name
     assert expected.is_file()
-    assert "tale-book-simple-v0.0.pdf" in capsys.readouterr().out
+    assert name in capsys.readouterr().out
 
 
 def test_render_guide_builds_under_guides_with_version(sample_repo, tmp_path):
@@ -49,7 +50,8 @@ def test_render_atlas_builds(sample_repo, tmp_path):
     ])
     assert code == 0
     assert (
-        tmp_path / "en-GB" / "floating-isles" / "sleeping-garden" / "atlas-v0.0.pdf"
+        tmp_path / "en-GB" / "floating-isles" / "sleeping-garden"
+        / "floating-isles-sleeping-garden-atlas-en-GB-v0.0.pdf"
     ).is_file()
 
 
@@ -61,7 +63,10 @@ def test_render_world_builds(sample_repo, tmp_path):
         "--world", "floating-isles", "--locale", "en-GB", "--out-dir", str(tmp_path),
     ])
     assert code == 0
-    assert (tmp_path / "en-GB" / "floating-isles" / "world-book-v0.0.pdf").is_file()
+    assert (
+        tmp_path / "en-GB" / "floating-isles"
+        / "floating-isles-world-book-en-GB-v0.0.pdf"
+    ).is_file()
 
 
 def test_rebuild_builds_the_library_and_rewrites_readme(sample_repo):
@@ -75,7 +80,8 @@ def test_rebuild_builds_the_library_and_rewrites_readme(sample_repo):
     code = main(["rebuild", "--root", str(sample_repo), "--out-dir", str(sample_repo / "kits")])
     assert code == 0
     assert (
-        sample_repo / "kits" / "en-GB" / "floating-isles" / "world-book-v0.0.pdf"
+        sample_repo / "kits" / "en-GB" / "floating-isles"
+        / "floating-isles-world-book-en-GB-v0.0.pdf"
     ).is_file()
     readme = (sample_repo / "README.md").read_text(encoding="utf-8")
     assert "The Sleeping Garden" in readme

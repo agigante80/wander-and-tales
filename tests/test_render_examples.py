@@ -72,7 +72,10 @@ def test_example_heroes_pdf_has_one_page_per_hero(sample_repo, tmp_path):
     out = examples.build_example_heroes(
         sample_repo, "floating-isles", "en-GB", out_dir=tmp_path
     )
-    assert out == tmp_path / "en-GB" / "floating-isles" / "example-heroes-v0.0.pdf"
+    assert out == (
+        tmp_path / "en-GB" / "floating-isles"
+        / "floating-isles-example-heroes-en-GB-v0.0.pdf"
+    )
     assert out.read_bytes().startswith(b"%PDF")
     assert len(PdfReader(str(out)).pages) == 4
 

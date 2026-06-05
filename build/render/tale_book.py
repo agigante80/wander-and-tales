@@ -116,7 +116,7 @@ def build_tale_book(
 
         out_path = (
             out_dir / locale / world_id / story_id
-            / f"tale-book-{reading_level}-{version_info.label}.pdf"
+            / f"{world_id}-{story_id}-tale-book-{reading_level}-{locale}-{version_info.label}.pdf"
         )
         _merge(parts, out_path)
 

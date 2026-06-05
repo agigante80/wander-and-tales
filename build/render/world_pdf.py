@@ -151,7 +151,10 @@ def build_world_pdf(
         colo = colophon.colophon_flowables(styles, locale, version_info, label, qr)
         parts.append(pages.render_flowables(colo, tmp_path / "90_colophon.pdf", world))
 
-        out_path = out_dir / locale / world_id / f"world-book-{version_info.label}.pdf"
+        out_path = (
+            out_dir / locale / world_id
+            / f"{world_id}-world-book-{locale}-{version_info.label}.pdf"
+        )
         _merge(parts, out_path)
 
     footer.stamp_footers(

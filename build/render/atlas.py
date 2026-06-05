@@ -140,7 +140,8 @@ def build_atlas(
         parts.append(pages.render_flowables(colo, tmp_path / "90_colophon.pdf", world))
 
         out_path = (
-            out_dir / locale / world_id / story_id / f"atlas-{version_info.label}.pdf"
+            out_dir / locale / world_id / story_id
+            / f"{world_id}-{story_id}-atlas-{locale}-{version_info.label}.pdf"
         )
         _merge(parts, out_path)
 
