@@ -4,6 +4,7 @@ title:
   en-GB: The Moura's Lost Comb
   es-ES: El Peine Perdido de la Moura
   it-IT: Il Pettine Perduto della Moura
+  pt-PT: O Pente Perdido da Moura
 age:
   recommended: older
   also_works_for: [young]
@@ -35,6 +36,7 @@ images:
       en-GB: Young heroes arriving at a village square fountain that has gone still and grey, with worried villagers and white houses with blue tiles around them.
       es-ES: Jóvenes héroes llegando a la fuente de una plaza cuya agua se ha quedado quieta y gris, con vecinos preocupados y casas blancas con azulejos alrededor.
       it-IT: Giovani eroi che arrivano alla fontana di una piazza la cui acqua si è fatta ferma e grigia, con paesani preoccupati e case bianche con piastrelle azzurre intorno.
+      pt-PT: Jovens heróis a chegar à fonte de uma praça cuja água ficou parada e cinzenta, com moradores preocupados e casas brancas com azulejos à volta.
   - id: scene-the-quiet-spring
     role: scene
     orientation: landscape
@@ -47,6 +49,7 @@ images:
       en-GB: A clear hillside spring among mossy stones, a serene enchanted maiden sitting sadly at its edge with her long hair uncombed.
       es-ES: Un manantial claro entre piedras con musgo en las colinas, con una serena doncella encantada sentada con tristeza en el borde y su larga cabellera sin peinar.
       it-IT: Una sorgente limpida tra pietre muschiose sulle colline, con una serena fanciulla incantata seduta con tristezza sul bordo e i lunghi capelli spettinati.
+      pt-PT: Uma fonte límpida entre pedras com musgo nas colinas, com uma serena donzela encantada sentada com tristeza na borda e os longos cabelos despenteados.
   - id: scene-the-stepping-stones
     role: scene
     orientation: landscape
@@ -59,6 +62,7 @@ images:
       en-GB: A line of mossy stepping stones across a stream, each carved with a small symbol, a faint shiny glint leading off among the ferns.
       es-ES: Una hilera de piedras con musgo para cruzar un arroyo, cada una grabada con un pequeño símbolo, y un leve destello brillante que se aleja entre los helechos.
       it-IT: Una fila di pietre muschiose per attraversare un ruscello, ognuna incisa con un piccolo simbolo, e un debole luccichio che si allontana fra le felci.
+      pt-PT: Uma fila de pedras com musgo para atravessar um ribeiro, cada uma gravada com um pequeno símbolo, e um ténue brilho que se afasta por entre os fetos.
   - id: scene-the-trasgo-nook
     role: scene
     orientation: landscape

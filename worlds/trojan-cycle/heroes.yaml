@@ -95,12 +95,13 @@
     en-GB: the Windswept Shores of Troy
     es-ES: las Costas Ventosas de Troya
     it-IT: le Coste Ventose di Troia
+    pt-PT: as Costas Ventosas de Troia
   magics: [courage, imagination, loyalty]
   energy: 4
   carry:
-    - { en-GB: a sturdy oar, es-ES: un remo resistente, it-IT: un solido remo }
-    - { en-GB: a reed flute, es-ES: una flauta de caña, it-IT: un flauto di canna }
-    - { en-GB: a basket of figs, es-ES: una cesta de higos, it-IT: un cesto di fichi }
+    - { en-GB: a sturdy oar, es-ES: un remo resistente, it-IT: un solido remo, pt-PT: um remo resistente }
+    - { en-GB: a reed flute, es-ES: una flauta de caña, it-IT: un flauto di canna, pt-PT: uma flauta de cana }
+    - { en-GB: a basket of figs, es-ES: una cesta de higos, it-IT: un cesto di fichi, pt-PT: um cesto de figos }
   image:
     id: hero-linos
     role: hero
@@ -113,3 +114,4 @@
       en-GB: A steady older seafaring hero in a sailor's cloak leaning on a sturdy oar beside a beached ship, the sea and a distant city wall behind.
       es-ES: Un héroe marinero mayor y firme con capa apoyado en un remo resistente junto a una nave varada, con el mar y una muralla lejana detrás.
       it-IT: Un eroe marinaro più grande e saldo con un mantello appoggiato a un solido remo accanto a una nave in secca, con il mare e una muraglia lontana dietro.
+      pt-PT: Um herói marinheiro mais velho e firme, de capa, apoiado num remo resistente junto a uma nau encalhada, com o mar e uma muralha distante atrás.

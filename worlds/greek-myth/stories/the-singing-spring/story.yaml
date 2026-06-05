@@ -4,6 +4,7 @@ title:
   en-GB: The Singing Spring
   es-ES: La Fuente Cantarina
   it-IT: La Fonte Canterina
+  pt-PT: A Fonte Cantora
 age:
   recommended: older
   also_works_for: [young]
@@ -34,6 +35,7 @@ images:
       en-GB: Two young heroes setting out from a little white Greek town at dawn, a hill road climbing toward marble gates and a mountain.
       es-ES: Dos jóvenes héroes saliendo de un pueblecito blanco griego al amanecer, con un camino de colina que sube hacia unas puertas de mármol y una montaña.
       it-IT: Due giovani eroi che partono all'alba da un piccolo paese bianco della Grecia, con una strada di collina che sale verso porte di marmo e una montagna.
+      pt-PT: Dois jovens heróis a partir ao amanhecer de uma pequena vila branca da Grécia, com uma estrada de colina a subir em direção a portões de mármore e a uma montanha.
   - id: scene-riddle-gate
     role: scene
     orientation: landscape
@@ -46,6 +48,7 @@ images:
       en-GB: A friendly winged sphinx on sunlit marble steps tilting her kind face, two small heroes thinking below.
       es-ES: Una esfinge alada amable en unos escalones de mármol soleados, inclinando su rostro bondadoso, con dos héroes pequeños pensando debajo.
       it-IT: Una sfinge alata gentile su gradini di marmo assolati che inclina il suo volto buono, con due piccoli eroi che pensano sotto di lei.
+      pt-PT: Uma esfinge alada e meiga em escadas de mármore soalheiras a inclinar o seu rosto bondoso, com dois pequenos heróis a pensar por baixo dela.
   - id: scene-winding-maze
     role: scene
     orientation: landscape
@@ -59,6 +62,7 @@ images:
       en-GB: Two heroes in a sunlit stone maze trailing a glowing golden thread, a cheerful satyr pointing the way.
       es-ES: Dos héroes en un laberinto de piedra soleado dejando tras de sí un hilo dorado brillante, con un sátiro alegre señalando el camino.
       it-IT: Due eroi in un labirinto di pietra assolato che si lasciano dietro un filo dorato luminoso, con un satiro allegro che indica la via.
+      pt-PT: Dois heróis num labirinto de pedra soalheiro a deixar atrás de si um fio dourado luminoso, com um sátiro alegre a indicar o caminho.
   - id: scene-the-cyclops
     role: scene
     orientation: landscape
@@ -71,6 +75,7 @@ images:
       en-GB: A huge gentle one-eyed giant by a cave looking shy and sad, two small heroes offering a honey cake with kind smiles.
       es-ES: Un gigante amable de un solo ojo junto a una cueva con aire tímido y triste, mientras dos héroes pequeños le ofrecen un pastel de miel con sonrisas amables.
       it-IT: Un enorme gigante gentile con un solo occhio accanto a una grotta, dall'aria timida e triste, mentre due piccoli eroi gli offrono una focaccia al miele con sorrisi gentili.
+      pt-PT: Um gigante enorme e meigo de um só olho ao pé de uma gruta, com ar tímido e triste, enquanto dois pequenos heróis lhe oferecem um bolo de mel com sorrisos meigos.
   - id: scene-spring-wakes
     role: scene
     orientation: landscape
@@ -83,3 +88,4 @@ images:
       en-GB: A clear spring bursting back to life, gentle water nymphs singing in the spray, a hero playing a little lyre as the giant smiles.
       es-ES: Una fuente clara que vuelve a la vida, con ninfas de agua cantando entre el rocío, mientras una heroína toca una pequeña lira y el gigante sonríe.
       it-IT: Una fonte limpida che torna alla vita, con gentili ninfe d'acqua che cantano tra gli spruzzi, mentre un'eroina suona una piccola lira e il gigante sorride.
+      pt-PT: Uma fonte límpida que volta à vida, com meigas ninfas de água a cantar entre os salpicos, enquanto uma heroína toca uma pequena lira e o gigante sorri.

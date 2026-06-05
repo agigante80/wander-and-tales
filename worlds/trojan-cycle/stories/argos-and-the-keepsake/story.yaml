@@ -4,6 +4,7 @@ title:
   en-GB: Argos and the Lost Keepsake
   es-ES: Argos y el Recuerdo Perdido
   it-IT: Argo e il Ricordo Perduto
+  pt-PT: Argos e a Lembrança Perdida
 age:
   recommended: young
   also_works_for: [early]
@@ -33,6 +34,7 @@ images:
       en-GB: Two young seafaring heroes following a loyal old hound along a windswept sandy shore at golden hour, beached ships and a distant city wall behind.
       es-ES: Dos jóvenes héroes marineros que siguen a un viejo y fiel sabueso por una orilla de arena ventosa al atardecer dorado, con naves varadas y una muralla lejana detrás.
       it-IT: Due giovani eroi marinari che seguono un vecchio e fedele cane lungo una riva di sabbia ventosa nell'ora dorata, con navi in secca e una muraglia lontana dietro.
+      pt-PT: Dois jovens heróis marinheiros que seguem um velho e fiel cão por uma praia de areia ventosa na hora dourada, com naus encalhadas e uma muralha distante atrás.
   - id: scene-following-argos
     role: scene
     orientation: landscape
@@ -45,6 +47,7 @@ images:
       en-GB: A loyal old hound nose-down following a trail along a sandy beach, two small heroes close behind reading the tracks, ships beached nearby.
       es-ES: Un viejo y fiel sabueso que sigue un rastro con el hocico pegado a la arena, con dos héroes pequeños detrás leyendo las huellas y naves varadas cerca.
       it-IT: Un vecchio e fedele cane che segue una traccia con il naso a terra su una spiaggia di sabbia, con due piccoli eroi dietro che leggono le orme e navi in secca lì vicino.
+      pt-PT: Um velho e fiel cão que segue um rasto com o focinho rente à areia numa praia, com dois pequenos heróis atrás a ler as pegadas e naus encalhadas ali perto.
   - id: scene-tide-pools
     role: scene
     orientation: landscape
@@ -57,6 +60,7 @@ images:
       en-GB: Two small heroes searching among sunlit rock pools near the beached ships, sorting shells and looking carefully, an old hound watching.
       es-ES: Dos héroes pequeños que buscan entre charcas de roca soleadas junto a las naves varadas, ordenando conchas y mirando con atención, mientras un viejo sabueso observa.
       it-IT: Due piccoli eroi che cercano tra pozze di scoglio assolate vicino alle navi in secca, ordinando conchiglie e guardando con attenzione, mentre un vecchio cane osserva.
+      pt-PT: Dois pequenos heróis que procuram entre poças de rocha soalheiras junto às naus encalhadas, a separar conchas e a olhar com atenção, enquanto um velho cão observa.
   - id: scene-far-dune
     role: scene
     orientation: landscape
@@ -69,6 +73,7 @@ images:
       en-GB: A loyal old hound gently digging a small carved keepsake out of the sand by a lonely dune, two small heroes kneeling delighted beside him.
       es-ES: Un viejo y fiel sabueso que desentierra con cuidado un pequeño recuerdo tallado de la arena junto a una duna solitaria, con dos héroes pequeños arrodillados a su lado, encantados.
       it-IT: Un vecchio e fedele cane che dissotterra con delicatezza un piccolo ricordo intagliato dalla sabbia accanto a una duna solitaria, con due piccoli eroi inginocchiati accanto, felici.
+      pt-PT: Um velho e fiel cão que desenterra com cuidado uma pequena lembrança talhada da areia junto a uma duna solitária, com dois pequenos heróis ajoelhados ao seu lado, encantados.
   - id: scene-nobody-left-behind
     role: scene
     orientation: landscape

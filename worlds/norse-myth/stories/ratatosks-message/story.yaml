@@ -4,6 +4,7 @@ title:
   en-GB: Ratatosk's Muddled Message
   es-ES: El Mensaje Enredado de Ratatosk
   it-IT: Il Messaggio Imbrogliato di Ratatosk
+  pt-PT: A Mensagem Baralhada de Ratatosk
 age:
   recommended: young
   also_works_for: [early]
@@ -33,6 +34,7 @@ images:
       en-GB: Two young heroes at the foot of an enormous snowy world tree, a red squirrel scurrying down with tangled message scrolls, two ravens above.
       es-ES: Dos jóvenes héroes al pie de un enorme árbol del mundo nevado, con una ardilla roja que baja a toda prisa con un fajo de mensajes enredados y dos cuervos volando arriba.
       it-IT: Due giovani eroi ai piedi di un enorme albero del mondo innevato, con uno scoiattolo rosso che scende in fretta con un fascio di messaggi aggrovigliati e due corvi che volano sopra.
+      pt-PT: Dois jovens heróis ao pé de uma enorme árvore do mundo nevada, com um esquilo vermelho que desce a correr com um molho de mensagens emaranhadas e dois corvos a voar por cima.
   - id: scene-catch-squirrel
     role: scene
     orientation: landscape
@@ -45,6 +47,7 @@ images:
       en-GB: Two small heroes gently coaxing a flustered red squirrel to stop, holding out a snack, message scrolls scattered in the snow.
       es-ES: Dos héroes pequeños que con dulzura convencen a una ardilla roja nerviosa para que se detenga, ofreciéndole una golosina, con mensajes esparcidos por la nieve.
       it-IT: Due piccoli eroi che con dolcezza convincono uno scoiattolo rosso agitato a fermarsi, offrendogli uno spuntino, con messaggi sparsi nella neve.
+      pt-PT: Dois pequenos heróis que com doçura convencem um esquilo vermelho nervoso a parar, oferecendo-lhe um petisco, com mensagens espalhadas pela neve.
   - id: scene-sort-messages
     role: scene
     orientation: landscape
@@ -57,6 +60,7 @@ images:
       en-GB: Two small heroes and a red squirrel sorting little message scrolls laid out on the snow, matching each to a picture.
       es-ES: Dos héroes pequeños y una ardilla roja que ordenan una fila de mensajitos enrollados sobre la nieve, emparejando cada uno con un dibujo.
       it-IT: Due piccoli eroi e uno scoiattolo rosso che ordinano una fila di messaggini arrotolati sulla neve, abbinando ciascuno a un disegno.
+      pt-PT: Dois pequenos heróis e um esquilo vermelho que ordenam uma fila de mensagens enroladas sobre a neve, fazendo corresponder cada uma a um desenho.
   - id: scene-climb-deliver
     role: scene
     orientation: landscape
@@ -69,6 +73,7 @@ images:
       en-GB: Two small heroes climbing the snowy branches of the great world tree to deliver a scroll, two friendly ravens guiding the way.
       es-ES: Dos héroes pequeños que trepan por las ramas nevadas del gran árbol del mundo para entregar un mensaje, con dos cuervos amables que les guían.
       it-IT: Due piccoli eroi che si arrampicano sui rami innevati del grande albero del mondo per consegnare un messaggio, con due corvi gentili che indicano la via.
+      pt-PT: Dois pequenos heróis que sobem pelos ramos nevados da grande árvore do mundo para entregar uma mensagem, com dois corvos gentis a indicar o caminho.
   - id: scene-friends-again
     role: scene
     orientation: landscape
@@ -81,3 +86,4 @@ images:
       en-GB: A great eagle high in the world tree and a small friend among the roots, reconciled and waving, a happy squirrel between them and two heroes cheering.
       es-ES: Una gran águila en lo alto del árbol del mundo y un pequeño amigo entre las raíces, reconciliados y saludándose con cariño, con una ardilla feliz en medio y dos héroes que animan.
       it-IT: Una grande aquila in cima all'albero del mondo e un piccolo amico tra le radici, riconciliati e che si salutano con calore, con uno scoiattolo felice in mezzo e due eroi che esultano.
+      pt-PT: Uma grande águia no alto da árvore do mundo e um pequeno amigo entre as raízes, reconciliados e a acenar com carinho, com um esquilo feliz no meio e dois heróis a festejar.

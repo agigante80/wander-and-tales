@@ -61,6 +61,7 @@ images:
       en-GB: Three mossy archway doorways of oak branches in a misty grove, a playful faerie above giving a clue, two small heroes thinking which leads on.
       es-ES: Tres arcos de musgo formados con ramas de roble en un claro brumoso, un duende travieso encima que da una pista y dos héroes pequeños pensando cuál es el bueno.
       it-IT: Tre archi di muschio formati da rami di quercia in una radura nebbiosa, un folletto burlone sopra che dà un indizio e due piccoli eroi che pensano quale porti avanti.
+      pt-PT: Três arcos de musgo formados por ramos de carvalho numa clareira enevoada, um duende brincalhão por cima que dá uma pista e dois pequenos heróis a pensar qual é o caminho certo.
   - id: scene-catching-pook
     role: scene
     orientation: landscape
@@ -73,6 +74,7 @@ images:
       en-GB: Two small heroes sharing a honey oatcake with a small sheepish shapeshifting faerie on a mossy log, all smiling kindly.
       es-ES: Dos héroes pequeños que comparten una torta de avena y miel con un pequeño duende cambiaformas avergonzado sobre un tronco con musgo, todos sonriendo con amabilidad.
       it-IT: Due piccoli eroi che condividono una focaccia d'avena e miele con un piccolo folletto mutaforma imbarazzato su un tronco muschioso, tutti con sorrisi gentili.
+      pt-PT: Dois pequenos heróis a partilhar um bolo de aveia e mel com um pequeno duende mutável e envergonhado sobre um tronco com musgo, todos a sorrir com bondade.
   - id: scene-paths-run-true
     role: scene
     orientation: landscape
@@ -85,3 +87,4 @@ images:
       en-GB: A clear bright path through a sunlit oak grove, cheerful villagers heading to a May fair, a gentle goddess smiling from the green hills, two heroes waving.
       es-ES: Un sendero claro y luminoso por un robledal soleado, con aldeanos alegres que van a una feria de mayo, una diosa amable que sonríe desde las colinas verdes y dos héroes que saludan.
       it-IT: Un sentiero chiaro e luminoso in un querceto assolato, con allegri abitanti che vanno a una fiera di maggio, una dea gentile che sorride dalle colline verdi e due eroi che salutano.
+      pt-PT: Um caminho claro e luminoso por um carvalhal soalheiro, com aldeões alegres a caminho de uma feira de maio, uma deusa meiga a sorrir das colinas verdes e dois heróis a acenar.

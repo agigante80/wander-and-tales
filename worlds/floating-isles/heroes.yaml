@@ -91,12 +91,13 @@
     en-GB: the Floating Isles
     es-ES: las Islas Flotantes
     it-IT: delle Isole Volanti
+    pt-PT: das Ilhas Flutuantes
   magics: [magic-voice, magic-grow, magic-light]
   energy: 4
   carry:
-    - { en-GB: a wooden flute, es-ES: una flauta de madera, it-IT: un flauto di legno }
-    - { en-GB: a jar of seeds, es-ES: un tarro de semillas, it-IT: un barattolo di semi }
-    - { en-GB: a smooth river stone, es-ES: una piedra lisa de río, it-IT: una liscia pietra di fiume }
+    - { en-GB: a wooden flute, es-ES: una flauta de madera, it-IT: un flauto di legno, pt-PT: uma flauta de madeira }
+    - { en-GB: a jar of seeds, es-ES: un tarro de semillas, it-IT: un barattolo di semi, pt-PT: um frasco de sementes }
+    - { en-GB: a smooth river stone, es-ES: una piedra lisa de río, it-IT: una liscia pietra di fiume, pt-PT: uma pedra lisa de rio }
   image:
     id: hero-bram
     role: hero
@@ -108,3 +109,4 @@
       en-GB: A kind older mage with a satchel and a small bird perched trustingly on one shoulder.
       es-ES: Un mago mayor y amable con un zurrón y un pajarito posado con confianza en el hombro.
       it-IT: Un mago più grande e gentile con una bisaccia e un uccellino posato con fiducia sulla spalla.
+      pt-PT: Um mago mais velho e gentil com uma bolsa e um passarinho pousado com confiança no ombro.
