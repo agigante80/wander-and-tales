@@ -72,6 +72,12 @@ una ficha de aventura para cada jugador, ten el **Cuaderno para la persona adult
 abierto a tu lado y lee la historia en voz alta, mostrando cada imagen al llegar a ese
 lugar.
 
+**¿Sin impresora? No pasa nada.** Nunca hace falta imprimirlo todo. Puedes leer la
+historia desde una pantalla, y el mapa y las fichas de aventura son fáciles de hacer a
+mano: un niño puede dibujar su propia ficha de héroe en cualquier papel, y el mapa se
+puede dibujar, o simplemente montar en la mesa con monedas y botones. Hacerlos juntos es
+una bonita primera parte de la aventura.
+
 ## La ficha de aventura
 
 La última página de cada Cuaderno de la historia es una **ficha de aventura**, donde

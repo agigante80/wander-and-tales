@@ -75,6 +75,12 @@ una scheda d'avventura per ogni giocatore, tieni il **Quaderno per l'adulto** ap
 accanto a te e leggi la storia ad alta voce, mostrando ogni illustrazione quando
 arrivate in quel luogo.
 
+**Niente stampante? Nessun problema.** Non serve mai stampare tutto. Puoi leggere la
+storia da uno schermo, e la mappa e le schede d'avventura sono facili da fare a mano: un
+bambino può disegnare la propria scheda dell'eroe su un foglio qualsiasi, e la mappa si
+può disegnare, oppure costruire direttamente sul tavolo con monete e bottoni. Crearle
+insieme è un bel primo pezzo dell'avventura.
+
 ## La scheda d'avventura
 
 L'ultima pagina di ogni Quaderno della storia è una **scheda d'avventura**, dove ogni
