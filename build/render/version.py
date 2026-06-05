@@ -27,6 +27,8 @@ _RENDER_SOURCES = (
     "build/render/pages.py",
     "build/render/kit.py",
     "build/render/playbook.py",
+    "build/render/tale_book.py",
+    "build/render/atlas.py",
     "build/render/world_pdf.py",
     "build/render/examples.py",
     "build/render/flowables.py",
@@ -153,6 +155,47 @@ def playbook_inputs(
         story_dir / "content" / locale / "puzzles.md",
         world_dir / "world.yaml",
     ]
+
+
+def tale_book_inputs(
+    root: Path, world_id: str, story_id: str, locale: str, level: str
+) -> list[Path]:
+    """The Tale Book reads the narration for this level, the rules and puzzles, and
+    story.yaml plus world.yaml. No images: those live in the Atlas."""
+    world_dir = root / "worlds" / world_id
+    story_dir = world_dir / "stories" / story_id
+    narration = {"simple": "narration.simple.md", "rich": "narration.rich.md"}[level]
+    return [
+        story_dir / "story.yaml",
+        story_dir / "content" / locale / narration,
+        story_dir / "content" / locale / "rules.md",
+        story_dir / "content" / locale / "puzzles.md",
+        world_dir / "world.yaml",
+    ]
+
+
+def atlas_inputs(
+    root: Path, world_id: str, story_id: str, locale: str
+) -> list[Path]:
+    """The Atlas reads story.yaml and world.yaml, the map resolved for this locale (or
+    the simple narration the generated map reads), and the cover and scene images."""
+    from build import content
+    from build.render import map as kit_map
+
+    world_dir = root / "worlds" / world_id
+    story_dir = world_dir / "stories" / story_id
+    paths = [story_dir / "story.yaml", world_dir / "world.yaml"]
+    resolved_map = kit_map.find_map(world_dir, story_dir, locale)
+    if resolved_map is not None:
+        paths.append(resolved_map)
+    else:
+        paths.append(story_dir / "content" / locale / "narration.simple.md")
+    story_yaml = story_dir / "story.yaml"
+    if story_yaml.is_file():
+        for image in content.load_story(story_yaml).images:
+            if image.role in ("cover", "scene"):
+                paths.append(story_dir / "assets" / f"{image.id}.png")
+    return paths
 
 
 def world_book_inputs(root: Path, world_id: str, locale: str) -> list[Path]:
