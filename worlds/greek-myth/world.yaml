@@ -4,6 +4,7 @@ name:
   es-ES: Las Colinas Soleadas de Grecia
   it-IT: Le Colline Assolate della Grecia
 tone: sunlit heroism
+hero_powers: strength
 palette:
   - "#fdf6e3"  # warm parchment background
   - "#2f6fb0"  # Aegean blue (primary)

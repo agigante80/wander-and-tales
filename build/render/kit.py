@@ -159,6 +159,7 @@ def build_story_pack(
         sheets.render_character_sheet(
             sheet, locale, story.age.recommended, th,
             world_name=world.name.get(locale, world_id),
+            powers=world.hero_powers,
         )
         parts.append(sheet)
 

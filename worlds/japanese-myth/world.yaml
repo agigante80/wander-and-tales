@@ -4,6 +4,7 @@ name:
   es-ES: Las Montañas en Flor de Yamato
   it-IT: I Monti in Fiore di Yamato
 tone: serene wonder
+hero_powers: strength
 palette:
   - "#fbf5f4"  # soft blossom-paper background
   - "#34507a"  # indigo (primary)

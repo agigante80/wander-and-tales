@@ -62,7 +62,7 @@ def build_example_heroes(
             sheet = tmp_path / f"{index:02d}_{hero.id}.pdf"
             sheets.render_character_sheet(
                 sheet, locale, hero.tier, th, world_name=world_name,
-                example=example, hero_image=hero_image,
+                powers=world.hero_powers, example=example, hero_image=hero_image,
             )
             parts.append(sheet)
 

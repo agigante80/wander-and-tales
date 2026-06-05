@@ -4,6 +4,7 @@ name:
   es-ES: Los Fiordos Nevados del Norte
   it-IT: I Fiordi Innevati del Nord
 tone: cosy northern wonder
+hero_powers: strength
 palette:
   - "#f3f7fb"  # snow-white background
   - "#2b5f86"  # deep fjord blue (primary)

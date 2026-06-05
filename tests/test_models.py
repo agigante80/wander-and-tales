@@ -1,7 +1,28 @@
 import pytest
 from pydantic import ValidationError
 
-from build.models import Story, CanonEntry
+from build.models import Story, CanonEntry, World
+
+
+def _valid_world_data():
+    return {
+        "id": "greek-myth",
+        "name": {"en-GB": "Greece", "es-ES": "Grecia", "it-IT": "Grecia"},
+    }
+
+
+def test_world_hero_powers_defaults_to_magic():
+    assert World.model_validate(_valid_world_data()).hero_powers == "magic"
+
+
+def test_world_hero_powers_accepts_strength():
+    data = _valid_world_data() | {"hero_powers": "strength"}
+    assert World.model_validate(data).hero_powers == "strength"
+
+
+def test_world_unknown_hero_powers_fails():
+    with pytest.raises(ValidationError):
+        World.model_validate(_valid_world_data() | {"hero_powers": "spells"})
 
 
 def _valid_story_data():
