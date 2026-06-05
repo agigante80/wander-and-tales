@@ -95,9 +95,12 @@ so there is no clash. Data flows in one direction:
 - **`build/render/` is the layout-only PDF pipeline.** Builders take
   `(world, story, locale, reading_level)` and never hardcode a colour, font, or
   path. `markdown.py` parses the content GFM, `theme.py` themes pages from the
-  world palette and resolved faces, `flowables.py`/`pages.py` render, `glossary.py`
-  builds the appendix from canon, `map.py` renders the SVG via cairosvg, `sheets.py`
-  draws the age-tiered character sheets, and `kit.py:build_story_pack` merges the
+  world palette and resolved faces (with `tint()` for light fills), `chrome.py` holds
+  the shared, palette-driven page chrome (header band, beat chip, prompt callout,
+  rounded image) reused by both the sheet and the booklets, `flowables.py`/`pages.py`
+  render, `glossary.py` builds the appendix from canon, `map.py` renders the SVG via
+  cairosvg, `sheets.py` draws the age-tiered character sheets, and
+  `kit.py:build_story_pack` merges the
   ordered pages with pypdf. Each kit splits into three artifacts (Story Pack,
   Grown-up's Playbook, World Book) plus the Guide; `version.py` stamps an automatic
   git-derived version, `colophon.py` adds the end page, `footer.py` the per-page

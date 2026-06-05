@@ -128,7 +128,9 @@ def build_world_pdf(
     with tempfile.TemporaryDirectory() as tmp:
         tmp_path = Path(tmp)
 
-        cover = images.frontpage_flowables(world_name, lore, cover_path, styles)
+        cover = images.frontpage_flowables(
+            world_name, lore, cover_path, styles, kicker=label, theme=th
+        )
         parts.append(pages.render_flowables(cover, tmp_path / "00_cover.pdf", world))
 
         gloss = glossary.glossary_flowables(
