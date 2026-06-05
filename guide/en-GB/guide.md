@@ -72,6 +72,12 @@ The shortest path: print **one Story Pack** (your reading copy) and an adventure
 for each player, keep the **Playbook** open beside you, and read the story aloud,
 showing each picture as you reach that place.
 
+**No printer? No problem.** You never have to print everything. You can read the story
+from a screen, and the map and the adventure sheets are easy to make by hand: a child
+can draw their own hero sheet on any paper, and the map can be sketched, or simply built
+on the table with coins and buttons. Making them together is a lovely first part of the
+adventure.
+
 ## The adventure sheet
 
 The last page of every Story Pack is an **adventure sheet**, where each player makes
