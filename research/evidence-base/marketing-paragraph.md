@@ -40,7 +40,7 @@ pointing to, made easy to start.
 > No one can say exactly what the world will look like for our children as AI
 > reshapes it. But the people who study it agree on the human skills that will
 > matter most: imagination, creative and critical thinking, problem-solving,
-> curiosity, and knowing how to work well with someone else. Wits & Wonder is a
+> curiosity, and knowing how to work well with someone else. Wander & Tales is a
 > simple way to nurture exactly those, away from a screen. It is a free, printable,
 > cooperative story-and-puzzle adventure you play together with your child or children,
 > with a single die and a few household bits, where nobody loses and the only way
@@ -64,7 +64,7 @@ pointing to, made easy to start.
 > cannot know what the AI world will become. But we do know that imaginative,
 > cooperative play exercises those very muscles, and that the most consistent positive
 > finding in all the screen research is simply a parent and child paying attention to
-> each other, away from a screen. Wits & Wonder is built for that moment: a free,
+> each other, away from a screen. Wander & Tales is built for that moment: a free,
 > printable, cooperative adventure you play around a table with a single die and a few
 > household objects, where you and your child solve puzzles with imagination instead of
 > buttons, where nobody loses, and where you win by being clever and kind. There is no
@@ -96,7 +96,7 @@ pointing to, made easy to start.
 
 ## Positioning notes (which niche claim rests on what)
 
-These are product-true statements about Wits & Wonder, reinforced by the landscape
+These are product-true statements about Wander & Tales, reinforced by the landscape
 scan. They are facts about the project, not research findings.
 
 - "free, printable, no subscription, no parts to lose": product fact, and a direct

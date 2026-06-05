@@ -56,7 +56,7 @@ def stamp_footers(
 
 def set_metadata(
     pdf_path: Path, *, title: str, subject: str, keywords: str,
-    author: str = "Wits and Wonder",
+    author: str = "Wander and Tales",
 ) -> Path:
     """Set the PDF document metadata, in place. Separators are commas, never dashes."""
     reader = PdfReader(str(pdf_path))

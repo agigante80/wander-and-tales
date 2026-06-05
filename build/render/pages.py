@@ -154,7 +154,7 @@ def render_guide(
     # the header band carries the title, so drop the markdown's own leading H1
     if blocks and isinstance(blocks[0], md.Heading) and blocks[0].level == 1:
         blocks = blocks[1:]
-    flows = [chrome.HeaderBand(kicker="Wits and Wonder", title=label, theme=th, motif=False)]
+    flows = [chrome.HeaderBand(kicker="Wander and Tales", title=label, theme=th, motif=False)]
     flows += flowables.blocks_to_flowables(blocks, styles, th)
     flows.append(PageBreak())
     flows.extend(colophon.colophon_flowables(styles, locale, version, label, qr_url))
@@ -175,13 +175,13 @@ def render_guide(
         with out_path.open("wb") as handle:
             writer.write(handle)
     footer.stamp_footers(
-        out_path, identity=f"Wits and Wonder · {label}", locale=locale,
+        out_path, identity=f"Wander and Tales · {label}", locale=locale,
         version_info=version,
     )
     footer.set_metadata(
         out_path, title=f"{label}, {locale}, {version.label}",
         subject=f"Guide for the Grown-Up, {version.label}, {version.updated}",
-        keywords=f"wits-and-wonder, guide, {locale}",
+        keywords=f"wander-and-tales, guide, {locale}",
     )
     return out_path
 
@@ -199,12 +199,12 @@ def build_quickstart(
     title = strings.ui(locale, "quickstart_title")
     quickstart_page.render_quickstart(out_path, locale, th)
     footer.stamp_footers(
-        out_path, identity=f"Wits and Wonder · {title}", locale=locale,
+        out_path, identity=f"Wander and Tales · {title}", locale=locale,
         version_info=version,
     )
     footer.set_metadata(
         out_path, title=f"{title}, {locale}, {version.label}",
         subject=f"How to Play, {version.label}, {version.updated}",
-        keywords=f"wits-and-wonder, how-to-play, quick-start, {locale}",
+        keywords=f"wander-and-tales, how-to-play, quick-start, {locale}",
     )
     return out_path

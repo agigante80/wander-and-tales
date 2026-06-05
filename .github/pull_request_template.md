@@ -1,6 +1,6 @@
 ## What is this?
 
-A new or updated Wits & Wonder story or world.
+A new or updated Wander & Tales story or world.
 
 - **World:**
 - **Story:**

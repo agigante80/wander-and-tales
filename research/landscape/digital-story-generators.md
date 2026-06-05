@@ -3,7 +3,7 @@
 This note maps the digital corner of children's story creation: AI story
 generators, personalised-book products, kid book-creation platforms, and
 interactive or RPG-style generators. These are kindred work, not competitors.
-Wits & Wonder sits in a different place (free, printable, cooperative,
+Wander & Tales sits in a different place (free, printable, cooperative,
 adult-led, no app and no screen, played with dice and household objects), so
 the goal here is to learn what the screen-based field does best, how it handles
 age and reading level, what it outputs, how it charges, and what users praise or
@@ -211,7 +211,7 @@ time of search (June 2026) and shift often.
   thing parents are uneasy about. Source: Oscar reception summary on Product Hunt,
   https://www.producthunt.com/products/oscar-personal-bedtime-stories-for-kids/reviews
 
-## Implications for Wits & Wonder
+## Implications for Wander & Tales
 
 1. Make reading level a first-class, explicit ladder, not a hidden slider. Most
    AI generators only offer a vague age field or a parent-set complexity dial;

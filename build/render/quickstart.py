@@ -56,7 +56,11 @@ def render_quickstart(out_path: Path, locale: str, theme: Theme) -> Path:
         c, M, H - M, W - 2 * M, s("colophon_project"), s("quickstart_title"), theme,
         title_size=20, motif=True,
     )
-    y = H - M - band_h - 6 * mm
+    y = H - M - band_h - 5 * mm
+    c.setFillColor(tint(theme.text, 0.2))
+    c.setFont(f.hand, 13)
+    c.drawCentredString(W / 2, y, s("tagline"))
+    y -= 7 * mm
 
     # The hook: what you do, the goal, the fun, in one friendly line.
     hook_lines = wrap(s("quickstart_hook"), f.display, 15, W - 2 * M - 14 * mm)

@@ -31,12 +31,12 @@ def test_stamp_footers_draws_page_x_of_y_on_every_page(tmp_path):
     p = tmp_path / "d.pdf"
     _two_page_pdf(p)
     footer.stamp_footers(
-        p, identity="Wits and Wonder · Story Pack · The Sleeping Garden",
+        p, identity="Wander and Tales · Story Pack · The Sleeping Garden",
         locale="en-GB", version_info=VersionInfo(7, 0, "2026-06-03"),
     )
     for index, page in enumerate(PdfReader(str(p)).pages, start=1):
         text = page.extract_text()
-        assert "Wits and Wonder" in text
+        assert "Wander and Tales" in text
         assert f"page {index} of 2" in text
 
 
@@ -44,7 +44,7 @@ def test_stamp_footers_handles_landscape_pages(tmp_path):
     p = tmp_path / "mixed.pdf"
     _mixed_orientation_pdf(p)
     footer.stamp_footers(
-        p, identity="Wits and Wonder · World Book · The Floating Isles",
+        p, identity="Wander and Tales · World Book · The Floating Isles",
         locale="en-GB", version_info=VersionInfo(4, 0, "2026-06-03"),
     )
     pages = PdfReader(str(p)).pages
@@ -55,7 +55,7 @@ def test_stamp_footers_keeps_page_count(tmp_path):
     p = tmp_path / "d.pdf"
     _two_page_pdf(p)
     footer.stamp_footers(
-        p, identity="Wits and Wonder . Story Pack . The Sleeping Garden",
+        p, identity="Wander and Tales . Story Pack . The Sleeping Garden",
         locale="en-GB", version_info=VersionInfo(7, 0, "2026-06-03"),
     )
     assert len(PdfReader(str(p)).pages) == 2
@@ -70,4 +70,4 @@ def test_set_metadata_writes_fields(tmp_path):
     )
     meta = PdfReader(str(p)).metadata
     assert meta.title == "The Sleeping Garden, Story Pack, en-GB, v7"
-    assert meta.author == "Wits and Wonder"
+    assert meta.author == "Wander and Tales"

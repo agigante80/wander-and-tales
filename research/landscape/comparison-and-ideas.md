@@ -1,15 +1,15 @@
-# Landscape comparison and ideas to improve Wits & Wonder
+# Landscape comparison and ideas to improve Wander & Tales
 
 This is the synthesis of the landscape scan. It compares the two corners of the
 wider field, the digital tools that generate children's stories
 (`digital-story-generators.md`) and the printed or purchasable story-adventure kits
-and games (`printed-and-purchasable-kits.md`), against where Wits & Wonder sits
+and games (`printed-and-purchasable-kits.md`), against where Wander & Tales sits
 today, and turns the findings (including the hands-on PDF teardowns in
 `sample-teardowns.md`) into a prioritised set of improvements. These are kindred
 projects, not competitors; the point is to learn what each does best and borrow it
 honestly.
 
-Wits & Wonder is a free, multilingual library of printable, cooperative, adult-led
+Wander & Tales is a free, multilingual library of printable, cooperative, adult-led
 story-adventure kits for kids, played with a single die and household objects, with a
 no-lose ethos. Each story ships as a Story Pack (the child-safe play material), a
 Grown-up's Playbook (rules and answers), and a World Book (lore, who's who, idea
@@ -18,7 +18,7 @@ across three age tiers (early, young, older).
 
 ## Where the field sits, in one table
 
-| Dimension | Digital story generators | Printed and purchasable kits | Wits & Wonder today | The opportunity |
+| Dimension | Digital story generators | Printed and purchasable kits | Wander & Tales today | The opportunity |
 |---|---|---|---|---|
 | Access and price | Mostly freemium or subscription; credits, auto-renew, hardware stacking | One-off purchase, boxed components, or subscription; some free print-and-play | Free, downloadable PDF, no account | Keep it free and say plainly that the subscription and shipping pains do not apply |
 | Personalisation | Strong: child as hero, name, family, theme, in seconds | Weak in play kits; strong in personalised printed books (Wonderbly, Hooray Heroes) | Light: name and draw your hero on the sheet | Bake "child is the hero" into the prose and sheet without a database |
@@ -58,7 +58,7 @@ grown-up is handed both a two-minute version and the exact words to say, and the
 page template carries English and Spanish with only the text swapped. Full detail in
 `sample-teardowns.md`.
 
-## The defensible space for Wits & Wonder
+## The defensible space for Wander & Tales
 
 Almost nobody combines all of these at once: free and printable (no monetisation
 traps, no screen), cooperative and no-lose, human-authored and canon-checked (no AI in
@@ -154,7 +154,7 @@ sibling notes), and the concrete place it would land in this repo.
 
 12. **Lead the whole project on cooperative, no-lose, no-screen, no-AI-in-the-loop.**
     The loudest anxieties in the digital corner are screen time, hallucination, cost,
-    and safety (AI Dungeon, character.ai). Position Wits & Wonder explicitly as the
+    and safety (AI Dungeon, character.ai). Position Wander & Tales explicitly as the
     around-the-table, human-authored, nobody-loses answer, and keep any AI we use in
     our own authoring or image pipeline behind the curtain and human-reviewed. This is
     marketing plus a discipline, not a feature to build.

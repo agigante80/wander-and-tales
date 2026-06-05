@@ -6,7 +6,7 @@ ROOT = Path(__file__).resolve().parents[1]
 def test_code_licence_is_mit():
     text = (ROOT / "LICENSE").read_text(encoding="utf-8")
     assert "MIT License" in text
-    assert "Wits and Wonder" in text
+    assert "Wander and Tales" in text
 
 
 def test_content_licence_is_cc_by_sa():
