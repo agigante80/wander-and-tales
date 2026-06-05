@@ -26,6 +26,9 @@ aspettando, e il risveglio del drago mi porta"), oppure Kon la Volpe sussurra la
 risposta dal bambù lì vicino. Una supposizione fatta con coraggio apre comunque il
 portale.
 
+**Rendilo più facile.** Per un piccolino, chiedete "che cosa cade dalle nuvole e fa
+crescere i fiori?", e la parola "pioggia" apre il portale.
+
 ## Tappa 2: Il Ponte al Chiaro di Luna (Normale)
 
 **La sfida.** Il ponte di legno inarcato sopra il fiume oscilla e scricchiola. Regge
@@ -42,6 +45,9 @@ altrettanto bene.
 penalità, oppure fate gridare a Kon la Volpe un ritmo sereno da seguire camminando.
 Attraversare con aiuto conta comunque come un successo pieno e recupera una stella di
 energia.
+
+**Rendilo più facile.** Per un piccolino, stendete un nastro sul pavimento come ponte e
+fateglielo percorrere in punta di piedi, per mano, contando "uno, due, tre" mentre va.
 
 ## Tappa 3: Il Drago Dormiente (Difficile, poi senza tiro)
 
@@ -62,6 +68,9 @@ muovere il drago nel sonno e mormorare: "Per favore, non così forte", così la 
 gentile è chiara. Nel momento in cui i giocatori fanno un qualsiasi suono dolce e
 gentile, il campanello o una melodia canticchiata, il grande drago si sveglia con
 calore ed è contento della loro compagnia.
+
+**Rendilo più facile.** Per un piccolino, fategli canticchiare una ninna nanna dolce e
+sussurrare "buongiorno, drago", e quel suono tranquillo basta a svegliarlo con dolcezza.
 
 ## Il finale
 

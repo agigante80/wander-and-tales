@@ -20,6 +20,9 @@ Satiro** mostri loro come ronzare una nota bassa e amichevole, oppure lasciate c
 giocatore spenda una stella di energia per calmare tutti. Chiedere con gentilezza
 funziona sempre, e recupera una stella di energia.
 
+**Rendilo più facile.** Fate ronzare al bambino un piano "bzzz", tendere un fiore di
+carta e dire "per favore, api", e il vaso si riempie.
+
 ## Tappa 2: La Cucina di Milo (Normale)
 
 **La sfida.** La focaccia al miele di Milo va divisa in modo che ogni ospite della festa
@@ -36,6 +39,9 @@ sulle dita, oppure lasciate che i bambini mettano in fila un biscotto o un sasso
 ogni ospite e li abbinino alle fette. Arrivarci con aiuto conta comunque come un
 successo pieno e recupera una stella di energia.
 
+**Rendilo più facile.** Date al più piccolo un biscotto per ogni ospite da distribuire,
+e un pezzo doppio e grande per il gigante, e la divisione è fatta.
+
 ## Tappa 3: Andare a prendere l'amico (Normale)
 
 **La sfida.** Il Ciclope è timido all'idea di scendere davanti a un paese intero. Teme
@@ -51,6 +57,9 @@ tappa.
 **Aiuto.** Se i bambini non sanno bene cosa dire, fate chiedere al gigante, a voce
 bassa: "Siete davvero sicuri che ci sia posto per me?" Una sola parola gentile basta, e
 giù per la collina il gigante scende.
+
+**Rendilo più facile.** Fate salutare il bambino con la mano e chiamare "vieni, amicone,
+c'è posto per te", e il gigante sorride e scende con loro.
 
 ## Il finale
 

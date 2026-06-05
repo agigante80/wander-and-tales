@@ -24,6 +24,9 @@ back, or let them spend an energy star to "look again" and notice that the deep,
 onward footprints all point the same way. Sticking close to the dog and not giving
 up always finds the trail; this stop is meant to feel like an easy, happy start.
 
+**Make it simpler.** Lay out two paper paw prints and ask a little one to walk along
+them on tiptoe like Argos, following the trail together.
+
 ## Stop 2: The Tide Pools (Normal)
 
 **The challenge.** The trail leads in among three sunlit tide pools, and the players
@@ -49,6 +52,9 @@ pebble, so which one is it?" Or let them spend an energy star while Argos sniffs
 straight to the right pool. Reaching pool two by any route counts as a full success
 and tops up an energy star.
 
+**Make it simpler.** Set out three cups and hide a shell under one, then let a little
+one peek and point to the cup that has the striped shell beside it.
+
 ## Stop 3: The Far Dune (Normal)
 
 **The challenge.** The keepsake has fallen near a lonely dune and the wind has half
@@ -66,6 +72,9 @@ paw. Patience and care, not force, win the day.
 over, sniff once, and start the digging himself right where it should be, so they can
 join in. Spending an energy star to "look closer" also reveals the glint of wood. The
 keepsake is always found; the only question is how tenderly.
+
+**Make it simpler.** Hide a small toy under a cushion and let a little one brush it
+away gently with one hand to find the treasure and give it a hug.
 
 ## The ending
 

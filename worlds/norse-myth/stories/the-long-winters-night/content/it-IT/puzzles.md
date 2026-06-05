@@ -22,6 +22,9 @@ per guidare gli eroi in una fila attenta e distanziata, oppure lasciate che spen
 stella di energia per assicurare il passo. Attraversare piano e con dolcezza funziona
 sempre, e recupera una stella di energia.
 
+**Rendilo più facile.** Attraversate insieme la stanza in punta di piedi, come pinguini
+silenziosi e attenti sul ghiaccio scivoloso.
+
 ## Tappa 2: Il Gigante di Ghiaccio Solitario (Difficile, poi senza tiro)
 
 **La sfida.** Un gigante enorme di ghiaccio azzurro pallido siede sulla strada con le
@@ -40,6 +43,9 @@ c'è solo diventare suoi amici.
 tremare il gigante e chiedere, molto piano: "Avete freddo e siete soli anche voi?" Una
 sola parola calda lo scioglie. La gentilezza è tutta la sfida, e non si può fallire.
 
+**Rendilo più facile.** Date al gigante solitario un grande abbraccio caldo e ditegli
+"puoi essere nostro amico".
+
 ## Tappa 3: Il Ponte dell'Arcobaleno (Normale)
 
 **La sfida.** Il Ponte dell'Arcobaleno scintillante si alza verso le sale dell'alto, e
@@ -57,6 +63,9 @@ alzano la brace e il calore del mondo si riaccende.
 gentile che dicono, così un solo sincero "siamo venuti a riportare il calore" illumina la
 via per attraversare. Il ponte regge sempre per questi eroi; i loro cuori se lo sono già
 meritati.
+
+**Rendilo più facile.** Camminate su una fila di cuscini colorati o una sciarpa posata
+a terra, mano nella mano, dicendo un colore a ogni passo.
 
 ## Il finale
 

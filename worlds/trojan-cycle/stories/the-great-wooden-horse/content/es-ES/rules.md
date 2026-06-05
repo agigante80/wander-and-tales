@@ -1,15 +1,10 @@
 # El Gran Caballo de Madera: Reglas para el Adulto
 
-*¿Es la primera vez? Leed antes la Guía para el Adulto. Explica toda la idea en dos
-páginas y no la necesitaréis nunca más.*
-
-Eres el Guía del Juego, lo que aquí significa unos pequeños trabajos a la vez:
-contar la historia, ser un árbitro amable, ser el mayor admirador de los niños y ser
-un aventurero más que juega con ellos. Es un juego cooperativo para dos o más que
-juegan juntos, una persona adulta y uno o varios niños, todos del mismo lado. Nadie
-compite y nadie pierde. Esta es una historia amable, sin ninguna batalla: los dos
-viejos campamentos simplemente están cansados de reñir, y los héroes ganan poniendo
-fin a la riña con una sorpresa amable.
+La Guía para el Adulto explica cómo funciona el juego; leedla una vez y ya está.
+Esta página solo recoge lo que tiene de especial esta historia. Una tirada fallida
+nunca es una derrota; nadie pierde. Esta es una historia amable, sin ninguna
+batalla: los dos viejos campamentos simplemente están cansados de reñir, y los
+héroes ganan poniendo fin a la riña con una sorpresa amable.
 
 ## Preparar la partida
 
@@ -27,37 +22,10 @@ fin a la riña con una sorpresa amable.
   para La Caracola. Cualquier cosa puede ser cualquier cosa.
 - Tened a mano vuestros dados y la tabla de dados del final del kit.
 
-## Niveles de dificultad, no dados
-
-Los retos nunca piden un dado concreto. Cada uno tiene un nivel: **Fácil**,
-**Normal** o **Difícil**. Cuando los jugadores intentan algo, mirad el nivel en la
-tabla de dados del kit, que os dice el número que hay que igualar o superar con los
-dados que tengáis en casa. Todos los retos se pueden jugar con un solo dado normal.
-
-## La regla de oro: aquí nadie pierde
-
-Una tirada fallida nunca es una derrota. Es un desvío hacia otro camino. Cuando una
-tirada no alcanza el nivel, los jugadores siempre tienen una manera de seguir:
-
-- **Gastar una estrella de energía** para serenarse y volver a intentar la idea, o
-- **Unir dos cualidades** una vez por parada para superar el reto sin tirar (Imaginación
-  y Lealtad juntas, por ejemplo, o Valor e Imaginación).
-
-Las estrellas de energía se recuperan al pasar de parada y al ayudarse. Nadie puede
-quedarse sin ellas mucho tiempo, y nadie se queda atascado.
-
-## Ayudarse: la Mano que Ayuda
-
-En cualquier momento un jugador puede ayudar a otro en vez de actuar solo. Cuando lo
-hace, haced la tirada de ayuda: con un éxito el reto se supera para la pareja, aunque
-la primera tirada fallara. Ayudar es generoso, así que recompensadlo; también
-recupera una estrella de energía. En estas costas, ningún héroe está solo.
-
 ## El Giro del Destino
 
-En cada parada, una vez, los jugadores pueden tirar para un giro y vosotros leéis la
-línea que corresponda. Usad el dado que os indique la tabla de dados; con un solo
-dado normal, leed la línea que coincida con el número sacado.
+Una vez en cada lugar los jugadores pueden tirar para un giro; leed la línea que
+corresponda. La Guía explica cómo funciona.
 
 | Tirada | El Giro del Destino |
 |---|---|

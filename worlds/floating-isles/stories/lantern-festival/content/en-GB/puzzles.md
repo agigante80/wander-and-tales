@@ -21,6 +21,9 @@ to relight it and work out where the other lanterns have drifted off to.
 up at the trail of light, then the players spend an energy star or combine two magics
 to finish. Nobody waits in the dark for long.
 
+**Make it simpler.** For a very young child, hand them a torch and let switching it
+on be the magic that relights the lantern.
+
 ## Stop 2: The Cloud Bank (Normal)
 
 **The challenge.** Several lanterns are hidden inside a bank of soft clouds. The
@@ -36,6 +39,9 @@ carry them down), or with a combined magic.
 one glowing cloud to show them what "warm and glowing" looks like, then let them find
 the rest. Getting there with a nudge still counts as a full success, and tops up an
 energy star.
+
+**Make it simpler.** For a very young child, hide one lantern under a single cotton-
+wool cloud and let them lift it to find the light.
 
 ## Stop 3: The High Ledge (Normal)
 
@@ -53,6 +59,9 @@ to climb or risk a fall.
 **Fallback.** If the children freeze, have the breeze give a small, hopeful puff that
 rocks the lantern, so they see it could be coaxed rather than grabbed. The moment they
 try a gentle idea, let the lantern drift down into their hands.
+
+**Make it simpler.** For a very young child, put the lantern on a shelf and let them
+puff a big gentle breath to float it down into a cushion below.
 
 ## Nimbo the Cloud-Whale Calf (no roll)
 

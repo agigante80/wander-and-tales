@@ -169,6 +169,31 @@ aceptar un empujoncito de una criatura amable o, sencillamente, buscar otro cami
 Trata un fallo como una sorpresa divertida, no como un fracaso. A ningún niño se le
 elimina, se le deja atrás ni se le hace sentir que ha fallado al equipo.
 
+## Cómo funciona un reto
+
+Unas pocas reglas sencillas, las mismas en todos los kits. La página de cada historia
+solo añade lo que tiene de especial, así que cuando conoces estas, las conoces todas.
+
+- **Niveles de dificultad, no dados.** Un reto es **Fácil**, **Normal** o **Difícil**,
+  nunca "tira un veinte". La pequeña tabla de dados del kit convierte el nivel en un
+  número que igualar o superar con los dados que tengáis, y un solo dado normal siempre
+  basta.
+- **Estrellas de energía.** Cada héroe tiene cinco. Un jugador puede **gastar una
+  estrella para volver a intentarlo** tras un fallo. Las estrellas vuelven al pasar al
+  siguiente lugar y cuando los jugadores se ayudan, así que nadie se queda sin nada
+  durante mucho rato.
+- **Dos a la vez.** Una vez en cada lugar, una pareja de jugadores puede **unir dos de
+  sus fortalezas** (o magias) para superar un reto sin tirada alguna.
+- **La mano amiga.** En cualquier momento un jugador puede **ayudar a otro** en vez de
+  actuar solo. Con un éxito, el reto se supera para los dos, aunque el primer intento
+  fallara, y recupera una estrella. Ayudar es generoso, así que celébralo.
+- **El giro del destino.** En cada lugar, una vez, los jugadores pueden tirar por un
+  pequeño **giro**: lees la línea correspondiente de la tabla de la propia historia, un
+  golpe de suerte, amable o gracioso. Usa el dado que te indique la tabla de dados.
+
+Ese es todo el motor. Una tirada fallida nunca es una derrota: gasta una estrella, unid
+fuerzas, acepta una pista o simplemente buscad otra manera. Aquí no pierde nadie.
+
 ## Cuando se atascan
 
 Atascarse es normal. Echa mano de esto, por orden:

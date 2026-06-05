@@ -39,12 +39,13 @@ jobs:
           python - <<'PY'
           from pathlib import Path
           from build import content
-          from build.render import kit
+          from build.render import tale_book, atlas
           for story_yaml in sorted(Path("worlds").glob("*/stories/*/story.yaml")):
               story = content.load_story(story_yaml)
               world = story_yaml.parents[2].name
               for locale in ("en-GB", "es-ES"):
-                  kit.build_story_pack(Path("."), world, story.id, locale, "simple", out_dir=Path("preview"))
+                  tale_book.build_tale_book(Path("."), world, story.id, locale, "simple", out_dir=Path("preview"))
+                  atlas.build_atlas(Path("."), world, story.id, locale, out_dir=Path("preview"))
           PY
       - uses: actions/upload-artifact@v4
         with:

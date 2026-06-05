@@ -24,6 +24,9 @@ stella di energia per "misurare due volte e tagliare una volta sola". Contare in
 ad alta voce arriva sempre in fondo. Qualsiasi piano saldo solleva il cavallo e
 recupera una stella di energia.
 
+**Rendilo più facile.** Con un piccolino, basta impilare quattro blocchi di legno per
+le zampe e uno sopra per il corpo, e fare festa al cavallino che sta in piedi.
+
 ## Tappa 2: Riempirlo di Amicizia (Facile)
 
 **La sfida.** Il cavallo è costruito e la sua porta è aperta. I giocatori scelgono cosa
@@ -40,6 +43,9 @@ qualunque regalo gentile, e dire perché è gentile, supera la tappa.
 "Come si sentirebbe la gente della città se aprisse la porta e trovasse quello? Cosa la
 farebbe sorridere, invece?" Guidate con calore verso i fichi, i fiori e il tamburello.
 Scegliere qualsiasi cosa gentile è un successo pieno e recupera una stella di energia.
+
+**Rendilo più facile.** Chiedete a un piccolino di scegliere una sola cosa carina
+dalla stanza, un peluche o una merenda, e di metterla dentro il cavallo da condividere.
 
 ## Tappa 3: La Sorpresa alle Porte (Normale)
 
@@ -59,6 +65,9 @@ qualunque chiaro segno di amicizia supera la tappa.
 mai, fate affacciare un solo bambino curioso in cima alle mura e chiamare: "È... per
 noi?" La più piccola gentilezza, un saluto con la mano, un fico alzato in alto, una
 dolce nota sulla conchiglia, scioglie la diffidenza e le porte cominciano ad aprirsi.
+
+**Rendilo più facile.** Lasciate che un piccolino saluti con la mano e gridi "ciao,
+amici!" alla città, e quel caldo saluto spalanca le porte.
 
 ## Il finale
 

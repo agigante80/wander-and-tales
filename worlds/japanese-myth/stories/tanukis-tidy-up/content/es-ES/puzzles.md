@@ -23,6 +23,9 @@ sincera le levanta las orejas y lo pone en pie.
 instante. Una palmadita amistosa o un pastel de arroz compartido también funcionan, y
 Pon se levanta de un salto, dispuesto a ayudar.
 
+**Hazlo más fácil.** Para un peque muy pequeño, pedidle solo que le dé a Pon un abrazo
+grande y suave y le diga "no pasa nada", y las orejas se le levantan al momento.
+
 ## Parada 2: El gran reparto (Normal)
 
 **El reto.** Abanicos, fruta y faroles están revueltos en un gran montón. Los
@@ -45,6 +48,9 @@ Gastar una estrella de energía para respirar con calma y empezar el montón de 
 siempre funciona. Dejar el mercado ordenado con ayuda cuenta igual como un éxito
 completo y recupera una estrella de energía.
 
+**Hazlo más fácil.** Para un peque muy pequeño, dadle solo las cosas rojas y pedidle que
+las meta todas en una cesta, y ese montón ordenado ya es una victoria.
+
 ## Parada 3: El último farol (Normal)
 
 **El reto.** El mercado está casi perfecto, pero todavía falta el gran farol rojo de
@@ -63,6 +69,9 @@ día termine con Pon orgulloso de ayudar en vez de apenado por el lío.
 cerca del agua, donde crecen las ciruelas"), o dejad que Pon vislumbre el rojo él
 mismo. Sea como sea que se encuentre el farol, aseguraos de que Pon se lleve el mérito
 del hallazgo, para que termine la historia bien erguido.
+
+**Hazlo más fácil.** Para un peque muy pequeño, esconded un juguete o una pelota roja
+cerca y dejad que vaya a buscarlo, y luego celebrad que ha salvado la fiesta.
 
 ## El final
 

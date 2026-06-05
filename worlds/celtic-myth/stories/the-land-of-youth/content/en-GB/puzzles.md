@@ -24,6 +24,9 @@ answer, and because he is kind, he also accepts a brave, thoughtful guess.
 me all morning, and you cannot hold me in your hand"), or Pook the Puca whispers the
 answer from the reeds. A guess made bravely still earns the way across.
 
+**Make it simpler.** For a little one, point around and ask, "What floats over the
+loch that we can walk through but never hold?" Pointing at the mist is the whole answer.
+
 ## Stop 2: The Selkie's Crossing (Normal)
 
 **The challenge.** Sorcha the Selkie has the only boat, but she is shy and a little
@@ -39,6 +42,9 @@ When the children are kind, Sorcha smiles, takes up the oars, and rows them acro
 softly and murmur, "Nobody ever stops to talk to me." A single kind word melts her
 shyness. Sharing even a crumb of the oatcake counts as a full success and tops up an
 energy star.
+
+**Make it simpler.** For a little one, just ask them to wave and say "hello, would you
+like to be friends?" That one friendly hello is enough to win Sorcha over.
 
 ## Stop 3: The Land of Youth (Hard, then no roll)
 
@@ -58,6 +64,9 @@ to return. After that choice there is no roll: the way home is simply taken.
 quietly, "Wait... was there someone who used to sing to me at night?" Any warm
 memory the children offer brings the friend the rest of the way back. The red wool
 guarantees nobody loses the path, however misty it grows.
+
+**Make it simpler.** For a little one, ask them to name one person at home they love
+and miss; saying that one name is enough to help the friend remember and choose home.
 
 ## The ending
 

@@ -22,6 +22,9 @@ well.
 steady their footing. Crossing slowly and gently always works, and tops up an energy
 star.
 
+**Make it simpler.** Tiptoe across the room together like quiet, careful penguins on
+the slippery ice.
+
 ## Stop 2: The Lonely Frost Giant (Hard, then no roll)
 
 **The challenge.** A huge giant of pale blue ice sits in the road with his arms
@@ -37,6 +40,9 @@ no roll to beat him, because there is no beating him; there is only befriending 
 **Fallback.** If the children freeze, or want to "win" by force, have the giant
 shiver and ask, very quietly, "Are you cold and lonely too?" A single warm word
 melts him. The kindness is the whole challenge, and it cannot be failed.
+
+**Make it simpler.** Give the lonely giant a big warm hug and say "you can be our
+friend".
 
 ## Stop 3: The Rainbow Bridge (Normal)
 
@@ -54,6 +60,9 @@ lift the ember and the world's warmth catches light again.
 each kind word they say, so a single honest "we came to bring the warmth back" lights
 the way across. The bridge always holds for these heroes; their hearts have already
 earned it.
+
+**Make it simpler.** Walk a line of colourful cushions or a scarf laid on the floor,
+holding hands and naming a colour on each step.
 
 ## The ending
 

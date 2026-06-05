@@ -5,7 +5,7 @@
     en-GB: Imagination
     es-ES: Imaginación
     it-IT: Immaginazione
-  kind: term
+  kind: quality
   description:
     en-GB: Imagining ideas and asking a thoughtful question. In these mountains, a good idea solves a riddle that strength never could.
     es-ES: Imaginar ideas y hacer una pregunta reflexiva. En estas montañas, una buena idea resuelve un acertijo que la fuerza jamás podría.
@@ -17,7 +17,7 @@
     en-GB: Courage
     es-ES: Valor
     it-IT: Coraggio
-  kind: term
+  kind: quality
   description:
     en-GB: A steady heart in a quiet, scary moment. Courage is not being unafraid; it is staying kind and trying anyway, even when you are afraid.
     es-ES: Un corazón firme en un momento callado y de miedo. El valor no es no tener miedo; es seguir siendo amable e intentarlo igualmente, aun cuando lo tienes.
@@ -29,7 +29,7 @@
     en-GB: Kindness
     es-ES: Bondad
     it-IT: Gentilezza
-  kind: term
+  kind: quality
   description:
     en-GB: Care for every living thing, from a shy firefly to a great dragon. The greatest heroes of the mountains are the ones who are gentle, share, and help.
     es-ES: El cuidado de todo ser vivo, desde una luciérnaga tímida hasta un gran dragón. Los mayores héroes de las montañas son los que son amables, comparten y ayudan.

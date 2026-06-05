@@ -22,6 +22,10 @@ sendero verdadero, o que un petirrojo amistoso salte por delante de rama en rama
 Llegar al final con un poco de ayuda cuenta igual como un éxito completo y recupera
 una estrella de energía.
 
+**Hazlo más fácil.** Para los más pequeños, poned un cordel o un trozo de lana por el
+suelo y dejad que caminen a su lado hasta la otra habitación, recogiéndolo a medida
+que avanzan.
+
 ## Parada 2: Las Tres Puertas de Pook (Normal)
 
 **El reto.** Pook ha hecho crecer tres puertas de arco musgosas de ramas de roble.
@@ -45,6 +49,10 @@ dejad que Pook se incline y susurre: "Escuchad qué puerta dice la verdad." Una
 puerta elegida con valentía se abre igualmente con un crujido hacia el camino
 correcto.
 
+**Hazlo más fácil.** Para los más pequeños, señalad cada puerta y leed solo su única
+pista, y luego preguntad: "¿Esa puerta ha dicho que es la buena y verdadera?" La
+puerta correcta es la que dice que sí.
+
 ## Parada 3: Ganarse a Pook (Normal, luego sin tirada)
 
 **El reto.** Los jugadores encuentran a Pook el Puca acurrucado en una seta, ya sin
@@ -62,6 +70,10 @@ senderos.
 nariz y pregunte, muy bajito: "¿Vosotros también estáis enfadados conmigo?" Una sola
 palabra amable lo derrite. En cuanto los jugadores ofrecen cualquier gesto amistoso,
 se levanta de un brinco y deshace todo el enredo.
+
+**Hazlo más fácil.** Para los más pequeños, pedidles que le den a Pook una cosa
+amable: saludarle con la mano, ofrecerle una galleta de mentira o solo decir "Sé mi
+amigo." Cualquier pequeña amabilidad lo anima.
 
 ## El final
 

@@ -20,6 +20,9 @@ moment behind a particular tree, or let Nori peek out and point with a wink. The
 gentlest look or the kindest word brings her out; any honest attempt to find her
 counts as a full success and tops up an energy star.
 
+**Make it simpler.** Hide a small glowing token behind a cushion and let the littlest
+one find it with a happy "peekaboo".
+
 ## Stop 2: The Three Colours (Normal)
 
 **The challenge.** The little aurora has lost her three colours, teal, green and
@@ -37,6 +40,9 @@ toward the right place ("an icicle catches her eye"), or have Nori hum and tip h
 head at it. Each colour found makes her glow a little brighter, and finding them
 with help still counts in full.
 
+**Make it simpler.** Ask the littlest one to point to anything green in the room, then
+anything blue, and cheer each one.
+
 ## Stop 3: The Climb to the Sky (Normal)
 
 **The challenge.** The little aurora glows again, but she is afraid to rise. She
@@ -51,6 +57,9 @@ When the children lend her their courage, she takes a breath and leaps.
 **Fallback.** If she hesitates, or the children are unsure how to help, have her
 ask quietly, "Will you count with me?" A single kind, brave word is enough. The
 moment the players cheer her on in any way at all, she gathers herself and rises.
+
+**Make it simpler.** Count "one, two, three, jump!" together and have everyone hop up
+on the spot with a big cheer.
 
 ## The ending
 

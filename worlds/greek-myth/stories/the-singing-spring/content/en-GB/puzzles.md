@@ -22,6 +22,9 @@ because she is kind, she also accepts a brave, thoughtful guess.
 town, and the gods live on my head"), or Bramble the satyr whispers the answer from
 behind a rock. A guess made bravely still opens the gate.
 
+**Make it simpler.** Ask "what is huge, made of rock, and has snow on top?" and point
+out of the window at a hill, and any answer like "a mountain" opens the gate.
+
 ## Stop 2: The Winding Maze (Normal)
 
 **The challenge.** Beyond the gate is a maze of stone walls where every path looks
@@ -35,6 +38,9 @@ turn, or asking **Bramble the Satyr** for a hint, works just as well.
 **Fallback.** If the children are unsure, have Bramble pop up and point the way with
 a joke, or let them spend an energy star to "remember" the route. Getting through
 with help still counts as a full success and tops up an energy star.
+
+**Make it simpler.** Let the child trail a real piece of string or wool behind them
+along the maze on the map, then follow it back out: that is the puzzle solved.
 
 ## Stop 3: The Lonely Cyclops (Hard, then no roll)
 
@@ -51,6 +57,9 @@ spring by playing the **little lyre**, and the **Singing Nymphs** rise and sing.
 sniffle and ask, very quietly, "Are you scared of me too?" A single kind word melts
 him. The moment the players try any tune at all, the nymphs wake and the water
 sings.
+
+**Make it simpler.** Let the child give the lonely giant a wave and a hug and offer him
+a bite of cake, then hum any little song to wake the spring.
 
 ## The ending
 

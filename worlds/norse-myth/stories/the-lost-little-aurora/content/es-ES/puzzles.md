@@ -22,6 +22,9 @@ detrás de un árbol concreto, o dejad que Nori asome y señale con un guiño. L
 más suave o la palabra más amable la hacen salir; cualquier intento sincero de
 encontrarla cuenta como un éxito completo y recupera una estrella de energía.
 
+**Hazlo más fácil.** Esconded una lucecita detrás de un cojín y dejad que el más
+pequeño la encuentre con un alegre "¡cucú!".
+
 ## Parada 2: Los Tres Colores (Normal)
 
 **El reto.** La pequeña aurora ha perdido sus tres colores, el verde azulado, el
@@ -39,6 +42,9 @@ el lugar adecuado ("un carámbano le llama la atención"), o que Nori tararee y 
 la cabeza hacia él. Cada color encontrado la hace brillar un poco más, y encontrarlos
 con ayuda cuenta igual del todo.
 
+**Hazlo más fácil.** Pedid al más pequeño que señale algo verde de la habitación,
+luego algo azul, y celebrad cada acierto.
+
 ## Parada 3: La Subida hasta el Cielo (Normal)
 
 **El reto.** La pequeña aurora ya brilla, pero tiene miedo de subir. Teme que el
@@ -54,6 +60,9 @@ valor, ella respira hondo y salta.
 **Apoyo.** Si duda, o los niños no saben bien cómo ayudar, que ella pregunte
 bajito: "¿Contáis conmigo?" Una sola palabra amable y valiente basta. En cuanto los
 jugadores la animan de cualquier manera, ella se serena y se eleva.
+
+**Hazlo más fácil.** Contad juntos "uno, dos, tres, ¡salta!" y que todos den un brinco
+en el sitio con un gran "¡bien!".
 
 ## El final
 

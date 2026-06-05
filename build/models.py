@@ -4,7 +4,7 @@ from pydantic import BaseModel, ConfigDict, field_validator, model_validator
 
 from build import dice, fontspec, locales, tags, visuals
 
-_CANON_KINDS = ("place", "character", "creature", "item", "term")
+_CANON_KINDS = ("place", "character", "creature", "item", "term", "quality")
 
 
 class _Strict(BaseModel):

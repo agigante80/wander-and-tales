@@ -24,6 +24,9 @@ guess.
 waiting for me, and the dragon's waking brings me"), or Kon the Fox whispers the
 answer from the bamboo nearby. A guess made bravely still opens the gate.
 
+**Make it simpler.** For a very little one, ask "what falls from clouds and makes the
+flowers grow?" and the word "rain" opens the gate.
+
 ## Stop 2: The Moonlit Bridge (Normal)
 
 **The challenge.** The arched wooden bridge over the river sways and creaks. It
@@ -38,6 +41,9 @@ linked, or counting out a slow, even rhythm as they walk, works just as well.
 **Fallback.** If the children are uneasy, let them take a deep breath and try again
 with no penalty, or have Kon the Fox call out a calming rhythm to walk to. Crossing
 with help still counts as a full success and tops up an energy star.
+
+**Make it simpler.** For a very little one, lay a ribbon on the floor as the bridge and
+let them tiptoe along it, holding your hand, counting "one, two, three" as they go.
 
 ## Stop 3: The Sleeping Dragon (Hard, then no roll)
 
@@ -56,6 +62,9 @@ children are gentle, the dragon opens his sleepy eyes and is glad someone came.
 stir and murmur in his sleep, "Please, not so loud," so the gentle path is clear. The
 moment the players make any soft, kind sound at all, the bell or a hummed tune, the
 great dragon wakes warmly and is glad of their company.
+
+**Make it simpler.** For a very little one, let them hum a soft lullaby and whisper
+"good morning, dragon," and that gentle sound is enough to wake him kindly.
 
 ## The ending
 

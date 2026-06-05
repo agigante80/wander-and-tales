@@ -21,6 +21,9 @@ una dolce melodia, oppure lasciate che un giocatore spenda una stella di energia
 restare seduto in silenzio finché la civetta non si avvicina pian piano. Qualsiasi
 idea gentile conquista la sua fiducia e recupera una stella di energia.
 
+**Rendilo più facile.** Chiedete al più piccolo di sussurrare "ciao, civetta" e di
+tendere una mano aperta, e lasciate che Glaux ci salti subito sopra.
+
 ## Tappa 2: I Sentieri che Sussurrano (Normale)
 
 **La sfida.** Tre sentieri salgono nella nebbia e sembrano tutti uguali. I giocatori
@@ -36,6 +39,9 @@ scherzo, oppure lasciate che spendano una stella di energia per scorgere le penn
 foschia. Arrivare in fondo con aiuto conta comunque come un successo pieno e recupera
 una stella di energia.
 
+**Rendilo più facile.** Disponete una fila di penne (o pezzetti di carta) e lasciate
+che il bambino le segua col dito fino al sentiero giusto.
+
 ## Tappa 3: Il Posatoio in Alto (Normale)
 
 **La sfida.** Glaux è stanca e ha paura di volare l'ultimo tratto fino al suo posatoio
@@ -50,6 +56,9 @@ il coraggio di svolazzare su. Qui non c'è un modo sbagliato di essere gentili.
 speranza e fatela protendere verso di loro, e lasciate che basti una sola parola di
 incoraggiamento. Nel momento in cui offrono aiuto di qualsiasi tipo, la piccola
 civetta raggiunge il suo posatoio.
+
+**Rendilo più facile.** Lasciate che il bambino sollevi Glaux con delicatezza nelle
+mani a coppa e la posi sul posatoio, esultando "su, su che vai".
 
 ## Il finale
 

@@ -1,4 +1,4 @@
-"""Command line: python -m build {validate,lint,render,render-guide,render-playbook,render-world,render-examples,rebuild,prompts,generate-images}."""
+"""Command line: python -m build {validate,lint,render-tale-book,render-atlas,render-guide,render-world,render-examples,rebuild,prompts,generate-images}."""
 
 import argparse
 import os
@@ -19,26 +19,26 @@ def main(argv: list[str] | None = None) -> int:
     _add_root(sub.add_parser("validate", help="load and validate all content"))
     _add_root(sub.add_parser("lint", help="run structural lint"))
 
-    render_parser = sub.add_parser("render", help="build a kit PDF")
-    _add_root(render_parser)
-    render_parser.add_argument("--world", required=True)
-    render_parser.add_argument("--story", required=True)
-    render_parser.add_argument("--locale", required=True)
-    render_parser.add_argument("--reading-level", required=True,
-                               choices=("simple", "rich"))
-    render_parser.add_argument("--out-dir", type=Path, default=None)
+    tale_parser = sub.add_parser("render-tale-book", help="build a Tale Book PDF")
+    _add_root(tale_parser)
+    tale_parser.add_argument("--world", required=True)
+    tale_parser.add_argument("--story", required=True)
+    tale_parser.add_argument("--locale", required=True)
+    tale_parser.add_argument("--reading-level", required=True,
+                             choices=("simple", "rich"))
+    tale_parser.add_argument("--out-dir", type=Path, default=None)
+
+    atlas_parser = sub.add_parser("render-atlas", help="build an Atlas PDF")
+    _add_root(atlas_parser)
+    atlas_parser.add_argument("--world", required=True)
+    atlas_parser.add_argument("--story", required=True)
+    atlas_parser.add_argument("--locale", required=True)
+    atlas_parser.add_argument("--out-dir", type=Path, default=None)
 
     guide_parser = sub.add_parser("render-guide", help="build the Guide PDF")
     _add_root(guide_parser)
     guide_parser.add_argument("--locale", required=True)
     guide_parser.add_argument("--out-dir", type=Path, default=None)
-
-    playbook_parser = sub.add_parser("render-playbook", help="build a Grown-up's Playbook PDF")
-    _add_root(playbook_parser)
-    playbook_parser.add_argument("--world", required=True)
-    playbook_parser.add_argument("--story", required=True)
-    playbook_parser.add_argument("--locale", required=True)
-    playbook_parser.add_argument("--out-dir", type=Path, default=None)
 
     world_parser = sub.add_parser("render-world", help="build a World Book PDF")
     _add_root(world_parser)
@@ -90,10 +90,10 @@ def main(argv: list[str] | None = None) -> int:
         print("lint clean")
         return 0
 
-    if args.command == "render":
-        from build.render import kit
+    if args.command == "render-tale-book":
+        from build.render import tale_book
 
-        out = kit.build_story_pack(
+        out = tale_book.build_tale_book(
             args.root, args.world, args.story, args.locale, args.reading_level,
             out_dir=args.out_dir,
         )
@@ -121,10 +121,10 @@ def main(argv: list[str] | None = None) -> int:
         print(f"built {qs}")
         return 0
 
-    if args.command == "render-playbook":
-        from build.render import playbook
+    if args.command == "render-atlas":
+        from build.render import atlas
 
-        out = playbook.build_playbook(
+        out = atlas.build_atlas(
             args.root, args.world, args.story, args.locale, out_dir=args.out_dir
         )
         print(f"built {out}")

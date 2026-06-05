@@ -1,6 +1,6 @@
 """Generate a simple per-story adventure-trail map from the narration beats.
 
-Every Story Pack carries a map page. When a story (or its world) ships a hand-drawn
+Every Atlas carries a map page. When a story (or its world) ships a hand-drawn
 map SVG, that wins (see ``map.find_map``); otherwise this module draws one. It reads
 the story's own narration headings (``## Before you begin``, ``## Stop 1: ...``, the
 ending) and lays out a winding golden trail from START, through the numbered stops, to

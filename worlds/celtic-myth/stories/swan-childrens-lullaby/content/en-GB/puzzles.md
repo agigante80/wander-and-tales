@@ -20,6 +20,10 @@ them gliding out.
 feet, or let the smallest swan give a quiet call they can follow. Any gentle, kind
 approach works, and once the swans see a friendly face they come close on their own.
 
+**Make it simpler.** For a little one, play a quiet game of tiptoe-and-whisper: creep
+softly and say "hello, swans" in your gentlest voice, and the swans glide out to meet
+them.
+
 ## Stop 2: Remembering the Lullaby (Normal)
 
 **The challenge.** The swan children have forgotten their lullaby. Three short
@@ -51,6 +55,9 @@ just as well.
 point out the words "dusk" and "morning" and ask which one comes earlier in a night.
 Getting there with help still counts as a full success and tops up an energy star.
 
+**Make it simpler.** For a little one, use just two verses: read the bedtime one and
+the morning one, and ask which we sing first when it is time to sleep.
+
 ## Stop 3: Playing It Together (Normal)
 
 **The challenge.** The swan children know the words now but are too shy to sing, and
@@ -66,6 +73,9 @@ first and stay beside her, she finds her note and the others follow.
 shyest swan whisper, "Will you sing it with me?" The moment the players hum any tune
 at all and invite her in, her first small note slips free and all four swan children
 join the song.
+
+**Make it simpler.** For a little one, hum "la-la-la" together and ask the shyest swan
+to add just one "la" of her own; that single note is enough to start the whole song.
 
 ## The ending
 

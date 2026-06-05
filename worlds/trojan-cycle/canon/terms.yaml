@@ -5,7 +5,7 @@
     en-GB: Imagination
     es-ES: Imaginación
     it-IT: Immaginazione
-  kind: term
+  kind: quality
   description:
     en-GB: Imagining ideas and trying them. On these shores, a good idea ends a quarrel that a thousand spears never could.
     es-ES: Imaginar ideas y probarlas. En estas costas, una buena idea pone fin a una disputa que mil lanzas jamás podrían.
@@ -17,7 +17,7 @@
     en-GB: Courage
     es-ES: Valor
     it-IT: Coraggio
-  kind: term
+  kind: quality
   description:
     en-GB: A steady heart on a wide and stormy sea. Courage is not being unafraid; it is staying kind and trying anyway, even when you are afraid.
     es-ES: Un corazón firme en un mar ancho y tormentoso. El valor no es no tener miedo; es seguir siendo amable e intentarlo igualmente, aun cuando lo tienes.
@@ -29,7 +29,7 @@
     en-GB: Loyalty
     es-ES: Lealtad
     it-IT: Lealtà
-  kind: term
+  kind: quality
   description:
     en-GB: Standing by your friends and leaving no one behind. The greatest heroes of the shores are the ones who keep faith, help, and find their way home together.
     es-ES: Estar al lado de tus amigos y no dejar a nadie atrás. Los mayores héroes de las costas son los que mantienen la palabra, ayudan y encuentran juntos el camino a casa.

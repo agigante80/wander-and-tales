@@ -22,6 +22,9 @@ lleva con mucha intención hasta el puesto correcto, para enseñar a los niños 
 hace, y entonces gastan una estrella de energía o combinan dos magias para terminar
 los fáciles. Aquí nadie espera mucho rato.
 
+**Hazlo más fácil.** Con un peque muy pequeño, sacad solo las botas y preguntad
+únicamente a qué puesto van, y que las lleve hasta allí.
+
 ## Parada 2: La Memoria del Mercado (Normal)
 
 **El reto.** Para devolver el resto, los jugadores deben recordar el mercado tal
@@ -40,6 +43,9 @@ como un éxito completo.
 **Apoyo.** Si se quedan en blanco, haced que la Flor Parlante cante el orden
 despacio, puesto a puesto, y dejad que los jugadores coloquen una pareja por verso.
 Llegar con un empujoncito recupera una estrella de energía.
+
+**Hazlo más fácil.** Con un peque muy pequeño, levantad el pan y preguntad solo
+"¿quién lo hornea?", y celebrad cuando señale al panadero.
 
 ## Parada 3: El Último Cambio (Normal)
 
@@ -60,6 +66,9 @@ niños los puedan mover de verdad; la lógica encaja en cuanto lo ven como un c�
 **Apoyo.** Si se quedan atascados, el Gato de Niebla empuja las botas hacia el
 zapatero para arrancar la cadena ("las botas van con los zapatos"), y lo demás suele
 venir solo. Resolverlo con un empujoncito es un éxito completo.
+
+**Hazlo más fácil.** Con un peque muy pequeño, haced un solo cambio: que pase las
+botas del panadero al zapatero, y dad por hecha toda la tarea.
 
 ## Pip, Aprendiz de Mago (sin tirada)
 

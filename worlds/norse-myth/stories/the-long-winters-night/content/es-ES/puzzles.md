@@ -22,6 +22,9 @@ guiar a los héroes hacia una fila cuidadosa y separada, o dejad que gasten una 
 de energía para afirmar el paso. Cruzar despacio y con suavidad siempre funciona, y
 recupera una estrella de energía.
 
+**Hazlo más fácil.** Cruzad juntos la habitación de puntillas, como pingüinos
+silenciosos y cuidadosos sobre el hielo resbaladizo.
+
 ## Parada 2: El Gigante de Hielo Solitario (Difícil, luego sin tirada)
 
 **El reto.** Un gigante enorme de hielo azul pálido está sentado en el camino con los
@@ -41,6 +44,9 @@ gigante tiemble y pregunte, muy bajito: "¿Vosotros también tenéis frío y est
 solos?" Una sola palabra cálida lo derrite. La bondad es todo el reto, y no se puede
 fallar.
 
+**Hazlo más fácil.** Dadle al gigante solitario un gran abrazo calentito y decidle
+"puedes ser nuestro amigo".
+
 ## Parada 3: El Puente del Arco Iris (Normal)
 
 **El reto.** El Puente del Arco Iris reluciente sube hasta los salones de las alturas, y
@@ -58,6 +64,9 @@ calor del mundo vuelve a prenderse.
 amable que digan, de modo que un solo y sincero "venimos a traer de vuelta el calor"
 ilumine el camino para cruzar. El puente siempre aguanta para estos héroes; sus
 corazones ya se lo han ganado.
+
+**Hazlo más fácil.** Caminad sobre una fila de cojines de colores o un pañuelo en el
+suelo, de la mano y diciendo un color en cada paso.
 
 ## El final
 

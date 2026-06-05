@@ -21,6 +21,9 @@ to discover where each thing truly belongs.
 carries it pointedly to the right stall, showing the children how, then they spend an
 energy star or combine two magics to finish the easy ones. Nobody is stuck for long.
 
+**Make it simpler.** For a very young child, set out just the boots and ask only
+which stall they belong to, then let them carry them across.
+
 ## Stop 2: The Memory of the Market (Normal)
 
 **The challenge.** To return the rest, the players must remember the market as it was:
@@ -40,6 +43,9 @@ success.
 at a time, and let the players place one pairing per line. Getting there with a nudge
 tops up an energy star.
 
+**Make it simpler.** For a very young child, hold up the bread and ask only "who
+bakes this?", and cheer when they point to the baker.
+
 ## Stop 3: The Last Swap (Normal)
 
 **The challenge.** Three stalls are tangled in a loop: the baker holds boots, the
@@ -58,6 +64,9 @@ can physically move them; the logic clicks once they see it as a ring.
 **Fallback.** If they are stuck, the Mist Cat nudges the boots toward the cobbler to
 start the chain ("boots belong with shoes"), and the rest tends to follow. Solving it
 with one nudge is a full success.
+
+**Make it simpler.** For a very young child, do just one swap: let them hand the boots
+from the baker to the cobbler and call that the whole job done.
 
 ## Pip the New Mage (no roll)
 

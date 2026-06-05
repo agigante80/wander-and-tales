@@ -25,6 +25,9 @@ poi voltarsi a guardare, oppure lasciate che spendano una stella di energia per
 nello stesso punto. Restare vicini al cane e non arrendersi trova sempre la pista;
 questa tappa è pensata per sembrare un inizio facile e felice.
 
+**Rendilo più facile.** Mettete a terra due impronte di zampa di carta e chiedete a un
+piccolino di camminarci sopra in punta di piedi come Argo, seguendo la pista insieme.
+
 ## Tappa 2: Le Pozze della Marea (Normale)
 
 **La sfida.** La pista porta tra tre pozze della marea piene di sole, e i giocatori
@@ -51,6 +54,9 @@ alla volta: "Argo dice non la conchiglia bianca, quindi quali pozze restano?", p
 di energia mentre Argo annusa dritto verso la pozza giusta. Arrivare alla pozza due
 per qualsiasi via conta come un successo pieno e recupera una stella di energia.
 
+**Rendilo più facile.** Mettete tre bicchieri e nascondete una conchiglia sotto uno,
+poi lasciate che un piccolino sbirci e indichi il bicchiere con accanto la conchiglia rigata.
+
 ## Tappa 3: La Duna Lontana (Normale)
 
 **La sfida.** Il ricordo è caduto vicino a una duna solitaria e il vento lo ha mezzo
@@ -69,6 +75,9 @@ Argo, annusare una volta e cominciare a scavare lui stesso proprio dove deve ess
 così possono unirsi. Spendere una stella di energia per "guardare più da vicino"
 rivela anche il luccichio del legno. Il ricordo viene sempre ritrovato; l'unica
 domanda è con quanta tenerezza.
+
+**Rendilo più facile.** Nascondete un piccolo giocattolo sotto un cuscino e lasciate
+che un piccolino lo scopra spostandolo piano con una mano, per trovare il tesoro e abbracciarlo.
 
 ## Il finale
 

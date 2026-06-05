@@ -22,6 +22,9 @@ devono riaccenderla e capire dove sono volate via le altre lanterne.
 guarda con intenzione su verso la scia di luce, poi i giocatori spendono una stella
 di energia o combinano due magie per finire. Nessuno resta al buio a lungo.
 
+**Rendilo più facile.** Con un bimbo molto piccolo, dategli una torcia e che
+accenderla sia la magia che riaccende la lanterna.
+
 ## Tappa 2: Il Banco di Nuvole (Normale)
 
 **La sfida.** Diverse lanterne sono nascoste dentro un banco di nuvole morbide. I
@@ -38,6 +41,9 @@ magia combinata.
 accanto a una nuvola luminosa per mostrare loro che aspetto ha "calda e luminosa",
 poi lasciate che trovino le altre. Arrivarci con un aiuto conta comunque come un
 successo completo, e fa recuperare una stella di energia.
+
+**Rendilo più facile.** Con un bimbo molto piccolo, nascondete una lanterna sotto
+una sola nuvola di cotone e lasciate che la sollevi per trovare la luce.
 
 ## Tappa 3: La Cengia Alta (Normale)
 
@@ -60,6 +66,9 @@ nessuno deve arrampicarsi né rischiare una caduta.
 speranzoso che fa dondolare la lanterna, così vedono che si può convincere a scendere
 invece di afferrarla. Nel momento in cui provano un'idea gentile, lasciate che la
 lanterna scenda nelle loro mani.
+
+**Rendilo più facile.** Con un bimbo molto piccolo, mettete la lanterna su una
+mensola e che dia un grande soffio gentile per farla scendere su un cuscino in basso.
 
 ## Nimbo, il Balenotto delle Nuvole (senza tiro)
 

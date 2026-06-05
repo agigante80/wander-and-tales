@@ -21,6 +21,10 @@ flotando hasta sus pies, o que la cisne más pequeña dé una llamada suave que 
 seguir. Cualquier acercamiento suave y amable vale, y en cuanto los cisnes ven una
 cara amistosa se acercan por su cuenta.
 
+**Hazlo más fácil.** Para los más pequeños, jugad a andar de puntillas y susurrar:
+caminad sin hacer ruido y decid "hola, cisnes" con la voz más dulce, y los cisnes
+salen deslizándose a su encuentro.
+
 ## Parada 2: Recordar la Nana (Normal)
 
 **El reto.** Los niños cisne han olvidado su nana. Tres versos cortos flotan en la
@@ -53,6 +57,9 @@ o señalad las palabras "ocaso" y "mañana" y preguntad cuál llega antes en una
 Llegar con ayuda cuenta igual como un éxito completo y recupera una estrella de
 energía.
 
+**Hazlo más fácil.** Para los más pequeños, usad solo dos versos: leed el de irse a
+dormir y el de la mañana, y preguntad cuál cantamos primero cuando toca dormir.
+
 ## Parada 3: Tocarla Juntos (Normal)
 
 **El reto.** Los niños cisne ya saben las palabras, pero son demasiado tímidos para
@@ -70,6 +77,10 @@ y los demás la siguen.
 dejad que la cisne más tímida susurre: "¿La cantáis conmigo?" En cuanto los
 jugadores tararean cualquier melodía y la invitan, su primera notita se le escapa y
 los cuatro niños cisne se unen a la canción.
+
+**Hazlo más fácil.** Para los más pequeños, tararead "la-la-la" juntos y pedid a la
+cisne más tímida que añada solo un "la" suyo; esa única nota basta para empezar toda
+la canción.
 
 ## El final
 

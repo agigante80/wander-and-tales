@@ -18,6 +18,9 @@ meadow flowers, and ask politely. Happy bees fill the jar themselves.
 show them how to hum a low, friendly note, or let a player spend an energy star to
 calm everyone down. Asking kindly always works, and tops up an energy star.
 
+**Make it simpler.** Let the child hum a soft "bzzz", hold out a paper flower, and say
+"please, bees", and the jar is full.
+
 ## Stop 2: Milo's Kitchen (Normal)
 
 **The challenge.** Milo's honey cake must be shared so that every guest at the feast
@@ -34,6 +37,9 @@ fingers, or let the children line up one biscuit or pebble per guest and match t
 the slices. Getting there with help still counts as a full success and tops up an
 energy star.
 
+**Make it simpler.** Give the littlest one one biscuit per guest to hand round, and a
+big double piece for the giant, and the sharing is done.
+
 ## Stop 3: Fetching the Friend (Normal)
 
 **The challenge.** The Cyclops is shy to come down to a whole townful of people. He
@@ -48,6 +54,9 @@ walk down at his side. Kindness, not any plan, carries this stop.
 **Fallback.** If the children are unsure what to say, have the giant ask quietly, "Are
 you really sure there is room for me?" A single kind word is enough, and down the hill
 he comes.
+
+**Make it simpler.** Let the child wave and call "come on, big friend, there is room
+for you", and the giant smiles and follows them down.
 
 ## The ending
 

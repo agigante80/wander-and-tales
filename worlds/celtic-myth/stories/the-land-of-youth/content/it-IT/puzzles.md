@@ -26,6 +26,10 @@ tutta la mattina, e non potete tenermi nella mano"), oppure Pook il Puca sussurr
 risposta tra i giunchi. Una supposizione fatta con coraggio apre comunque la via per
 attraversare.
 
+**Rendilo più facile.** Per i più piccoli, indicate intorno e chiedete: "Cosa
+galleggia sopra il lago, che possiamo attraversare ma mai tenere in mano?" Indicare la
+nebbia è tutta la risposta.
+
 ## Tappa 2: La Traversata della Selkie (Normale)
 
 **La sfida.** Sorcha la Selkie ha l'unica barca, ma è timida e un po' sola e non
@@ -42,6 +46,9 @@ porta dall'altra parte.
 naso Sorcha e mormorare: "Nessuno si ferma mai a parlare con me." Una sola parola
 gentile scioglie la sua timidezza. Condividere anche solo una briciola della focaccia
 conta come un successo pieno e recupera una stella di energia.
+
+**Rendilo più facile.** Per i più piccoli, basta che salutino con la mano e dicano:
+"ciao, vuoi essere mia amica?" Quel solo saluto gentile conquista Sorcha.
 
 ## Tappa 3: La Terra della Giovinezza (Difficile, poi senza tiro)
 
@@ -62,6 +69,10 @@ tiro: la via di casa si prende e basta.
 "Aspettate... c'era qualcuno che mi cantava la sera?" Qualsiasi ricordo caldo che i
 bambini offrono riporta l'amica per il resto della via. La lana rossa garantisce che
 nessuno perda il sentiero, per quanto nebbioso diventi.
+
+**Rendilo più facile.** Per i più piccoli, chiedete di dire il nome di una persona di
+casa a cui vogliono bene e che gli manca; dire quel solo nome basta perché l'amica
+ricordi e scelga di tornare a casa.
 
 ## Il finale
 

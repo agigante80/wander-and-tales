@@ -23,6 +23,9 @@ es amable, también acepta una conjetura valiente y meditada.
 dioses viven en mi cima"), o Zarza el sátiro susurra la respuesta detrás de una roca.
 Una conjetura hecha con valentía abre igualmente la puerta.
 
+**Hazlo más fácil.** Preguntad "¿qué es enorme, de roca y con nieve en lo alto?" y
+señalad un monte por la ventana, y cualquier respuesta como "una montaña" abre la puerta.
+
 ## Parada 2: El Laberinto Sinuoso (Normal)
 
 **El reto.** Tras la puerta hay un laberinto de muros de piedra donde todos los
@@ -37,6 +40,9 @@ igual de bien.
 **Apoyo.** Si los niños dudan, que Zarza asome y señale el camino con un chiste, o
 dejad que gasten una estrella de energía para "recordar" la ruta. Llegar al final con
 ayuda cuenta igual como un éxito completo y recupera una estrella de energía.
+
+**Hazlo más fácil.** Que el niño deje un trozo de cuerda o lana de verdad por el
+laberinto del mapa y luego la siga de vuelta: con eso queda resuelto.
 
 ## Parada 3: El Cíclope Solitario (Difícil, luego sin tirada)
 
@@ -54,6 +60,10 @@ fuente tocando la **pequeña lira**, y las **Ninfas Cantarinas** se alzan y cant
 gigante resople y pregunte, muy bajito: "¿Vosotros también me tenéis miedo?" Una sola
 palabra amable lo derrite. En cuanto los jugadores prueban cualquier melodía, las
 ninfas despiertan y el agua canta.
+
+**Hazlo más fácil.** Que el niño salude al gigante solitario con la mano y un abrazo y
+le ofrezca un trozo de pastel, y luego tararee cualquier cancioncilla para despertar la
+fuente.
 
 ## El final
 

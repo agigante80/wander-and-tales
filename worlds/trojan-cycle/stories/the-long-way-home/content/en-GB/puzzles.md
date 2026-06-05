@@ -28,6 +28,9 @@ kind word and a promise are all I ask, young sailors") or let them spend an ener
 star to find the right words together. A request made bravely and politely always
 earns the fair wind.
 
+**Make it simpler.** Ask a little one to say "please" and blow a big puff of breath
+like the wind, and Aeolus happily sends them on their way.
+
 ## Stop 2: The Singing Sirens (Hard, then no roll)
 
 **The challenge.** The Singing Sirens sit on the lonely rocks, and their song is so
@@ -47,6 +50,9 @@ they can, have one Siren call across the water, very softly, "Will nobody ever s
 and sing with us?" A single kind word or note from the Conch Horn turns the sad song
 glad and the Sirens become friends at once.
 
+**Make it simpler.** Let a little one hum a happy "la-la-la" back to the Sirens, and
+that cheerful tune is all it takes to make them smile.
+
 ## Stop 3: Home at Last (Normal)
 
 **The challenge.** The heroes reach a green shore that may be home. They must cross
@@ -64,6 +70,9 @@ settle it: the old hound lifts his grey head, catches their scent, and trots
 straight to them with his tail wagging, because he has never once forgotten a
 friend. Recognising home with the dog's help still counts as a full success and
 tops up an energy star.
+
+**Make it simpler.** Ask a little one to call out the dog's name, "Argos!", and give
+a big happy wave, and the homecoming begins right away.
 
 ## The ending
 

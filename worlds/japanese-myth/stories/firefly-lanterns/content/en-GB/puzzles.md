@@ -21,6 +21,9 @@ Fox** murmur, "They come to calm hearts, not quick hands," and show them how to 
 still. The moment they settle and wait kindly, a firefly drifts down to them, and the
 rest follow. A gentle try always works.
 
+**Make it simpler.** For a very little one, ask them to cup their hands quietly in
+their lap and whisper "hello, firefly," and that gentle welcome is enough.
+
 ## Stop 2: The Lantern Path (Normal)
 
 **The challenge.** A long row of empty paper lanterns leads down the hill to the village.
@@ -38,6 +41,9 @@ explain works just as well.
 hint. They may also spend an energy star to "remember" the pattern. Getting there with
 help still counts as a full success and tops up an energy star.
 
+**Make it simpler.** For a very little one, line up just three lanterns and let them
+point to the small one, then the middle one, then the big one.
+
 ## Stop 3: The Great Lantern (Normal)
 
 **The challenge.** The Great Lantern at the top of the square must be lit by the shyest
@@ -54,6 +60,9 @@ flies up, and the Great Lantern blooms with the warmest light of all.
 shrink back and whisper, "Will you stay with me?" A single kind, calm word is enough. The
 moment the players offer any warm encouragement at all, the little spirit finds its
 courage and the great lantern lights.
+
+**Make it simpler.** For a very little one, let them clap softly and call "you can do
+it, little firefly!" and that cheer is all it takes.
 
 ## The ending
 
