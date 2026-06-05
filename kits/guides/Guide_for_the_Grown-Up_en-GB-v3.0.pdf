@@ -3,17 +3,17 @@
 1 0 obj
 <<
 /Producer (pypdf)
-/Title (Guide for the Grown\055Up\054 en\055GB\054 v2\05613)
+/Title (Guide for the Grown\055Up\054 en\055GB\054 v3\0560)
 /Author (Wits and Wonder)
-/Subject (Guide for the Grown\055Up\054 v2\05613\054 2026\05506\05505)
+/Subject (Guide for the Grown\055Up\054 v3\0560\054 2026\05506\05505)
 /Keywords (wits\055and\055wonder\054 guide\054 en\055GB)
 >>
 endobj
 2 0 obj
 <<
 /Type /Pages
-/Count 3
-/Kids [ 4 0 R 33 0 R 37 0 R ]
+/Count 5
+/Kids [ 4 0 R 35 0 R 39 0 R 43 0 R 47 0 R ]
 >>
 endobj
 3 0 obj
@@ -42,7 +42,7 @@ endobj
 endobj
 6 0 obj
 <<
-/Length 6207
+/Length 6800
 >>
 stream
 q
@@ -85,7 +85,7 @@ q
 1 0 0 1 57.02362 678.4652 cm
 q
 .227451 .352941 .196078 rg
-BT 1 0 0 1 0 18 Tm /F4+0 10 Tf 14 TL (New here? This is everything you need. Read it once and you will be ready for any kit in the) Tj T* (library. It takes about five minutes.) Tj T* ET
+BT 1 0 0 1 0 18 Tm /F4+0 10 Tf 14 TL (New here? This is everything you need. Read it once and you will be ready for any kit in the) Tj T* (library. It takes a few minutes.) Tj T* ET
 Q
 Q
 q
@@ -96,98 +96,114 @@ BT 1 0 0 1 0 1 Tm /F3+0 13 Tf 14 TL (What this is) Tj T* ET
 Q
 Q
 q
-1 0 0 1 57.02362 551.4652 cm
+1 0 0 1 57.02362 523.4652 cm
 q
 .227451 .352941 .196078 rg
-BT 1 0 0 1 0 88 Tm /F5+0 10 Tf 14 TL (This is a cooperative story-and-puzzle adventure you play with a child, or a few children, out) Tj T* (loud, with a printed kit and a few household bits. There is no app and no screen. You read a) Tj T* (little story, the children make choices, and together you solve gentle puzzles with simple dice.) Tj T* (You are all on the same side, helping each other through, never playing against one another. It) Tj T* (is a way to practise imagination, problem-solving, and working together, and a lovely excuse) Tj T* (for unhurried, screen-free time, which researchers link to how well children settle and thrive.) Tj T* (You need no experience at all. If you can read a bedtime story, you can run this.) Tj T* ET
+BT 1 0 0 1 0 116 Tm -0.069562 Tw /F5+0 10 Tf 14 TL (If you have never played a game like this, picture a bedtime story that your child helps to steer,) Tj T* 0 Tw (a little like a choose-your-own-adventure book acted out loud together. That is really all it is.) Tj T* (This is a cooperative story-and-puzzle adventure you play with a child, or a few children, out) Tj T* (loud, with a printed kit and a few household bits. There is no app and no screen. You read a) Tj T* (little story, the children make choices, and together you solve gentle puzzles with simple dice.) Tj T* (You are all on the same side, helping each other through, never playing against one another. It) Tj T* (is a way to practise imagination, problem-solving, and working together, and a lovely excuse) Tj T* (for unhurried, screen-free time, which researchers link to how well children settle and thrive.) Tj T* (You need no experience at all. If you can read a bedtime story, you can run this.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 57.02362 526.4652 cm
+1 0 0 1 57.02362 498.4652 cm
 q
 .305882 .635294 .290196 rg
-BT 1 0 0 1 0 1 Tm /F3+0 13 Tf 14 TL (Your jobs, and you get to play too) Tj T* ET
+BT 1 0 0 1 0 1 Tm /F3+0 13 Tf 14 TL (What playing actually looks like) Tj T* ET
 Q
 Q
 q
-1 0 0 1 57.02362 480.4652 cm
+1 0 0 1 57.02362 466.4652 cm
 q
-BT 1 0 0 1 0 32 Tm 14 TL .227451 .352941 .196078 rg /F5+0 10 Tf 14 TL (You are the ) Tj /F6+0 10 Tf 14 TL (Game Master) Tj /F5+0 10 Tf 14 TL (, which is just a few small jobs at once. You are also a fellow) Tj T* (adventurer at the table, not a referee standing apart: you play on the children's side, helping) Tj T* (them find the way.) Tj T* ET
+.227451 .352941 .196078 rg
+BT 1 0 0 1 0 18 Tm /F5+0 10 Tf 14 TL (Here is a whole turn, so you can picture it. You read a line, a child answers, and a roll of the die) Tj T* (adds a pinch of surprise:) Tj T* ET
 Q
 Q
 q
 1 0 0 1 57.02362 446.4652 cm
 q
-BT 1 0 0 1 2 18 Tm /F1 10 Tf 12 TL .227451 .352941 .196078 rg (\177) Tj ET
-BT 1 0 0 1 14 18 Tm 14 TL .227451 .352941 .196078 rg /F6+0 10 Tf 14 TL (The narrator.) Tj /F5+0 10 Tf 14 TL ( Read the story parts aloud, warmly. Do a silly voice if you fancy it. Pause at) Tj T* (the questions and let the children answer.) Tj T* ET
+BT 1 0 0 1 2 4 Tm /F1 10 Tf 12 TL .227451 .352941 .196078 rg (\177) Tj ET
+BT 1 0 0 1 14 4 Tm 14 TL .227451 .352941 .196078 rg /F6+0 10 Tf 14 TL (You read:) Tj /F5+0 10 Tf 14 TL ( "The vine gate is knotted shut. What do you do?") Tj T* ET
 Q
 Q
 q
-1 0 0 1 57.02362 415.4652 cm
-q
-BT 1 0 0 1 2 18 Tm /F1 10 Tf 12 TL .227451 .352941 .196078 rg (\177) Tj ET
-BT 1 0 0 1 14 18 Tm 14 TL .227451 .352941 .196078 rg /F6+0 10 Tf 14 TL (The gentle referee.) Tj /F5+0 10 Tf 14 TL ( When the players try something, you decide how it goes, always) Tj T* (leaning towards yes. The puzzle pages give you the answers, so you are never caught out.) Tj T* ET
-Q
-Q
-q
-1 0 0 1 57.02362 384.4652 cm
-q
-BT 1 0 0 1 2 18 Tm /F1 10 Tf 12 TL .227451 .352941 .196078 rg (\177) Tj ET
-BT 1 0 0 1 14 18 Tm 14 TL .227451 .352941 .196078 rg /F6+0 10 Tf 14 TL (The biggest fan.) Tj /F5+0 10 Tf 14 TL ( Cheer every idea, especially the odd ones. Your delight is the engine of) Tj T* (the whole game.) Tj T* ET
-Q
-Q
-q
-1 0 0 1 57.02362 325.4652 cm
-q
-BT 1 0 0 1 2 46 Tm /F1 10 Tf 12 TL .227451 .352941 .196078 rg (\177) Tj ET
-BT 1 0 0 1 14 46 Tm 14 TL .227451 .352941 .196078 rg /F6+0 10 Tf 14 TL (A fellow adventurer.) Tj /F5+0 10 Tf 14 TL ( Take a hero of your own and play along. You have read ahead, but) Tj T* (you do not have to act like it: let yourself be surprised, wonder out loud, and discover each) Tj T* (turn with the children. Helping them through is the whole point, not being the one who) Tj T* (knows.) Tj T* ET
-Q
-Q
-q
-1 0 0 1 57.02362 300.4652 cm
-q
-.305882 .635294 .290196 rg
-BT 1 0 0 1 0 1 Tm /F3+0 13 Tf 14 TL (The one golden rule: yes, and) Tj T* ET
-Q
-Q
-q
-1 0 0 1 57.02362 226.4652 cm
-q
-BT 1 0 0 1 0 60 Tm 14 TL .227451 .352941 .196078 rg /F5+0 10 Tf 14 TL (Whatever your child suggests, try to say ) Tj /F6+0 10 Tf 14 TL ("yes, and...") Tj /F5+0 10 Tf 14 TL ( rather than "no". If they want to) Tj T* (befriend the monster, talk to the river, or fly on a borrowed cloud, let them, and add a little) Tj T* (twist that keeps the story moving. "Yes, the vines pull back, and as they do you spot something) Tj T* (glinting underneath." Saying yes keeps a child leaning in. Saying no, again and again, is the) Tj T* (one sure way to lose them.) Tj T* ET
-Q
-Q
-q
-1 0 0 1 57.02362 201.4652 cm
-q
-.305882 .635294 .290196 rg
-BT 1 0 0 1 0 1 Tm /F3+0 13 Tf 14 TL (Nobody loses, ever) Tj T* ET
-Q
-Q
-q
-1 0 0 1 57.02362 127.4652 cm
-q
-BT 1 0 0 1 0 60 Tm 14 TL .227451 .352941 .196078 rg /F5+0 10 Tf 14 TL (This is the heart of every kit: ) Tj /F6+0 10 Tf 14 TL (a failed roll is never a defeat, only a detour.) Tj /F5+0 10 Tf 14 TL ( If a dice roll) Tj T* (comes up short, do not stop the story. The players can spend an energy star and try again,) Tj T* (combine their strengths, accept a helpful nudge from a friendly creature, or simply find another) Tj T* (way round. Treat a miss as a funny surprise, not a failure. No child is ever knocked out, left) Tj T* (behind, or made to feel they have let the team down.) Tj T* ET
-Q
-Q
-q
-1 0 0 1 57.02362 102.4652 cm
-q
-.305882 .635294 .290196 rg
-BT 1 0 0 1 0 1 Tm /F3+0 13 Tf 14 TL (When they get stuck) Tj T* ET
-Q
-Q
-q
-1 0 0 1 57.02362 84.4652 cm
-q
-.227451 .352941 .196078 rg
-BT 1 0 0 1 0 4 Tm /F5+0 10 Tf 14 TL (Sticking is normal. Reach for these, in order:) Tj T* ET
-Q
-Q
-q
-1 0 0 1 57.02362 64.4652 cm
+1 0 0 1 57.02362 429.4652 cm
 q
 BT 1 0 0 1 2 4 Tm /F1 10 Tf 12 TL .227451 .352941 .196078 rg (\177) Tj ET
-BT 1 0 0 1 14 4 Tm 14 TL .227451 .352941 .196078 rg /F5+0 10 Tf 14 TL (Offer a ) Tj /F6+0 10 Tf 14 TL (friendly hint) Tj /F5+0 10 Tf 14 TL ( through a character \("the cat nudges a loose vine..."\).) Tj T* ET
+BT 1 0 0 1 14 4 Tm 14 TL .227451 .352941 .196078 rg /F6+0 10 Tf 14 TL (A child:) Tj /F5+0 10 Tf 14 TL ( "I ask my owl to peck it open.") Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 398.4652 cm
+q
+BT 1 0 0 1 2 18 Tm /F1 10 Tf 12 TL .227451 .352941 .196078 rg (\177) Tj ET
+BT 1 0 0 1 14 18 Tm 14 TL .227451 .352941 .196078 rg /F6+0 10 Tf 14 TL (You:) Tj /F5+0 10 Tf 14 TL ( "Lovely idea. That is a Normal challenge, so give the die a roll." They roll a three. "The) Tj T* (owl tugs hard and one knot springs loose. One more good idea and you are through.") Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 353.4652 cm
+q
+.227451 .352941 .196078 rg
+BT 1 0 0 1 0 32 Tm /F5+0 10 Tf 14 TL (That is the whole engine: a question, an idea, a roll, and a "yes, and" that keeps the story) Tj T* -0.14659 Tw (moving. No one can fail their way out of the fun; a low roll just means you find another way. The) Tj T* 0 Tw (story tells you when to roll, the Playbook gives you the answers, and this Guide does the rest.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 328.4652 cm
+q
+.305882 .635294 .290196 rg
+BT 1 0 0 1 0 1 Tm /F3+0 13 Tf 14 TL (Worlds, stories, and kits) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 310.4652 cm
+q
+BT 1 0 0 1 0 4 Tm 14 TL .227451 .352941 .196078 rg /F5+0 10 Tf 14 TL (The library is built from ) Tj /F6+0 10 Tf 14 TL (worlds) Tj /F5+0 10 Tf 14 TL (, ) Tj /F6+0 10 Tf 14 TL (stories) Tj /F5+0 10 Tf 14 TL (, and the ) Tj /F6+0 10 Tf 14 TL (kits) Tj /F5+0 10 Tf 14 TL ( you print.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 262.4652 cm
+q
+BT 1 0 0 1 2 32 Tm /F1 10 Tf 12 TL .227451 .352941 .196078 rg (\177) Tj ET
+BT 1 0 0 1 14 32 Tm 14 TL .227451 .352941 .196078 rg /F5+0 10 Tf 14 TL (A ) Tj /F6+0 10 Tf 14 TL (world) Tj /F5+0 10 Tf 14 TL ( is a setting with its own places, characters, and look: a cluster of floating islands,) Tj T* (the sunlit hills of Greek myth, the snowlit fjords of the north, and more, with new worlds) Tj T* (added over time.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 231.4652 cm
+q
+BT 1 0 0 1 2 18 Tm /F1 10 Tf 12 TL .227451 .352941 .196078 rg (\177) Tj ET
+BT 1 0 0 1 14 18 Tm -0.137475 Tw 14 TL .227451 .352941 .196078 rg /F5+0 10 Tf 14 TL (A ) Tj /F6+0 10 Tf 14 TL (story) Tj /F5+0 10 Tf 14 TL ( is one self-contained adventure inside a world, with its own path of stops and its own) Tj T* 0 Tw (puzzles. A world holds several stories, and you can play them in any order.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 186.4652 cm
+q
+BT 1 0 0 1 2 32 Tm /F1 10 Tf 12 TL .227451 .352941 .196078 rg (\177) Tj ET
+BT 1 0 0 1 14 32 Tm 14 TL .227451 .352941 .196078 rg /F5+0 10 Tf 14 TL (A ) Tj /F6+0 10 Tf 14 TL (kit) Tj /F5+0 10 Tf 14 TL ( is everything you need to play one story. You pick a world, pick a story, and print that) Tj T* (kit. Each story comes at a reading level to suit your children's age, and in more than one) Tj T* (language.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 169.4652 cm
+q
+.227451 .352941 .196078 rg
+BT 1 0 0 1 0 4 Tm /F5+0 10 Tf 14 TL (You never need to read a whole world to begin. One story is one evening.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 144.4652 cm
+q
+.305882 .635294 .290196 rg
+BT 1 0 0 1 0 1 Tm /F3+0 13 Tf 14 TL (What is in a kit, and what to print) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 126.4652 cm
+q
+.227451 .352941 .196078 rg
+BT 1 0 0 1 0 4 Tm /F5+0 10 Tf 14 TL (A kit arrives as a few short PDFs. You do not have to print them all.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 78.4652 cm
+q
+BT 1 0 0 1 2 32 Tm /F1 10 Tf 12 TL .227451 .352941 .196078 rg (\177) Tj ET
+BT 1 0 0 1 14 32 Tm 14 TL .227451 .352941 .196078 rg /F6+0 10 Tf 14 TL (The Story Pack.) Tj /F5+0 10 Tf 14 TL ( This is the one to ) Tj /F6+0 10 Tf 14 TL (print) Tj /F5+0 10 Tf 14 TL (. It is the child-safe booklet you play from: the) Tj T* (opening, a map, the story to read aloud, the pictures, and a blank ) Tj /F6+0 10 Tf 14 TL (adventure sheet) Tj /F5+0 10 Tf 14 TL ( on the) Tj T* (last page.) Tj T* ET
 Q
 Q
  
@@ -198,7 +214,7 @@ endstream
 endobj
 7 0 obj
 <<
-/Length 303
+/Length 302
 >>
 stream
 q
@@ -221,8 +237,8 @@ BT
 T*
 ET
 BT
-1 0 0 1 477.2039 31.1811 Tm
-(en\055GB \267 v2\05613 \267 page 1 of 3) Tj
+1 0 0 1 481.0959 31.1811 Tm
+(en\055GB \267 v3\0560 \267 page 1 of 5) Tj
 T*
 ET
 Q
@@ -235,11 +251,13 @@ endobj
 /F1-0 10 0 R
 /F1-1 11 0 R
 /F1-2 12 0 R
-/F2+0 13 0 R
-/F3+0 17 0 R
-/F4+0 21 0 R
-/F5+0 25 0 R
-/F6+0 29 0 R
+/F1-3 13 0 R
+/F1-4 14 0 R
+/F2+0 15 0 R
+/F3+0 19 0 R
+/F4+0 23 0 R
+/F5+0 27 0 R
+/F6+0 31 0 R
 >>
 endobj
 9 0 obj
@@ -280,25 +298,43 @@ endobj
 endobj
 13 0 obj
 <<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+14 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+15 0 obj
+<<
 /BaseFont /AAAAAA+Nunito-ExtraLight
 /FirstChar 0
-/FontDescriptor 14 0 R
+/FontDescriptor 16 0 R
 /LastChar 127
 /Name /F2+0
 /Subtype /TrueType
-/ToUnicode 16 0 R
+/ToUnicode 18 0 R
 /Type /Font
 /Widths [ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 258 228 392 600 600 930 693 221 317 317 450 600 228 424 228 283 600 600 600 600 600 600 600 600 600 600 228 228 600 600 600 443 946 729 676 673 742 583 548 726 761 257 324 625 543 855 740 767 633 767 669 615 602 728 689 1101 650 596 589 315 283 315 600 500 356 530 583 463 583 532 333 586 568 232 236 500 296 856 568 556 583 583 358 481 350 561 515 841 525 514 463 352 265 352 600 500 ]
 >>
 endobj
-14 0 obj
+16 0 obj
 <<
 /Ascent 1011
 /CapHeight 705
 /Descent -353
 /Flags 4
 /FontBBox [ -392 -277 1301 1047 ]
-/FontFile2 15 0 R
+/FontFile2 17 0 R
 /FontName /AAAAAA+Nunito-ExtraLight
 /ItalicAngle 0
 /MissingWidth 500
@@ -306,7 +342,7 @@ endobj
 /Type /FontDescriptor
 >>
 endobj
-15 0 obj
+17 0 obj
 <<
 /Filter [ /FlateDecode ]
 /Length1 13060
@@ -342,7 +378,7 @@ d¿·=–kÀ@S/Í«œ°cîäbx Ÿ®ç0ÆG˝Ë‘ä˛òyÓÔ«%®ﬂ6Å…<5ÔÔ'œÄ-ı„WP%ﬁ	¯´QeC>[‡ÁPî¢ê`
 ë¯~Sä=Yâ–(åÊ`të…—áu«A8^`>}ˆ{`Ü–π«§%` {÷|∫(Ä$õ˜ÆÜ‹øBf÷K°(#[`ekÒ.Q3É.Ñmø©Ö›¶N@±•wrï‡mG√Ê¯8H$+9Pâ6Ì fRqéƒÆˆ¬ı!Ä–ˇˇ¯‘jûOÉ„@Ô“∏∂ô,ó#¶Vàæê˘À<Hj≥è˛¡ô´¥ﬂà˛/µ :
 endstream
 endobj
-16 0 obj
+18 0 obj
 <<
 /Filter [ /FlateDecode ]
 /Length 678
@@ -351,27 +387,27 @@ stream
 xú}’›jQÜ·sØb[J—Ì˙KAÑ4?h”“ÙÃ8°é2*4wﬂı˘ÖdShtΩ√Ã÷ÁlçØÓÆÔ˙Õ±vÌCwlVõ~9tá›ihªÊ±[o˙Qô6ÀM{|π;∑€≈~4Œ√œác∑ΩÎWª—l÷å‰√√qxnﬁ]ûØ˜ß¸ı›«õﬂ«aÒe≥~:æçøÀnÿÙÎˇæÙp⁄Ôu€Æ?6ì—|ﬁ,ªU˛·◊≈˛~±ÌöÒøNæΩ˜Ûyﬂ5”Û}!Ω›-ª√~—v√¢_w£Ÿd2ofq;u˝ÚØgez¡3è´ˆi1ºº;…kû]™ûV-Uk’VµWU_T˝©ÍÀ™?W}Uıu’7Uﬂæu©¸•Úó _*©¸•Úó _*©¸•Úó _*©¸•Úó _*ˇî˛ÈπÈœëMél˙sd”ü#õ˛ŸÙÁ»¶?G6˝9≤ÈœëMél˙sd”ü#õ˛ŸÙÁ»¶?«h&Ù¸Bø¿/Ù¸Bø¿/Ù¸Bø¿/Ù¸Bø¿/Ù¸Bø¿/Ù¸Bø¿/Ù¸Bø¿/Ù¸Bø¿ØÙ+¸Jø¬ØÙ+¸Jø¬ØÙ+¸Jø¬ØÙ+¸Jø¬ØÙ+¸Jø¬ØÙ+¸Jø¬ØÙ+¸Jø¬ØÙ+¸Jø¬oÙ¸Fø¡oÙ¸Fø¡oÙ¸Fø¡oÙ¸Fø¡oÙ¸Fø¡oÙ¸Fø¡oÙ¸Fø¡oÙ¸Fø¡ÔÙ;¸Nø√ÔÙ;¸Nø√ÔÙ;¸Nø√ÔÙ;¸Nø√ÔÙ;¸Nø√ÔÙ;¸Nø√ÔÙ;¸Nø√ÔÙ;¸Nø√Ù¸A¿Ù¸A¿Ù¸A¿Ù¸A¿Ù¸A¿Ù¸A¿Ù¸A¿Ù¸AˇÀÜxŸÿX~Ø´®=Cn©ÛÜ</¨úMﬂΩ.—˝nèS¯¸µ®ß
 endstream
 endobj
-17 0 obj
+19 0 obj
 <<
 /BaseFont /AAAAAA+Quicksand-Light
 /FirstChar 0
-/FontDescriptor 18 0 R
+/FontDescriptor 20 0 R
 /LastChar 127
 /Name /F3+0
 /Subtype /TrueType
-/ToUnicode 20 0 R
+/ToUnicode 22 0 R
 /Type /Font
 /Widths [ 584 584 584 584 584 584 584 584 584 584 584 584 584 584 584 584 584 584 584 584 584 584 584 584 584 584 584 584 584 584 584 584 278 240 414 680 585 803 699 206 363 363 345 573 248 394 226 553 608 383 564 533 568 566 548 537 545 565 244 262 524 586 527 513 967 642 654 636 716 571 563 696 719 267 559 662 552 822 733 761 601 762 681 585 619 708 674 951 639 584 647 404 553 404 585 692 248 621 621 519 621 582 411 633 580 229 273 558 257 919 590 617 621 621 418 478 386 581 551 763 486 581 482 410 234 410 514 584 ]
 >>
 endobj
-18 0 obj
+20 0 obj
 <<
 /Ascent 1000
 /CapHeight 700
 /Descent -250
 /Flags 262148
 /FontBBox [ -191 -274 1324 1166 ]
-/FontFile2 19 0 R
+/FontFile2 21 0 R
 /FontName /AAAAAA+Quicksand-Light
 /ItalicAngle 0
 /MissingWidth 584
@@ -379,7 +415,7 @@ endobj
 /Type /FontDescriptor
 >>
 endobj
-19 0 obj
+21 0 obj
 <<
 /Filter [ /FlateDecode ]
 /Length1 13808
@@ -413,7 +449,7 @@ eò$JíÑ~Êî¿Q>
 5 ®ÀÀ/ëö3üa>œŒ¿Á@˝=xﬂá∆ÒOPS^∆‡^d˘»ÍW@\„_Ä,ˇâËE4gÉ–Ô3 ∞çL;,b«2˝^~~˜†;—œ–Kx+~ˇåà§è|å|ìº…®LéŸƒ‹¬<¿ºdµ]m{⁄Æ€Ï≤?œzŸÕÏmÏ'ŸüqEÓ˜≤c¿qã„≥éù>Á¢ÛnÁÁúœÛ1~òøÖˇˇíêﬁ&¸ƒUqÌt›ÂzÃÌpèªØs?‰˛ñ˚1"n≈c‚!hçzÓÚ<'â“!ÈÈ≥“ó§◊dI>$? ˇ–õÚÒ~‘˚äRPv*ÔPûSΩÍnı}Ío4§m’Ó‘÷˛I˚Q}-,Ezrúc{¨y≠aRøÔGŒ˙Ù¿¬ï5∂¡õ»¨ÿÛÿ˝ó5ÜöÁÎcÇDº±>fP	Ô®èmkû±£ ~W}Ã¬˝ÎcË‰kı±sÕX@¯_Îc◊ö±'@Ø÷XDf™>ñêóπ©>ñœºß>ˆØﬁÜ\ÃGÍcíòèœù<∞˜‡ÒÖ#óo€w`ˇ‚â˘}á=t9°C◊¢´–¥-¢(¶Bˇ’†F[‡Œ>8œ°ì0øD«°ç=¢é°MŒQt%ÃÔ5ﬂÇgN¿ÛG·˛q∏n6°ù Ë«°Œ√Ô~ÄAü8	FóÉ∑é¢√p◊Çw¿9Ö⁄·ÈxÓ<yFßÃŸ¸è√˘0‹;¥ÁÍê[P‡=U«CõÊq¯\ÖÆÜ#•yp1©ù1ﬂßº%. ˝B˜bhzEFÚ~x‚Ã]Ö:ÅÇ¸VPØ˘è3hFÁCh_a´I◊q∏¶≈÷¿¯ÛÔ≠ë’¡˘“jH›í˘)Û7wñî/$„Ü>®∆ò˙[ï’<åÆÄ—)ì[*3ÎâC&ù˚‡©„u˘û4±PŒb¶ˆôoO˝1êÀ1ÛŸµêßœÇ@µwÆ\:Ä2˙â≠°Ïlºj@À¶E,Ä}2gVma¡ƒ;“•„ ùÿyˆy†R?8wèŒ„&¥úi—˚a~ Lˇﬂ:_´´:›¥6∆Û0¶v=Ô¢_èBÊ+—5£ªÕ~ﬁœÁÒÚÌü¥Ω˝∆N"|
 endstream
 endobj
-20 0 obj
+22 0 obj
 <<
 /Filter [ /FlateDecode ]
 /Length 676
@@ -430,27 +466,27 @@ xú}’›jQÜ·sØb[J—Ì˙KAÑ4i –ˇÙÃ8ie‘É‹}◊Á'È¶îËzáôÕ<gk|s{ﬂoéÕ¯Î∞k∫c≥⁄ÙÀ°;ÏNC€
 ø—o˝ø—o˝ø—o˝ø—o˝ø—o˝ø—o˝ø—o˝ø—o˝ø”Ô;˝ø”Ô;˝ø”Ô;˝ø”Ô;˝ø”Ô;˝ø”Ô;˝ø”Ô;˝ø”Ô;˝–˝–˝–˝–˝–˝–˝–˝–˝óqŸÿX{/ã®=CÓ®Ûn</¨úMﬂΩ¨œ˝nèS¯˝¿ñ§{
 endstream
 endobj
-21 0 obj
+23 0 obj
 <<
 /BaseFont /AAAAAA+DejaVuSans-Oblique
 /FirstChar 0
-/FontDescriptor 22 0 R
+/FontDescriptor 24 0 R
 /LastChar 127
 /Name /F4+0
 /Subtype /TrueType
-/ToUnicode 24 0 R
+/ToUnicode 26 0 R
 /Type /Font
 /Widths [ 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 317.8711 400.8789 459.9609 837.8906 636.2305 950.1953 779.7852 274.9023 390.1367 390.1367 500 837.8906 317.8711 360.8398 317.8711 336.9141 636.2305 636.2305 636.2305 636.2305 636.2305 636.2305 636.2305 636.2305 636.2305 636.2305 336.9141 336.9141 837.8906 837.8906 837.8906 530.7617 1000 684.082 686.0352 698.2422 770.0195 631.8359 575.1953 774.9023 751.9531 294.9219 294.9219 655.7617 557.1289 862.793 748.0469 787.1094 603.0273 787.1094 694.8242 634.7656 610.8398 731.9336 684.082 988.7695 685.0586 610.8398 685.0586 390.1367 336.9141 390.1367 837.8906 500 500 612.793 634.7656 549.8047 634.7656 615.2344 352.0508 634.7656 633.7891 277.832 277.832 579.1016 277.832 974.1211 633.7891 611.8164 634.7656 634.7656 411.1328 520.9961 392.0898 633.7891 591.7969 817.8711 591.7969 591.7969 524.9023 636.2305 336.9141 636.2305 837.8906 600.0977 ]
 >>
 endobj
-22 0 obj
+24 0 obj
 <<
 /Ascent 759.7656
 /CapHeight 759.7656
 /Descent -240.2344
 /Flags 68
 /FontBBox [ -1015.625 -350.0977 1659.18 1067.871 ]
-/FontFile2 23 0 R
+/FontFile2 25 0 R
 /FontName /AAAAAA+DejaVuSans-Oblique
 /ItalicAngle -11
 /MissingWidth 600.0977
@@ -458,7 +494,7 @@ endobj
 /Type /FontDescriptor
 >>
 endobj
-23 0 obj
+25 0 obj
 <<
 /Filter [ /FlateDecode ]
 /Length1 38904
@@ -546,7 +582,7 @@ a	fç:™wÿ$'®Æó∫∞nàD™ÎuÆÆÿN\â´Mvg“’ÿNg:Ñ¿fóÛlÌ’M0<Efmæ≤∫	k!sÃÑí=¡∞µ≠
 vïêYÚÇå‚WVõ÷Í*Üﬁ†àπB2XY=ÊﬂßÏ8>?æ¨µ™ﬂ≤œ}˚≈◊Ω≤±jÖıˇ7ZˇÃP∞
 endstream
 endobj
-24 0 obj
+26 0 obj
 <<
 /Filter [ /FlateDecode ]
 /Length 680
@@ -555,27 +591,27 @@ stream
 xú}’MkQ∆Ò}>≈,ëÙÊºUÅ⁄ZËB+F‹ß…mç4ì8I˝ˆû'Oi/Ç$Á?Ã\Ê∑;„Àõ´õ~}Ë∆_áÌr^›˝∫_uø=À⁄›’áu?*ìnµ^ûÔNˇÀÕb7Á·˘”˛P77˝˝v4ùv„o˘pû∫7ßÎ›U˝µ¯qú/˙˝˚€ª«ıÔc};ﬂ´:¨˚áˇø5?ÓvèuS˚Cw6öÕ∫UΩœO~^Ïæ,6µˇÛËÎãﬂüvµõúÓıÀÌ™Ówãe˝CMœŒf›4Æg£⁄Ø˛zV&Á<swø¸πûﬂ=Àkñ]öû4-Mk”÷¥7Mü7˝°Èã¶?6}ŸÙU”üöæ~Ì“¯K„/çø4˛“¯K„/çø4˛“¯K„/çø4˛“¯K„/çø4˛	˝ìS”ü#õ˛ŸÙÁ»¶?G6˝9≤ÈœëMél˙sd”ü#õ˛ŸÙÁ»¶?G6˝9≤ÈœëMé—TË¯Ö~Å_Ë¯Ö~Å_Ë¯Ö~Å_Ë¯Ö~Å_Ë¯Ö~Å_Ë¯Ö~Å_Ë¯Ö~Å_Ë¯Ö~Å_ÈW¯ï~Ö_ÈW¯ï~Ö_ÈW¯ï~Ö_ÈW¯ï~Ö_ÈW¯ï~Ö_ÈW¯ï~Ö_ÈW¯ï~Ö_ÈW¯ï~ÖﬂË7¯ç~ÉﬂË7¯ç~ÉﬂË7¯ç~ÉﬂË7¯ç~ÉﬂË7¯ç~ÉﬂË7¯ç~ÉﬂË7¯ç~ÉﬂË7¯ç~ÉﬂÈw¯ù~áﬂÈw¯ù~áﬂÈw¯ù~áﬂÈw¯ù~áﬂÈw¯ù~áﬂÈw¯ù~áﬂÈw¯ù~áﬂÈw¯ù~á?Ë¯É˛Ä?Ë¯É˛Ä?Ë¯É˛Ä?Ë¯É˛Ä?Ë¯É˛Ä?Ë¯É˛Ä?Ë¯É˛Ä?Ë¯É˛ÁÒº	∞+∞ˇ^v—Ú8π¶NKÚ¥x∞r÷}}Ÿ£ªÌß˚—Aßô
 endstream
 endobj
-25 0 obj
+27 0 obj
 <<
 /BaseFont /AAAAAA+DejaVuSans
 /FirstChar 0
-/FontDescriptor 26 0 R
+/FontDescriptor 28 0 R
 /LastChar 127
 /Name /F5+0
 /Subtype /TrueType
-/ToUnicode 28 0 R
+/ToUnicode 30 0 R
 /Type /Font
 /Widths [ 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 317.8711 400.8789 459.9609 837.8906 636.2305 950.1953 779.7852 274.9023 390.1367 390.1367 500 837.8906 317.8711 360.8398 317.8711 336.9141 636.2305 636.2305 636.2305 636.2305 636.2305 636.2305 636.2305 636.2305 636.2305 636.2305 336.9141 336.9141 837.8906 837.8906 837.8906 530.7617 1000 684.082 686.0352 698.2422 770.0195 631.8359 575.1953 774.9023 751.9531 294.9219 294.9219 655.7617 557.1289 862.793 748.0469 787.1094 603.0273 787.1094 694.8242 634.7656 610.8398 731.9336 684.082 988.7695 685.0586 610.8398 685.0586 390.1367 336.9141 390.1367 837.8906 500 500 612.793 634.7656 549.8047 634.7656 615.2344 352.0508 634.7656 633.7891 277.832 277.832 579.1016 277.832 974.1211 633.7891 611.8164 634.7656 634.7656 411.1328 520.9961 392.0898 633.7891 591.7969 817.8711 591.7969 591.7969 524.9023 636.2305 336.9141 636.2305 837.8906 600.0977 ]
 >>
 endobj
-26 0 obj
+28 0 obj
 <<
 /Ascent 759.7656
 /CapHeight 759.7656
 /Descent -240.2344
 /Flags 4
 /FontBBox [ -1020.508 -462.8906 1793.457 1232.422 ]
-/FontFile2 27 0 R
+/FontFile2 29 0 R
 /FontName /AAAAAA+DejaVuSans
 /ItalicAngle 0
 /MissingWidth 600.0977
@@ -583,7 +619,7 @@ endobj
 /Type /FontDescriptor
 >>
 endobj
-27 0 obj
+29 0 obj
 <<
 /Filter [ /FlateDecode ]
 /Length1 35464
@@ -667,7 +703,7 @@ w’¥≤Z≈]S¶TV)’ıSgTñ(•ûôÓ *¿¨;â„ÅµXÎ<ﬁ]7@å›	œù?¨ÀiS»∏]<Ú0¶ œSi›§∞¨¶∂“S•§
 3	YV2⁄DF©dd3…l&#T2úÎ#øB2û#ÈcâK%√T2Ùfª0‘Anbn∂ì!ÉM¬◊5l"ÉTí¶íÅ¬¿+d@´0¿A˙˜3˝≠§üÅÙ'©&írìAHQ…MíúdíM$…@˚ËÖD+È£'	)§wØX°w)Èoz≈íx;È+ÙL'q±§G¨AËa!±£íhïDYH$–i'J)â∏B¬ÅÑRf"°¿¡PïÑ\!¡$nÇTXJÄS*ÒáN˛Aƒ©áJ¸TbávïÿÄV[±ﬁC,•ƒ¨ì—_0©ƒ≠ç˛ƒ†ŸJÙ*ë†ô§ùÉà•Ñáó<hÄì¿S¢Óπ>[	R	n≈•KÔ«Ωˇ_¯Aˇmæ˜'Ïˇ∞\œ
 endstream
 endobj
-28 0 obj
+30 0 obj
 <<
 /Filter [ /FlateDecode ]
 /Length 670
@@ -677,27 +713,27 @@ xúm’MkQ∆ÒΩübñ-]Ëıº• Bö4êE_hJ˜FØ©•é2Í"ﬂæÁÒë‰“v@œòπÃow∆7˜∑˜˝ÊÿçøªÂC=vÎMøÍawñ
 ø?˚*ûü
 endstream
 endobj
-29 0 obj
+31 0 obj
 <<
 /BaseFont /AAAAAA+DejaVuSans-Bold
 /FirstChar 0
-/FontDescriptor 30 0 R
+/FontDescriptor 32 0 R
 /LastChar 127
 /Name /F6+0
 /Subtype /TrueType
-/ToUnicode 32 0 R
+/ToUnicode 34 0 R
 /Type /Font
 /Widths [ 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 600.0977 348.1445 456.0547 520.9961 837.8906 695.8008 1001.953 872.0703 306.1523 457.0312 457.0312 522.9492 837.8906 379.8828 415.0391 379.8828 365.2344 695.8008 695.8008 695.8008 695.8008 695.8008 695.8008 695.8008 695.8008 695.8008 695.8008 399.9023 399.9023 837.8906 837.8906 837.8906 580.0781 1000 773.9258 762.207 733.8867 830.0781 683.1055 683.1055 820.8008 836.9141 372.0703 372.0703 774.9023 637.207 995.1172 836.9141 850.0977 732.9102 850.0977 770.0195 720.2148 682.1289 812.0117 773.9258 1103.027 770.9961 724.1211 725.0977 457.0312 365.2344 457.0312 837.8906 500 500 674.8047 715.8203 592.7734 715.8203 678.2227 435.0586 715.8203 711.9141 342.7734 342.7734 665.0391 342.7734 1041.992 711.9141 687.0117 715.8203 715.8203 493.1641 595.2148 478.0273 711.9141 651.8555 923.8281 645.0195 651.8555 582.0312 711.9141 365.2344 711.9141 837.8906 600.0977 ]
 >>
 endobj
-30 0 obj
+32 0 obj
 <<
 /Ascent 759.7656
 /CapHeight 759.7656
 /Descent -240.2344
 /Flags 262148
 /FontBBox [ -1069.336 -415.0391 1975.098 1175.293 ]
-/FontFile2 31 0 R
+/FontFile2 33 0 R
 /FontName /AAAAAA+DejaVuSans-Bold
 /ItalicAngle 0
 /MissingWidth 600.0977
@@ -705,7 +741,7 @@ endobj
 /Type /FontDescriptor
 >>
 endobj
-31 0 obj
+33 0 obj
 <<
 /Filter [ /FlateDecode ]
 /Length1 35128
@@ -792,7 +828,7 @@ l\v·»—pô9"7/∑hjííì[î0πB5S-»,, 91/≥P-òXX0~B6¿»∞˘π˘9Ö0Kˆ∏l  ç_0µ0w‘Ë¢$T7ìî
 âé&Që.! M"≠¡B§ãDÓüq7a&·Æ±B¯‚ÇI]cIòFBÌƒ	≥9[âÓ9‹$§å€IêFÏpm◊à≠åX-6¡L¨áxãçXñÒfxbn%¶4b“åNb\∆+f¢xxY#íFE5"(D|+!eÑÉQúﬁÀ,`;AfÇ˜‚≤ó„>ˇˇ¯Aˇm˛ç?QËˇÉ—m
 endstream
 endobj
-32 0 obj
+34 0 obj
 <<
 /Filter [ /FlateDecode ]
 /Length 677
@@ -801,9 +837,9 @@ stream
 xú}’Àj€PÖ·πüB√ñRú„}K¡ri É^hJÁé}í∫ƒ≤êÌAﬁæ{yÖÙPJˆ˛Öt–7€”´€Î€~sË¶_«›ÍÆ∫áMøÎ~wWµªØèõ~Rf›z≥:º‹ù˛W€Â0ôÊ·ªÁ˝°no˚á›d>Ô¶ﬂÚ·˛0>wo.N◊ªÎ˙k˘„x∑Ï˜Ô/wOÎ∑ìÈóq]«Mˇ¯üWÓé√T∑µ?tgì≈¢[◊á¸ÿßÂyπ≠›ÙﬂÁ˛ºı˝y®›Ït_à^Ì÷u?,Wu\ˆèu2?;[tÛ∏YLjø˛ÎYôùÛÃ˝√ÍÁr|y˜,ØEviz÷¥4≠M[”ﬁt4}ﬁÙá¶/öæl˙™ÈÎ¶?6}ÛßK„/çø4˛“¯K„/çø4˛“¯K„/çø4˛“¯K„/çø4˛“¯gÙœNMél˙sd”ü#õ˛ŸÙÁ»¶?G6˝9≤ÈœëMél˙sd”ü#õ˛ŸÙÁ»¶?G6˝9&s°_‡˙~°_‡˙~°_‡˙~°_‡˙~°_‡˙~°_‡˙~°_‡˙~°_‡˙~•_·W˙~•_·W˙~•_·W˙~•_·W˙~•_·W˙~•_·W˙~•_·W˙~•_·W˙~£ﬂ‡7˙~£ﬂ‡7˙~£ﬂ‡7˙~£ﬂ‡7˙~£ﬂ‡7˙~£ﬂ‡7˙~£ﬂ‡7˙~£ﬂ‡7˙~ßﬂ·w˙~ßﬂ·w˙~ßﬂ·w˙~ßﬂ·w˙~ßﬂ·w˙~ßﬂ·w˙~ßﬂ·w˙~ßﬂ·w˙˛†?‡˙˛†?‡˙˛†?‡˙˛†?‡˙˛†?‡˙˛†?‡˙˛†?‡˙˛†?‡˙_6ƒÀ&¿Æ¿⁄{]D´„8Êé:Ì∆”‚¡ ŸÙıu}ªß˚"ë£©
 endstream
 endobj
-33 0 obj
+35 0 obj
 <<
-/Contents 34 0 R
+/Contents 36 0 R
 /MediaBox [ 0 0 595.2756 841.8898 ]
 /Resources <<
 /Font 8 0 R
@@ -816,12 +852,12 @@ endobj
 /Parent 2 0 R
 >>
 endobj
-34 0 obj
-[ 35 0 R 36 0 R ]
+36 0 obj
+[ 37 0 R 38 0 R ]
 endobj
-35 0 obj
+37 0 obj
 <<
-/Length 5701
+/Length 7229
 >>
 stream
 q
@@ -831,154 +867,132 @@ q
 n 0 0 595.2756 841.8898 re f*
 Q
 q
-1 0 0 1 57.02362 776.5354 cm
+1 0 0 1 57.02362 748.5354 cm
 q
-BT 1 0 0 1 2 4 Tm /F1 10 Tf 12 TL .227451 .352941 .196078 rg (\177) Tj ET
-BT 1 0 0 1 14 4 Tm 14 TL .227451 .352941 .196078 rg /F6+0 10 Tf 14 TL (Lower the difficulty) Tj /F5+0 10 Tf 14 TL ( one band, or let the helper roll carry it.) Tj T* ET
+BT 1 0 0 1 2 32 Tm /F1 10 Tf 12 TL .227451 .352941 .196078 rg (\177) Tj ET
+BT 1 0 0 1 14 32 Tm 14 TL .227451 .352941 .196078 rg /F6+0 10 Tf 14 TL (The Grown-up's Playbook.) Tj /F5+0 10 Tf 14 TL ( The rules and, crucially, the ) Tj /F6+0 10 Tf 14 TL (answers) Tj /F5+0 10 Tf 14 TL ( to the puzzles. This part) Tj T* -0.135936 Tw (is for you, not for the children. You can keep it on a phone or a screen to save paper. ) Tj /F6+0 10 Tf 14 TL (Read it) Tj T* 0 Tw (before you start.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 57.02362 759.5354 cm
-q
-BT 1 0 0 1 2 4 Tm /F1 10 Tf 12 TL .227451 .352941 .196078 rg (\177) Tj ET
-BT 1 0 0 1 14 4 Tm 14 TL .227451 .352941 .196078 rg /F5+0 10 Tf 14 TL (Let them ) Tj /F6+0 10 Tf 14 TL (combine their strengths) Tj /F5+0 10 Tf 14 TL ( for an automatic success.) Tj T* ET
-Q
-Q
-q
-1 0 0 1 57.02362 728.5354 cm
+1 0 0 1 57.02362 717.5354 cm
 q
 BT 1 0 0 1 2 18 Tm /F1 10 Tf 12 TL .227451 .352941 .196078 rg (\177) Tj ET
-BT 1 0 0 1 14 18 Tm 14 TL .227451 .352941 .196078 rg /F5+0 10 Tf 14 TL (If all else stalls, ) Tj /F6+0 10 Tf 14 TL (just let them succeed.) Tj /F5+0 10 Tf 14 TL ( Momentum matters more than rigour. A child who) Tj T* (feels clever will play for an hour; a child who feels stuck will wander off.) Tj T* ET
+BT 1 0 0 1 14 18 Tm 14 TL .227451 .352941 .196078 rg /F6+0 10 Tf 14 TL (The World Book) Tj /F5+0 10 Tf 14 TL ( \(optional\). A "who's who" of the world's characters and creatures, plus a) Tj T* (bank of extra ideas, for when you want more. Nice to have, never needed.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 57.02362 703.5354 cm
+1 0 0 1 57.02362 686.5354 cm
 q
-.305882 .635294 .290196 rg
-BT 1 0 0 1 0 1 Tm /F3+0 13 Tf 14 TL (Keeping a young child captivated) Tj T* ET
+BT 1 0 0 1 2 18 Tm /F1 10 Tf 12 TL .227451 .352941 .196078 rg (\177) Tj ET
+BT 1 0 0 1 14 18 Tm 14 TL .227451 .352941 .196078 rg /F6+0 10 Tf 14 TL (Example heroes) Tj /F5+0 10 Tf 14 TL ( \(optional\). A page of ready-made heroes, already filled in, to show your) Tj T* (children what a hero can look like. Print it for inspiration, or just glance at it on screen.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 57.02362 685.5354 cm
+1 0 0 1 57.02362 655.5354 cm
 q
-BT 1 0 0 1 2 4 Tm /F1 10 Tf 12 TL .227451 .352941 .196078 rg (\177) Tj ET
-BT 1 0 0 1 14 4 Tm 14 TL .227451 .352941 .196078 rg /F5+0 10 Tf 14 TL (Do ) Tj /F6+0 10 Tf 14 TL (voices) Tj /F5+0 10 Tf 14 TL ( for the characters; it is half the magic.) Tj T* ET
+BT 1 0 0 1 2 18 Tm /F1 10 Tf 12 TL .227451 .352941 .196078 rg (\177) Tj ET
+BT 1 0 0 1 14 18 Tm -0.002885 Tw 14 TL .227451 .352941 .196078 rg /F6+0 10 Tf 14 TL (This Guide) Tj /F5+0 10 Tf 14 TL ( \(read once\). What you are reading now. After this you are set for every kit in the) Tj T* 0 Tw (library.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 57.02362 668.5354 cm
+1 0 0 1 57.02362 638.5354 cm
 q
-BT 1 0 0 1 2 4 Tm /F1 10 Tf 12 TL .227451 .352941 .196078 rg (\177) Tj ET
-BT 1 0 0 1 14 4 Tm 14 TL .227451 .352941 .196078 rg /F6+0 10 Tf 14 TL (Hand them the dice) Tj /F5+0 10 Tf 14 TL ( and let them roll. Holding the dice is holding the story.) Tj T* ET
+BT 1 0 0 1 0 4 Tm 14 TL .227451 .352941 .196078 rg /F5+0 10 Tf 14 TL (The shortest path: print the ) Tj /F6+0 10 Tf 14 TL (Story Pack) Tj /F5+0 10 Tf 14 TL (, keep the ) Tj /F6+0 10 Tf 14 TL (Playbook) Tj /F5+0 10 Tf 14 TL ( open beside you, and go.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 57.02362 651.5354 cm
-q
-BT 1 0 0 1 2 4 Tm /F1 10 Tf 12 TL .227451 .352941 .196078 rg (\177) Tj ET
-BT 1 0 0 1 14 4 Tm 14 TL .227451 .352941 .196078 rg /F5+0 10 Tf 14 TL (Offer ) Tj /F6+0 10 Tf 14 TL (choices) Tj /F5+0 10 Tf 14 TL ( \("do you knock, or do you peek?"\) rather than open silence.) Tj T* ET
-Q
-Q
-q
-1 0 0 1 57.02362 634.5354 cm
-q
-BT 1 0 0 1 2 4 Tm /F1 10 Tf 12 TL .227451 .352941 .196078 rg (\177) Tj ET
-BT 1 0 0 1 14 4 Tm 14 TL .227451 .352941 .196078 rg /F5+0 10 Tf 14 TL (Keep scenes ) Tj /F6+0 10 Tf 14 TL (short) Tj /F5+0 10 Tf 14 TL ( and end on a small win.) Tj T* ET
-Q
-Q
-q
-1 0 0 1 57.02362 617.5354 cm
-q
-BT 1 0 0 1 2 4 Tm /F1 10 Tf 12 TL .227451 .352941 .196078 rg (\177) Tj ET
-BT 1 0 0 1 14 4 Tm 14 TL .227451 .352941 .196078 rg /F6+0 10 Tf 14 TL (Follow their excitement.) Tj /F5+0 10 Tf 14 TL ( If they love the talking fountain, linger there.) Tj T* ET
-Q
-Q
-q
-1 0 0 1 57.02362 600.5354 cm
-q
-BT 1 0 0 1 2 4 Tm /F1 10 Tf 12 TL .227451 .352941 .196078 rg (\177) Tj ET
-BT 1 0 0 1 14 4 Tm 14 TL .227451 .352941 .196078 rg /F6+0 10 Tf 14 TL (Take breaks.) Tj /F5+0 10 Tf 14 TL ( A kit is happy to be played across several sittings.) Tj T* ET
-Q
-Q
-q
-1 0 0 1 57.02362 575.5354 cm
+1 0 0 1 57.02362 613.5354 cm
 q
 .305882 .635294 .290196 rg
-BT 1 0 0 1 0 1 Tm /F3+0 13 Tf 14 TL (Silly or impossible answers) Tj T* ET
+BT 1 0 0 1 0 1 Tm /F3+0 13 Tf 14 TL (The adventure sheet) Tj T* ET
 Q
 Q
 q
-1 0 0 1 57.02362 515.5354 cm
+1 0 0 1 57.02362 511.5354 cm
 q
-.227451 .352941 .196078 rg
-BT 1 0 0 1 0 46 Tm /F5+0 10 Tf 14 TL (These are a gift, not a problem. If your child says the door opens because "a dragon eats it",) Tj T* (grin and run with it: "the dragon gulps the gate down, burps, and trots off, and now the way is) Tj T* -0.154049 Tw (clear." If an idea truly cannot work, let the world answer kindly: "the rock is too heavy to lift, but) Tj T* 0 Tw (look, there is a gap you could wriggle through." Never just block them; always offer a door.) Tj T* ET
+BT 1 0 0 1 0 88 Tm 14 TL .227451 .352941 .196078 rg /F5+0 10 Tf 14 TL (The last page of every Story Pack is an ) Tj /F6+0 10 Tf 14 TL (adventure sheet) Tj /F5+0 10 Tf 14 TL (, where each player makes their own) Tj T* (hero. Everyone takes one, you included. A player writes a name, gives their hero three ) Tj /F6+0 10 Tf 14 TL (magics) Tj  T* /F5+0 10 Tf 14 TL (\(or, in worlds without magic, three ) Tj /F6+0 10 Tf 14 TL (strengths) Tj /F5+0 10 Tf 14 TL ( such as wits, courage, or a kind heart\), draws a) Tj T* -0.037177 Tw (quick picture, and lists the few things they carry. The five ) Tj /F6+0 10 Tf 14 TL (energy stars) Tj /F5+0 10 Tf 14 TL ( are coloured in as they) Tj T* 0 Tw (are spent during play, so print a fresh sheet for each player and each new adventure. The) Tj T* /F6+0 10 Tf 14 TL (example heroes) Tj /F5+0 10 Tf 14 TL ( show what a finished one looks like. Making a hero takes a couple of minutes) Tj T* (and is part of the fun, so do not skip it.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 57.02362 490.5354 cm
-q
-.305882 .635294 .290196 rg
-BT 1 0 0 1 0 1 Tm /F3+0 13 Tf 14 TL (Pacing and length) Tj T* ET
-Q
-Q
-q
-1 0 0 1 57.02362 444.5354 cm
-q
-BT 1 0 0 1 0 32 Tm -0.025075 Tw 14 TL .227451 .352941 .196078 rg /F5+0 10 Tf 14 TL (Aim for fifteen to thirty minutes at a sitting, less for little ones. You may ) Tj /F6+0 10 Tf 14 TL (skip a puzzle) Tj /F5+0 10 Tf 14 TL (, shorten) Tj T* 0 Tw (the reading, or ) Tj /F6+0 10 Tf 14 TL (stop early) Tj /F5+0 10 Tf 14 TL ( and pick up next time. There is no clock and no score. The best) Tj T* (ending is a child asking to play again.) Tj T* ET
-Q
-Q
-q
-1 0 0 1 57.02362 419.5354 cm
+1 0 0 1 57.02362 486.5354 cm
 q
 .305882 .635294 .290196 rg
-BT 1 0 0 1 0 1 Tm /F3+0 13 Tf 14 TL (A handful of ready phrases) Tj T* ET
+BT 1 0 0 1 0 1 Tm /F3+0 13 Tf 14 TL (Before you begin: a five-minute setup) Tj T* ET
 Q
 Q
 q
-1 0 0 1 57.02362 401.5354 cm
+1 0 0 1 57.02362 412.5354 cm
+q
+BT 1 0 0 1 0 60 Tm 14 TL .227451 .352941 .196078 rg /F5+0 10 Tf 14 TL (1. ) Tj /F6+0 10 Tf 14 TL (Read the Playbook) Tj /F5+0 10 Tf 14 TL ( once, and skim the story so you know its shape. You do not need to) Tj T* (memorise anything; the pages prompt you as you go. 2. ) Tj /F6+0 10 Tf 14 TL (Print) Tj /F5+0 10 Tf 14 TL ( the Story Pack, plus a spare) Tj T* (adventure sheet for each player. 3. ) Tj /F6+0 10 Tf 14 TL (Gather) Tj /F5+0 10 Tf 14 TL ( a single six-sided die \(one is enough for any kit\), a) Tj T* (pencil each, and a small handful of tokens, coins, or buttons to stand in for the players and to) Tj T* (mark the energy stars. 4. ) Tj /F6+0 10 Tf 14 TL (Settle) Tj /F5+0 10 Tf 14 TL ( somewhere comfortable, with no screens and no rush.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 392.5354 cm
 q
 .227451 .352941 .196078 rg
-BT 1 0 0 1 0 4 Tm /F5+0 10 Tf 14 TL (Keep these on the tip of your tongue:) Tj T* ET
+BT 1 0 0 1 0 4 Tm /F5+0 10 Tf 14 TL (That is all the preparation a kit ever needs.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 57.02362 381.5354 cm
+1 0 0 1 57.02362 367.5354 cm
 q
-BT 1 0 0 1 2 4 Tm /F1 10 Tf 12 TL .227451 .352941 .196078 rg (\177) Tj ET
+.305882 .635294 .290196 rg
+BT 1 0 0 1 0 1 Tm /F3+0 13 Tf 14 TL (Your jobs, and you get to play too) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 321.5354 cm
+q
+BT 1 0 0 1 0 32 Tm 14 TL .227451 .352941 .196078 rg /F5+0 10 Tf 14 TL (You are the ) Tj /F6+0 10 Tf 14 TL (Game Master) Tj /F5+0 10 Tf 14 TL (, which is just a few small jobs at once. You are also a fellow) Tj T* (adventurer at the table, not a referee standing apart: you play on the children's side, helping) Tj T* (them find the way.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 287.5354 cm
+q
+BT 1 0 0 1 2 18 Tm /F1 10 Tf 12 TL .227451 .352941 .196078 rg (\177) Tj ET
+BT 1 0 0 1 14 18 Tm 14 TL .227451 .352941 .196078 rg /F6+0 10 Tf 14 TL (The narrator.) Tj /F5+0 10 Tf 14 TL ( Read the story parts aloud, warmly. Do a silly voice if you fancy it. Pause at) Tj T* (the questions and let the children answer.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 256.5354 cm
+q
+BT 1 0 0 1 2 18 Tm /F1 10 Tf 12 TL .227451 .352941 .196078 rg (\177) Tj ET
+BT 1 0 0 1 14 18 Tm 14 TL .227451 .352941 .196078 rg /F6+0 10 Tf 14 TL (The gentle referee.) Tj /F5+0 10 Tf 14 TL ( When the players try something, you decide how it goes, always) Tj T* (leaning towards yes. The puzzle pages give you the answers, so you are never caught out.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 225.5354 cm
+q
+BT 1 0 0 1 2 18 Tm /F1 10 Tf 12 TL .227451 .352941 .196078 rg (\177) Tj ET
+BT 1 0 0 1 14 18 Tm 14 TL .227451 .352941 .196078 rg /F6+0 10 Tf 14 TL (The biggest fan.) Tj /F5+0 10 Tf 14 TL ( Cheer every idea, especially the odd ones. Your delight is the engine of) Tj T* (the whole game.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 166.5354 cm
+q
+BT 1 0 0 1 2 46 Tm /F1 10 Tf 12 TL .227451 .352941 .196078 rg (\177) Tj ET
+BT 1 0 0 1 14 46 Tm 14 TL .227451 .352941 .196078 rg /F6+0 10 Tf 14 TL (A fellow adventurer.) Tj /F5+0 10 Tf 14 TL ( Take a hero of your own and play along. You have read ahead, but) Tj T* (you do not have to act like it: let yourself be surprised, wonder out loud, and discover each) Tj T* (turn with the children. Helping them through is the whole point, not being the one who) Tj T* (knows.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 141.5354 cm
+q
+.305882 .635294 .290196 rg
+BT 1 0 0 1 0 1 Tm /F3+0 13 Tf 14 TL (Introducing it to the children) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 123.5354 cm
+q
 .227451 .352941 .196078 rg
-BT 1 0 0 1 14 4 Tm /F5+0 10 Tf 14 TL ("Yes, and...") Tj T* ET
+BT 1 0 0 1 0 4 Tm /F5+0 10 Tf 14 TL (Open with the promise, build a hero each, then begin.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 57.02362 364.5354 cm
+1 0 0 1 57.02362 75.53543 cm
 q
-BT 1 0 0 1 2 4 Tm /F1 10 Tf 12 TL .227451 .352941 .196078 rg (\177) Tj ET
-.227451 .352941 .196078 rg
-BT 1 0 0 1 14 4 Tm /F5+0 10 Tf 14 TL ("Ooh, what a clever idea. What happens next?") Tj T* ET
-Q
-Q
-q
-1 0 0 1 57.02362 347.5354 cm
-q
-BT 1 0 0 1 2 4 Tm /F1 10 Tf 12 TL .227451 .352941 .196078 rg (\177) Tj ET
-.227451 .352941 .196078 rg
-BT 1 0 0 1 14 4 Tm /F5+0 10 Tf 14 TL ("You can absolutely try that. Let us see...") Tj T* ET
-Q
-Q
-q
-1 0 0 1 57.02362 330.5354 cm
-q
-BT 1 0 0 1 2 4 Tm /F1 10 Tf 12 TL .227451 .352941 .196078 rg (\177) Tj ET
-.227451 .352941 .196078 rg
-BT 1 0 0 1 14 4 Tm /F5+0 10 Tf 14 TL ("That did not quite work, so what else could we do?") Tj T* ET
-Q
-Q
-q
-1 0 0 1 57.02362 313.5354 cm
-q
-BT 1 0 0 1 2 4 Tm /F1 10 Tf 12 TL .227451 .352941 .196078 rg (\177) Tj ET
-.227451 .352941 .196078 rg
-BT 1 0 0 1 14 4 Tm /F5+0 10 Tf 14 TL ("You did that by being clever and kind. Well done.") Tj T* ET
+BT 1 0 0 1 2 32 Tm /F1 10 Tf 12 TL .227451 .352941 .196078 rg (\177) Tj ET
+BT 1 0 0 1 14 32 Tm 14 TL .227451 .352941 .196078 rg /F6+0 10 Tf 14 TL (Make the promise first.) Tj /F5+0 10 Tf 14 TL ( Tell them the one rule before anything else: "In this game nobody) Tj T* (loses. We are all on the same side, and if something does not work, we just find another) Tj T* (way." That single sentence frees a child to be bold.) Tj T* ET
 Q
 Q
  
@@ -987,9 +1001,9 @@ Q
 
 endstream
 endobj
-36 0 obj
+38 0 obj
 <<
-/Length 303
+/Length 302
 >>
 stream
 q
@@ -1012,23 +1026,378 @@ BT
 T*
 ET
 BT
-1 0 0 1 477.2039 31.1811 Tm
-(en\055GB \267 v2\05613 \267 page 2 of 3) Tj
+1 0 0 1 481.0959 31.1811 Tm
+(en\055GB \267 v3\0560 \267 page 2 of 5) Tj
 T*
 ET
 Q
 
 endstream
 endobj
-37 0 obj
+39 0 obj
 <<
-/Contents 38 0 R
+/Contents 40 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font 8 0 R
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+40 0 obj
+[ 41 0 R 42 0 R ]
+endobj
+41 0 obj
+<<
+/Length 7544
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 1 1 rg
+n 0 0 595.2756 841.8898 re f*
+Q
+q
+1 0 0 1 57.02362 748.5354 cm
+q
+BT 1 0 0 1 2 32 Tm /F1 10 Tf 12 TL .227451 .352941 .196078 rg (\177) Tj ET
+BT 1 0 0 1 14 32 Tm 14 TL .227451 .352941 .196078 rg /F6+0 10 Tf 14 TL (Build a hero each.) Tj /F5+0 10 Tf 14 TL ( Hand out the adventure sheets and make your heroes together, you) Tj T* (included. Let them pick a name and three magics or strengths, and draw their picture. The) Tj T* (example heroes are there if anyone wants a model.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 717.5354 cm
+q
+BT 1 0 0 1 2 18 Tm /F1 10 Tf 12 TL .227451 .352941 .196078 rg (\177) Tj ET
+BT 1 0 0 1 14 18 Tm -0.051768 Tw 14 TL .227451 .352941 .196078 rg /F6+0 10 Tf 14 TL (Set the scene.) Tj /F5+0 10 Tf 14 TL ( Read the opening of the story aloud, slowly, and ask the first question. From) Tj T* 0 Tw (there the story carries you both along.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 700.5354 cm
+q
+.227451 .352941 .196078 rg
+BT 1 0 0 1 0 4 Tm /F5+0 10 Tf 14 TL (Then play on, following the rest of this Guide. You are all adventurers now.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 675.5354 cm
+q
+.305882 .635294 .290196 rg
+BT 1 0 0 1 0 1 Tm /F3+0 13 Tf 14 TL (The one golden rule: yes, and) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 601.5354 cm
+q
+BT 1 0 0 1 0 60 Tm 14 TL .227451 .352941 .196078 rg /F5+0 10 Tf 14 TL (Whatever your child suggests, try to say ) Tj /F6+0 10 Tf 14 TL ("yes, and...") Tj /F5+0 10 Tf 14 TL ( rather than "no". If they want to) Tj T* (befriend the monster, talk to the river, or fly on a borrowed cloud, let them, and add a little) Tj T* (twist that keeps the story moving. "Yes, the vines pull back, and as they do you spot something) Tj T* (glinting underneath." Saying yes keeps a child leaning in. Saying no, again and again, is the) Tj T* (one sure way to lose them.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 576.5354 cm
+q
+.305882 .635294 .290196 rg
+BT 1 0 0 1 0 1 Tm /F3+0 13 Tf 14 TL (Nobody loses, ever) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 502.5354 cm
+q
+BT 1 0 0 1 0 60 Tm 14 TL .227451 .352941 .196078 rg /F5+0 10 Tf 14 TL (This is the heart of every kit: ) Tj /F6+0 10 Tf 14 TL (a failed roll is never a defeat, only a detour.) Tj /F5+0 10 Tf 14 TL ( If a dice roll) Tj T* (comes up short, do not stop the story. The players can spend an energy star and try again,) Tj T* (combine their strengths, accept a helpful nudge from a friendly creature, or simply find another) Tj T* (way round. Treat a miss as a funny surprise, not a failure. No child is ever knocked out, left) Tj T* (behind, or made to feel they have let the team down.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 477.5354 cm
+q
+.305882 .635294 .290196 rg
+BT 1 0 0 1 0 1 Tm /F3+0 13 Tf 14 TL (When they get stuck) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 459.5354 cm
+q
+.227451 .352941 .196078 rg
+BT 1 0 0 1 0 4 Tm /F5+0 10 Tf 14 TL (Sticking is normal. Reach for these, in order:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 439.5354 cm
+q
+BT 1 0 0 1 2 4 Tm /F1 10 Tf 12 TL .227451 .352941 .196078 rg (\177) Tj ET
+BT 1 0 0 1 14 4 Tm 14 TL .227451 .352941 .196078 rg /F5+0 10 Tf 14 TL (Offer a ) Tj /F6+0 10 Tf 14 TL (friendly hint) Tj /F5+0 10 Tf 14 TL ( through a character \("the cat nudges a loose vine..."\).) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 422.5354 cm
+q
+BT 1 0 0 1 2 4 Tm /F1 10 Tf 12 TL .227451 .352941 .196078 rg (\177) Tj ET
+BT 1 0 0 1 14 4 Tm 14 TL .227451 .352941 .196078 rg /F6+0 10 Tf 14 TL (Lower the difficulty) Tj /F5+0 10 Tf 14 TL ( one band, or let the helper roll carry it.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 405.5354 cm
+q
+BT 1 0 0 1 2 4 Tm /F1 10 Tf 12 TL .227451 .352941 .196078 rg (\177) Tj ET
+BT 1 0 0 1 14 4 Tm 14 TL .227451 .352941 .196078 rg /F5+0 10 Tf 14 TL (Let them ) Tj /F6+0 10 Tf 14 TL (combine their strengths) Tj /F5+0 10 Tf 14 TL ( for an automatic success.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 374.5354 cm
+q
+BT 1 0 0 1 2 18 Tm /F1 10 Tf 12 TL .227451 .352941 .196078 rg (\177) Tj ET
+BT 1 0 0 1 14 18 Tm 14 TL .227451 .352941 .196078 rg /F5+0 10 Tf 14 TL (If all else stalls, ) Tj /F6+0 10 Tf 14 TL (just let them succeed.) Tj /F5+0 10 Tf 14 TL ( Momentum matters more than rigour. A child who) Tj T* (feels clever will play for an hour; a child who feels stuck will wander off.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 349.5354 cm
+q
+.305882 .635294 .290196 rg
+BT 1 0 0 1 0 1 Tm /F3+0 13 Tf 14 TL (Keeping a young child captivated) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 331.5354 cm
+q
+BT 1 0 0 1 2 4 Tm /F1 10 Tf 12 TL .227451 .352941 .196078 rg (\177) Tj ET
+BT 1 0 0 1 14 4 Tm 14 TL .227451 .352941 .196078 rg /F5+0 10 Tf 14 TL (Do ) Tj /F6+0 10 Tf 14 TL (voices) Tj /F5+0 10 Tf 14 TL ( for the characters; it is half the magic.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 314.5354 cm
+q
+BT 1 0 0 1 2 4 Tm /F1 10 Tf 12 TL .227451 .352941 .196078 rg (\177) Tj ET
+BT 1 0 0 1 14 4 Tm 14 TL .227451 .352941 .196078 rg /F6+0 10 Tf 14 TL (Hand them the dice) Tj /F5+0 10 Tf 14 TL ( and let them roll. Holding the dice is holding the story.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 297.5354 cm
+q
+BT 1 0 0 1 2 4 Tm /F1 10 Tf 12 TL .227451 .352941 .196078 rg (\177) Tj ET
+BT 1 0 0 1 14 4 Tm 14 TL .227451 .352941 .196078 rg /F5+0 10 Tf 14 TL (Offer ) Tj /F6+0 10 Tf 14 TL (choices) Tj /F5+0 10 Tf 14 TL ( \("do you knock, or do you peek?"\) rather than open silence.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 280.5354 cm
+q
+BT 1 0 0 1 2 4 Tm /F1 10 Tf 12 TL .227451 .352941 .196078 rg (\177) Tj ET
+BT 1 0 0 1 14 4 Tm 14 TL .227451 .352941 .196078 rg /F5+0 10 Tf 14 TL (Keep scenes ) Tj /F6+0 10 Tf 14 TL (short) Tj /F5+0 10 Tf 14 TL ( and end on a small win.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 263.5354 cm
+q
+BT 1 0 0 1 2 4 Tm /F1 10 Tf 12 TL .227451 .352941 .196078 rg (\177) Tj ET
+BT 1 0 0 1 14 4 Tm 14 TL .227451 .352941 .196078 rg /F6+0 10 Tf 14 TL (Follow their excitement.) Tj /F5+0 10 Tf 14 TL ( If they love the talking fountain, linger there.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 246.5354 cm
+q
+BT 1 0 0 1 2 4 Tm /F1 10 Tf 12 TL .227451 .352941 .196078 rg (\177) Tj ET
+BT 1 0 0 1 14 4 Tm 14 TL .227451 .352941 .196078 rg /F6+0 10 Tf 14 TL (Take breaks.) Tj /F5+0 10 Tf 14 TL ( A kit is happy to be played across several sittings.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 221.5354 cm
+q
+.305882 .635294 .290196 rg
+BT 1 0 0 1 0 1 Tm /F3+0 13 Tf 14 TL (Silly or impossible answers) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 161.5354 cm
+q
+.227451 .352941 .196078 rg
+BT 1 0 0 1 0 46 Tm /F5+0 10 Tf 14 TL (These are a gift, not a problem. If your child says the door opens because "a dragon eats it",) Tj T* (grin and run with it: "the dragon gulps the gate down, burps, and trots off, and now the way is) Tj T* -0.154049 Tw (clear." If an idea truly cannot work, let the world answer kindly: "the rock is too heavy to lift, but) Tj T* 0 Tw (look, there is a gap you could wriggle through." Never just block them; always offer a door.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 136.5354 cm
+q
+.305882 .635294 .290196 rg
+BT 1 0 0 1 0 1 Tm /F3+0 13 Tf 14 TL (Pacing and length) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 90.53543 cm
+q
+BT 1 0 0 1 0 32 Tm -0.025075 Tw 14 TL .227451 .352941 .196078 rg /F5+0 10 Tf 14 TL (Aim for fifteen to thirty minutes at a sitting, less for little ones. You may ) Tj /F6+0 10 Tf 14 TL (skip a puzzle) Tj /F5+0 10 Tf 14 TL (, shorten) Tj T* 0 Tw (the reading, or ) Tj /F6+0 10 Tf 14 TL (stop early) Tj /F5+0 10 Tf 14 TL ( and pick up next time. There is no clock and no score. The best) Tj T* (ending is a child asking to play again.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 65.53543 cm
+q
+.305882 .635294 .290196 rg
+BT 1 0 0 1 0 1 Tm /F3+0 13 Tf 14 TL (A handful of ready phrases) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+endstream
+endobj
+42 0 obj
+<<
+/Length 302
+>>
+stream
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-2 12 Tf
+14.4 TL
+ET
+0.541176 0.541176 0.541176 rg
+BT
+/F1-2 7 Tf
+8.4 TL
+ET
+BT
+1 0 0 1 34.01575 31.1811 Tm
+(Wits and Wonder \267 Guide for the Grown\055Up) Tj
+T*
+ET
+BT
+1 0 0 1 481.0959 31.1811 Tm
+(en\055GB \267 v3\0560 \267 page 3 of 5) Tj
+T*
+ET
+Q
+
+endstream
+endobj
+43 0 obj
+<<
+/Contents 44 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font 8 0 R
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+>>
+endobj
+44 0 obj
+[ 45 0 R 46 0 R ]
+endobj
+45 0 obj
+<<
+/Length 1379
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 1 1 rg
+n 0 0 595.2756 841.8898 re f*
+Q
+q
+1 0 0 1 57.02362 776.5354 cm
+q
+.227451 .352941 .196078 rg
+BT 1 0 0 1 0 4 Tm /F5+0 10 Tf 14 TL (Keep these on the tip of your tongue:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 756.5354 cm
+q
+BT 1 0 0 1 2 4 Tm /F1 10 Tf 12 TL .227451 .352941 .196078 rg (\177) Tj ET
+.227451 .352941 .196078 rg
+BT 1 0 0 1 14 4 Tm /F5+0 10 Tf 14 TL ("Yes, and...") Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 739.5354 cm
+q
+BT 1 0 0 1 2 4 Tm /F1 10 Tf 12 TL .227451 .352941 .196078 rg (\177) Tj ET
+.227451 .352941 .196078 rg
+BT 1 0 0 1 14 4 Tm /F5+0 10 Tf 14 TL ("Ooh, what a clever idea. What happens next?") Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 722.5354 cm
+q
+BT 1 0 0 1 2 4 Tm /F1 10 Tf 12 TL .227451 .352941 .196078 rg (\177) Tj ET
+.227451 .352941 .196078 rg
+BT 1 0 0 1 14 4 Tm /F5+0 10 Tf 14 TL ("You can absolutely try that. Let us see...") Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 705.5354 cm
+q
+BT 1 0 0 1 2 4 Tm /F1 10 Tf 12 TL .227451 .352941 .196078 rg (\177) Tj ET
+.227451 .352941 .196078 rg
+BT 1 0 0 1 14 4 Tm /F5+0 10 Tf 14 TL ("That did not quite work, so what else could we do?") Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 688.5354 cm
+q
+BT 1 0 0 1 2 4 Tm /F1 10 Tf 12 TL .227451 .352941 .196078 rg (\177) Tj ET
+.227451 .352941 .196078 rg
+BT 1 0 0 1 14 4 Tm /F5+0 10 Tf 14 TL ("You did that by being clever and kind. Well done.") Tj T* ET
+Q
+Q
+ 
+
+Q
+
+endstream
+endobj
+46 0 obj
+<<
+/Length 302
+>>
+stream
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-3 12 Tf
+14.4 TL
+ET
+0.541176 0.541176 0.541176 rg
+BT
+/F1-3 7 Tf
+8.4 TL
+ET
+BT
+1 0 0 1 34.01575 31.1811 Tm
+(Wits and Wonder \267 Guide for the Grown\055Up) Tj
+T*
+ET
+BT
+1 0 0 1 481.0959 31.1811 Tm
+(en\055GB \267 v3\0560 \267 page 4 of 5) Tj
+T*
+ET
+Q
+
+endstream
+endobj
+47 0 obj
+<<
+/Contents 48 0 R
 /MediaBox [ 0 0 595.2756 841.8898 ]
 /Resources <<
 /Font 8 0 R
 /ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
 /XObject <<
-/FormXob.905da7a1746f8d6c922760a7f9b4bd22 41 0 R
+/FormXob.905da7a1746f8d6c922760a7f9b4bd22 51 0 R
 >>
 >>
 /Rotate 0
@@ -1038,12 +1407,12 @@ endobj
 /Parent 2 0 R
 >>
 endobj
-38 0 obj
-[ 39 0 R 40 0 R ]
+48 0 obj
+[ 49 0 R 50 0 R ]
 endobj
-39 0 obj
+49 0 obj
 <<
-/Length 1406
+/Length 1405
 >>
 stream
 q
@@ -1090,7 +1459,7 @@ q
 1 0 0 1 57.02362 656.5354 cm
 q
 .227451 .352941 .196078 rg
-BT 1 0 0 1 0 4 Tm /F5+0 10 Tf 14 TL (Version 2.13, updated 2026-06-05, en-GB) Tj T* ET
+BT 1 0 0 1 0 4 Tm /F5+0 10 Tf 14 TL (Version 3.0, updated 2026-06-05, en-GB) Tj T* ET
 Q
 Q
 q
@@ -1126,9 +1495,9 @@ Q
 
 endstream
 endobj
-40 0 obj
+50 0 obj
 <<
-/Length 303
+/Length 302
 >>
 stream
 q
@@ -1137,12 +1506,12 @@ W
 n
 1 0 0 1 0 0 cm
 BT
-/F1-2 12 Tf
+/F1-4 12 Tf
 14.4 TL
 ET
 0.541176 0.541176 0.541176 rg
 BT
-/F1-2 7 Tf
+/F1-4 7 Tf
 8.4 TL
 ET
 BT
@@ -1151,15 +1520,15 @@ BT
 T*
 ET
 BT
-1 0 0 1 477.2039 31.1811 Tm
-(en\055GB \267 v2\05613 \267 page 3 of 3) Tj
+1 0 0 1 481.0959 31.1811 Tm
+(en\055GB \267 v3\0560 \267 page 5 of 5) Tj
 T*
 ET
 Q
 
 endstream
 endobj
-41 0 obj
+51 0 obj
 <<
 /BitsPerComponent 8
 /ColorSpace /DeviceRGB
@@ -1175,55 +1544,65 @@ Gb"/a6+4_Q%E!5d92?=+H[`:1KMlr$?&o&$s7=RuEk,F-QcnK2\QgbRbN3cT>V;Adj`7n:rf-q/U#eLU
 endstream
 endobj
 xref
-0 42
+0 52
 0000000000 65535 f 
 0000000015 00000 n 
-0000000269 00000 n 
-0000000342 00000 n 
-0000000391 00000 n 
-0000000590 00000 n 
-0000000621 00000 n 
-0000006880 00000 n 
-0000007234 00000 n 
-0000007369 00000 n 
-0000007476 00000 n 
-0000007584 00000 n 
-0000007692 00000 n 
-0000007800 00000 n 
+0000000267 00000 n 
+0000000354 00000 n 
+0000000403 00000 n 
+0000000602 00000 n 
+0000000633 00000 n 
+0000007485 00000 n 
+0000007838 00000 n 
+0000007999 00000 n 
+0000008106 00000 n 
+0000008214 00000 n 
+0000008322 00000 n 
 0000008430 00000 n 
-0000008656 00000 n 
-0000016859 00000 n 
-0000017614 00000 n 
-0000018305 00000 n 
-0000018535 00000 n 
-0000027365 00000 n 
-0000028118 00000 n 
-0000029426 00000 n 
-0000029692 00000 n 
-0000049918 00000 n 
-0000050675 00000 n 
-0000051975 00000 n 
-0000052231 00000 n 
-0000070929 00000 n 
-0000071676 00000 n 
-0000072991 00000 n 
-0000073258 00000 n 
-0000091527 00000 n 
-0000092281 00000 n 
-0000092482 00000 n 
-0000092516 00000 n 
-0000098270 00000 n 
-0000098625 00000 n 
-0000098890 00000 n 
-0000098924 00000 n 
-0000100383 00000 n 
-0000100738 00000 n 
+0000008538 00000 n 
+0000008646 00000 n 
+0000009276 00000 n 
+0000009502 00000 n 
+0000017705 00000 n 
+0000018460 00000 n 
+0000019151 00000 n 
+0000019381 00000 n 
+0000028211 00000 n 
+0000028964 00000 n 
+0000030272 00000 n 
+0000030538 00000 n 
+0000050764 00000 n 
+0000051521 00000 n 
+0000052821 00000 n 
+0000053077 00000 n 
+0000071775 00000 n 
+0000072522 00000 n 
+0000073837 00000 n 
+0000074104 00000 n 
+0000092373 00000 n 
+0000093127 00000 n 
+0000093328 00000 n 
+0000093362 00000 n 
+0000100644 00000 n 
+0000100998 00000 n 
+0000101199 00000 n 
+0000101233 00000 n 
+0000108830 00000 n 
+0000109184 00000 n 
+0000109385 00000 n 
+0000109419 00000 n 
+0000110851 00000 n 
+0000111205 00000 n 
+0000111470 00000 n 
+0000111504 00000 n 
+0000112962 00000 n 
+0000113316 00000 n 
 trailer
 <<
-/Size 42
+/Size 52
 /Root 3 0 R
 /Info 1 0 R
 >>
 startxref
-107512
+120090
 %%EOF
