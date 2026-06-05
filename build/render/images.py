@@ -9,7 +9,7 @@ flowables; the kit decides which image files exist and passes them in.
 import io
 from pathlib import Path
 
-from PIL import Image as PILImage
+from PIL import Image as PILImage, ImageDraw
 from reportlab.lib.units import mm
 from reportlab.lib.utils import ImageReader
 from reportlab.platypus import Image as RLImage, Paragraph, Spacer
@@ -30,26 +30,43 @@ _MAX_EMBED_PX = 1400
 _JPEG_QUALITY = 82
 
 
-def _embed_jpeg(path: Path) -> tuple[io.BytesIO, int, int]:
+def _embed_jpeg(path: Path, corner_radius: float = 0.0) -> tuple[io.BytesIO, int, int]:
     """Downscale to a print-sane size and recompress to JPEG for a small PDF.
 
-    Returns the JPEG buffer and its pixel width and height.
+    Returns the JPEG buffer and its pixel width and height. When `corner_radius` (a
+    fraction of the shorter side) is set, the corners are filled white so the picture
+    reads as rounded against the white page.
     """
     with PILImage.open(path) as opened:
         if opened.mode in ("RGBA", "LA", "P"):
             # Flatten any transparency onto white so transparent areas print white,
             # not whatever colour sat hidden beneath the alpha.
             rgba = opened.convert("RGBA")
-            white = PILImage.new("RGBA", rgba.size, (255, 255, 255, 255))
-            image = PILImage.alpha_composite(white, rgba).convert("RGB")
+            flat = PILImage.new("RGBA", rgba.size, (255, 255, 255, 255))
+            image = PILImage.alpha_composite(flat, rgba).convert("RGB")
         else:
             image = opened.convert("RGB")
         image.thumbnail((_MAX_EMBED_PX, _MAX_EMBED_PX))
         width, height = image.size
+        if corner_radius > 0:
+            radius = int(min(width, height) * corner_radius)
+            mask = PILImage.new("L", (width, height), 0)
+            ImageDraw.Draw(mask).rounded_rectangle(
+                [0, 0, width - 1, height - 1], radius=radius, fill=255
+            )
+            page = PILImage.new("RGB", (width, height), (255, 255, 255))
+            image = PILImage.composite(image, page, mask)
         buffer = io.BytesIO()
         image.save(buffer, format="JPEG", quality=_JPEG_QUALITY)
     buffer.seek(0)
     return buffer, width, height
+
+
+def rounded_reader(path: Path) -> tuple[ImageReader, int, int]:
+    """An ImageReader of the recompressed image with whitened rounded corners, plus
+    its pixel size, for chrome.RoundedImage."""
+    buffer, width, height = _embed_jpeg(path, corner_radius=0.045)
+    return ImageReader(buffer), width, height
 
 
 def image_reader(path: Path) -> ImageReader:
@@ -82,20 +99,30 @@ def cover_flowables(cover_path: Path, title: str, styles: dict) -> list:
 
 
 def frontpage_flowables(
-    title: str, world_paragraph: str, cover_path: Path | None, styles: dict
+    title: str, world_paragraph: str, cover_path: Path | None, styles: dict,
+    *, kicker: str = "", theme=None,
 ) -> list:
-    """The always-on front page: title banner, a short world paragraph, optional cover.
+    """The always-on front page: a header band (kicker + title + motif), a short world
+    paragraph, and the optional cover as a rounded illustration.
 
     The cover image is omitted cleanly when there is no art, so a story with no cover
     still opens with its title and the world paragraph.
     """
-    flows: list = [Paragraph(md.inline_to_rl(title), styles["h1"])]
+    from build.render import chrome  # lazy: avoids a chrome <-> images import cycle
+
+    if theme is not None:
+        flows: list = [chrome.HeaderBand(kicker, title, theme)]
+    else:
+        flows = [Paragraph(md.inline_to_rl(title), styles["h1"])]
     if world_paragraph:
-        flows.append(Spacer(1, 8))
+        flows.append(Spacer(1, 6))
         flows.append(Paragraph(md.inline_to_rl(world_paragraph), styles["body"]))
     if cover_path is not None:
-        flows.append(Spacer(1, 12))
-        flows.append(image_flowable(cover_path, CONTENT_WIDTH, _FRONT_COVER_MAX_HEIGHT))
+        flows.append(Spacer(1, 10))
+        if theme is not None:
+            flows.append(chrome.RoundedImage(cover_path, theme, max_h=_FRONT_COVER_MAX_HEIGHT))
+        else:
+            flows.append(image_flowable(cover_path, CONTENT_WIDTH, _FRONT_COVER_MAX_HEIGHT))
     return flows
 
 

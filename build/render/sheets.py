@@ -21,7 +21,7 @@ from reportlab.lib.pagesizes import A4
 from reportlab.lib.units import mm
 from reportlab.pdfgen import canvas as rl_canvas
 
-from build.render import fonts, images, strings
+from build.render import chrome, fonts, images, strings
 from build.render.theme import Theme, PAGE_FILL, tint
 from build.tags import AGE_TIERS
 
@@ -114,16 +114,6 @@ def render_character_sheet(
         c.setLineWidth(0.9)
         c.line(x, y, x + w, y)
 
-    def kicker(x, y, t) -> None:
-        # A plain uppercase label. Note: do NOT letter-space via a text object's
-        # setCharSpace here, as the Tc text-state leaks into every later string and
-        # silently widens them (it overflowed the magic descriptions before).
-        if not t:
-            return
-        c.setFillColor(theme.teal)
-        c.setFont(f.body_bold, 7)
-        c.drawString(x, y, t.upper())
-
     def chip(x, top_y, w, label, hue, body_h, header_h=8 * mm) -> float:
         """Filled hue header tab over a white, hue-keylined body panel. Returns the
         body's bottom y so the caller can place the next section below it."""
@@ -141,23 +131,13 @@ def render_character_sheet(
         return bottom
 
     def header_band(y_top) -> float:
-        band_h = 22 * mm
-        c.setDash()
-        c.setFillColor(tint(theme.gold, 0.85))
-        c.setStrokeColor(tint(theme.gold, 0.5))
-        c.setLineWidth(1.0)
-        c.roundRect(M, y_top - band_h, W - 2 * M, band_h, 8, fill=1, stroke=1)
-        kicker(M + 5 * mm, y_top - 8 * mm, world_name)
-        text(M + 5 * mm, y_top - 17 * mm, s("sheet_title"), f.display, 20, theme.primary)
-        # a small constellation ornament at the right (world-neutral, ties to the stars)
-        ox, oy = W - M - 15 * mm, y_top - band_h / 2
-        _star(c, ox, oy + 3 * mm, 3.0 * mm, theme.gold, fill_colour=theme.gold)
-        _star(c, ox + 6.5 * mm, oy - 2 * mm, 2.0 * mm, theme.gold, fill_colour=tint(theme.gold, 0.35))
-        _star(c, ox - 5 * mm, oy - 3 * mm, 1.7 * mm, theme.gold, fill_colour=tint(theme.gold, 0.35))
-        # dotted golden path under the band
-        c.setDash(1.3, 4.5)
+        band_h = chrome.draw_header_band(
+            c, M, y_top, W - 2 * M, world_name, s("sheet_title"), theme,
+            title_size=18, motif=True,
+        )
         c.setStrokeColor(theme.gold)
         c.setLineWidth(1.4)
+        c.setDash(1.3, 4.5)
         c.line(M, y_top - band_h - 3 * mm, W - M, y_top - band_h - 3 * mm)
         c.setDash()
         return y_top - band_h - 8 * mm
@@ -321,6 +301,19 @@ def render_character_sheet(
         inner_top = y - mh
         for k in range(2):
             wline(M + 5 * mm, inner_top - 6 * mm - k * 7 * mm, W - 2 * M - 10 * mm)
+    else:
+        # young has no Notes; fill the band with a doodle box so it does not sit empty
+        d_bottom = 29 * mm
+        if y - d_bottom > 22 * mm:
+            c.setDash(2.6, 2.6)
+            c.setFillColor(tint(theme.blue, 0.95))
+            c.setStrokeColor(tint(theme.blue, 0.5))
+            c.setLineWidth(1.5)
+            c.roundRect(M, d_bottom, W - 2 * M, y - d_bottom, 8, fill=1, stroke=1)
+            c.setDash()
+            text(M + 5 * mm, y - 7 * mm, s("sheet_doodle"), f.display, 11, theme.blue)
+            ctext(W / 2, (y + d_bottom) / 2, s("sheet_doodle_hint"), f.hand, 14,
+                  tint(theme.text, 0.45))
 
     footer_ribbon()
     c.showPage()

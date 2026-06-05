@@ -119,7 +119,9 @@ def build_story_pack(
     with tempfile.TemporaryDirectory() as tmp:
         tmp_path = Path(tmp)
 
-        front = images.frontpage_flowables(title, world_paragraph, cover_path, styles)
+        front = images.frontpage_flowables(
+            title, world_paragraph, cover_path, styles, kicker=label, theme=th
+        )
         parts.append(pages.render_flowables(front, tmp_path / "00_front.pdf", world))
 
         map_svg = kit_map.find_map(world_dir, story_dir, locale)

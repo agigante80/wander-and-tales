@@ -11,7 +11,7 @@ from reportlab.lib.units import mm
 from reportlab.platypus import KeepTogether, PageBreak, SimpleDocTemplate, Spacer
 
 from build.models import World
-from build.render import colophon, flowables, fonts, footer, images, theme
+from build.render import chrome, colophon, flowables, fonts, footer, images, theme
 from build.render import markdown as md
 from build.render import strings
 from build.render.version import VersionInfo
@@ -84,24 +84,47 @@ def render_story_narration(
         else:
             leftover.append(path)
 
-    flows = flowables.blocks_to_flowables(preamble, styles, th)
+    italic = faces.italic
+
+    def is_italic_para(b) -> bool:
+        if not isinstance(b, md.Para):
+            return False
+        t = b.text.strip()
+        return t.startswith("*") and not t.startswith("**") and t.endswith("*")
+
+    def body_flows(items) -> list:
+        out: list = []
+        for b in items:
+            if is_italic_para(b):
+                # a read-aloud / kind-question aside becomes a prompt callout
+                out.append(chrome.PromptCallout(b.text, th, italic))
+            else:
+                out.extend(flowables.blocks_to_flowables([b], styles, th))
+        return out
+
+    flows: list = []
+    for block in preamble:
+        # the story title is already the header band on the story-pack front page
+        if isinstance(block, md.Heading) and block.level == 1:
+            continue
+        flows.extend(body_flows([block]))
+
     for i, section in enumerate(sections):
-        heading_flows = flowables.blocks_to_flowables(section[:1], styles, th)
-        body_flows = flowables.blocks_to_flowables(section[1:], styles, th)
+        chip = chrome.BeatChip(section[0].text, th)
         if i in image_at:
-            # keep the picture directly under its beat heading so it never drifts
-            # onto the next page above the following heading.
+            # keep the beat chip and its picture together so the picture never drifts
+            # onto the next page above the following beat.
             flows.append(
                 KeepTogether(
-                    [*heading_flows, Spacer(1, 8), images.scene_flowable(image_at[i])]
+                    [chip, Spacer(1, 6), chrome.RoundedImage(image_at[i], th, max_h=115 * mm)]
                 )
             )
         else:
-            flows.extend(heading_flows)
-        flows.extend(body_flows)
+            flows.append(chip)
+        flows.extend(body_flows(section[1:]))
     for path in leftover:
-        flows.append(Spacer(1, 10))
-        flows.append(images.scene_flowable(path))
+        flows.append(Spacer(1, 8))
+        flows.append(chrome.RoundedImage(path, th, max_h=115 * mm))
     return render_flowables(flows, out_path, world)
 
 

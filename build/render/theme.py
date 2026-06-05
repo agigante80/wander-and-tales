@@ -9,10 +9,10 @@ resolved font faces (see render.fonts), so a world's typeface flows through here
 from dataclasses import dataclass
 
 from reportlab.lib.colors import Color, HexColor, white
-from reportlab.lib.enums import TA_CENTER
 from reportlab.lib.styles import ParagraphStyle
 
 from build.models import World
+from build.render import fonts
 from build.render.fonts import FontFaces
 
 _DEFAULT_PALETTE = (
@@ -83,23 +83,25 @@ class Theme:
 
 
 def make_styles(theme: "Theme", faces: FontFaces) -> dict[str, ParagraphStyle]:
-    """Build the paragraph styles bound to the resolved font faces."""
+    """Build the paragraph styles. Body prose stays in the world serif; headings use
+    the shared display face (Quicksand) so the booklets match the sheet's chrome,
+    with no flat title bar."""
+    display = fonts.sheet_faces().display
     body = ParagraphStyle(
         "body", fontName=faces.normal, fontSize=10, leading=14,
         textColor=theme.text, spaceAfter=6,
     )
     return {
         "h1": ParagraphStyle(
-            "h1", parent=body, fontName=faces.bold, fontSize=18, leading=24,
-            textColor=white, backColor=theme.primary, alignment=TA_CENTER,
-            borderPadding=(7, 8, 7, 8), spaceAfter=12, spaceBefore=2,
+            "h1", parent=body, fontName=display, fontSize=19, leading=23,
+            textColor=theme.primary, spaceAfter=10, spaceBefore=2,
         ),
         "h2": ParagraphStyle(
-            "h2", parent=body, fontName=faces.bold, fontSize=13,
-            textColor=theme.primary, spaceBefore=10, spaceAfter=4,
+            "h2", parent=body, fontName=display, fontSize=13,
+            textColor=theme.primary, spaceBefore=11, spaceAfter=4,
         ),
         "h3": ParagraphStyle(
-            "h3", parent=body, fontName=faces.bold, fontSize=11,
+            "h3", parent=body, fontName=display, fontSize=11,
             textColor=theme.teal, spaceBefore=6, spaceAfter=2,
         ),
         "body": body,

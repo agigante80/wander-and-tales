@@ -34,9 +34,12 @@ def test_theme_default_fills_in_when_palette_is_short():
     assert th.background is not None and th.primary is not None
 
 
-def test_make_styles_binds_to_the_given_faces():
+def test_make_styles_binds_body_to_faces_and_headings_to_display():
     faces = fonts.register_family("dejavu-serif")
     styles = theme.make_styles(theme.Theme.default(), faces)
+    # body prose stays in the given (world serif) face
     assert styles["body"].fontName == faces.normal
-    assert styles["h1"].fontName == faces.bold
+    # headings use the shared display face (Quicksand), not a flat title bar
+    assert styles["h1"].fontName == fonts.sheet_faces().display
+    assert styles["h1"].backColor is None
     assert set(styles) >= {"h1", "h2", "h3", "body", "bullet"}
