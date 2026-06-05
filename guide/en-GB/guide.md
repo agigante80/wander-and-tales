@@ -51,9 +51,11 @@ You never need to read a whole world to begin. One story is one evening.
 
 A kit arrives as a few short PDFs. You do not have to print them all.
 
-- **The Story Pack.** This is the one to **print**. It is the child-safe booklet you
-  play from: the opening, a map, the story to read aloud, the pictures, and a blank
-  **adventure sheet** on the last page.
+- **The Story Pack.** The one booklet you read and play from, and it is **yours**, not
+  the children's: the opening, a map, the story to read aloud, the pictures to show at
+  each place, and a blank **adventure sheet** on the last page. Keep it to yourself and
+  reveal things as you go, so the story stays a surprise; the children never need their
+  own copy.
 - **The Grown-up's Playbook.** The rules and, crucially, the **answers** to the
   puzzles. This part is for you, not for the children. You can keep it on a phone or a
   screen to save paper. **Read it before you start.**
@@ -66,15 +68,17 @@ A kit arrives as a few short PDFs. You do not have to print them all.
 - **This Guide** (read once). What you are reading now. After this you are set for
   every kit in the library.
 
-The shortest path: print the **Story Pack**, keep the **Playbook** open beside you,
-and go.
+The shortest path: print **one Story Pack** (your reading copy) and an adventure sheet
+for each player, keep the **Playbook** open beside you, and read the story aloud,
+showing each picture as you reach that place.
 
 ## The adventure sheet
 
 The last page of every Story Pack is an **adventure sheet**, where each player makes
 their own hero. Everyone takes one, you included. A player writes a name, gives their
-hero three **magics** (or, in worlds without magic, three **strengths** such as wits,
-courage, or a kind heart), draws a quick picture, and lists the few things they carry.
+hero three **magics** (or, in worlds without magic, three **strengths** such as
+imagination, courage, or a kind heart), draws a quick picture, and lists the few things
+they carry.
 The five **energy stars** are coloured in as they are spent during play, so print a
 fresh sheet for each player and each new adventure. The **example heroes** show what a
 finished one looks like. Making a hero takes a couple of minutes and is part of the
@@ -84,7 +88,8 @@ fun, so do not skip it.
 
 1. **Read the Playbook** once, and skim the story so you know its shape. You do not
    need to memorise anything; the pages prompt you as you go.
-2. **Print** the Story Pack, plus a spare adventure sheet for each player.
+2. **Print** one Story Pack (your reading copy), plus an adventure sheet for each
+   player.
 3. **Gather** a single six-sided die (one is enough for any kit), a pencil each, and a
    small handful of tokens, coins, or buttons to stand in for the players and to mark
    the energy stars.

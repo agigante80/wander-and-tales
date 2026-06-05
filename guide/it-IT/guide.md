@@ -53,9 +53,11 @@ Non serve mai leggere un mondo intero per cominciare. Una storia è una serata.
 
 Un kit arriva come qualche PDF breve. Non sei obbligato a stamparli tutti.
 
-- **Il Quaderno della storia.** È quello da **stampare**. È il libretto adatto ai
-  bambini da cui giocate: l'inizio, una mappa, la storia da leggere ad alta voce, le
-  illustrazioni e, nell'ultima pagina, una **scheda d'avventura** vuota.
+- **Il Quaderno della storia.** L'unico libretto che leggi e da cui giocate, ed è
+  **tuo**, non dei bambini: l'inizio, una mappa, la storia da leggere ad alta voce, le
+  illustrazioni da mostrare a ogni luogo e, nell'ultima pagina, una **scheda
+  d'avventura** vuota. Tienilo per te e svela le cose man mano, così la storia resta una
+  sorpresa; i bambini non hanno bisogno di una copia tutta loro.
 - **Il Quaderno per l'adulto.** Le regole e, soprattutto, le **soluzioni** dei
   rompicapi. Questa parte è per te, non per i bambini. Puoi tenerla sul telefono o su
   uno schermo per risparmiare carta. **Leggila prima di cominciare.**
@@ -68,15 +70,17 @@ Un kit arriva come qualche PDF breve. Non sei obbligato a stamparli tutti.
 - **Questa Guida** (si legge una volta). Quello che stai leggendo adesso. Dopo, sei
   pronto per qualunque kit della biblioteca.
 
-La via più breve: stampa il **Quaderno della storia**, tieni il **Quaderno per
-l'adulto** aperto accanto a te e via.
+La via più breve: stampa **un solo Quaderno della storia** (la tua copia per leggere) e
+una scheda d'avventura per ogni giocatore, tieni il **Quaderno per l'adulto** aperto
+accanto a te e leggi la storia ad alta voce, mostrando ogni illustrazione quando
+arrivate in quel luogo.
 
 ## La scheda d'avventura
 
 L'ultima pagina di ogni Quaderno della storia è una **scheda d'avventura**, dove ogni
 giocatore crea il proprio eroe. Ne prendete una a testa, tu compreso. Su di essa un
 giocatore scrive un nome, dà al suo eroe tre **magie** (oppure, nei mondi senza magia,
-tre **punti forti** come l'ingegno, il coraggio o un cuore gentile), fa un disegno
+tre **punti forti** come l'immaginazione, il coraggio o un cuore gentile), fa un disegno
 veloce e annota le poche cose che porta con sé. Le cinque **stelle di energia** si
 colorano via via che si spendono durante il gioco, quindi stampa una scheda nuova per
 ogni giocatore e ogni avventura. Gli **Eroi di Esempio** mostrano com'è una scheda
@@ -87,8 +91,8 @@ non saltarlo.
 
 1. **Leggi il Quaderno per l'adulto** una volta, e dai una scorsa alla storia per
    coglierne la forma. Non devi memorizzare nulla; le pagine ti guidano man mano.
-2. **Stampa** il Quaderno della storia e una scheda d'avventura in più per ogni
-   giocatore.
+2. **Stampa** un solo Quaderno della storia (la tua copia per leggere) e una scheda
+   d'avventura per ogni giocatore.
 3. **Procurati** un solo dado a sei facce (uno basta per qualunque kit), una matita a
    testa e una manciatina di gettoni, monete o bottoni per rappresentare i giocatori e
    per segnare le stelle di energia.
