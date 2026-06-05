@@ -4,6 +4,7 @@ title:
   en-GB: The Market of Mixed-Up Magic
   es-ES: El Mercado de la Magia Revuelta
   it-IT: Il Mercato della Magia Pasticciata
+  pt-PT: O Mercado da Magia Baralhada
 age:
   recommended: older        # one of: early (3-5), young (6-8), older (9-12)
   also_works_for: [young]
@@ -34,6 +35,7 @@ images:
       en-GB: A bright floating-island market in cheerful muddle, a baker holding boots and a cobbler holding a kite, two young mages arriving and the school above.
       es-ES: Un mercado luminoso en una isla flotante en alegre desorden, con un panadero sosteniendo unas botas y un zapatero sosteniendo una cometa, dos jóvenes magos que llegan y la escuela arriba.
       it-IT: Un luminoso mercato su un'isola volante in allegro disordine, con un fornaio che tiene un paio di stivali e un calzolaio che tiene un aquilone, due giovani maghi che arrivano e la scuola in alto.
+      pt-PT: Um mercado luminoso numa ilha flutuante em alegre confusão, com um padeiro a segurar um par de botas e um sapateiro a segurar um papagaio de papel, dois jovens magos a chegar e a escola lá em cima.
   - id: scene-muddled-stalls
     role: scene
     orientation: landscape
@@ -46,6 +48,7 @@ images:
       en-GB: A row of market stalls with goods swapped around, two young mages asking a pair of boots where they belong amid soft magic sparkles.
       es-ES: Una hilera de puestos de mercado con las mercancías cambiadas de sitio, dos jóvenes magos preguntando a unas botas dónde van, entre suaves destellos de magia.
       it-IT: Una fila di bancarelle del mercato con le merci scambiate di posto, due giovani maghi che chiedono a un paio di stivali dove vanno, tra dolci scintille di magia.
+      pt-PT: Uma fila de bancas de mercado com as mercadorias trocadas de sítio, dois jovens magos a perguntar a um par de botas onde ficam, entre suaves faíscas de magia.
   - id: scene-untangling
     role: scene
     orientation: landscape
@@ -58,6 +61,7 @@ images:
       en-GB: Two young mages returning goods to the right stalls, loaves and toys floating back, the Mist Cat beside them helping them remember.
       es-ES: Dos jóvenes magos devolviendo las cosas a los puestos correctos, panes y juguetes que vuelven flotando a su sitio, con el Gato de Niebla a su lado ayudándoles a recordar.
       it-IT: Due giovani maghi che rimettono le merci alle bancarelle giuste, pani e giocattoli che tornano fluttuando al loro posto, con il Gatto di Nebbia accanto che li aiuta a ricordare.
+      pt-PT: Dois jovens magos a devolver as mercadorias às bancas certas, pães e brinquedos a voltar a flutuar para o seu lugar, com o Gato de Névoa ao lado a ajudá-los a lembrar.
   - id: pip-portrait
     role: portrait
     orientation: square
@@ -70,6 +74,7 @@ images:
       en-GB: A young apprentice mage with a worried but hopeful face and a slightly askew pointed hat, peeking out shyly.
       es-ES: Un joven aprendiz de mago con cara preocupada pero esperanzada y un sombrero puntiagudo algo torcido, asomándose con timidez.
       it-IT: Un giovane apprendista mago con un viso preoccupato ma speranzoso e un cappello a punta un po' storto, che fa capolino con timidezza.
+      pt-PT: Um jovem aprendiz de mago com um rosto preocupado mas esperançoso e um chapéu pontiagudo um pouco torto, a espreitar com timidez.
   - id: scene-pip
     role: scene
     orientation: landscape
@@ -82,3 +87,4 @@ images:
       en-GB: A shy young apprentice mage peeking from behind a stall while two young mages reassure them with kind smiles, the friendly market all around.
       es-ES: Un joven aprendiz de mago tímido que se asoma detrás de un puesto mientras dos jóvenes magos lo tranquilizan con sonrisas amables, con el mercado amistoso alrededor.
       it-IT: Un giovane apprendista mago timido che fa capolino da dietro una bancarella mentre due giovani maghi lo rassicurano con sorrisi gentili, con il mercato accogliente tutt'intorno.
+      pt-PT: Um jovem aprendiz de mago tímido a espreitar de trás de uma banca enquanto dois jovens magos o tranquilizam com sorrisos gentis, com o mercado acolhedor à volta.

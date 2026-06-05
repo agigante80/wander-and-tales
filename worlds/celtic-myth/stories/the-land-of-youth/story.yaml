@@ -4,6 +4,7 @@ title:
   en-GB: The Journey to the Land of Youth
   es-ES: El Viaje a la Tierra de la Juventud
   it-IT: Il Viaggio alla Terra della Giovinezza
+  pt-PT: A Viagem à Terra da Juventude
 age:
   recommended: older
   also_works_for: [young]
@@ -33,6 +34,7 @@ images:
       en-GB: Two older Celtic heroes on a misty loch shore at dawn with a sprig of oak, a faint blossoming otherworld shimmering across the mist, a leaping salmon and a selkie nearby.
       es-ES: Dos héroes celtas mayores en la orilla brumosa de un lago al amanecer con una ramita de roble, un tenue Otro Mundo en flor que brilla al otro lado de la niebla, un salmón que salta y una foca encantada cerca.
       it-IT: Due eroi celtici più grandi sulla riva nebbiosa di un lago all'alba con un rametto di quercia, un tenue Altromondo in fiore che brilla oltre la nebbia, un salmone che salta e una foca incantata vicino.
+      pt-PT: Dois heróis celtas mais velhos na margem enevoada de um lago ao amanhecer com um raminho de carvalho, um ténue Outro Mundo em flor que brilha do outro lado da névoa, um salmão a saltar e uma selkie por perto.
   - id: scene-salmons-riddle
     role: scene
     orientation: landscape
@@ -45,6 +47,7 @@ images:
       en-GB: A bright old silver salmon rising from a still misty loch beside two older heroes thinking hard on the shore.
       es-ES: Un viejo salmón plateado y reluciente que emerge de un lago quieto y brumoso junto a dos héroes mayores que piensan con atención en la orilla.
       it-IT: Un vecchio salmone argenteo e lucente che emerge da un lago immobile e nebbioso accanto a due eroi più grandi che riflettono con attenzione sulla riva.
+      pt-PT: Um velho salmão prateado e reluzente que emerge de um lago imóvel e enevoado junto a dois heróis mais velhos que refletem com atenção na margem.
   - id: scene-selkie-crossing
     role: scene
     orientation: landscape
@@ -57,6 +60,7 @@ images:
       en-GB: A gentle selkie in a grey sealskin cloak rowing two older heroes across a misty loch in a small boat, the heroes offering a smile and an oatcake.
       es-ES: Una amable foca encantada con capa de piel de foca gris que rema con dos héroes mayores a través de un lago brumoso en una barca pequeña, mientras los héroes le ofrecen una sonrisa y una torta de avena.
       it-IT: Una gentile foca incantata con un mantello di pelle di foca grigia che rema con due eroi più grandi attraverso un lago nebbioso su una piccola barca, mentre gli eroi le offrono un sorriso e una focaccia d'avena.
+      pt-PT: Uma meiga selkie com um manto de pele de foca cinzenta que rema com dois heróis mais velhos através de um lago enevoado num pequeno barco, enquanto os heróis lhe oferecem um sorriso e um bolo de aveia.
   - id: scene-land-of-youth
     role: scene
     orientation: landscape
@@ -69,6 +73,7 @@ images:
       en-GB: A blossoming otherworld of ever-flowering apple trees and soft golden light, two older heroes kindly taking a small friend by the hand to lead them home.
       es-ES: Un Otro Mundo en flor de manzanos siempre floridos y suave luz dorada, donde dos héroes mayores toman con cariño de la mano a un amiguito para llevarlo a casa.
       it-IT: Un Altromondo in fiore di meli sempre fioriti e dolce luce dorata, dove due eroi più grandi prendono con affetto per mano un amichetto per riportarlo a casa.
+      pt-PT: Um Outro Mundo em flor de macieiras sempre floridas e suave luz dourada, onde dois heróis mais velhos pegam com carinho na mão de um amiguinho para o levar a casa.
   - id: scene-home-across-mist
     role: scene
     orientation: landscape
@@ -81,3 +86,4 @@ images:
       en-GB: Two older heroes and a small friend safely back on the home loch shore at sunrise, a gentle selkie waving from the water, a kind goddess smiling from the green hills.
       es-ES: Dos héroes mayores y un amiguito de vuelta a salvo en la orilla del lago al amanecer, una amable foca encantada que saluda desde el agua y una diosa bondadosa que sonríe desde las colinas verdes.
       it-IT: Due eroi più grandi e un amichetto di nuovo al sicuro sulla riva del lago all'alba, una gentile foca incantata che saluta dall'acqua e una dea gentile che sorride dalle colline verdi.
+      pt-PT: Dois heróis mais velhos e um amiguinho de novo a salvo na margem do lago ao amanhecer, uma meiga selkie a acenar da água e uma deusa bondosa a sorrir das colinas verdes.

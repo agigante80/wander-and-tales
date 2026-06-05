@@ -4,6 +4,7 @@ title:
   en-GB: The Great Wooden Horse
   es-ES: El Gran Caballo de Madera
   it-IT: Il Grande Cavallo di Legno
+  pt-PT: O Grande Cavalo de Madeira
 age:
   recommended: young
   also_works_for: [early]
@@ -34,6 +35,7 @@ images:
       en-GB: Two young seafaring heroes on a sunlit beach beside painted ships, helping build a great friendly garlanded wooden horse on wheels, a city of honey-coloured walls beyond.
       es-ES: Dos jóvenes héroes marineros en una playa soleada junto a naves pintadas, ayudando a construir un gran y simpático caballo de madera con ruedas y flores, con una ciudad de murallas color miel al fondo.
       it-IT: Due giovani eroi marinari su una spiaggia assolata accanto a navi dipinte, che aiutano a costruire un grande e simpatico cavallo di legno su ruote ornato di fiori, con una città dalle mura color miele sullo sfondo.
+      pt-PT: Dois jovens heróis marinheiros numa praia soalheira junto a naus pintadas, a ajudar a construir um grande e simpático cavalo de madeira sobre rodas enfeitado com flores, com uma cidade de muralhas cor de mel ao fundo.
   - id: scene-building-horse
     role: scene
     orientation: landscape
@@ -46,6 +48,7 @@ images:
       en-GB: Two small heroes and friendly seafarers building a great wooden horse on the beach, measuring planks with a thread and fitting the pieces together.
       es-ES: Dos héroes pequeños y navegantes amables que construyen un gran caballo de madera en la playa, midiendo tablas con un hilo y encajando las piezas.
       it-IT: Due piccoli eroi e naviganti gentili che costruiscono un grande cavallo di legno sulla spiaggia, misurando le assi con un filo e incastrando i pezzi.
+      pt-PT: Dois pequenos heróis e navegantes amáveis que constroem um grande cavalo de madeira na praia, a medir as tábuas com um fio e a encaixar as peças.
   - id: scene-filling-friendship
     role: scene
     orientation: landscape
@@ -58,6 +61,7 @@ images:
       en-GB: Two small heroes filling the open belly of a great wooden horse with baskets of figs, flower garlands and a little drum, smiling as they work.
       es-ES: Dos héroes pequeños que llenan el vientre abierto de un gran caballo de madera con cestas de higos, guirnaldas de flores y un tamborcito, sonriendo mientras trabajan.
       it-IT: Due piccoli eroi che riempiono il ventre aperto di un grande cavallo di legno con ceste di fichi, ghirlande di fiori e un tamburello, sorridendo mentre lavorano.
+      pt-PT: Dois pequenos heróis que enchem o ventre aberto de um grande cavalo de madeira com cestos de figos, grinaldas de flores e um tamborzinho, a sorrir enquanto trabalham.
   - id: scene-surprise-gates
     role: scene
     orientation: landscape
@@ -71,6 +75,7 @@ images:
       en-GB: A great garlanded wooden horse at the tall gates of a honey-coloured city wall, wary city folk peeking down, two small heroes below sounding a conch and offering figs.
       es-ES: Un gran caballo de madera con flores ante las altas puertas de una muralla color miel, con la gente de la ciudad asomándose con recelo y dos héroes pequeños abajo que hacen sonar una caracola y ofrecen higos.
       it-IT: Un grande cavallo di legno ornato di fiori davanti alle alte porte di una muraglia color miele, con la gente della città che fa capolino diffidente e due piccoli eroi sotto che suonano una conchiglia e offrono fichi.
+      pt-PT: Um grande cavalo de madeira enfeitado com flores diante dos altos portões de uma muralha cor de mel, com a gente da cidade a espreitar desconfiada e dois pequenos heróis em baixo a tocar uma concha-buzina e a oferecer figos.
   - id: scene-quarrel-ends
     role: scene
     orientation: landscape
@@ -83,3 +88,4 @@ images:
       en-GB: The two camps feasting together on the beach at sunset around the garlanded wooden horse, seafarers and city folk sharing figs, a bright kindly sea-captain smiling among them.
       es-ES: Los dos campamentos que celebran juntos en la playa al atardecer en torno al caballo de madera adornado, navegantes y gente de la ciudad compartiendo higos, con un capitán amable y lleno de ideas sonriendo entre ellos.
       it-IT: I due accampamenti che banchettano insieme sulla spiaggia al tramonto attorno al cavallo di legno ornato, naviganti e gente della città che condividono fichi, con un capitano gentile e pieno di idee che sorride tra loro.
+      pt-PT: Os dois acampamentos que banqueteiam juntos na praia ao pôr do sol em redor do cavalo de madeira enfeitado, navegantes e gente da cidade a partilhar figos, com um capitão amável e cheio de ideias a sorrir entre eles.

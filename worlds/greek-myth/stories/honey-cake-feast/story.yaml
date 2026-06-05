@@ -34,6 +34,7 @@ images:
       en-GB: Two young heroes carrying a jar of honey through a festive olive town at sunset, lanterns and long tables ahead, a gentle giant approaching from the hills.
       es-ES: Dos jóvenes héroes que llevan un tarro de miel dorada por un pueblo de olivos en fiesta al atardecer, con mesas largas y farolillos colgantes, y un gigante amable de un solo ojo que se acerca tímido desde las colinas.
       it-IT: Due giovani eroi che portano un barattolo di miele dorato per un paese di ulivi in festa al tramonto, con lunghe tavole e lanterne appese, e un grande gigante gentile con un solo occhio che si avvicina timido dalle colline.
+      pt-PT: Dois jovens heróis a levar um frasco de mel dourado por uma vila de oliveiras em festa ao pôr do sol, com mesas compridas e lanternas penduradas, e um gigante grande e meigo de um só olho a aproximar-se tímido das colinas.
   - id: scene-hill-bees
     role: scene
     orientation: landscape
@@ -46,6 +47,7 @@ images:
       en-GB: A sunny flower meadow, friendly smiling bees filling a clay jar with golden honey as two small heroes offer a posy of wildflowers.
       es-ES: Un prado de montaña soleado lleno de flores, con abejas amables y sonrientes que llenan una jarra de barro con miel dorada mientras dos héroes pequeños les ofrecen un ramillete de flores silvestres.
       it-IT: Un prato di montagna assolato pieno di fiori, con api gentili e sorridenti che riempiono una giara di terracotta di miele dorato mentre due piccoli eroi offrono loro un mazzolino di fiori di campo.
+      pt-PT: Um prado de montanha soalheiro cheio de flores, com abelhas meigas e sorridentes a encher um jarro de barro com mel dourado enquanto dois pequenos heróis lhes oferecem um ramalhete de flores do campo.
   - id: scene-milos-kitchen
     role: scene
     orientation: landscape
@@ -58,6 +60,7 @@ images:
       en-GB: A cosy bakery kitchen, a cheerful baker beside an enormous honey cake, two small heroes counting little plates to share it out.
       es-ES: Una acogedora cocina de panadería iluminada por el sol, con un panadero alegre de mejillas redondas junto a un enorme pastel de miel, y dos héroes pequeños que cuentan platitos para repartirlo con justicia.
       it-IT: Una accogliente cucina di panetteria illuminata dal sole, con un fornaio allegro dalle guance paffute accanto a un'enorme focaccia al miele, e due piccoli eroi che contano dei piattini per dividerla con equità.
+      pt-PT: Uma acolhedora cozinha de padaria iluminada pelo sol, com um padeiro alegre de bochechas redondas ao lado de um enorme bolo de mel, e dois pequenos heróis a contar pratinhos para o repartir com justiça.
   - id: scene-fetching-cyclops
     role: scene
     orientation: landscape
@@ -70,6 +73,7 @@ images:
       en-GB: Two small heroes at a cave mouth smiling up at a shy gentle one-eyed giant, holding up a large slice of honey cake to share.
       es-ES: Dos héroes pequeños a la entrada de una cueva que sonríen a un gigante amable de un solo ojo, de aire tímido, ofreciéndole una gran porción de pastel de miel.
       it-IT: Due piccoli eroi all'ingresso di una grotta che sorridono a un grande gigante gentile con un solo occhio, dall'aria timida, offrendogli una grande fetta di focaccia al miele.
+      pt-PT: Dois pequenos heróis à entrada de uma gruta a sorrir para um gigante grande e meigo de um só olho, com ar tímido, oferecendo-lhe uma grande fatia de bolo de mel.
   - id: scene-the-feast
     role: scene
     orientation: landscape
@@ -82,3 +86,4 @@ images:
       en-GB: A long festive table under olive trees at sunset, a whole town sharing a giant honey cake, a gentle one-eyed giant in the middle with the largest slice, laughing.
       es-ES: Una larga mesa de fiesta bajo los olivos al atardecer dorado, todo un pueblo compartiendo un pastel de miel gigante, y en medio un gigante amable de un solo ojo con la porción más grande, riendo entre amigos.
       it-IT: Una lunga tavola in festa sotto gli ulivi al tramonto dorato, un intero paese che condivide un'enorme focaccia al miele, e nel mezzo un grande gigante gentile con un solo occhio con la fetta più grande, che ride tra gli amici.
+      pt-PT: Uma comprida mesa em festa sob as oliveiras ao pôr do sol dourado, uma vila inteira a partilhar um enorme bolo de mel, e no meio um gigante grande e meigo de um só olho com a maior fatia, a rir entre amigos.

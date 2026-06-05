@@ -4,6 +4,7 @@ title:
   en-GB: The River Dragon's Long Sleep
   es-ES: El Largo Sueño del Dragón del Río
   it-IT: Il Lungo Sonno del Drago del Fiume
+  pt-PT: O Longo Sono do Dragão do Rio
 age:
   recommended: older
   also_works_for: [young]
@@ -34,6 +35,7 @@ images:
       en-GB: Two older heroes on a moonlit path toward a red torii gate and a misty river, carrying a little bell, the faint coils of a sleeping dragon in the mist beyond.
       es-ES: Dos héroes mayores en un camino a la luz de la luna hacia una puerta torii roja y un río neblinoso, con una campanilla, y las tenues espirales de un dragón dormido en la niebla.
       it-IT: Due eroi più grandi su un sentiero al chiaro di luna verso un portale torii rosso e un fiume nebbioso, con un campanello, e le deboli spire di un drago addormentato nella foschia.
+      pt-PT: Dois heróis mais velhos num caminho ao luar em direção a um portão torii vermelho e a um rio enevoado, com uma sineta, e as ténues espirais de um dragão adormecido na bruma ao fundo.
   - id: scene-guardian-gate
     role: scene
     orientation: landscape
@@ -46,6 +48,7 @@ images:
       en-GB: Two heroes thinking before a tall red torii gate guarded by two friendly stone lion-dogs with kind faces, blossom and moonlight around.
       es-ES: Dos héroes que piensan ante una alta puerta torii roja guardada por dos amables perros-león de piedra de rostro bondadoso, con flores de cerezo y luz de luna.
       it-IT: Due eroi che riflettono davanti a un alto portale torii rosso custodito da due gentili cani-leone di pietra dal volto buono, con fiori di ciliegio e chiaro di luna.
+      pt-PT: Dois heróis a pensar diante de um alto portão torii vermelho guardado por dois amáveis cães-leão de pedra de rosto meigo, com flores de cerejeira e luar à volta.
   - id: scene-moonlit-bridge
     role: scene
     orientation: landscape
@@ -58,6 +61,7 @@ images:
       en-GB: Two heroes crossing a gracefully arched wooden bridge over a wide river silver in the moonlight, stepping gently together.
       es-ES: Dos héroes que cruzan un elegante puente de madera arqueado sobre un ancho río plateado a la luz de la luna, pisando juntos con suavidad.
       it-IT: Due eroi che attraversano un elegante ponte di legno ad arco su un ampio fiume argenteo al chiaro di luna, camminando insieme con dolcezza.
+      pt-PT: Dois heróis a atravessar uma elegante ponte de madeira em arco sobre um largo rio prateado ao luar, caminhando juntos com doçura.
   - id: scene-sleeping-dragon
     role: scene
     orientation: landscape
@@ -70,6 +74,7 @@ images:
       en-GB: Two heroes gently ringing a little bell beside a great gentle river dragon curled asleep among misty water, beginning to stir.
       es-ES: Dos héroes que hacen sonar con suavidad una campanilla junto a un gran dragón del río amable, enroscado y dormido entre el agua y la niebla, que empieza a moverse.
       it-IT: Due eroi che suonano con dolcezza un campanello accanto a un grande drago del fiume gentile, acciambellato e addormentato tra l'acqua e la nebbia, che inizia a destarsi.
+      pt-PT: Dois heróis a tocar com doçura uma sineta junto a um grande dragão do rio bondoso, enrolado e adormecido entre a água e a neblina, que começa a mexer-se.
   - id: scene-rains-return
     role: scene
     orientation: landscape
@@ -82,3 +87,4 @@ images:
       en-GB: A great gentle river dragon awake and rising into a dawn sky as soft rain falls, the river brimming and green rice fields drinking, two heroes cheering below.
       es-ES: Un gran dragón del río amable, despierto y alzándose con alegría hacia un cielo del alba mientras cae una lluvia suave, con el río lleno y los arrozales verdes bebiendo, y dos héroes que animan abajo.
       it-IT: Un grande drago del fiume gentile, sveglio e che si leva con gioia verso un cielo dell'alba mentre cade una pioggia leggera, con il fiume colmo e le verdi risaie che bevono, e due eroi che esultano sotto.
+      pt-PT: Um grande dragão do rio bondoso, desperto e a erguer-se com alegria para um céu de madrugada enquanto cai uma chuva suave, com o rio a transbordar e os verdes campos de arroz a beber, e dois heróis a festejar em baixo.

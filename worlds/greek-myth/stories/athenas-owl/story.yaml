@@ -4,6 +4,7 @@ title:
   en-GB: Athena's Little Owl
   es-ES: El Pequeño Búho de Atenea
   it-IT: La Piccola Civetta di Atena
+  pt-PT: A Mochinha de Atena
 age:
   recommended: young
   also_works_for: [early]
@@ -33,6 +34,7 @@ images:
       en-GB: Two young heroes in a misty olive town at dawn, gently cradling a tiny wide-eyed owl, marble columns on a hill above through the fog.
       es-ES: Dos jóvenes héroes en un pueblo de olivos neblinoso al amanecer, sosteniendo con cuidado un diminuto búho de ojos grandes, con columnas de mármol en una colina entre la niebla.
       it-IT: Due giovani eroi in un paese di ulivi nella nebbia all'alba, che tengono con delicatezza una minuscola civetta dagli occhi grandi, con colonne di marmo su una collina tra la foschia.
+      pt-PT: Dois jovens heróis numa vila de oliveiras com nevoeiro ao amanhecer, a segurar com cuidado uma minúscula mochinha de olhos grandes, com colunas de mármore numa colina por entre a bruma.
   - id: scene-foggy-square
     role: scene
     orientation: landscape
@@ -45,6 +47,7 @@ images:
       en-GB: A tiny ruffled owl with big round eyes on foggy cobblestones, two small heroes kneeling and holding out a gentle hand.
       es-ES: Un diminuto búho despeinado de ojos grandes y redondos sobre los adoquines en la niebla, con dos héroes pequeños arrodillados que le tienden una mano suave.
       it-IT: Una minuscola civetta arruffata dagli occhi grandi e tondi sui ciottoli nella nebbia, con due piccoli eroi inginocchiati che le tendono una mano gentile.
+      pt-PT: Uma minúscula mochinha despenteada de olhos grandes e redondos sobre as pedras da calçada no nevoeiro, com dois pequenos heróis ajoelhados a estender-lhe uma mão meiga.
   - id: scene-whispering-paths
     role: scene
     orientation: landscape
@@ -57,6 +60,7 @@ images:
       en-GB: Three little paths up a misty hillside, grey owl feathers along one, a cheerful goat-legged satyr peeking over a wall and pointing.
       es-ES: Tres senderos que suben por una ladera neblinosa, con plumas grises de búho a lo largo de uno, y un sátiro alegre con patas de cabra que asoma sobre un muro y señala el camino.
       it-IT: Tre piccoli sentieri che salgono per un pendio nella nebbia, con piume grigie di civetta lungo uno di essi, e un satiro allegro con le zampe di capra che fa capolino da un muretto e indica la via.
+      pt-PT: Três pequenos trilhos a subir por uma encosta no nevoeiro, com penas cinzentas de mocha ao longo de um deles, e um sátiro alegre de pernas de cabra a espreitar por cima de um muro baixo e a indicar o caminho.
   - id: scene-high-perch
     role: scene
     orientation: landscape
@@ -69,6 +73,7 @@ images:
       en-GB: Two small heroes at a little marble temple, gently helping a tired owl up to a cosy perch high among the columns as the mist clears.
       es-ES: Dos héroes pequeños junto a un pequeño templo de mármol, ayudando con cuidado a un búho cansado a subir a un cómodo posadero en lo alto de las columnas mientras se disipa la niebla.
       it-IT: Due piccoli eroi accanto a un piccolo tempio di marmo, che aiutano con dolcezza una civetta stanca a salire verso un comodo posatoio in alto tra le colonne mentre la foschia si dirada.
+      pt-PT: Dois pequenos heróis junto a um pequeno templo de mármore, a ajudar com doçura uma mocha cansada a subir até um poleiro aconchegado lá no alto entre as colunas enquanto a bruma se dissipa.
   - id: scene-glaux-home
     role: scene
     orientation: landscape
@@ -81,3 +86,4 @@ images:
       en-GB: A serene grey-eyed goddess smiling in a sunlit marble temple as a happy little owl settles beside her, a golden olive town far below.
       es-ES: Una diosa serena de ojos grises que sonríe en un templo de mármol soleado mientras un búho feliz se posa a su lado, con un pueblo de olivos dorado a lo lejos.
       it-IT: Una dea serena dagli occhi grigi che sorride in un tempio di marmo assolato mentre una civetta felice si posa accanto a lei, con un paese di ulivi dorato in lontananza.
+      pt-PT: Uma deusa serena de olhos cinzentos a sorrir num templo de mármore soalheiro enquanto uma mochinha feliz se aninha ao seu lado, com uma vila de oliveiras dourada ao longe.

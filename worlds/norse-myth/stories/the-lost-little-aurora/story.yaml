@@ -4,6 +4,7 @@ title:
   en-GB: The Lost Little Aurora
   es-ES: La Pequeña Aurora Perdida
   it-IT: La Piccola Aurora Smarrita
+  pt-PT: A Pequena Aurora Perdida
 age:
   recommended: young
   also_works_for: [early]
@@ -33,6 +34,7 @@ images:
       en-GB: Two young heroes in furs in a snowy twilight forest, gently cupping a tiny dim aurora spirit, the dark sky above waiting for colour.
       es-ES: Dos jóvenes héroes con pieles en un bosque nevado al anochecer, sosteniendo con cuidado un diminuto espíritu de aurora apagado, con el cielo oscuro esperando sus colores.
       it-IT: Due giovani eroi con pellicce in un bosco innevato al crepuscolo, che tengono con delicatezza un minuscolo spirito di aurora spento, con il cielo scuro che attende i suoi colori.
+      pt-PT: Dois jovens heróis com peles numa floresta nevada ao entardecer, que seguram com delicadeza um minúsculo espírito de aurora apagado, com o céu escuro à espera das suas cores.
   - id: scene-dark-forest
     role: scene
     orientation: landscape
@@ -45,6 +47,7 @@ images:
       en-GB: Two small heroes finding a tiny dim aurora spirit hiding among snowy pines at dusk, her light barely a glimmer.
       es-ES: Dos héroes pequeños que encuentran un diminuto espíritu de aurora apagado escondido entre pinos nevados al anochecer, con su luz apenas un destello.
       it-IT: Due piccoli eroi che trovano un minuscolo spirito di aurora spento nascosto tra pini innevati al crepuscolo, con la sua luce appena un barlume.
+      pt-PT: Dois pequenos heróis que encontram um minúsculo espírito de aurora apagado escondido entre pinheiros nevados ao entardecer, com a sua luz apenas um brilho ténue.
   - id: scene-three-colours
     role: scene
     orientation: landscape
@@ -57,6 +60,7 @@ images:
       en-GB: A small aurora spirit gathering back her colours from an icicle, a pine and the twilight sky, two heroes pointing them out.
       es-ES: Un pequeño espíritu de aurora que recupera sus colores de un carámbano, un pino y el cielo del anochecer, con dos héroes que se los señalan.
       it-IT: Un piccolo spirito di aurora che recupera i suoi colori da un ghiacciolo, un pino e il cielo del crepuscolo, con due eroi che glieli indicano.
+      pt-PT: Um pequeno espírito de aurora que recupera as suas cores de um pingente de gelo, de um pinheiro e do céu do entardecer, com dois heróis que lhas apontam.
   - id: scene-the-climb
     role: scene
     orientation: landscape
@@ -69,6 +73,7 @@ images:
       en-GB: A small red-capped hearth sprite and two heroes cheering a glowing little aurora spirit as she gathers courage atop a tall snowy pine.
       es-ES: Un pequeño duende del hogar con gorro rojo y dos héroes que animan a un pequeño espíritu de aurora brillante mientras reúne valor en lo alto de un alto pino nevado.
       it-IT: Un piccolo folletto del focolare con il berretto rosso e due eroi che incoraggiano un piccolo spirito di aurora luminoso mentre raccoglie il coraggio in cima a un alto pino innevato.
+      pt-PT: Um pequeno duende do lar de barrete vermelho e dois heróis que incentivam um pequeno espírito de aurora luminoso enquanto ganha coragem no topo de um alto pinheiro nevado.
   - id: scene-sky-dances
     role: scene
     orientation: landscape
@@ -81,3 +86,4 @@ images:
       en-GB: A glorious aurora dancing across a starry sky over a snowy fjord, a kind goddess smiling from the stars as two heroes watch in wonder.
       es-ES: Una aurora gloriosa que baila por un cielo estrellado sobre un fiordo nevado, con una diosa bondadosa que sonríe entre las estrellas mientras dos héroes miran maravillados.
       it-IT: Una gloriosa aurora che danza in un cielo stellato sopra un fiordo innevato, con una dea gentile che sorride tra le stelle mentre due eroi guardano meravigliati.
+      pt-PT: Uma gloriosa aurora que dança num céu estrelado sobre um fiorde nevado, com uma deusa bondosa que sorri por entre as estrelas enquanto dois heróis olham maravilhados.
