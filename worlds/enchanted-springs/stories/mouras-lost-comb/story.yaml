@@ -1,0 +1,97 @@
+world: enchanted-springs
+id: mouras-lost-comb
+title:
+  en-GB: The Moura's Lost Comb
+  es-ES: El Peine Perdido de la Moura
+  it-IT: Il Pettine Perduto della Moura
+age:
+  recommended: older
+  also_works_for: [young]
+skills:
+  - social-emotional
+  - logic
+  - observation
+  - vocabulary
+peril: mild
+adult_gm: true
+dice:
+  minimum: 1d6
+  recommended: d20-set
+players:
+  min: 2
+  max: 5
+play_time_minutes: 40
+images:
+  - id: cover
+    role: cover
+    orientation: portrait
+    canon_ref: old-fountain
+    prompt: >
+      Two or three young heroes arriving in an old Portuguese village square at dawn,
+      gathering by a mossy stone fountain whose water has gone still and grey, worried
+      villagers looking on, whitewashed houses with blue tiles and almond blossom
+      around them. Gentle and a little wistful.
+    alt:
+      en-GB: Young heroes arriving at a village square fountain that has gone still and grey, with worried villagers and white houses with blue tiles around them.
+      es-ES: Jóvenes héroes llegando a la fuente de una plaza cuya agua se ha quedado quieta y gris, con vecinos preocupados y casas blancas con azulejos alrededor.
+      it-IT: Giovani eroi che arrivano alla fontana di una piazza la cui acqua si è fatta ferma e grigia, con paesani preoccupati e case bianche con piastrelle azzurre intorno.
+  - id: scene-the-quiet-spring
+    role: scene
+    orientation: landscape
+    canon_ref: moura-encantada
+    prompt: >
+      A clear spring among mossy stones and ferns up in green hills, with a serene
+      enchanted maiden sitting at its edge looking sad and shy, her long dark hair
+      uncombed, a faint golden glow fading on the water. Tender, magical, not scary.
+    alt:
+      en-GB: A clear hillside spring among mossy stones, a serene enchanted maiden sitting sadly at its edge with her long hair uncombed.
+      es-ES: Un manantial claro entre piedras con musgo en las colinas, con una serena doncella encantada sentada con tristeza en el borde y su larga cabellera sin peinar.
+      it-IT: Una sorgente limpida tra pietre muschiose sulle colline, con una serena fanciulla incantata seduta con tristezza sul bordo e i lunghi capelli spettinati.
+  - id: scene-the-stepping-stones
+    role: scene
+    orientation: landscape
+    canon_ref: enchanted-spring
+    prompt: >
+      A winding line of old mossy stepping stones across a shallow stream in the hills,
+      each stone carved with a small simple symbol (a leaf, a star, a wave), with a
+      faint glint of something shiny leading off among the ferns. Bright and inviting.
+    alt:
+      en-GB: A line of mossy stepping stones across a stream, each carved with a small symbol, a faint shiny glint leading off among the ferns.
+      es-ES: Una hilera de piedras con musgo para cruzar un arroyo, cada una grabada con un pequeño símbolo, y un leve destello brillante que se aleja entre los helechos.
+      it-IT: Una fila di pietre muschiose per attraversare un ruscello, ognuna incisa con un piccolo simbolo, e un debole luccichio che si allontana fra le felci.
+  - id: scene-the-trasgo-nook
+    role: scene
+    orientation: landscape
+    canon_ref: trasgo
+    prompt: >
+      A cosy mossy nook under a stone bridge, full of little shiny odds and ends, where
+      a small cheeky goblin in a red cap is playing happily with a bright golden comb,
+      grinning at the heroes who peek in. Playful and warm, not creepy.
+    alt:
+      en-GB: A cosy nook under a stone bridge full of shiny odds and ends, where a small goblin in a red cap plays happily with a bright golden comb.
+      es-ES: Un rincón acogedor bajo un puente de piedra lleno de cosillas brillantes, donde un duendecillo de gorro rojo juega feliz con un peine de oro reluciente.
+      it-IT: Un angolo accogliente sotto un ponte di pietra pieno di cosine luccicanti, dove un folletto col berretto rosso gioca felice con un lucente pettine d'oro.
+  - id: scene-the-comb-returned
+    role: scene
+    orientation: landscape
+    canon_ref: golden-comb
+    prompt: >
+      The enchanted maiden by her spring again, smiling warmly now, drawing the golden
+      comb through her long hair as the water lights up clear and bright and lifts in a
+      gentle, glowing arc. Joyful and magical.
+    alt:
+      en-GB: The enchanted maiden smiling by her spring, drawing the golden comb through her hair as the water lights up clear and bright.
+      es-ES: La doncella encantada sonriendo junto a su manantial, pasándose el peine de oro por el pelo mientras el agua se ilumina clara y brillante.
+      it-IT: La fanciulla incantata che sorride accanto alla sua sorgente, passandosi il pettine d'oro fra i capelli mentre l'acqua si illumina limpida e luminosa.
+  - id: scene-the-spring-sings-again
+    role: scene
+    orientation: landscape
+    canon_ref: old-fountain
+    prompt: >
+      The village square at sunrise, the old stone fountain bubbling clear and bright
+      again, water sparkling and almost singing, villagers and children laughing and
+      filling their jugs, almond blossom drifting. Warm, golden and happy.
+    alt:
+      en-GB: The village square at sunrise, the old fountain bubbling clear and bright again, villagers and children laughing and filling their jugs.
+      es-ES: La plaza del pueblo al amanecer, la fuente vieja borboteando otra vez clara y brillante, con vecinos y niños riendo y llenando sus jarras.
+      it-IT: La piazza del paese all'alba, la vecchia fontana che gorgoglia di nuovo limpida e luminosa, con paesani e bambini che ridono e riempiono le loro brocche.

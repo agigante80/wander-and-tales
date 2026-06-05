@@ -1,0 +1,110 @@
+id: enchanted-springs
+name:
+  en-GB: The Enchanted Springs of Portugal
+  es-ES: Las Fuentes Encantadas de Portugal
+  it-IT: Le Sorgenti Incantate del Portogallo
+tone: gentle folklore wonder
+hero_powers: magic
+palette:
+  - "#f6f3ea"  # warm limewash background
+  - "#2f7d6e"  # deep spring green (primary)
+  - "#2aa7a0"  # bright spring teal
+  - "#d76a86"  # Isabel rose
+  - "#3f7cc4"  # azulejo blue
+  - "#e8a93a"  # cobblestone gold
+  - "#7a6bbd"  # enchantment purple
+fonts:
+  default: dejavu-serif
+lore_summary:
+  en-GB: >
+    In the enchanted springs of Portugal, cobblestone towns sit among terracotta
+    roofs, almond trees that blossom white as snow, and hills crowned with stars.
+    Water is the magic here: every spring, fountain, and old stone well has its own
+    quiet wonder. Enchanted maidens called the Mouras keep the springs sweet, a bright
+    rooster crows only the truth, and a playful little goblin called the Trasgo tidies
+    and teases when no one is looking. Here a hero wins not by being the strongest, but
+    by being kind, asking the water gently, and never giving up on a friend. Even a
+    big, fearsome-looking giant of the hills usually turns out to be lonelier than it
+    is frightening.
+  es-ES: >
+    En las fuentes encantadas de Portugal, los pueblos de adoquines se asientan entre
+    tejados de terracota, almendros que florecen blancos como la nieve y colinas
+    coronadas de estrellas. Aquí la magia es el agua: cada fuente, manantial y viejo
+    pozo de piedra guarda su propia maravilla callada. Unas doncellas encantadas
+    llamadas las Mouras mantienen dulces las fuentes, un gallo brillante solo canta la
+    verdad y un duendecillo travieso llamado el Trasgo ordena y enreda cuando nadie
+    mira. Aquí un héroe no gana por ser el más fuerte, sino por ser amable, pedirle las
+    cosas al agua con dulzura y no abandonar nunca a un amigo. Incluso un gigante
+    enorme y de aspecto temible de las colinas casi siempre resulta estar más solo que
+    asustar.
+  it-IT: >
+    Nelle sorgenti incantate del Portogallo, i paesi di ciottoli si annidano tra tetti
+    di terracotta, mandorli che fioriscono bianchi come la neve e colline coronate di
+    stelle. Qui la magia è l'acqua: ogni sorgente, fontana e vecchio pozzo di pietra
+    custodisce la sua piccola meraviglia silenziosa. Delle fanciulle incantate chiamate
+    le Mouras tengono dolci le sorgenti, un gallo luminoso canta soltanto la verità e
+    un folletto dispettoso di nome Trasgo riordina e combina scherzi quando nessuno
+    guarda. Qui un eroe non vince perché è il più forte, ma perché è gentile, chiede le
+    cose all'acqua con dolcezza e non abbandona mai un amico. Persino un gigante enorme
+    e dall'aria spaventosa delle colline quasi sempre si rivela più solo che pauroso.
+visual_style: >
+  Soft, warm storybook illustration in gentle watercolour and coloured-pencil texture,
+  with a Portuguese folklore mood: cobblestone squares, whitewashed walls and blue
+  azulejo tiles, terracotta roofs, almond blossom, mossy stone fountains and clear
+  spring water that seems to glow. Use a palette of warm limewash (#f6f3ea), deep
+  spring green (#2f7d6e), bright spring teal (#2aa7a0), Isabel rose (#d76a86), azulejo
+  blue (#3f7cc4), cobblestone gold (#e8a93a) and enchantment purple (#7a6bbd). Rounded,
+  friendly shapes and kind faces. Gentle and hopeful, never grim: enchanted maidens are
+  serene and lovely, the rooster is bright and proud, the goblin is cheeky not creepy,
+  and even big creatures look more lonely than scary. No blood, no weapons, no real
+  fright.
+images:
+  - id: cover
+    role: cover
+    orientation: portrait
+    prompt: >
+      A wide establishing view of an old Portuguese hill town at golden hour:
+      whitewashed houses with blue tiled walls and terracotta roofs around a
+      cobblestone square with a mossy stone fountain, almond trees in white blossom,
+      and green hills crowned by a single bright star in the dusk sky. Warm and
+      enchanting.
+    alt:
+      en-GB: An old Portuguese hill town at golden hour, white houses with blue tiles and a mossy stone fountain in the square, almond blossom and a star over the green hills.
+      es-ES: Un viejo pueblo portugués en una colina al atardecer dorado, casas blancas con azulejos azules y una fuente de piedra cubierta de musgo en la plaza, almendros en flor y una estrella sobre las colinas verdes.
+      it-IT: Un vecchio paese portoghese su una collina nell'ora dorata, case bianche con piastrelle azzurre e una fontana di pietra ricoperta di muschio nella piazza, mandorli in fiore e una stella sopra le colline verdi.
+  - id: moura-encantada
+    role: portrait
+    orientation: square
+    canon_ref: moura-encantada
+    prompt: >
+      A serene, lovely enchanted maiden sitting at the edge of a clear spring among
+      mossy stones, long dark hair, a calm kind smile, a faint golden glow on the
+      water around her. Gentle, magical and a little wistful, never frightening.
+    alt:
+      en-GB: A serene enchanted maiden with long dark hair, sitting by a clear spring among mossy stones, a soft golden glow on the water.
+      es-ES: Una doncella encantada serena de larga cabellera oscura, sentada junto a un manantial claro entre piedras con musgo, con un suave brillo dorado en el agua.
+      it-IT: Una serena fanciulla incantata dai lunghi capelli scuri, seduta accanto a una sorgente limpida tra pietre muschiose, con un morbido bagliore dorato sull'acqua.
+  - id: galo-de-barcelos
+    role: portrait
+    orientation: square
+    canon_ref: galo-de-barcelos
+    prompt: >
+      A bright, proud rooster with a bold red comb and a tail of cheerful painted
+      colours, standing tall on a cobblestone wall and crowing happily into the
+      morning, like the famous painted rooster of Barcelos. Lively and friendly.
+    alt:
+      en-GB: A bright proud rooster with a red comb and a tail of painted colours, crowing happily on a cobblestone wall.
+      es-ES: Un gallo brillante y orgulloso de cresta roja y cola de colores pintados, cantando feliz sobre un muro de adoquines.
+      it-IT: Un gallo luminoso e fiero con la cresta rossa e la coda dai colori dipinti, che canta felice su un muretto di ciottoli.
+  - id: trasgo
+    role: portrait
+    orientation: square
+    canon_ref: trasgo
+    prompt: >
+      A small, cheeky household goblin with big bright eyes and a red cap, peeking out
+      from behind a clay jug on a kitchen shelf, holding a single odd sock and grinning
+      mischievously. Playful and cute, not creepy.
+    alt:
+      en-GB: A small cheeky goblin with big eyes and a red cap, peeking from behind a clay jug and holding an odd sock, grinning playfully.
+      es-ES: Un duendecillo travieso de ojos grandes y gorro rojo, asomado tras una jarra de barro y sujetando un calcetín suelto, con una sonrisa pícara.
+      it-IT: Un folletto dispettoso dagli occhi grandi e dal berretto rosso, che fa capolino da dietro una brocca di terracotta tenendo un calzino spaiato, con un sorriso birichino.

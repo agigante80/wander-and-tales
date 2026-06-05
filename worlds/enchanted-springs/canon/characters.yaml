@@ -1,0 +1,23 @@
+- id: moura-encantada
+  names:
+    en-GB: Moura Encantada
+    es-ES: Moura Encantada
+    it-IT: Moura Encantada
+  kind: character
+  description:
+    en-GB: A serene enchanted maiden who lives by a clear spring in the hills. With her golden comb she keeps the water sweet and singing, and she rewards a kind heart with cool, clear water and a gentle blessing. She is shy, never wicked.
+    es-ES: Una serena doncella encantada que vive junto a un manantial claro en las colinas. Con su peine de oro mantiene el agua dulce y cantarina, y recompensa un corazón amable con agua fresca y clara y una bendición suave. Es tímida, nunca malvada.
+    it-IT: Una serena fanciulla incantata che vive accanto a una sorgente limpida fra le colline. Con il suo pettine d'oro tiene l'acqua dolce e cantarina, e ricompensa un cuore gentile con acqua fresca e limpida e una dolce benedizione. È timida, mai malvagia.
+  first_seen: mouras-lost-comb
+
+- id: queen-isabel
+  names:
+    en-GB: Queen Isabel
+    es-ES: Reina Isabel
+    it-IT: Regina Isabella
+  kind: character
+  description:
+    en-GB: The kind queen of old, remembered all over the land. She carried bread to the poor in secret, and when she was stopped and her cloak was opened, the bread had turned to roses. Her name is a byword for quiet kindness.
+    es-ES: La reina bondadosa de antaño, recordada en toda la tierra. Llevaba pan a los pobres en secreto, y cuando la detuvieron y le abrieron el manto, el pan se había convertido en rosas. Su nombre es sinónimo de bondad callada.
+    it-IT: La regina buona di un tempo, ricordata in tutta la terra. Portava il pane ai poveri di nascosto, e quando la fermarono e le aprirono il mantello, il pane si era trasformato in rose. Il suo nome è sinonimo di bontà silenziosa.
+  first_seen: mouras-lost-comb

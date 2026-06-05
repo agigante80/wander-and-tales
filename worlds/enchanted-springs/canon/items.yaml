@@ -1,0 +1,23 @@
+- id: golden-comb
+  names:
+    en-GB: The Golden Comb
+    es-ES: El Peine de Oro
+    it-IT: Il Pettine d'Oro
+  kind: item
+  description:
+    en-GB: The Moura's comb, bright as morning. When she draws it through her long hair the spring wakes, the water runs clear, and the old fountain in the square sings again. Without it the spring goes quiet and grey.
+    es-ES: El peine de la Moura, brillante como la mañana. Cuando lo pasa por su larga cabellera, el manantial despierta, el agua corre clara y la fuente vieja de la plaza vuelve a cantar. Sin él, el manantial queda callado y gris.
+    it-IT: Il pettine della Moura, lucente come il mattino. Quando lo passa fra i suoi lunghi capelli, la sorgente si sveglia, l'acqua scorre limpida e la vecchia fontana della piazza torna a cantare. Senza di esso, la sorgente resta silenziosa e grigia.
+  first_seen: mouras-lost-comb
+
+- id: rosca-bread
+  names:
+    en-GB: Rosca Bread
+    es-ES: Pan Rosca
+    it-IT: Pane Rosca
+  kind: item
+  description:
+    en-GB: A sweet ring-shaped loaf from the village bakery, soft and golden, often shared at the fountain. The Trasgo cannot resist its smell.
+    es-ES: Un pan dulce en forma de rosca de la panadería del pueblo, blando y dorado, que se comparte a menudo junto a la fuente. El Trasgo no puede resistirse a su olor.
+    it-IT: Un pane dolce a forma di ciambella del forno del paese, morbido e dorato, che spesso si condivide accanto alla fontana. Il Trasgo non sa resistere al suo profumo.
+  first_seen: mouras-lost-comb

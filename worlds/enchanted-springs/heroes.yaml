@@ -1,0 +1,105 @@
+# Four example heroes for the Enchanted Springs of Portugal: ready-to-use sample
+# adventure sheets, two for ages 6 to 8 (young) and two for ages 9 to 12 (older). This
+# is a magic world; the three slots hold three of the world's four magics (canon ids).
+# The hero image is drawn in the sheet's "Draw your hero" box.
+
+- id: ines
+  tier: young
+  name: Inês
+  hero_of:
+    en-GB: the Enchanted Springs of Portugal
+    es-ES: las Fuentes Encantadas de Portugal
+    it-IT: delle Sorgenti Incantate del Portogallo
+  magics: [magic-riversong, magic-bloom, magic-truth]
+  energy: 4
+  carry:
+    - { en-GB: a little clay jug, es-ES: una jarrita de barro, it-IT: una piccola brocca di terracotta }
+    - { en-GB: a sprig of rosemary, es-ES: una ramita de romero, it-IT: un rametto di rosmarino }
+    - { en-GB: a smooth river pebble, es-ES: un guijarro liso del río, it-IT: un ciottolo liscio del fiume }
+  image:
+    id: hero-ines
+    role: hero
+    orientation: portrait
+    prompt: >
+      A bright young hero in a simple cotton dress and a flower in her hair, kneeling
+      by a stone spring with a little clay jug, smiling kindly at the water. Gentle and
+      curious.
+    alt:
+      en-GB: A young hero in a cotton dress with a flower in her hair, kneeling by a stone spring with a little clay jug.
+      es-ES: Una joven heroína con un vestido de algodón y una flor en el pelo, arrodillada junto a un manantial de piedra con una jarrita de barro.
+      it-IT: Una giovane eroina con un vestito di cotone e un fiore tra i capelli, inginocchiata accanto a una sorgente di pietra con una piccola brocca di terracotta.
+
+- id: tomas
+  tier: young
+  name: Tomás
+  hero_of:
+    en-GB: the Enchanted Springs of Portugal
+    es-ES: las Fuentes Encantadas de Portugal
+    it-IT: delle Sorgenti Incantate del Portogallo
+  magics: [magic-starlight, magic-truth, magic-riversong]
+  energy: 4
+  carry:
+    - { en-GB: a little lantern, es-ES: un farolillo, it-IT: una lanterna piccola }
+    - { en-GB: a ball of red wool, es-ES: un ovillo de lana roja, it-IT: un gomitolo di lana rossa }
+    - { en-GB: a slice of rosca bread, es-ES: una rebanada de pan rosca, it-IT: una fetta di pane rosca }
+  image:
+    id: hero-tomas
+    role: hero
+    orientation: portrait
+    prompt: >
+      A cheerful young hero in a waistcoat and cap holding up a small glowing lantern in
+      the dusk, with a brave, friendly grin. Warm and hopeful.
+    alt:
+      en-GB: A cheerful young hero in a waistcoat and cap holding up a small glowing lantern in the dusk.
+      es-ES: Un joven héroe alegre con chaleco y gorra sosteniendo en alto un farolillo encendido al anochecer.
+      it-IT: Un giovane eroe allegro con panciotto e berretto che regge in alto una piccola lanterna accesa al crepuscolo.
+
+- id: beatriz
+  tier: older
+  name: Beatriz
+  hero_of:
+    en-GB: the Enchanted Springs of Portugal
+    es-ES: las Fuentes Encantadas de Portugal
+    it-IT: delle Sorgenti Incantate del Portogallo
+  magics: [magic-truth, magic-riversong, magic-starlight]
+  energy: 3
+  carry:
+    - { en-GB: a little book of riddles, es-ES: un librito de adivinanzas, it-IT: un libretto di indovinelli }
+    - { en-GB: a tin whistle, es-ES: un silbato de hojalata, it-IT: un fischietto di latta }
+    - { en-GB: a pocket mirror, es-ES: un espejo de bolsillo, it-IT: uno specchietto da taschino }
+  image:
+    id: hero-beatriz
+    role: hero
+    orientation: portrait
+    prompt: >
+      A thoughtful older child in a shawl, holding a small book and looking up with a
+      clever, kind smile, standing among mossy stones. Calm and curious.
+    alt:
+      en-GB: A thoughtful older child in a shawl holding a small book and smiling, standing among mossy stones.
+      es-ES: Una niña mayor y reflexiva con un chal, sosteniendo un librito y sonriendo, de pie entre piedras con musgo.
+      it-IT: Una ragazzina pensierosa con uno scialle, che tiene un libretto e sorride, in piedi tra pietre muschiose.
+
+- id: diogo
+  tier: older
+  name: Diogo
+  hero_of:
+    en-GB: the Enchanted Springs of Portugal
+    es-ES: las Fuentes Encantadas de Portugal
+    it-IT: delle Sorgenti Incantate del Portogallo
+  magics: [magic-bloom, magic-starlight, magic-riversong]
+  energy: 3
+  carry:
+    - { en-GB: a pouch of almond blossom, es-ES: una bolsita de flor de almendro, it-IT: un sacchetto di fiori di mandorlo }
+    - { en-GB: a coil of string, es-ES: un ovillo de cordel, it-IT: un gomitolo di spago }
+    - { en-GB: a wooden spoon, es-ES: una cuchara de madera, it-IT: un cucchiaio di legno }
+  image:
+    id: hero-diogo
+    role: hero
+    orientation: portrait
+    prompt: >
+      A kind older child with rolled-up sleeves, cupping a few white almond blossoms in
+      both hands and smiling gently, with green hills behind. Warm and gentle.
+    alt:
+      en-GB: A kind older child with rolled-up sleeves cupping a few white almond blossoms in both hands, green hills behind.
+      es-ES: Un niño mayor y amable con las mangas remangadas, sosteniendo en las manos unas flores blancas de almendro, con colinas verdes detrás.
+      it-IT: Un ragazzino gentile con le maniche rimboccate, che tiene tra le mani alcuni fiori bianchi di mandorlo, con colline verdi sullo sfondo.
