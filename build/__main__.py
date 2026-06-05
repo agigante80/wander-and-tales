@@ -154,7 +154,7 @@ def main(argv: list[str] | None = None) -> int:
         out_dir = args.out_dir if args.out_dir is not None else args.root / "kits"
         built = library.rebuild(args.root, out_dir)
         total = (
-            len(built.story_packs) + len(built.playbooks)
+            len(built.tale_books) + len(built.atlases)
             + len(built.world_books) + len(built.guides)
             + len(built.quickstarts)
         )

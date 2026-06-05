@@ -11,7 +11,7 @@ from pathlib import Path
 
 from build import content
 from build.locales import REQUIRED_LOCALES
-from build.render import examples, kit, pages, playbook, version, world_pdf
+from build.render import atlas, examples, pages, tale_book, version, world_pdf
 from build.render.colophon import PROJECT_URL
 
 LEVELS = ("simple", "rich")
@@ -24,8 +24,8 @@ _AGE_RANGE = {"early": "3 to 5", "young": "6 to 8", "older": "9 to 12"}
 
 @dataclass
 class Built:
-    story_packs: dict = field(default_factory=dict)  # (world, story, locale, level) -> Path
-    playbooks: dict = field(default_factory=dict)    # (world, story, locale) -> Path
+    tale_books: dict = field(default_factory=dict)   # (world, story, locale, level) -> Path
+    atlases: dict = field(default_factory=dict)      # (world, story, locale) -> Path
     world_books: dict = field(default_factory=dict)  # (world, locale) -> Path
     example_heroes: dict = field(default_factory=dict)  # (world, locale) -> Path
     guides: dict = field(default_factory=dict)       # locale -> Path
@@ -49,12 +49,12 @@ def build_all(root: Path, out_dir: Path) -> Built:
                 )
             for story_yaml in stories:
                 story_id = story_yaml.parent.name
-                built.playbooks[(world_id, story_id, locale)] = playbook.build_playbook(
+                built.atlases[(world_id, story_id, locale)] = atlas.build_atlas(
                     root, world_id, story_id, locale, out_dir=out_dir
                 )
                 for level in LEVELS:
-                    built.story_packs[(world_id, story_id, locale, level)] = (
-                        kit.build_story_pack(
+                    built.tale_books[(world_id, story_id, locale, level)] = (
+                        tale_book.build_tale_book(
                             root, world_id, story_id, locale, level, out_dir=out_dir
                         )
                     )
@@ -76,7 +76,7 @@ def prune_old(out_dir: Path, built: Built) -> list[Path]:
     """Remove every *.pdf under out_dir that the build did not just write."""
     keep = set()
     for mapping in (
-        built.story_packs, built.playbooks, built.world_books,
+        built.tale_books, built.atlases, built.world_books,
         built.example_heroes, built.guides, built.quickstarts,
     ):
         keep.update(p.resolve() for p in mapping.values())
@@ -96,11 +96,13 @@ def _rel(root: Path, path: Path) -> str:
     return str(path.resolve().relative_to(root.resolve()))
 
 
-# Localized labels for the per-language download links in the catalogue cell.
+# Localized labels for the per-language download links in the catalogue cell. The Tale
+# Book is the grown-up's read-from book at each reading level; the Atlas is the map and
+# pictures (and the hero sheet) to show or print.
 _LEVEL_LABELS = {
-    "en-GB": {"simple": "Simple", "rich": "Rich", "playbook": "Playbook"},
-    "es-ES": {"simple": "Sencillo", "rich": "Completo", "playbook": "Cuaderno"},
-    "it-IT": {"simple": "Semplice", "rich": "Completo", "playbook": "Quaderno"},
+    "en-GB": {"simple": "Tale (Simple)", "rich": "Tale (Rich)", "atlas": "Atlas"},
+    "es-ES": {"simple": "Relato (Sencillo)", "rich": "Relato (Completo)", "atlas": "Atlas"},
+    "it-IT": {"simple": "Racconto (Semplice)", "rich": "Racconto (Completo)", "atlas": "Atlas"},
 }
 
 
@@ -111,10 +113,10 @@ def readme_block(root: Path, built: Built) -> str:
     links for every language, so the README is the single browse-and-download view.
     """
     stories: dict = {}
-    for (world_id, story_id, locale, level), path in built.story_packs.items():
+    for (world_id, story_id, locale, level), path in built.tale_books.items():
         stories.setdefault((world_id, story_id), {}).setdefault(locale, {})[level] = path
-    for (world_id, story_id, locale), path in built.playbooks.items():
-        stories.setdefault((world_id, story_id), {}).setdefault(locale, {})["playbook"] = path
+    for (world_id, story_id, locale), path in built.atlases.items():
+        stories.setdefault((world_id, story_id), {}).setdefault(locale, {})["atlas"] = path
 
     stories_by_world: dict = {}
     for world_id, story_id in stories:
@@ -147,8 +149,10 @@ def readme_block(root: Path, built: Built) -> str:
         "",
         "Every story is cooperative and no-lose, for two or more (a grown-up and one",
         "or more children), and playable with a single ordinary die. Each kit comes in",
-        "three languages: pick a Story Pack to play from, the Grown-up's Playbook for the",
-        "answers, and the World Book for the lore.",
+        "three languages. The grown-up reads from the **Tale Book** (the story, the rules,",
+        "and the answers); the **Atlas** holds the map, the pictures to show at each place,",
+        "and the hero sheet; the **World Book** holds the lore. You can read from a screen,",
+        "and print the Atlas or simply draw and build it by hand: nothing needs a printer.",
     ]
     if built.quickstarts:
         qs_links = " · ".join(
@@ -198,7 +202,7 @@ def readme_block(root: Path, built: Built) -> str:
                 labels = _LEVEL_LABELS.get(loc, _LEVEL_LABELS["en-GB"])
                 parts = [
                     f"[{labels[kind]}]({_rel(root, files[kind])})"
-                    for kind in ("simple", "rich", "playbook")
+                    for kind in ("simple", "rich", "atlas")
                     if kind in files
                 ]
                 cols.append(" · ".join(parts))

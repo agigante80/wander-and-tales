@@ -79,5 +79,5 @@ def test_rebuild_builds_the_library_and_rewrites_readme(sample_repo):
     ).is_file()
     readme = (sample_repo / "README.md").read_text(encoding="utf-8")
     assert "The Sleeping Garden" in readme
-    assert "old" not in readme
+    assert "\nold\n" not in readme  # the seeded placeholder line was replaced
     assert "End." in readme
