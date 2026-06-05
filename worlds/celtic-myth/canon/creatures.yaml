@@ -20,12 +20,14 @@
     en-GB: The Salmon of Wisdom
     es-ES: El Salmón de la Sabiduría
     it-IT: Il Salmone della Saggezza
+    pt-PT: O Salmão da Sabedoria
   kind: creature
   disposition: thoughtful
   description:
     en-GB: An old, bright salmon who swims in the misty loch and knows the answer to any riddle. He is fair and kind, and shares a clue gladly with those full of ideas and those who are gentle.
     es-ES: Un salmón viejo y reluciente que nada en el lago brumoso y conoce la respuesta a cualquier acertijo. Es justo y amable, y comparte de buen grado una pista con quienes tienen ideas y con los gentiles.
     it-IT: Un salmone vecchio e lucente che nuota nel lago nebbioso e conosce la risposta a ogni indovinello. È giusto e gentile, e condivide volentieri un indizio con chi ha le idee e con i gentili.
+    pt-PT: Um salmão velho e reluzente que nada no lago enevoado e sabe a resposta a qualquer adivinha. É justo e bondoso, e partilha de bom grado uma pista com quem tem ideias e com quem é meigo.
   first_seen: the-land-of-youth
 
 - id: sorcha-selkie
@@ -33,12 +35,14 @@
     en-GB: Sorcha the Selkie
     es-ES: Sorcha la Selkie
     it-IT: Sorcha la Selkie
+    pt-PT: Sorcha, a Selkie
   kind: creature
   disposition: lonely
   description:
     en-GB: A gentle seal-person of the loch who can slip off her sealskin to walk ashore. She seems shy and a little lonely, but a kind word makes her a steadfast friend who will ferry travellers across the mist.
     es-ES: Una amable foca encantada del lago que puede quitarse su piel de foca para caminar por la orilla. Parece tímida y un poco solitaria, pero una palabra amable la convierte en una amiga fiel que cruza a los viajeros a través de la niebla.
     it-IT: Una gentile foca incantata del lago che può togliersi la pelle di foca per camminare sulla riva. Sembra timida e un po' solitaria, ma una parola gentile la rende un'amica fedele che traghetta i viaggiatori attraverso la nebbia.
+    pt-PT: Uma meiga mulher-foca do lago que pode despir a sua pele de foca para caminhar em terra. Parece tímida e um pouco solitária, mas uma palavra amiga torna-a uma amiga leal que leva os viajantes de barco através da névoa.
   first_seen: the-land-of-youth
 
 - id: swan-children
@@ -46,10 +50,12 @@
     en-GB: The Swan Children
     es-ES: Los Niños Cisne
     it-IT: I Bambini Cigno
+    pt-PT: As Crianças-Cisne
   kind: creature
   disposition: friendly
   description:
     en-GB: Four gentle children turned long ago into white swans, whose evening song lifts the mist and colours the dusk. When their song falters, a grey mist lingers over the loch.
     es-ES: Cuatro niños amables convertidos hace mucho en cisnes blancos, cuyo canto del atardecer levanta la niebla y da color al ocaso. Cuando su canto flaquea, una niebla gris se queda sobre el lago.
     it-IT: Quattro bambini gentili trasformati tanto tempo fa in cigni bianchi, il cui canto della sera solleva la nebbia e colora il crepuscolo. Quando il loro canto vacilla, una nebbia grigia indugia sul lago.
+    pt-PT: Quatro crianças meigas transformadas há muito tempo em cisnes brancos, cujo canto da tarde levanta a névoa e dá cor ao anoitecer. Quando o seu canto vacila, uma névoa cinzenta demora-se sobre o lago.
   first_seen: swan-childrens-lullaby

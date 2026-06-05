@@ -20,12 +20,14 @@
     en-GB: The Aurora Spirits
     es-ES: Los Espíritus de la Aurora
     it-IT: Gli Spiriti dell'Aurora
+    pt-PT: Os Espíritos da Aurora
   kind: creature
   disposition: friendly
   description:
     en-GB: Gentle spirits of the northern lights whose dancing fills the winter sky with colour. When they are happy and brave, the long night glows with teal, green and purple.
     es-ES: Espíritus amables de la aurora boreal cuyo baile llena de color el cielo de invierno. Cuando están contentos y valientes, la larga noche brilla en turquesa, verde y púrpura.
     it-IT: Spiriti gentili dell'aurora boreale la cui danza riempie di colore il cielo d'inverno. Quando sono felici e coraggiosi, la lunga notte risplende di turchese, verde e viola.
+    pt-PT: Espíritos gentis da aurora boreal cuja dança enche de cor o céu de inverno. Quando estão felizes e corajosos, a longa noite brilha de azul-turquesa, verde e roxo.
   first_seen: the-lost-little-aurora
 
 - id: ratatosk-squirrel
@@ -33,12 +35,14 @@
     en-GB: Ratatosk the Squirrel
     es-ES: Ratatosk la Ardilla
     it-IT: Ratatosk lo Scoiattolo
+    pt-PT: Ratatosk o Esquilo
   kind: creature
   disposition: playful
   description:
     en-GB: A quick, chattery red squirrel who races up and down the Great World Tree all day, carrying messages between everyone, though he does sometimes muddle them up.
     es-ES: Una ardilla roja rápida y parlanchina que sube y baja todo el día por el Gran Árbol del Mundo, llevando mensajes entre todos, aunque a veces los enreda un poco.
     it-IT: Uno scoiattolo rosso svelto e chiacchierone che corre su e giù per il Grande Albero del Mondo tutto il giorno, portando messaggi fra tutti, anche se ogni tanto li imbroglia un po'.
+    pt-PT: Um esquilo vermelho rápido e tagarela que corre para cima e para baixo na Grande Árvore do Mundo o dia todo, levando mensagens entre toda a gente, ainda que às vezes as baralhe um bocadinho.
   first_seen: ratatosks-message
 
 - id: nisse-tomte
@@ -46,12 +50,14 @@
     en-GB: Nori the Tomte
     es-ES: Nori el Duende del Hogar
     it-IT: Nori il Folletto del Focolare
+    pt-PT: Nori o Duende do Lar
   kind: creature
   disposition: playful
   description:
     en-GB: A small, kindly hearth sprite in a red cap who looks after the longhouse and loves to hand out helpful hints, and the odd harmless prank, to folk he likes.
     es-ES: Un pequeño y amable duende del hogar con gorro rojo que cuida de la casa comunal y al que le encanta dar pistas útiles, y alguna travesura inofensiva, a quien le cae bien.
     it-IT: Un piccolo e gentile folletto del focolare con un berretto rosso che si prende cura della casa lunga e ama dare indizi utili, e qualche scherzo innocuo, a chi gli sta simpatico.
+    pt-PT: Um pequeno e bondoso duende do lar de barrete vermelho que toma conta da casa comprida e adora dar dicas úteis, e uma ou outra partida inofensiva, a quem gosta dele.
   first_seen: the-lost-little-aurora
 
 - id: two-ravens

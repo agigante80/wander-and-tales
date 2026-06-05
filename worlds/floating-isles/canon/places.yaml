@@ -5,11 +5,13 @@
     en-GB: House of the Little Mages
     es-ES: Casa de los Pequeños Magos
     it-IT: Casa dei Piccoli Maghi
+    pt-PT: Casa dos Pequenos Magos
   kind: place
   description:
     en-GB: The school at the highest point of the home island, where young mages learn their first magic.
     es-ES: La escuela en el punto más alto de la isla principal, donde los jóvenes magos aprenden su primera magia.
     it-IT: La scuola nel punto più alto dell'isola principale, dove i giovani maghi imparano la loro prima magia.
+    pt-PT: A escola no ponto mais alto da ilha principal, onde os jovens magos aprendem a sua primeira magia.
   first_seen: sleeping-garden
 
 - id: great-garden

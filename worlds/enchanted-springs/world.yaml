@@ -83,6 +83,7 @@ images:
       en-GB: An old Portuguese hill town at golden hour, white houses with blue tiles and a mossy stone fountain in the square, almond blossom and a star over the green hills.
       es-ES: Un viejo pueblo portugués en una colina al atardecer dorado, casas blancas con azulejos azules y una fuente de piedra cubierta de musgo en la plaza, almendros en flor y una estrella sobre las colinas verdes.
       it-IT: Un vecchio paese portoghese su una collina nell'ora dorata, case bianche con piastrelle azzurre e una fontana di pietra ricoperta di muschio nella piazza, mandorli in fiore e una stella sopra le colline verdi.
+      pt-PT: Uma velha vila portuguesa numa colina à hora dourada, casas brancas com azulejos azuis e uma fonte de pedra coberta de musgo na praça, amendoeiras em flor e uma estrela sobre as colinas verdes.
   - id: moura-encantada
     role: portrait
     orientation: square
@@ -95,6 +96,7 @@ images:
       en-GB: A serene enchanted maiden with long dark hair, sitting by a clear spring among mossy stones, a soft golden glow on the water.
       es-ES: Una doncella encantada serena de larga cabellera oscura, sentada junto a un manantial claro entre piedras con musgo, con un suave brillo dorado en el agua.
       it-IT: Una serena fanciulla incantata dai lunghi capelli scuri, seduta accanto a una sorgente limpida tra pietre muschiose, con un morbido bagliore dorato sull'acqua.
+      pt-PT: Uma serena donzela encantada de longos cabelos escuros, sentada junto a uma nascente límpida entre pedras com musgo, com um suave brilho dourado na água.
   - id: galo-de-barcelos
     role: portrait
     orientation: square
@@ -107,6 +109,7 @@ images:
       en-GB: A bright proud rooster with a red comb and a tail of painted colours, crowing happily on a cobblestone wall.
       es-ES: Un gallo brillante y orgulloso de cresta roja y cola de colores pintados, cantando feliz sobre un muro de adoquines.
       it-IT: Un gallo luminoso e fiero con la cresta rossa e la coda dai colori dipinti, che canta felice su un muretto di ciottoli.
+      pt-PT: Um galo luminoso e orgulhoso com crista vermelha e cauda de cores pintadas, a cantar feliz num muro de calçada.
   - id: trasgo
     role: portrait
     orientation: square
@@ -119,3 +122,4 @@ images:
       en-GB: A small cheeky goblin with big eyes and a red cap, peeking from behind a clay jug and holding an odd sock, grinning playfully.
       es-ES: Un duendecillo travieso de ojos grandes y gorro rojo, asomado tras una jarra de barro y sujetando un calcetín suelto, con una sonrisa pícara.
       it-IT: Un folletto dispettoso dagli occhi grandi e dal berretto rosso, che fa capolino da dietro una brocca di terracotta tenendo un calzino spaiato, con un sorriso birichino.
+      pt-PT: Um duendezinho travesso de olhos grandes e barrete vermelho, a espreitar por trás de um cântaro de barro segurando uma meia desemparelhada, com um sorriso maroto.
