@@ -5,11 +5,13 @@
     en-GB: Imagination
     es-ES: Imaginación
     it-IT: Immaginazione
+    pt-PT: Imaginação
   kind: quality
   description:
     en-GB: Imagining new ideas and asking good questions. In these hills, a fresh idea opens more doors than strength, and there is no wrong idea.
     es-ES: Imaginar ideas nuevas y hacer buenas preguntas. En estas colinas, una idea nueva abre más puertas que la fuerza, y aquí no hay ideas equivocadas.
     it-IT: Immaginare idee nuove e fare buone domande. Su queste colline, un'idea nuova apre più porte della forza, e qui non ci sono idee sbagliate.
+    pt-PT: Imaginar ideias novas e fazer boas perguntas. Nestas colinas, uma ideia nova abre mais portas do que a força, e aqui não há ideias erradas.
   first_seen: the-singing-spring
 
 - id: courage
@@ -17,11 +19,13 @@
     en-GB: Courage
     es-ES: Valor
     it-IT: Coraggio
+    pt-PT: Coragem
   kind: quality
   description:
     en-GB: A steady heart in a scary moment. Courage is not being unafraid; it is staying kind and trying anyway, even when you are afraid.
     es-ES: Un corazón firme en un momento de miedo. El valor no es no tener miedo; es seguir siendo amable e intentarlo igualmente, aun cuando lo tienes.
     it-IT: Un cuore saldo in un momento di paura. Il coraggio non è non avere paura; è restare gentili e provarci lo stesso, anche quando si ha paura.
+    pt-PT: Um coração firme num momento de medo. A coragem não é não ter medo; é continuar a ser meigo e tentar à mesma, mesmo quando temos medo.
   first_seen: the-singing-spring
 
 - id: heart
@@ -29,9 +33,11 @@
     en-GB: Heart
     es-ES: Corazón
     it-IT: Cuore
+    pt-PT: Coração
   kind: quality
   description:
     en-GB: Care for others. In this world the greatest heroes are the ones who help, share, and stand by a friend.
     es-ES: El cuidado por los demás. En este mundo, los mayores héroes son los que ayudan, comparten y no abandonan a un amigo.
     it-IT: La cura per gli altri. In questo mondo i più grandi eroi sono quelli che aiutano, condividono e non abbandonano un amico.
+    pt-PT: O cuidado pelos outros. Neste mundo, os maiores heróis são os que ajudam, partilham e nunca abandonam um amigo.
   first_seen: the-singing-spring

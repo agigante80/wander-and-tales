@@ -5,11 +5,13 @@
     en-GB: The Golden Thread
     es-ES: El Hilo Dorado
     it-IT: Il Filo Dorato
+    pt-PT: O Fio Dourado
   kind: item
   description:
     en-GB: A ball of shining thread. Tie one end at the entrance and you can always find your way back out of the maze.
     es-ES: Un ovillo de hilo brillante. Ata un extremo en la entrada y siempre podrás encontrar el camino de vuelta para salir del laberinto.
     it-IT: Un gomitolo di filo lucente. Lega un'estremità all'ingresso e potrai sempre ritrovare la via per uscire dal labirinto.
+    pt-PT: Um novelo de fio luzente. Ata uma ponta à entrada e poderás sempre encontrar o caminho de volta para sair do labirinto.
   first_seen: the-singing-spring
 
 - id: honey-cake
@@ -17,11 +19,13 @@
     en-GB: The Honey Cake
     es-ES: El Pastel de Miel
     it-IT: La Focaccia al Miele
+    pt-PT: O Bolo de Mel
   kind: item
   description:
     en-GB: A small sweet cake. Shared with a lonely guardian, it can turn a scowl into a smile.
     es-ES: Un pastelito dulce. Compartido con un guardián solitario, puede convertir el ceño fruncido en una sonrisa.
     it-IT: Una piccola focaccia dolce. Condivisa con un guardiano solitario, può trasformare un cipiglio in un sorriso.
+    pt-PT: Um pequeno bolo doce. Partilhado com um guardião solitário, pode transformar uma cara fechada num sorriso.
   first_seen: the-singing-spring
 
 - id: little-lyre
@@ -29,9 +33,11 @@
     en-GB: The Little Lyre
     es-ES: La Pequeña Lira
     it-IT: La Piccola Lira
+    pt-PT: A Pequena Lira
   kind: item
   description:
     en-GB: A small harp. A simple tune played from the heart can wake the song of the spring.
     es-ES: Un arpa pequeña. Una melodía sencilla tocada de corazón puede despertar el canto de la fuente.
     it-IT: Una piccola arpa. Una melodia semplice suonata con il cuore può risvegliare il canto della fonte.
+    pt-PT: Uma pequena harpa. Uma melodia simples tocada de coração pode despertar o canto da fonte.
   first_seen: the-singing-spring

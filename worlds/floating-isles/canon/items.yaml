@@ -5,9 +5,11 @@
     en-GB: Sky Lantern
     es-ES: Farol del Cielo
     it-IT: Lanterna del Cielo
+    pt-PT: Lanterna do Céu
   kind: item
   description:
     en-GB: A soft paper lantern with a warm little flame that floats up into the sky on festival night.
     es-ES: Un farol de papel suave con una pequeña llama cálida que flota hacia el cielo en la noche de fiesta.
     it-IT: Una morbida lanterna di carta con una piccola fiamma calda che vola su nel cielo nella notte di festa.
+    pt-PT: Uma lanterna de papel suave com uma pequena chama quente que sobe a flutuar para o céu na noite de festa.
   first_seen: lantern-festival

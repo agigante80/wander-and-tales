@@ -5,11 +5,13 @@
     en-GB: The Olive Town
     es-ES: El Pueblo de los Olivos
     it-IT: Il Paese degli Ulivi
+    pt-PT: A Vila das Oliveiras
   kind: place
   description:
     en-GB: A little white town of terracotta roofs and olive trees, the heroes' home, where the spring has fallen quiet.
     es-ES: Un pueblecito blanco de tejados de terracota y olivos, el hogar de los héroes, donde la fuente se ha quedado en silencio.
     it-IT: Un piccolo paese bianco di tetti di terracotta e ulivi, la casa degli eroi, dove la fonte è ammutolita.
+    pt-PT: Uma pequena vila branca de telhados de terracota e oliveiras, a casa dos heróis, onde a fonte se calou.
   first_seen: the-singing-spring
 
 - id: riddle-gate
@@ -17,11 +19,13 @@
     en-GB: The Riddle Gate
     es-ES: La Puerta de los Acertijos
     it-IT: La Porta degli Indovinelli
+    pt-PT: O Portão dos Enigmas
   kind: place
   description:
     en-GB: A marble gate on the hill road, guarded by a sphinx who lets pass only those who answer a riddle with a cool head.
     es-ES: Una puerta de mármol en el camino de la colina, custodiada por una esfinge que solo deja pasar a quienes responden a un acertijo con la cabeza fría.
     it-IT: Una porta di marmo sulla strada della collina, custodita da una sfinge che lascia passare solo chi risponde a un indovinello con la testa fredda.
+    pt-PT: Um portão de mármore na estrada da colina, guardado por uma esfinge que só deixa passar quem responde a um enigma com a cabeça fria.
   first_seen: the-singing-spring
 
 - id: winding-maze
@@ -29,11 +33,13 @@
     en-GB: The Winding Maze
     es-ES: El Laberinto Sinuoso
     it-IT: Il Labirinto Tortuoso
+    pt-PT: O Labirinto Sinuoso
   kind: place
   description:
     en-GB: A maze of old stone walls and hedges where it is easy to get lost without a thread to follow.
     es-ES: Un laberinto de viejos muros de piedra y setos donde es fácil perderse sin un hilo que seguir.
     it-IT: Un labirinto di vecchi muri di pietra e siepi dove è facile perdersi senza un filo da seguire.
+    pt-PT: Um labirinto de velhos muros de pedra e sebes onde é fácil perdermo-nos sem um fio para seguir.
   first_seen: the-singing-spring
 
 - id: singing-spring
@@ -41,11 +47,13 @@
     en-GB: The Singing Spring
     es-ES: La Fuente Cantarina
     it-IT: La Fonte Canterina
+    pt-PT: A Fonte Cantora
   kind: place
   description:
     en-GB: The spring of the nymphs high in the hills, whose song once filled every well in the valley. It has gone silent.
     es-ES: La fuente de las ninfas en lo alto de las colinas, cuyo canto antes llenaba cada pozo del valle. Se ha quedado callada.
     it-IT: La fonte delle ninfe in cima alle colline, il cui canto un tempo riempiva ogni pozzo della valle. È ammutolita.
+    pt-PT: A fonte das ninfas no alto das colinas, cujo canto outrora enchia todos os poços do vale. Ficou silenciosa.
   first_seen: the-singing-spring
 
 - id: mount-olympus
@@ -53,11 +61,13 @@
     en-GB: Mount Olympus
     es-ES: El Monte Olimpo
     it-IT: Il Monte Olimpo
+    pt-PT: O Monte Olimpo
   kind: place
   description:
     en-GB: The cloud-wrapped mountain where the gods live, watching over the sunlit hills from far above.
     es-ES: La montaña envuelta en nubes donde viven los dioses, que velan por las colinas soleadas desde muy alto.
     it-IT: La montagna avvolta nelle nuvole dove vivono gli dei, che vegliano dall'alto sulle colline assolate.
+    pt-PT: A montanha envolta em nuvens onde vivem os deuses, que velam pelas colinas soalheiras lá do alto.
   first_seen: the-singing-spring
 
 - id: athena-temple
@@ -65,9 +75,11 @@
     en-GB: The Temple of Athena
     es-ES: El Templo de Atenea
     it-IT: Il Tempio di Atena
+    pt-PT: O Templo de Atena
   kind: place
   description:
     en-GB: A small temple of white marble on the hill above the Olive Town, ringed with columns, where Athena watches over the valley and her little owl roosts.
     es-ES: Un pequeño templo de mármol blanco en la colina sobre el Pueblo de los Olivos, rodeado de columnas, donde Atenea vela por el valle y se posa su pequeño búho.
     it-IT: Un piccolo tempio di marmo bianco sulla collina sopra il Paese degli Ulivi, circondato da colonne, dove Atena veglia sulla valle e si posa la sua piccola civetta.
+    pt-PT: Um pequeno templo de mármore branco na colina acima da Vila das Oliveiras, rodeado de colunas, onde Atena vela pelo vale e a sua mochinha se aninha.
   first_seen: athenas-owl

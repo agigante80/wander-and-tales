@@ -50,12 +50,14 @@
     en-GB: The Guardian Lion-Dogs
     es-ES: Los Perros-León Guardianes
     it-IT: I Cani-Leone Guardiani
+    pt-PT: Os Cães-Leão Guardiões
   kind: creature
   disposition: fair
   description:
     en-GB: A pair of stone lion-dogs who guard the red torii gate. They look fierce but are fair and kind, and they open the way for those who answer a riddle with a cool head.
     es-ES: Una pareja de perros-león de piedra que guardan la puerta torii roja. Parecen feroces, pero son justos y amables, y abren el camino a quienes responden a un acertijo con la cabeza fría.
     it-IT: Una coppia di cani-leone di pietra che custodiscono il portale torii rosso. Sembrano feroci, ma sono giusti e gentili, e aprono la via a chi risponde a un indovinello con la testa fredda.
+    pt-PT: Um par de cães-leão de pedra que guardam o portão torii vermelho. Parecem ferozes, mas são justos e bondosos, e abrem o caminho a quem responde a uma adivinha com a cabeça fria.
   first_seen: river-dragons-long-sleep
 
 - id: river-dragon
@@ -63,10 +65,12 @@
     en-GB: The Gentle River Dragon
     es-ES: El Dragón del Río
     it-IT: Il Drago del Fiume
+    pt-PT: O Dragão do Rio
   kind: creature
   disposition: gentle
   description:
     en-GB: A great old dragon of the Silver River whose stirring brings the rains. He looks mighty, but he is gentle and a little lonely, and he wakes not to a loud voice but to a soft bell and a kind song.
     es-ES: Un gran y viejo dragón del Río Plateado cuyo despertar trae las lluvias. Parece poderoso, pero es amable y un poco solitario, y no despierta con una voz fuerte, sino con una campanilla suave y una canción amable.
     it-IT: Un grande e vecchio drago del Fiume d'Argento il cui risveglio porta le piogge. Sembra possente, ma è gentile e un po' solitario, e si sveglia non a una voce forte, ma a un dolce campanello e a una canzone gentile.
+    pt-PT: Um grande e velho dragão do Rio Prateado cujo despertar traz as chuvas. Parece poderoso, mas é bondoso e um pouco solitário, e não acorda com uma voz forte, mas com uma sineta suave e uma canção meiga.
   first_seen: river-dragons-long-sleep

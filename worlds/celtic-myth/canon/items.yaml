@@ -33,11 +33,13 @@
     en-GB: The Little Harp
     es-ES: El Arpa Pequeña
     it-IT: La Piccola Arpa
+    pt-PT: A Pequena Harpa
   kind: item
   description:
     en-GB: A small wooden harp. A simple tune played from the heart can wake the swan children's song and lift the mist.
     es-ES: Una pequeña arpa de madera. Una melodía sencilla tocada de corazón puede despertar el canto de los niños cisne y levantar la niebla.
     it-IT: Una piccola arpa di legno. Una melodia semplice suonata con il cuore può risvegliare il canto dei bambini cigno e sollevare la nebbia.
+    pt-PT: Uma pequena harpa de madeira. Uma melodia simples tocada de coração pode despertar o canto das crianças-cisne e levantar a névoa.
   first_seen: swan-childrens-lullaby
 
 - id: sprig-of-oak
@@ -45,9 +47,11 @@
     en-GB: The Sprig of Oak
     es-ES: La Ramita de Roble
     it-IT: Il Rametto di Quercia
+    pt-PT: O Raminho de Carvalho
   kind: item
   description:
     en-GB: A small sprig of oak leaves. A token of friendship that the faeries and the folk of the Land of Youth know and respect.
     es-ES: Una pequeña ramita de hojas de roble. Una muestra de amistad que las hadas y la gente de la Tierra de la Juventud conocen y respetan.
     it-IT: Un piccolo rametto di foglie di quercia. Un segno di amicizia che le fate e la gente della Terra della Giovinezza conoscono e rispettano.
+    pt-PT: Um pequeno raminho de folhas de carvalho. Um sinal de amizade que as fadas e a gente da Terra da Juventude conhecem e respeitam.
   first_seen: the-land-of-youth

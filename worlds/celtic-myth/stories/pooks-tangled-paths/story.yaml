@@ -4,6 +4,7 @@ title:
   en-GB: Pook's Tangled Paths
   es-ES: Los Senderos Enredados de Pook
   it-IT: I Sentieri Aggrovigliati di Pook
+  pt-PT: Os Caminhos Enredados de Pook
 age:
   recommended: young
   also_works_for: [early]
@@ -34,6 +35,7 @@ images:
       en-GB: Two young Celtic heroes at the misty edge of an oak grove holding a ball of red wool, ribbons of mist tangling the paths, a grinning faerie hare peeking from a tree.
       es-ES: Dos jóvenes héroes celtas al borde brumoso de un robledal con un ovillo de lana roja, con cintas de niebla que enredan los senderos y un duende con forma de liebre que asoma entre los árboles.
       it-IT: Due giovani eroi celtici al margine nebbioso di un querceto con un gomitolo di lana rossa, con nastri di nebbia che aggrovigliano i sentieri e un folletto a forma di lepre che fa capolino tra gli alberi.
+      pt-PT: Dois jovens heróis celtas na orla enevoada de um carvalhal com um novelo de lã vermelha, com fitas de névoa que enredam os caminhos e um duende em forma de lebre que espreita por detrás de uma árvore.
   - id: scene-tangled-grove
     role: scene
     orientation: landscape
@@ -46,6 +48,7 @@ images:
       en-GB: Two small heroes laying a trail of red wool along a looping misty path among great mossy oaks.
       es-ES: Dos héroes pequeños que van dejando un rastro de lana roja por un sendero brumoso y serpenteante entre grandes robles cubiertos de musgo.
       it-IT: Due piccoli eroi che srotolano un filo di lana rossa lungo un sentiero nebbioso e tortuoso tra grandi querce coperte di muschio.
+      pt-PT: Dois pequenos heróis que vão deixando um rasto de lã vermelha por um caminho enevoado e sinuoso entre grandes carvalhos cobertos de musgo.
   - id: scene-three-doors
     role: scene
     orientation: landscape

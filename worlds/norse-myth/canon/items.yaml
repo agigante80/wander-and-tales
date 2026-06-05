@@ -19,11 +19,13 @@
     en-GB: The Ball of Red Yarn
     es-ES: El Ovillo de Lana Roja
     it-IT: Il Gomitolo di Lana Rossa
+    pt-PT: O Novelo de Lã Vermelha
   kind: item
   description:
     en-GB: A ball of bright red wool. Tie one end where you start and you can always follow it back, however far you wander.
     es-ES: Un ovillo de lana roja brillante. Ata un extremo donde empiezas y siempre podrás seguirlo de vuelta, por muy lejos que vayas.
     it-IT: Un gomitolo di lana rossa accesa. Lega un'estremità dove parti e potrai sempre seguirlo per tornare indietro, per quanto lontano tu vada.
+    pt-PT: Um novelo de lã vermelha viva. Ata uma ponta no sítio onde começas e podes sempre segui-lo de volta, por mais longe que vás.
   first_seen: the-lost-little-aurora
 
 - id: honey-bun
@@ -31,9 +33,11 @@
     en-GB: The Warm Honey Bun
     es-ES: El Bollo de Miel
     it-IT: Il Panino al Miele
+    pt-PT: O Pãozinho de Mel
   kind: item
   description:
     en-GB: A soft sweet bun, still warm from the hearth. Shared with a lonely giant, it can turn a frown into a friend.
     es-ES: Un bollo dulce y blando, todavía caliente del hogar. Compartido con un gigante solitario, puede convertir un ceño fruncido en un amigo.
     it-IT: Un panino dolce e morbido, ancora caldo di focolare. Condiviso con un gigante solitario, può trasformare un cipiglio in un amico.
+    pt-PT: Um pãozinho doce e macio, ainda quente do lar. Partilhado com um gigante solitário, pode transformar uma cara fechada num amigo.
   first_seen: the-long-winters-night

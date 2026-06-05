@@ -7,12 +7,14 @@
     en-GB: The Lonely Sprite
     es-ES: El Duende Solitario
     it-IT: Il Folletto Solitario
+    pt-PT: O Duende Solitário
   kind: character
   disposition: lonely
   description:
     en-GB: The little sprite of the Heart who sent the garden to sleep, not out of spite but because it wanted a friend.
     es-ES: El duendecillo del Corazón que durmió el jardín, no por maldad sino porque quería un amigo.
     it-IT: Il piccolo folletto del Cuore che ha addormentato il giardino, non per cattiveria ma perché desiderava un amico.
+    pt-PT: O pequeno duende do Coração que adormeceu o jardim, não por maldade mas porque queria um amigo.
   first_seen: sleeping-garden
 
 - id: pip-new-mage
@@ -20,10 +22,12 @@
     en-GB: Pip the New Mage
     es-ES: Pip, Aprendiz de Mago
     it-IT: Pip, Apprendista Mago
+    pt-PT: Pip, o Novo Mago
   kind: character
   disposition: shy
   description:
     en-GB: A kind apprentice on their very first day, whose Change spell muddled the market by accident and who was too shy at first to own up.
     es-ES: Un aprendiz amable en su primerísimo día, cuya magia de Cambio enredó el mercado sin querer y que al principio era demasiado tímido para confesarlo.
     it-IT: Un apprendista gentile al suo primissimo giorno, la cui magia di Cambiamento ha ingarbugliato il mercato per sbaglio e che all'inizio era troppo timido per ammetterlo.
+    pt-PT: Um aprendiz gentil no seu primeiro dia, cuja magia de Transformação baralhou o mercado sem querer e que ao início era tímido demais para confessar.
   first_seen: mixed-up-market

@@ -10,12 +10,13 @@
     en-GB: the Windswept Shores of Troy
     es-ES: las Costas Ventosas de Troya
     it-IT: le Coste Ventose di Troia
+    pt-PT: as Costas Ventosas de Troia
   magics: [imagination, loyalty, courage]
   energy: 4
   carry:
-    - { en-GB: a sailor's cloak, es-ES: una capa de marinero, it-IT: un mantello da marinaio }
-    - { en-GB: a conch horn, es-ES: una caracola, it-IT: una conchiglia }
-    - { en-GB: a fig from the basket, es-ES: un higo de la cesta, it-IT: un fico del cesto }
+    - { en-GB: a sailor's cloak, es-ES: una capa de marinero, it-IT: un mantello da marinaio, pt-PT: uma capa de marinheiro }
+    - { en-GB: a conch horn, es-ES: una caracola, it-IT: una conchiglia, pt-PT: uma concha-buzina }
+    - { en-GB: a fig from the basket, es-ES: un higo de la cesta, it-IT: un fico del cesto, pt-PT: um figo do cesto }
   image:
     id: hero-thalia
     role: hero
@@ -28,6 +29,7 @@
       en-GB: A bright young seafaring hero in a tunic and cloak holding a spiral conch shell, beached ships and blue sea behind.
       es-ES: Una joven heroína marinera radiante con túnica y capa que sostiene una caracola en espiral, con naves varadas y mar azul detrás.
       it-IT: Una giovane eroina marinara radiosa con tunica e mantello che tiene una conchiglia a spirale, con navi in secca e mare azzurro dietro.
+      pt-PT: Uma jovem heroína marinheira radiante, de túnica e capa, que segura uma concha em espiral, com naus encalhadas e mar azul atrás.
 
 - id: pavlos
   tier: young
@@ -36,12 +38,13 @@
     en-GB: the Windswept Shores of Troy
     es-ES: las Costas Ventosas de Troya
     it-IT: le Coste Ventose di Troia
+    pt-PT: as Costas Ventosas de Troia
   magics: [courage, loyalty, imagination]
   energy: 3
   carry:
-    - { en-GB: a little wooden boat, es-ES: un barquito de madera, it-IT: una barchetta di legno }
-    - { en-GB: a ball of strong thread, es-ES: un ovillo de hilo resistente, it-IT: un gomitolo di filo robusto }
-    - { en-GB: a snack for the hound, es-ES: una golosina para el sabueso, it-IT: uno spuntino per il cane }
+    - { en-GB: a little wooden boat, es-ES: un barquito de madera, it-IT: una barchetta di legno, pt-PT: um barquinho de madeira }
+    - { en-GB: a ball of strong thread, es-ES: un ovillo de hilo resistente, it-IT: un gomitolo di filo robusto, pt-PT: um novelo de fio resistente }
+    - { en-GB: a snack for the hound, es-ES: una golosina para el sabueso, it-IT: uno spuntino per il cane, pt-PT: um petisco para o cão }
   image:
     id: hero-pavlos
     role: hero
@@ -54,6 +57,7 @@
       en-GB: A cheerful young seafaring hero in a tunic holding a small carved wooden boat, a sandy shore and ships behind.
       es-ES: Un joven héroe marinero alegre con túnica que sostiene un barquito de madera tallada, con una orilla de arena y naves detrás.
       it-IT: Un giovane eroe marinaro allegro con tunica che tiene una barchetta di legno intagliato, con una riva di sabbia e navi dietro.
+      pt-PT: Um jovem herói marinheiro alegre, de túnica, que segura um barquinho de madeira talhada, com uma praia de areia e naus atrás.
 
 - id: cora
   tier: older
@@ -62,13 +66,14 @@
     en-GB: the Windswept Shores of Troy
     es-ES: las Costas Ventosas de Troya
     it-IT: le Coste Ventose di Troia
+    pt-PT: as Costas Ventosas de Troia
   magics: [imagination, courage, loyalty]
   energy: 5
   carry:
-    - { en-GB: a sea chart, es-ES: una carta de navegación, it-IT: una carta nautica }
-    - { en-GB: a conch horn, es-ES: una caracola, it-IT: una conchiglia }
-    - { en-GB: a coil of Penelope's thread, es-ES: un rollo del hilo de Penélope, it-IT: una matassa del filo di Penelope }
-    - { en-GB: a friendship token, es-ES: una prenda de amistad, it-IT: un pegno di amicizia }
+    - { en-GB: a sea chart, es-ES: una carta de navegación, it-IT: una carta nautica, pt-PT: uma carta de navegação }
+    - { en-GB: a conch horn, es-ES: una caracola, it-IT: una conchiglia, pt-PT: uma concha-buzina }
+    - { en-GB: a coil of Penelope's thread, es-ES: un rollo del hilo de Penélope, it-IT: una matassa del filo di Penelope, pt-PT: um rolo do fio de Penélope }
+    - { en-GB: a friendship token, es-ES: una prenda de amistad, it-IT: un pegno di amicizia, pt-PT: uma prenda de amizade }
   image:
     id: hero-cora
     role: hero
@@ -81,6 +86,7 @@
       en-GB: A confident older seafaring hero in a cloak with hair tied back, holding a rolled sea chart, a ship's prow and open sea behind.
       es-ES: Una heroína marinera mayor y segura con capa y el pelo recogido, sosteniendo una carta de navegación enrollada, con la proa de una nave y el mar abierto detrás.
       it-IT: Un'eroina marinara più grande e sicura con un mantello e i capelli raccolti, che tiene una carta nautica arrotolata, con la prua di una nave e il mare aperto dietro.
+      pt-PT: Uma heroína marinheira mais velha e segura, de capa e cabelo apanhado, que segura uma carta de navegação enrolada, com a proa de uma nau e o mar aberto atrás.
 
 - id: linos
   tier: older

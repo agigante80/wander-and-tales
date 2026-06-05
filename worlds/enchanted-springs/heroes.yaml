@@ -10,12 +10,13 @@
     en-GB: the Enchanted Springs of Portugal
     es-ES: las Fuentes Encantadas de Portugal
     it-IT: delle Sorgenti Incantate del Portogallo
+    pt-PT: das Fontes Encantadas de Portugal
   magics: [magic-riversong, magic-bloom, magic-truth]
   energy: 4
   carry:
-    - { en-GB: a little clay jug, es-ES: una jarrita de barro, it-IT: una piccola brocca di terracotta }
-    - { en-GB: a sprig of rosemary, es-ES: una ramita de romero, it-IT: un rametto di rosmarino }
-    - { en-GB: a smooth river pebble, es-ES: un guijarro liso del río, it-IT: un ciottolo liscio del fiume }
+    - { en-GB: a little clay jug, es-ES: una jarrita de barro, it-IT: una piccola brocca di terracotta, pt-PT: um cântaro de barro pequeno }
+    - { en-GB: a sprig of rosemary, es-ES: una ramita de romero, it-IT: un rametto di rosmarino, pt-PT: um raminho de alecrim }
+    - { en-GB: a smooth river pebble, es-ES: un guijarro liso del río, it-IT: un ciottolo liscio del fiume, pt-PT: um seixo liso do rio }
   image:
     id: hero-ines
     role: hero
@@ -28,6 +29,7 @@
       en-GB: A young hero in a cotton dress with a flower in her hair, kneeling by a stone spring with a little clay jug.
       es-ES: Una joven heroína con un vestido de algodón y una flor en el pelo, arrodillada junto a un manantial de piedra con una jarrita de barro.
       it-IT: Una giovane eroina con un vestito di cotone e un fiore tra i capelli, inginocchiata accanto a una sorgente di pietra con una piccola brocca di terracotta.
+      pt-PT: Uma jovem heroína com um vestido de algodão e uma flor no cabelo, ajoelhada junto a uma fonte de pedra com um cântaro de barro pequeno.
 
 - id: tomas
   tier: young
@@ -36,12 +38,13 @@
     en-GB: the Enchanted Springs of Portugal
     es-ES: las Fuentes Encantadas de Portugal
     it-IT: delle Sorgenti Incantate del Portogallo
+    pt-PT: das Fontes Encantadas de Portugal
   magics: [magic-starlight, magic-truth, magic-riversong]
   energy: 4
   carry:
-    - { en-GB: a little lantern, es-ES: un farolillo, it-IT: una lanterna piccola }
-    - { en-GB: a ball of red wool, es-ES: un ovillo de lana roja, it-IT: un gomitolo di lana rossa }
-    - { en-GB: a slice of rosca bread, es-ES: una rebanada de pan rosca, it-IT: una fetta di pane rosca }
+    - { en-GB: a little lantern, es-ES: un farolillo, it-IT: una lanterna piccola, pt-PT: uma lanterna pequena }
+    - { en-GB: a ball of red wool, es-ES: un ovillo de lana roja, it-IT: un gomitolo di lana rossa, pt-PT: um novelo de lã vermelha }
+    - { en-GB: a slice of rosca bread, es-ES: una rebanada de pan rosca, it-IT: una fetta di pane rosca, pt-PT: uma fatia de pão rosca }
   image:
     id: hero-tomas
     role: hero
@@ -53,6 +56,7 @@
       en-GB: A cheerful young hero in a waistcoat and cap holding up a small glowing lantern in the dusk.
       es-ES: Un joven héroe alegre con chaleco y gorra sosteniendo en alto un farolillo encendido al anochecer.
       it-IT: Un giovane eroe allegro con panciotto e berretto che regge in alto una piccola lanterna accesa al crepuscolo.
+      pt-PT: Um jovem herói alegre de colete e boné a erguer uma pequena lanterna acesa ao crepúsculo.
 
 - id: beatriz
   tier: older
@@ -61,12 +65,13 @@
     en-GB: the Enchanted Springs of Portugal
     es-ES: las Fuentes Encantadas de Portugal
     it-IT: delle Sorgenti Incantate del Portogallo
+    pt-PT: das Fontes Encantadas de Portugal
   magics: [magic-truth, magic-riversong, magic-starlight]
   energy: 3
   carry:
-    - { en-GB: a little book of riddles, es-ES: un librito de adivinanzas, it-IT: un libretto di indovinelli }
-    - { en-GB: a tin whistle, es-ES: un silbato de hojalata, it-IT: un fischietto di latta }
-    - { en-GB: a pocket mirror, es-ES: un espejo de bolsillo, it-IT: uno specchietto da taschino }
+    - { en-GB: a little book of riddles, es-ES: un librito de adivinanzas, it-IT: un libretto di indovinelli, pt-PT: um livrinho de adivinhas }
+    - { en-GB: a tin whistle, es-ES: un silbato de hojalata, it-IT: un fischietto di latta, pt-PT: um apito de lata }
+    - { en-GB: a pocket mirror, es-ES: un espejo de bolsillo, it-IT: uno specchietto da taschino, pt-PT: um espelho de bolso }
   image:
     id: hero-beatriz
     role: hero
@@ -78,6 +83,7 @@
       en-GB: A thoughtful older child in a shawl holding a small book and smiling, standing among mossy stones.
       es-ES: Una niña mayor y reflexiva con un chal, sosteniendo un librito y sonriendo, de pie entre piedras con musgo.
       it-IT: Una ragazzina pensierosa con uno scialle, che tiene un libretto e sorride, in piedi tra pietre muschiose.
+      pt-PT: Uma menina mais velha e pensativa com um xaile, a segurar um livrinho e a sorrir, de pé entre pedras com musgo.
 
 - id: diogo
   tier: older

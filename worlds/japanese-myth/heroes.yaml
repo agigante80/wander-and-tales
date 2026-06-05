@@ -10,12 +10,13 @@
     en-GB: the Blossom Mountains of Yamato
     es-ES: las Montañas en Flor de Yamato
     it-IT: i Monti in Fiore di Yamato
+    pt-PT: as Montanhas em Flor de Yamato
   magics: [imagination, kindness, courage]
   energy: 4
   carry:
-    - { en-GB: a paper lantern, es-ES: un farol de papel, it-IT: una lanterna di carta }
-    - { en-GB: a folding fan, es-ES: un abanico plegable, it-IT: un ventaglio pieghevole }
-    - { en-GB: a sweet rice cake, es-ES: un pastel de arroz dulce, it-IT: un dolce di riso }
+    - { en-GB: a paper lantern, es-ES: un farol de papel, it-IT: una lanterna di carta, pt-PT: uma lanterna de papel }
+    - { en-GB: a folding fan, es-ES: un abanico plegable, it-IT: un ventaglio pieghevole, pt-PT: um leque dobrável }
+    - { en-GB: a sweet rice cake, es-ES: un pastel de arroz dulce, it-IT: un dolce di riso, pt-PT: um bolo de arroz doce }
   image:
     id: hero-hana
     role: hero
@@ -28,6 +29,7 @@
       en-GB: A bright young hero in a flowered kimono holding a small glowing paper lantern, cherry blossom drifting.
       es-ES: Una joven heroína radiante con un kimono de flores que sostiene un farol de papel encendido, con pétalos de cerezo al viento.
       it-IT: Una giovane eroina radiosa con un kimono a fiori che tiene una lanterna di carta accesa, con petali di ciliegio nel vento.
+      pt-PT: Uma jovem heroína radiante com um quimono de flores a segurar uma lanterna de papel acesa, com pétalas de cerejeira ao vento.
 
 - id: taro
   tier: young
@@ -36,12 +38,13 @@
     en-GB: the Blossom Mountains of Yamato
     es-ES: las Montañas en Flor de Yamato
     it-IT: i Monti in Fiore di Yamato
+    pt-PT: as Montanhas em Flor de Yamato
   magics: [courage, kindness, imagination]
   energy: 3
   carry:
-    - { en-GB: a little bell, es-ES: una campanilla, it-IT: un campanello }
-    - { en-GB: a ball of red thread, es-ES: un ovillo de hilo rojo, it-IT: un gomitolo di filo rosso }
-    - { en-GB: a snack for the tanuki, es-ES: una golosina para el tanuki, it-IT: uno spuntino per il tanuki }
+    - { en-GB: a little bell, es-ES: una campanilla, it-IT: un campanello, pt-PT: uma sineta }
+    - { en-GB: a ball of red thread, es-ES: un ovillo de hilo rojo, it-IT: un gomitolo di filo rosso, pt-PT: um novelo de fio vermelho }
+    - { en-GB: a snack for the tanuki, es-ES: una golosina para el tanuki, it-IT: uno spuntino per il tanuki, pt-PT: um petisco para o tanuki }
   image:
     id: hero-taro
     role: hero
@@ -54,6 +57,7 @@
       en-GB: A cheerful young hero in an indigo yukata holding a little bronze bell, bamboo behind.
       es-ES: Un joven héroe alegre con una yukata índigo que sostiene una campanilla de bronce, con bambú detrás.
       it-IT: Un giovane eroe allegro con uno yukata indaco che tiene un campanello di bronzo, con il bambù dietro.
+      pt-PT: Um jovem herói alegre com um yukata índigo a segurar uma sineta de bronze, com bambus atrás.
 
 - id: mei
   tier: older

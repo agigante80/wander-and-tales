@@ -5,11 +5,13 @@
     en-GB: Imagination
     es-ES: Imaginación
     it-IT: Immaginazione
+    pt-PT: Imaginação
   kind: quality
   description:
     en-GB: Imagining ideas and asking a thoughtful question. In these mountains, a good idea solves a riddle that strength never could.
     es-ES: Imaginar ideas y hacer una pregunta reflexiva. En estas montañas, una buena idea resuelve un acertijo que la fuerza jamás podría.
     it-IT: Immaginare idee e fare una domanda riflessiva. Su questi monti, una buona idea risolve un indovinello che la forza non potrebbe mai.
+    pt-PT: Imaginar ideias e fazer uma pergunta ponderada. Nestas montanhas, uma boa ideia resolve uma adivinha que a força nunca conseguiria.
   first_seen: firefly-lanterns
 
 - id: courage
@@ -17,11 +19,13 @@
     en-GB: Courage
     es-ES: Valor
     it-IT: Coraggio
+    pt-PT: Coragem
   kind: quality
   description:
     en-GB: A steady heart in a quiet, scary moment. Courage is not being unafraid; it is staying kind and trying anyway, even when you are afraid.
     es-ES: Un corazón firme en un momento callado y de miedo. El valor no es no tener miedo; es seguir siendo amable e intentarlo igualmente, aun cuando lo tienes.
     it-IT: Un cuore saldo in un momento silenzioso e di paura. Il coraggio non è non avere paura; è restare gentili e provarci lo stesso, anche quando si ha paura.
+    pt-PT: Um coração firme num momento silencioso e assustador. A coragem não é não ter medo; é continuar a ser bondoso e tentar à mesma, mesmo quando se tem medo.
   first_seen: firefly-lanterns
 
 - id: kindness
@@ -29,9 +33,11 @@
     en-GB: Kindness
     es-ES: Bondad
     it-IT: Gentilezza
+    pt-PT: Bondade
   kind: quality
   description:
     en-GB: Care for every living thing, from a shy firefly to a great dragon. The greatest heroes of the mountains are the ones who are gentle, share, and help.
     es-ES: El cuidado de todo ser vivo, desde una luciérnaga tímida hasta un gran dragón. Los mayores héroes de las montañas son los que son amables, comparten y ayudan.
     it-IT: La cura per ogni essere vivente, da una lucciola timida a un grande drago. I più grandi eroi delle montagne sono quelli che sono gentili, condividono e aiutano.
+    pt-PT: O cuidado por todos os seres vivos, de um pirilampo tímido a um grande dragão. Os maiores heróis das montanhas são os que são gentis, partilham e ajudam.
   first_seen: firefly-lanterns

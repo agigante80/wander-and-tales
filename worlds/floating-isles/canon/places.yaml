@@ -61,11 +61,13 @@
     en-GB: The Talking Fountain
     es-ES: La Fuente Parlanchina
     it-IT: La Fontana Parlante
+    pt-PT: A Fonte Falante
   kind: place
   description:
     en-GB: The third stop, a stone fountain that has gone quiet and sad.
     es-ES: La tercera parada, una fuente de piedra que se ha quedado callada y triste.
     it-IT: La terza tappa, una fontana di pietra rimasta silenziosa e triste.
+    pt-PT: A terceira paragem, uma fonte de pedra que ficou calada e triste.
   first_seen: sleeping-garden
 
 - id: garden-heart
@@ -73,11 +75,13 @@
     en-GB: The Heart of the Garden
     es-ES: El Corazón del Jardín
     it-IT: Il Cuore del Giardino
+    pt-PT: O Coração do Jardim
   kind: place
   description:
     en-GB: The final stop at the centre of the Great Garden, where the adventure ends with a friend, not a fight.
     es-ES: La parada final en el centro del Gran Jardín, donde la aventura acaba con un amigo, no con una pelea.
     it-IT: La tappa finale al centro del Grande Giardino, dove l'avventura finisce con un amico, non con uno scontro.
+    pt-PT: A paragem final no centro do Grande Jardim, onde a aventura acaba com um amigo, não com uma luta.
   first_seen: sleeping-garden
 
 - id: lantern-square
@@ -85,11 +89,13 @@
     en-GB: Lantern Square
     es-ES: La Plaza de los Faroles
     it-IT: La Piazza delle Lanterne
+    pt-PT: A Praça das Lanternas
   kind: place
   description:
     en-GB: The wide square on the home island where the families gather for the Festival of Lights.
     es-ES: La amplia plaza de la isla principal donde las familias se reúnen para la Fiesta de las Luces.
     it-IT: L'ampia piazza dell'isola principale dove le famiglie si riuniscono per la Festa delle Luci.
+    pt-PT: A ampla praça da ilha principal onde as famílias se reúnem para a Festa das Luzes.
   first_seen: lantern-festival
 
 - id: cloud-bank
@@ -97,11 +103,13 @@
     en-GB: The Cloud Bank
     es-ES: El Banco de Nubes
     it-IT: Il Banco di Nuvole
+    pt-PT: O Banco de Nuvens
   kind: place
   description:
     en-GB: A low drift of soft clouds at the island's edge, where some of the lost lanterns are hidden.
     es-ES: Un banco bajo de nubes suaves al borde de la isla, donde se esconden algunos de los faroles perdidos.
     it-IT: Un basso ammasso di nuvole morbide al bordo dell'isola, dove si nascondono alcune delle lanterne perdute.
+    pt-PT: Um baixo aglomerado de nuvens suaves à beira da ilha, onde se escondem algumas das lanternas perdidas.
   first_seen: lantern-festival
 
 - id: high-ledge
@@ -109,11 +117,13 @@
     en-GB: The High Ledge
     es-ES: La Repisa Alta
     it-IT: La Cengia Alta
+    pt-PT: A Saliência Alta
   kind: place
   description:
     en-GB: A rocky shelf high above the square, where the biggest festival lantern has caught.
     es-ES: Una repisa de roca en lo alto sobre la plaza, donde se ha quedado enganchado el farol más grande de la fiesta.
     it-IT: Una sporgenza di roccia in alto sopra la piazza, dove si è impigliata la lanterna più grande della festa.
+    pt-PT: Uma saliência de rocha bem acima da praça, onde ficou presa a maior lanterna da festa.
   first_seen: lantern-festival
 
 - id: market-row
@@ -121,9 +131,11 @@
     en-GB: The Market Row
     es-ES: La Calle del Mercado
     it-IT: La Via del Mercato
+    pt-PT: A Rua do Mercado
   kind: place
   description:
     en-GB: The busy row of family stalls on the home island, below the school, where everyone trades on market day.
     es-ES: La animada calle de puestos familiares de la isla principal, debajo de la escuela, donde todos comercian en el día de mercado.
     it-IT: L'animata via di bancarelle di famiglia dell'isola principale, sotto la scuola, dove tutti commerciano nel giorno di mercato.
+    pt-PT: A movimentada rua de bancas de família da ilha principal, por baixo da escola, onde todos negoceiam no dia de mercado.
   first_seen: mixed-up-market
