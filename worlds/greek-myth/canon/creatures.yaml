@@ -20,12 +20,14 @@
     en-GB: The Lonely Cyclops
     es-ES: El Cíclope Solitario
     it-IT: Il Ciclope Solitario
+    pt-PT: O Ciclope Solitário
   kind: creature
   disposition: lonely
   description:
     en-GB: A huge one-eyed giant who guards the spring. He looks fearsome, but he is really just lonely, and a kind word and a shared honey cake do more than any sword.
     es-ES: Un enorme gigante de un solo ojo que guarda la fuente. Parece temible, pero en realidad solo está solo, y una palabra amable y un pastel de miel compartido logran más que cualquier espada.
     it-IT: Un enorme gigante con un solo occhio che custodisce la fonte. Sembra spaventoso, ma in realtà è solo solitario, e una parola gentile e una focaccia al miele condivisa valgono più di qualsiasi spada.
+    pt-PT: Um gigante enorme de um só olho que guarda a fonte. Parece assustador, mas na verdade está apenas sozinho, e uma palavra meiga e um bolo de mel partilhado valem mais do que qualquer espada.
   first_seen: the-singing-spring
 
 - id: singing-nymphs
@@ -33,12 +35,14 @@
     en-GB: The Singing Nymphs
     es-ES: Las Ninfas Cantarinas
     it-IT: Le Ninfe Canterine
+    pt-PT: As Ninfas Cantoras
   kind: creature
   disposition: friendly
   description:
     en-GB: Gentle spirits of the spring whose singing makes the water flow. When they are happy, every well in the valley fills again.
     es-ES: Espíritus amables de la fuente cuyo canto hace fluir el agua. Cuando están contentas, cada pozo del valle vuelve a llenarse.
     it-IT: Spiriti gentili della fonte il cui canto fa scorrere l'acqua. Quando sono felici, ogni pozzo della valle torna a riempirsi.
+    pt-PT: Espíritos meigos da fonte cujo canto faz correr a água. Quando estão felizes, todos os poços do vale voltam a encher-se.
   first_seen: the-singing-spring
 
 - id: friendly-satyr
@@ -46,12 +50,14 @@
     en-GB: Bramble the Satyr
     es-ES: Zarza el Sátiro
     it-IT: Pruno il Satiro
+    pt-PT: Silvado o Sátiro
   kind: creature
   disposition: playful
   description:
     en-GB: A cheerful, goat-legged satyr of the woods who loves jokes and hands out helpful hints to travellers he likes.
     es-ES: Un sátiro alegre con patas de cabra, de los bosques, al que le encantan los chistes y que da pistas útiles a los viajeros que le caen bien.
     it-IT: Un satiro allegro con le zampe di capra, dei boschi, che adora gli scherzi e dà indizi utili ai viaggiatori che gli stanno simpatici.
+    pt-PT: Um sátiro alegre dos bosques, com pernas de cabra, que adora piadas e dá dicas úteis aos viajantes de quem gosta.
   first_seen: the-singing-spring
 
 - id: chiron-centaur

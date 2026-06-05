@@ -34,11 +34,13 @@
     en-GB: Change
     es-ES: Cambio
     it-IT: Cambiamento
+    pt-PT: Transformação
   kind: quality
   description:
     en-GB: Turns one object into another, such as a stone into a key.
     es-ES: Convierte un objeto en otro, por ejemplo una piedra en una llave.
     it-IT: Trasforma un oggetto in un altro, per esempio una pietra in una chiave.
+    pt-PT: Transforma um objeto noutro, por exemplo uma pedra numa chave.
   first_seen: sleeping-garden
 
 - id: magic-voice
@@ -46,11 +48,13 @@
     en-GB: Voice
     es-ES: Voz
     it-IT: Voce
+    pt-PT: Voz
   kind: quality
   description:
     en-GB: Lets you speak with animals and objects, and ask them kindly for help.
     es-ES: Permite hablar con los animales y los objetos, y pedirles ayuda con amabilidad.
     it-IT: Permette di parlare con gli animali e gli oggetti, e di chiedere loro aiuto con gentilezza.
+    pt-PT: Permite falar com os animais e os objetos, e pedir-lhes ajuda com gentileza.
   first_seen: sleeping-garden
 
 - id: festival-of-lights
@@ -58,9 +62,11 @@
     en-GB: The Festival of Lights
     es-ES: La Fiesta de las Luces
     it-IT: La Festa delle Luci
+    pt-PT: A Festa das Luzes
   kind: term
   description:
     en-GB: The evening when the families of the Isles send glowing sky lanterns up into the calm sky together.
     es-ES: La noche en que las familias de las Islas hacen subir juntas faroles del cielo luminosos al cielo tranquilo.
     it-IT: La sera in cui le famiglie delle Isole fanno salire insieme lanterne del cielo luminose nel cielo tranquillo.
+    pt-PT: A noite em que as famílias das Ilhas fazem subir juntas lanternas do céu luminosas para o céu tranquilo.
   first_seen: lantern-festival

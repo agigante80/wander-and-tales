@@ -5,12 +5,14 @@
     en-GB: Kon the Fox
     es-ES: Kon el Zorro
     it-IT: Kon la Volpe
+    pt-PT: Kon, a Raposa
   kind: creature
   disposition: playful
   description:
     en-GB: A friendly fox spirit of the bamboo grove who loves riddles and games of ideas, and hands out helpful hints to travellers he likes.
     es-ES: Un amable espíritu zorro del bosque de bambú al que le encantan los acertijos y los juegos de ideas, y que da pistas útiles a los viajeros que le caen bien.
     it-IT: Un gentile spirito volpe del boschetto di bambù che adora gli indovinelli e i giochi di idee, e dà indizi utili ai viaggiatori che gli stanno simpatici.
+    pt-PT: Um amável espírito raposa do bambual que adora adivinhas e jogos de ideias, e que dá pistas úteis aos viajantes de quem gosta.
   first_seen: firefly-lanterns
 
 - id: firefly-spirits
