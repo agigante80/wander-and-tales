@@ -1,1 +1,1 @@
-"""Layout-only PDF rendering for Wits & Wonder kits (Plan 2)."""
+"""Layout-only PDF rendering for Wander & Tales kits (Plan 2)."""

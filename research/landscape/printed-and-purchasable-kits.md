@@ -1,6 +1,6 @@
 # Printed and purchasable story-adventure kits for kids: the wider field
 
-This note surveys the printed and purchasable corner of the field that Wits & Wonder
+This note surveys the printed and purchasable corner of the field that Wander & Tales
 sits beside: tabletop RPGs for children, cooperative narrative board games,
 storytelling card and dice games, escape-room-in-a-box products, gamebooks, the
 free print-and-play and quickstart ecosystem, story subscriptions and magazines,
@@ -11,7 +11,7 @@ whether they are cooperative and no-lose, and what reviewers and parents praise
 and complain about. Claims are cited inline with source name and URL. Anything I
 could not verify is marked as such.
 
-Wits & Wonder is, for reference, a free multilingual library of printable,
+Wander & Tales is, for reference, a free multilingual library of printable,
 cooperative, adult-led story-adventure kits, played with dice and household
 objects, using difficulty bands (not specific dice), three age tiers
 (early, young, older), no-lose ethos, en-GB and es-ES today (it-IT planned),
@@ -479,7 +479,7 @@ This is the area with the widest variation, and the clearest lessons for us.
 
 ---
 
-## Implications for Wits & Wonder
+## Implications for Wander & Tales
 
 These are concrete and honest, including where the field already does something we
 should not claim as novel.

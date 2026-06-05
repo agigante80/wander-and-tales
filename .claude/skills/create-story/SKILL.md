@@ -1,9 +1,9 @@
 ---
 name: create-story
-description: Use when a user wants to create their own Wits & Wonder story (or a new world) and build their own printable kit to play at home. Guides choosing or creating a world, choosing or writing an idea, setting the audience and challenges, authoring the content in British English, Spanish from Spain, and Italian with image prompts, optionally generating the pictures with the user's own OpenAI key (or leaving prompts to paste elsewhere), validating, and building the printable PDFs into dist/. Defers all voice, reading-level, peril-tone, and canon-name rules to the authoring-story-content skill. Sharing the story with the public library is optional and handled by the separate contribute-story skill. Trigger on requests like "create a story", "make my own adventure", "make a kit about X", "write a new story to print", or "start a new world".
+description: Use when a user wants to create their own Wander & Tales story (or a new world) and build their own printable kit to play at home. Guides choosing or creating a world, choosing or writing an idea, setting the audience and challenges, authoring the content in British English, Spanish from Spain, and Italian with image prompts, optionally generating the pictures with the user's own OpenAI key (or leaving prompts to paste elsewhere), validating, and building the printable PDFs into dist/. Defers all voice, reading-level, peril-tone, and canon-name rules to the authoring-story-content skill. Sharing the story with the public library is optional and handled by the separate contribute-story skill. Trigger on requests like "create a story", "make my own adventure", "make a kit about X", "write a new story to print", or "start a new world".
 ---
 
-# Creating your own Wits & Wonder kit
+# Creating your own Wander & Tales kit
 
 This skill is an **orchestrator** for making your own kit. It runs the interview and
 the mechanical steps (scaffold, validate, build) and leaves all the writing rules to

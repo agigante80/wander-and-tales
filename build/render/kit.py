@@ -174,7 +174,7 @@ def build_story_pack(
         _merge(parts, out_path)
 
     footer.stamp_footers(
-        out_path, identity=f"Wits and Wonder · {label} · {title}",
+        out_path, identity=f"Wander and Tales · {label} · {title}",
         locale=locale, version_info=version_info,
     )
     footer.set_metadata(

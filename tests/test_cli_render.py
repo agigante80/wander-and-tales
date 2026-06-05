@@ -69,7 +69,7 @@ def test_rebuild_builds_the_library_and_rewrites_readme(sample_repo):
 
     # the rebuild rewrites README.md between markers, so seed one
     (sample_repo / "README.md").write_text(
-        "# Wits and Wonder\n\n<!-- BEGIN KIT TABLE -->\nold\n<!-- END KIT TABLE -->\n\nEnd.\n",
+        "# Wander and Tales\n\n<!-- BEGIN KIT TABLE -->\nold\n<!-- END KIT TABLE -->\n\nEnd.\n",
         encoding="utf-8",
     )
     code = main(["rebuild", "--root", str(sample_repo), "--out-dir", str(sample_repo / "kits")])

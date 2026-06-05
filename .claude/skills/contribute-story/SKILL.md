@@ -1,6 +1,6 @@
 ---
 name: contribute-story
-description: Use when someone has created a Wits & Wonder story (with the create-story skill or by hand) and wants to share it with the public library by opening a draft pull request. Needs a GitHub account. Handles the contribution trust model, prepares the branch with the content (and optionally the author's own pictures, never built PDFs), and opens a draft PR for a maintainer to review. Defers all voice and content rules to the authoring-story-content skill. Trigger on requests like "contribute my story", "open a PR with my story", "share my story upstream", "add my story to the library", or "submit my adventure".
+description: Use when someone has created a Wander & Tales story (with the create-story skill or by hand) and wants to share it with the public library by opening a draft pull request. Needs a GitHub account. Handles the contribution trust model, prepares the branch with the content (and optionally the author's own pictures, never built PDFs), and opens a draft PR for a maintainer to review. Defers all voice and content rules to the authoring-story-content skill. Trigger on requests like "contribute my story", "open a PR with my story", "share my story upstream", "add my story to the library", or "submit my adventure".
 ---
 
 # Sharing your story with the public library

@@ -14,7 +14,7 @@ from reportlab.platypus import Image as RLImage, Paragraph, Spacer
 from build.render import markdown as md, strings
 from build.render.version import VersionInfo
 
-PROJECT_URL = "https://github.com/agigante80/wits-and-wonder"
+PROJECT_URL = "https://github.com/agigante80/wander-and-tales"
 LICENCE_CODE = "CC BY-SA 4.0"
 LICENCE_URL = "https://creativecommons.org/licenses/by-sa/4.0/"
 _QR_SIZE = 30 * mm

@@ -3,7 +3,7 @@
 A hands-on teardown of real, legally free sample PDFs from the wider field of
 printable children's stories and family adventure games. The goal is to learn
 concrete layout and reading-level/age-format choices that strong printed
-children's work makes, so we can sharpen our own Wits & Wonder kits. These are
+children's work makes, so we can sharpen our own Wander & Tales kits. These are
 reference works, not competitors.
 
 **No redistribution.** The PDFs themselves live in `research/landscape/samples/`,
@@ -180,7 +180,7 @@ The licence on the originals is CC BY 4.0 in every case noted above.
   swaps; layout, art, and furniture are locale-neutral. Accents and inverted Spanish
   punctuation must render, which means an embedded Unicode font.
 
-## Implications for Wits & Wonder
+## Implications for Wander & Tales
 
 - Give each (age tier, reading level) a concrete words-per-page budget and consider
   linting prose against it, the way `lint.py` already enforces structure. The

@@ -73,7 +73,7 @@ def build_example_heroes(
 
     label = strings.ui(locale, "examples_title")
     footer.stamp_footers(
-        out_path, identity=f"Wits and Wonder · {label} · {world_name}",
+        out_path, identity=f"Wander and Tales · {label} · {world_name}",
         locale=locale, version_info=version_info,
     )
     footer.set_metadata(

@@ -1,9 +1,9 @@
 ---
 name: publish-story
-description: Use when a maintainer wants to publish a newly added or just-merged Wits & Wonder story or world to the library: make sure every declared image exists (generating the missing ones with the maintainer's key), double-review the translations, build the kits, refresh the root README catalogue, confirm the PDFs render correctly, and commit. This is the maintainer-side counterpart to the create-story skill. Trigger on requests like "publish this story", "publish the kits", "a story was merged, build and publish it", "release the new world", or "rebuild and update the README".
+description: Use when a maintainer wants to publish a newly added or just-merged Wander & Tales story or world to the library: make sure every declared image exists (generating the missing ones with the maintainer's key), double-review the translations, build the kits, refresh the root README catalogue, confirm the PDFs render correctly, and commit. This is the maintainer-side counterpart to the create-story skill. Trigger on requests like "publish this story", "publish the kits", "a story was merged, build and publish it", "release the new world", or "rebuild and update the README".
 ---
 
-# Publishing a Wits & Wonder story or world
+# Publishing a Wander & Tales story or world
 
 This skill is the **maintainer's publish step**, the counterpart to `create-story`.
 `create-story` takes a contributor from an idea to a draft PR (content only, no built

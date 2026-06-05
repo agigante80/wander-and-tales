@@ -1,6 +1,6 @@
 Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
 
-This licence covers the creative content of Wits and Wonder: everything under
+This licence covers the creative content of Wander and Tales: everything under
 worlds/, guide/, and lexicon/, and the generated PDFs under kits/. The software
 toolchain (the build/ package and tests/) is licensed separately under the MIT
 licence in LICENSE.
@@ -8,8 +8,8 @@ licence in LICENSE.
 You are free to share and adapt this content, including for commercial purposes,
 under these terms:
 
-  Attribution. You must give appropriate credit to Wits and Wonder
-  (github.com/agigante80/wits-and-wonder), provide a link to the licence, and
+  Attribution. You must give appropriate credit to Wander and Tales
+  (github.com/agigante80/wander-and-tales), provide a link to the licence, and
   indicate if changes were made.
 
   ShareAlike. If you remix, transform, or build upon the content, you must

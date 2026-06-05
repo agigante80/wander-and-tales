@@ -1,13 +1,13 @@
 ---
 name: authoring-story-content
 description: >-
-  Author or revise content for the Wits & Wonder children's story-kit library:
+  Author or revise content for the Wander & Tales children's story-kit library:
   story narration (simple and rich reading levels), world lore, canon registry
   entries, puzzles, idea banks, rules-page text, and the Guide for the Grown-Up,
   in British English (en-GB, canonical), Spanish from Spain (es-ES), and Italian
   (it-IT), the synced locales. Use this skill whenever you
   write, draft, translate, or edit any kid-facing or grown-up-facing prose or
-  YAML content for Wits & Wonder (any world or story, including The Floating
+  YAML content for Wander & Tales (any world or story, including The Floating
   Isles / The Sleeping Garden and the Greek-myth world), even when the request
   only says "write the story", "draft the narration", "add a creature",
   "translate this to Spanish", or "write the grown-up guide". It encodes the
@@ -16,9 +16,9 @@ description: >-
   guidance, the en-GB-first then es-ES workflow, and canon-name discipline.
 ---
 
-# Authoring Wits & Wonder story content
+# Authoring Wander & Tales story content
 
-Wits & Wonder is a public, multilingual library of printable, cooperative,
+Wander & Tales is a public, multilingual library of printable, cooperative,
 adult-led story-adventure kits for kids (print-and-play PDFs played with simple
 dice and household objects). The whole architecture rests on one bet: **content
 is the unit of work**. Adding a world, a story, a language, or an age tier is a

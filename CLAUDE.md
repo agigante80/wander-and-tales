@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this project is
 
-Wits & Wonder is a public, multilingual library of **printable, cooperative,
+Wander & Tales is a public, multilingual library of **printable, cooperative,
 adult-led story-adventure kits for kids** (print-and-play PDFs played with simple
 dice and household objects). It is not a digital game. Worlds contain stories;
 content is data and a layout-only build renders the PDFs.

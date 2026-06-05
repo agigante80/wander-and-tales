@@ -1,4 +1,4 @@
-# Contributing to Wits & Wonder
+# Contributing to Wander & Tales
 
 Thank you for wanting to add a story. This library grows through contributions, and
 adding a world or a story is a writing task, not a coding task.

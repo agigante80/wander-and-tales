@@ -154,7 +154,7 @@ def build_world_pdf(
         _merge(parts, out_path)
 
     footer.stamp_footers(
-        out_path, identity=f"Wits and Wonder · {label} · {world_name}",
+        out_path, identity=f"Wander and Tales · {label} · {world_name}",
         locale=locale, version_info=version_info,
     )
     footer.set_metadata(
