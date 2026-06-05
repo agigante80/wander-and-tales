@@ -71,23 +71,26 @@ def _motif(c, cx: float, cy: float, theme) -> None:
     c.restoreState()
 
 
-def _band_height(title: str, title_size: float, max_w: float) -> float:
+def _band_height(title: str, title_size: float, max_w: float, tagline: str = "") -> float:
     f = fonts.sheet_faces()
     lines = _wrap(title, f.display, title_size, max_w)
-    return 9 * mm + len(lines) * (title_size * 1.18) + 4.5 * mm
+    tag_h = 15 if tagline else 0
+    return 9 * mm + len(lines) * (title_size * 1.18) + tag_h + 4.5 * mm
 
 
 def draw_header_band(
     c, x: float, y_top: float, w: float, kicker: str, title: str, theme,
-    *, title_size: float = 18, motif: bool = True,
+    *, title_size: float = 18, motif: bool = True, tagline: str = "",
 ) -> float:
     """Draw a rounded header band (kicker + title + motif) from y_top downward, in a
-    light tint of the world primary. Returns the band height drawn (no rule)."""
+    light tint of the world primary. With `tagline`, a hand-font line sits under the
+    title (used by the How to Play masthead). Returns the band height drawn (no rule)."""
     f = fonts.sheet_faces()
     motif_w = 26 * mm if motif else 0
     max_w = w - 12 * mm - motif_w
     lines = _wrap(title, f.display, title_size, max_w)
-    band_h = 9 * mm + len(lines) * (title_size * 1.18) + 4.5 * mm
+    tag_h = 15 if tagline else 0
+    band_h = 9 * mm + len(lines) * (title_size * 1.18) + tag_h + 4.5 * mm
     c.saveState()
     c.setDash()
     c.setFillColor(tint(theme.primary, 0.88))
@@ -101,9 +104,15 @@ def draw_header_band(
     ly = y_top - 7 * mm - title_size * 0.92
     c.setFillColor(theme.primary)
     c.setFont(f.display, title_size)
+    last_baseline = ly
     for ln in lines:
         c.drawString(x + 5 * mm, ly, ln)
+        last_baseline = ly
         ly -= title_size * 1.18
+    if tagline:
+        c.setFillColor(tint(theme.text, 0.2))
+        c.setFont(f.hand, 12)
+        c.drawString(x + 5 * mm, last_baseline - 13, tagline)
     if motif:
         _motif(c, x + w - 13 * mm, y_top - band_h / 2, theme)
     c.restoreState()

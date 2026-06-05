@@ -54,56 +54,59 @@ def render_quickstart(out_path: Path, locale: str, theme: Theme) -> Path:
 
     band_h = chrome.draw_header_band(
         c, M, H - M, W - 2 * M, s("colophon_project"), s("quickstart_title"), theme,
-        title_size=20, motif=True,
+        title_size=20, motif=True, tagline=s("tagline"),
     )
-    y = H - M - band_h - 5 * mm
-    c.setFillColor(tint(theme.text, 0.2))
-    c.setFont(f.hand, 13)
-    c.drawCentredString(W / 2, y, s("tagline"))
-    y -= 7 * mm
+    y = H - M - band_h - 8 * mm
 
-    # The hook: what you do, the goal, the fun, in one friendly line.
-    hook_lines = wrap(s("quickstart_hook"), f.display, 15, W - 2 * M - 14 * mm)
-    hook_h = 8 * mm + len(hook_lines) * 8 * mm + 4 * mm
-    c.setDash()
-    c.setFillColor(tint(theme.primary, 0.86))
-    c.setStrokeColor(tint(theme.primary, 0.58))
-    c.setLineWidth(1.0)
-    c.roundRect(M, y - hook_h, W - 2 * M, hook_h, 7, fill=1, stroke=1)
+    # The hook: a light, centred line flanked by stars (flavour, not the loudest thing).
+    hook_lines = wrap(s("quickstart_hook"), f.display, 13, W - 2 * M - 24 * mm)
+    line_h = 6.6 * mm
+    hook_h = len(hook_lines) * line_h + 3 * mm
+    cyc = y - hook_h / 2
+    chrome.star(c, M + 6 * mm, cyc, 2.4 * mm, theme.gold, theme.gold)
+    chrome.star(c, W - M - 6 * mm, cyc, 2.4 * mm, theme.gold, theme.gold)
     c.setFillColor(theme.primary)
-    c.setFont(f.display, 15)
-    ly = y - 10 * mm
+    c.setFont(f.display, 13)
+    ly = y - 6 * mm
     for ln in hook_lines:
         c.drawCentredString(W / 2, ly, ln)
-        ly -= 8 * mm
-    y = y - hook_h - 7 * mm
+        ly -= line_h
+    y = y - hook_h - 8 * mm
 
-    # A turn in four steps, with a handwritten loop note.
+    # A turn in four steps (the loudest block): green numbers joined by a dotted cycle.
     steps = [s("quickstart_step1"), s("quickstart_step2"),
              s("quickstart_step3"), s("quickstart_step4")]
-    turn_h = 8 * mm + len(steps) * 11 * mm + 11 * mm
-    inner = panel(M, y, W - 2 * M, turn_h, theme.blue, s("quickstart_turn_title"))
+    step_row = 11.5 * mm
+    r = 4.6 * mm
+    turn_h = 8 * mm + len(steps) * step_row + 11 * mm
+    inner = panel(M, y, W - 2 * M, turn_h, theme.primary, s("quickstart_turn_title"))
     sy = inner - 9 * mm
+    cxn = M + 9 * mm
     for i, st in enumerate(steps):
-        cxn = M + 9 * mm
-        c.setFillColor(theme.blue)
-        c.circle(cxn, sy, 4.2 * mm, fill=1, stroke=0)
+        if i < len(steps) - 1:
+            c.setDash(0.6, 2.0)
+            c.setStrokeColor(tint(theme.primary, 0.6))
+            c.setLineWidth(1.0)
+            c.line(cxn, sy - r, cxn, sy - step_row + r)
+            c.setDash()
+        c.setFillColor(theme.primary)
+        c.circle(cxn, sy, r, fill=1, stroke=0)
         c.setFillColor(white)
         c.setFont(f.display, 12)
         c.drawCentredString(cxn, sy - 1.7 * mm, str(i + 1))
         c.setFillColor(theme.text)
-        c.setFont(f.body, 11)
-        c.drawString(cxn + 9 * mm, sy - 1.6 * mm, st)
-        sy -= 11 * mm
+        c.setFont(f.body, 13)
+        c.drawString(cxn + 9 * mm, sy - 1.7 * mm, st)
+        sy -= step_row
     c.setFillColor(tint(theme.text, 0.25))
     c.setFont(f.hand, 12)
-    c.drawString(M + 9 * mm, sy + 1.5 * mm, s("quickstart_loop_note"))
-    y = y - turn_h - 7 * mm
+    c.drawString(cxn, sy + 1.5 * mm, s("quickstart_loop_note"))
+    y = y - turn_h - 8 * mm
 
     # Two columns: what to print, what you need.
     col_w = (W - 2 * M - 6 * mm) / 2
     cols_h = 8 * mm + 45 * mm
-    inner = panel(M, y, col_w, cols_h, theme.gold, s("quickstart_print_title"))
+    inner = panel(M, y, col_w, cols_h, theme.primary, s("quickstart_print_title"))
     py = inner - 7 * mm
     files = [
         (s("quickstart_file_pack_name"), s("quickstart_file_pack_note")),
@@ -126,7 +129,7 @@ def render_quickstart(out_path: Path, locale: str, theme: Theme) -> Path:
         py -= 4.6 * mm
 
     rx = M + col_w + 6 * mm
-    inner = panel(rx, y, col_w, cols_h, theme.teal, s("quickstart_need_title"))
+    inner = panel(rx, y, col_w, cols_h, theme.primary, s("quickstart_need_title"))
     ny = inner - 10 * mm
     for item in (s("quickstart_need_die"), s("quickstart_need_pencils"),
                  s("quickstart_need_tokens")):
