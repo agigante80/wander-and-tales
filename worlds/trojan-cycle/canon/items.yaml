@@ -5,11 +5,13 @@
     en-GB: The Great Wooden Horse
     es-ES: El Gran Caballo de Madera
     it-IT: Il Grande Cavallo di Legno
+    pt-PT: O Grande Cavalo de Madeira
   kind: item
   description:
     en-GB: A huge wooden horse on wheels that the heroes build. Filled not with soldiers but with gifts, music, and a hand of friendship, it can surprise a proud city into peace.
     es-ES: Un enorme caballo de madera sobre ruedas que construyen los héroes. Lleno no de soldados, sino de regalos, música y una mano de amistad, puede sorprender a una ciudad orgullosa y traer la paz.
     it-IT: Un enorme cavallo di legno su ruote che gli eroi costruiscono. Riempito non di soldati ma di doni, musica e una mano di amicizia, può sorprendere una città fiera e portare la pace.
+    pt-PT: Um enorme cavalo de madeira sobre rodas que os heróis constroem. Cheio não de soldados, mas de presentes, música e uma mão de amizade, pode surpreender uma cidade altiva e trazer a paz.
   first_seen: the-great-wooden-horse
 
 - id: penelopes-thread
@@ -17,11 +19,13 @@
     en-GB: Penelope's Thread
     es-ES: El Hilo de Penélope
     it-IT: Il Filo di Penelope
+    pt-PT: O Fio de Penélope
   kind: item
   description:
     en-GB: A ball of strong weaving thread. Tie one end where you start and you can always find your way back, and it is handy for measuring and lashing besides.
     es-ES: Un ovillo de hilo de tejer resistente. Ata un extremo donde empiezas y siempre podrás encontrar el camino de vuelta, y además sirve para medir y atar.
     it-IT: Un gomitolo di robusto filo da tessere. Lega un'estremità dove parti e potrai sempre ritrovare la via, e serve anche per misurare e legare.
+    pt-PT: Um novelo de fio de tecer resistente. Ata uma ponta onde começas e poderás sempre encontrar o caminho de volta, e ainda serve para medir e amarrar.
   first_seen: the-great-wooden-horse
 
 - id: basket-of-figs
@@ -29,11 +33,13 @@
     en-GB: The Basket of Honey and Figs
     es-ES: La Cesta de Miel e Higos
     it-IT: Il Cesto di Miele e Fichi
+    pt-PT: O Cesto de Mel e Figos
   kind: item
   description:
     en-GB: A basket of sweet honey and ripe figs. Shared with a wary stranger or a lonely singer, it can turn a frown into a friend.
     es-ES: Una cesta de miel dulce e higos maduros. Compartida con un desconocido receloso o una cantora solitaria, puede convertir un ceño fruncido en un amigo.
     it-IT: Un cesto di miele dolce e fichi maturi. Condiviso con uno sconosciuto diffidente o una cantatrice solitaria, può trasformare un cipiglio in un amico.
+    pt-PT: Um cesto de mel doce e figos maduros. Partilhado com um estranho desconfiado ou uma cantora solitária, pode transformar uma cara fechada num amigo.
   first_seen: the-great-wooden-horse
 
 - id: conch-horn
@@ -41,9 +47,11 @@
     en-GB: The Conch Horn
     es-ES: La Caracola
     it-IT: La Conchiglia
+    pt-PT: A Concha-Buzina
   kind: item
   description:
     en-GB: A great spiral seashell that sounds a warm, calling note. Its sound carries a friendly message across the water and can soothe a troubled or lonely heart.
     es-ES: Una gran caracola en espiral que emite una nota cálida y llamativa. Su sonido lleva un mensaje amistoso por el agua y puede calmar un corazón inquieto o solitario.
     it-IT: Una grande conchiglia a spirale che emette una nota calda e squillante. Il suo suono porta un messaggio amichevole sull'acqua e può calmare un cuore inquieto o solitario.
+    pt-PT: Uma grande concha em espiral que dá uma nota quente, como um chamamento. O seu som leva uma mensagem amigável pela água e pode acalmar um coração inquieto ou solitário.
   first_seen: argos-and-the-keepsake

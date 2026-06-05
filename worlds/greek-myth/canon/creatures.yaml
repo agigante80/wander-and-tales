@@ -95,10 +95,12 @@
     en-GB: The Hill Bees
     es-ES: Las Abejas de la Colina
     it-IT: Le Api della Collina
+    pt-PT: As Abelhas da Colina
   kind: creature
   disposition: friendly
   description:
     en-GB: A hum of gentle bees in the high meadows who keep the sweetest honey in the hills. They share gladly with anyone who comes calmly and asks with kindness.
     es-ES: Un enjambre de abejas amables de los prados altos que guardan la miel más dulce de las colinas. Comparten de buen grado con quien se acerca con calma y pide con amabilidad.
     it-IT: Uno sciame di api gentili dei prati alti che custodiscono il miele più dolce delle colline. Condividono volentieri con chiunque si avvicini con calma e chieda con gentilezza.
+    pt-PT: Um zumbido de abelhas meigas dos prados altos que guardam o mel mais doce das colinas. Partilham de bom grado com quem se aproxima com calma e pede com bondade.
   first_seen: honey-cake-feast

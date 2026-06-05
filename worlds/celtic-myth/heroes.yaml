@@ -10,12 +10,13 @@
     en-GB: the Emerald Isles of the Celts
     es-ES: las Islas Esmeralda de los Celtas
     it-IT: le Isole di Smeraldo dei Celti
+    pt-PT: as Ilhas Esmeralda dos Celtas
   magics: [imagination, kindness, courage]
   energy: 4
   carry:
-    - { en-GB: a woollen cloak, es-ES: una capa de lana, it-IT: un mantello di lana }
-    - { en-GB: a sprig of oak, es-ES: una ramita de roble, it-IT: un rametto di quercia }
-    - { en-GB: a honey oatcake, es-ES: una torta de avena y miel, it-IT: una focaccia d'avena e miele }
+    - { en-GB: a woollen cloak, es-ES: una capa de lana, it-IT: un mantello di lana, pt-PT: um manto de lã }
+    - { en-GB: a sprig of oak, es-ES: una ramita de roble, it-IT: un rametto di quercia, pt-PT: um raminho de carvalho }
+    - { en-GB: a honey oatcake, es-ES: una torta de avena y miel, it-IT: una focaccia d'avena e miele, pt-PT: um bolo de aveia e mel }
   image:
     id: hero-niamh
     role: hero
@@ -28,6 +29,7 @@
       en-GB: A bright young Celtic hero in a woollen cloak with a bronze brooch holding a sprig of oak, misty green hills behind.
       es-ES: Una joven heroína celta radiante con capa de lana y un broche de bronce que sostiene una ramita de roble, con colinas verdes y brumosas detrás.
       it-IT: Una giovane eroina celtica radiosa con un mantello di lana e una spilla di bronzo che tiene un rametto di quercia, con colline verdi e nebbiose dietro.
+      pt-PT: Uma jovem heroína celta radiante com um manto de lã e um broche de bronze que segura um raminho de carvalho, com colinas verdes e enevoadas por detrás.
 
 - id: cian
   tier: young
@@ -36,12 +38,13 @@
     en-GB: the Emerald Isles of the Celts
     es-ES: las Islas Esmeralda de los Celtas
     it-IT: le Isole di Smeraldo dei Celti
+    pt-PT: as Ilhas Esmeralda dos Celtas
   magics: [courage, kindness, imagination]
   energy: 3
   carry:
-    - { en-GB: a little harp, es-ES: un arpa pequeña, it-IT: una piccola arpa }
-    - { en-GB: a ball of red wool, es-ES: un ovillo de lana roja, it-IT: un gomitolo di lana rossa }
-    - { en-GB: a snack for the puca, es-ES: una golosina para el puca, it-IT: uno spuntino per il puca }
+    - { en-GB: a little harp, es-ES: un arpa pequeña, it-IT: una piccola arpa, pt-PT: uma pequena harpa }
+    - { en-GB: a ball of red wool, es-ES: un ovillo de lana roja, it-IT: un gomitolo di lana rossa, pt-PT: um novelo de lã vermelha }
+    - { en-GB: a snack for the puca, es-ES: una golosina para el puca, it-IT: uno spuntino per il puca, pt-PT: um petisco para o puca }
   image:
     id: hero-cian
     role: hero
@@ -53,6 +56,7 @@
       en-GB: A cheerful young Celtic hero in a tunic holding a small wooden harp, an oak grove behind.
       es-ES: Un joven héroe celta alegre con una túnica que sostiene una pequeña arpa de madera, con un robledal detrás.
       it-IT: Un giovane eroe celtico allegro con una tunica che tiene una piccola arpa di legno, con un querceto dietro.
+      pt-PT: Um jovem herói celta alegre com uma túnica que segura uma pequena harpa de madeira, com um carvalhal por detrás.
 
 - id: aoife
   tier: older
@@ -61,13 +65,14 @@
     en-GB: the Emerald Isles of the Celts
     es-ES: las Islas Esmeralda de los Celtas
     it-IT: le Isole di Smeraldo dei Celti
+    pt-PT: as Ilhas Esmeralda dos Celtas
   magics: [imagination, courage, kindness]
   energy: 5
   carry:
-    - { en-GB: a coil of red wool, es-ES: un rollo de lana roja, it-IT: una matassa di lana rossa }
-    - { en-GB: a sprig of oak, es-ES: una ramita de roble, it-IT: un rametto di quercia }
-    - { en-GB: a little harp, es-ES: un arpa pequeña, it-IT: una piccola arpa }
-    - { en-GB: a friendship knot, es-ES: un nudo de la amistad, it-IT: un nodo dell'amicizia }
+    - { en-GB: a coil of red wool, es-ES: un rollo de lana roja, it-IT: una matassa di lana rossa, pt-PT: um rolo de lã vermelha }
+    - { en-GB: a sprig of oak, es-ES: una ramita de roble, it-IT: un rametto di quercia, pt-PT: um raminho de carvalho }
+    - { en-GB: a little harp, es-ES: un arpa pequeña, it-IT: una piccola arpa, pt-PT: uma pequena harpa }
+    - { en-GB: a friendship knot, es-ES: un nudo de la amistad, it-IT: un nodo dell'amicizia, pt-PT: um nó da amizade }
   image:
     id: hero-aoife
     role: hero
@@ -80,6 +85,7 @@
       en-GB: A confident older Celtic hero in a hooded cloak with braided hair holding a small harp, a ring of standing stones in the mist behind.
       es-ES: Una heroína celta mayor y segura con capa con capucha y el pelo trenzado, sosteniendo una pequeña arpa, con un círculo de piedras en la niebla detrás.
       it-IT: Un'eroina celtica più grande e sicura con un mantello con cappuccio e i capelli intrecciati, che tiene una piccola arpa, con un cerchio di pietre nella nebbia dietro.
+      pt-PT: Uma heroína celta mais velha e confiante com um manto de capuz e o cabelo entrançado, que segura uma pequena harpa, com um círculo de pedras na névoa por detrás.
 
 - id: donal
   tier: older
@@ -88,12 +94,13 @@
     en-GB: the Emerald Isles of the Celts
     es-ES: las Islas Esmeralda de los Celtas
     it-IT: le Isole di Smeraldo dei Celti
+    pt-PT: as Ilhas Esmeralda dos Celtas
   magics: [courage, imagination, kindness]
   energy: 4
   carry:
-    - { en-GB: a sturdy walking staff, es-ES: un bastón resistente, it-IT: un solido bastone da cammino }
-    - { en-GB: a fishing line, es-ES: un sedal de pesca, it-IT: una lenza da pesca }
-    - { en-GB: a honey oatcake, es-ES: una torta de avena y miel, it-IT: una focaccia d'avena e miele }
+    - { en-GB: a sturdy walking staff, es-ES: un bastón resistente, it-IT: un solido bastone da cammino, pt-PT: um cajado robusto }
+    - { en-GB: a fishing line, es-ES: un sedal de pesca, it-IT: una lenza da pesca, pt-PT: uma linha de pesca }
+    - { en-GB: a honey oatcake, es-ES: una torta de avena y miel, it-IT: una focaccia d'avena e miele, pt-PT: um bolo de aveia e mel }
   image:
     id: hero-donal
     role: hero
@@ -105,3 +112,4 @@
       en-GB: A steady older Celtic hero in a hooded cloak leaning on a walking staff beside a still misty loch.
       es-ES: Un héroe celta mayor y firme con una capa con capucha apoyado en un bastón junto a un lago quieto y brumoso.
       it-IT: Un eroe celtico più grande e saldo con un mantello con cappuccio appoggiato a un bastone accanto a un lago immobile e nebbioso.
+      pt-PT: Um herói celta mais velho e firme com um manto de capuz apoiado num cajado junto a um lago imóvel e enevoado.

@@ -5,11 +5,13 @@
     en-GB: Imagination
     es-ES: Imaginación
     it-IT: Immaginazione
+    pt-PT: Imaginação
   kind: quality
   description:
     en-GB: Imagining ideas and trying them. In the north, a good idea is worth more than a strong arm, and a riddle is solved with a cool head.
     es-ES: Imaginar ideas y probarlas. En el norte, una buena idea vale más que un brazo fuerte, y un acertijo se resuelve con la cabeza fría.
     it-IT: Immaginare idee e provarle. Al nord, una buona idea vale più di un braccio forte, e un indovinello si risolve con la testa fredda.
+    pt-PT: Imaginar ideias e experimentá-las. No norte, uma boa ideia vale mais do que um braço forte, e um enigma resolve-se com a cabeça fria.
   first_seen: the-lost-little-aurora
 
 - id: courage
@@ -17,11 +19,13 @@
     en-GB: Courage
     es-ES: Valor
     it-IT: Coraggio
+    pt-PT: Coragem
   kind: quality
   description:
     en-GB: A warm, steady heart on the longest, darkest night. Courage is not being unafraid; it is staying kind and trying anyway, even when you are afraid.
     es-ES: Un corazón cálido y firme en la noche más larga y oscura. El valor no es no tener miedo; es seguir siendo amable e intentarlo igualmente, aun cuando lo tienes.
     it-IT: Un cuore caldo e saldo nella notte più lunga e buia. Il coraggio non è non avere paura; è restare gentili e provarci lo stesso, anche quando si ha paura.
+    pt-PT: Um coração quente e firme na noite mais longa e escura. A coragem não é não ter medo; é continuar a ser bondoso e tentar à mesma, mesmo quando se tem medo.
   first_seen: the-lost-little-aurora
 
 - id: heart
@@ -29,9 +33,11 @@
     en-GB: Heart
     es-ES: Corazón
     it-IT: Cuore
+    pt-PT: Coração
   kind: quality
   description:
     en-GB: Care for others and a place by the fire for everyone. The greatest heroes of the fjords are the ones who share, help, and stand by a friend.
     es-ES: El cuidado por los demás y un sitio junto al fuego para todos. Los mayores héroes de los fiordos son los que comparten, ayudan y no abandonan a un amigo.
     it-IT: La cura per gli altri e un posto accanto al fuoco per tutti. I più grandi eroi dei fiordi sono quelli che condividono, aiutano e non abbandonano un amico.
+    pt-PT: O cuidado pelos outros e um lugar junto ao fogo para todos. Os maiores heróis dos fiordes são os que partilham, ajudam e não abandonam um amigo.
   first_seen: the-lost-little-aurora

@@ -5,11 +5,13 @@
     en-GB: The Ship Camp
     es-ES: El Campamento de las Naves
     it-IT: L'Accampamento delle Navi
+    pt-PT: O Acampamento das Naus
   kind: place
   description:
     en-GB: The seafarers' camp of tents and beached wooden ships along the long windswept beach, the heroes' home, with cook-fires and friendly faces and the sea always near.
     es-ES: El campamento de los navegantes, con tiendas y naves de madera varadas a lo largo de la larga playa ventosa, el hogar de los héroes, con hogueras para cocinar, rostros amables y el mar siempre cerca.
     it-IT: L'accampamento dei naviganti, con tende e navi di legno in secca lungo la lunga spiaggia ventosa, la casa degli eroi, con fuochi per cucinare, volti amici e il mare sempre vicino.
+    pt-PT: O acampamento dos navegantes, com tendas e naus de madeira encalhadas ao longo da longa praia ventosa, a casa dos heróis, com fogueiras para cozinhar, rostos amigos e o mar sempre por perto.
   first_seen: the-great-wooden-horse
 
 - id: great-walls
@@ -17,11 +19,13 @@
     en-GB: The Great Walls of Troy
     es-ES: Las Grandes Murallas de Troya
     it-IT: Le Grandi Mura di Troia
+    pt-PT: As Grandes Muralhas de Troia
   kind: place
   description:
     en-GB: The high, honey-coloured walls of the proud city on the hill, with great gates that have stayed shut through the long quarrel, and watchful but weary folk behind them.
     es-ES: Las altas murallas color miel de la orgullosa ciudad de la colina, con grandes puertas que han permanecido cerradas durante la larga disputa, y gente vigilante pero cansada tras ellas.
     it-IT: Le alte mura color miele della fiera città sulla collina, con grandi porte rimaste chiuse per tutta la lunga lite, e gente vigile ma stanca dietro di esse.
+    pt-PT: As altas muralhas cor de mel da cidade altiva na colina, com grandes portões que se mantiveram fechados durante toda a longa discórdia, e gente atenta mas cansada por detrás deles.
   first_seen: the-great-wooden-horse
 
 - id: wine-dark-sea
@@ -29,11 +33,13 @@
     en-GB: The Wine-Dark Sea
     es-ES: El Mar Color de Vino
     it-IT: Il Mare Color del Vino
+    pt-PT: O Mar Cor de Vinho
   kind: place
   description:
     en-GB: The wide, deep sea that lies between the shores of Troy and home, beautiful and changeable, the great road of the long voyage back.
     es-ES: El mar ancho y profundo que se extiende entre las costas de Troya y el hogar, hermoso y cambiante, el gran camino del largo viaje de vuelta.
     it-IT: Il mare ampio e profondo che si stende tra le coste di Troia e casa, bello e mutevole, la grande via del lungo viaggio di ritorno.
+    pt-PT: O mar largo e profundo que se estende entre as costas de Troia e a casa, belo e mutável, o grande caminho da longa viagem de regresso.
   first_seen: the-long-way-home
 
 - id: isle-of-winds
@@ -41,11 +47,13 @@
     en-GB: The Isle of Winds
     es-ES: La Isla de los Vientos
     it-IT: L'Isola dei Venti
+    pt-PT: A Ilha dos Ventos
   kind: place
   description:
     en-GB: A floating island ringed with bronze cliffs where the keeper of the winds lives, and where a fair wind can be asked for with a good idea and a courteous word.
     es-ES: Una isla flotante rodeada de acantilados de bronce donde vive el guardián de los vientos, y donde se puede pedir un viento favorable con una buena idea y una palabra cortés.
     it-IT: Un'isola galleggiante cinta da scogliere di bronzo dove vive il custode dei venti, e dove si può chiedere un vento favorevole con una buona idea e una parola cortese.
+    pt-PT: Uma ilha flutuante cercada de falésias de bronze onde vive o guardião dos ventos, e onde se pode pedir um vento favorável com uma boa ideia e uma palavra cortês.
   first_seen: the-long-way-home
 
 - id: weaving-hall
@@ -53,9 +61,11 @@
     en-GB: The Weaving Hall
     es-ES: La Sala del Telar
     it-IT: La Sala del Telaio
+    pt-PT: A Sala do Tear
   kind: place
   description:
     en-GB: "Home at last, across the sea: a warm hall where a great loom stands, a homecoming feast is laid, and old friends and a faithful hound are waiting."
     es-ES: "El hogar por fin, al otro lado del mar: una sala cálida donde se alza un gran telar, se sirve un banquete de bienvenida y esperan viejos amigos y un sabueso fiel."
     it-IT: "Casa, finalmente, oltre il mare: una sala calda dove si erge un grande telaio, è imbandito un banchetto di ritorno e aspettano vecchi amici e un cane fedele."
+    pt-PT: "A casa, por fim, do outro lado do mar: uma sala acolhedora onde se ergue um grande tear, está posto um banquete de regresso e esperam velhos amigos e um cão fiel."
   first_seen: the-long-way-home

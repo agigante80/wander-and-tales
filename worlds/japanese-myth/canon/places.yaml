@@ -5,11 +5,13 @@
     en-GB: The Lantern Village
     es-ES: El Pueblo de los Faroles
     it-IT: Il Villaggio delle Lanterne
+    pt-PT: A Aldeia das Lanternas
   kind: place
   description:
     en-GB: A little village of wooden houses and terraced rice fields, the heroes' home, strung with paper lanterns and bright with festivals through the year.
     es-ES: Un pueblecito de casas de madera y arrozales en terrazas, el hogar de los héroes, engalanado con faroles de papel y alegre con fiestas durante todo el año.
     it-IT: Un piccolo villaggio di case di legno e risaie a terrazze, la casa degli eroi, addobbato di lanterne di carta e animato da feste tutto l'anno.
+    pt-PT: Uma pequena aldeia de casas de madeira e campos de arroz em socalcos, o lar dos heróis, enfeitada com lanternas de papel e animada com festas durante todo o ano.
   first_seen: firefly-lanterns
 
 - id: bamboo-grove
@@ -17,11 +19,13 @@
     en-GB: The Whispering Bamboo Grove
     es-ES: El Bosque de Bambú Susurrante
     it-IT: Il Boschetto di Bambù Sussurrante
+    pt-PT: O Bambual Sussurrante
   kind: place
   description:
     en-GB: A cool green grove of tall bamboo above the village, where the stalks click and whisper in the wind and a riddling fox likes to play.
     es-ES: Un fresco bosque verde de altos bambúes por encima del pueblo, donde las cañas crujen y susurran al viento y a un zorro de los acertijos le gusta jugar.
     it-IT: Un fresco boschetto verde di alti bambù sopra il villaggio, dove i fusti scricchiolano e sussurrano nel vento e a una volpe degli indovinelli piace giocare.
+    pt-PT: Um fresco bambual verde de bambus altos acima da aldeia, onde os caules estalam e sussurram ao vento e uma raposa das adivinhas gosta de brincar.
   first_seen: firefly-lanterns
 
 - id: torii-gate
@@ -29,11 +33,13 @@
     en-GB: The Red Torii Gate
     es-ES: La Puerta Torii Roja
     it-IT: Il Portale Torii Rosso
+    pt-PT: O Portão Torii Vermelho
   kind: place
   description:
     en-GB: A tall vermilion shrine gate on the mountain path, watched over by two stone guardian lion-dogs who let pass those who answer kindly and think with a cool head.
     es-ES: Una alta puerta de santuario de color bermellón en el camino de la montaña, vigilada por dos perros-león guardianes de piedra que dejan pasar a quienes responden con amabilidad y piensan con la cabeza fría.
     it-IT: Un alto portale di santuario color vermiglio sul sentiero della montagna, custodito da due cani-leone guardiani di pietra che lasciano passare chi risponde con gentilezza e ragiona con la testa fredda.
+    pt-PT: Um alto portão de santuário cor de vermelhão no caminho da montanha, vigiado por dois cães-leão guardiões de pedra que deixam passar quem responde com bondade e pensa com a cabeça fria.
   first_seen: river-dragons-long-sleep
 
 - id: moonlit-bridge
@@ -41,11 +47,13 @@
     en-GB: The Moonlit Bridge
     es-ES: El Puente a la Luz de la Luna
     it-IT: Il Ponte al Chiaro di Luna
+    pt-PT: A Ponte ao Luar
   kind: place
   description:
     en-GB: An arched wooden bridge over the river, silver in the moonlight. It carries safely those who cross it gently, with a calm and honest heart.
     es-ES: Un puente de madera arqueado sobre el río, plateado a la luz de la luna. Lleva a salvo a quienes lo cruzan con suavidad, con un corazón sereno y honesto.
     it-IT: Un ponte di legno ad arco sul fiume, argenteo al chiaro di luna. Porta in salvo chi lo attraversa con dolcezza, con un cuore sereno e sincero.
+    pt-PT: Uma ponte de madeira em arco sobre o rio, prateada ao luar. Leva a salvo quem a atravessa com doçura, com um coração sereno e honesto.
   first_seen: river-dragons-long-sleep
 
 - id: silver-river
@@ -53,9 +61,11 @@
     en-GB: The Silver River
     es-ES: El Río Plateado
     it-IT: Il Fiume d'Argento
+    pt-PT: O Rio Prateado
   kind: place
   description:
     en-GB: The wide river that waters the rice fields of the valley. When the river dragon sleeps too long, it runs low and the fields grow thirsty.
     es-ES: El ancho río que riega los arrozales del valle. Cuando el dragón del río duerme demasiado, baja su caudal y los campos pasan sed.
     it-IT: L'ampio fiume che irriga le risaie della valle. Quando il drago del fiume dorme troppo a lungo, si abbassa e i campi hanno sete.
+    pt-PT: O largo rio que rega os campos de arroz do vale. Quando o dragão do rio dorme tempo demais, o seu caudal baixa e os campos ficam com sede.
   first_seen: river-dragons-long-sleep

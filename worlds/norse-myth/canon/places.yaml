@@ -5,11 +5,13 @@
     en-GB: The Hearth Hall
     es-ES: El Salón del Hogar
     it-IT: La Sala del Focolare
+    pt-PT: O Salão do Lar
   kind: place
   description:
     en-GB: The cosy turf-roofed longhouse at the heart of the village, the heroes' home, where the great hearth-fire keeps everyone warm through the long winter.
     es-ES: La acogedora casa comunal de tejado de hierba en el corazón de la aldea, el hogar de los héroes, donde el gran fuego del hogar mantiene a todos calientes durante el largo invierno.
     it-IT: L'accogliente casa lunga dal tetto d'erba nel cuore del villaggio, la casa degli eroi, dove il grande fuoco del focolare tiene tutti al caldo per tutto il lungo inverno.
+    pt-PT: A acolhedora casa comprida de telhado de relva no coração da aldeia, o lar dos heróis, onde o grande fogo do lar mantém toda a gente quente durante o longo inverno.
   first_seen: the-long-winters-night
 
 - id: frozen-fjord
@@ -17,11 +19,13 @@
     en-GB: The Frozen Fjord
     es-ES: El Fiordo Helado
     it-IT: Il Fiordo Ghiacciato
+    pt-PT: O Fiorde Gelado
   kind: place
   description:
     en-GB: A long, deep arm of blue water between the mountains, frozen smooth and silver in the heart of winter, easy to cross if you are careful and kind to the ice.
     es-ES: Un largo y profundo brazo de agua azul entre las montañas, helado liso y plateado en pleno invierno, fácil de cruzar si tienes cuidado y tratas bien al hielo.
     it-IT: Un lungo e profondo braccio d'acqua azzurra tra le montagne, ghiacciato liscio e argenteo nel cuore dell'inverno, facile da attraversare se si fa attenzione e si tratta bene il ghiaccio.
+    pt-PT: Um longo e fundo braço de água azul entre as montanhas, gelado liso e prateado no coração do inverno, fácil de atravessar se tiveres cuidado e tratares bem o gelo.
   first_seen: the-long-winters-night
 
 - id: world-tree
@@ -29,11 +33,13 @@
     en-GB: The Great World Tree
     es-ES: El Gran Árbol del Mundo
     it-IT: Il Grande Albero del Mondo
+    pt-PT: A Grande Árvore do Mundo
   kind: place
   description:
     en-GB: The vast tree whose roots and branches hold the whole world together, from the deep roots to the high nest of the eagle. A squirrel runs along it all day, carrying news.
     es-ES: El inmenso árbol cuyas raíces y ramas sostienen el mundo entero, desde las hondas raíces hasta el alto nido del águila. Una ardilla corre por él todo el día llevando noticias.
     it-IT: L'immenso albero le cui radici e i cui rami tengono insieme il mondo intero, dalle radici profonde all'alto nido dell'aquila. Uno scoiattolo lo percorre tutto il giorno portando notizie.
+    pt-PT: A imensa árvore cujas raízes e ramos mantêm o mundo inteiro unido, das raízes profundas até ao alto ninho da águia. Um esquilo percorre-a o dia todo a levar notícias.
   first_seen: ratatosks-message
 
 - id: rainbow-bridge
@@ -41,11 +47,13 @@
     en-GB: The Rainbow Bridge
     es-ES: El Puente del Arco Iris
     it-IT: Il Ponte dell'Arcobaleno
+    pt-PT: A Ponte do Arco-Íris
   kind: place
   description:
     en-GB: A shimmering bridge of soft colours arching from the fjords up to the high halls of the gods. It holds firm for those who cross it with a kind and honest heart.
     es-ES: Un reluciente puente de suaves colores que se arquea desde los fiordos hasta los altos salones de los dioses. Se mantiene firme para quienes lo cruzan con un corazón amable y honesto.
     it-IT: Uno scintillante ponte di colori tenui che si inarca dai fiordi fino alle alte sale degli dei. Regge saldo per chi lo attraversa con un cuore gentile e sincero.
+    pt-PT: Uma ponte cintilante de cores suaves que se arqueia dos fiordes até aos altos salões dos deuses. Mantém-se firme para quem a atravessa com um coração bondoso e sincero.
   first_seen: the-long-winters-night
 
 - id: whispering-pines
@@ -53,9 +61,11 @@
     en-GB: The Whispering Pines
     es-ES: Los Pinos Susurrantes
     it-IT: I Pini Sussurranti
+    pt-PT: Os Pinheiros Sussurrantes
   kind: place
   description:
     en-GB: A snowy forest of tall dark pines where the wind carries soft voices, and a friendly hearth sprite likes to play and point lost travellers the right way.
     es-ES: Un bosque nevado de altos pinos oscuros donde el viento lleva voces suaves, y a un amable duende del hogar le gusta jugar y señalar el buen camino a los viajeros perdidos.
     it-IT: Una foresta innevata di alti pini scuri dove il vento porta voci sommesse, e un gentile folletto del focolare ama giocare e indicare la via giusta ai viaggiatori smarriti.
+    pt-PT: Uma floresta nevada de altos pinheiros escuros onde o vento leva vozes suaves, e um bondoso duende do lar gosta de brincar e apontar o caminho certo aos viajantes perdidos.
   first_seen: the-lost-little-aurora

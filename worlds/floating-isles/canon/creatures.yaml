@@ -5,12 +5,14 @@
     en-GB: Mist Cat
     es-ES: Gato de Niebla
     it-IT: Gatto di Nebbia
+    pt-PT: Gato de Névoa
   kind: creature
   disposition: friendly
   description:
     en-GB: A gentle cat made of fog who gives hints.
     es-ES: Un gato amable hecho de niebla que da pistas.
     it-IT: Un gatto gentile fatto di nebbia che dà indizi.
+    pt-PT: Um gato meigo feito de névoa que dá dicas.
   first_seen: sleeping-garden
 
 - id: librarian-owl
@@ -18,12 +20,14 @@
     en-GB: Librarian Owl
     es-ES: Búho Bibliotecario
     it-IT: Gufo Bibliotecario
+    pt-PT: Coruja Bibliotecária
   kind: creature
   disposition: friendly
   description:
     en-GB: A wise owl who loves a good riddle.
     es-ES: Un búho sabio al que le encantan las adivinanzas.
     it-IT: Un gufo saggio che adora un bell'indovinello.
+    pt-PT: Uma coruja sábia que adora uma boa adivinha.
   first_seen: sleeping-garden
 
 - id: bridge-tortoise
@@ -31,12 +35,14 @@
     en-GB: Bridge Tortoise
     es-ES: Tortuga Puente
     it-IT: Tartaruga Ponte
+    pt-PT: Tartaruga Ponte
   kind: creature
   disposition: friendly
   description:
     en-GB: A patient tortoise who lets travellers cross on her broad shell.
     es-ES: Una tortuga paciente que deja cruzar a los viajeros sobre su ancho caparazón.
     it-IT: Una tartaruga paziente che lascia attraversare i viaggiatori sul suo ampio guscio.
+    pt-PT: Uma tartaruga paciente que deixa os viajantes atravessar sobre a sua carapaça larga.
   first_seen: sleeping-garden
 
 - id: messenger-butterfly
@@ -44,12 +50,14 @@
     en-GB: Messenger Butterfly
     es-ES: Mariposa Mensajera
     it-IT: Farfalla Messaggera
+    pt-PT: Borboleta Mensageira
   kind: creature
   disposition: friendly
   description:
     en-GB: A bright butterfly that carries little messages and the odd free hint.
     es-ES: Una mariposa luminosa que lleva pequeños mensajes y alguna pista gratis.
     it-IT: Una farfalla luminosa che porta piccoli messaggi e qualche indizio gratis.
+    pt-PT: Uma borboleta luminosa que leva pequenas mensagens e uma ou outra dica grátis.
   first_seen: sleeping-garden
 
 - id: talking-flowers
@@ -57,12 +65,14 @@
     en-GB: Talking Flowers
     es-ES: Flores Parlantes
     it-IT: Fiori Parlanti
+    pt-PT: Flores Falantes
   kind: creature
   disposition: friendly
   description:
     en-GB: Flowers that chat in soft little voices when you lean close.
     es-ES: Flores que charlan con vocecillas suaves cuando os acercáis.
     it-IT: Fiori che chiacchierano con vocine dolci quando vi avvicinate.
+    pt-PT: Flores que conversam com vozinhas suaves quando vos chegais perto.
   first_seen: sleeping-garden
 
 - id: cloud-whale-calf
@@ -70,10 +80,12 @@
     en-GB: Nimbo the Cloud-Whale Calf
     es-ES: Nimbo, la Ballenita de Nube
     it-IT: Nimbo, il Balenotto delle Nuvole
+    pt-PT: Nimbo, a Baleia-Nuvem Bebé
   kind: creature
   disposition: lonely
   description:
     en-GB: A small, gentle cloud-whale who gathered the festival lanterns because it was lonely and loved their glow.
     es-ES: Una ballenita de nube pequeña y dulce que recogió los faroles de la fiesta porque estaba sola y le encantaba su brillo.
     it-IT: Un piccolo e dolce balenotto di nuvole che ha raccolto le lanterne della festa perché era solo e ne amava il chiarore.
+    pt-PT: Uma baleia-nuvem pequena e meiga que juntou as lanternas da festa porque estava sozinha e adorava o seu brilho.
   first_seen: lantern-festival

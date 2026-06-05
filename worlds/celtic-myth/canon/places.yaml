@@ -5,11 +5,13 @@
     en-GB: The Roundhouse
     es-ES: La Casa Redonda
     it-IT: La Casa Rotonda
+    pt-PT: A Casa Redonda
   kind: place
   description:
     en-GB: The cosy thatched roundhouse at the heart of the village, the heroes' home, with a warm hearth in the middle and stories told around it every night.
     es-ES: La acogedora casa redonda de techo de paja en el corazón de la aldea, el hogar de los héroes, con un cálido fuego en el centro y cuentos que se narran cada noche a su alrededor.
     it-IT: L'accogliente casa rotonda dal tetto di paglia nel cuore del villaggio, la casa degli eroi, con un caldo focolare al centro e storie raccontate ogni sera attorno ad esso.
+    pt-PT: A aconchegante casa redonda de telhado de colmo no coração da aldeia, o lar dos heróis, com uma lareira quente ao centro e histórias contadas à sua volta todas as noites.
   first_seen: pooks-tangled-paths
 
 - id: oak-grove
@@ -17,11 +19,13 @@
     en-GB: The Whispering Oak Grove
     es-ES: El Robledal Susurrante
     it-IT: Il Querceto Sussurrante
+    pt-PT: O Bosque de Carvalhos Sussurrantes
   kind: place
   description:
     en-GB: An ancient wood of great oak trees where the faeries play, the leaves whisper old secrets, and the winding paths can tangle for anyone without a thread to follow.
     es-ES: Un bosque antiguo de grandes robles donde juegan las hadas, las hojas susurran viejos secretos y los senderos sinuosos pueden enredarse para quien no tenga un hilo que seguir.
     it-IT: Un bosco antico di grandi querce dove giocano le fate, le foglie sussurrano vecchi segreti e i sentieri tortuosi possono aggrovigliarsi per chi non ha un filo da seguire.
+    pt-PT: Um bosque antigo de grandes carvalhos onde as fadas brincam, as folhas sussurram velhos segredos e os caminhos sinuosos se podem enredar para quem não tem um fio a seguir.
   first_seen: pooks-tangled-paths
 
 - id: standing-stones
@@ -29,11 +33,13 @@
     en-GB: The Ring of Standing Stones
     es-ES: El Círculo de Piedras
     it-IT: Il Cerchio di Pietre
+    pt-PT: O Círculo de Pedras
   kind: place
   description:
     en-GB: An ancient ring of tall grey stones on a green rise that hums softly at dawn and dusk, and listens when the swan children sing.
     es-ES: Un antiguo círculo de altas piedras grises sobre una loma verde que zumba suavemente al amanecer y al anochecer, y escucha cuando cantan los niños cisne.
     it-IT: Un antico cerchio di alte pietre grigie su un'altura verde che vibra piano all'alba e al crepuscolo, e ascolta quando cantano i bambini cigno.
+    pt-PT: Um antigo círculo de altas pedras cinzentas numa colina verde que vibra baixinho ao amanhecer e ao anoitecer, e escuta quando as crianças-cisne cantam.
   first_seen: swan-childrens-lullaby
 
 - id: misty-loch
@@ -41,11 +47,13 @@
     en-GB: The Misty Loch
     es-ES: El Lago Brumoso
     it-IT: Il Lago Nebbioso
+    pt-PT: O Lago Enevoado
   kind: place
   description:
     en-GB: A still grey lake often wrapped in soft mist, home to the old salmon and the shy selkie, where a boat may slip across to the Land of Youth.
     es-ES: Un lago gris y quieto, a menudo envuelto en una niebla suave, hogar del viejo salmón y de la tímida foca encantada, desde donde una barca puede cruzar hasta la Tierra de la Juventud.
     it-IT: Un lago grigio e immobile, spesso avvolto in una nebbia leggera, dimora del vecchio salmone e della timida foca incantata, da cui una barca può scivolare fino alla Terra della Giovinezza.
+    pt-PT: Um lago cinzento e imóvel, muitas vezes envolto em névoa suave, lar do velho salmão e da tímida selkie, de onde um barco pode deslizar até à Terra da Juventude.
   first_seen: the-land-of-youth
 
 - id: land-of-youth
@@ -53,9 +61,11 @@
     en-GB: The Land of Youth
     es-ES: La Tierra de la Juventud
     it-IT: La Terra della Giovinezza
+    pt-PT: A Terra da Juventude
   kind: place
   description:
     en-GB: The gentle Otherworld across the mist, once called Tir na nOg, where no one grows old, the apple trees are always in blossom, and a kind heart is the only way in.
     es-ES: El amable Otro Mundo al otro lado de la niebla, antaño llamado Tir na nOg, donde nadie envejece, los manzanos están siempre en flor y un corazón bondadoso es la única manera de entrar.
     it-IT: Il gentile Altromondo oltre la nebbia, un tempo chiamato Tir na nOg, dove nessuno invecchia, i meli sono sempre in fiore e un cuore buono è l'unico modo per entrare.
+    pt-PT: O meigo Outro Mundo do outro lado da névoa, outrora chamado Tir na nOg, onde ninguém envelhece, as macieiras estão sempre em flor e um bom coração é a única forma de entrar.
   first_seen: the-land-of-youth

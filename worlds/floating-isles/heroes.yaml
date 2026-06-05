@@ -9,12 +9,13 @@
     en-GB: the Floating Isles
     es-ES: las Islas Flotantes
     it-IT: delle Isole Volanti
+    pt-PT: das Ilhas Flutuantes
   magics: [magic-light, magic-voice, magic-grow]
   energy: 4
   carry:
-    - { en-GB: a glowing lantern, es-ES: un farol que brilla, it-IT: una lanterna che brilla }
-    - { en-GB: a friendship pebble, es-ES: una piedra de la amistad, it-IT: un sasso dell'amicizia }
-    - { en-GB: a soft feather, es-ES: una pluma suave, it-IT: una piuma morbida }
+    - { en-GB: a glowing lantern, es-ES: un farol que brilla, it-IT: una lanterna che brilla, pt-PT: uma lanterna que brilha }
+    - { en-GB: a friendship pebble, es-ES: una piedra de la amistad, it-IT: un sasso dell'amicizia, pt-PT: um seixo da amizade }
+    - { en-GB: a soft feather, es-ES: una pluma suave, it-IT: una piuma morbida, pt-PT: uma pena macia }
   image:
     id: hero-aria
     role: hero
@@ -26,6 +27,7 @@
       en-GB: A cheerful young mage with a small pointed hat holding a soft glow of light.
       es-ES: Una joven maga alegre con un sombrero puntiagudo sosteniendo un suave resplandor de luz.
       it-IT: Una giovane maga allegra con un cappello a punta che tiene un dolce chiarore di luce.
+      pt-PT: Uma jovem maga alegre com um chapéu pontiagudo a segurar um suave clarão de luz.
 
 - id: tomo
   tier: young
@@ -34,12 +36,13 @@
     en-GB: the Floating Isles
     es-ES: las Islas Flotantes
     it-IT: delle Isole Volanti
+    pt-PT: das Ilhas Flutuantes
   magics: [magic-grow, magic-change, magic-voice]
   energy: 3
   carry:
-    - { en-GB: a building brick, es-ES: una pieza de construcción, it-IT: un mattoncino }
-    - { en-GB: a snack for the Mist Cat, es-ES: una golosina para el Gato de Niebla, it-IT: uno spuntino per il Gatto di Nebbia }
-    - { en-GB: a little hand-drawn map, es-ES: un mapita dibujado a mano, it-IT: una mappa disegnata a mano }
+    - { en-GB: a building brick, es-ES: una pieza de construcción, it-IT: un mattoncino, pt-PT: uma peça de construção }
+    - { en-GB: a snack for the Mist Cat, es-ES: una golosina para el Gato de Niebla, it-IT: uno spuntino per il Gatto di Nebbia, pt-PT: um petisco para o Gato de Névoa }
+    - { en-GB: a little hand-drawn map, es-ES: un mapita dibujado a mano, it-IT: una mappa disegnata a mano, pt-PT: um mapinha desenhado à mão }
   image:
     id: hero-tomo
     role: hero
@@ -51,6 +54,7 @@
       en-GB: A friendly young mage holding a pot with a tiny green sprout growing from it.
       es-ES: Un joven mago amable sosteniendo una maceta con un pequeño brote verde.
       it-IT: Un giovane mago gentile che tiene un vaso con un piccolo germoglio verde.
+      pt-PT: Um jovem mago gentil a segurar um vaso com um pequeno rebento verde.
 
 - id: nadia
   tier: older
@@ -59,13 +63,14 @@
     en-GB: the Floating Isles
     es-ES: las Islas Flotantes
     it-IT: delle Isole Volanti
+    pt-PT: das Ilhas Flutuantes
   magics: [magic-light, magic-change, magic-voice]
   energy: 5
   carry:
-    - { en-GB: a star chart, es-ES: un mapa de estrellas, it-IT: una mappa delle stelle }
-    - { en-GB: a coil of vine-rope, es-ES: un rollo de cuerda de enredadera, it-IT: una corda di rampicante }
-    - { en-GB: a book of riddles, es-ES: un libro de adivinanzas, it-IT: un libro di indovinelli }
-    - { en-GB: a spare energy token, es-ES: una ficha de energía de repuesto, it-IT: un gettone di energia di scorta }
+    - { en-GB: a star chart, es-ES: un mapa de estrellas, it-IT: una mappa delle stelle, pt-PT: um mapa de estrelas }
+    - { en-GB: a coil of vine-rope, es-ES: un rollo de cuerda de enredadera, it-IT: una corda di rampicante, pt-PT: um rolo de corda de trepadeira }
+    - { en-GB: a book of riddles, es-ES: un libro de adivinanzas, it-IT: un libro di indovinelli, pt-PT: um livro de adivinhas }
+    - { en-GB: a spare energy token, es-ES: una ficha de energía de repuesto, it-IT: un gettone di energia di scorta, pt-PT: uma ficha de energia suplente }
   image:
     id: hero-nadia
     role: hero
@@ -77,6 +82,7 @@
       en-GB: A confident older mage in a flowing cloak with a soft orb of light above one palm.
       es-ES: Una maga mayor y segura con una capa larga y un suave orbe de luz sobre la palma.
       it-IT: Una maga più grande e sicura con un mantello lungo e un dolce globo di luce sul palmo.
+      pt-PT: Uma maga mais velha e confiante com uma capa esvoaçante e um suave globo de luz sobre a palma da mão.
 
 - id: bram
   tier: older

@@ -10,12 +10,13 @@
     en-GB: the Sunlit Hills of Greece
     es-ES: las Colinas Soleadas de Grecia
     it-IT: delle Colline Assolate della Grecia
+    pt-PT: das Colinas Soalheiras da Grécia
   magics: [imagination, courage, heart]
   energy: 4
   carry:
-    - { en-GB: an olive branch, es-ES: una rama de olivo, it-IT: un ramo di ulivo }
-    - { en-GB: a coil of golden thread, es-ES: un ovillo de hilo dorado, it-IT: un gomitolo di filo dorato }
-    - { en-GB: a honey cake, es-ES: un pastel de miel, it-IT: una focaccia al miele }
+    - { en-GB: an olive branch, es-ES: una rama de olivo, it-IT: un ramo di ulivo, pt-PT: um ramo de oliveira }
+    - { en-GB: a coil of golden thread, es-ES: un ovillo de hilo dorado, it-IT: un gomitolo di filo dorato, pt-PT: um novelo de fio dourado }
+    - { en-GB: a honey cake, es-ES: un pastel de miel, it-IT: una focaccia al miele, pt-PT: um bolo de mel }
   image:
     id: hero-lena
     role: hero
@@ -27,6 +28,7 @@
       en-GB: A bright young hero in a simple Greek tunic holding a small olive branch.
       es-ES: Una joven heroína radiante con una sencilla túnica griega sosteniendo una ramita de olivo.
       it-IT: Una giovane eroina radiosa con una semplice tunica greca che tiene un rametto di ulivo.
+      pt-PT: Uma jovem heroína radiante com uma túnica grega simples a segurar um raminho de oliveira.
 
 - id: nico
   tier: young
@@ -35,12 +37,13 @@
     en-GB: the Sunlit Hills of Greece
     es-ES: las Colinas Soleadas de Grecia
     it-IT: delle Colline Assolate della Grecia
+    pt-PT: das Colinas Soalheiras da Grécia
   magics: [courage, heart, imagination]
   energy: 3
   carry:
-    - { en-GB: a little wooden sword, es-ES: una espadita de madera, it-IT: una spadina di legno }
-    - { en-GB: a water skin, es-ES: un odre de agua, it-IT: un otre d'acqua }
-    - { en-GB: a lucky pebble, es-ES: un guijarro de la suerte, it-IT: un sassolino portafortuna }
+    - { en-GB: a little wooden sword, es-ES: una espadita de madera, it-IT: una spadina di legno, pt-PT: uma pequena espada de madeira }
+    - { en-GB: a water skin, es-ES: un odre de agua, it-IT: un otre d'acqua, pt-PT: um odre de água }
+    - { en-GB: a lucky pebble, es-ES: un guijarro de la suerte, it-IT: un sassolino portafortuna, pt-PT: uma pedrinha da sorte }
   image:
     id: hero-nico
     role: hero
@@ -52,6 +55,7 @@
       en-GB: A cheerful young hero in a Greek tunic standing proudly with a small wooden sword.
       es-ES: Un joven héroe alegre con túnica griega de pie con orgullo y una espadita de madera.
       it-IT: Un giovane eroe allegro con una tunica greca, in piedi con orgoglio e una spadina di legno.
+      pt-PT: Um jovem herói alegre com uma túnica grega, de pé com orgulho e uma pequena espada de madeira.
 
 - id: selene
   tier: older
@@ -60,13 +64,14 @@
     en-GB: the Sunlit Hills of Greece
     es-ES: las Colinas Soleadas de Grecia
     it-IT: delle Colline Assolate della Grecia
+    pt-PT: das Colinas Soalheiras da Grécia
   magics: [imagination, heart, courage]
   energy: 5
   carry:
-    - { en-GB: a little lyre, es-ES: una pequeña lira, it-IT: una piccola lira }
-    - { en-GB: a map of the hills, es-ES: un mapa de las colinas, it-IT: una mappa delle colline }
-    - { en-GB: a honey cake, es-ES: un pastel de miel, it-IT: una focaccia al miele }
-    - { en-GB: a white feather, es-ES: una pluma blanca, it-IT: una piuma bianca }
+    - { en-GB: a little lyre, es-ES: una pequeña lira, it-IT: una piccola lira, pt-PT: uma pequena lira }
+    - { en-GB: a map of the hills, es-ES: un mapa de las colinas, it-IT: una mappa delle colline, pt-PT: um mapa das colinas }
+    - { en-GB: a honey cake, es-ES: un pastel de miel, it-IT: una focaccia al miele, pt-PT: um bolo de mel }
+    - { en-GB: a white feather, es-ES: una pluma blanca, it-IT: una piuma bianca, pt-PT: uma pena branca }
   image:
     id: hero-selene
     role: hero
@@ -78,6 +83,7 @@
       en-GB: A thoughtful older hero in a flowing Greek robe holding a small lyre.
       es-ES: Una heroína mayor y reflexiva con una túnica griega larga sosteniendo una pequeña lira.
       it-IT: Un'eroina più grande e riflessiva con una lunga veste greca che tiene una piccola lira.
+      pt-PT: Uma heroína mais velha e ponderada com uma túnica grega comprida a segurar uma pequena lira.
 
 - id: dario
   tier: older
@@ -86,12 +92,13 @@
     en-GB: the Sunlit Hills of Greece
     es-ES: las Colinas Soleadas de Grecia
     it-IT: delle Colline Assolate della Grecia
+    pt-PT: das Colinas Soalheiras da Grécia
   magics: [courage, imagination, heart]
   energy: 4
   carry:
-    - { en-GB: a shepherd's staff, es-ES: un cayado de pastor, it-IT: un bastone da pastore }
-    - { en-GB: a reed flute, es-ES: una flauta de caña, it-IT: un flauto di canna }
-    - { en-GB: a smooth stone, es-ES: una piedra lisa, it-IT: una pietra liscia }
+    - { en-GB: a shepherd's staff, es-ES: un cayado de pastor, it-IT: un bastone da pastore, pt-PT: um cajado de pastor }
+    - { en-GB: a reed flute, es-ES: una flauta de caña, it-IT: un flauto di canna, pt-PT: uma flauta de cana }
+    - { en-GB: a smooth stone, es-ES: una piedra lisa, it-IT: una pietra liscia, pt-PT: uma pedra lisa }
   image:
     id: hero-dario
     role: hero
@@ -103,3 +110,4 @@
       en-GB: A steady older hero in a Greek tunic leaning on a shepherd's staff, sunlit hills behind.
       es-ES: Un héroe mayor y firme con túnica griega apoyado en un cayado de pastor, con colinas soleadas detrás.
       it-IT: Un eroe più grande e saldo con una tunica greca appoggiato a un bastone da pastore, con colline assolate dietro.
+      pt-PT: Um herói mais velho e firme com uma túnica grega apoiado num cajado de pastor, com colinas soalheiras por trás.

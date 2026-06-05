@@ -5,11 +5,13 @@
     en-GB: Imagination
     es-ES: Imaginación
     it-IT: Immaginazione
+    pt-PT: Imaginação
   kind: quality
   description:
     en-GB: Imagining ideas and trying them. On these shores, a good idea ends a quarrel that a thousand spears never could.
     es-ES: Imaginar ideas y probarlas. En estas costas, una buena idea pone fin a una disputa que mil lanzas jamás podrían.
     it-IT: Immaginare idee e provarle. Su queste coste, una buona idea pone fine a una lite che mille lance non potrebbero mai.
+    pt-PT: Imaginar ideias e experimentá-las. Nestas costas, uma boa ideia põe fim a uma discórdia que mil lanças jamais conseguiriam.
   first_seen: the-great-wooden-horse
 
 - id: courage
@@ -17,11 +19,13 @@
     en-GB: Courage
     es-ES: Valor
     it-IT: Coraggio
+    pt-PT: Coragem
   kind: quality
   description:
     en-GB: A steady heart on a wide and stormy sea. Courage is not being unafraid; it is staying kind and trying anyway, even when you are afraid.
     es-ES: Un corazón firme en un mar ancho y tormentoso. El valor no es no tener miedo; es seguir siendo amable e intentarlo igualmente, aun cuando lo tienes.
     it-IT: Un cuore saldo su un mare ampio e in tempesta. Il coraggio non è non avere paura; è restare gentili e provarci lo stesso, anche quando si ha paura.
+    pt-PT: Um coração firme num mar largo e tempestuoso. A coragem não é não ter medo; é continuar a ser bondoso e tentar à mesma, mesmo quando se tem medo.
   first_seen: the-great-wooden-horse
 
 - id: loyalty
@@ -29,9 +33,11 @@
     en-GB: Loyalty
     es-ES: Lealtad
     it-IT: Lealtà
+    pt-PT: Lealdade
   kind: quality
   description:
     en-GB: Standing by your friends and leaving no one behind. The greatest heroes of the shores are the ones who keep faith, help, and find their way home together.
     es-ES: Estar al lado de tus amigos y no dejar a nadie atrás. Los mayores héroes de las costas son los que mantienen la palabra, ayudan y encuentran juntos el camino a casa.
     it-IT: Stare accanto ai tuoi amici e non lasciare indietro nessuno. I più grandi eroi delle coste sono quelli che tengono fede, aiutano e ritrovano insieme la via di casa.
+    pt-PT: Estar ao lado dos teus amigos e não deixar ninguém para trás. Os maiores heróis das costas são os que mantêm a palavra, ajudam e encontram juntos o caminho de casa.
   first_seen: the-great-wooden-horse
