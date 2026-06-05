@@ -20,12 +20,14 @@
     en-GB: The Firefly Spirits
     es-ES: Los Espíritus de las Luciérnagas
     it-IT: Gli Spiriti delle Lucciole
+    pt-PT: Os Espíritos dos Pirilampos
   kind: creature
   disposition: friendly
   description:
     en-GB: Gentle, shy spirits of light who nestle inside the paper lanterns and make them glow. When they feel safe and happy, the whole village shines.
     es-ES: Espíritus de luz amables y tímidos que se acurrucan dentro de los faroles de papel y los hacen brillar. Cuando se sienten seguros y felices, todo el pueblo resplandece.
     it-IT: Spiriti di luce gentili e timidi che si annidano dentro le lanterne di carta e le fanno risplendere. Quando si sentono al sicuro e felici, tutto il villaggio brilla.
+    pt-PT: Espíritos de luz gentis e tímidos que se aninham dentro das lanternas de papel e as fazem brilhar. Quando se sentem seguros e felizes, toda a aldeia resplandece.
   first_seen: firefly-lanterns
 
 - id: pon-tanuki
@@ -33,12 +35,14 @@
     en-GB: Pon the Tanuki
     es-ES: Pon el Tanuki
     it-IT: Pon il Tanuki
+    pt-PT: Pon, o Tanuki
   kind: creature
   disposition: playful
   description:
     en-GB: A jolly, round raccoon-dog who loves games and surprises. He means well, but his happy bustling sometimes turns everything upside down by mistake.
     es-ES: Un alegre y rechoncho perro mapache al que le encantan los juegos y las sorpresas. Tiene buenas intenciones, pero con su feliz ajetreo a veces lo pone todo patas arriba sin querer.
     it-IT: Un allegro e tondo cane procione che adora i giochi e le sorprese. Ha buone intenzioni, ma con il suo allegro affaccendarsi a volte mette tutto sottosopra per sbaglio.
+    pt-PT: Um alegre e roliço cão-guaxinim que adora jogos e surpresas. Tem boas intenções, mas com a sua alegre azáfama às vezes vira tudo do avesso sem querer.
   first_seen: tanukis-tidy-up
 
 - id: guardian-lion-dogs

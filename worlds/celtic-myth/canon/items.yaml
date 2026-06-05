@@ -5,11 +5,13 @@
     en-GB: The Ball of Red Wool
     es-ES: El Ovillo de Lana Roja
     it-IT: Il Gomitolo di Lana Rossa
+    pt-PT: O Novelo de Lã Vermelha
   kind: item
   description:
     en-GB: A ball of bright red wool. Tie one end where you start and you can always follow it back, however tangled the path becomes.
     es-ES: Un ovillo de lana roja brillante. Ata un extremo donde empiezas y siempre podrás seguirlo de vuelta, por muy enredado que se vuelva el camino.
     it-IT: Un gomitolo di lana rossa accesa. Lega un'estremità dove parti e potrai sempre seguirlo per tornare indietro, per quanto si aggrovigli il cammino.
+    pt-PT: Um novelo de lã vermelha viva. Ata uma ponta onde começas e podes sempre segui-la de volta, por mais enredado que o caminho fique.
   first_seen: pooks-tangled-paths
 
 - id: honey-oatcake
@@ -17,11 +19,13 @@
     en-GB: The Honey Oatcake
     es-ES: La Torta de Avena y Miel
     it-IT: La Focaccia d'Avena e Miele
+    pt-PT: O Bolo de Aveia e Mel
   kind: item
   description:
     en-GB: A warm, sweet oatcake. Shared with a shy or lonely soul, it can turn a worried frown into a friend.
     es-ES: Una torta de avena dulce y caliente. Compartida con un alma tímida o solitaria, puede convertir un ceño preocupado en un amigo.
     it-IT: Una focaccia d'avena dolce e calda. Condivisa con un'anima timida o solitaria, può trasformare un cipiglio preoccupato in un amico.
+    pt-PT: Um bolo de aveia quente e doce. Partilhado com uma alma tímida ou solitária, pode transformar uma cara preocupada num amigo.
   first_seen: the-land-of-youth
 
 - id: little-harp

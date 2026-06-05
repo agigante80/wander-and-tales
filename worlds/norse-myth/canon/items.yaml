@@ -5,11 +5,13 @@
     en-GB: The Everwarm Ember
     es-ES: La Brasa Siempre Cálida
     it-IT: La Brace Sempre Calda
+    pt-PT: A Brasa Sempre Quente
   kind: item
   description:
     en-GB: A glowing coal from the great hearth that never goes cold. It can carry the warmth of home safely across the coldest, darkest night.
     es-ES: Un carbón encendido del gran hogar que nunca se enfría. Puede llevar el calor del hogar a salvo a través de la noche más fría y oscura.
     it-IT: Un carbone ardente del grande focolare che non si raffredda mai. Può portare il calore di casa al sicuro attraverso la notte più fredda e buia.
+    pt-PT: Um carvão aceso do grande lar que nunca arrefece. Pode levar o calor de casa em segurança através da noite mais fria e escura.
   first_seen: the-long-winters-night
 
 - id: red-yarn
