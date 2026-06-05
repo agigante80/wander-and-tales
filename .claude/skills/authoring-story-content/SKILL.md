@@ -101,8 +101,19 @@ These are small and unforgiving, so check them deliberately.
 others like `en-US` or `es-419` added later as their own folders. The same codes
 key the `title:` map in `story.yaml` and the `names:` map in canon.
 
-Glossary appendices, map labels, and the catalog are **generated from canon**, so
-you do not hand-write them; you keep canon correct and they follow.
+Glossary appendices, hand-drawn map labels, and the catalog are **generated from
+canon**, so you do not hand-write them; you keep canon correct and they follow.
+
+Every story also gets a **generated trail map** when it has no hand-drawn one: the
+build reads your `## Stop N: Name` headings (and the ending heading) and draws a
+START, the numbered stops, and a GOAL on a winding path, in each language straight
+from your headings. So the stop headings are not just structure: they become the map's
+waypoint labels. Name each stop after the **place or landmark** it happens at (`The
+Vine Gate`, `The Foggy Square`, `Milo's Kitchen`), short enough to sit beside a marker
+(about two to four words), and give the final `##` an ending that names where the
+journey lands. There is nothing extra to author: a good set of stop names is a good
+map. An author may later drop in a bespoke `assets/map.svg` to override the generated
+one, but it is never required.
 
 The idea bank is world-level (one per world per locale), not per story; the narration,
 rules, and puzzles remain per story. Version numbers, the colophon, and the licence are
@@ -182,6 +193,7 @@ set and avoids multiplying the build.
 - Reading level matches the file (simple vs rich) and the age tier.
 - Tone matches the story's peril tag.
 - Difficulty is expressed in bands, not specific dice.
+- Stop headings name a place or landmark and are short: they become the map's labels.
 - Spanish reads naturally to a native child and uses correct accents.
 - Read narration aloud once: it should sound good in a grown-up's voice.
 

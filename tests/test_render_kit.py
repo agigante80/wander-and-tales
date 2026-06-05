@@ -49,13 +49,14 @@ def test_story_pack_writes_nested_versioned_pdf(sample_repo, tmp_path):
     assert out.read_bytes().startswith(b"%PDF")
 
 
-def test_story_pack_has_only_front_narration_sheet_colophon(sample_repo, tmp_path):
-    # No map, no cover, no scenes: front + narration + sheet + colophon = 4 pages.
+def test_story_pack_has_front_map_narration_sheet_colophon(sample_repo, tmp_path):
+    # No hand-drawn map, no cover, no scenes: the map is generated, so the pack is
+    # front + map + narration + sheet + colophon = 5 pages.
     out = kit.build_story_pack(
         sample_repo, "floating-isles", "sleeping-garden", "es-ES", "rich",
         out_dir=tmp_path,
     )
-    assert len(PdfReader(str(out)).pages) == 4
+    assert len(PdfReader(str(out)).pages) == 5
 
 
 def test_story_pack_adds_a_landscape_map_page(sample_repo, tmp_path):
@@ -89,12 +90,14 @@ def test_cover_image_stays_on_the_front_page(sample_repo, tmp_path):
         sample_repo, "floating-isles", "sleeping-garden", "en-GB", "simple",
         out_dir=tmp_path,
     )
-    # The cover is embedded on the front page, so the page count is unchanged at 4.
-    assert len(PdfReader(str(out)).pages) == 4
+    # The cover is embedded on the front page (not a new page); with the generated map
+    # the pack is front + map + narration + sheet + colophon = 5 pages.
+    assert len(PdfReader(str(out)).pages) == 5
 
 
-def test_story_pack_every_page_is_a4_without_a_map(sample_repo, tmp_path):
-    # The no-map build must still be all A4 (the map test covers the landscape case).
+def test_story_pack_every_page_is_a4_without_a_hand_map(sample_repo, tmp_path):
+    # With no hand-drawn map the pack still ships a generated trail map, and every page
+    # (including that A4-portrait map) must be A4. The landscape hand-map case is above.
     out = kit.build_story_pack(
         sample_repo, "floating-isles", "sleeping-garden", "en-GB", "simple",
         out_dir=tmp_path,

@@ -129,10 +129,13 @@ The README's "Get the kit" table is generated, so do not hand-edit between the
   ```
 
   Confirm: A4 white pages; the front page shows the world paragraph and the cover when
-  art exists; accents render; scene images embed; the last page is the colophon with
-  the QR, the licence, and the version; and every page has the footer with `page x of
-  y`. Check the World Book (cover, glossary with portraits, idea bank, stories list)
-  and the Grown-up's Playbook (rules then answers) the same way.
+  art exists; the map page renders (a hand-drawn map where one exists, otherwise the
+  generated trail map: START, the numbered stops, and a GOAL, with the stop names as
+  labels in that locale and the trail reading start to finish); accents render; scene
+  images embed; the last page is the colophon with the QR, the licence, and the
+  version; and every page has the footer with `page x of y`. Check the World Book
+  (cover, glossary with portraits, idea bank, stories list) and the Grown-up's Playbook
+  (rules then answers) the same way.
 - Confirm the README links resolve and no filename carries a `+`:
 
   ```bash

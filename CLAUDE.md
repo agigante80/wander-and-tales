@@ -98,8 +98,9 @@ so there is no clash. Data flows in one direction:
   world palette and resolved faces (with `tint()` for light fills), `chrome.py` holds
   the shared, palette-driven page chrome (header band, beat chip, prompt callout,
   rounded image) reused by both the sheet and the booklets, `flowables.py`/`pages.py`
-  render, `glossary.py` builds the appendix from canon, `map.py` renders the SVG via
-  cairosvg, `sheets.py` draws the age-tiered character sheets, and
+  render, `glossary.py` builds the appendix from canon, `map.py` renders a hand-drawn
+  map SVG via cairosvg and `mapgen.py` draws a generated trail map when there is none,
+  `sheets.py` draws the age-tiered character sheets, and
   `kit.py:build_story_pack` merges the
   ordered pages with pypdf. Each kit splits into three artifacts (Story Pack,
   Grown-up's Playbook, World Book) plus the Guide; `version.py` stamps an automatic
@@ -112,12 +113,21 @@ so there is no clash. Data flows in one direction:
   `worlds/<world>/assets/`. `map.py:find_map` resolves a kit's map in order: story
   map for the locale (`map.<locale>.svg`), story map generic (`map.svg`), then the
   same two at the world level. When the art has baked-in text, add a
-  `map.<locale>.svg`; a locale with no matching map omits the map page rather than
-  showing another language's labels. A map may also be a neutral template: text
-  becomes `data-label` placeholders that `map.py:render_map_template` fills per
-  locale from the story title, canon names, and `map_*` UI strings, so one `map.svg`
-  serves every language. The Sleeping Garden uses this (its old `map.es-ES.svg` is
-  gone), so en-GB kits now include the map too.
+  `map.<locale>.svg`. A map may also be a neutral template: text becomes `data-label`
+  placeholders that `map.py:render_map_template` fills per locale from the story title,
+  canon names, and `map_*` UI strings, so one `map.svg` serves every language. The
+  Sleeping Garden uses this (its old `map.es-ES.svg` is gone), so en-GB kits include
+  the map too.
+- **Every story carries a map; `mapgen.py` generates one when none is drawn.** If
+  `find_map` resolves nothing, `kit.py` calls `mapgen.render_generated_map`, which
+  reads the story's own narration headings (`## Stop N: Name` plus the ending) and
+  draws a canvas trail map: a START, the numbered stops, and a GOAL on a winding golden
+  path, themed from the world palette and labelled per locale straight from the
+  headings (so it scales to every story and language with no art). It is layout-only,
+  like the sheet. A hand-drawn `map.svg` always wins, so an author can replace a
+  generated map with bespoke art later. The generated map reads `narration.simple.md`
+  for all levels, and `mapgen.py` is in `version._RENDER_SOURCES` so its edits bump the
+  MINOR version. Map labels come from the stop headings, so name stops as places.
 
 Authoring any kid-facing or grown-up-facing prose or YAML content is a content
 task, not a coding task: use the `authoring-story-content` skill, which encodes

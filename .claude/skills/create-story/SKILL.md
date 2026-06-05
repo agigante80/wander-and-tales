@@ -104,6 +104,14 @@ the art can always be added later.
 - **Bring their own art.** The author drops their own original pictures into the story
   or world `assets/` as `<image-id>.png`.
 
+The **map needs no art**: every Story Pack gets a trail map generated automatically
+from the story's stop headings (a START, the numbered stops, and a GOAL), in each
+language. There is nothing to generate or draw. An author who wants bespoke map art can
+drop a hand-drawn `worlds/<world>/stories/<story>/assets/map.svg` (a neutral template
+with `data-label` placeholders, or a finished SVG) and it overrides the generated one,
+but that is optional. Because the generated map is labelled from the `## Stop` headings,
+good place-like stop names (see the authoring skill) are what make a good map.
+
 ## Step 7: advisory consistency check
 
 Read the new story's use of canon against the existing canon descriptions and the
@@ -132,7 +140,9 @@ not a hard gate.
    play from, the Grown-up's Playbook with the answers, and the World Book) and that
    they can print and play.
 3. Eyeball one built Story Pack (rasterize a page) to confirm it looks right: A4, the
-   front page with the world paragraph, accents render, and any images embed.
+   front page with the world paragraph, the map page (the generated trail from START to
+   GOAL, with the stop names as labels in that language), accents render, and any images
+   embed.
 
 Do **not** run `python -m build rebuild`: that rewrites the committed `kits/` tree and
 the root README, which is the maintainer's publish step, not a personal build.

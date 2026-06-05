@@ -36,6 +36,7 @@ _RENDER_SOURCES = (
     "build/render/sheets.py",
     "build/render/glossary.py",
     "build/render/map.py",
+    "build/render/mapgen.py",
     "build/render/footer.py",
     "build/render/colophon.py",
     "build/render/fonts.py",
@@ -128,6 +129,10 @@ def story_pack_inputs(
     resolved_map = kit_map.find_map(world_dir, story_dir, locale)
     if resolved_map is not None:
         paths.append(resolved_map)
+    elif level != "simple":
+        # The generated trail map always reads the simple narration, so a rich pack's
+        # version must move when that map source changes too.
+        paths.append(story_dir / "content" / locale / "narration.simple.md")
     story_yaml = story_dir / "story.yaml"
     if story_yaml.is_file():
         for image in content.load_story(story_yaml).images:
