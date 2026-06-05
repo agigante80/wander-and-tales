@@ -13,7 +13,7 @@ un bambino, o con un gruppetto di bambini, ad alta voce, con un kit stampato e q
 oggetto di casa. Niente app, niente schermo. Tu leggi un po' di storia, i bambini
 dicono che cosa vogliono fare e, insieme, superate piccole sfide con un tiro di dado.
 Giocate tutti dalla stessa parte, aiutandovi a vicenda, mai gli uni contro gli altri.
-L'unico obiettivo è divertirsi insieme e sentirsi in gamba e gentili. Non serve
+L'unico obiettivo è divertirsi insieme, e ogni idea è quella giusta. Non serve
 nessuna esperienza: se sai leggere una favola della buonanotte, sai condurre questo
 gioco.
 
@@ -163,7 +163,7 @@ Bloccarsi è normale. Ricorri a questi accorgimenti, in ordine:
   tiro di aiuto.
 - Lascia che **uniscano le proprie forze** per un successo automatico.
 - Se proprio niente funziona, **lascia semplicemente che ci riescano.** Lo slancio
-  conta più del rigore. Un bambino che si sente in gamba giocherà per un'ora; uno
+  conta più del rigore. Un bambino che si sente orgoglioso delle sue idee giocherà per un'ora; uno
   che si sente bloccato se ne andrà a fare altro.
 
 ## Tenere incantato un bambino piccolo
@@ -199,7 +199,7 @@ bambino che chiede di giocare ancora.
 Tienine alcune sulla punta della lingua:
 
 - "Sì, e..."
-- "Ooh, che idea in gamba. E adesso che cosa succede?"
+- "Ooh, che bella idea. E adesso che cosa succede?"
 - "Certo che puoi provarci. Vediamo un po'..."
 - "Non è andata proprio bene, e allora che altro potremmo fare?"
-- "Ci sei riuscito essendo in gamba e gentile. Bravissimo."
+- "Ci sei riuscito con gentilezza e con le tue idee. Bravissimo."

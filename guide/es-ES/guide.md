@@ -12,7 +12,7 @@ en voz alta, con un kit impreso y unas pocas cosas de casa. No hay aplicación n
 pantalla. Tú lees un poco de historia, los niños dicen qué quieren hacer y, juntos,
 superáis pequeños retos con una tirada de dado. Jugáis todos en el mismo equipo,
 ayudándoos entre vosotros, nunca unos contra otros. El único objetivo es pasarlo bien
-juntos y sentiros listos y amables. No hace falta ninguna experiencia: si sabes leer
+juntos, y toda idea es buena. No hace falta ninguna experiencia: si sabes leer
 un cuento antes de dormir, sabes dirigir esto.
 
 ## Cómo es jugar, en la práctica
@@ -155,7 +155,7 @@ Atascarse es normal. Echa mano de esto, por orden:
 - **Baja la dificultad** un nivel, o deja que la tirada de ayuda lo resuelva.
 - Deja que **combinen sus fuerzas** para un éxito automático.
 - Si nada funciona, **deja que lo consigan sin más.** El impulso importa más que el
-  rigor. Un niño que se siente listo jugará una hora; uno que se siente atascado se
+  rigor. Un niño que se siente orgulloso de sus ideas jugará una hora; uno que se siente atascado se
   irá a otra cosa.
 
 ## Mantener enganchado a un niño pequeño
@@ -189,7 +189,7 @@ otra vez.
 Ten estas en la punta de la lengua:
 
 - "Sí, y..."
-- "Oooh, qué idea más lista. ¿Y ahora qué pasa?"
+- "Oooh, qué idea tan buena. ¿Y ahora qué pasa?"
 - "Claro que puedes intentarlo. A ver qué sale..."
 - "Eso no ha salido del todo, así que ¿qué más podríamos hacer?"
-- "Lo has conseguido siendo listo y amable. Bien hecho."
+- "Lo has conseguido con amabilidad y con tus ideas. Bien hecho."
