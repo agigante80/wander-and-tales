@@ -3,6 +3,7 @@ name:
   en-GB: The Blossom Mountains of Yamato
   es-ES: Las Montañas en Flor de Yamato
   it-IT: I Monti in Fiore di Yamato
+  pt-PT: As Montanhas em Flor de Yamato
 tone: serene wonder
 hero_powers: strength
 palette:
@@ -54,6 +55,19 @@ lore_summary:
     più grandi si compiono con immaginazione, coraggio e un cuore gentile, e persino un
     guardiano spaventoso, accolto con calma e parole gentili, spesso si rivela più
     buono di quanto sembri.
+  pt-PT: >
+    As montanhas em flor de Yamato erguem-se em suaves dobras verdes acima de
+    campos de arroz em socalcos e pequenas aldeias enfeitadas com lanternas de
+    papel, onde as cerejeiras deixam cair as suas pétalas ao vento e os portões
+    torii vermelhos assinalam os santuários tranquilos. A neblina paira entre os
+    bambus, a lua estende um caminho prateado sobre o rio, e as colinas estão
+    cheias de espíritos gentis: uma raposa que propõe adivinhas, pirilampos tímidos
+    que acendem as lanternas, um alegre tanuki brincalhão, cães guardiões de pedra e
+    um grande dragão do rio que traz as chuvas. Aqui um herói não é o mais forte nem
+    o que grita mais alto, mas aquele que é paciente, pensa bem nas coisas e é bondoso
+    com todos os seres vivos. Os feitos mais grandiosos fazem-se com imaginação,
+    coragem e um coração gentil, e até um guardião assustador, recebido com calma e
+    palavras amáveis, muitas vezes mostra-se mais bondoso do que parece.
 visual_style: >
   Soft, warm storybook illustration blending gentle Japanese woodblock line with
   watercolour and coloured-pencil texture, in a serene mountain mood: pale pink
@@ -77,6 +91,7 @@ images:
       en-GB: The blossom mountains of Yamato at dusk, a village of glowing paper lanterns and a red torii gate below misty mountains, cherry blossom drifting, a silver moon rising.
       es-ES: Las montañas en flor de Yamato al anochecer, un pueblo de faroles de papel encendidos y una puerta torii roja bajo montañas neblinosas, con pétalos de cerezo al viento y una luna plateada que asoma.
       it-IT: I monti in fiore di Yamato al crepuscolo, un villaggio di lanterne di carta accese e un portale torii rosso sotto montagne nebbiose, con petali di ciliegio nel vento e una luna d'argento che sorge.
+      pt-PT: As montanhas em flor de Yamato ao anoitecer, uma aldeia de lanternas de papel acesas e um portão torii vermelho sob montanhas enevoadas, com pétalas de cerejeira ao vento e uma lua prateada a despontar.
   - id: kon-fox
     role: portrait
     orientation: square
@@ -89,6 +104,7 @@ images:
       en-GB: A friendly russet fox spirit with bright lively eyes sitting among bamboo, smiling as if about to ask a riddle.
       es-ES: Un amable espíritu zorro de pelaje rojizo y ojos vivos sentado entre el bambú, sonriendo como si fuera a plantear un acertijo.
       it-IT: Un gentile spirito volpe dal pelo rossiccio e occhi vivaci seduto tra il bambù, che sorride come se stesse per porre un indovinello.
+      pt-PT: Um amável espírito raposa de pelo ruivo e olhos vivos sentado entre os bambus, a sorrir como se fosse propor uma adivinha.
   - id: river-dragon
     role: portrait
     orientation: square
@@ -101,3 +117,4 @@ images:
       en-GB: A great gentle river dragon with soft blue-green scales, kind sleepy eyes and flowing whiskers, curled peacefully among misty water.
       es-ES: Un gran dragón del río amable, de suaves escamas azules y verdes, ojos bondadosos y soñolientos y largos bigotes, enroscado en paz entre el agua y la niebla.
       it-IT: Un grande drago del fiume gentile, dalle morbide squame azzurre e verdi, occhi buoni e assonnati e lunghi baffi, acciambellato in pace tra l'acqua e la nebbia.
+      pt-PT: Um grande dragão do rio bondoso, de suaves escamas azuis e verdes, olhos meigos e sonolentos e longos bigodes, enrolado em paz entre a água e a neblina.

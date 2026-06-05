@@ -14,18 +14,20 @@ def _entries():
         CanonEntry.model_validate(
             {"id": "great-garden", "kind": "place",
              "names": {"en-GB": "The Great Garden", "es-ES": "El Gran Jardin",
-                       "it-IT": "Il Grande Giardino"},
+                       "it-IT": "Il Grande Giardino", "pt-PT": "Il Grande Giardino"},
              "description": {"en-GB": "The green heart of the island.",
                              "es-ES": "El corazon verde de la isla.",
-                             "it-IT": "Il cuore verde dell'isola."}}
+                             "it-IT": "Il cuore verde dell'isola.",
+                             "pt-PT": "Il cuore verde dell'isola."}}
         ),
         CanonEntry.model_validate(
             {"id": "mist-cat", "kind": "creature",
              "names": {"en-GB": "Mist Cat", "es-ES": "Gato de Niebla",
-                       "it-IT": "Gatto di Nebbia"},
+                       "it-IT": "Gatto di Nebbia", "pt-PT": "Gatto di Nebbia"},
              "description": {"en-GB": "A gentle cat made of fog.",
                              "es-ES": "Un gato amable hecho de niebla.",
-                             "it-IT": "Un gatto gentile fatto di nebbia."}}
+                             "it-IT": "Un gatto gentile fatto di nebbia.",
+                             "pt-PT": "Un gatto gentile fatto di nebbia."}}
         ),
     ]
 

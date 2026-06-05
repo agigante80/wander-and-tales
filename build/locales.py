@@ -1,13 +1,15 @@
-"""Locale codes. British English is canonical; Spanish from Spain and Italian are synced.
+"""Locale codes. British English is canonical; Spanish from Spain, Italian, and
+European Portuguese are synced.
 
-US English, Latin American Spanish, and other locales are separate languages
-added later, each keyed by its own explicit code (like pt-PT versus pt-BR).
+US English, Latin American Spanish, and Brazilian Portuguese are separate languages
+added later, each keyed by its own explicit code (pt-PT here is Portugal's
+Portuguese, distinct from pt-BR).
 """
 
 from collections.abc import Mapping
 
 CANONICAL_LOCALE = "en-GB"
-SYNCED_LOCALES = ("es-ES", "it-IT")
+SYNCED_LOCALES = ("es-ES", "it-IT", "pt-PT")
 REQUIRED_LOCALES = (CANONICAL_LOCALE, *SYNCED_LOCALES)
 
 

@@ -18,7 +18,9 @@ LEVELS = ("simple", "rich")
 README_BEGIN = "<!-- BEGIN KIT TABLE -->"
 README_END = "<!-- END KIT TABLE -->"
 
-_LANG_NAME = {"en-GB": "English", "es-ES": "Español", "it-IT": "Italiano"}
+_LANG_NAME = {
+    "en-GB": "English", "es-ES": "Español", "it-IT": "Italiano", "pt-PT": "Português",
+}
 _AGE_RANGE = {"early": "3 to 5", "young": "6 to 8", "older": "9 to 12"}
 
 
@@ -103,6 +105,7 @@ _LEVEL_LABELS = {
     "en-GB": {"simple": "Tale (Simple)", "rich": "Tale (Rich)", "atlas": "Atlas"},
     "es-ES": {"simple": "Relato (Sencillo)", "rich": "Relato (Completo)", "atlas": "Atlas"},
     "it-IT": {"simple": "Racconto (Semplice)", "rich": "Racconto (Completo)", "atlas": "Atlas"},
+    "pt-PT": {"simple": "Conto (Simples)", "rich": "Conto (Completo)", "atlas": "Atlas"},
 }
 
 
@@ -128,7 +131,7 @@ def readme_block(root: Path, built: Built) -> str:
     for (world_id, locale), path in built.example_heroes.items():
         hero_books.setdefault(world_id, {})[locale] = path
 
-    locales = ("en-GB", "es-ES", "it-IT")
+    locales = REQUIRED_LOCALES
 
     def _lang_links(by_locale: dict) -> str:
         return " · ".join(

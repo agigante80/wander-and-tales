@@ -5,12 +5,14 @@
     en-GB: The Riddle Sphinx
     es-ES: La Esfinge de los Acertijos
     it-IT: La Sfinge degli Indovinelli
+    pt-PT: A Esfinge dos Enigmas
   kind: creature
   disposition: fair
   description:
     en-GB: A great winged sphinx with a lion's body and a kind, gentle face, who guards the gate and asks riddles. She is fair, not cruel, and a good answer or a brave guess opens the way.
     es-ES: Una gran esfinge alada con cuerpo de león y un rostro amable y sereno, que guarda la puerta y plantea acertijos. Es justa, no cruel, y una buena respuesta o una conjetura valiente abre el camino.
     it-IT: Una grande sfinge alata con il corpo di leone e un volto buono e sereno, che custodisce la porta e pone indovinelli. È giusta, non crudele, e una buona risposta o una supposizione coraggiosa apre la via.
+    pt-PT: Uma grande esfinge alada com corpo de leão e um rosto bondoso e sereno, que guarda o portão e põe enigmas. É justa, não cruel, e uma boa resposta ou um palpite corajoso abre o caminho.
   first_seen: the-singing-spring
 
 - id: lonely-cyclops

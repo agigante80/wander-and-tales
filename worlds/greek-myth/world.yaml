@@ -3,6 +3,7 @@ name:
   en-GB: The Sunlit Hills of Greece
   es-ES: Las Colinas Soleadas de Grecia
   it-IT: Le Colline Assolate della Grecia
+  pt-PT: As Colinas Soalheiras da Grécia
 tone: sunlit heroism
 hero_powers: strength
 palette:
@@ -48,6 +49,18 @@ lore_summary:
     più grandi si compiono essendo coraggiosi, gentili e pieni di idee. Persino un
     guardiano spaventoso, se lo affrontate con coraggio e con parole gentili,
     spesso si rivela più solo che malvagio.
+  pt-PT: >
+    As colinas soalheiras da Grécia descem até um mar azul e brilhante,
+    salpicadas de olivais, colunas de mármore branco e pequenas vilas onde
+    toda a gente sabe o teu nome. Lá no alto, escondidos nas nuvens do Monte
+    Olimpo, os deuses velam pelo mundo, e as colinas estão cheias de maravilhas:
+    esfinges que põem enigmas, centauros amáveis, sátiros tímidos e ninfas que
+    cantam junto às fontes. Aqui um herói não é o mais forte nem o que grita
+    mais alto, mas sim aquele que mantém a cabeça fria, faz boas perguntas e
+    nunca abandona um amigo. Os maiores feitos conquistam-se sendo corajosos,
+    bondosos e cheios de ideias. Até um guardião assustador, se o enfrentardes
+    com coragem e com palavras meigas, muitas vezes acaba por estar mais
+    sozinho do que mau.
 visual_style: >
   Soft, warm storybook illustration in gentle watercolour and coloured-pencil
   texture, with a sunlit Mediterranean mood: bright blue sky and sea, white marble
@@ -70,6 +83,7 @@ images:
       en-GB: The sunlit hills of Greece at golden hour, a little white town and olive groves above a blue bay, with a great mountain far away.
       es-ES: Las colinas soleadas de Grecia al atardecer dorado, un pueblecito blanco y olivares sobre una bahía azul, con una gran montaña a lo lejos.
       it-IT: Le colline assolate della Grecia nell'ora dorata, un paesino bianco e degli uliveti sopra una baia azzurra, con una grande montagna in lontananza.
+      pt-PT: As colinas soalheiras da Grécia na hora dourada, uma pequena vila branca e olivais sobre uma baía azul, com uma grande montanha ao longe.
   - id: riddle-sphinx
     role: portrait
     orientation: square
@@ -82,6 +96,7 @@ images:
       en-GB: A friendly sphinx with a kind face and folded golden wings, resting on marble steps.
       es-ES: Una esfinge amable de rostro bondadoso y alas doradas plegadas, descansando en unos escalones de mármol.
       it-IT: Una sfinge gentile dal volto buono e con le ali dorate ripiegate, che riposa su alcuni gradini di marmo.
+      pt-PT: Uma esfinge meiga de rosto bondoso e com as asas douradas recolhidas, descansando numas escadas de mármore.
   - id: lonely-cyclops
     role: portrait
     orientation: square
@@ -94,3 +109,4 @@ images:
       en-GB: A big gentle one-eyed giant sitting alone by a cave, looking shy and sad rather than fierce.
       es-ES: Un gigante amable de un solo ojo sentado solo junto a una cueva, con aire tímido y triste más que feroz.
       it-IT: Un grande gigante gentile con un solo occhio, seduto da solo accanto a una grotta, dall'aria timida e triste più che feroce.
+      pt-PT: Um gigante grande e meigo de um só olho, sentado sozinho ao pé de uma gruta, com ar tímido e triste mais do que feroz.

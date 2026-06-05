@@ -11,7 +11,8 @@ def _image(**over):
         "orientation": "portrait",
         "prompt": "A sleeping garden on a floating island.",
         "alt": {"en-GB": "A sleeping garden.", "es-ES": "Un jardin dormido.",
-                "it-IT": "Un giardino addormentato."},
+                "it-IT": "Un giardino addormentato.",
+                "pt-PT": "Un giardino addormentato."},
     }
     data.update(over)
     return data
@@ -22,7 +23,7 @@ def _story(images=None):
         "world": "floating-isles",
         "id": "sleeping-garden",
         "title": {"en-GB": "The Sleeping Garden", "es-ES": "El Jardin Dormido",
-                  "it-IT": "Il Giardino Addormentato"},
+                  "it-IT": "Il Giardino Addormentato", "pt-PT": "Il Giardino Addormentato"},
         "age": {"recommended": "young"},
         "skills": ["logic"],
         "peril": "gentle",
@@ -68,14 +69,14 @@ def test_missing_alt_locale_fails():
 
 
 def test_world_without_images_defaults_empty_and_no_style():
-    world = World.model_validate({"id": "w", "name": {"en-GB": "W", "es-ES": "W", "it-IT": "W"}})
+    world = World.model_validate({"id": "w", "name": {"en-GB": "W", "es-ES": "W", "it-IT": "W", "pt-PT": "W"}})
     assert world.images == []
     assert world.visual_style is None
 
 
 def test_world_collects_visual_style_and_images():
     world = World.model_validate(
-        {"id": "w", "name": {"en-GB": "W", "es-ES": "W", "it-IT": "W"},
+        {"id": "w", "name": {"en-GB": "W", "es-ES": "W", "it-IT": "W", "pt-PT": "W"},
          "visual_style": "Soft storybook art.", "images": [_image()]}
     )
     assert world.visual_style == "Soft storybook art."
@@ -90,7 +91,7 @@ def test_story_collects_images():
 def test_duplicate_image_ids_in_a_world_fail():
     with pytest.raises(ValidationError) as err:
         World.model_validate(
-            {"id": "w", "name": {"en-GB": "W", "es-ES": "W", "it-IT": "W"},
+            {"id": "w", "name": {"en-GB": "W", "es-ES": "W", "it-IT": "W", "pt-PT": "W"},
              "images": [_image(id="dup"), _image(id="dup")]}
         )
     assert "dup" in str(err.value)

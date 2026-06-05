@@ -6,11 +6,13 @@
     en-GB: Light
     es-ES: Luz
     it-IT: Luce
+    pt-PT: Luz
   kind: quality
   description:
     en-GB: Reveals what is hidden and calms frightened creatures.
     es-ES: Revela lo que está escondido y calma a las criaturas asustadas.
     it-IT: Rivela ciò che è nascosto e calma le creature spaventate.
+    pt-PT: Revela o que está escondido e acalma as criaturas assustadas.
   first_seen: sleeping-garden
 
 - id: magic-grow
@@ -18,11 +20,13 @@
     en-GB: Grow
     es-ES: Crecer
     it-IT: Crescita
+    pt-PT: Crescer
   kind: quality
   description:
     en-GB: Makes plants, bridges and paths grow so nobody is ever stuck.
     es-ES: Hace crecer plantas, puentes y caminos para que nadie se quede atascado.
     it-IT: Fa crescere piante, ponti e sentieri così nessuno resta mai bloccato.
+    pt-PT: Faz crescer plantas, pontes e caminhos para que ninguém fique preso.
   first_seen: sleeping-garden
 
 - id: magic-change

@@ -3,6 +3,7 @@ name:
   en-GB: The Enchanted Springs of Portugal
   es-ES: Las Fuentes Encantadas de Portugal
   it-IT: Le Sorgenti Incantate del Portogallo
+  pt-PT: As Fontes Encantadas de Portugal
 tone: gentle folklore wonder
 hero_powers: magic
 palette:
@@ -47,6 +48,16 @@ lore_summary:
     guarda. Qui un eroe non vince perché è il più forte, ma perché è gentile, chiede le
     cose all'acqua con dolcezza e non abbandona mai un amico. Persino un gigante enorme
     e dall'aria spaventosa delle colline quasi sempre si rivela più solo che pauroso.
+  pt-PT: >
+    Nas fontes encantadas de Portugal, as vilas de calçada aninham-se entre telhados
+    de telha, amendoeiras que florescem brancas como a neve e colinas coroadas de
+    estrelas. Aqui a magia é a água: cada fonte, nascente e velho poço de pedra guarda
+    a sua própria maravilha silenciosa. Umas donzelas encantadas chamadas as Mouras
+    mantêm as fontes doces, um galo luminoso só canta a verdade e um duendezinho
+    travesso chamado Trasgo arruma e prega partidas quando ninguém está a ver. Aqui um
+    herói não vence por ser o mais forte, mas por ser bondoso, por pedir as coisas à
+    água com doçura e por nunca abandonar um amigo. Até um gigante enorme e de aspeto
+    assustador das colinas quase sempre se revela mais só do que assustador.
 visual_style: >
   Soft, warm storybook illustration in gentle watercolour and coloured-pencil texture,
   with a Portuguese folklore mood: cobblestone squares, whitewashed walls and blue

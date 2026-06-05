@@ -1,0 +1,105 @@
+world: enchanted-springs
+id: queen-isabels-roses
+title:
+  en-GB: Queen Isabel's Roses
+  es-ES: Las Rosas de la Reina Isabel
+  it-IT: Le Rose della Regina Isabella
+  pt-PT: As Rosas da Rainha Isabel
+age:
+  recommended: older
+  also_works_for: [young]
+skills:
+  - social-emotional
+  - vocabulary
+  - observation
+  - logic
+peril: mild
+adult_gm: true
+dice:
+  minimum: 1d6
+  recommended: d20-set
+players:
+  min: 2
+  max: 5
+play_time_minutes: 40
+images:
+  - id: cover
+    role: cover
+    orientation: portrait
+    canon_ref: coimbra
+    prompt: >
+      An old riverside Portuguese city at dawn, stone streets winding up to a
+      hilltop castle, a child in a cloak setting out with a cloth-covered basket,
+      a few white roses tucked into a doorway, soft golden light. Warm and a
+      little secret.
+    alt:
+      en-GB: An old riverside city at dawn, a child setting out with a cloth-covered basket, a hilltop castle and a few white roses.
+      es-ES: Una vieja ciudad junto al río al amanecer, una niña saliendo con una cesta tapada con un paño, un castillo en lo alto y unas rosas blancas.
+      it-IT: Una vecchia città in riva al fiume all'alba, una bambina che esce con un cesto coperto da un panno, un castello in cima al colle e alcune rose bianche.
+      pt-PT: Uma velha cidade à beira do rio ao amanhecer, uma criança a sair com um cesto tapado com um pano, um castelo no alto e algumas rosas brancas.
+  - id: scene-the-castle-kitchen
+    role: scene
+    orientation: landscape
+    canon_ref: rosca-bread
+    prompt: >
+      A warm castle kitchen at first light, a long table of golden ring-shaped
+      loaves, children quietly filling a basket and covering it with a cloth, a
+      kind queenly figure looking on gently from the doorway. Cosy and tender.
+    alt:
+      en-GB: A warm castle kitchen at first light, children quietly filling a basket with golden ring loaves, a kind queenly figure looking on.
+      es-ES: Una cálida cocina de castillo al amanecer, niños llenando en silencio una cesta con panes dorados en forma de rosca, y una figura de reina bondadosa mirando.
+      it-IT: Una calda cucina del castello all'alba, bambini che riempiono in silenzio un cesto di pani dorati a ciambella, e una figura regale e gentile che osserva.
+      pt-PT: Uma cozinha de castelo acolhedora ao amanhecer, crianças a encher em silêncio um cesto de pães dourados em forma de rosca, e uma figura de rainha bondosa a observar.
+  - id: scene-the-winding-streets
+    role: scene
+    orientation: landscape
+    canon_ref: coimbra
+    prompt: >
+      Children carrying a cloth-covered basket down narrow winding stone streets
+      in the early morning, glancing kindly at a cold doorway and a hungry-looking
+      cat, washing strung overhead, gentle and quiet. Soft and watchful.
+    alt:
+      en-GB: Children carrying a covered basket down narrow winding stone streets at early morning, glancing kindly at a cold doorway.
+      es-ES: Niños llevando una cesta tapada por estrechas calles de piedra al amanecer, mirando con cariño hacia un portal frío.
+      it-IT: Bambini che portano un cesto coperto per stretti vicoli di pietra al mattino presto, guardando con gentilezza verso una soglia fredda.
+      pt-PT: Crianças a levar um cesto tapado por vielas estreitas de pedra de manhã cedo, a olhar com carinho para uma soleira fria.
+  - id: scene-the-watchmans-gate
+    role: scene
+    orientation: landscape
+    canon_ref: watchman
+    prompt: >
+      A stern but kindly town watchman in a cloak at a stone castle gate, holding
+      up a hand to stop the children, leaning to lift the cloth on their basket,
+      the children calm and honest. Tense but gentle, never menacing.
+    alt:
+      en-GB: A stern but kindly watchman at a stone gate stopping the children and lifting the cloth on their basket, the children calm and honest.
+      es-ES: Un guardia severo pero bondadoso en una puerta de piedra deteniendo a los niños y levantando el paño de su cesta, los niños serenos y sinceros.
+      it-IT: Una guardia severa ma gentile a un cancello di pietra che ferma i bambini e solleva il panno del loro cesto, i bambini calmi e sinceri.
+      pt-PT: Um guarda severo mas bondoso num portão de pedra a parar as crianças e a levantar o pano do seu cesto, as crianças calmas e sinceras.
+  - id: scene-the-bread-becomes-roses
+    role: scene
+    orientation: landscape
+    canon_ref: queen-isabel
+    prompt: >
+      The basket cloth lifted to reveal not bread but a heap of fresh white and
+      pink roses spilling over the rim, everyone around it wide-eyed with wonder,
+      soft light and falling petals. Magical, joyful and gentle.
+    alt:
+      en-GB: A basket cloth lifted to reveal a heap of fresh white and pink roses instead of bread, everyone around it wide-eyed with wonder.
+      es-ES: Se levanta el paño de la cesta y aparece un montón de rosas blancas y rosadas frescas en vez de pan, todos alrededor maravillados.
+      it-IT: Si solleva il panno del cesto e appare un mucchio di rose fresche bianche e rosa al posto del pane, tutti intorno meravigliati.
+      pt-PT: Levanta-se o pano do cesto e surge um monte de rosas frescas brancas e cor-de-rosa em vez de pão, todos à volta maravilhados.
+  - id: scene-roses-all-the-way-home
+    role: scene
+    orientation: landscape
+    canon_ref: coimbra
+    prompt: >
+      The riverside city in full morning light with roses blooming along every
+      wall and doorway, children and townsfolk smiling and sharing bread and
+      flowers, the watchman softened and helping. Warm, golden and overflowing
+      with kindness.
+    alt:
+      en-GB: The city in full morning light with roses blooming along every wall, children and townsfolk sharing bread and flowers, the watchman helping.
+      es-ES: La ciudad a plena luz de la mañana con rosas floreciendo en cada muro, niños y vecinos compartiendo pan y flores, y el guardia ya amable ayudando.
+      it-IT: La città in piena luce del mattino con rose che fioriscono su ogni muro, bambini e paesani che condividono pane e fiori, e la guardia ormai gentile che aiuta.
+      pt-PT: A cidade em plena luz da manhã com rosas a florir em cada muro, crianças e moradores a partilhar pão e flores, e o guarda já bondoso a ajudar.

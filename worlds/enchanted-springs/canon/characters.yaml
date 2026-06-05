@@ -21,3 +21,31 @@
     es-ES: La reina bondadosa de antaño, recordada en toda la tierra. Llevaba pan a los pobres en secreto, y cuando la detuvieron y le abrieron el manto, el pan se había convertido en rosas. Su nombre es sinónimo de bondad callada.
     it-IT: La regina buona di un tempo, ricordata in tutta la terra. Portava il pane ai poveri di nascosto, e quando la fermarono e le aprirono il mantello, il pane si era trasformato in rose. Il suo nome è sinonimo di bontà silenziosa.
   first_seen: mouras-lost-comb
+
+- id: pilgrim
+  names:
+    en-GB: The Pilgrim
+    es-ES: El Peregrino
+    it-IT: Il Pellegrino
+    pt-PT: O Peregrino
+  kind: character
+  description:
+    en-GB: A kind, footsore traveller passing through Barcelos on the long road to Santiago. When the silver cup goes missing he is wrongly blamed, simply because he is a stranger. He is gentle and honest, and waits patiently for the truth to come out.
+    es-ES: Un viajero amable y con los pies cansados que pasa por Barcelos en el largo camino a Santiago. Cuando desaparece la copa de plata, lo culpan sin razón solo por ser un forastero. Es amable y honesto, y espera con paciencia a que se sepa la verdad.
+    it-IT: Un viaggiatore gentile e con i piedi stanchi che passa da Barcelos sulla lunga strada per Santiago. Quando la coppa d'argento sparisce, lo accusano ingiustamente solo perché è un forestiero. È gentile e onesto, e aspetta con pazienza che venga a galla la verità.
+    pt-PT: Um viajante gentil e de pés cansados que passa por Barcelos no longo caminho para Santiago. Quando a taça de prata desaparece, é culpado injustamente só por ser um forasteiro. É gentil e honesto, e espera com paciência que a verdade venha ao de cima.
+  first_seen: galos-silent-dawn
+
+- id: watchman
+  names:
+    en-GB: The Watchman
+    es-ES: El Guardia
+    it-IT: La Guardia
+    pt-PT: O Guarda
+  kind: character
+  description:
+    en-GB: The stern town watchman at the castle gate, who stops anyone carrying a covered basket. He is only doing his job and frowns at first, but underneath he has a soft and fair heart, and is easily won over by a kind, honest word.
+    es-ES: El severo guardia del pueblo en la puerta del castillo, que detiene a quien lleva una cesta tapada. Solo cumple con su deber y al principio frunce el ceño, pero en el fondo tiene un corazón bueno y justo, y se le gana fácilmente con una palabra amable y sincera.
+    it-IT: La severa guardia del paese al cancello del castello, che ferma chiunque porti un cesto coperto. Fa soltanto il suo dovere e all'inizio è accigliata, ma in fondo ha un cuore buono e giusto, e la si conquista facilmente con una parola gentile e sincera.
+    pt-PT: O severo guarda da vila ao portão do castelo, que para quem traz um cesto tapado. Só está a cumprir o seu dever e ao início franze o sobrolho, mas no fundo tem um coração bom e justo, e ganha-se com facilidade com uma palavra gentil e sincera.
+  first_seen: queen-isabels-roses

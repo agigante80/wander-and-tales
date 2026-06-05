@@ -3,6 +3,7 @@ name:
   en-GB: The Windswept Shores of Troy
   es-ES: Las Costas Ventosas de Troya
   it-IT: Le Coste Ventose di Troia
+  pt-PT: As Costas Ventosas de Troia
 tone: epic seafaring wonder
 hero_powers: strength
 palette:
@@ -51,6 +52,18 @@ lore_summary:
     pieno di idee. Le imprese più grandi non si compiono con le lance, ma con
     una buona idea e un cuore buono, e le liti più antiche spesso finiscono con un
     solo coraggioso gesto di amicizia.
+  pt-PT: >
+    As costas ventosas de Troia estendem-se ao longo de um mar Egeu luminoso, onde
+    naus de madeira com olhos pintados repousam encalhadas na longa areia e uma grande
+    cidade de muralhas cor de mel se ergue altiva na colina. Há muito tempo que dois
+    acampamentos, os navegantes cansados na praia e a cidade altiva por detrás dos seus
+    portões, estão presos numa velha discórdia que, na verdade, ninguém quer. Do outro
+    lado do mar cor de vinho fica o longo caminho para casa, cheio de maravilhas: um
+    velho e fiel cão, um guardião dos ventos e cantoras solitárias sobre os rochedos.
+    Aqui um herói não é o mais forte nem o que mais grita, mas quem é corajoso, leal e
+    cheio de ideias. Os maiores feitos não se realizam com lanças, mas com uma boa
+    ideia e um bom coração, e as discórdias mais antigas acabam muitas vezes com um
+    único gesto corajoso de amizade.
 visual_style: >
   Soft, warm storybook illustration in gentle watercolour and coloured-pencil
   texture, with a sunlit Aegean seafaring mood: a bright blue sea, long sandy
@@ -75,6 +88,7 @@ images:
       en-GB: The windswept shores of Troy at golden hour, wooden ships beached on the sand below a great city of honey-coloured walls, a bright blue sea beyond.
       es-ES: Las costas ventosas de Troya al atardecer dorado, naves de madera varadas en la arena bajo una gran ciudad de murallas color miel, con un mar azul al fondo.
       it-IT: Le coste ventose di Troia nell'ora dorata, navi di legno in secca sulla sabbia sotto una grande città dalle mura color miele, con un mare azzurro sullo sfondo.
+      pt-PT: As costas ventosas de Troia na hora dourada, naus de madeira encalhadas na areia sob uma grande cidade de muralhas cor de mel, com um mar azul ao fundo.
   - id: odysseus-bright
     role: portrait
     orientation: square
@@ -87,6 +101,7 @@ images:
       en-GB: A bright kindly sea-captain with a short curly beard and a warm smile, holding a small wooden model of a horse.
       es-ES: Un capitán de mar amable y lleno de ideas, de barba corta y rizada y sonrisa cálida, que sostiene un pequeño caballo de madera como quien comparte una buena idea.
       it-IT: Un capitano di mare gentile e pieno di idee, dalla barba corta e riccia e dal sorriso caldo, che tiene un piccolo cavallo di legno come chi condivide una buona idea.
+      pt-PT: Um capitão do mar amável e cheio de ideias, de barba curta e encaracolada e sorriso caloroso, que segura um pequeno cavalo de madeira como quem partilha uma boa ideia.
   - id: wooden-horse
     role: portrait
     orientation: square
@@ -100,3 +115,4 @@ images:
       en-GB: A huge friendly wooden horse on wheels, garlanded with flowers, its door open to show baskets of figs and a little drum inside.
       es-ES: Un enorme y simpático caballo de madera sobre ruedas, adornado con flores, con la puerta abierta que muestra cestas de higos y un tamborcito dentro.
       it-IT: Un enorme e simpatico cavallo di legno su ruote, ornato di fiori, con lo sportello aperto che mostra ceste di fichi e un tamburello dentro.
+      pt-PT: Um enorme e simpático cavalo de madeira sobre rodas, enfeitado com flores, com a portinhola aberta a mostrar cestos de figos e um tamborzinho lá dentro.
