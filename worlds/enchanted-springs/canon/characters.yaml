@@ -3,11 +3,13 @@
     en-GB: Moura Encantada
     es-ES: Moura Encantada
     it-IT: Moura Encantada
+    pt-PT: Moura Encantada
   kind: character
   description:
     en-GB: A serene enchanted maiden who lives by a clear spring in the hills. With her golden comb she keeps the water sweet and singing, and she rewards a kind heart with cool, clear water and a gentle blessing. She is shy, never wicked.
     es-ES: Una serena doncella encantada que vive junto a un manantial claro en las colinas. Con su peine de oro mantiene el agua dulce y cantarina, y recompensa un corazón amable con agua fresca y clara y una bendición suave. Es tímida, nunca malvada.
     it-IT: Una serena fanciulla incantata che vive accanto a una sorgente limpida fra le colline. Con il suo pettine d'oro tiene l'acqua dolce e cantarina, e ricompensa un cuore gentile con acqua fresca e limpida e una dolce benedizione. È timida, mai malvagia.
+    pt-PT: Uma serena donzela encantada que vive junto a uma fonte límpida nas colinas. Com o seu pente de ouro mantém a água doce e cantante, e recompensa um coração bondoso com água fresca e límpida e uma bênção suave. É tímida, nunca malvada.
   first_seen: mouras-lost-comb
 
 - id: queen-isabel
