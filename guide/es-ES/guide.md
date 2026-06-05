@@ -28,7 +28,7 @@ una tirada del dado añade una pizca de sorpresa:
 Ese es todo el motor: una pregunta, una idea, una tirada y un "sí, y..." que mantiene
 la historia en marcha. Nadie puede quedarse fuera de la diversión por fallar: una
 tirada baja solo significa que buscáis otra manera. La historia te dice cuándo tirar,
-el Cuaderno para la persona adulta te da las soluciones y esta Guía hace el resto.
+el Tale Book te da las soluciones y esta Guía hace el resto.
 
 ## Mundos, historias y kits
 
@@ -50,27 +50,24 @@ Nunca hace falta leerse un mundo entero para empezar. Una historia es una tarde.
 
 Un kit llega como unos cuantos PDF cortos. No tienes por qué imprimirlos todos.
 
-- **El Cuaderno de la historia.** El único cuadernillo que lees y desde el que jugáis,
-  y es **tuyo**, no de los niños: el comienzo, un mapa, la historia para leer en voz
-  alta, las imágenes para mostrar en cada lugar y, en la última página, una **ficha de
-  aventura** en blanco. Guárdalo para ti y ve revelando las cosas sobre la marcha, así
-  la historia sigue siendo una sorpresa; los niños no necesitan su propia copia.
-- **El Cuaderno para la persona adulta.** Las reglas y, sobre todo, las **soluciones**
-  de los puzles. Esta parte es para ti, no para los niños. Puedes tenerla en el móvil o
-  en una pantalla para ahorrar papel. **Léela antes de empezar.**
+- **El Tale Book.** El que lees y desde el que diriges el juego, y es **tuyo**, no de
+  los niños: la historia para leer en voz alta, cómo dirigirla y las **soluciones** de
+  los puzles. Léelo en una pantalla o imprímelo, y guárdalo para ti, así las sorpresas
+  siguen siendo sorpresas. Viene en dos niveles de lectura (uno sencillo para 3 a 8
+  años, uno completo para 9 a 12).
+- **El Atlas.** El mapa, una imagen para cada lugar que vas mostrando al llegar y, al
+  final, una **ficha de aventura** en blanco. Es la única parte que ven los niños.
+  Imprímelo, muéstralo en una pantalla o hazlo a mano (ver más abajo).
 - **El Libro del Mundo** (opcional). Un "quién es quién" de los personajes y criaturas
   del mundo, además de un banco de ideas extra, para cuando quieras más. Está bien
   tenerlo, pero nunca es imprescindible.
 - **Los Héroes de Ejemplo** (opcional). Una página de héroes ya hechos, rellenados,
-  para enseñar a tus niños cómo puede ser un héroe. Imprímela para inspiraros, o solo
-  échale un vistazo en la pantalla.
+  para enseñar a tus niños cómo puede ser un héroe.
 - **Esta Guía** (se lee una vez). Lo que estás leyendo ahora. Después de esto estarás
   listo para cualquier kit de la biblioteca.
 
-El camino más corto: imprime **un solo Cuaderno de la historia** (tu copia para leer) y
-una ficha de aventura para cada jugador, ten el **Cuaderno para la persona adulta**
-abierto a tu lado y lee la historia en voz alta, mostrando cada imagen al llegar a ese
-lugar.
+El camino más corto: abre el **Tale Book** y léelo en voz alta, mostrando cada imagen
+del **Atlas** al llegar a ese lugar, y dale a cada jugador una ficha de aventura.
 
 **¿Sin impresora? No pasa nada.** Nunca hace falta imprimirlo todo. Puedes leer la
 historia desde una pantalla, y el mapa y las fichas de aventura son fáciles de hacer a
@@ -80,23 +77,40 @@ una bonita primera parte de la aventura.
 
 ## La ficha de aventura
 
-La última página de cada Cuaderno de la historia es una **ficha de aventura**, donde
-cada jugador crea su propio héroe. Cogéis una cada uno, tú incluido. En ella un jugador
-escribe un nombre, da a su héroe tres **magias** (o, en los mundos sin magia, tres
-**fortalezas** como la imaginación, el valor o un buen corazón), hace un dibujo rápido y
-anota las pocas cosas que lleva consigo. Las cinco **estrellas de energía** se colorean
-a medida que se gastan durante el juego, así que imprime una ficha nueva para cada
-jugador y cada aventura. Los **Héroes de Ejemplo** enseñan cómo queda una terminada.
-Crear un héroe lleva un par de minutos y es parte de la diversión, así que no te lo
-saltes.
+Al final del Atlas hay una **ficha de aventura**, donde cada jugador crea su propio
+héroe. Cogéis una cada uno, tú incluido. Un jugador escribe un nombre y luego rellena
+**"Soy un héroe de..."**, que significa **este mundo**, no su pueblo ni su familia:
+"un héroe de las Colinas Soleadas", "un héroe de las Islas Flotantes". Luego da a su
+héroe tres **fortalezas** (o, en un mundo con magia, tres **magias**), hace un dibujo
+rápido y anota las pocas cosas que lleva consigo.
+
+Con tres fortalezas basta, y no hay elección equivocada. Una fortaleza es solo una
+manera en que a este héroe le gusta ayudar, y "lo que hace" es una línea corta con las
+palabras del niño. Ofrece algunas y deja que invente las suyas:
+
+- **Imaginación**: "Se me ocurre una idea nueva."
+- **Valor**: "Voy primero cuando da miedo."
+- **Bondad**: "Me hago amigo de casi cualquiera."
+- **Curiosidad**: "Hago la pregunta acertada."
+- **Paciencia**: "Sigo intentándolo cuando cuesta."
+- **Brazos fuertes**: "Cargo, levanto y sujeto la puerta."
+- **Pies rápidos**: "Corro a buscar."
+- **Buena memoria**: "Recuerdo lo que vimos."
+- **Una voz amable**: "Calmo a una criatura asustada."
+
+La gracia está en elegir, así que deja que el niño te sorprenda. Las cinco **estrellas
+de energía** se colorean a medida que se gastan durante el juego, así que usa una ficha
+nueva para cada jugador y cada aventura (o dibuja la tuya en cualquier papel). Los
+**Héroes de Ejemplo** enseñan cómo queda una terminada. Crear un héroe lleva un par de
+minutos y es parte de la diversión, así que no te lo saltes.
 
 ## Antes de empezar: cinco minutos de preparación
 
-1. **Lee el Cuaderno para la persona adulta** una vez, y echa un vistazo a la historia
-   para hacerte con su forma. No tienes que memorizar nada; las páginas te van guiando
-   sobre la marcha.
-2. **Imprime** un solo Cuaderno de la historia (tu copia para leer) y una ficha de
-   aventura para cada jugador.
+1. **Lee el Tale Book** una vez, para conocer la historia, las reglas y las soluciones.
+   No tienes que memorizar nada; las páginas te van guiando sobre la marcha.
+2. **Ten el Tale Book** abierto en una pantalla o impreso (para ti), y el **Atlas**
+   listo para mostrar o imprimir, además de una ficha de aventura para cada jugador (o
+   papel para hacer la vuestra).
 3. **Reúne** un solo dado de seis caras (con uno basta para cualquier kit), un lápiz
    para cada uno y un puñadito de fichas, monedas o botones para representar a los
    jugadores y para marcar las estrellas de energía.
