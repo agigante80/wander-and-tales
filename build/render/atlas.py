@@ -11,7 +11,7 @@ import tempfile
 from pathlib import Path
 
 from reportlab.lib.units import mm
-from reportlab.platypus import PageBreak, Paragraph, Spacer
+from reportlab.platypus import KeepTogether, Paragraph, Spacer
 
 from build import content
 from build.render import (
@@ -110,20 +110,19 @@ def build_atlas(
             )
 
         if scene_items:
+            # Two pictures to a page (half height each) to save paper. Each picture and
+            # its label stay together, and the page framework packs two per A4 page.
             picture_flows: list = []
             for number, (path, caption) in enumerate(scene_items, start=1):
-                if number > 1:
-                    picture_flows.append(PageBreak())
-                picture_flows.append(
-                    Paragraph(f"{picture_word} {number}", styles["h2"])
-                )
-                picture_flows.append(Spacer(1, 4))
-                picture_flows.append(
+                picture_flows.append(KeepTogether([
+                    Paragraph(f"{picture_word} {number}", styles["h2"]),
+                    Spacer(1, 3),
                     chrome.RoundedImage(
-                        path, th, max_h=205 * mm, caption=caption,
+                        path, th, max_h=100 * mm, caption=caption,
                         caption_font=faces.italic,
-                    )
-                )
+                    ),
+                    Spacer(1, 10),
+                ]))
             parts.append(
                 pages.render_flowables(picture_flows, tmp_path / "10_pictures.pdf", world)
             )
