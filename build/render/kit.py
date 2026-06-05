@@ -19,6 +19,7 @@ from build.render import (
     footer,
     images,
     map as kit_map,
+    mapgen,
     pages,
     sheets,
     strings,
@@ -133,6 +134,18 @@ def build_story_pack(
             }
             parts.append(
                 kit_map.render_map_template(map_svg, tmp_path / "05_map.pdf", labels)
+            )
+        else:
+            # No hand-drawn map: generate a trail map from this locale's beats, so
+            # every story carries a map in every language.
+            parts.append(
+                mapgen.render_generated_map(
+                    tmp_path / "05_map.pdf",
+                    locale,
+                    title,
+                    content_dir / "narration.simple.md",
+                    th,
+                )
             )
 
         narration = content_dir / NARRATION_BY_LEVEL[reading_level]
