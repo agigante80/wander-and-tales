@@ -1,0 +1,47 @@
+- id: magic-bloom
+  names:
+    en-GB: Bloom
+    es-ES: Floración
+    it-IT: Fioritura
+  kind: quality
+  description:
+    en-GB: Make flowers and good things grow, and turn a hard, prickly moment soft and kind.
+    es-ES: Haz crecer flores y cosas buenas, y convierte un momento difícil y áspero en algo suave y amable.
+    it-IT: Fai crescere fiori e cose belle, e trasforma un momento difficile e spinoso in qualcosa di morbido e gentile.
+  first_seen: mouras-lost-comb
+
+- id: magic-truth
+  names:
+    en-GB: Truth
+    es-ES: Verdad
+    it-IT: Verità
+  kind: quality
+  description:
+    en-GB: Show what is true and right, the way the bright rooster of Barcelos crows out the honest answer.
+    es-ES: Muestra lo que es verdadero y justo, como el gallo brillante de Barcelos canta la respuesta honesta.
+    it-IT: Mostra ciò che è vero e giusto, come il gallo luminoso di Barcelos canta la risposta onesta.
+  first_seen: mouras-lost-comb
+
+- id: magic-starlight
+  names:
+    en-GB: Starlight
+    es-ES: Luz de Estrella
+    it-IT: Luce di Stella
+  kind: quality
+  description:
+    en-GB: Call a small, kind light down to your hand to guide you when the way is dark.
+    es-ES: Llama a una lucecita amable hasta tu mano para guiarte cuando el camino está oscuro.
+    it-IT: Chiama una piccola luce gentile fino alla tua mano per guidarti quando la strada è buia.
+  first_seen: mouras-lost-comb
+
+- id: magic-riversong
+  names:
+    en-GB: Riversong
+    es-ES: Canto del Río
+    it-IT: Canto del Fiume
+  kind: quality
+  description:
+    en-GB: Speak with springs, stones and running water, and listen quietly to what they tell you.
+    es-ES: Habla con las fuentes, las piedras y el agua que corre, y escucha en silencio lo que te cuentan.
+    it-IT: Parla con le sorgenti, le pietre e l'acqua che scorre, e ascolta in silenzio quello che ti raccontano.
+  first_seen: mouras-lost-comb

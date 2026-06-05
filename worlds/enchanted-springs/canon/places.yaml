@@ -1,0 +1,47 @@
+- id: enchanted-spring
+  names:
+    en-GB: The Enchanted Spring
+    es-ES: La Fuente Encantada
+    it-IT: La Sorgente Incantata
+  kind: place
+  description:
+    en-GB: A clear spring up in the green hills, ringed with mossy stones and ferns, where the Moura Encantada lives. When all is well its water glows softly and seems almost to sing.
+    es-ES: Un manantial claro en lo alto de las colinas verdes, rodeado de piedras con musgo y helechos, donde vive la Moura Encantada. Cuando todo va bien, su agua brilla suavemente y casi parece cantar.
+    it-IT: Una sorgente limpida in alto fra le colline verdi, cinta di pietre muschiose e felci, dove vive la Moura Encantada. Quando tutto va bene, la sua acqua brilla dolcemente e sembra quasi cantare.
+  first_seen: mouras-lost-comb
+
+- id: old-fountain
+  names:
+    en-GB: The Old Fountain
+    es-ES: La Fuente Vieja
+    it-IT: La Vecchia Fontana
+  kind: place
+  description:
+    en-GB: The mossy stone fountain in the middle of the village square, fed by the Enchanted Spring up in the hills. For as long as anyone can remember its water has run clear and sweet, and the whole town gathers there.
+    es-ES: La fuente de piedra cubierta de musgo en el centro de la plaza del pueblo, alimentada por la Fuente Encantada de las colinas. Desde que nadie recuerda, su agua corre clara y dulce, y todo el pueblo se reúne allí.
+    it-IT: La fontana di pietra ricoperta di muschio al centro della piazza del paese, alimentata dalla Sorgente Incantata fra le colline. Da tempo immemorabile la sua acqua scorre limpida e dolce, e tutto il paese vi si raduna.
+  first_seen: mouras-lost-comb
+
+- id: barcelos
+  names:
+    en-GB: Barcelos
+    es-ES: Barcelos
+    it-IT: Barcelos
+  kind: place
+  description:
+    en-GB: A cheerful cobblestone town of potters and market stalls, famous as the home of the truth-telling rooster, the Galo de Barcelos.
+    es-ES: Un pueblo alegre de adoquines, lleno de alfareros y puestos de mercado, famoso por ser el hogar del gallo que dice la verdad, el Galo de Barcelos.
+    it-IT: Un allegro paese di ciottoli, pieno di vasai e bancarelle di mercato, famoso per essere la casa del gallo che dice la verità, il Galo de Barcelos.
+  first_seen: mouras-lost-comb
+
+- id: serra-da-estrela
+  names:
+    en-GB: Serra da Estrela
+    es-ES: Serra da Estrela
+    it-IT: Serra da Estrela
+  kind: place
+  description:
+    en-GB: The high Mountain of the Star, the tallest of the hills, where a kindly star once came down to befriend a lonely shepherd and gave the range its name.
+    es-ES: La alta Montaña de la Estrella, la más alta de las colinas, donde una estrella bondadosa bajó una vez a hacerse amiga de un pastor solitario y dio su nombre a la sierra.
+    it-IT: L'alta Montagna della Stella, la più alta delle colline, dove una stella gentile scese un tempo a fare amicizia con un pastore solitario e diede il nome alla catena.
+  first_seen: mouras-lost-comb

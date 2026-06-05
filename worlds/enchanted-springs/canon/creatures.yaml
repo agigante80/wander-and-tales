@@ -1,0 +1,38 @@
+- id: galo-de-barcelos
+  names:
+    en-GB: Galo de Barcelos
+    es-ES: Galo de Barcelos
+    it-IT: Galo de Barcelos
+  kind: creature
+  disposition: friendly
+  description:
+    en-GB: The bright rooster of Barcelos, with a bold red comb and a tail of painted colours. He crows only the truth, and once crowed to clear an innocent traveller who was wrongly blamed. Proud, cheerful, and always honest.
+    es-ES: El gallo brillante de Barcelos, de cresta roja y cola de colores pintados. Solo canta la verdad, y una vez cantó para librar a un viajero inocente al que culpaban sin razón. Orgulloso, alegre y siempre honesto.
+    it-IT: Il gallo luminoso di Barcelos, con la cresta rossa e la coda dai colori dipinti. Canta soltanto la verità, e una volta cantò per scagionare un viaggiatore innocente accusato ingiustamente. Fiero, allegro e sempre onesto.
+  first_seen: mouras-lost-comb
+
+- id: trasgo
+  names:
+    en-GB: Trasgo
+    es-ES: Trasgo
+    it-IT: Trasgo
+  kind: creature
+  disposition: friendly
+  description:
+    en-GB: A small, cheeky household goblin in a red cap who tidies the kitchen when no one is looking and hides little shiny things for the fun of it. He is never mean, only playful, and loves a game and a riddle most of all.
+    es-ES: Un duendecillo travieso de gorro rojo que ordena la cocina cuando nadie mira y esconde cositas brillantes solo por diversión. Nunca es malo, solo juguetón, y lo que más le gusta es un juego y una adivinanza.
+    it-IT: Un folletto dispettoso col berretto rosso che riordina la cucina quando nessuno guarda e nasconde piccole cose lucenti solo per gioco. Non è mai cattivo, solo giocherellone, e più di tutto ama un gioco e un indovinello.
+  first_seen: mouras-lost-comb
+
+- id: olharapo
+  names:
+    en-GB: Olharapo
+    es-ES: Olharapo
+    it-IT: Olharapo
+  kind: creature
+  disposition: shy
+  description:
+    en-GB: A big, broad giant of the high hills with a single bright eye and a heavy, kind tread. He looks fearsome but is terribly shy and lonely, and he only ever wanted a friend to share the long evenings with.
+    es-ES: Un gigante enorme y ancho de las colinas altas, con un solo ojo brillante y un paso pesado y amable. Parece temible, pero es muy tímido y solitario, y solo ha querido siempre un amigo con quien compartir las largas tardes.
+    it-IT: Un gigante enorme e massiccio delle alte colline, con un solo occhio luminoso e un passo pesante e gentile. Sembra spaventoso, ma è molto timido e solitario, e ha sempre desiderato soltanto un amico con cui passare le lunghe sere.
+  first_seen: mouras-lost-comb
