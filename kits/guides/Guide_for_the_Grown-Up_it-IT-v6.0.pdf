@@ -3,9 +3,9 @@
 1 0 obj
 <<
 /Producer (pypdf)
-/Title (Guida per l\047adulto\054 it\055IT\054 v5\0562)
+/Title (Guida per l\047adulto\054 it\055IT\054 v6\0560)
 /Author (Wander and Tales)
-/Subject (Guide for the Grown\055Up\054 v5\0562\054 2026\05506\05505)
+/Subject (Guide for the Grown\055Up\054 v6\0560\054 2026\05506\05505)
 /Keywords (wander\055and\055tales\054 guide\054 it\055IT)
 >>
 endobj
@@ -421,7 +421,7 @@ T*
 ET
 BT
 1 0 0 1 489.2719 31.1811 Tm
-(it\055IT \267 v5\0562 \267 page 1 of 6) Tj
+(it\055IT \267 v6\0560 \267 page 1 of 6) Tj
 T*
 ET
 Q
@@ -762,7 +762,7 @@ endobj
 endobj
 25 0 obj
 <<
-/Length 6897
+/Length 7049
 >>
 stream
 q
@@ -920,10 +920,10 @@ BT 1 0 0 1 0 4 Tm /F5+0 10 Tf 14 TL (Un kit arriva come qualche PDF breve. Non s
 Q
 Q
 q
-1 0 0 1 57.02362 78.4652 cm
+1 0 0 1 57.02362 64.4652 cm
 q
-BT 1 0 0 1 2 32 Tm /F1 10 Tf 12 TL .227451 .352941 .196078 rg (\177) Tj ET
-BT 1 0 0 1 14 32 Tm 14 TL .227451 .352941 .196078 rg /F6+0 10 Tf 14 TL (Il Quaderno della storia.) Tj /F5+0 10 Tf 14 TL ( \003 quello da ) Tj /F6+0 10 Tf 14 TL (stampare) Tj /F5+0 10 Tf 14 TL (. \003 il libretto adatto ai bambini da cui) Tj T* (giocate: l'inizio, una mappa, la storia da leggere ad alta voce, le illustrazioni e, nell'ultima) Tj T* (pagina, una ) Tj /F6+0 10 Tf 14 TL (scheda d'avventura) Tj /F5+0 10 Tf 14 TL ( vuota.) Tj T* ET
+BT 1 0 0 1 2 46 Tm /F1 10 Tf 12 TL .227451 .352941 .196078 rg (\177) Tj ET
+BT 1 0 0 1 14 46 Tm 14 TL .227451 .352941 .196078 rg /F6+0 10 Tf 14 TL (Il Quaderno della storia.) Tj /F5+0 10 Tf 14 TL ( L'unico libretto che leggi e da cui giocate, ed \001 ) Tj /F6+0 10 Tf 14 TL (tuo) Tj /F5+0 10 Tf 14 TL (, non dei) Tj T* (bambini: l'inizio, una mappa, la storia da leggere ad alta voce, le illustrazioni da mostrare a) Tj T* (ogni luogo e, nell'ultima pagina, una ) Tj /F6+0 10 Tf 14 TL (scheda d'avventura) Tj /F5+0 10 Tf 14 TL ( vuota. Tienilo per te e svela le) Tj T* (cose man mano, cos\002 la storia resta una sorpresa; i bambini non hanno bisogno di una copia) Tj T* ET
 Q
 Q
  
@@ -958,7 +958,7 @@ T*
 ET
 BT
 1 0 0 1 489.2719 31.1811 Tm
-(it\055IT \267 v5\0562 \267 page 2 of 6) Tj
+(it\055IT \267 v6\0560 \267 page 2 of 6) Tj
 T*
 ET
 Q
@@ -1592,7 +1592,7 @@ endobj
 endobj
 56 0 obj
 <<
-/Length 7108
+/Length 7294
 >>
 stream
 q
@@ -1602,118 +1602,117 @@ q
 n 0 0 595.2756 841.8898 re f*
 Q
 q
-1 0 0 1 57.02362 748.5354 cm
+1 0 0 1 57.02362 776.5354 cm
+q
+BT 1 0 0 1 14 4 Tm 14 TL .227451 .352941 .196078 rg /F5+0 10 Tf 14 TL (tutta loro.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 731.5354 cm
 q
 BT 1 0 0 1 2 32 Tm /F1 10 Tf 12 TL .227451 .352941 .196078 rg (\177) Tj ET
 BT 1 0 0 1 14 32 Tm 14 TL .227451 .352941 .196078 rg /F6+0 10 Tf 14 TL (Il Quaderno per l'adulto.) Tj /F5+0 10 Tf 14 TL ( Le regole e, soprattutto, le ) Tj /F6+0 10 Tf 14 TL (soluzioni) Tj /F5+0 10 Tf 14 TL ( dei rompicapi. Questa) Tj T* (parte \001 per te, non per i bambini. Puoi tenerla sul telefono o su uno schermo per risparmiare) Tj T* (carta. ) Tj /F6+0 10 Tf 14 TL (Leggila prima di cominciare.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 57.02362 703.5354 cm
+1 0 0 1 57.02362 686.5354 cm
 q
 BT 1 0 0 1 2 32 Tm /F1 10 Tf 12 TL .227451 .352941 .196078 rg (\177) Tj ET
 BT 1 0 0 1 14 32 Tm 14 TL .227451 .352941 .196078 rg /F6+0 10 Tf 14 TL (Il Libro del Mondo) Tj /F5+0 10 Tf 14 TL ( \(facoltativo\). Un "chi \001 chi" dei personaggi e delle creature del mondo,) Tj T* (pi\006 una raccolta di idee in pi\006, per quando ne vuoi ancora. Bello da avere, ma mai) Tj T* (indispensabile.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 57.02362 658.5354 cm
+1 0 0 1 57.02362 641.5354 cm
 q
 BT 1 0 0 1 2 32 Tm /F1 10 Tf 12 TL .227451 .352941 .196078 rg (\177) Tj ET
 BT 1 0 0 1 14 32 Tm 14 TL .227451 .352941 .196078 rg /F6+0 10 Tf 14 TL (Gli Eroi di Esempio) Tj /F5+0 10 Tf 14 TL ( \(facoltativo\). Una pagina di eroi gi\005 pronti, gi\005 compilati, per mostrare) Tj T* (ai tuoi bambini com'\001 fatto un eroe. Stampala per ispirarvi, oppure dagli solo un'occhiata) Tj T* (sullo schermo.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 57.02362 627.5354 cm
+1 0 0 1 57.02362 610.5354 cm
 q
 BT 1 0 0 1 2 18 Tm /F1 10 Tf 12 TL .227451 .352941 .196078 rg (\177) Tj ET
 BT 1 0 0 1 14 18 Tm 14 TL .227451 .352941 .196078 rg /F6+0 10 Tf 14 TL (Questa Guida) Tj /F5+0 10 Tf 14 TL ( \(si legge una volta\). Quello che stai leggendo adesso. Dopo, sei pronto per) Tj T* (qualunque kit della biblioteca.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 57.02362 596.5354 cm
+1 0 0 1 57.02362 565.5354 cm
 q
-BT 1 0 0 1 0 18 Tm 14 TL .227451 .352941 .196078 rg /F5+0 10 Tf 14 TL (La via pi\006 breve: stampa il ) Tj /F6+0 10 Tf 14 TL (Quaderno della storia) Tj /F5+0 10 Tf 14 TL (, tieni il ) Tj /F6+0 10 Tf 14 TL (Quaderno per l'adulto) Tj /F5+0 10 Tf 14 TL ( aperto) Tj T* (accanto a te e via.) Tj T* ET
+BT 1 0 0 1 0 32 Tm 14 TL .227451 .352941 .196078 rg /F5+0 10 Tf 14 TL (La via pi\006 breve: stampa ) Tj /F6+0 10 Tf 14 TL (un solo Quaderno della storia) Tj /F5+0 10 Tf 14 TL ( \(la tua copia per leggere\) e una) Tj T* (scheda d'avventura per ogni giocatore, tieni il ) Tj /F6+0 10 Tf 14 TL (Quaderno per l'adulto) Tj /F5+0 10 Tf 14 TL ( aperto accanto a te e) Tj T* (leggi la storia ad alta voce, mostrando ogni illustrazione quando arrivate in quel luogo.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 57.02362 571.5354 cm
+1 0 0 1 57.02362 540.5354 cm
 q
 .305882 .635294 .290196 rg
 BT 1 0 0 1 0 1 Tm /F3+0 13 Tf 14 TL (La scheda d'avventura) Tj T* ET
 Q
 Q
 q
-1 0 0 1 57.02362 455.5354 cm
+1 0 0 1 57.02362 424.5354 cm
 q
-BT 1 0 0 1 0 102 Tm 14 TL .227451 .352941 .196078 rg /F5+0 10 Tf 14 TL (L'ultima pagina di ogni Quaderno della storia \001 una ) Tj /F6+0 10 Tf 14 TL (scheda d'avventura) Tj /F5+0 10 Tf 14 TL (, dove ogni giocatore) Tj T* (crea il proprio eroe. Ne prendete una a testa, tu compreso. Su di essa un giocatore scrive un) Tj T* (nome, d\005 al suo eroe tre ) Tj /F6+0 10 Tf 14 TL (magie) Tj /F5+0 10 Tf 14 TL ( \(oppure, nei mondi senza magia, tre ) Tj /F6+0 10 Tf 14 TL (punti forti) Tj /F5+0 10 Tf 14 TL ( come) Tj T* -0.107834 Tw (l'ingegno, il coraggio o un cuore gentile\), fa un disegno veloce e annota le poche cose che porta) Tj T* 0 Tw (con s\007. Le cinque ) Tj /F6+0 10 Tf 14 TL (stelle di energia) Tj /F5+0 10 Tf 14 TL ( si colorano via via che si spendono durante il gioco, quindi) Tj T* (stampa una scheda nuova per ogni giocatore e ogni avventura. Gli ) Tj /F6+0 10 Tf 14 TL (Eroi di Esempio) Tj /F5+0 10 Tf 14 TL ( mostrano) Tj T* (com'\001 una scheda finita. Creare un eroe porta via un paio di minuti ed \001 parte del divertimento,) Tj T* (quindi non saltarlo.) Tj T* ET
+BT 1 0 0 1 0 102 Tm 14 TL .227451 .352941 .196078 rg /F5+0 10 Tf 14 TL (L'ultima pagina di ogni Quaderno della storia \001 una ) Tj /F6+0 10 Tf 14 TL (scheda d'avventura) Tj /F5+0 10 Tf 14 TL (, dove ogni giocatore) Tj T* (crea il proprio eroe. Ne prendete una a testa, tu compreso. Su di essa un giocatore scrive un) Tj T* (nome, d\005 al suo eroe tre ) Tj /F6+0 10 Tf 14 TL (magie) Tj /F5+0 10 Tf 14 TL ( \(oppure, nei mondi senza magia, tre ) Tj /F6+0 10 Tf 14 TL (punti forti) Tj /F5+0 10 Tf 14 TL ( come) Tj T* (l'immaginazione, il coraggio o un cuore gentile\), fa un disegno veloce e annota le poche cose) Tj T* (che porta con s\007. Le cinque ) Tj /F6+0 10 Tf 14 TL (stelle di energia) Tj /F5+0 10 Tf 14 TL ( si colorano via via che si spendono durante il) Tj T* (gioco, quindi stampa una scheda nuova per ogni giocatore e ogni avventura. Gli ) Tj /F6+0 10 Tf 14 TL (Eroi di) Tj T* (Esempio) Tj /F5+0 10 Tf 14 TL ( mostrano com'\001 una scheda finita. Creare un eroe porta via un paio di minuti ed \001) Tj T* (parte del divertimento, quindi non saltarlo.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 57.02362 430.5354 cm
+1 0 0 1 57.02362 399.5354 cm
 q
 .305882 .635294 .290196 rg
 BT 1 0 0 1 0 1 Tm /F3+0 13 Tf 14 TL (Prima di cominciare: cinque minuti di preparazione) Tj T* ET
 Q
 Q
 q
-1 0 0 1 57.02362 342.5354 cm
+1 0 0 1 57.02362 311.5354 cm
 q
-BT 1 0 0 1 0 74 Tm 14 TL .227451 .352941 .196078 rg /F5+0 10 Tf 14 TL (1. ) Tj /F6+0 10 Tf 14 TL (Leggi il Quaderno per l'adulto) Tj /F5+0 10 Tf 14 TL ( una volta, e dai una scorsa alla storia per coglierne la) Tj T* (forma. Non devi memorizzare nulla; le pagine ti guidano man mano. 2. ) Tj /F6+0 10 Tf 14 TL (Stampa) Tj /F5+0 10 Tf 14 TL ( il Quaderno) Tj T* (della storia e una scheda d'avventura in pi\006 per ogni giocatore. 3. ) Tj /F6+0 10 Tf 14 TL (Procurati) Tj /F5+0 10 Tf 14 TL ( un solo dado a sei) Tj T* (facce \(uno basta per qualunque kit\), una matita a testa e una manciatina di gettoni, monete o) Tj T* (bottoni per rappresentare i giocatori e per segnare le stelle di energia. 4. ) Tj /F6+0 10 Tf 14 TL (Mettiti comodo) Tj /F5+0 10 Tf 14 TL ( in) Tj T* (un posto piacevole, senza schermi e senza fretta.) Tj T* ET
+BT 1 0 0 1 0 74 Tm 14 TL .227451 .352941 .196078 rg /F5+0 10 Tf 14 TL (1. ) Tj /F6+0 10 Tf 14 TL (Leggi il Quaderno per l'adulto) Tj /F5+0 10 Tf 14 TL ( una volta, e dai una scorsa alla storia per coglierne la) Tj T* (forma. Non devi memorizzare nulla; le pagine ti guidano man mano. 2. ) Tj /F6+0 10 Tf 14 TL (Stampa) Tj /F5+0 10 Tf 14 TL ( un solo) Tj T* -0.112772 Tw (Quaderno della storia \(la tua copia per leggere\) e una scheda d'avventura per ogni giocatore. 3.) Tj T* 0 Tw /F6+0 10 Tf 14 TL (Procurati) Tj /F5+0 10 Tf 14 TL ( un solo dado a sei facce \(uno basta per qualunque kit\), una matita a testa e una) Tj T* (manciatina di gettoni, monete o bottoni per rappresentare i giocatori e per segnare le stelle di) Tj T* (energia. 4. ) Tj /F6+0 10 Tf 14 TL (Mettiti comodo) Tj /F5+0 10 Tf 14 TL ( in un posto piacevole, senza schermi e senza fretta.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 57.02362 322.5354 cm
+1 0 0 1 57.02362 291.5354 cm
 q
 .227451 .352941 .196078 rg
 BT 1 0 0 1 0 4 Tm /F5+0 10 Tf 14 TL (Questa \001 tutta la preparazione che un kit richiede.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 57.02362 297.5354 cm
+1 0 0 1 57.02362 266.5354 cm
 q
 .305882 .635294 .290196 rg
 BT 1 0 0 1 0 1 Tm /F3+0 13 Tf 14 TL (I tuoi compiti, e giochi anche tu) Tj T* ET
 Q
 Q
 q
-1 0 0 1 57.02362 251.5354 cm
+1 0 0 1 57.02362 220.5354 cm
 q
 BT 1 0 0 1 0 32 Tm 14 TL .227451 .352941 .196078 rg /F5+0 10 Tf 14 TL (Sei la ) Tj /F6+0 10 Tf 14 TL (Guida del Gioco) Tj /F5+0 10 Tf 14 TL (, che non \001 altro che qualche piccolo compito tutto insieme. E sei anche) Tj T* (un'avventuriera o un avventuriero in pi\006 al tavolo, non un arbitro che guarda da fuori: giochi) Tj T* (dalla parte dei bambini, aiutandoli a trovare la strada.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 57.02362 217.5354 cm
+1 0 0 1 57.02362 186.5354 cm
 q
 BT 1 0 0 1 2 18 Tm /F1 10 Tf 12 TL .227451 .352941 .196078 rg (\177) Tj ET
 BT 1 0 0 1 14 18 Tm 14 TL .227451 .352941 .196078 rg /F6+0 10 Tf 14 TL (Il narratore.) Tj /F5+0 10 Tf 14 TL ( Leggi le parti della storia ad alta voce, con affetto. Fai una voce buffa se ti va.) Tj T* (Fermati alle domande e lascia che siano i bambini a rispondere.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 57.02362 172.5354 cm
+1 0 0 1 57.02362 141.5354 cm
 q
 BT 1 0 0 1 2 32 Tm /F1 10 Tf 12 TL .227451 .352941 .196078 rg (\177) Tj ET
 BT 1 0 0 1 14 32 Tm 14 TL .227451 .352941 .196078 rg /F6+0 10 Tf 14 TL (L'arbitro gentile.) Tj /F5+0 10 Tf 14 TL ( Quando i giocatori provano qualcosa, sei tu a decidere come va a finire,) Tj T* (pendendo sempre verso il s\002. Le pagine dei rompicapi ti danno le soluzioni, cos\002 non ti fai mai) Tj T* (cogliere alla sprovvista.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 57.02362 141.5354 cm
+1 0 0 1 57.02362 110.5354 cm
 q
 BT 1 0 0 1 2 18 Tm /F1 10 Tf 12 TL .227451 .352941 .196078 rg (\177) Tj ET
 BT 1 0 0 1 14 18 Tm 14 TL .227451 .352941 .196078 rg /F6+0 10 Tf 14 TL (Il fan numero uno.) Tj /F5+0 10 Tf 14 TL ( Applaudi ogni idea, soprattutto quelle strane. Il tuo entusiasmo \001 il) Tj T* (motore di tutto il gioco.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 57.02362 82.53543 cm
+1 0 0 1 57.02362 51.53543 cm
 q
 BT 1 0 0 1 2 46 Tm /F1 10 Tf 12 TL .227451 .352941 .196078 rg (\177) Tj ET
 BT 1 0 0 1 14 46 Tm 14 TL .227451 .352941 .196078 rg /F6+0 10 Tf 14 TL (Un avventuriero in pi\001.) Tj /F5+0 10 Tf 14 TL ( Prendi un eroe tutto tuo e gioca con loro. Hai letto la storia in) Tj T* (anticipo, ma non devi per forza comportarti come se la sapessi: lasciati sorprendere,) Tj T* (meravigliati ad alta voce e scopri ogni turno insieme ai bambini. La cosa importante \001) Tj T* (aiutarli a venirne fuori, non essere quello che sa tutto.) Tj T* ET
-Q
-Q
-q
-1 0 0 1 57.02362 57.53543 cm
-q
-.305882 .635294 .290196 rg
-BT 1 0 0 1 0 1 Tm /F3+0 13 Tf 14 TL (Come presentarlo ai bambini) Tj T* ET
 Q
 Q
  
@@ -1748,7 +1747,7 @@ T*
 ET
 BT
 1 0 0 1 489.2719 31.1811 Tm
-(it\055IT \267 v5\0562 \267 page 3 of 6) Tj
+(it\055IT \267 v6\0560 \267 page 3 of 6) Tj
 T*
 ET
 Q
@@ -1775,7 +1774,7 @@ endobj
 endobj
 60 0 obj
 <<
-/Length 7820
+/Length 7511
 >>
 stream
 q
@@ -1787,167 +1786,167 @@ Q
 q
 1 0 0 1 57.02362 776.5354 cm
 q
+.305882 .635294 .290196 rg
+BT 1 0 0 1 0 1 Tm /F3+0 13 Tf 14 TL (Come presentarlo ai bambini) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 758.5354 cm
+q
 .227451 .352941 .196078 rg
 BT 1 0 0 1 0 4 Tm /F5+0 10 Tf 14 TL (Comincia dalla promessa, create un eroe a testa e poi via.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 57.02362 714.5354 cm
+1 0 0 1 57.02362 696.5354 cm
 q
 BT 1 0 0 1 2 46 Tm /F1 10 Tf 12 TL .227451 .352941 .196078 rg (\177) Tj ET
 BT 1 0 0 1 14 46 Tm 14 TL .227451 .352941 .196078 rg /F6+0 10 Tf 14 TL (Fai prima la promessa.) Tj /F5+0 10 Tf 14 TL ( Di' loro l'unica regola prima di tutto: "In questo gioco non perde) Tj T* (nessuno. Siamo tutti dalla stessa parte, e se qualcosa non funziona, cerchiamo) Tj T* (semplicemente un'altra strada." Questa sola frase libera il bambino e lo fa sentire) Tj T* (coraggioso.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 57.02362 669.5354 cm
+1 0 0 1 57.02362 651.5354 cm
 q
 BT 1 0 0 1 2 32 Tm /F1 10 Tf 12 TL .227451 .352941 .196078 rg (\177) Tj ET
 BT 1 0 0 1 14 32 Tm 14 TL .227451 .352941 .196078 rg /F6+0 10 Tf 14 TL (Create un eroe a testa.) Tj /F5+0 10 Tf 14 TL ( Distribuisci le schede d'avventura e fate gli eroi insieme, tu) Tj T* (compreso. Lascia che scelgano un nome e tre magie o punti forti, e che disegnino il loro) Tj T* (ritratto. Gli Eroi di Esempio sono l\002 se qualcuno vuole un modello.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 57.02362 638.5354 cm
+1 0 0 1 57.02362 620.5354 cm
 q
 BT 1 0 0 1 2 18 Tm /F1 10 Tf 12 TL .227451 .352941 .196078 rg (\177) Tj ET
 BT 1 0 0 1 14 18 Tm 14 TL .227451 .352941 .196078 rg /F6+0 10 Tf 14 TL (Prepara la scena.) Tj /F5+0 10 Tf 14 TL ( Leggi l'inizio della storia ad alta voce, piano, e fai la prima domanda. Da) Tj T* (l\002 in poi, la storia vi porta avanti entrambi.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 57.02362 621.5354 cm
+1 0 0 1 57.02362 603.5354 cm
 q
 .227451 .352941 .196078 rg
 BT 1 0 0 1 0 4 Tm /F5+0 10 Tf 14 TL (Poi continuate a giocare, seguendo il resto di questa Guida. Adesso siete tutti avventurieri.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 57.02362 596.5354 cm
+1 0 0 1 57.02362 578.5354 cm
 q
 .305882 .635294 .290196 rg
 BT 1 0 0 1 0 1 Tm /F3+0 13 Tf 14 TL (La regola d'oro: s\002, e...) Tj T* ET
 Q
 Q
 q
-1 0 0 1 57.02362 522.5354 cm
+1 0 0 1 57.02362 504.5354 cm
 q
 BT 1 0 0 1 0 60 Tm 14 TL .227451 .352941 .196078 rg /F5+0 10 Tf 14 TL (Qualunque cosa proponga il tuo bambino, prova a dire ) Tj /F6+0 10 Tf 14 TL ("s\002, e...") Tj /F5+0 10 Tf 14 TL ( invece di "no". Se vuole fare) Tj T* (amicizia con il mostro, parlare con il fiume o volare su una nuvola prestata, lascialo fare, e) Tj T* (aggiungi una piccola svolta che tenga la storia in movimento. "S\002, i rampicanti si scostano, e) Tj T* (mentre lo fanno vedi qualcosa che luccica l\002 sotto." Dire di s\002 tiene il bambino dentro al gioco.) Tj T* (Dire di no, una volta dopo l'altra, \001 il modo pi\006 sicuro per perderlo.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 57.02362 497.5354 cm
+1 0 0 1 57.02362 479.5354 cm
 q
 .305882 .635294 .290196 rg
 BT 1 0 0 1 0 1 Tm /F3+0 13 Tf 14 TL (Qui non perde nessuno, mai) Tj T* ET
 Q
 Q
 q
-1 0 0 1 57.02362 409.5354 cm
+1 0 0 1 57.02362 391.5354 cm
 q
 BT 1 0 0 1 0 74 Tm 14 TL .227451 .352941 .196078 rg /F5+0 10 Tf 14 TL (Questo \001 il cuore di ogni kit: ) Tj /F6+0 10 Tf 14 TL (un tiro fallito non \003 mai una sconfitta, solo una deviazione.) Tj  T* /F5+0 10 Tf 14 TL (Se un dado esce troppo basso, non fermare la storia. I giocatori possono spendere una stella di) Tj T* (energia e riprovare, unire le proprie forze, accettare una spintarella da una creatura) Tj T* (amichevole oppure, semplicemente, cercare un'altra strada. Tratta un buco nell'acqua come) Tj T* -0.123061 Tw (una sorpresa divertente, non come un fallimento. Nessun bambino viene mai eliminato, lasciato) Tj T* 0 Tw (indietro o fatto sentire come se avesse deluso la squadra.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 57.02362 384.5354 cm
+1 0 0 1 57.02362 366.5354 cm
 q
 .305882 .635294 .290196 rg
 BT 1 0 0 1 0 1 Tm /F3+0 13 Tf 14 TL (Quando si bloccano) Tj T* ET
 Q
 Q
 q
-1 0 0 1 57.02362 366.5354 cm
+1 0 0 1 57.02362 348.5354 cm
 q
 .227451 .352941 .196078 rg
 BT 1 0 0 1 0 4 Tm /F5+0 10 Tf 14 TL (Bloccarsi \001 normale. Ricorri a questi accorgimenti, in ordine:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 57.02362 332.5354 cm
+1 0 0 1 57.02362 314.5354 cm
 q
 BT 1 0 0 1 2 18 Tm /F1 10 Tf 12 TL .227451 .352941 .196078 rg (\177) Tj ET
 BT 1 0 0 1 14 18 Tm 14 TL .227451 .352941 .196078 rg /F5+0 10 Tf 14 TL (Offri un ) Tj /F6+0 10 Tf 14 TL (indizio amichevole) Tj /F5+0 10 Tf 14 TL ( attraverso un personaggio \("il gatto d\005 un colpetto a un) Tj T* (rampicante allentato..."\).) Tj T* ET
 Q
 Q
 q
-1 0 0 1 57.02362 315.5354 cm
+1 0 0 1 57.02362 297.5354 cm
 q
 BT 1 0 0 1 2 4 Tm /F1 10 Tf 12 TL .227451 .352941 .196078 rg (\177) Tj ET
 BT 1 0 0 1 14 4 Tm 14 TL .227451 .352941 .196078 rg /F6+0 10 Tf 14 TL (Abbassa la difficolt\004) Tj /F5+0 10 Tf 14 TL ( di un livello, oppure lascia che a risolverla sia il tiro di aiuto.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 57.02362 298.5354 cm
+1 0 0 1 57.02362 280.5354 cm
 q
 BT 1 0 0 1 2 4 Tm /F1 10 Tf 12 TL .227451 .352941 .196078 rg (\177) Tj ET
 BT 1 0 0 1 14 4 Tm 14 TL .227451 .352941 .196078 rg /F5+0 10 Tf 14 TL (Lascia che ) Tj /F6+0 10 Tf 14 TL (uniscano le proprie forze) Tj /F5+0 10 Tf 14 TL ( per un successo automatico.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 57.02362 253.5354 cm
+1 0 0 1 57.02362 235.5354 cm
 q
 BT 1 0 0 1 2 32 Tm /F1 10 Tf 12 TL .227451 .352941 .196078 rg (\177) Tj ET
 BT 1 0 0 1 14 32 Tm 14 TL .227451 .352941 .196078 rg /F5+0 10 Tf 14 TL (Se proprio niente funziona, ) Tj /F6+0 10 Tf 14 TL (lascia semplicemente che ci riescano.) Tj /F5+0 10 Tf 14 TL ( Lo slancio conta pi\006) Tj T* (del rigore. Un bambino che si sente orgoglioso delle sue idee giocher\005 per un'ora; uno che si) Tj T* (sente bloccato se ne andr\005 a fare altro.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 57.02362 228.5354 cm
+1 0 0 1 57.02362 210.5354 cm
 q
 .305882 .635294 .290196 rg
 BT 1 0 0 1 0 1 Tm /F3+0 13 Tf 14 TL (Tenere incantato un bambino piccolo) Tj T* ET
 Q
 Q
 q
-1 0 0 1 57.02362 210.5354 cm
+1 0 0 1 57.02362 192.5354 cm
 q
 BT 1 0 0 1 2 4 Tm /F1 10 Tf 12 TL .227451 .352941 .196078 rg (\177) Tj ET
 BT 1 0 0 1 14 4 Tm 14 TL .227451 .352941 .196078 rg /F5+0 10 Tf 14 TL (Fai le ) Tj /F6+0 10 Tf 14 TL (voci) Tj /F5+0 10 Tf 14 TL ( dei personaggi; \001 met\005 della magia.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 57.02362 193.5354 cm
+1 0 0 1 57.02362 175.5354 cm
 q
 BT 1 0 0 1 2 4 Tm /F1 10 Tf 12 TL .227451 .352941 .196078 rg (\177) Tj ET
 BT 1 0 0 1 14 4 Tm 14 TL .227451 .352941 .196078 rg /F6+0 10 Tf 14 TL (Dagli i dadi) Tj /F5+0 10 Tf 14 TL ( e lascia che tiri. Avere i dadi in mano \001 avere in mano la storia.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 57.02362 176.5354 cm
+1 0 0 1 57.02362 158.5354 cm
 q
 BT 1 0 0 1 2 4 Tm /F1 10 Tf 12 TL .227451 .352941 .196078 rg (\177) Tj ET
 BT 1 0 0 1 14 4 Tm 14 TL .227451 .352941 .196078 rg /F5+0 10 Tf 14 TL (Offri ) Tj /F6+0 10 Tf 14 TL (scelte) Tj /F5+0 10 Tf 14 TL ( \("bussi alla porta o ti affacci?"\) invece di un silenzio aperto.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 57.02362 159.5354 cm
+1 0 0 1 57.02362 141.5354 cm
 q
 BT 1 0 0 1 2 4 Tm /F1 10 Tf 12 TL .227451 .352941 .196078 rg (\177) Tj ET
 BT 1 0 0 1 14 4 Tm 14 TL .227451 .352941 .196078 rg /F5+0 10 Tf 14 TL (Tieni le scene ) Tj /F6+0 10 Tf 14 TL (corte) Tj /F5+0 10 Tf 14 TL ( e chiudi con una piccola vittoria.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 57.02362 142.5354 cm
+1 0 0 1 57.02362 124.5354 cm
 q
 BT 1 0 0 1 2 4 Tm /F1 10 Tf 12 TL .227451 .352941 .196078 rg (\177) Tj ET
 BT 1 0 0 1 14 4 Tm 14 TL .227451 .352941 .196078 rg /F6+0 10 Tf 14 TL (Segui il suo entusiasmo.) Tj /F5+0 10 Tf 14 TL ( Se adora la fontana chiacchierona, fermatevi l\002 un po'.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 57.02362 125.5354 cm
+1 0 0 1 57.02362 107.5354 cm
 q
 BT 1 0 0 1 2 4 Tm /F1 10 Tf 12 TL .227451 .352941 .196078 rg (\177) Tj ET
 BT 1 0 0 1 14 4 Tm 14 TL .227451 .352941 .196078 rg /F6+0 10 Tf 14 TL (Fai delle pause.) Tj /F5+0 10 Tf 14 TL ( Un kit si gioca benissimo anche in pi\006 sedute.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 57.02362 100.5354 cm
+1 0 0 1 57.02362 82.53543 cm
 q
 .305882 .635294 .290196 rg
 BT 1 0 0 1 0 1 Tm /F3+0 13 Tf 14 TL (Risposte assurde o impossibili) Tj T* ET
-Q
-Q
-q
-1 0 0 1 57.02362 54.53543 cm
-q
-.227451 .352941 .196078 rg
-BT 1 0 0 1 0 32 Tm /F5+0 10 Tf 14 TL (Sono un regalo, non un problema. Se il tuo bambino dice che la porta si apre perch\007 "un drago) Tj T* -0.120956 Tw (se la mangia", sorridi e tira da quella parte: "il drago si ingoia la porta in un boccone, fa un rutto) Tj T* 0 Tw (e se ne va trotterellando, e adesso la strada \001 libera." Se un'idea davvero non pu\004 funzionare,) Tj T* ET
 Q
 Q
  
@@ -1982,7 +1981,7 @@ T*
 ET
 BT
 1 0 0 1 489.2719 31.1811 Tm
-(it\055IT \267 v5\0562 \267 page 4 of 6) Tj
+(it\055IT \267 v6\0560 \267 page 4 of 6) Tj
 T*
 ET
 Q
@@ -2009,7 +2008,7 @@ endobj
 endobj
 64 0 obj
 <<
-/Length 2556
+/Length 2900
 >>
 stream
 q
@@ -2019,41 +2018,41 @@ q
 n 0 0 595.2756 841.8898 re f*
 Q
 q
-1 0 0 1 57.02362 748.5354 cm
+1 0 0 1 57.02362 706.5354 cm
 q
 .227451 .352941 .196078 rg
-BT 1 0 0 1 0 32 Tm -0.092906 Tw /F5+0 10 Tf 14 TL (lascia che sia il mondo a rispondere con gentilezza: "il masso \001 troppo pesante da sollevare, ma) Tj T* 0 Tw (guarda, c'\001 una fessura in cui potreste infilarvi." Non sbarrargli mai la strada e basta: offrigli) Tj T* (sempre una porta.) Tj T* ET
+BT 1 0 0 1 0 74 Tm /F5+0 10 Tf 14 TL (Sono un regalo, non un problema. Se il tuo bambino dice che la porta si apre perch\007 "un drago) Tj T* -0.120956 Tw (se la mangia", sorridi e tira da quella parte: "il drago si ingoia la porta in un boccone, fa un rutto) Tj T* 0 Tw (e se ne va trotterellando, e adesso la strada \001 libera." Se un'idea davvero non pu\004 funzionare,) Tj T* -0.092906 Tw (lascia che sia il mondo a rispondere con gentilezza: "il masso \001 troppo pesante da sollevare, ma) Tj T* 0 Tw (guarda, c'\001 una fessura in cui potreste infilarvi." Non sbarrargli mai la strada e basta: offrigli) Tj T* (sempre una porta.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 57.02362 723.5354 cm
+1 0 0 1 57.02362 681.5354 cm
 q
 .305882 .635294 .290196 rg
 BT 1 0 0 1 0 1 Tm /F3+0 13 Tf 14 TL (Ritmo e durata) Tj T* ET
 Q
 Q
 q
-1 0 0 1 57.02362 677.5354 cm
+1 0 0 1 57.02362 635.5354 cm
 q
 BT 1 0 0 1 0 32 Tm 14 TL .227451 .352941 .196078 rg /F5+0 10 Tf 14 TL (Punta a una sessione fra i quindici e i trenta minuti, meno con i pi\006 piccoli. Puoi ) Tj /F6+0 10 Tf 14 TL (saltare un) Tj T* (rompicapo) Tj /F5+0 10 Tf 14 TL (, accorciare la lettura oppure ) Tj /F6+0 10 Tf 14 TL (fermarti prima) Tj /F5+0 10 Tf 14 TL ( e riprendere la volta dopo. Non c'\001) Tj T* (orologio n\007 punteggio. Il finale migliore \001 un bambino che chiede di giocare ancora.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 57.02362 652.5354 cm
+1 0 0 1 57.02362 610.5354 cm
 q
 .305882 .635294 .290196 rg
 BT 1 0 0 1 0 1 Tm /F3+0 13 Tf 14 TL (Qualche frase pronta all'uso) Tj T* ET
 Q
 Q
 q
-1 0 0 1 57.02362 634.5354 cm
+1 0 0 1 57.02362 592.5354 cm
 q
 .227451 .352941 .196078 rg
 BT 1 0 0 1 0 4 Tm /F5+0 10 Tf 14 TL (Tienine alcune sulla punta della lingua:) Tj T* ET
 Q
 Q
 q
-1 0 0 1 57.02362 614.5354 cm
+1 0 0 1 57.02362 572.5354 cm
 q
 BT 1 0 0 1 2 4 Tm /F1 10 Tf 12 TL .227451 .352941 .196078 rg (\177) Tj ET
 .227451 .352941 .196078 rg
@@ -2061,7 +2060,7 @@ BT 1 0 0 1 14 4 Tm /F5+0 10 Tf 14 TL ("S\002, e...") Tj T* ET
 Q
 Q
 q
-1 0 0 1 57.02362 597.5354 cm
+1 0 0 1 57.02362 555.5354 cm
 q
 BT 1 0 0 1 2 4 Tm /F1 10 Tf 12 TL .227451 .352941 .196078 rg (\177) Tj ET
 .227451 .352941 .196078 rg
@@ -2069,7 +2068,7 @@ BT 1 0 0 1 14 4 Tm /F5+0 10 Tf 14 TL ("Ooh, che bella idea. E adesso che cosa su
 Q
 Q
 q
-1 0 0 1 57.02362 580.5354 cm
+1 0 0 1 57.02362 538.5354 cm
 q
 BT 1 0 0 1 2 4 Tm /F1 10 Tf 12 TL .227451 .352941 .196078 rg (\177) Tj ET
 .227451 .352941 .196078 rg
@@ -2077,7 +2076,7 @@ BT 1 0 0 1 14 4 Tm /F5+0 10 Tf 14 TL ("Certo che puoi provarci. Vediamo un po'..
 Q
 Q
 q
-1 0 0 1 57.02362 563.5354 cm
+1 0 0 1 57.02362 521.5354 cm
 q
 BT 1 0 0 1 2 4 Tm /F1 10 Tf 12 TL .227451 .352941 .196078 rg (\177) Tj ET
 .227451 .352941 .196078 rg
@@ -2085,7 +2084,7 @@ BT 1 0 0 1 14 4 Tm /F5+0 10 Tf 14 TL ("Non \001 andata proprio bene, e allora ch
 Q
 Q
 q
-1 0 0 1 57.02362 546.5354 cm
+1 0 0 1 57.02362 504.5354 cm
 q
 BT 1 0 0 1 2 4 Tm /F1 10 Tf 12 TL .227451 .352941 .196078 rg (\177) Tj ET
 .227451 .352941 .196078 rg
@@ -2124,7 +2123,7 @@ T*
 ET
 BT
 1 0 0 1 489.2719 31.1811 Tm
-(it\055IT \267 v5\0562 \267 page 5 of 6) Tj
+(it\055IT \267 v6\0560 \267 page 5 of 6) Tj
 T*
 ET
 Q
@@ -2201,7 +2200,7 @@ q
 1 0 0 1 57.02362 656.5354 cm
 q
 .227451 .352941 .196078 rg
-BT 1 0 0 1 0 4 Tm /F5+0 10 Tf 14 TL (Versione 5.2, aggiornata il 2026-06-05, it-IT) Tj T* ET
+BT 1 0 0 1 0 4 Tm /F5+0 10 Tf 14 TL (Versione 6.0, aggiornata il 2026-06-05, it-IT) Tj T* ET
 Q
 Q
 q
@@ -2263,7 +2262,7 @@ T*
 ET
 BT
 1 0 0 1 489.2719 31.1811 Tm
-(it\055IT \267 v5\0562 \267 page 6 of 6) Tj
+(it\055IT \267 v6\0560 \267 page 6 of 6) Tj
 T*
 ET
 Q
@@ -2313,51 +2312,51 @@ xref
 0000054368 00000 n 
 0000054570 00000 n 
 0000054604 00000 n 
-0000061554 00000 n 
-0000061905 00000 n 
-0000062068 00000 n 
-0000062176 00000 n 
-0000062284 00000 n 
-0000062392 00000 n 
-0000062500 00000 n 
-0000062608 00000 n 
-0000062716 00000 n 
-0000063346 00000 n 
-0000063572 00000 n 
-0000071775 00000 n 
-0000072530 00000 n 
-0000073221 00000 n 
-0000073451 00000 n 
-0000082318 00000 n 
-0000083080 00000 n 
-0000084387 00000 n 
-0000084653 00000 n 
-0000105019 00000 n 
-0000105785 00000 n 
-0000107083 00000 n 
-0000107339 00000 n 
-0000126392 00000 n 
-0000127161 00000 n 
-0000128476 00000 n 
-0000128743 00000 n 
-0000147124 00000 n 
-0000147891 00000 n 
-0000148093 00000 n 
-0000148127 00000 n 
-0000155288 00000 n 
-0000155639 00000 n 
-0000155841 00000 n 
-0000155875 00000 n 
-0000163748 00000 n 
-0000164099 00000 n 
-0000164301 00000 n 
-0000164335 00000 n 
-0000166944 00000 n 
-0000167295 00000 n 
-0000167561 00000 n 
-0000167595 00000 n 
-0000169086 00000 n 
-0000169437 00000 n 
+0000061706 00000 n 
+0000062057 00000 n 
+0000062220 00000 n 
+0000062328 00000 n 
+0000062436 00000 n 
+0000062544 00000 n 
+0000062652 00000 n 
+0000062760 00000 n 
+0000062868 00000 n 
+0000063498 00000 n 
+0000063724 00000 n 
+0000071927 00000 n 
+0000072682 00000 n 
+0000073373 00000 n 
+0000073603 00000 n 
+0000082470 00000 n 
+0000083232 00000 n 
+0000084539 00000 n 
+0000084805 00000 n 
+0000105171 00000 n 
+0000105937 00000 n 
+0000107235 00000 n 
+0000107491 00000 n 
+0000126544 00000 n 
+0000127313 00000 n 
+0000128628 00000 n 
+0000128895 00000 n 
+0000147276 00000 n 
+0000148043 00000 n 
+0000148245 00000 n 
+0000148279 00000 n 
+0000155626 00000 n 
+0000155977 00000 n 
+0000156179 00000 n 
+0000156213 00000 n 
+0000163777 00000 n 
+0000164128 00000 n 
+0000164330 00000 n 
+0000164364 00000 n 
+0000167317 00000 n 
+0000167668 00000 n 
+0000167934 00000 n 
+0000167968 00000 n 
+0000169459 00000 n 
+0000169810 00000 n 
 trailer
 <<
 /Size 71
@@ -2365,5 +2364,5 @@ trailer
 /Info 1 0 R
 >>
 startxref
-176281
+176654
 %%EOF
