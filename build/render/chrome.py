@@ -156,7 +156,7 @@ class BeatChip(Flowable):
         self.number, self.title = _parse_beat(label)
         self.theme = theme
         self.width = width
-        self.height = 8 * mm + 5 * mm  # pill + space above
+        self.height = 8 * mm + 8 * mm  # pill + a little air above so it reads fresh
 
     def wrap(self, availWidth, availHeight):
         return (self.width, self.height)

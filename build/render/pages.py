@@ -146,9 +146,13 @@ def render_guide(
     faces = fonts.resolve_faces(None, locale)
     th = theme.Theme.default()
     styles = theme.make_styles(th, faces)
-    blocks = md.parse_markdown(src.read_text(encoding="utf-8"))
-    flows = flowables.blocks_to_flowables(blocks, styles, th)
     label = strings.ui(locale, "colophon_artifact_guide")
+    blocks = md.parse_markdown(src.read_text(encoding="utf-8"))
+    # the header band carries the title, so drop the markdown's own leading H1
+    if blocks and isinstance(blocks[0], md.Heading) and blocks[0].level == 1:
+        blocks = blocks[1:]
+    flows = [chrome.HeaderBand(kicker="Wits and Wonder", title=label, theme=th, motif=False)]
+    flows += flowables.blocks_to_flowables(blocks, styles, th)
     flows.append(PageBreak())
     flows.extend(colophon.colophon_flowables(styles, locale, version, label, qr_url))
     out_path.parent.mkdir(parents=True, exist_ok=True)
