@@ -13,6 +13,11 @@ SKILLS = (
 PERILS = ("gentle", "mild", "heroic")
 READING_LEVELS = ("simple", "rich")
 
+# What a world calls a hero's three defining things on the character sheet. A magic
+# world (the four magics) labels them "magics"; a world built on wits and courage
+# labels them "strengths". Default is "magic" for back-compatibility.
+HERO_POWERS = ("magic", "strength")
+
 _READING_LEVEL_TIERS = {
     "simple": ("early", "young"),
     "rich": ("older",),

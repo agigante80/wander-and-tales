@@ -124,10 +124,22 @@ so there is no clash. Data flows in one direction:
   draws a canvas trail map: a START, the numbered stops, and a GOAL on a winding golden
   path, themed from the world palette and labelled per locale straight from the
   headings (so it scales to every story and language with no art). It is layout-only,
-  like the sheet. A hand-drawn `map.svg` always wins, so an author can replace a
-  generated map with bespoke art later. The generated map reads `narration.simple.md`
-  for all levels, and `mapgen.py` is in `version._RENDER_SOURCES` so its edits bump the
-  MINOR version. Map labels come from the stop headings, so name stops as places.
+  like the sheet. The layout is shape-adaptive: up to five stops it winds vertically
+  with outer labels; six or more it switches to a serpentine grid with labels under
+  each marker, so a short or a long story both stay one readable A4 page. A hand-drawn
+  `map.svg` always wins, so an author can replace a generated map with bespoke art
+  later. The generated map reads `narration.simple.md` for all levels, and `mapgen.py`
+  is in `version._RENDER_SOURCES` so its edits bump the MINOR version. Map labels come
+  from the stop headings, so name stops as places.
+- **A world declares whether its heroes have magic.** `world.yaml` carries
+  `hero_powers` (`magic` by default, or `strength`), validated against
+  `tags.HERO_POWERS`. It picks the character sheet's three-slot panel label set: a
+  magic world (Floating Isles) says "My magics / My magic is / It can"; a wits-and-
+  courage world (the five myth worlds) says "My strengths / My strength is / It helps
+  me". The hero `magics:` list in `heroes.yaml` is the same shape either way (three
+  canon ids); only the wording on the sheet changes, driven by the world. `sheets.py`
+  resolves the label keys from `hero_powers`, so the panel never calls a quality a
+  "magic".
 
 Authoring any kid-facing or grown-up-facing prose or YAML content is a content
 task, not a coding task: use the `authoring-story-content` skill, which encodes

@@ -132,50 +132,80 @@ def _trail(c, points: list[tuple[float, float]], theme: Theme) -> None:
     c.setDash()
 
 
-def _label(c, node: Node, x: float, y: float, side: int, theme: Theme) -> None:
-    """Draw a node's label on its outer side, wrapped to at most two lines."""
+def _label_outside(c, node: Node, x: float, y: float, side: int, theme: Theme,
+                   *, r: float, title_size: float) -> None:
+    """Draw a node's label on its outer side (for the vertical trail), wrapped to two
+    lines. `side` is -1 (label to the left) or +1 (to the right)."""
     f = fonts.sheet_faces()
-    gap = 9.5 * mm
-    max_w = (x - gap - M) if side < 0 else (W - M - (x + gap))
+    gap = r + 3 * mm
+    draw = c.drawRightString if side < 0 else c.drawString
+    tx = x - gap if side < 0 else x + gap
+    max_w = (tx - M) if side < 0 else (W - M - tx)
     if node.kind == "start":
         c.setFillColor(theme.teal)
         c.setFont(f.body_bold, 8.5)
-        tx = x - gap if side < 0 else x + gap
-        (c.drawRightString if side < 0 else c.drawString)(tx, y - 1 * mm, node.tag)
+        draw(tx, y - 1 * mm, node.tag)
         return
     title = node.label or node.tag
     colour = theme.primary if node.kind == "finish" else theme.text
-    lines = chrome._wrap(title, f.display, 11.5, max(max_w, 24 * mm))[:2]
-    tx = x - gap if side < 0 else x + gap
-    ty = y + (len(lines) - 1) * 5.6 * mm / 2 + 0.4 * mm
+    lh = title_size * 1.32
+    lines = chrome._wrap(title, f.display, title_size, max(max_w, 24 * mm))[:2]
+    ty = y + (len(lines) - 1) * lh / 2 + 0.4 * mm
     if node.kind == "finish":
         c.setFillColor(theme.gold)
         c.setFont(f.body_bold, 7)
-        (c.drawRightString if side < 0 else c.drawString)(tx, ty + 5.4 * mm, node.tag.upper())
+        draw(tx, ty + lh * 0.95, node.tag.upper())
     c.setFillColor(colour)
-    c.setFont(f.display, 11.5)
+    c.setFont(f.display, title_size)
     for line in lines:
-        (c.drawRightString if side < 0 else c.drawString)(tx, ty, line)
-        ty -= 5.6 * mm
+        draw(tx, ty, line)
+        ty -= lh
 
 
-def _marker(c, node: Node, x: float, y: float, idx: int, theme: Theme) -> None:
+def _label_below(c, node: Node, x: float, y: float, theme: Theme,
+                 *, r: float, title_size: float, max_w: float) -> None:
+    """Draw a node's label centred below the marker (for the serpentine grid)."""
+    f = fonts.sheet_faces()
+    top = y - r - title_size * 1.1
+    if node.kind == "start":
+        c.setFillColor(theme.teal)
+        c.setFont(f.body_bold, title_size * 0.82)
+        c.drawCentredString(x, top, node.tag)
+        return
+    title = node.label or node.tag
+    colour = theme.primary if node.kind == "finish" else theme.text
+    lh = title_size * 1.2
+    ty = top
+    if node.kind == "finish":
+        c.setFillColor(theme.gold)
+        c.setFont(f.body_bold, title_size * 0.66)
+        c.drawCentredString(x, ty, node.tag.upper())
+        ty -= lh
+    c.setFillColor(colour)
+    c.setFont(f.display, title_size)
+    for line in chrome._wrap(title, f.display, title_size, max_w)[:2]:
+        c.drawCentredString(x, ty, line)
+        ty -= lh
+
+
+def _marker(c, node: Node, x: float, y: float, idx: int, theme: Theme,
+            *, r: float = 6.5 * mm, num_size: float = 13) -> None:
     f = fonts.sheet_faces()
     c.setDash()
     if node.kind == "finish":
-        chrome.star(c, x, y, 8.5 * mm, white, theme.gold)
+        chrome.star(c, x, y, r * 1.3, white, theme.gold)
         return
     if node.kind == "start":
         c.setFillColor(theme.teal)
-        c.circle(x, y, 6.5 * mm, fill=1, stroke=0)
-        chrome.star(c, x, y, 3 * mm, theme.teal, white)
+        c.circle(x, y, r, fill=1, stroke=0)
+        chrome.star(c, x, y, r * 0.46, theme.teal, white)
         return
     hue = (theme.primary, theme.rose, theme.blue)[idx % 3]
     c.setFillColor(hue)
-    c.circle(x, y, 6.5 * mm, fill=1, stroke=0)
+    c.circle(x, y, r, fill=1, stroke=0)
     c.setFillColor(white)
-    c.setFont(f.display, 13)
-    c.drawCentredString(x, y - 2.0 * mm, node.tag)
+    c.setFont(f.display, num_size)
+    c.drawCentredString(x, y - num_size * 0.43, node.tag)
 
 
 def render_generated_map(
@@ -205,23 +235,52 @@ def render_generated_map(
     area_bottom = 34 * mm  # clear of the footer ribbon and the stamped version line
     _scenery(c, area_top, area_bottom, theme)
 
-    cx = W / 2
-    amp = 20 * mm
     n = len(nodes)
-    placed: list[tuple[Node, float, float, int]] = []
-    for i, node in enumerate(nodes):
-        t = i / (n - 1) if n > 1 else 0.0
-        y = area_top - t * (area_top - area_bottom)
-        side = -1 if i % 2 == 0 else 1
-        placed.append((node, cx + side * amp, y, side))
-
-    _trail(c, [(x, y) for _, x, y, _ in placed], theme)
-    stop_idx = 0
-    for node, x, y, side in placed:
-        _marker(c, node, x, y, stop_idx, theme)
-        _label(c, node, x, y, side, theme)
-        if node.kind == "stop":
-            stop_idx += 1
+    if n <= 7:
+        # The common case (up to 5 stops): a winding vertical trail, alternating sides,
+        # labels on the outer edge. Shrinks the title a touch as the trail lengthens.
+        cx = W / 2
+        amp = 20 * mm
+        r = 6.5 * mm
+        title_size = 11.5 if n <= 5 else (10.5 if n == 6 else 9.5)
+        placed: list[tuple[Node, float, float, int]] = []
+        for i, node in enumerate(nodes):
+            t = i / (n - 1) if n > 1 else 0.0
+            y = area_top - t * (area_top - area_bottom)
+            side = -1 if i % 2 == 0 else 1
+            placed.append((node, cx + side * amp, y, side))
+        _trail(c, [(x, y) for _, x, y, _ in placed], theme)
+        stop_idx = 0
+        for node, x, y, side in placed:
+            _marker(c, node, x, y, stop_idx, theme, r=r)
+            _label_outside(c, node, x, y, side, theme, r=r, title_size=title_size)
+            if node.kind == "stop":
+                stop_idx += 1
+    else:
+        # Long stories (6+ stops): a serpentine grid that uses the page width, labels
+        # centred below each marker, so it stays one readable A4 page however long.
+        cols = 3 if n <= 9 else 4
+        rows = math.ceil(n / cols)
+        cell_w = (W - 2 * M) / cols
+        cell_h = (area_top - area_bottom) / rows
+        r = max(4.2 * mm, min(6.0 * mm, min(cell_w, cell_h) * 0.15))
+        title_size = 9 if cols == 3 else 8
+        centres: list[tuple[float, float]] = []
+        for i in range(n):
+            row, col_in_row = divmod(i, cols)
+            col = col_in_row if row % 2 == 0 else (cols - 1 - col_in_row)
+            centres.append((
+                M + (col + 0.5) * cell_w,
+                area_top - (row + 0.5) * cell_h,
+            ))
+        _trail(c, centres, theme)
+        stop_idx = 0
+        for node, (x, y) in zip(nodes, centres):
+            _marker(c, node, x, y, stop_idx, theme, r=r, num_size=11)
+            _label_below(c, node, x, y, theme, r=r, title_size=title_size,
+                         max_w=cell_w - 4 * mm)
+            if node.kind == "stop":
+                stop_idx += 1
 
     _compass(c, M + 11 * mm, area_bottom + 4 * mm, theme)
 

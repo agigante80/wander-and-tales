@@ -60,3 +60,16 @@ def test_render_generated_map_handles_placeholder_narration(tmp_path):
     out = tmp_path / "map.pdf"
     mapgen.render_generated_map(out, "es-ES", "Prueba", path, theme.Theme.default())
     assert out.read_bytes().startswith(b"%PDF")
+
+
+def test_render_long_story_map_stays_one_page(tmp_path):
+    # A long story (8 stops -> 10 nodes) uses the serpentine grid and must still be a
+    # single A4 page.
+    stops = "".join(f"## Stop {i}: Place {i}\n\n" for i in range(1, 9))
+    path = _narration(tmp_path, f"# T\n\n## Before you begin\n\n{stops}## The Far Shore\n")
+    nodes = mapgen.trail_nodes(path, "en-GB")
+    assert [n.kind for n in nodes].count("stop") == 8
+    out = tmp_path / "map.pdf"
+    mapgen.render_generated_map(out, "en-GB", "A Long Journey", path, theme.Theme.default())
+    assert out.read_bytes().startswith(b"%PDF")
+    assert len(PdfReader(str(out)).pages) == 1

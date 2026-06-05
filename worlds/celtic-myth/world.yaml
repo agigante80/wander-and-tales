@@ -4,6 +4,7 @@ name:
   es-ES: Las Islas Esmeralda de los Celtas
   it-IT: Le Isole di Smeraldo dei Celti
 tone: misty green wonder
+hero_powers: strength
 palette:
   - "#f4f6ef"  # cream mist background
   - "#2f6b4f"  # emerald green (primary)

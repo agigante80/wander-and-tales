@@ -13,6 +13,16 @@ def test_each_tier_renders_one_page(tmp_path, tier):
     assert len(PdfReader(str(out)).pages) == 1
 
 
+def test_strength_world_sheet_renders(tmp_path):
+    # A non-magic world labels the three-slot panel "strengths", not "magics".
+    out = tmp_path / "sheet_strength.pdf"
+    sheets.render_character_sheet(
+        out, "it-IT", "young", theme.Theme.default(), powers="strength"
+    )
+    assert out.read_bytes().startswith(b"%PDF")
+    assert len(PdfReader(str(out)).pages) == 1
+
+
 def test_unknown_tier_raises(tmp_path):
     with pytest.raises(ValueError):
         sheets.render_character_sheet(

@@ -33,9 +33,12 @@ seed list):
   author pick and adjust one.
 - **Create a custom world.** The author describes it; you scaffold `world.yaml`
   (name per locale, tone, a palette of seven hex colours, `fonts.default`,
-  `lore_summary` per locale, `visual_style`), an initial `canon/`, and
-  `worlds/<world>/heroes.yaml` with four example heroes (two young, two older) for
-  the sample adventure sheets (see Step 5).
+  `lore_summary` per locale, `visual_style`, and `hero_powers`), an initial `canon/`,
+  and `worlds/<world>/heroes.yaml` with four example heroes (two young, two older) for
+  the sample adventure sheets (see Step 5). Set `hero_powers: magic` if the heroes cast
+  spells (their three slots are magics), or `hero_powers: strength` if the world runs
+  on wits and courage (the three slots are qualities); it only changes whether the
+  sheet says "My magics" or "My strengths". Default is `magic`.
 
 ## Step 2: choose or write the story idea
 

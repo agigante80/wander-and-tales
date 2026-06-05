@@ -284,12 +284,22 @@ class World(_Strict):
     lore_summary: dict[str, str] | None = None
     fonts: WorldFonts | None = None
     visual_style: str | None = None
+    hero_powers: str = "magic"
     images: list[Image] = []
 
     @field_validator("name")
     @classmethod
     def _name_locales(cls, value: dict[str, str]) -> dict[str, str]:
         _require_locales(value, "name")
+        return value
+
+    @field_validator("hero_powers")
+    @classmethod
+    def _known_hero_powers(cls, value: str) -> str:
+        if value not in tags.HERO_POWERS:
+            raise ValueError(
+                f"hero_powers {value!r} not in {tags.HERO_POWERS}"
+            )
         return value
 
     @field_validator("images")

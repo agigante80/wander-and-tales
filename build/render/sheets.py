@@ -53,6 +53,7 @@ def render_character_sheet(
     theme: Theme,
     *,
     world_name: str = "",
+    powers: str = "magic",
     example: dict | None = None,
     hero_image: Path | None = None,
 ) -> Path:
@@ -61,7 +62,9 @@ def render_character_sheet(
     When `example` is given (keys: name, hero_of, magics as (name, does) pairs,
     carry as a list of strings) the fields are filled in with the handwriting face,
     and `hero_image`, if given, is drawn in the hero card. `energy` is ignored: the
-    stars are always drawn empty so a printed sheet starts fresh.
+    stars are always drawn empty so a printed sheet starts fresh. `powers` chooses the
+    label set for the three-slot panel: "magic" ("My magics") or "strength"
+    ("My strengths"), so a world built on wits and courage does not say "magics".
     """
     if tier not in AGE_TIERS:
         raise ValueError(f"unknown age tier {tier!r}, expected one of {AGE_TIERS}")
@@ -69,6 +72,12 @@ def render_character_sheet(
     c = rl_canvas.Canvas(str(out_path), pagesize=A4)
     f = fonts.sheet_faces()
     muted = tint(theme.text, 0.45)
+
+    pw = "strength" if powers == "strength" else "magic"
+    k_powers = "sheet_strengths" if pw == "strength" else "sheet_magics"
+    k_power_is, k_power_does, k_power_symbol = (
+        f"sheet_{pw}_is", f"sheet_{pw}_does", f"sheet_{pw}_symbol",
+    )
 
     def s(key: str) -> str:
         return strings.ui(locale, key)
@@ -230,10 +239,10 @@ def render_character_sheet(
     text(ix + 4 * mm, pbot + 3 * mm, s("sheet_energy_hint"), f.body, 6.3, muted)
     y -= row_h + 7 * mm
 
-    # magics: chip + three rows (draw-square, "magic is" + name, "it can" + wrapped desc)
+    # powers: chip + three rows (draw-square, "magic/strength is" + name, "does" + desc)
     magic_hue = theme.purple
     mh, mbody = 8 * mm, 60 * mm
-    by = chip(M, y, W - 2 * M, s("sheet_magics"), magic_hue, mbody, header_h=mh)
+    by = chip(M, y, W - 2 * M, s(k_powers), magic_hue, mbody, header_h=mh)
     inner_top = y - mh
     magics = example.get("magics", []) if example else []
     row_h_m = mbody / 3
@@ -249,17 +258,17 @@ def render_character_sheet(
         c.setDash()
         c.setFillColor(tint(magic_hue, 0.4))
         c.setFont(f.body, 6)
-        c.drawCentredString(sx + sq / 2, rcy - 1 * mm, s("sheet_magic_symbol"))
+        c.drawCentredString(sx + sq / 2, rcy - 1 * mm, s(k_power_symbol))
         tx = sx + sq + 5 * mm
         tw = W - M - 6 * mm - tx
-        text(tx, rtop - 6 * mm, s("sheet_magic_is"), f.body, 8, muted)
-        lblw = c.stringWidth(s("sheet_magic_is"), f.body, 8)
+        text(tx, rtop - 6 * mm, s(k_power_is), f.body, 8, muted)
+        lblw = c.stringWidth(s(k_power_is), f.body, 8)
         if i < len(magics):
             text(tx + lblw + 4.5 * mm, rtop - 6.3 * mm, magics[i][0], f.display, 12, magic_hue)
         else:
             wline(tx + lblw + 4 * mm, rtop - 7 * mm, tw - lblw - 4 * mm)
-        text(tx, rtop - 12.5 * mm, s("sheet_magic_does"), f.body, 8, muted)
-        dlw = c.stringWidth(s("sheet_magic_does"), f.body, 8)
+        text(tx, rtop - 12.5 * mm, s(k_power_does), f.body, 8, muted)
+        dlw = c.stringWidth(s(k_power_does), f.body, 8)
         if i < len(magics):
             wrapped(tx + dlw + 3 * mm, rtop - 12.5 * mm, magics[i][1], f.hand, 10,
                     tw - dlw - 3 * mm, 4.7 * mm, theme.text)

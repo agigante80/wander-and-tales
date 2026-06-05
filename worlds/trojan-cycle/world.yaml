@@ -4,6 +4,7 @@ name:
   es-ES: Las Costas Ventosas de Troya
   it-IT: Le Coste Ventose di Troia
 tone: epic seafaring wonder
+hero_powers: strength
 palette:
   - "#f6efe2"  # warm sand background
   - "#2f5a86"  # wine-dark sea blue (primary)
