@@ -92,12 +92,13 @@
     en-GB: the Enchanted Springs of Portugal
     es-ES: las Fuentes Encantadas de Portugal
     it-IT: delle Sorgenti Incantate del Portogallo
+    pt-PT: das Fontes Encantadas de Portugal
   magics: [magic-bloom, magic-starlight, magic-riversong]
   energy: 3
   carry:
-    - { en-GB: a pouch of almond blossom, es-ES: una bolsita de flor de almendro, it-IT: un sacchetto di fiori di mandorlo }
-    - { en-GB: a coil of string, es-ES: un ovillo de cordel, it-IT: un gomitolo di spago }
-    - { en-GB: a wooden spoon, es-ES: una cuchara de madera, it-IT: un cucchiaio di legno }
+    - { en-GB: a pouch of almond blossom, es-ES: una bolsita de flor de almendro, it-IT: un sacchetto di fiori di mandorlo, pt-PT: um saquinho de flor de amendoeira }
+    - { en-GB: a coil of string, es-ES: un ovillo de cordel, it-IT: un gomitolo di spago, pt-PT: um rolo de cordel }
+    - { en-GB: a wooden spoon, es-ES: una cuchara de madera, it-IT: un cucchiaio di legno, pt-PT: uma colher de pau }
   image:
     id: hero-diogo
     role: hero
@@ -109,3 +110,4 @@
       en-GB: A kind older child with rolled-up sleeves cupping a few white almond blossoms in both hands, green hills behind.
       es-ES: Un niño mayor y amable con las mangas remangadas, sosteniendo en las manos unas flores blancas de almendro, con colinas verdes detrás.
       it-IT: Un ragazzino gentile con le maniche rimboccate, che tiene tra le mani alcuni fiori bianchi di mandorlo, con colline verdi sullo sfondo.
+      pt-PT: Um menino mais velho e bondoso de mangas arregaçadas, a segurar nas mãos algumas flores brancas de amendoeira, com colinas verdes ao fundo.

@@ -4,6 +4,7 @@ title:
   en-GB: The Sleeping Garden
   es-ES: El Jardín Dormido
   it-IT: Il Giardino Addormentato
+  pt-PT: O Jardim Adormecido
 age:
   recommended: young        # one of: early (3-5), young (6-8), older (9-12)
   also_works_for: [early, older]
@@ -33,6 +34,7 @@ images:
       en-GB: A sleeping walled garden on a floating island at dawn, with closed flowers, a still fountain and a winding golden path.
       es-ES: Un jardín amurallado dormido en una isla flotante al amanecer, con flores cerradas, una fuente quieta y un camino dorado serpenteante.
       it-IT: Un giardino cinto di mura addormentato su un'isola volante all'alba, con fiori chiusi, una fontana immobile e un sentiero dorato che serpeggia.
+      pt-PT: Um jardim murado adormecido numa ilha flutuante ao amanhecer, com flores fechadas, uma fonte parada e um caminho dourado que serpenteia.
   - id: scene-vine-gate
     role: scene
     orientation: landscape
@@ -45,6 +47,7 @@ images:
       en-GB: A tall gate tied shut with a knot of green vines, the Mist Cat watching nearby.
       es-ES: Una puerta alta cerrada con un nudo de enredaderas verdes, con el Gato de Niebla observando cerca.
       it-IT: Un cancello alto chiuso con un nodo di rampicanti verdi, con il Gatto di Nebbia che osserva lì vicino.
+      pt-PT: Um portão alto fechado com um nó de trepadeiras verdes, com o Gato de Névoa a observar ali perto.
   - id: scene-flower-bed
     role: scene
     orientation: landscape
@@ -57,6 +60,7 @@ images:
       en-GB: A flower bed of four big flowers in yellow, blue, red and white, slightly out of order.
       es-ES: Un cantero con cuatro flores grandes amarilla, azul, roja y blanca, un poco desordenadas.
       it-IT: Un'aiuola con quattro grandi fiori giallo, blu, rosso e bianco, un po' in disordine.
+      pt-PT: Um canteiro com quatro flores grandes amarela, azul, vermelha e branca, um pouco fora de ordem.
   - id: scene-talking-fountain
     role: scene
     orientation: landscape
@@ -69,6 +73,7 @@ images:
       en-GB: A quiet stone fountain beginning to sparkle and flow again.
       es-ES: Una fuente de piedra callada que empieza a brillar y a manar de nuevo.
       it-IT: Una fontana di pietra silenziosa che ricomincia a scintillare e a zampillare.
+      pt-PT: Uma fonte de pedra calada que começa a cintilar e a correr de novo.
   - id: scene-garden-heart
     role: scene
     orientation: landscape
@@ -81,3 +86,4 @@ images:
       en-GB: The garden's heart waking, the shy sprite smiling as two little mages offer friendship, flowers opening in golden light.
       es-ES: El corazón del jardín despertando, el duende tímido sonríe mientras dos pequeños magos le ofrecen amistad, las flores se abren bajo una luz dorada.
       it-IT: Il cuore del giardino che si sveglia, il folletto timido sorride mentre due piccoli maghi gli offrono amicizia, i fiori si aprono in una luce dorata.
+      pt-PT: O coração do jardim a acordar, o duende tímido sorri enquanto dois pequenos magos lhe oferecem amizade, as flores abrem-se numa luz dourada.

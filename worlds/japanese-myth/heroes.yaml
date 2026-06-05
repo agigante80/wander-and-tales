@@ -66,13 +66,14 @@
     en-GB: the Blossom Mountains of Yamato
     es-ES: las Montañas en Flor de Yamato
     it-IT: i Monti in Fiore di Yamato
+    pt-PT: as Montanhas em Flor de Yamato
   magics: [imagination, courage, kindness]
   energy: 5
   carry:
-    - { en-GB: a scroll of riddles, es-ES: un pergamino de acertijos, it-IT: un rotolo di indovinelli }
-    - { en-GB: a little bronze bell, es-ES: una campanilla de bronce, it-IT: un campanello di bronzo }
-    - { en-GB: a coil of red thread, es-ES: un rollo de hilo rojo, it-IT: una matassa di filo rosso }
-    - { en-GB: a friendship charm, es-ES: un amuleto de la amistad, it-IT: un amuleto dell'amicizia }
+    - { en-GB: a scroll of riddles, es-ES: un pergamino de acertijos, it-IT: un rotolo di indovinelli, pt-PT: um pergaminho de adivinhas }
+    - { en-GB: a little bronze bell, es-ES: una campanilla de bronce, it-IT: un campanello di bronzo, pt-PT: uma sineta de bronze }
+    - { en-GB: a coil of red thread, es-ES: un rollo de hilo rojo, it-IT: una matassa di filo rosso, pt-PT: um rolo de fio vermelho }
+    - { en-GB: a friendship charm, es-ES: un amuleto de la amistad, it-IT: un amuleto dell'amicizia, pt-PT: um amuleto da amizade }
   image:
     id: hero-mei
     role: hero
@@ -85,6 +86,7 @@
       en-GB: A confident older hero in a flowing kimono with hair tied back, holding a small scroll, misty mountains behind.
       es-ES: Una heroína mayor y segura con un kimono largo y el pelo recogido, sosteniendo un pequeño pergamino, con montañas neblinosas detrás.
       it-IT: Un'eroina più grande e sicura con un kimono lungo e i capelli raccolti, che tiene un piccolo rotolo, con montagne nebbiose dietro.
+      pt-PT: Uma heroína mais velha e segura com um quimono comprido e o cabelo apanhado, a segurar um pequeno pergaminho, com montanhas enevoadas atrás.
 
 - id: ren
   tier: older
@@ -93,12 +95,13 @@
     en-GB: the Blossom Mountains of Yamato
     es-ES: las Montañas en Flor de Yamato
     it-IT: i Monti in Fiore di Yamato
+    pt-PT: as Montanhas em Flor de Yamato
   magics: [courage, imagination, kindness]
   energy: 4
   carry:
-    - { en-GB: a bamboo flute, es-ES: una flauta de bambú, it-IT: un flauto di bambù }
-    - { en-GB: a sturdy walking staff, es-ES: un bastón resistente, it-IT: un solido bastone da cammino }
-    - { en-GB: a sweet rice cake, es-ES: un pastel de arroz dulce, it-IT: un dolce di riso }
+    - { en-GB: a bamboo flute, es-ES: una flauta de bambú, it-IT: un flauto di bambù, pt-PT: uma flauta de bambu }
+    - { en-GB: a sturdy walking staff, es-ES: un bastón resistente, it-IT: un solido bastone da cammino, pt-PT: um cajado resistente }
+    - { en-GB: a sweet rice cake, es-ES: un pastel de arroz dulce, it-IT: un dolce di riso, pt-PT: um bolo de arroz doce }
   image:
     id: hero-ren
     role: hero
@@ -111,3 +114,4 @@
       en-GB: A steady older hero in a travelling kimono leaning on a bamboo staff, a red torii gate and misty hills behind.
       es-ES: Un héroe mayor y firme con un kimono de viaje apoyado en un bastón de bambú, con una puerta torii roja y colinas neblinosas detrás.
       it-IT: Un eroe più grande e saldo con un kimono da viaggio appoggiato a un bastone di bambù, con un portale torii rosso e colline nebbiose dietro.
+      pt-PT: Um herói mais velho e firme com um quimono de viagem, apoiado num cajado de bambu, com um portão torii vermelho e colinas enevoadas atrás.

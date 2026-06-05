@@ -4,6 +4,7 @@ title:
   en-GB: The Swan Children's Lullaby
   es-ES: La Nana de los Niños Cisne
   it-IT: La Ninnananna dei Bambini Cigno
+  pt-PT: A Canção de Embalar das Crianças-Cisne
 age:
   recommended: young
   also_works_for: [early]
@@ -33,6 +34,7 @@ images:
       en-GB: Two young Celtic heroes by a misty loch at dusk holding a small harp, four white swans with kind faces near, grey mist waiting to turn to colour.
       es-ES: Dos jóvenes héroes celtas junto a un lago brumoso al anochecer con una pequeña arpa, cuatro cisnes blancos de rostro amable cerca y niebla gris que espera volverse color.
       it-IT: Due giovani eroi celtici accanto a un lago nebbioso al crepuscolo con una piccola arpa, quattro cigni bianchi dal volto gentile vicino e nebbia grigia che attende di diventare colore.
+      pt-PT: Dois jovens heróis celtas junto a um lago enevoado ao anoitecer com uma pequena harpa, quatro cisnes brancos de rosto meigo por perto e névoa cinzenta à espera de se tornar cor.
   - id: scene-grey-mist
     role: scene
     orientation: landscape
@@ -45,6 +47,7 @@ images:
       en-GB: Two small heroes gently approaching four white swans gathered on a still grey misty loch at dusk.
       es-ES: Dos héroes pequeños que se acercan con dulzura a cuatro cisnes blancos reunidos en un lago gris, quieto y brumoso al anochecer.
       it-IT: Due piccoli eroi che si avvicinano con dolcezza a quattro cigni bianchi raccolti su un lago grigio, immobile e nebbioso al crepuscolo.
+      pt-PT: Dois pequenos heróis que se aproximam com doçura de quatro cisnes brancos reunidos num lago cinzento, imóvel e enevoado ao anoitecer.
   - id: scene-remembering
     role: scene
     orientation: landscape
