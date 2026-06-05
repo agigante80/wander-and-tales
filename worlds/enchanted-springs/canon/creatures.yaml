@@ -52,8 +52,8 @@
   kind: creature
   disposition: shy
   description:
-    en-GB: A small grey-capped jackdaw who nests in the old bell tower and cannot resist anything that glints. She means no harm at all: she simply gathers shiny treasures for her nest, and is shy of the bustling square below.
-    es-ES: Una pequeña grajilla de capucha gris que anida en la vieja torre del campanario y no puede resistirse a nada que brille. No hace ningún mal: solo junta tesoros relucientes para su nido, y es tímida con el bullicio de la plaza de abajo.
-    it-IT: Una piccola taccola dal cappuccio grigio che nidifica nella vecchia torre campanaria e non sa resistere a tutto ciò che luccica. Non fa alcun male: raccoglie soltanto tesori lucenti per il suo nido, ed è timida del trambusto della piazza sottostante.
-    pt-PT: Uma pequena gralha de capuz cinzento que faz ninho na velha torre do sino e não resiste a nada que brilhe. Não faz mal nenhum: só junta tesouros reluzentes para o ninho, e é tímida com a azáfama da praça lá em baixo.
+    en-GB: A small grey-capped jackdaw who nests in the old bell tower and cannot resist anything that glints. She means no harm at all. She simply gathers shiny treasures for her nest, and is shy of the bustling square below.
+    es-ES: Una pequeña grajilla de capucha gris que anida en la vieja torre del campanario y no puede resistirse a nada que brille. No hace ningún mal. Solo junta tesoros relucientes para su nido, y es tímida con el bullicio de la plaza de abajo.
+    it-IT: Una piccola taccola dal cappuccio grigio che nidifica nella vecchia torre campanaria e non sa resistere a tutto ciò che luccica. Non fa alcun male. Raccoglie soltanto tesori lucenti per il suo nido, ed è timida del trambusto della piazza sottostante.
+    pt-PT: Uma pequena gralha de capuz cinzento que faz ninho na velha torre do sino e não resiste a nada que brilhe. Não faz mal nenhum. Só junta tesouros reluzentes para o ninho, e é tímida com a azáfama da praça lá em baixo.
   first_seen: galos-silent-dawn

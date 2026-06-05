@@ -12,8 +12,8 @@ Sussurrante, a acender e a apagar e a fugir num ápice. São gentis mas muito t�
 se podem apanhar nem perseguir.
 
 **Solução pensada.** Este é um momento de Bondade e Observação. A jogada cuidadosa é
-abrandar mesmo: mexer-se com doçura, manter as vozes baixinhas, ficar quieto e oferecer o
-**bolo de arroz** doce para que os espíritos se sintam seguros o suficiente para se
+abrandar mesmo: mexer-se com doçura, manter as vozes baixinhas, ficar quieto e oferecer
+o **bolo de arroz** doce para que os espíritos se sintam seguros o suficiente para se
 aproximarem sozinhos. É a paciência e um modo sossegado e amigável que os conquistam, não
 a rapidez.
 

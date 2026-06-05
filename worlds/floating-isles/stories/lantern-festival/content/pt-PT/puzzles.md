@@ -32,9 +32,9 @@ chegar.
 **Solução pretendida.** A pista é que uma lanterna escondida faz a sua nuvem brilhar
 em surdina e ficar quente, enquanto as nuvens vazias se mantêm frias e cinzentas.
 Este é um momento de **observação**: distinguir as nuvens quentes e a brilhar.
-Depois alcançá-las com **Crescer** (uma escada de trepadeira ou uma cana alta), com
-**Voz** (pedir à Borboleta Mensageira ou à brisa que as tragam cá para baixo), ou
-com uma magia combinada.
+Depois alcançá-las com **Crescer** (uma escada de trepadeira ou uma cana alta),
+com **Voz** (pedir à Borboleta Mensageira ou à brisa que as tragam cá para baixo),
+ou com uma magia combinada.
 
 **Saída.** Se as crianças não tiverem a certeza, faz a Borboleta Mensageira pairar
 ao lado de uma nuvem a brilhar para lhes mostrar como é "quente e a brilhar", depois

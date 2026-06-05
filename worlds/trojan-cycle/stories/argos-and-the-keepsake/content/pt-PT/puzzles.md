@@ -34,8 +34,8 @@ todos juntos.
 **O desafio.** O rasto leva por entre três poças soalheiras da maré, e os jogadores têm
 de descobrir junto a que poça o amigo descansou, onde um fio lhe escorregou do manto.
 
-**O exemplo resolvido.** Lê a cena para que as três poças fiquem claras. Junto à
-**poça um** está uma concha branca. Junto à **poça dois** está uma concha às riscas.
+**O exemplo resolvido.** Lê a cena para que as três poças fiquem claras. Junto
+à **poça um** está uma concha branca. Junto à **poça dois** está uma concha às riscas.
 Junto à **poça três** está um seixo cinzento e liso. Argos dá duas pistas para guardar
 ao mesmo tempo: o cheiro **passou por uma concha às riscas** (logo, não a poça da
 concha branca), e o cheiro **não parou onde estava o seixo** (logo, não a poça do
