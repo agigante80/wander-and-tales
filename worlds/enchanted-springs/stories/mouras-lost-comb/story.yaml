@@ -75,6 +75,7 @@ images:
       en-GB: A cosy nook under a stone bridge full of shiny odds and ends, where a small goblin in a red cap plays happily with a bright golden comb.
       es-ES: Un rincón acogedor bajo un puente de piedra lleno de cosillas brillantes, donde un duendecillo de gorro rojo juega feliz con un peine de oro reluciente.
       it-IT: Un angolo accogliente sotto un ponte di pietra pieno di cosine luccicanti, dove un folletto col berretto rosso gioca felice con un lucente pettine d'oro.
+      pt-PT: Um cantinho acolhedor debaixo de uma ponte de pedra cheio de coisinhas brilhantes, onde um duende de barrete vermelho brinca feliz com um reluzente pente de ouro.
   - id: scene-the-comb-returned
     role: scene
     orientation: landscape
@@ -87,6 +88,7 @@ images:
       en-GB: The enchanted maiden smiling by her spring, drawing the golden comb through her hair as the water lights up clear and bright.
       es-ES: La doncella encantada sonriendo junto a su manantial, pasándose el peine de oro por el pelo mientras el agua se ilumina clara y brillante.
       it-IT: La fanciulla incantata che sorride accanto alla sua sorgente, passandosi il pettine d'oro fra i capelli mentre l'acqua si illumina limpida e luminosa.
+      pt-PT: A donzela encantada a sorrir junto à sua fonte, a passar o pente de ouro pelo cabelo enquanto a água se ilumina límpida e brilhante.
   - id: scene-the-spring-sings-again
     role: scene
     orientation: landscape
@@ -99,3 +101,4 @@ images:
       en-GB: The village square at sunrise, the old fountain bubbling clear and bright again, villagers and children laughing and filling their jugs.
       es-ES: La plaza del pueblo al amanecer, la fuente vieja borboteando otra vez clara y brillante, con vecinos y niños riendo y llenando sus jarras.
       it-IT: La piazza del paese all'alba, la vecchia fontana che gorgoglia di nuovo limpida e luminosa, con paesani e bambini che ridono e riempiono le loro brocche.
+      pt-PT: A praça da aldeia ao nascer do sol, a fonte velha a borbulhar de novo límpida e brilhante, com moradores e crianças a rir e a encher os seus cântaros.

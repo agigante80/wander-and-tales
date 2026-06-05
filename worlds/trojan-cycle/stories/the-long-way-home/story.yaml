@@ -4,6 +4,7 @@ title:
   en-GB: The Long Way Home
   es-ES: El Largo Camino a Casa
   it-IT: Il Lungo Viaggio verso Casa
+  pt-PT: O Longo Caminho para Casa
 age:
   recommended: older
   also_works_for: [young]
@@ -34,6 +35,7 @@ images:
       en-GB: Two older seafaring heroes at the prow of a small ship with a white sail crossing a wide sea at dawn, a floating isle and a distant rocky isle ahead, a gentle sea goddess in the spray.
       es-ES: Dos héroes marineros mayores en la proa de una pequeña nave de vela blanca que cruza un ancho mar al amanecer, con una isla flotante y una isla rocosa al frente y una dulce diosa del mar entre la espuma.
       it-IT: Due eroi marinari più grandi alla prua di una piccola nave dalla vela bianca che attraversa un ampio mare all'alba, con un'isola galleggiante e un'isola rocciosa davanti e una dolce dea del mare tra gli spruzzi.
+      pt-PT: Dois heróis marinheiros mais velhos na proa de uma pequena nau de vela branca que atravessa um largo mar ao amanhecer, com uma ilha flutuante e uma ilha rochosa à frente e uma doce deusa do mar entre os salpicos.
   - id: scene-isle-of-winds
     role: scene
     orientation: landscape
@@ -46,6 +48,7 @@ images:
       en-GB: A gentle keeper of the winds on a floating bronze-cliffed island, handing two older heroes a soft leather bag holding a fair wind.
       es-ES: Un amable guardián de los vientos en una isla flotante de acantilados de bronce, que entrega a dos héroes mayores un saco de cuero que guarda un viento favorable.
       it-IT: Un gentile custode dei venti su un'isola galleggiante dalle scogliere di bronzo, che porge a due eroi più grandi un sacco di cuoio che racchiude un vento favorevole.
+      pt-PT: Um amável guardião dos ventos numa ilha flutuante de falésias de bronze, que entrega a dois heróis mais velhos um saco de couro que guarda um vento favorável.
   - id: scene-singing-sirens
     role: scene
     orientation: landscape
@@ -59,6 +62,7 @@ images:
       en-GB: Two older heroes on a small ship near a rocky isle where gentle wistful sea-singers sing, the heroes sounding a conch and singing back kindly, the singers looking lonely rather than frightening.
       es-ES: Dos héroes mayores en una pequeña nave cerca de una isla rocosa donde cantan unas dulces y melancólicas cantoras del mar, mientras los héroes hacen sonar una caracola y responden cantando con amabilidad, y las cantoras parecen solitarias, no temibles.
       it-IT: Due eroi più grandi su una piccola nave vicino a un'isola rocciosa dove cantano dolci e malinconiche cantatrici del mare, mentre gli eroi suonano una conchiglia e rispondono cantando con gentilezza, e le cantatrici sembrano sole, non spaventose.
+      pt-PT: Dois heróis mais velhos numa pequena nau perto de uma ilha rochosa onde cantam doces e melancólicas cantoras do mar, enquanto os heróis tocam uma concha-buzina e respondem a cantar com amabilidade, e as cantoras parecem solitárias, não assustadoras.
   - id: scene-home-loom
     role: scene
     orientation: landscape
@@ -71,6 +75,7 @@ images:
       en-GB: Two older heroes arriving home at a warm hall across the sea, a great loom in the lamplight and a homecoming feast being laid, old friends rising to greet them.
       es-ES: Dos héroes mayores que llegan por fin a casa, a una sala cálida al otro lado del mar, con un gran telar a la luz de las lámparas y un banquete de bienvenida, mientras viejos amigos se levantan a recibirlos.
       it-IT: Due eroi più grandi che arrivano finalmente a casa, in una sala calda oltre il mare, con un grande telaio alla luce delle lampade e un banchetto di ritorno, mentre vecchi amici si alzano ad accoglierli.
+      pt-PT: Dois heróis mais velhos que chegam finalmente a casa, a uma sala acolhedora do outro lado do mar, com um grande tear à luz das lamparinas e um banquete de regresso, enquanto velhos amigos se levantam para os receber.
   - id: scene-home-at-last
     role: scene
     orientation: landscape
@@ -83,3 +88,4 @@ images:
       en-GB: A joyful homecoming feast in a warm hall, two older heroes reunited with friends and a faithful old hound, a gentle sea goddess smiling through a window of evening light.
       es-ES: Un alegre banquete de bienvenida en una sala cálida, dos héroes mayores reunidos con amigos sonrientes y un viejo sabueso fiel, y una dulce diosa del mar que sonríe por una ventana de luz del atardecer.
       it-IT: Un allegro banchetto di ritorno in una sala calda, due eroi più grandi riuniti con amici sorridenti e un vecchio cane fedele, e una dolce dea del mare che sorride da una finestra di luce serale.
+      pt-PT: Um alegre banquete de regresso numa sala acolhedora, dois heróis mais velhos reunidos com amigos sorridentes e um velho cão fiel, e uma doce deusa do mar que sorri por uma janela de luz do entardecer.

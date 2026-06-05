@@ -4,6 +4,7 @@ title:
   en-GB: The Tanuki's Tidy-Up
   es-ES: El Lío del Tanuki
   it-IT: Il Pasticcio del Tanuki
+  pt-PT: A Trapalhada do Tanuki
 age:
   recommended: young
   also_works_for: [early]
@@ -34,6 +35,7 @@ images:
       en-GB: Two young heroes arriving at a festival market where a jolly round tanuki stands amid a muddle of mixed-up stalls, lanterns and blossom above.
       es-ES: Dos jóvenes héroes que llegan a un mercado de fiesta donde un alegre y rechoncho tanuki está entre un lío de puestos revueltos, con faroles y flores de cerezo arriba.
       it-IT: Due giovani eroi che arrivano a un mercato in festa dove un allegro e tondo tanuki sta in mezzo a un pasticcio di bancarelle scombinate, con lanterne e fiori di ciliegio sopra.
+      pt-PT: Dois jovens heróis a chegar a um mercado em festa onde um alegre e roliço tanuki está no meio de uma trapalhada de barracas desarrumadas, com lanternas e flores de cerejeira por cima.
   - id: scene-jumbled-stalls
     role: scene
     orientation: landscape
@@ -46,6 +48,7 @@ images:
       en-GB: A jolly round tanuki looking worried among toppled festival stalls with fruit, fans and lanterns jumbled together, two small heroes arriving.
       es-ES: Un alegre y rechoncho tanuki con cara de preocupación entre puestos de fiesta volcados, con fruta, abanicos y faroles revueltos, y dos héroes pequeños que llegan.
       it-IT: Un allegro e tondo tanuki dall'aria preoccupata tra bancarelle di festa rovesciate, con frutta, ventagli e lanterne mescolati, e due piccoli eroi che arrivano.
+      pt-PT: Um alegre e roliço tanuki com ar preocupado entre barracas de festa tombadas, com fruta, leques e lanternas todos misturados, e dois pequenos heróis a chegar.
   - id: scene-the-sorting
     role: scene
     orientation: landscape
@@ -58,6 +61,7 @@ images:
       en-GB: Two small heroes and a happy tanuki sorting festival goods back into the right stalls, counting fans and fruit and lanterns into neat rows.
       es-ES: Dos héroes pequeños y un tanuki feliz que ordenan los artículos de la fiesta en los puestos correctos, contando abanicos, fruta y faroles en filas ordenadas.
       it-IT: Due piccoli eroi e un tanuki felice che rimettono in ordine le merci della festa nelle bancarelle giuste, contando ventagli, frutta e lanterne in file ordinate.
+      pt-PT: Dois pequenos heróis e um tanuki feliz a arrumar as mercadorias da festa nas barracas certas, contando leques, fruta e lanternas em filas arrumadas.
   - id: scene-missing-lantern
     role: scene
     orientation: landscape
@@ -70,6 +74,7 @@ images:
       en-GB: A friendly fox offering a clue to two small heroes searching for one last lost festival lantern among blossom trees.
       es-ES: Un amable zorro que ofrece una pista a dos héroes pequeños mientras buscan el último farol de fiesta perdido entre los cerezos.
       it-IT: Una gentile volpe che offre un indizio a due piccoli eroi mentre cercano l'ultima lanterna di festa perduta tra i ciliegi.
+      pt-PT: Uma amável raposa a dar uma pista a dois pequenos heróis enquanto procuram a última lanterna de festa perdida entre as cerejeiras.
   - id: scene-market-ready
     role: scene
     orientation: landscape
@@ -82,3 +87,4 @@ images:
       en-GB: A tidy festival market all set right at dusk, neat stalls and glowing lanterns, a happy tanuki and two small heroes admiring it together.
       es-ES: Un mercado de fiesta ordenado y bonito, ya bien dispuesto al anochecer, con puestos pulcros y faroles encendidos, un tanuki feliz y dos héroes que lo admiran juntos.
       it-IT: Un mercato di festa ordinato e bello, ormai a posto al crepuscolo, con bancarelle in ordine e lanterne accese, un tanuki felice e due piccoli eroi che lo ammirano insieme.
+      pt-PT: Um mercado de festa arrumado e bonito, já a postos ao anoitecer, com barracas em ordem e lanternas acesas, um tanuki feliz e dois pequenos heróis a admirá-lo juntos.

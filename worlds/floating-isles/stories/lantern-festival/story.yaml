@@ -4,6 +4,7 @@ title:
   en-GB: The Lost Lantern Festival
   es-ES: La Fiesta de las Luces Perdida
   it-IT: La Festa delle Luci Perduta
+  pt-PT: A Festa das Luzes Perdida
 age:
   recommended: young        # one of: early (3-5), young (6-8), older (9-12)
   also_works_for: [early, older]
@@ -33,6 +34,7 @@ images:
       en-GB: A festival square on a floating island at dusk, glowing sky lanterns drifting up into the clouds while two small mages look up.
       es-ES: Una plaza de fiesta en una isla flotante al atardecer, con faroles del cielo luminosos que suben hacia las nubes mientras dos pequeños magos miran arriba.
       it-IT: Una piazza in festa su un'isola volante al tramonto, con lanterne del cielo luminose che salgono verso le nuvole mentre due piccoli maghi guardano in alto.
+      pt-PT: Uma praça em festa numa ilha flutuante ao anoitecer, com lanternas do céu luminosas a subir para as nuvens enquanto dois pequenos magos olham para cima.
   - id: scene-dim-square
     role: scene
     orientation: landscape
@@ -46,6 +48,7 @@ images:
       en-GB: A dim festival square with one unlit lantern, the Mist Cat beside it, and a faint trail of light leading up to the clouds.
       es-ES: Una plaza de fiesta en penumbra con un farol apagado, el Gato de Niebla a su lado y un leve rastro de luz que sube hacia las nubes.
       it-IT: Una piazza in festa in penombra con una lanterna spenta, il Gatto di Nebbia accanto e una debole scia di luce che sale verso le nuvole.
+      pt-PT: Uma praça em festa na penumbra com uma lanterna apagada, o Gato de Névoa ao lado e um ténue rasto de luz a subir para as nuvens.
   - id: scene-cloud-bank
     role: scene
     orientation: landscape
@@ -59,6 +62,7 @@ images:
       en-GB: A low cloud bank where a few clouds glow warmly from hidden lanterns, a Messenger Butterfly nearby and a vine growing up to reach them.
       es-ES: Un banco de nubes bajo donde algunas nubes brillan por dentro con faroles escondidos, con una Mariposa Mensajera cerca y una enredadera que sube para alcanzarlos.
       it-IT: Un basso banco di nuvole dove alcune nuvole brillano dall'interno per le lanterne nascoste, con una Farfalla Messaggera vicino e un rampicante che cresce per raggiungerle.
+      pt-PT: Um baixo banco de nuvens onde algumas nuvens brilham por dentro com lanternas escondidas, com uma Borboleta Mensageira por perto e uma trepadeira a crescer para as alcançar.
   - id: scene-high-ledge
     role: scene
     orientation: landscape
@@ -72,6 +76,7 @@ images:
       en-GB: The biggest lantern resting against a high rocky ledge, a soft breeze around it and a vine with a cushion of leaves grown up below.
       es-ES: El farol más grande apoyado en una repisa de roca en lo alto, con una brisa suave alrededor y una enredadera con un cojín de hojas crecido abajo.
       it-IT: La lanterna più grande appoggiata a una cengia di roccia in alto, con una brezza leggera intorno e un rampicante con un cuscino di foglie cresciuto sotto.
+      pt-PT: A maior lanterna apoiada numa saliência de rocha em cima, com uma brisa suave em volta e uma trepadeira com uma almofada de folhas crescida por baixo.
   - id: cloud-whale-portrait
     role: portrait
     orientation: square
@@ -84,6 +89,7 @@ images:
       en-GB: A small gentle cloud-whale calf with a kind face, a warm glow of lantern light shining softly inside it.
       es-ES: Una ballenita de nube pequeña y dulce con cara bondadosa, con un brillo cálido de luz de farol que reluce suavemente dentro.
       it-IT: Un piccolo e dolce balenotto di nuvole dal viso buono, con un caldo chiarore di luce di lanterna che brilla dolcemente al suo interno.
+      pt-PT: Uma baleia-nuvem bebé pequena e meiga de rosto bondoso, com um quente clarão de luz de lanterna a brilhar suavemente no seu interior.
   - id: scene-nimbo
     role: scene
     orientation: landscape
@@ -97,3 +103,4 @@ images:
       en-GB: A shy cloud-whale calf glowing with gathered light as two little mages offer friendship and the freed lanterns rise into a golden sky.
       es-ES: Una ballenita de nube tímida que brilla con la luz reunida mientras dos pequeños magos le ofrecen amistad y los faroles liberados suben a un cielo dorado.
       it-IT: Un timido balenotto di nuvole che brilla con la luce raccolta mentre due piccoli maghi gli offrono amicizia e le lanterne liberate salgono in un cielo dorato.
+      pt-PT: Uma tímida baleia-nuvem que brilha com a luz reunida enquanto dois pequenos magos lhe oferecem amizade e as lanternas libertadas sobem para um céu dourado.
