@@ -222,7 +222,10 @@ def render_character_sheet(
     wline(ix, y - 12 * mm, iw)
     if example:
         text(ix + 1 * mm, y - 11 * mm, example.get("name", ""), f.hand, 13, theme.text)
-    text(ix, y - 20 * mm, s("sheet_hero_type").upper(), f.body_bold, 7.5, muted)
+    _ht = s("sheet_hero_type").upper()
+    text(ix, y - 20 * mm, _ht, f.body_bold, 7.5, muted)
+    text(ix + c.stringWidth(_ht, f.body_bold, 7.5) + 2.5 * mm, y - 20 * mm,
+         s("sheet_hero_type_hint"), f.body, 6.5, tint(theme.text, 0.5))
     wline(ix, y - 27 * mm, iw)
     if example:
         text(ix + 1 * mm, y - 26 * mm, example.get("hero_of", ""), f.hand, 12, theme.text)

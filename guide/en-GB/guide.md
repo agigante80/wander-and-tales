@@ -28,7 +28,7 @@ roll of the die adds a pinch of surprise:
 
 That is the whole engine: a question, an idea, a roll, and a "yes, and" that keeps the
 story moving. No one can fail their way out of the fun; a low roll just means you find
-another way. The story tells you when to roll, the Playbook gives you the answers, and
+another way. The story tells you when to roll, the Tale Book gives you the answers, and
 this Guide does the rest.
 
 ## Worlds, stories, and kits
@@ -51,26 +51,24 @@ You never need to read a whole world to begin. One story is one evening.
 
 A kit arrives as a few short PDFs. You do not have to print them all.
 
-- **The Story Pack.** The one booklet you read and play from, and it is **yours**, not
-  the children's: the opening, a map, the story to read aloud, the pictures to show at
-  each place, and a blank **adventure sheet** on the last page. Keep it to yourself and
-  reveal things as you go, so the story stays a surprise; the children never need their
-  own copy.
-- **The Grown-up's Playbook.** The rules and, crucially, the **answers** to the
-  puzzles. This part is for you, not for the children. You can keep it on a phone or a
-  screen to save paper. **Read it before you start.**
+- **The Tale Book.** The one you read and run the game from, and it is **yours**, not
+  the children's: the story to read aloud, how to run it, and the puzzle **answers**.
+  Read it from a screen or print it, and keep it to yourself so the surprises stay
+  surprises. It comes at two reading levels (a simple one for ages 3 to 8, a rich one
+  for 9 to 12).
+- **The Atlas.** The map, a picture for each place to show as you arrive, and a blank
+  **adventure sheet** at the back. This is the only part the children see. Print it,
+  show it on a screen, or make your own (see below).
 - **The World Book** (optional). A "who's who" of the world's characters and
   creatures, plus a bank of extra ideas, for when you want more. Nice to have, never
   needed.
 - **Example heroes** (optional). A page of ready-made heroes, already filled in, to
-  show your children what a hero can look like. Print it for inspiration, or just
-  glance at it on screen.
+  show your children what a hero can look like.
 - **This Guide** (read once). What you are reading now. After this you are set for
   every kit in the library.
 
-The shortest path: print **one Story Pack** (your reading copy) and an adventure sheet
-for each player, keep the **Playbook** open beside you, and read the story aloud,
-showing each picture as you reach that place.
+The shortest path: open the **Tale Book** and read it aloud, showing each **Atlas**
+picture as you reach that place, and give each player an adventure sheet.
 
 **No printer? No problem.** You never have to print everything. You can read the story
 from a screen, and the map and the adventure sheets are easy to make by hand: a child
@@ -78,24 +76,42 @@ can draw their own hero sheet on any paper, and the map can be sketched, or simp
 on the table with coins and buttons. Making them together is a lovely first part of the
 adventure.
 
-## The adventure sheet
+## The adventure sheet, and making a hero
 
-The last page of every Story Pack is an **adventure sheet**, where each player makes
-their own hero. Everyone takes one, you included. A player writes a name, gives their
-hero three **magics** (or, in worlds without magic, three **strengths** such as
-imagination, courage, or a kind heart), draws a quick picture, and lists the few things
-they carry.
-The five **energy stars** are coloured in as they are spent during play, so print a
-fresh sheet for each player and each new adventure. The **example heroes** show what a
-finished one looks like. Making a hero takes a couple of minutes and is part of the
-fun, so do not skip it.
+At the back of the Atlas is an **adventure sheet**, where each player makes their own
+hero. Everyone takes one, you included. A player writes a name, then fills in **"I am a
+hero of..."**, which means **this world**, not their town or family: "a hero of the
+Sunlit Hills", "a hero of the Floating Isles". Then they give the hero three
+**strengths** (or, in a magic world, three **magics**), draw a quick picture, and list
+the few things they carry.
+
+Three strengths is plenty, and there is no wrong choice. A strength is just a way this
+hero likes to help, and "what it does" is one short line in the child's own words. Offer
+a few and let them invent their own:
+
+- **Imagination**: "I dream up a new idea."
+- **Courage**: "I go first when it is scary."
+- **Kindness**: "I make a friend of almost anyone."
+- **Curiosity**: "I ask the one good question."
+- **Patience**: "I keep trying when it is hard."
+- **Strong arms**: "I carry and lift and hold the gate."
+- **Quick feet**: "I run ahead and fetch."
+- **A good memory**: "I remember what we saw."
+- **A kind voice**: "I calm a frightened creature."
+
+The magic is in the choosing, so let the child surprise you. The five **energy stars**
+are coloured in as they are spent during play, so use a fresh sheet for each player and
+each new adventure (draw your own on any paper if you like). The **example heroes** show
+what a finished one looks like. Making a hero takes a couple of minutes and is part of
+the fun, so do not skip it.
 
 ## Before you begin: a five-minute setup
 
-1. **Read the Playbook** once, and skim the story so you know its shape. You do not
-   need to memorise anything; the pages prompt you as you go.
-2. **Print** one Story Pack (your reading copy), plus an adventure sheet for each
-   player.
+1. **Read the Tale Book** once, so you know the story, the rules, and the answers. You
+   do not need to memorise anything; the pages prompt you as you go.
+2. **Have the Tale Book** open on a screen or printed (for you), and the **Atlas**
+   ready to show or print, plus an adventure sheet for each player (or paper to make
+   your own).
 3. **Gather** a single six-sided die (one is enough for any kit), a pencil each, and a
    small handful of tokens, coins, or buttons to stand in for the players and to mark
    the energy stars.

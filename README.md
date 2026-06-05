@@ -16,12 +16,14 @@ You are not limited to the ready-made kits: you can write and print **your own**
 too, in your family's languages, with a little help from Claude. See
 [Create your own story](#create-your-own-story) below.
 
-## Print a ready-made kit
+## Get a ready-made kit
 
-Each story comes as a **Story Pack** (what you play from, safe for a child to see), a
-**Grown-up's Playbook** (the rules and the puzzle answers), and each world has a
-**World Book** (its lore, who's who, and idea bank). The **Simple** Story Pack reads
-aloud well for ages 3 to 8; the **Rich** one suits ages 9 to 12. Every PDF shows its
+Each story comes as a **Tale Book** (the grown-up reads from this: the story, the
+rules, and the answers) and an **Atlas** (the map, a picture for each place, and the
+hero sheet, the only part the children see). Each world also has a **World Book** (its
+lore, who's who, and idea bank). The Tale Book comes in **Simple** (reads aloud well for
+ages 3 to 8) and **Rich** (ages 9 to 12). You can read from a screen and print the
+Atlas, or simply draw and build it by hand: nothing needs a printer. Every PDF shows its
 version on the last page, and the links below are generated automatically.
 
 <!-- BEGIN KIT TABLE -->
