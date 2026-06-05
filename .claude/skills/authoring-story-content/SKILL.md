@@ -82,6 +82,16 @@ These are small and unforgiving, so check them deliberately.
    an Americanism into en-GB, a Latin American turn of phrase into es-ES, or a
    non-native turn into it-IT. See `references/voice-and-reading-levels.md`.
 
+4. **Use plain, everyday words a parent can relay to a child, especially when
+   describing the game itself.** A grown-up reads the description and then has to
+   explain it to their child in the moment; if the wording is elaborate, the parent is
+   left hunting for the right words. So describe the game in words a six-year-old would
+   understand. Avoid jargon and abstract labels, even correct ones: do not call it
+   "cooperative" (say "you play together, on the same side"), a "narrator" (say "you
+   read the story aloud"), or a "puzzle" where "a little challenge" works. Lead with
+   the fun and what you actually do, not the category. This governs the Guide, the
+   one-page How to Play, world intros, and any copy a parent reads aloud or paraphrases.
+
 ## Content types and where they live
 
 | File | Audience | Reading level | Notes |

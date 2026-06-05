@@ -29,6 +29,7 @@ class Built:
     world_books: dict = field(default_factory=dict)  # (world, locale) -> Path
     example_heroes: dict = field(default_factory=dict)  # (world, locale) -> Path
     guides: dict = field(default_factory=dict)       # locale -> Path
+    quickstarts: dict = field(default_factory=dict)  # locale -> Path
 
 
 def build_all(root: Path, out_dir: Path) -> Built:
@@ -66,6 +67,8 @@ def build_all(root: Path, out_dir: Path) -> Built:
             out = out_dir / "guides" / f"Guide_for_the_Grown-Up_{locale}-{vi.label}.pdf"
             qr = f"{PROJECT_URL}/tree/main/kits/guides"
             built.guides[locale] = pages.render_guide(guide_md, out, locale, version=vi, qr_url=qr)
+            qs = out_dir / "guides" / f"How_to_Play_{locale}-{vi.label}.pdf"
+            built.quickstarts[locale] = pages.build_quickstart(qs, locale, version=vi)
     return built
 
 
@@ -74,7 +77,7 @@ def prune_old(out_dir: Path, built: Built) -> list[Path]:
     keep = set()
     for mapping in (
         built.story_packs, built.playbooks, built.world_books,
-        built.example_heroes, built.guides,
+        built.example_heroes, built.guides, built.quickstarts,
     ):
         keep.update(p.resolve() for p in mapping.values())
     removed: list[Path] = []
@@ -147,6 +150,15 @@ def readme_block(root: Path, built: Built) -> str:
         "three languages: pick a Story Pack to play from, the Grown-up's Playbook for the",
         "answers, and the World Book for the lore.",
     ]
+    if built.quickstarts:
+        qs_links = " · ".join(
+            f"[{_LANG_NAME.get(loc, loc)}]({_rel(root, path)})"
+            for loc, path in sorted(built.quickstarts.items())
+        )
+        lines += [
+            "",
+            f"**Never played a game like this?** Start with the one-page How to Play: {qs_links}.",
+        ]
     if built.guides:
         guide_links = " · ".join(
             f"[{_LANG_NAME.get(loc, loc)}]({_rel(root, path)})"
@@ -154,7 +166,7 @@ def readme_block(root: Path, built: Built) -> str:
         )
         lines += [
             "",
-            f"**New to running a game like this?** Read the Guide for the Grown-Up: {guide_links}.",
+            f"Want more detail? The full Guide for the Grown-Up: {guide_links}.",
         ]
     for world_id in sorted(stories_by_world):
         world = content.load_world(root / "worlds" / world_id / "world.yaml")

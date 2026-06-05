@@ -4,8 +4,10 @@ The font is resolved per (world, locale) so each page is drawn in the world's
 typeface, honouring any per-locale override.
 """
 
+import tempfile
 from pathlib import Path
 
+from pypdf import PdfReader, PdfWriter
 from reportlab.lib.pagesizes import A4, landscape
 from reportlab.lib.units import mm
 from reportlab.platypus import KeepTogether, PageBreak, SimpleDocTemplate, Spacer
@@ -13,6 +15,7 @@ from reportlab.platypus import KeepTogether, PageBreak, SimpleDocTemplate, Space
 from build.models import World
 from build.render import chrome, colophon, flowables, fonts, footer, images, theme
 from build.render import markdown as md
+from build.render import quickstart as quickstart_page
 from build.render import strings
 from build.render.version import VersionInfo
 
@@ -156,9 +159,21 @@ def render_guide(
     flows.append(PageBreak())
     flows.extend(colophon.colophon_flowables(styles, locale, version, label, qr_url))
     out_path.parent.mkdir(parents=True, exist_ok=True)
-    doc = _doc(out_path, landscape_page=False)
     paint = theme.page_painter(th)
-    doc.build(list(flows), onFirstPage=paint, onLaterPages=paint)
+    # The Guide opens with the one-page How to Play sheet, then the prose. Render each
+    # part, then merge so the schema is page one (kept in sync with the standalone sheet).
+    with tempfile.TemporaryDirectory() as tmp:
+        tmp_path = Path(tmp)
+        qs = quickstart_page.render_quickstart(tmp_path / "qs.pdf", locale, th)
+        prose = tmp_path / "prose.pdf"
+        doc = _doc(prose, landscape_page=False)
+        doc.build(list(flows), onFirstPage=paint, onLaterPages=paint)
+        writer = PdfWriter()
+        for part in (qs, prose):
+            for page in PdfReader(str(part)).pages:
+                writer.add_page(page)
+        with out_path.open("wb") as handle:
+            writer.write(handle)
     footer.stamp_footers(
         out_path, identity=f"Wits and Wonder · {label}", locale=locale,
         version_info=version,
@@ -167,5 +182,29 @@ def render_guide(
         out_path, title=f"{label}, {locale}, {version.label}",
         subject=f"Guide for the Grown-Up, {version.label}, {version.updated}",
         keywords=f"wits-and-wonder, guide, {locale}",
+    )
+    return out_path
+
+
+def build_quickstart(
+    out_path: Path,
+    locale: str = "en-GB",
+    *,
+    version: VersionInfo | None = None,
+) -> Path:
+    """Render the standalone one-page How to Play sheet, stamped with footer and
+    metadata. Same page that opens the Guide, shareable and printable on its own."""
+    version = version or VersionInfo(0, 0, "unreleased")
+    th = theme.Theme.default()
+    title = strings.ui(locale, "quickstart_title")
+    quickstart_page.render_quickstart(out_path, locale, th)
+    footer.stamp_footers(
+        out_path, identity=f"Wits and Wonder · {title}", locale=locale,
+        version_info=version,
+    )
+    footer.set_metadata(
+        out_path, title=f"{title}, {locale}, {version.label}",
+        subject=f"How to Play, {version.label}, {version.updated}",
+        keywords=f"wits-and-wonder, how-to-play, quick-start, {locale}",
     )
     return out_path

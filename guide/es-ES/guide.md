@@ -7,16 +7,13 @@ listo para cualquier kit de la biblioteca. Te llevará unos minutos.*
 
 Si nunca has jugado a algo así, imagina un cuento antes de dormir que tu hijo ayuda a
 llevar, un poco como un libro de "elige tu propia aventura" representado en voz alta
-entre todos. En el fondo es solo eso. Es una aventura cooperativa de historia y puzles
-que juegas con un niño, o con unos cuantos niños, en voz alta, con un kit impreso y
-unas pocas cosas de casa. No hay
-aplicación ni pantalla. Tú lees un poco de historia, los niños toman decisiones y,
-juntos, resolvéis puzles amables con dados sencillos. Jugáis todos en el mismo
-equipo, ayudándoos a salir adelante, nunca unos contra otros. Es una forma de practicar la imaginación, la resolución
-de problemas y el trabajo en equipo, y una bonita excusa para un rato sin prisas y
-sin pantallas, algo que los estudios relacionan con cómo los niños se calman y
-crecen. No hace falta ninguna experiencia. Si sabes leer un cuento antes de dormir,
-sabes dirigir esto.
+entre todos. En el fondo es solo eso. Lo juegas con un niño, o con unos cuantos niños,
+en voz alta, con un kit impreso y unas pocas cosas de casa. No hay aplicación ni
+pantalla. Tú lees un poco de historia, los niños dicen qué quieren hacer y, juntos,
+superáis pequeños retos con una tirada de dado. Jugáis todos en el mismo equipo,
+ayudándoos entre vosotros, nunca unos contra otros. El único objetivo es pasarlo bien
+juntos y sentiros listos y amables. No hace falta ninguna experiencia: si sabes leer
+un cuento antes de dormir, sabes dirigir esto.
 
 ## Cómo es jugar, en la práctica
 

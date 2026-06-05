@@ -7,15 +7,13 @@ kit in the library. It takes a few minutes.*
 
 If you have never played a game like this, picture a bedtime story that your child
 helps to steer, a little like a choose-your-own-adventure book acted out loud
-together. That is really all it is. This is a cooperative story-and-puzzle adventure
-you play with a child, or a few children, out loud, with a printed kit and a few
-household bits. There is no app and
-no screen. You read a little story, the children make choices, and together you solve
-gentle puzzles with simple dice. You are all on the same side, helping each other
-through, never playing against one another. It is a way to practise imagination, problem-solving, and working
-together, and a lovely excuse for unhurried, screen-free time, which researchers
-link to how well children settle and thrive. You need no experience at all. If you
-can read a bedtime story, you can run this.
+together. That is really all it is. You play it with a child, or a few children, out
+loud, with a printed kit and a few things from around the house. There is no app and
+no screen. You read a little story, the children say what they want to do, and
+together you get past little challenges with a roll of the dice. You are all on the
+same side, helping each other along, never one against another. The only goal is to
+have fun together and feel clever and kind. You need no experience at all: if you can
+read a bedtime story, you can run this.
 
 ## What playing actually looks like
 

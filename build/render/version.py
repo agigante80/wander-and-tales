@@ -39,6 +39,7 @@ _RENDER_SOURCES = (
     "build/render/mapgen.py",
     "build/render/footer.py",
     "build/render/colophon.py",
+    "build/render/quickstart.py",
     "build/render/fonts.py",
     "build/render/strings.py",
 )
