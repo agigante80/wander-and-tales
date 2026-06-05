@@ -29,7 +29,7 @@ or more children), and playable with a single ordinary die. Each kit comes in
 three languages: pick a Story Pack to play from, the Grown-up's Playbook for the
 answers, and the World Book for the lore.
 
-**New to running a game like this?** Read the Guide for the Grown-Up: [English](kits/guides/Guide_for_the_Grown-Up_en-GB-v2.13.pdf) · [Español](kits/guides/Guide_for_the_Grown-Up_es-ES-v2.13.pdf) · [Italiano](kits/guides/Guide_for_the_Grown-Up_it-IT-v2.10.pdf).
+**New to running a game like this?** Read the Guide for the Grown-Up: [English](kits/guides/Guide_for_the_Grown-Up_en-GB-v3.0.pdf) · [Español](kits/guides/Guide_for_the_Grown-Up_es-ES-v3.0.pdf) · [Italiano](kits/guides/Guide_for_the_Grown-Up_it-IT-v3.0.pdf).
 
 ### The Emerald Isles of the Celts
 
