@@ -115,7 +115,7 @@ The README's "Get the kit" table is generated, so do not hand-edit between the
 ## Step 5: confirm the PDFs are created correctly
 
 - Run the test suite; it is green only if the structural invariants hold (every page
-  A4, the Story Pack omits the answers and the glossary, the colophon and footer are
+  A4, the Atlas omits the answers and the story text, the colophon and footer are
   present, and so on):
 
   ```bash
@@ -125,7 +125,7 @@ The README's "Get the kit" table is generated, so do not hand-edit between the
 - Rasterize a page of each new artifact and look at it:
 
   ```bash
-  pdftoppm -png -r 110 "$(find kits -name 'story-pack-rich-*.pdf' | grep <w> | head -1)" /tmp/check
+  pdftoppm -png -r 110 "$(find kits -name 'tale-book-rich-*.pdf' | grep <w> | head -1)" /tmp/check
   ```
 
   Confirm: A4 white pages; the front page shows the world paragraph and the cover when
@@ -134,7 +134,7 @@ The README's "Get the kit" table is generated, so do not hand-edit between the
   labels in that locale and the trail reading start to finish); accents render; scene
   images embed; the last page is the colophon with the QR, the licence, and the
   version; and every page has the footer with `page x of y`. Check the World Book
-  (cover, glossary with portraits, idea bank, stories list) and the Grown-up's Playbook
+  (cover, glossary with portraits, idea bank, stories list) and the Tale Book
   (rules then answers) the same way.
 - Confirm the README links resolve and no filename carries a `+`:
 

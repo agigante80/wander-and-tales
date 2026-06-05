@@ -24,6 +24,9 @@ quietly, "Do you think I am a bad tanuki?" A single warm "no" melts the worry at
 once. A friendly pat or a shared rice cake also does the trick, and Pon springs up,
 ready to help.
 
+**Make it simpler.** For a very little one, just ask them to give Pon a big gentle hug
+and say "it's all right," and his ears perk straight up.
+
 ## Stop 2: The Great Sort (Normal)
 
 **The challenge.** Fans, fruit, and lanterns lie jumbled in one big heap. The players
@@ -45,6 +48,9 @@ Spending an energy star to take a calm breath and start the pile again always wo
 Getting the market tidy with help still counts as a full success and tops up an
 energy star.
 
+**Make it simpler.** For a very little one, hand them just the red things and ask them
+to pop them all in one basket, and that one tidy pile is a win.
+
 ## Stop 3: The Last Lantern (Normal)
 
 **The challenge.** The market is nearly perfect, but the big red festival lantern
@@ -63,6 +69,9 @@ Pon proud of helping rather than sorry for the muddle.
 water, where the plums grow"), or let Pon catch a glimpse of red himself. However
 the lantern is found, make sure Pon gets the credit for the finding, so he ends the
 story standing tall.
+
+**Make it simpler.** For a very little one, hide a red toy or ball nearby and let them
+toddle over and find it, then cheer that they saved the festival.
 
 ## The ending
 

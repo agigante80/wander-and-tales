@@ -25,6 +25,9 @@ que las pisadas hondas que siguen adelante apuntan todas al mismo sitio. Ir pega
 al perro y no rendirse siempre encuentra el rastro; esta parada está pensada para
 sentirse como un comienzo fácil y feliz.
 
+**Hazlo más fácil.** Poned en el suelo dos huellas de pata de papel y pedid a un peque
+que camine de puntillas sobre ellas como Argos, siguiendo el rastro juntos.
+
 ## Parada 2: Las Pozas de la Marea (Normal)
 
 **El reto.** El rastro lleva entre tres pozas de marea llenas de sol, y los jugadores
@@ -51,6 +54,9 @@ guijarro no, así que ¿cuál es?". O dejad que gasten una estrella de energía 
 Argos olfatea directo hasta la poza correcta. Llegar a la poza dos por cualquier
 camino cuenta como un éxito completo y recupera una estrella de energía.
 
+**Hazlo más fácil.** Poned tres vasos y esconded una concha bajo uno, y dejad que un
+peque mire y señale el vaso que tiene al lado la concha rayada.
+
 ## Parada 3: La Duna Lejana (Normal)
 
 **El reto.** El recuerdo ha caído cerca de una duna solitaria y el viento lo ha medio
@@ -69,6 +75,9 @@ olfatee una vez y empiece a cavar él mismo justo donde debe ser, para que pueda
 unirse. Gastar una estrella de energía para "mirar más de cerca" también revela el
 destello de la madera. El recuerdo siempre aparece; la única pregunta es con cuánta
 ternura.
+
+**Hazlo más fácil.** Esconded un juguete pequeño bajo un cojín y dejad que un peque lo
+descubra apartándolo con suavidad con una mano para encontrar el tesoro y abrazarlo.
 
 ## El final
 

@@ -26,6 +26,10 @@ mí toda la mañana, y no me podéis sostener en la mano"), o Pook el Puca susur
 respuesta entre los juncos. Una conjetura hecha con valentía abre igualmente el
 camino para cruzar.
 
+**Hazlo más fácil.** Para los más pequeños, señalad alrededor y preguntad: "¿Qué flota
+sobre el lago, que podemos atravesar pero nunca sostener?" Señalar la bruma es toda la
+respuesta.
+
 ## Parada 2: La Travesía de la Selkie (Normal)
 
 **El reto.** Sorcha la Selkie tiene el único bote, pero es tímida y un poco solitaria
@@ -42,6 +46,9 @@ los remos y los cruza al otro lado.
 la nariz y murmure: "Nadie se para nunca a hablar conmigo." Una sola palabra amable
 derrite su timidez. Compartir aunque sea una miga de la torta cuenta como un éxito
 completo y recupera una estrella de energía.
+
+**Hazlo más fácil.** Para los más pequeños, basta con que saluden con la mano y digan:
+"hola, ¿quieres ser mi amiga?" Ese único saludo amable se gana a Sorcha.
 
 ## Parada 3: La Tierra de la Juventud (Difícil, luego sin tirada)
 
@@ -62,6 +69,10 @@ el camino a casa.
 "Esperad... ¿había alguien que me cantaba por las noches?" Cualquier recuerdo cálido
 que los niños ofrezcan trae a la amiga el resto del camino de vuelta. La lana roja
 garantiza que nadie pierda el sendero, por muy brumoso que se ponga.
+
+**Hazlo más fácil.** Para los más pequeños, pedidles que digan el nombre de una persona
+de casa a la que quieren y echan de menos; decir ese único nombre basta para que la
+amiga recuerde y elija volver a casa.
 
 ## El final
 

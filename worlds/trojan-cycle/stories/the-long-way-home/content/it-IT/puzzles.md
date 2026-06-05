@@ -29,6 +29,9 @@ gentile e una promessa è tutto ciò che chiedo, giovani marinai") oppure lascia
 spendano una stella di energia per trovare insieme le parole giuste. Una richiesta
 fatta con coraggio e cortesia si guadagna sempre il vento favorevole.
 
+**Rendilo più facile.** Chiedete a un piccolino di dire "per favore" e soffiare un
+gran sbuffo d'aria come il vento, ed Eolo li manda contento verso casa.
+
 ## Tappa 2: Le Sirene Cantatrici (Difficile, poi senza tiro)
 
 **La sfida.** Le Sirene Cantatrici siedono sulle rocce solitarie, e il loro canto è
@@ -49,6 +52,9 @@ fate chiamare una Sirena sull'acqua, molto piano: "Nessuno si fermerà mai a can
 noi?" Una sola parola gentile o una nota de La Conchiglia rende lieto il canto triste e
 le Sirene diventano amiche all'istante.
 
+**Rendilo più facile.** Lasciate che un piccolino canticchi un allegro "la-la-la"
+alle Sirene, e quella canzoncina contenta basta a farle sorridere.
+
 ## Tappa 3: A Casa Finalmente (Normale)
 
 **La sfida.** Gli eroi raggiungono una costa verde che potrebbe essere casa. Devono
@@ -66,6 +72,9 @@ deciderlo: il vecchio cane alza la testa grigia, fiuta il loro odore e trotterel
 dritto verso di loro scodinzolando, perché non ha mai dimenticato un amico. Riconoscere
 casa con l'aiuto del cane conta comunque come un successo pieno e recupera una stella di
 energia.
+
+**Rendilo più facile.** Chiedete a un piccolino di chiamare il cane per nome, "Argo!",
+e salutare con la mano pieno di gioia, e il ritorno a casa comincia subito.
 
 ## Il finale
 

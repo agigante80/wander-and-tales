@@ -23,6 +23,9 @@ indichi con un occhiolino. Lo sguardo più dolce o la parola più gentile la fan
 uscire; qualsiasi tentativo sincero di trovarla conta come un successo pieno e recupera
 una stella di energia.
 
+**Rendilo più facile.** Nascondete una lucina dietro un cuscino e lasciate che il più
+piccolo la trovi con un allegro "cucù!".
+
 ## Tappa 2: I Tre Colori (Normale)
 
 **La sfida.** La piccola aurora ha perso i suoi tre colori, il verde acqua, il verde e
@@ -40,6 +43,9 @@ verso il posto giusto ("un ghiacciolo le cattura lo sguardo"), oppure fate canti
 Nori e inclinare la testa verso di esso. Ogni colore trovato la fa brillare un po' di
 più, e trovarli con aiuto conta comunque del tutto.
 
+**Rendilo più facile.** Chiedete al più piccolo di indicare qualcosa di verde nella
+stanza, poi qualcosa di blu, e festeggiate ogni volta.
+
 ## Tappa 3: La Salita fino al Cielo (Normale)
 
 **La sfida.** La piccola aurora ora brilla, ma ha paura di salire. Teme che il cielo
@@ -54,6 +60,9 @@ Quando i bambini le prestano il loro coraggio, lei fa un respiro e salta.
 **Aiuto.** Se esita, o i bambini non sono sicuri di come aiutare, fatela chiedere
 piano: "Contate con me?" Una sola parola gentile e coraggiosa basta. Nel momento in cui
 i giocatori la incoraggiano in un modo qualsiasi, lei si fa forza e si solleva.
+
+**Rendilo più facile.** Contate insieme "uno, due, tre, salta!" e fate saltare tutti
+sul posto con un bell'urlo di gioia.
 
 ## Il finale
 

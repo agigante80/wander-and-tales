@@ -5,7 +5,7 @@
     en-GB: Imagination
     es-ES: Imaginación
     it-IT: Immaginazione
-  kind: term
+  kind: quality
   description:
     en-GB: Imagining ideas and trying them. In the north, a good idea is worth more than a strong arm, and a riddle is solved with a cool head.
     es-ES: Imaginar ideas y probarlas. En el norte, una buena idea vale más que un brazo fuerte, y un acertijo se resuelve con la cabeza fría.
@@ -17,7 +17,7 @@
     en-GB: Courage
     es-ES: Valor
     it-IT: Coraggio
-  kind: term
+  kind: quality
   description:
     en-GB: A warm, steady heart on the longest, darkest night. Courage is not being unafraid; it is staying kind and trying anyway, even when you are afraid.
     es-ES: Un corazón cálido y firme en la noche más larga y oscura. El valor no es no tener miedo; es seguir siendo amable e intentarlo igualmente, aun cuando lo tienes.
@@ -29,7 +29,7 @@
     en-GB: Heart
     es-ES: Corazón
     it-IT: Cuore
-  kind: term
+  kind: quality
   description:
     en-GB: Care for others and a place by the fire for everyone. The greatest heroes of the fjords are the ones who share, help, and stand by a friend.
     es-ES: El cuidado por los demás y un sitio junto al fuego para todos. Los mayores héroes de los fiordos son los que comparten, ayudan y no abandonan a un amigo.

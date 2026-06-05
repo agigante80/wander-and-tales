@@ -6,17 +6,17 @@ _TINY_SVG = (
 )
 
 
-def test_render_builds_a_story_pack(sample_repo, tmp_path, capsys):
+def test_render_builds_a_tale_book(sample_repo, tmp_path, capsys):
     code = main([
-        "render", "--root", str(sample_repo),
+        "render-tale-book", "--root", str(sample_repo),
         "--world", "floating-isles", "--story", "sleeping-garden",
         "--locale", "en-GB", "--reading-level", "simple",
         "--out-dir", str(tmp_path),
     ])
     assert code == 0
-    expected = tmp_path / "en-GB" / "floating-isles" / "sleeping-garden" / "story-pack-simple-v0.0.pdf"
+    expected = tmp_path / "en-GB" / "floating-isles" / "sleeping-garden" / "tale-book-simple-v0.0.pdf"
     assert expected.is_file()
-    assert "story-pack-simple-v0.0.pdf" in capsys.readouterr().out
+    assert "tale-book-simple-v0.0.pdf" in capsys.readouterr().out
 
 
 def test_render_guide_builds_under_guides_with_version(sample_repo, tmp_path):
@@ -39,17 +39,17 @@ def test_render_guide_missing_markdown_returns_one(sample_repo, tmp_path):
     assert code == 1
 
 
-def test_render_playbook_builds(sample_repo, tmp_path):
+def test_render_atlas_builds(sample_repo, tmp_path):
     from build.__main__ import main
 
     code = main([
-        "render-playbook", "--root", str(sample_repo),
+        "render-atlas", "--root", str(sample_repo),
         "--world", "floating-isles", "--story", "sleeping-garden",
         "--locale", "en-GB", "--out-dir", str(tmp_path),
     ])
     assert code == 0
     assert (
-        tmp_path / "en-GB" / "floating-isles" / "sleeping-garden" / "playbook-v0.0.pdf"
+        tmp_path / "en-GB" / "floating-isles" / "sleeping-garden" / "atlas-v0.0.pdf"
     ).is_file()
 
 

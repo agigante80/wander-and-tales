@@ -20,6 +20,9 @@ open on its own.
 start, then the players spend an energy star or combine two magics to finish.
 Nobody waits at this gate for long.
 
+**Make it simpler.** For a very young child, lay a length of string across the
+doorway and let them pull it aside to "open" the vine gate.
+
 ## Stop 2: The Flower Bed (Normal)
 
 **The challenge.** Four flowers have lost their order. A small voice hums the
@@ -39,6 +42,9 @@ order. Logic and a little vocabulary do the work here, not a magic.
 a time, and let them place one flower per line. Getting there with help still
 counts as a full success, and tops up an energy star.
 
+**Make it simpler.** For a very young child, set out just two flowers, a yellow
+sun and a blue sea, and ask only which one comes first.
+
 ## Stop 3: The Talking Fountain (Normal)
 
 **The challenge.** The fountain has gone quiet and sad and will not flow. It does
@@ -52,6 +58,9 @@ combined magic is a fine alternative.
 **Fallback.** If the children freeze, have the fountain ask a tiny question of its
 own ("Do you know any songs about water?") to give them a thread to pull. The
 moment they try, let the water leap and sing.
+
+**Make it simpler.** For a very young child, just blow the fountain a kiss or wave
+hello together, and let that be enough to make it splash for joy.
 
 ## The Heart of the Garden (no roll)
 

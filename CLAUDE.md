@@ -18,7 +18,7 @@ pipeline, and the content for six worlds (Floating Isles, the Greek-myth Sunlit 
 the Norse Snowlit Fjords, the Japanese Blossom Mountains of Yamato, the Celtic Emerald
 Isles, and the Epic-Cycle Windswept Shores of Troy), eighteen stories in all, in en-GB,
 es-ES, and it-IT. Each story builds
-into three artifacts (a Story Pack, a Grown-up's Playbook, and a World Book) plus the
+into three artifacts (a Tale Book, an Atlas, and a World Book) plus the
 shared Guide for the Grown-Up, every PDF carrying an automatic git-derived version, a
 colophon, and a per-page footer, assembled into the language-first `kits/` tree by
 `python -m build rebuild`. `tests/conftest.py` builds a tiny valid world on a tmp path
@@ -37,9 +37,11 @@ Use the project virtualenv at `.venv/`.
 .venv/bin/python -m build validate --root .   # load + validate all content
 .venv/bin/python -m build lint --root .       # structural lint (exit 1 on error)
 
-.venv/bin/python -m build render --root . \
+.venv/bin/python -m build render-tale-book --root . \
   --world floating-isles --story sleeping-garden \
-  --locale en-GB --reading-level simple        # build one kit PDF into dist/
+  --locale en-GB --reading-level simple        # build one Tale Book into dist/
+.venv/bin/python -m build render-atlas --root . \
+  --world floating-isles --story sleeping-garden --locale en-GB  # build its Atlas
 .venv/bin/python -m build render-guide --root . --locale en-GB  # build the Guide PDF
 .venv/bin/python -m build prompts --root .            # export image generation prompts
 .venv/bin/python -m build generate-images --root .    # generate PNGs (needs OPENAI_API_KEY in .env)
@@ -98,16 +100,20 @@ so there is no clash. Data flows in one direction:
   world palette and resolved faces (with `tint()` for light fills), `chrome.py` holds
   the shared, palette-driven page chrome (header band, beat chip, prompt callout,
   rounded image) reused by both the sheet and the booklets, `flowables.py`/`pages.py`
-  render, `glossary.py` builds the appendix from canon, `map.py` renders a hand-drawn
-  map SVG via cairosvg and `mapgen.py` draws a generated trail map when there is none,
-  `sheets.py` draws the age-tiered character sheets, and
-  `kit.py:build_story_pack` merges the
-  ordered pages with pypdf. Each kit splits into three artifacts (Story Pack,
-  Grown-up's Playbook, World Book) plus the Guide; `version.py` stamps an automatic
-  git-derived version, `colophon.py` adds the end page, `footer.py` the per-page
-  footer, and `library.py` rebuilds the whole library. Output is a language-first
-  versioned tree: `dist|kits/<locale>/<world>/<story>/story-pack-<level>-v<n>.pdf`,
-  `.../playbook-v<n>.pdf`, and `.../<world>/world-book-v<n>.pdf`.
+  render, `glossary.py` builds the appendix from canon (the hero qualities or magics
+  come first under their own clear heading, then places, characters, creatures, items,
+  and any plain terms), `map.py` renders a hand-drawn map SVG via cairosvg and
+  `mapgen.py` draws a generated trail map when there is none, `sheets.py` draws the
+  age-tiered character sheets, and `kit.py` holds the shared merge/image/map-label
+  helpers. `tale_book.py:build_tale_book` builds the grown-up's Tale Book (title,
+  read-aloud story without images, rules, answers) per reading level, and
+  `atlas.py:build_atlas` builds the player-facing Atlas (cover, map, one big picture per
+  place, the hero sheet). Each story is a **Tale Book** (per level) plus an **Atlas**,
+  and each world also has a **World Book** plus the shared Guide; `version.py` stamps an
+  automatic git-derived version, `colophon.py` adds the end page, `footer.py` the
+  per-page footer, and `library.py` rebuilds the whole library. Output is a language-first
+  versioned tree: `dist|kits/<locale>/<world>/<story>/tale-book-<level>-v<n>.pdf`,
+  `.../atlas-v<n>.pdf`, and `.../<world>/world-book-v<n>.pdf`.
 - **Maps are world-level or story-level, and may be per-locale.** A story map
   lives at `worlds/<world>/stories/<story>/assets/`, a world map at
   `worlds/<world>/assets/`. `map.py:find_map` resolves a kit's map in order: story

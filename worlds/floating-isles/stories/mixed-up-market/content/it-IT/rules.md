@@ -1,13 +1,8 @@
 # Il Mercato della Magia Pasticciata: Regole per l'adulto
 
-*È la prima volta? Leggete prima la Guida del Gioco. Spiega tutta l'idea in due
-pagine e non ne avrete mai più bisogno.*
-
-Voi siete la Guida del Gioco, che sulle Isole significa qualche piccolo compito
-allo stesso tempo: narratore, arbitro gentile, il più grande tifoso dei bambini e
-un avventuriero in più che gioca con loro. Questo è un gioco cooperativo per due o
-più che giocano insieme, una persona adulta e uno o più bambini, tutti dalla
-stessa parte. Nessuno gareggia e nessuno perde.
+La Guida del Gioco spiega come funziona il gioco (le bande, le stelle di energia,
+aiutarsi, i colpi di scena, tutto quanto). Questa pagina ha solo ciò che è speciale
+in questa avventura. Un tiro fallito non è mai una sconfitta; nessuno perde.
 
 ## Preparare la partita
 
@@ -25,43 +20,10 @@ stessa parte. Nessuno gareggia e nessuno perde.
 - Tenete vicino i vostri dadi e la tabella delle bande e dei dadi che trovate in
   fondo al kit.
 
-## Bande di difficoltà, non dadi
-
-Le sfide non chiedono mai un dado preciso. Ognuna ha invece una banda: **Facile**,
-**Normale** o **Difficile**. Quando i giocatori provano qualcosa, guardate la
-banda nella tabella delle bande e dei dadi del kit, che vi dice il numero da
-pareggiare o superare con i dadi che avete in casa. Tutte le sfide di questa storia
-si possono giocare con un solo dado normale, e i set di dadi più ricchi rendono
-solo tutto più grandioso.
-
-## La regola d'oro: qui nessuno perde
-
-Un tiro fallito non è mai una sconfitta. È una deviazione verso un'altra strada.
-Quando un tiro non raggiunge la banda, i giocatori hanno sempre una via d'uscita:
-
-- **Spendere una stella di energia** per riprovare la stessa idea, oppure
-- **Combinare due magie** una volta per tappa per superare la sfida senza alcun
-  tiro (per esempio Voce e Luce, oppure Cambiamento e Crescita, che agiscono come
-  una sola).
-
-Le stelle di energia tornano quando i giocatori passano alla tappa successiva, e
-quando si aiutano a vicenda. Così nessuno resta senza stelle per molto, e nessuno
-resta mai bloccato.
-
-## Aiutarsi
-
-In qualsiasi momento un giocatore può aiutare un altro invece di agire da solo.
-Quando lo fa, fate il tiro di aiuto: se riesce, la sfida è superata per entrambi,
-anche se il primo tiro era andato male. Aiutare è generoso, quindi premiatelo;
-inoltre fa recuperare una stella di energia. La lezione che sta sotto tutto il
-gioco è che insieme si va più lontano.
-
 ## La sorpresa
 
-A ogni tappa, una volta, i giocatori possono tirare per una sorpresa e voi
-leggete il verso che capita. Usate il dado che la tabella delle bande e dei dadi
-indica per le sorprese; con un solo dado normale, leggete la riga che corrisponde
-al numero uscito.
+Una volta a ogni tappa i giocatori possono tirare per un colpo di scena; leggete la
+riga che capita. La Guida spiega come funziona.
 
 | Tiro | Sorpresa |
 |---|---|

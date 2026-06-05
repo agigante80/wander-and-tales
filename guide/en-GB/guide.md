@@ -169,6 +169,29 @@ friendly creature, or simply find another way round. Treat a miss as a funny
 surprise, not a failure. No child is ever knocked out, left behind, or made to feel
 they have let the team down.
 
+## How a challenge works
+
+A handful of simple rules, the same in every kit. Each story's own page only adds what
+is special about it, so once you know these you know them all.
+
+- **Difficulty bands, not dice.** A challenge is **Easy**, **Normal**, or **Hard**,
+  never "roll a twenty". The kit's small dice-band table turns the band into a number to
+  meet or beat with whatever dice you own, and a single ordinary die is always enough.
+- **Energy stars.** Each hero has five. A player may **spend a star to try again** after
+  a miss. Stars come back when you move on to the next place and when players help each
+  other, so no one ever runs dry for long.
+- **Two together.** Once at each place, a pair of players may **join two of their
+  strengths** (or magics) to get past a challenge with no roll at all.
+- **The helping hand.** At any moment one player may **help another** instead of acting
+  alone. On a success the challenge is passed for both, even if the first try missed,
+  and it tops up a star. Helping is generous, so cheer it.
+- **The twist of fate.** At each place, once, the players may roll for a little
+  **twist**: you read the matching line from the story's own table, a small piece of
+  luck, kind or silly. Use whatever die the dice-band table gives you.
+
+That is the whole engine. A failed roll is never a defeat: spend a star, join forces,
+take a hint, or simply find another way. Nobody loses.
+
 ## When they get stuck
 
 Sticking is normal. Reach for these, in order:

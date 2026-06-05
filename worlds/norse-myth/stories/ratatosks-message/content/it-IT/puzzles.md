@@ -24,6 +24,9 @@ spendano una stella di energia per dire ad alta voce qualcosa di rassicurante ch
 senta. Qualsiasi gentilezza sincera lo calma. Una volta tranquillo, si siede,
 sgranocchia e li ringrazia, e la storia va avanti.
 
+**Rendilo più facile.** Fate insieme gli scoiattoli agitati, poi fate tre bei respiri
+lenti e profondi e state fermi.
+
 ## Tappa 2: Mettete in Ordine i Messaggi (Normale)
 
 **La sfida.** Ratatosk rovescia tre messaggi in disordine. Tre amici aspettano
@@ -59,6 +62,9 @@ Mettere in ordine anche un solo messaggio fa cominciare gli altri a sistemarsi, 
 arrivarci con l'aiuto dei Corvi conta comunque come un successo pieno e recupera una
 stella di energia.
 
+**Rendilo più facile.** Usate solo due amici, l'Aquila in alto e l'amichetto in basso,
+e chiedete "in alto o in basso?" per ciascun messaggio.
+
 ## Tappa 3: Arrampicatevi e Consegnate (Normale)
 
 **La sfida.** Il messaggio giusto deve viaggiare fino in cima, all'Aquila, e il
@@ -78,6 +84,9 @@ stella di energia per arrampicarsi mano nella mano. Se non sanno cosa dire, il
 messaggio gentile può essere semplice come "Il tuo amico non è mai stato arrabbiato
 con te; è stata tutta una confusione." Nel momento in cui si dicono le parole vere, il
 cipiglio dell'amico si trasforma in gioia.
+
+**Rendilo più facile.** Fate allungare il più piccolo bene in alto per raggiungere
+l'Aquila, poi accovacciare bene in basso per l'amichetto delle radici.
 
 ## Il finale
 

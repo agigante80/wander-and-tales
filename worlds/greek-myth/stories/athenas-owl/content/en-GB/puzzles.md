@@ -19,6 +19,9 @@ beautifully.
 or let a player spend an energy star to sit quietly until the owl creeps closer. Any
 gentle idea wins her trust and tops up an energy star.
 
+**Make it simpler.** Ask the littlest one to whisper "hello, little owl" and hold out
+one open hand, and let Glaux hop straight on.
+
 ## Stop 2: The Whispering Paths (Normal)
 
 **The challenge.** Three paths climb into the fog and all look the same. The players
@@ -33,6 +36,9 @@ home, works just as well.
 joke, or let them spend an energy star to spot the feathers in the mist. Getting
 through with help still counts as a full success and tops up an energy star.
 
+**Make it simpler.** Lay out a little line of feathers (or torn paper scraps) and let
+the child simply follow them with a finger to the right path.
+
 ## Stop 3: The High Perch (Normal)
 
 **The challenge.** Glaux is tired and afraid to fly the last stretch up to her high
@@ -46,6 +52,9 @@ wrong way to be kind here.
 **Fallback.** If the children freeze, have Glaux give a small, hopeful hoot and lean
 toward them, and let a single encouraging word be enough. The moment they offer help
 of any kind, the little owl reaches her perch.
+
+**Make it simpler.** Let the child lift Glaux gently in two cupped hands and place her
+on her perch, cheering "up you go" as they do.
 
 ## The ending
 

@@ -29,6 +29,9 @@ amable y una promesa es todo lo que pido, jóvenes marineros") o dejad que gaste
 estrella de energía para encontrar juntos las palabras adecuadas. Una petición hecha
 con valentía y cortesía siempre se gana el viento favorable.
 
+**Hazlo más fácil.** Pedid a un peque que diga "por favor" y sople un gran soplido de
+aire como el viento, y Eolo los manda contento camino a casa.
+
 ## Parada 2: Las Sirenas Cantoras (Difícil, luego sin tirada)
 
 **El reto.** Las Sirenas Cantoras se sientan en las rocas solitarias, y su canto es
@@ -50,6 +53,9 @@ que una Sirena llame sobre el agua, muy bajito: "¿Nadie se detendrá nunca a ca
 nosotras?" Una sola palabra amable o una nota de La Caracola vuelve alegre el canto
 triste y las Sirenas se hacen amigas al instante.
 
+**Hazlo más fácil.** Dejad que un peque les tararee un alegre "la-la-la" a las
+Sirenas, y esa cancioncilla contenta basta para hacerlas sonreír.
+
 ## Parada 3: En Casa por Fin (Normal)
 
 **El reto.** Los héroes llegan a una costa verde que podría ser su casa. Deben cruzar
@@ -66,6 +72,9 @@ lo resuelve sin sombra de duda y empieza la vuelta a casa.
 resuelva: el viejo sabueso levanta su cabeza gris, capta su olor y trota derecho hacia
 ellos moviendo la cola, porque nunca ha olvidado a un amigo. Reconocer la casa con la
 ayuda del perro cuenta igual como un éxito completo y recupera una estrella de energía.
+
+**Hazlo más fácil.** Pedid a un peque que llame al perro por su nombre, "¡Argos!", y
+salude con la mano lleno de alegría, y la vuelta a casa empieza enseguida.
 
 ## El final
 

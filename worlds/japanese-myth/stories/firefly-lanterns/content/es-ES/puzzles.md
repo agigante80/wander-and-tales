@@ -22,6 +22,9 @@ Zorro** murmure: "Vienen a los corazones tranquilos, no a las manos rápidas", y
 enseñe a quedarse quietos. En cuanto se serenan y esperan con cariño, una luciérnaga
 baja flotando hasta ellos, y las demás la siguen. Un intento amable siempre funciona.
 
+**Hazlo más fácil.** Para un peque muy pequeño, pedidle que ahueque las manos quietas
+en el regazo y susurre "hola, luciérnaga", y esa bienvenida tan suave ya basta.
+
 ## Parada 2: El Camino de los Faroles (Normal)
 
 **El reto.** Una larga hilera de faroles de papel vacíos baja por la colina hasta el
@@ -40,6 +43,9 @@ una pista. También pueden gastar una estrella de energía para "recordar" el pa
 Llegar al final con ayuda cuenta igual como un éxito completo y recupera una estrella de
 energía.
 
+**Hazlo más fácil.** Para un peque muy pequeño, poned solo tres faroles en fila y que
+señale el pequeño, luego el mediano y luego el grande.
+
 ## Parada 3: El Gran Farol (Normal)
 
 **El reto.** El Gran Farol de lo alto de la plaza debe encenderlo la luciérnaga más
@@ -56,6 +62,9 @@ El Gran Farol florece con la luz más cálida de todas.
 arriba por la fuerza, que ella se encoja y susurre: "¿Te quedarás conmigo?" Una sola
 palabra amable y tranquila basta. En cuanto los jugadores le ofrecen cualquier ánimo
 cálido, el pequeño espíritu encuentra su valor y el gran farol se enciende.
+
+**Hazlo más fácil.** Para un peque muy pequeño, que dé palmaditas suaves y diga "¡tú
+puedes, lucecita!", y ese ánimo es todo lo que hace falta.
 
 ## El final
 

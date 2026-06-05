@@ -20,6 +20,9 @@ les enseñe a tararear una nota grave y amistosa, o dejad que un jugador gaste u
 estrella de energía para calmar a todos. Pedirlo con amabilidad siempre funciona, y
 recupera una estrella de energía.
 
+**Hazlo más fácil.** Que el niño zumbe bajito "bzzz", tienda una flor de papel y diga
+"por favor, abejas", y el tarro se llena.
+
 ## Parada 2: La Cocina de Milo (Normal)
 
 **El reto.** El pastel de miel de Milo hay que repartirlo para que todos los invitados
@@ -37,6 +40,9 @@ alta con los dedos, o dejad que los niños pongan una galleta o un guijarro por 
 invitado y los emparejen con los trozos. Llegar con ayuda cuenta igual como un éxito
 completo y recupera una estrella de energía.
 
+**Hazlo más fácil.** Dad al más pequeño una galleta por invitado para repartir, y un
+trozo doble y grande para el gigante, y ya está repartido.
+
 ## Parada 3: Buscar al Amigo (Normal)
 
 **El reto.** El Cíclope está tímido para bajar ante todo un pueblo de gente. Teme ser
@@ -51,6 +57,9 @@ Esta parada se supera con la amabilidad, no con ningún plan.
 **Apoyo.** Si los niños no saben qué decir, que el gigante pregunte muy bajito:
 "¿De verdad estáis seguros de que hay sitio para mí?" Una sola palabra amable basta, y
 baja la colina.
+
+**Hazlo más fácil.** Que el niño salude con la mano y llame "ven, amigo grande, hay
+sitio para ti", y el gigante sonríe y baja con ellos.
 
 ## El final
 

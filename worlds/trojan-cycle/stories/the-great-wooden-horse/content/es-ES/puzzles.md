@@ -25,6 +25,9 @@ estrella de energía para "medir dos veces y cortar una". Contar juntos en voz a
 siempre llega a la meta. Cualquier plan firme levanta el caballo y recupera una
 estrella de energía.
 
+**Hazlo más fácil.** Con un peque muy pequeño, basta con apilar cuatro bloques de
+madera para las patas y uno encima para el cuerpo, y celebrar el caballito de pie.
+
 ## Parada 2: Llenarlo de Amistad (Fácil)
 
 **El reto.** El caballo está construido y su puerta está abierta. Los jugadores
@@ -41,6 +44,9 @@ qué. Nombrar cualquier regalo amable, y decir por qué es amable, supera la par
 sentiría la gente de la ciudad si abriera la puerta y encontrara eso? ¿Qué les haría
 sonreír en su lugar?" Guiad con calidez hacia los higos, las flores y el tambor.
 Elegir cualquier cosa amable es un éxito completo y recupera una estrella de energía.
+
+**Hazlo más fácil.** Pedid a un peque que elija solo una cosa bonita de la sala, un
+peluche o una merienda, y la meta dentro del caballo para compartir.
 
 ## Parada 3: La Sorpresa en las Puertas (Normal)
 
@@ -60,6 +66,9 @@ ciudad cualquier señal clara de amistad supera la parada.
 nunca, que un solo niño curioso asome en lo alto de la muralla y llame: "¿Eso es...
 para nosotros?" La menor bondad, un saludo con la mano, un higo en alto, una suave
 nota en la caracola, derrite el recelo y las puertas empiezan a abrirse.
+
+**Hazlo más fácil.** Dejad que un peque solo salude con la mano y diga "¡hola,
+amigos!" a la ciudad, y ese saludo cálido abre las puertas de par en par.
 
 ## El final
 

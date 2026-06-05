@@ -22,6 +22,9 @@ sola.
 mostrar por dónde empezar, y entonces los jugadores gastan una estrella de energía
 o combinan dos magias para terminar. En esta puerta nadie espera mucho rato.
 
+**Hazlo más fácil.** Con un peque muy pequeño, cruzad un trozo de cuerda en la
+entrada y dejad que tire de ella a un lado para "abrir" la puerta de enredaderas.
+
 ## Parada 2: El Cantero de Flores (Normal)
 
 **El reto.** Cuatro flores han perdido su orden. Una vocecilla canturrea la pista:
@@ -42,6 +45,9 @@ magia.
 dejad que coloquen una flor por verso. Llegar con ayuda cuenta igual como un éxito
 completo, y recupera una estrella de energía.
 
+**Hazlo más fácil.** Con un peque muy pequeño, sacad solo dos flores, un sol
+amarillo y un mar azul, y preguntad únicamente cuál va primero.
+
 ## Parada 3: La Fuente Parlanchina (Normal)
 
 **El reto.** La fuente se ha quedado callada y triste y no fluye. No necesita que
@@ -55,6 +61,9 @@ funcionar. Luz (un brillo cálido) o una magia combinada son buenas alternativas
 **Apoyo.** Si los niños se quedan en blanco, haced que la fuente les haga una
 preguntilla suya ("¿Sabéis alguna canción sobre el agua?") para darles un hilo del
 que tirar. En cuanto lo intenten, dejad que el agua salte y cante.
+
+**Hazlo más fácil.** Con un peque muy pequeño, soplad un beso a la fuente o
+saludadla con la mano juntos, y que con eso baste para que salpique de alegría.
 
 ## El Corazón del Jardín (sin tirada)
 

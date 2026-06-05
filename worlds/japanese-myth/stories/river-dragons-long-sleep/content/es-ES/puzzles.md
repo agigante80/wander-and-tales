@@ -25,6 +25,9 @@ meditada.
 esperando, y el despertar del dragón me trae"), o Kon el Zorro susurra la respuesta
 desde el bambú cercano. Una conjetura hecha con valentía abre igualmente la puerta.
 
+**Hazlo más fácil.** Para un peque muy pequeño, preguntad "¿qué cae de las nubes y hace
+crecer las flores?", y la palabra "lluvia" abre la puerta.
+
 ## Parada 2: El Puente a la Luz de la Luna (Normal)
 
 **El reto.** El puente de madera arqueado sobre el río se balancea y cruje. Solo
@@ -40,6 +43,9 @@ contar un ritmo lento y regular mientras caminan, vale igual de bien.
 intentarlo sin penalización, o que Kon el Zorro marque un ritmo sereno para seguir al
 caminar. Cruzar con ayuda cuenta igual como un éxito completo y recupera una estrella
 de energía.
+
+**Hazlo más fácil.** Para un peque muy pequeño, poned una cinta en el suelo como puente
+y que la cruce de puntillas, de vuestra mano, contando "uno, dos, tres" al andar.
 
 ## Parada 3: El Dragón Dormido (Difícil, luego sin tirada)
 
@@ -60,6 +66,9 @@ dragón se remueva y murmure en sueños: "Por favor, no tan fuerte", para que el
 amable quede claro. En cuanto los jugadores hacen cualquier sonido suave y amable, la
 campanilla o una melodía tarareada, el gran dragón despierta con calidez y se alegra
 de su compañía.
+
+**Hazlo más fácil.** Para un peque muy pequeño, que tararee una nana suave y susurre
+"buenos días, dragón", y ese sonido tranquilo basta para despertarlo con cariño.
 
 ## El final
 

@@ -22,6 +22,9 @@ true path, or have a friendly robin hop ahead from branch to branch. Getting
 through with a little help still counts as a full success and tops up an energy
 star.
 
+**Make it simpler.** For a little one, lay a piece of string or wool along the floor
+and let them walk beside it to the next room, winding it up as they go.
+
 ## Stop 2: Pook's Three Doors (Normal)
 
 **The challenge.** Pook has grown three mossy archway doors of oak branches. Only
@@ -43,6 +46,10 @@ the others give themselves away. A thoughtful guess is welcome too.
 or let Pook lean in and whisper, "Listen to which door tells the truth." A door
 chosen bravely still creaks open onto the right path.
 
+**Make it simpler.** For a little one, point to each door and read just its one clue,
+then ask, "Did that door say it was the kind, true one?" The right door is the one
+that says yes.
+
 ## Stop 3: Winning Pook Over (Normal, then no roll)
 
 **The challenge.** The players find Pook the Puca hunched on a toadstool, no longer
@@ -59,6 +66,9 @@ kind, Pook brightens and promises to set every path right himself.
 ask, very quietly, "Are you cross with me too?" A single kind word melts him. The
 moment the players offer any friendly gesture at all, he hops up and undoes the
 whole tangle.
+
+**Make it simpler.** For a little one, ask them to give Pook one kind thing: a wave,
+a pretend biscuit, or just the words "Be my friend." Any small kindness brightens him.
 
 ## The ending
 

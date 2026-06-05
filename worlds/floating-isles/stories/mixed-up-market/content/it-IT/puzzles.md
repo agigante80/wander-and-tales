@@ -24,6 +24,9 @@ lo porta con intenzione alla bancarella giusta, mostrando ai bambini come si fa,
 poi loro spendono una stella di energia o combinano due magie per finire i più
 facili. Nessuno resta bloccato a lungo.
 
+**Rendilo più facile.** Con un bimbo molto piccolo, tirate fuori solo gli stivali e
+chiedete soltanto a quale bancarella vanno, poi lasciate che li porti là.
+
 ## Tappa 2: La Memoria del Mercato (Normale)
 
 **La sfida.** Per rimettere a posto il resto, i giocatori devono ricordare il
@@ -42,6 +45,9 @@ fiore conta comunque come un successo completo.
 **Appoggio.** Se si bloccano, fate che il Fiore Parlante canti l'ordine lentamente,
 una bancarella per volta, e lasciate che i giocatori sistemino una coppia alla volta.
 Arrivarci con una spinta fa recuperare una stella di energia.
+
+**Rendilo più facile.** Con un bimbo molto piccolo, alzate il pane e chiedete solo
+"chi lo sforna?", ed esultate quando indica il fornaio.
 
 ## Tappa 3: L'Ultimo Scambio (Normale)
 
@@ -63,6 +69,9 @@ cerchio.
 **Appoggio.** Se si bloccano, il Gatto di Nebbia spinge gli stivali verso il
 calzolaio per avviare la catena ("gli stivali stanno con le scarpe"), e il resto
 tende a venire da sé. Risolverlo con una spinta è un successo completo.
+
+**Rendilo più facile.** Con un bimbo molto piccolo, fate un solo scambio: che passi
+gli stivali dal fornaio al calzolaio, e considerate tutto il compito fatto.
 
 ## Pip, Apprendista Mago (senza tiro)
 

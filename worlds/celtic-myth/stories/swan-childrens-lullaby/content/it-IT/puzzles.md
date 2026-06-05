@@ -22,6 +22,10 @@ loro piedi, oppure lasciate che la cigna più piccola dia un richiamo sommesso d
 seguire. Qualsiasi avvicinamento dolce e gentile va bene, e appena i cigni vedono un
 viso amico si avvicinano da soli.
 
+**Rendilo più facile.** Per i più piccoli, fate un gioco di camminare in punta di
+piedi e sussurrare: avanzate senza far rumore e dite "ciao, cigni" con la voce più
+dolce, e i cigni scivolano fuori a incontrarvi.
+
 ## Tappa 2: Ricordare la Ninnananna (Normale)
 
 **La sfida.** I bambini cigno hanno dimenticato la loro ninnananna. Tre versi brevi
@@ -54,6 +58,10 @@ oppure indicate le parole "tramonto" e "mattino" e chiedete quale viene prima in
 notte. Arrivarci con aiuto conta comunque come un successo pieno e recupera una stella
 di energia.
 
+**Rendilo più facile.** Per i più piccoli, usate solo due versi: leggete quello della
+nanna e quello del mattino, e chiedete quale cantiamo per primo quando è ora di
+dormire.
+
 ## Tappa 3: Suonarla Insieme (Normale)
 
 **La sfida.** I bambini cigno ora sanno le parole ma sono troppo timidi per cantare,
@@ -71,6 +79,10 @@ la seguono.
 sussurrare alla cigna più timida: "La cantate con me?" Nel momento in cui i giocatori
 canticchiano una melodia qualsiasi e la invitano, la sua prima notina sfugge e tutti
 e quattro i bambini cigno si uniscono alla canzone.
+
+**Rendilo più facile.** Per i più piccoli, canticchiate "la-la-la" insieme e chiedete
+alla cigna più timida di aggiungere un solo "la" suo; quella nota da sola basta per
+cominciare tutta la canzone.
 
 ## Il finale
 

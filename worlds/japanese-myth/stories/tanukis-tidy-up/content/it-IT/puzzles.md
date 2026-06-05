@@ -24,6 +24,9 @@ molto piano: "Pensate che io sia un brutto tanuki?" Un solo "no" affettuoso scio
 preoccupazione all'istante. Anche una pacca amichevole o un dolce di riso condiviso
 funzionano, e Pon salta su, pronto ad aiutare.
 
+**Rendilo più facile.** Per un piccolino, basta chiedergli di dare a Pon un grande
+abbraccio dolce e dire "va tutto bene", e le orecchie gli si rizzano subito.
+
 ## Tappa 2: La grande cernita (Normale)
 
 **La sfida.** Ventagli, frutta e lanterne giacciono mischiati in un gran mucchio. I
@@ -45,6 +48,9 @@ Spendere una stella di energia per fare un respiro calmo e ricominciare il mucch
 funziona sempre. Rimettere in ordine il mercato con aiuto conta comunque come un successo
 pieno e recupera una stella di energia.
 
+**Rendilo più facile.** Per un piccolino, dategli solo le cose rosse e chiedetegli di
+metterle tutte in una cesta, e quel mucchietto in ordine è già una vittoria.
+
 ## Tappa 3: L'ultima lanterna (Normale)
 
 **La sfida.** Il mercato è quasi perfetto, ma manca ancora la grande lanterna rossa
@@ -64,6 +70,9 @@ che dispiaciuto per il pasticcio.
 ("guardate in basso, vicino all'acqua, dove crescono le prugne"), oppure lasciate che
 sia Pon a intravedere il rosso. Comunque venga trovata la lanterna, fate in modo che a
 Pon vada il merito della scoperta, così finisce la storia bello dritto.
+
+**Rendilo più facile.** Per un piccolino, nascondete un giocattolo o una palla rossa lì
+vicino e lasciate che vada a trovarla, poi festeggiate che ha salvato la festa.
 
 ## Il finale
 

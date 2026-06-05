@@ -22,6 +22,9 @@ faroles.
 hacia el rastro de luz, y entonces los jugadores gastan una estrella de energía o
 combinan dos magias para terminar. Aquí nadie espera mucho rato a oscuras.
 
+**Hazlo más fácil.** Con un peque muy pequeño, dadle una linterna y que encenderla
+sea la magia que vuelve a prender el farol.
+
 ## Parada 2: El Banco de Nubes (Normal)
 
 **El reto.** Varios faroles están escondidos dentro de un banco de nubes suaves.
@@ -38,6 +41,9 @@ magia combinada.
 nube brillante para enseñarles cómo es eso de "cálida y brillante", y luego dejad
 que encuentren las demás. Llegar con un empujoncito cuenta igual como un éxito
 completo, y recupera una estrella de energía.
+
+**Hazlo más fácil.** Con un peque muy pequeño, esconded un farol bajo una sola nube
+de algodón y que la levante para encontrar la luz.
 
 ## Parada 3: La Repisa Alta (Normal)
 
@@ -59,6 +65,9 @@ ni arriesgarse a caer.
 pequeño y esperanzado que mezca el farol, para que vean que se lo puede engatusar en
 vez de agarrarlo. En cuanto prueben una idea suave, dejad que el farol baje flotando
 hasta sus manos.
+
+**Hazlo más fácil.** Con un peque muy pequeño, poned el farol en un estante y que dé
+un soplido grande y suave para que baje flotando hasta un cojín de abajo.
 
 ## Nimbo, la Ballenita de Nube (sin tirada)
 

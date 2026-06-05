@@ -134,7 +134,8 @@ def build_world_pdf(
         parts.append(pages.render_flowables(cover, tmp_path / "00_cover.pdf", world))
 
         gloss = glossary.glossary_flowables(
-            canon, locale, styles, th, _portrait_paths(root, world_id, world)
+            canon, locale, styles, th, _portrait_paths(root, world_id, world),
+            hero_powers=world.hero_powers,
         )
         parts.append(pages.render_flowables(gloss, tmp_path / "10_glossary.pdf", world))
 

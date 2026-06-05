@@ -24,6 +24,9 @@ planks and ask, "Which of these is longer, do you think?", or let them spend an
 energy star to "measure twice and cut once". Counting out loud together always
 gets there. Any steady plan raises the horse and tops up an energy star.
 
+**Make it simpler.** For a very young builder, just stack four wooden blocks for
+the legs and one on top for the body, and cheer the little horse standing up.
+
 ## Stop 2: Filling It with Friendship (Easy)
 
 **The challenge.** The horse is built and its door stands open. The players choose
@@ -40,6 +43,9 @@ gift, and saying why it is kind, passes the stop.
 "How would the city folk feel if they opened the door and found that? What would
 make them smile instead?" Steer warmly towards the figs, the flowers, and the
 drum. Choosing any kind thing is a full success and tops up an energy star.
+
+**Make it simpler.** Ask a little one to pick just one nice thing from the room, a
+soft toy or a snack, and pop it inside the horse to share.
 
 ## Stop 3: The Surprise at the Gates (Normal)
 
@@ -58,6 +64,9 @@ friendship passes the stop.
 single curious child appear at the top of the wall and call down, "Is that... for
 us?" The smallest kindness, a wave, a fig held up, a soft note on the horn, melts
 the wariness and the gates begin to open.
+
+**Make it simpler.** Let a little one simply wave and call out "hello, friends!" to
+the city, and that warm greeting swings the gates wide.
 
 ## The ending
 

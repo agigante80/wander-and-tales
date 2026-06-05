@@ -21,6 +21,9 @@ beside them so the snack is easy to offer, or let them spend an energy star to c
 out something calming that he hears. Any genuine kindness settles him. Once he is
 calm, he sits, nibbles, and thanks them, and the story moves on.
 
+**Make it simpler.** Pretend to be a jittery squirrel together, then all take three
+slow deep breaths and go still.
+
 ## Stop 2: Sort the Messages (Normal)
 
 **The challenge.** Ratatosk tips out three jumbled messages. Three friends are
@@ -54,6 +57,9 @@ slowly, and ask "Now, who likes the wind up high?" Sorting even one message star
 the others falling into place, and getting there with the Ravens' help still counts
 as a full success and tops up an energy star.
 
+**Make it simpler.** Use just two friends, the high Eagle and the low small friend,
+and ask "high or low?" for each one.
+
 ## Stop 3: Climb and Deliver (Normal)
 
 **The challenge.** The right message must travel all the way up to the Eagle and the
@@ -73,6 +79,9 @@ alongside to show the safest branches, or let them spend an energy star to climb
 hand in hand. If they are unsure what to say, the kind message can be as simple as
 "Your friend was never cross with you; it was all a mix-up." The moment the true
 words are spoken, the friend's frown turns to delight.
+
+**Make it simpler.** Have the littlest one stretch up tall to reach the Eagle, then
+crouch down low for the friend in the roots.
 
 ## The ending
 

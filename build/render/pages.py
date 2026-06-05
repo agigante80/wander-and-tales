@@ -107,7 +107,7 @@ def render_story_narration(
 
     flows: list = []
     for block in preamble:
-        # the story title is already the header band on the story-pack front page
+        # the story title is already the header band on the front page
         if isinstance(block, md.Heading) and block.level == 1:
             continue
         flows.extend(body_flows([block]))

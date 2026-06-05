@@ -112,7 +112,7 @@ the art can always be added later.
 - **Bring their own art.** The author drops their own original pictures into the story
   or world `assets/` as `<image-id>.png`.
 
-The **map needs no art**: every Story Pack gets a trail map generated automatically
+The **map needs no art**: every Atlas gets a trail map generated automatically
 from the story's stop headings (a START, the numbered stops, and a GOAL), in each
 language. There is nothing to generate or draw. An author who wants bespoke map art can
 drop a hand-drawn `worlds/<world>/stories/<story>/assets/map.svg` (a neutral template
@@ -137,20 +137,21 @@ not a hard gate.
 
    ```bash
    for loc in en-GB es-ES it-IT; do
-     python -m build render --root . --world <world> --story <story> --locale "$loc" --reading-level simple
-     python -m build render --root . --world <world> --story <story> --locale "$loc" --reading-level rich
-     python -m build render-playbook --root . --world <world> --story <story> --locale "$loc"
+     python -m build render-tale-book --root . --world <world> --story <story> --locale "$loc" --reading-level simple
+     python -m build render-tale-book --root . --world <world> --story <story> --locale "$loc" --reading-level rich
+     python -m build render-atlas --root . --world <world> --story <story> --locale "$loc"
      python -m build render-world --root . --world <world> --locale "$loc"
    done
    ```
 
-   Tell the author the PDFs are under `dist/<locale>/<world>/...` (the Story Pack to
-   play from, the Grown-up's Playbook with the answers, and the World Book) and that
-   they can print and play.
-3. Eyeball one built Story Pack (rasterize a page) to confirm it looks right: A4, the
-   front page with the world paragraph, the map page (the generated trail from START to
-   GOAL, with the stop names as labels in that language), accents render, and any images
-   embed.
+   Tell the author the PDFs are under `dist/<locale>/<world>/...` (the **Tale Book** to
+   read from, at two levels, with the story, rules and answers; the **Atlas** with the
+   map, the pictures and the hero sheet; and the World Book) and that they can read from
+   a screen, print the Atlas, or make it by hand.
+3. Eyeball one built Tale Book and Atlas (rasterize a page each) to confirm they look
+   right: A4, the Tale Book opens with the title and the story to read aloud, the Atlas
+   has the map (the generated trail from START to GOAL, stop names as labels in that
+   language) and a picture per place, accents render, and any images embed.
 
 Do **not** run `python -m build rebuild`: that rewrites the committed `kits/` tree and
 the root README, which is the maintainer's publish step, not a personal build.

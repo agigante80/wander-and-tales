@@ -23,6 +23,9 @@ restare immobili. Nel momento in cui si calmano e aspettano con affetto, una luc
 scende fluttuando fino a loro, e le altre la seguono. Un tentativo gentile funziona
 sempre.
 
+**Rendilo più facile.** Per un piccolino, chiedetegli di fare la conchiglia con le mani
+in grembo e sussurrare "ciao, lucciola", e quel benvenuto dolce basta e avanza.
+
 ## Tappa 2: Il Sentiero delle Lanterne (Normale)
 
 **La sfida.** Una lunga fila di lanterne di carta vuote scende dalla collina fino al
@@ -41,6 +44,9 @@ la fila con un indizio. Possono anche spendere una stella di energia per "ricord
 schema. Arrivare in fondo con aiuto conta comunque come un successo pieno e recupera una
 stella di energia.
 
+**Rendilo più facile.** Per un piccolino, mettete in fila solo tre lanterne e fategli
+indicare quella piccola, poi quella media, poi quella grande.
+
 ## Tappa 3: La Grande Lanterna (Normale)
 
 **La sfida.** La Grande Lanterna in cima alla piazza deve essere accesa dalla lucciola più
@@ -57,6 +63,9 @@ suo coraggio, vola in alto e la Grande Lanterna sboccia con la luce più calda d
 forza, fatela rannicchiare e sussurrare: "Resterai con me?" Una sola parola gentile e
 calma basta. Nel momento in cui i giocatori le offrono un qualsiasi incoraggiamento caldo,
 il piccolo spirito trova il suo coraggio e la grande lanterna si accende.
+
+**Rendilo più facile.** Per un piccolino, fategli battere piano le mani e gridare "ce la
+fai, lucciolina!", e quell'incoraggiamento è tutto ciò che serve.
 
 ## Il finale
 

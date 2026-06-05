@@ -24,6 +24,9 @@ energía para decir en voz alta algo que lo calme y él lo oiga. Cualquier amabi
 sincera lo serena. Una vez calmado, se sienta, mordisquea y les da las gracias, y la
 historia avanza.
 
+**Hazlo más fácil.** Imitad juntos a una ardilla nerviosa y luego respirad hondo y
+despacio tres veces, hasta quedaros quietos.
+
 ## Parada 2: Ordenad los Mensajes (Normal)
 
 **El reto.** Ratatosk vuelca tres mensajes revueltos. Tres amigos esperan en el
@@ -60,6 +63,9 @@ aunque sea un solo mensaje hace que los demás empiecen a encajar, y llegar con 
 ayuda de los Cuervos cuenta igual como un éxito completo y recupera una estrella de
 energía.
 
+**Hazlo más fácil.** Usad solo dos amigos, el Águila de arriba y el amiguito de abajo,
+y preguntad "¿arriba o abajo?" en cada mensaje.
+
 ## Parada 3: Trepad y Entregad (Normal)
 
 **El reto.** El mensaje correcto debe viajar hasta lo más alto, al Águila, y el
@@ -79,6 +85,9 @@ trepe a su lado para mostrar las ramas más seguras, o que gasten una estrella d
 energía para trepar de la mano. Si no saben qué decir, el mensaje amable puede ser
 tan sencillo como "Tu amigo nunca estuvo enfadado contigo; fue todo una confusión."
 En cuanto se dicen las palabras verdaderas, el ceño del amigo se vuelve alegría.
+
+**Hazlo más fácil.** Que el más pequeño se estire bien alto para llegar al Águila y
+luego se agache bien abajo para el amiguito de las raíces.
 
 ## El final
 

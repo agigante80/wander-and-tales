@@ -1,14 +1,10 @@
 # Argos and the Lost Keepsake: Rules for the Grown-Up
 
-*New to this? Read the Guide for the Grown-Up first. It explains the whole idea in
-two pages and you will never need it again.*
-
-You are the Game Master, which here means a few small jobs at once: storyteller,
-gentle referee, the children's biggest fan, and a fellow adventurer who plays along.
-This is a cooperative game for two or more who play together, a grown-up and one or
-more children, all on the same side. Nobody competes, and nobody loses. This is a
-gentle, kindly tale: there is no fight in it at all, only a lost treasure, a sad
-friend, and a faithful dog to help you put things right.
+The Guide for the Grown-Up explains how the game works; read it once and you are
+set. This page holds only what is special about this story. A failed roll is never
+a defeat; nobody loses. This is a gentle, kindly tale: there is no fight in it at
+all, only a lost treasure, a sad friend, and a faithful dog to help you put things
+right.
 
 ## Setting up
 
@@ -24,38 +20,10 @@ friend, and a faithful dog to help you put things right.
   Thread. Anything can be anything.
 - Keep your dice and the dice-band table from the back of the kit beside you.
 
-## Difficulty bands, not dice
-
-Challenges never call for a particular die. Each one has a band: **Easy**,
-**Normal**, or **Hard**. When the players try something, look up the band on the
-kit's dice-band table, which tells you the number to meet or beat with whatever
-dice your family owns. Every challenge can be played with a single ordinary die.
-
-## The golden rule: here nobody loses
-
-A failed roll is never a defeat. It is a detour to a different route. When a roll
-does not meet the band, the players always have a way through:
-
-- **Spend an energy star** to gather themselves and try the idea again, or
-- **Join two qualities** once per stop to pass with no roll at all (Imagination and
-  Loyalty together, say, or Courage and Imagination).
-
-Energy stars come back when the players move on to the next stop, and when they
-help each other. Nobody can ever run dry for long, and nobody is ever stuck.
-
-## Helping each other: the Helping Hand
-
-At any moment one player may help another instead of acting alone. When they do,
-make the help roll: on a success the challenge is passed for the pair, even if the
-first roll missed. Helping is generous, so reward it; it also tops up an energy
-star. On these shores, no hero stands alone, and that is the whole heart of this
-tale.
-
 ## The Twist of Fate
 
-At each stop, once, the players may roll for a twist and you read out the matching
-line. Use whichever die the dice-band table gives you for this; with a single
-ordinary die, read the line that matches the number rolled.
+Once at each place the players may roll for a twist; read the matching line. The
+Guide explains how it works.
 
 | Roll | Twist of Fate |
 |---|---|

@@ -23,6 +23,9 @@ da solo.
 per mostrare da dove cominciare, e poi i giocatori spendono una stella di energia o
 combinano due magie per finire. A questo cancello nessuno aspetta a lungo.
 
+**Rendilo più facile.** Con un bimbo molto piccolo, stendete un pezzo di spago
+sull'ingresso e lasciate che lo tiri di lato per "aprire" il cancello di rampicanti.
+
 ## Tappa 2: L'Aiuola dei Fiori (Normale)
 
 **La sfida.** Quattro fiori hanno perso il loro ordine. Una vocina canticchia
@@ -43,6 +46,9 @@ un verso alla volta, e lasciate che mettano un fiore per verso. Arrivarci con un
 aiuto conta comunque come un successo completo, e fa recuperare una stella di
 energia.
 
+**Rendilo più facile.** Con un bimbo molto piccolo, tirate fuori solo due fiori, un
+sole giallo e un mare blu, e chiedete soltanto quale viene per primo.
+
 ## Tappa 3: La Fontana Parlante (Normale)
 
 **La sfida.** La fontana è rimasta silenziosa e triste e non zampilla. Non ha
@@ -57,6 +63,9 @@ sono buone alternative.
 **Appoggio.** Se i bambini restano senza idee, fate che la fontana faccia loro una
 piccola domanda ("Conoscete qualche canzone sull'acqua?") per dare loro un filo da
 seguire. Nel momento in cui provano, lasciate che l'acqua zampilli e canti.
+
+**Rendilo più facile.** Con un bimbo molto piccolo, mandate un bacio alla fontana o
+salutatela con la mano insieme, e che basti questo a farla schizzare di gioia.
 
 ## Il Cuore del Giardino (senza tiro)
 

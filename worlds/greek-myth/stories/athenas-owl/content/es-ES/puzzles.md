@@ -21,6 +21,9 @@ una melodía suave, o dejad que un jugador gaste una estrella de energía para s
 en silencio hasta que el búho se acerque poco a poco. Cualquier idea amable se gana
 su confianza y recupera una estrella de energía.
 
+**Hazlo más fácil.** Pedid al más pequeño que susurre "hola, buhito" y tienda una mano
+abierta, y dejad que Glaux salte directamente a ella.
+
 ## Parada 2: Los Senderos Susurrantes (Normal)
 
 **El reto.** Tres senderos suben hacia la niebla y todos se ven iguales. Los jugadores
@@ -35,6 +38,9 @@ cabeza hacia casa, vale igual de bien.
 dejad que gasten una estrella de energía para ver las plumas entre la bruma. Llegar al
 final con ayuda cuenta igual como un éxito completo y recupera una estrella de energía.
 
+**Hazlo más fácil.** Poned una hilerita de plumas (o trocitos de papel) y dejad que el
+niño las siga con el dedo hasta el sendero correcto.
+
 ## Parada 3: La Percha de lo Alto (Normal)
 
 **El reto.** Glaux está cansado y tiene miedo de volar el último tramo hasta su percha
@@ -48,6 +54,9 @@ revolotear hacia arriba. Aquí no hay manera equivocada de ser amable.
 **Apoyo.** Si los niños se quedan parados, que Glaux suelte un ululato pequeño y
 esperanzado y se incline hacia ellos, y dejad que baste con una sola palabra de ánimo.
 En cuanto le ofrecen ayuda de cualquier clase, el pequeño búho alcanza su percha.
+
+**Hazlo más fácil.** Dejad que el niño levante a Glaux con cuidado entre las dos manos
+y la pose en su percha, animándola con un "arriba, arriba".
 
 ## El final
 

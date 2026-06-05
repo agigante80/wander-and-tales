@@ -179,6 +179,31 @@ un'altra strada. Tratta un buco nell'acqua come una sorpresa divertente, non com
 un fallimento. Nessun bambino viene mai eliminato, lasciato indietro o fatto
 sentire come se avesse deluso la squadra.
 
+## Come funziona una prova
+
+Poche regole semplici, le stesse in ogni kit. La pagina di ogni storia aggiunge solo ciò
+che ha di speciale, quindi quando conosci queste le conosci tutte.
+
+- **Livelli di difficoltà, non dadi.** Una prova è **Facile**, **Normale** o
+  **Difficile**, mai "tira un venti". La piccola tabella dei dadi del kit trasforma il
+  livello in un numero da raggiungere o superare con i dadi che avete, e un solo dado
+  normale basta sempre.
+- **Stelle di energia.** Ogni eroe ne ha cinque. Un giocatore può **spendere una stella
+  per riprovare** dopo un buco nell'acqua. Le stelle tornano quando passate al luogo
+  successivo e quando i giocatori si aiutano, così nessuno resta a secco a lungo.
+- **In due insieme.** Una volta in ogni luogo, una coppia di giocatori può **unire due
+  dei propri punti forti** (o magie) per superare una prova senza alcun tiro.
+- **La mano amica.** In qualsiasi momento un giocatore può **aiutarne un altro** invece
+  di agire da solo. Con un successo, la prova è superata per entrambi, anche se il primo
+  tentativo è fallito, e recupera una stella. Aiutare è generoso, quindi festeggialo.
+- **Il colpo di scena.** In ogni luogo, una volta, i giocatori possono tirare per un
+  piccolo **colpo di scena**: leggi la riga corrispondente nella tabella della storia,
+  un colpo di fortuna, gentile o buffo. Usa il dado che ti indica la tabella dei dadi.
+
+Ecco tutto il motore. Un tiro fallito non è mai una sconfitta: spendi una stella, unite
+le forze, accetta un indizio o cercate semplicemente un'altra strada. Qui non perde
+nessuno.
+
 ## Quando si bloccano
 
 Bloccarsi è normale. Ricorri a questi accorgimenti, in ordine:

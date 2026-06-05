@@ -23,6 +23,9 @@ poiché è gentile, accetta anche una supposizione coraggiosa e meditata.
 abitano sulla mia cima"), oppure Pruno il satiro sussurra la risposta da dietro una
 roccia. Una supposizione fatta con coraggio apre comunque la porta.
 
+**Rendilo più facile.** Chiedete "cos'è enorme, fatto di roccia e con la neve in cima?"
+e indicate un monte dalla finestra, e qualsiasi risposta come "una montagna" apre la porta.
+
 ## Tappa 2: Il Labirinto Tortuoso (Normale)
 
 **La sfida.** Oltre la porta c'è un labirinto di muri di pietra dove tutti i sentieri
@@ -38,6 +41,9 @@ vale altrettanto bene.
 scherzo, oppure lasciate che spendano una stella di energia per "ricordare" il
 percorso. Arrivare in fondo con aiuto conta comunque come un successo pieno e recupera
 una stella di energia.
+
+**Rendilo più facile.** Lasciate che il bambino srotoli un pezzo di spago o di lana vero
+lungo il labirinto sulla mappa e poi lo segua per uscire: il rompicapo è risolto.
 
 ## Tappa 3: Il Ciclope Solitario (Difficile, poi senza tiro)
 
@@ -55,6 +61,10 @@ la fonte suonando la **piccola lira**, e le **Ninfe Canterine** si alzano e cant
 tirare su col naso il gigante e chiedere, molto piano: "Anche voi avete paura di me?"
 Una sola parola gentile lo scioglie. Nel momento in cui i giocatori provano una
 melodia qualsiasi, le ninfe si svegliano e l'acqua canta.
+
+**Rendilo più facile.** Lasciate che il bambino saluti il gigante solitario con la mano
+e un abbraccio e gli offra un pezzo di focaccia, poi canticchi una canzoncina qualsiasi
+per risvegliare la fonte.
 
 ## Il finale
 

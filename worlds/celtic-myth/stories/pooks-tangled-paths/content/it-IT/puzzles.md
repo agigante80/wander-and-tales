@@ -22,6 +22,10 @@ delicatezza verso il sentiero giusto, oppure fate saltare avanti un pettirosso
 amichevole di ramo in ramo. Arrivare in fondo con un po' di aiuto conta comunque
 come un successo pieno e recupera una stella di energia.
 
+**Rendilo più facile.** Per i più piccoli, stendete uno spago o un filo di lana sul
+pavimento e lasciate che camminino accanto a esso fino all'altra stanza,
+raccogliendolo mentre vanno.
+
 ## Tappa 2: Le Tre Porte di Pook (Normale)
 
 **La sfida.** Pook ha fatto crescere tre porte ad arco muschiose di rami di quercia.
@@ -44,6 +48,10 @@ mentre le altre si tradiscono da sole. Anche una supposizione meditata è benven
 fate sporgere Pook a sussurrare: "Ascoltate quale porta dice la verità." Una porta
 scelta con coraggio si apre comunque con un cigolio sul sentiero giusto.
 
+**Rendilo più facile.** Per i più piccoli, indicate ogni porta e leggete solo il suo
+unico indizio, poi chiedete: "Quella porta ha detto di essere quella buona e
+sincera?" La porta giusta è quella che dice di sì.
+
 ## Tappa 3: Conquistare Pook (Normale, poi senza tiro)
 
 **La sfida.** I giocatori trovano Pook il Puca rannicchiato su un fungo, ormai senza
@@ -61,6 +69,10 @@ stesso tutti i sentieri.
 naso Pook e chiedere, molto piano: "Anche voi siete arrabbiati con me?" Una sola
 parola gentile lo scioglie. Nel momento in cui i giocatori offrono un qualsiasi
 gesto amichevole, salta su e disfa tutto l'intrico.
+
+**Rendilo più facile.** Per i più piccoli, chiedete di dare a Pook una cosa gentile:
+un saluto con la mano, un biscotto finto, o solo le parole "Sii mio amico." Qualsiasi
+piccola gentilezza lo rallegra.
 
 ## Il finale
 
