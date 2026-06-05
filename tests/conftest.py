@@ -12,7 +12,8 @@ def sample_repo(tmp_path: Path) -> Path:
     content_en = story_dir / "content" / "en-GB"
     content_es = story_dir / "content" / "es-ES"
     content_it = story_dir / "content" / "it-IT"
-    for directory in (canon_dir, content_en, content_es, content_it):
+    content_pt = story_dir / "content" / "pt-PT"
+    for directory in (canon_dir, content_en, content_es, content_it, content_pt):
         directory.mkdir(parents=True)
 
     (world_dir / "world.yaml").write_text(textwrap.dedent("""
@@ -21,6 +22,7 @@ def sample_repo(tmp_path: Path) -> Path:
           en-GB: The Floating Isles
           es-ES: Las Islas Flotantes
           it-IT: Le Isole Fluttuanti
+          pt-PT: As Ilhas Flutuantes
         tone: gentle wonder
     """).lstrip(), encoding="utf-8")
 
@@ -30,12 +32,14 @@ def sample_repo(tmp_path: Path) -> Path:
             en-GB: Mist Cat
             es-ES: Gato de Niebla
             it-IT: Gatto di Nebbia
+            pt-PT: Gato de Nevoeiro
           kind: creature
           disposition: friendly
           description:
             en-GB: A gentle cat made of fog who gives hints.
             es-ES: Un gato amable hecho de niebla que da pistas.
             it-IT: Un gatto gentile fatto di nebbia che da indizi.
+            pt-PT: Um gato gentil feito de nevoeiro que da pistas.
           first_seen: sleeping-garden
     """).lstrip(), encoding="utf-8")
 
@@ -46,6 +50,7 @@ def sample_repo(tmp_path: Path) -> Path:
           en-GB: The Sleeping Garden
           es-ES: El Jardin Dormido
           it-IT: Il Giardino Addormentato
+          pt-PT: O Jardim Adormecido
         age:
           recommended: young
           also_works_for: [early, older]
@@ -61,12 +66,12 @@ def sample_repo(tmp_path: Path) -> Path:
         play_time_minutes: 30
     """).lstrip(), encoding="utf-8")
 
-    for content_dir in (content_en, content_es, content_it):
+    for content_dir in (content_en, content_es, content_it, content_pt):
         for name in ("narration.simple.md", "narration.rich.md", "rules.md",
                      "puzzles.md"):
             (content_dir / name).write_text("placeholder\n", encoding="utf-8")
 
-    for code in ("en-GB", "es-ES", "it-IT"):
+    for code in ("en-GB", "es-ES", "it-IT", "pt-PT"):
         world_content = world_dir / "content" / code
         world_content.mkdir(parents=True)
         (world_content / "idea-bank.md").write_text(
@@ -81,6 +86,7 @@ def sample_repo(tmp_path: Path) -> Path:
             en-GB: Game Master
             es-ES: Guia del Juego
             it-IT: Maestro di Gioco
+            pt-PT: Mestre do Jogo
     """).lstrip(), encoding="utf-8")
 
     return tmp_path
@@ -100,6 +106,7 @@ def repo_with_images(tmp_path: Path) -> Path:
           en-GB: World
           es-ES: Mundo
           it-IT: Mondo
+          pt-PT: Mundo
         visual_style: Soft test storybook art in cream and green.
         images:
           - id: cover
@@ -110,6 +117,7 @@ def repo_with_images(tmp_path: Path) -> Path:
               en-GB: A calm island.
               es-ES: Una isla tranquila.
               it-IT: Un'isola tranquilla.
+              pt-PT: Uma ilha tranquila.
           - id: beast
             role: portrait
             orientation: square
@@ -119,6 +127,7 @@ def repo_with_images(tmp_path: Path) -> Path:
               en-GB: A friendly creature.
               es-ES: Una criatura amable.
               it-IT: Una creatura gentile.
+              pt-PT: Uma criatura gentil.
     """).lstrip(), encoding="utf-8")
 
     (canon_dir / "creatures.yaml").write_text(textwrap.dedent("""
@@ -127,11 +136,13 @@ def repo_with_images(tmp_path: Path) -> Path:
             en-GB: Test Beast
             es-ES: Bestia de Prueba
             it-IT: Bestia di Prova
+            pt-PT: Besta de Teste
           kind: creature
           description:
             en-GB: A gentle test creature.
             es-ES: Una criatura amable de prueba.
             it-IT: Una creatura gentile di prova.
+            pt-PT: Uma criatura gentil de teste.
     """).lstrip(), encoding="utf-8")
 
     (story_dir / "story.yaml").write_text(textwrap.dedent("""
@@ -141,6 +152,7 @@ def repo_with_images(tmp_path: Path) -> Path:
           en-GB: Story
           es-ES: Cuento
           it-IT: Racconto
+          pt-PT: Conto
         age:
           recommended: young
         skills: [logic]
@@ -161,6 +173,7 @@ def repo_with_images(tmp_path: Path) -> Path:
               en-GB: The story at dawn.
               es-ES: El cuento al amanecer.
               it-IT: Il racconto all'alba.
+              pt-PT: O conto ao amanhecer.
           - id: scene-1
             role: scene
             orientation: landscape
@@ -169,6 +182,7 @@ def repo_with_images(tmp_path: Path) -> Path:
               en-GB: A gentle moment.
               es-ES: Un momento tranquilo.
               it-IT: Un momento tranquillo.
+              pt-PT: Um momento tranquilo.
     """).lstrip(), encoding="utf-8")
 
     return tmp_path

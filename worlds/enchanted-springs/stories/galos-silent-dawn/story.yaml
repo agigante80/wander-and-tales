@@ -1,0 +1,106 @@
+world: enchanted-springs
+id: galos-silent-dawn
+title:
+  en-GB: The Galo's Silent Dawn
+  es-ES: El Amanecer Silencioso del Galo
+  it-IT: L'Alba Silenziosa del Galo
+  pt-PT: A Madrugada Silenciosa do Galo
+age:
+  recommended: older
+  also_works_for: [young]
+skills:
+  - observation
+  - logic
+  - social-emotional
+  - vocabulary
+peril: mild
+adult_gm: true
+dice:
+  minimum: 1d6
+  recommended: d20-set
+players:
+  min: 2
+  max: 5
+play_time_minutes: 40
+images:
+  - id: cover
+    role: cover
+    orientation: portrait
+    canon_ref: galo-de-barcelos
+    prompt: >
+      A cobblestone Portuguese market square in the grey half-light before dawn,
+      stalls half-set, a bright painted rooster perched on a wall with his beak
+      closed and his head low, worried townsfolk gathered, a tired kind traveller
+      standing apart with his bundle. Wistful and a little hushed.
+    alt:
+      en-GB: A market square before dawn, a painted rooster perched silent with his beak closed, worried townsfolk and a lone traveller.
+      es-ES: Una plaza de mercado antes del amanecer, un gallo pintado posado en silencio con el pico cerrado, vecinos preocupados y un viajero solitario.
+      it-IT: Una piazza di mercato prima dell'alba, un gallo dipinto appollaiato in silenzio col becco chiuso, paesani preoccupati e un viaggiatore solitario.
+      pt-PT: Uma praça de mercado antes da madrugada, um galo pintado pousado em silêncio com o bico fechado, moradores preocupados e um viajante solitário.
+  - id: scene-the-silent-roost
+    role: scene
+    orientation: landscape
+    canon_ref: galo-de-barcelos
+    prompt: >
+      Close on the bright rooster of Barcelos on his perch under the eaves, beak
+      shut, looking poorly and sad, while two gentle children lean in to comfort
+      him with soft words and a little water. Tender and warm, not scary.
+    alt:
+      en-GB: The bright rooster of Barcelos on his perch with his beak shut, looking sad, as two children gently comfort him.
+      es-ES: El gallo brillante de Barcelos en su percha con el pico cerrado, con aspecto triste, mientras dos niños lo consuelan con dulzura.
+      it-IT: Il gallo luminoso di Barcelos sul suo posatoio col becco chiuso, dall'aria triste, mentre due bambini lo consolano con dolcezza.
+      pt-PT: O galo luminoso de Barcelos no seu poleiro com o bico fechado, com ar triste, enquanto duas crianças o consolam com ternura.
+  - id: scene-the-barcelos-market
+    role: scene
+    orientation: landscape
+    canon_ref: barcelos
+    prompt: >
+      A lively Portuguese market of pottery stalls and baskets, an empty velvet
+      cushion on one stall where something shiny clearly used to sit, children
+      crouching to study the cobbles for clues, a faint glint leading upward.
+      Bright, busy and inviting.
+    alt:
+      en-GB: A lively pottery market with an empty cushion where something shiny used to sit, children studying the cobbles for clues.
+      es-ES: Un animado mercado de alfarería con un cojín vacío donde antes había algo brillante, y niños examinando los adoquines en busca de pistas.
+      it-IT: Un vivace mercato di ceramiche con un cuscino vuoto dove prima stava qualcosa di lucente, e bambini che studiano i ciottoli in cerca di indizi.
+      pt-PT: Um animado mercado de olaria com uma almofada vazia onde antes estava algo reluzente, e crianças a estudar os paralelos à procura de pistas.
+  - id: scene-the-old-bell-tower
+    role: scene
+    orientation: landscape
+    canon_ref: jackdaw
+    prompt: >
+      The open top of an old stone bell tower among the bells and swifts, a small
+      grey-capped jackdaw beside a glittering nest of buttons and ribbons with a
+      bright silver cup tucked in it, children climbing into view and waving
+      gently. Airy and magical, not frightening.
+    alt:
+      en-GB: The open top of an old bell tower, a small jackdaw beside a glittering nest holding a silver cup, children waving gently.
+      es-ES: La cima abierta de una vieja torre del campanario, una grajilla junto a un nido reluciente con una copa de plata, y niños saludando con suavidad.
+      it-IT: La cima aperta di una vecchia torre campanaria, una taccola accanto a un nido scintillante con una coppa d'argento, e bambini che salutano con dolcezza.
+      pt-PT: O topo aberto de uma velha torre do sino, uma gralha junto a um ninho reluzente com uma taça de prata, e crianças a acenar com suavidade.
+  - id: scene-the-cup-returned
+    role: scene
+    orientation: landscape
+    canon_ref: silver-cup
+    prompt: >
+      The children handing the bright silver cup back to the relieved market folk
+      in the square, the tired traveller smiling as the crowd turns kind to him,
+      warm faces all around. Joyful and gentle.
+    alt:
+      en-GB: The children handing the bright silver cup back to the relieved market folk, the traveller smiling as the crowd turns kind.
+      es-ES: Los niños devolviendo la reluciente copa de plata a los aliviados vendedores, y el viajero sonriendo mientras la gente se vuelve amable.
+      it-IT: I bambini che restituiscono la lucente coppa d'argento ai sollevati venditori, e il viaggiatore che sorride mentre la folla diventa gentile.
+      pt-PT: As crianças a devolver a reluzente taça de prata aos aliviados vendedores, e o viajante a sorrir enquanto a gente se torna gentil.
+  - id: scene-the-dawn-crow
+    role: scene
+    orientation: landscape
+    canon_ref: galo-de-barcelos
+    prompt: >
+      The bright rooster of Barcelos on a sunlit wall, beak wide, crowing at last
+      as the sun breaks gold over the rooftops, the whole square cheering and the
+      traveller waving farewell with a light heart. Triumphant, warm and golden.
+    alt:
+      en-GB: The rooster of Barcelos crowing at last on a sunlit wall as the sun rises gold over the rooftops and the square cheers.
+      es-ES: El gallo de Barcelos cantando por fin sobre un muro soleado mientras el sol sale dorado sobre los tejados y la plaza lo celebra.
+      it-IT: Il gallo di Barcelos che canta finalmente su un muro soleggiato mentre il sole sorge dorato sui tetti e la piazza esulta.
+      pt-PT: O galo de Barcelos a cantar por fim num muro soalheiro enquanto o sol nasce dourado sobre os telhados e a praça festeja.

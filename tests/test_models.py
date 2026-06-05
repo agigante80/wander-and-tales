@@ -7,7 +7,7 @@ from build.models import Story, CanonEntry, World
 def _valid_world_data():
     return {
         "id": "greek-myth",
-        "name": {"en-GB": "Greece", "es-ES": "Grecia", "it-IT": "Grecia"},
+        "name": {"en-GB": "Greece", "es-ES": "Grecia", "it-IT": "Grecia", "pt-PT": "Grecia"},
     }
 
 
@@ -30,7 +30,7 @@ def _valid_story_data():
         "world": "floating-isles",
         "id": "sleeping-garden",
         "title": {"en-GB": "The Sleeping Garden", "es-ES": "El Jardin Dormido",
-                  "it-IT": "Il Giardino Addormentato"},
+                  "it-IT": "Il Giardino Addormentato", "pt-PT": "Il Giardino Addormentato"},
         "age": {"recommended": "young", "also_works_for": ["early", "older"]},
         "skills": ["vocabulary", "logic", "social-emotional"],
         "peril": "gentle",

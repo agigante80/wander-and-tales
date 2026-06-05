@@ -3,6 +3,7 @@ name:
   en-GB: The Snowlit Fjords of the North
   es-ES: Los Fiordos Nevados del Norte
   it-IT: I Fiordi Innevati del Nord
+  pt-PT: Os Fiordes Nevados do Norte
 tone: cosy northern wonder
 hero_powers: strength
 palette:
@@ -54,6 +55,19 @@ lore_summary:
     condivide il fuoco. Le imprese più grandi si compiono con coraggio, gentilezza e
     tante idee, e persino un gigante, accolto con una parola gentile,
     spesso si rivela più solo che feroce.
+  pt-PT: >
+    Os fiordes nevados do norte descem fundos e azuis entre montanhas brancas e
+    pinheiros de um verde escuro, salpicados de acolhedoras casas compridas cujas
+    janelas brilham de um quente cor de âmbar sobre a neve. Por cima deles arqueia-se
+    a Grande Árvore do Mundo, e nas noites limpas o céu dança com as cores da aurora.
+    Os fiordes estão cheios de maravilhas gentis: um esquilo tagarela que leva
+    mensagens ao longo da árvore, dois corvos pensativos, espíritos de luz que dançam
+    no escuro e gigantes de gelo que parecem assustadores mas, na maior parte das
+    vezes, só têm frio e se sentem sozinhos. Aqui um herói não é o mais forte nem o
+    que grita mais alto, mas aquele que guarda um coração quente, imagina ideias e
+    partilha o fogo. Os maiores feitos fazem-se com coragem, gentileza e muitas
+    ideias, e até um gigante, recebido com uma palavra amiga, muitas vezes mostra-se
+    mais sozinho do que feroz.
 visual_style: >
   Soft, warm storybook illustration in gentle watercolour and coloured-pencil
   texture, with a cosy northern winter mood: deep blue fjords, snowy white
@@ -79,6 +93,7 @@ images:
       en-GB: The snowlit fjords at twilight, cosy longhouses with amber windows between white mountains and dark pines, a soft aurora in the sky.
       es-ES: Los fiordos nevados al anochecer, con acogedoras casas comunales de ventanas ámbar entre montañas blancas y pinos oscuros, y una suave aurora en el cielo.
       it-IT: I fiordi innevati al crepuscolo, con accoglienti case lunghe dalle finestre ambrate tra montagne bianche e pini scuri, e una dolce aurora nel cielo.
+      pt-PT: Os fiordes nevados ao entardecer, com acolhedoras casas compridas de janelas cor de âmbar entre montanhas brancas e pinheiros escuros, e uma suave aurora no céu.
   - id: frost-giant
     role: portrait
     orientation: square
@@ -91,6 +106,7 @@ images:
       en-GB: A big gentle frost giant of pale blue ice sitting alone on a snowy slope, looking shy and sad rather than fierce.
       es-ES: Un gran gigante de hielo amable, de un azul pálido, sentado solo en una ladera nevada, con aire tímido y triste más que feroz.
       it-IT: Un grande gigante di ghiaccio gentile, di un azzurro pallido, seduto da solo su un pendio innevato, dall'aria timida e triste più che feroce.
+      pt-PT: Um grande gigante de gelo gentil, de um azul pálido, sentado sozinho numa encosta nevada, com ar tímido e triste mais do que feroz.
   - id: aurora-spirits
     role: portrait
     orientation: square
@@ -103,3 +119,4 @@ images:
       en-GB: Gentle northern-lights spirits, soft wisps of teal, green and purple light with kind faces, dancing across a starry sky.
       es-ES: Espíritus amables de la aurora boreal, suaves volutas de luz turquesa, verde y púrpura con rostros bondadosos, que bailan por un cielo estrellado.
       it-IT: Gentili spiriti dell'aurora boreale, morbide volute di luce turchese, verde e viola dai volti buoni, che danzano in un cielo stellato.
+      pt-PT: Gentis espíritos da aurora boreal, suaves fios de luz azul-turquesa, verde e roxa com rostos bondosos, que dançam num céu estrelado.

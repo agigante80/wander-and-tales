@@ -10,7 +10,7 @@ def test_duplicate_canon_id_is_an_error(sample_repo):
     canon = sample_repo / "worlds" / "floating-isles" / "canon" / "extra.yaml"
     canon.write_text(
         "- id: mist-cat\n"
-        "  names: {en-GB: Mist Cat, es-ES: Gato de Niebla, it-IT: Gatto di Nebbia}\n"
+        "  names: {en-GB: Mist Cat, es-ES: Gato de Niebla, it-IT: Gatto di Nebbia, pt-PT: Gatto di Nebbia}\n"
         "  kind: creature\n",
         encoding="utf-8",
     )
@@ -52,9 +52,9 @@ def test_duplicate_lexicon_id_is_an_error(sample_repo):
     path = sample_repo / "lexicon" / "terms.yaml"
     path.write_text(
         "- id: game-master\n"
-        "  names: {en-GB: Game Master, es-ES: Guia del Juego, it-IT: Maestro di Gioco}\n"
+        "  names: {en-GB: Game Master, es-ES: Guia del Juego, it-IT: Maestro di Gioco, pt-PT: Maestro di Gioco}\n"
         "- id: game-master\n"
-        "  names: {en-GB: GM, es-ES: GJ, it-IT: MG}\n",
+        "  names: {en-GB: GM, es-ES: GJ, it-IT: MG, pt-PT: MG}\n",
         encoding="utf-8",
     )
     issues = lint.lint_repo(sample_repo)

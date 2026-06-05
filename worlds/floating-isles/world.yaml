@@ -3,6 +3,7 @@ name:
   en-GB: The Floating Isles
   es-ES: Las Islas Flotantes
   it-IT: Le Isole Volanti
+  pt-PT: As Ilhas Flutuantes
 tone: gentle wonder
 palette:
   - "#fef9ef"  # cream background
@@ -40,6 +41,15 @@ lore_summary:
     incantesimi, e sotto si estende la città dove vivono le famiglie. Dentro il
     recinto della scuola si trova il Grande Giardino, il cuore verde di tutta
     l'isola. Qui nessuno perde; trovate la strada con gentilezza e con le vostre idee.
+  pt-PT: >
+    As Ilhas Flutuantes são ilhas que pairam num céu tranquilo, num reino onde a
+    magia só serve para ajudar: faz crescer, cura, transforma uma coisa noutra e
+    deixa-vos falar com os animais e com os objetos. Nunca faz mal. Na ilha
+    principal, a Casa dos Pequenos Magos ergue-se no ponto mais alto, onde os
+    jovens magos aprendem os seus primeiros feitiços, e por baixo estende-se a
+    cidade onde vivem as famílias. Dentro do recinto da escola fica o Grande
+    Jardim, o coração verde de toda a ilha. Aqui ninguém perde; encontrais o
+    caminho com gentileza e com muitas ideias.
 fonts:
   default: dejavu-serif
 visual_style: >
@@ -63,6 +73,7 @@ images:
       en-GB: The Floating Isles at golden hour, green islands in a calm sky with a little school tower and a walled garden on the tallest.
       es-ES: Las Islas Flotantes al atardecer dorado, islas verdes en un cielo tranquilo con una pequeña torre de escuela y un jardín amurallado en la más alta.
       it-IT: Le Isole Volanti all'ora dorata, isole verdi in un cielo tranquillo con una piccola torre della scuola e un giardino cinto di mura su quella più alta.
+      pt-PT: As Ilhas Flutuantes à hora dourada, ilhas verdes num céu tranquilo com uma pequena torre da escola e um jardim murado na mais alta.
   - id: mist-cat
     role: portrait
     orientation: square
@@ -75,6 +86,7 @@ images:
       en-GB: A gentle cat made of soft grey mist, sitting on a mossy stone.
       es-ES: Un gato amable hecho de niebla gris suave, sentado en una piedra con musgo.
       it-IT: Un gatto gentile fatto di morbida nebbia grigia, seduto su una pietra coperta di muschio.
+      pt-PT: Um gato meigo feito de névoa cinzenta suave, sentado numa pedra coberta de musgo.
   - id: lonely-sprite
     role: portrait
     orientation: square
@@ -87,3 +99,4 @@ images:
       en-GB: A small shy sprite glowing softly, hugging its knees among waking flowers.
       es-ES: Un pequeño duende tímido que brilla con suavidad, abrazándose las rodillas entre flores que despiertan.
       it-IT: Un piccolo folletto timido che brilla dolcemente, abbracciato alle ginocchia tra fiori che si svegliano.
+      pt-PT: Um pequeno duende tímido que brilha suavemente, abraçado aos joelhos entre flores que acordam.

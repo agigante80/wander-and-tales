@@ -8,7 +8,7 @@ def _world(fonts_block=None):
     data = {
         "id": "floating-isles",
         "name": {"en-GB": "The Floating Isles", "es-ES": "Las Islas Flotantes",
-                 "it-IT": "Le Isole Fluttuanti"},
+                 "it-IT": "Le Isole Fluttuanti", "pt-PT": "Le Isole Fluttuanti"},
         "palette": ["#fef9ef", "#4ea24a", "#2bb3a3"],
     }
     if fonts_block is not None:

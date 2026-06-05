@@ -45,3 +45,31 @@
     es-ES: La alta Montaña de la Estrella, la más alta de las colinas, donde una estrella bondadosa bajó una vez a hacerse amiga de un pastor solitario y dio su nombre a la sierra.
     it-IT: L'alta Montagna della Stella, la più alta delle colline, dove una stella gentile scese un tempo a fare amicizia con un pastore solitario e diede il nome alla catena.
   first_seen: mouras-lost-comb
+
+- id: bell-tower
+  names:
+    en-GB: The Old Bell Tower
+    es-ES: La Vieja Torre del Campanario
+    it-IT: La Vecchia Torre Campanaria
+    pt-PT: A Velha Torre do Sino
+  kind: place
+  description:
+    en-GB: The tall stone bell tower over Barcelos, its top open to the wind and the swifts. High among the bells, out of reach of the noisy square, the shy jackdaw keeps her glittering nest.
+    es-ES: La alta torre de piedra del campanario sobre Barcelos, con la cima abierta al viento y a los vencejos. Allá arriba entre las campanas, lejos del bullicio de la plaza, la tímida grajilla guarda su nido reluciente.
+    it-IT: L'alta torre di pietra del campanile sopra Barcelos, con la cima aperta al vento e ai rondoni. Lassù tra le campane, lontano dal trambusto della piazza, la timida taccola custodisce il suo nido scintillante.
+    pt-PT: A alta torre de pedra do sino sobre Barcelos, com o topo aberto ao vento e aos andorinhões. Lá no alto entre os sinos, longe da azáfama da praça, a tímida gralha guarda o seu ninho reluzente.
+  first_seen: galos-silent-dawn
+
+- id: coimbra
+  names:
+    en-GB: Coimbra
+    es-ES: Coimbra
+    it-IT: Coimbra
+    pt-PT: Coimbra
+  kind: place
+  description:
+    en-GB: The old riverside city of stone streets and a hilltop castle, where good Queen Isabel once lived and carried bread to the poor. Its lanes wind down to the water, and in spring the air smells of oranges and roses.
+    es-ES: La vieja ciudad junto al río, de calles de piedra y un castillo en lo alto, donde vivió la buena Reina Isabel y llevaba pan a los pobres. Sus callejuelas bajan serpenteando hasta el agua, y en primavera el aire huele a naranjas y rosas.
+    it-IT: La vecchia città in riva al fiume, di strade di pietra e un castello in cima al colle, dove visse la buona Regina Isabella e portava il pane ai poveri. I suoi vicoli scendono serpeggiando fino all'acqua, e in primavera l'aria profuma di arance e rose.
+    pt-PT: A velha cidade à beira do rio, de ruas de pedra e um castelo no alto, onde viveu a boa Rainha Isabel e levava pão aos pobres. As suas vielas descem a serpentear até à água, e na primavera o ar cheira a laranjas e rosas.
+  first_seen: queen-isabels-roses

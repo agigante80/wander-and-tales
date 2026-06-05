@@ -5,12 +5,14 @@
     en-GB: Pook the Puca
     es-ES: Pook el Puca
     it-IT: Pook il Puca
+    pt-PT: Pook, o Puca
   kind: creature
   disposition: playful
   description:
     en-GB: A playful shapeshifting faerie of the oak grove who loves games and surprises, and hands out helpful hints (and the odd harmless trick) to folk he likes.
     es-ES: Un travieso duende cambiaformas del robledal al que le encantan los juegos y las sorpresas, y que da pistas útiles (y alguna travesura inofensiva) a quien le cae bien.
     it-IT: Un folletto burlone e mutaforma del querceto che adora i giochi e le sorprese, e dà indizi utili (e qualche scherzo innocuo) a chi gli sta simpatico.
+    pt-PT: Um duende brincalhão do carvalhal que muda de forma, adora jogos e surpresas, e dá dicas úteis (e uma ou outra partida inofensiva) a quem gosta.
   first_seen: pooks-tangled-paths
 
 - id: salmon-wisdom

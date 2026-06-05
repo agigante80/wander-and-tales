@@ -3,6 +3,7 @@ name:
   en-GB: The Emerald Isles of the Celts
   es-ES: Las Islas Esmeralda de los Celtas
   it-IT: Le Isole di Smeraldo dei Celti
+  pt-PT: As Ilhas Esmeralda dos Celtas
 tone: misty green wonder
 hero_powers: strength
 palette:
@@ -52,6 +53,19 @@ lore_summary:
     promessa. Le imprese più grandi si compiono con immaginazione, coraggio e un cuore
     buono, e persino uno sconosciuto dall'aria spaventosa, accolto con una parola
     gentile, spesso si rivela più solo che cattivo.
+  pt-PT: >
+    As ilhas esmeralda dos celtas ondulam verdes e enevoadas entre um mar
+    prateado e céus de um cinzento suave, salpicadas de casas redondas com
+    telhado de colmo, antigos carvalhais e círculos de pedras que vibram
+    baixinho. A névoa paira sobre lagos imóveis e, do outro lado, quase sem se
+    ver, fica a Terra da Juventude, onde ninguém envelhece. As ilhas estão
+    cheias de maravilhas meigas: um duende brincalhão que muda de forma, um
+    velho e reluzente salmão, uma tímida selkie do lago e quatro crianças
+    transformadas há muito tempo em cisnes que cantam. Aqui um herói não é o
+    mais forte nem o que grita mais alto, mas quem está cheio de ideias, escuta
+    com bondade e cumpre uma promessa. Os feitos maiores fazem-se com
+    imaginação, coragem e um bom coração, e até um estranho de aspeto assustador,
+    recebido com uma palavra amiga, muitas vezes está mais sozinho do que zangado.
 visual_style: >
   Soft, warm storybook illustration in gentle watercolour and coloured-pencil
   texture, with a misty Celtic mood: rolling emerald-green hills, ancient oak
@@ -76,6 +90,7 @@ images:
       en-GB: The emerald isles at misty dawn, green hills with a ring of standing stones, a thatched roundhouse and a silver loch wrapped in mist.
       es-ES: Las islas esmeralda al amanecer brumoso, colinas verdes con un círculo de piedras, una casa redonda de paja y un lago plateado envuelto en niebla.
       it-IT: Le isole di smeraldo all'alba nebbiosa, colline verdi con un cerchio di pietre, una casa rotonda di paglia e un lago argenteo avvolto nella nebbia.
+      pt-PT: As ilhas esmeralda ao amanhecer enevoado, colinas verdes com um círculo de pedras, uma casa redonda de colmo e um lago prateado envolto em névoa.
   - id: lonely-selkie
     role: portrait
     orientation: square
@@ -88,6 +103,7 @@ images:
       en-GB: A gentle selkie, a kind seal-person with soft dark eyes and a grey sealskin cloak, sitting on a misty loch shore looking shy and lonely.
       es-ES: Una foca encantada amable, con ojos oscuros y dulces y una capa de piel de foca gris, sentada en la orilla brumosa de un lago, con aire tímido y solitario.
       it-IT: Una gentile foca incantata, dagli occhi scuri e dolci e un mantello di pelle di foca grigia, seduta sulla riva nebbiosa di un lago, dall'aria timida e solitaria.
+      pt-PT: Uma meiga selkie, uma bondosa mulher-foca de olhos escuros e doces e um manto de pele de foca cinzenta, sentada na margem enevoada de um lago, com ar tímido e solitário.
   - id: swan-children
     role: portrait
     orientation: square
@@ -100,3 +116,4 @@ images:
       en-GB: Four graceful white swans with kind faces gliding together on a still misty loch at dusk, a soft glow of rose and gold light about them.
       es-ES: Cuatro elegantes cisnes blancos de rostro amable que se deslizan juntos por un lago brumoso al anochecer, con un suave resplandor rosado y dorado a su alrededor.
       it-IT: Quattro eleganti cigni bianchi dal volto gentile che scivolano insieme su un lago nebbioso al crepuscolo, con un dolce chiarore rosato e dorato intorno.
+      pt-PT: Quatro elegantes cisnes brancos de rosto meigo que deslizam juntos num lago enevoado ao anoitecer, com um suave brilho rosado e dourado à volta.

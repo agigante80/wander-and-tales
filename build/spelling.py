@@ -7,7 +7,7 @@ exists. `check_text` returns no findings today so callers can wire it in safely.
 
 from pathlib import Path
 
-_SCOPED_LOCALES = ("en-GB", "es-ES", "it-IT")
+_SCOPED_LOCALES = ("en-GB", "es-ES", "it-IT", "pt-PT")
 
 
 def locale_for_path(path: Path) -> str | None:

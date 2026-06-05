@@ -5,12 +5,14 @@
     en-GB: The Lonely Frost Giant
     es-ES: El Gigante de Hielo Solitario
     it-IT: Il Gigante di Ghiaccio Solitario
+    pt-PT: O Gigante de Gelo Solitário
   kind: creature
   disposition: lonely
   description:
     en-GB: A huge giant of pale blue ice who sits in the way of travellers. He looks fearsome, but he is really just cold and lonely, and a warm word and a shared fire do more than any axe.
     es-ES: Un enorme gigante de hielo azul pálido que se sienta en el camino de los viajeros. Parece temible, pero en realidad solo tiene frío y se siente solo, y una palabra cálida y un fuego compartido logran más que cualquier hacha.
     it-IT: Un enorme gigante di ghiaccio azzurro pallido che si siede sul cammino dei viaggiatori. Sembra spaventoso, ma in realtà ha soltanto freddo e si sente solo, e una parola calorosa e un fuoco condiviso valgono più di qualsiasi ascia.
+    pt-PT: Um enorme gigante de gelo azul pálido que se senta no caminho dos viajantes. Parece assustador, mas na verdade só tem frio e se sente sozinho, e uma palavra quente e um fogo partilhado valem mais do que qualquer machado.
   first_seen: the-long-winters-night
 
 - id: aurora-spirits

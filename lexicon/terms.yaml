@@ -8,27 +8,32 @@
     en-GB: Game Master
     es-ES: Guía del Juego
     it-IT: Guida del Gioco
+    pt-PT: Mestre do Jogo
 
 - id: band-easy
   names:
     en-GB: Easy
     es-ES: Fácil
     it-IT: Facile
+    pt-PT: Fácil
 
 - id: band-normal
   names:
     en-GB: Normal
     es-ES: Normal
     it-IT: Normale
+    pt-PT: Normal
 
 - id: band-hard
   names:
     en-GB: Hard
     es-ES: Difícil
     it-IT: Difficile
+    pt-PT: Difícil
 
 - id: energy-star
   names:
     en-GB: energy star
     es-ES: estrella de energía
     it-IT: stella di energia
+    pt-PT: estrela de energia
