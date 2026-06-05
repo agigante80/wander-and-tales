@@ -12,7 +12,7 @@ from pathlib import Path
 from reportlab.platypus import Paragraph
 
 from build import content
-from build.render import colophon, fonts, footer, pages, strings, theme, version
+from build.render import chrome, colophon, fonts, footer, pages, strings, theme, version
 from build.render import markdown as md
 from build.render.kit import _merge
 
@@ -54,7 +54,7 @@ def build_playbook(
         tmp_path = Path(tmp)
 
         head = [
-            Paragraph(md.inline_to_rl(f"{label}: {title}"), styles["h1"]),
+            chrome.HeaderBand(kicker=label, title=title, theme=th, motif=False),
             Paragraph(
                 md.inline_to_rl(strings.ui(locale, "playbook_secret_note")),
                 styles["body"],

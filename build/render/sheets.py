@@ -296,11 +296,13 @@ def render_character_sheet(
 
     if tier == "older":
         note_hue = theme.blue
-        nbody = 16 * mm
+        # fill the lower band like the young tier's doodle box, not a short box
+        nbody = max(16 * mm, (y - 29 * mm) - mh)
         by = chip(M, y, W - 2 * M, s("sheet_notes"), note_hue, nbody, header_h=mh)
         inner_top = y - mh
-        for k in range(2):
-            wline(M + 5 * mm, inner_top - 6 * mm - k * 7 * mm, W - 2 * M - 10 * mm)
+        rows = max(2, int((nbody - 4 * mm) / (8 * mm)))
+        for k in range(rows):
+            wline(M + 5 * mm, inner_top - 6 * mm - k * 8 * mm, W - 2 * M - 10 * mm)
     else:
         # young has no Notes; fill the band with a doodle box so it does not sit empty
         d_bottom = 29 * mm
