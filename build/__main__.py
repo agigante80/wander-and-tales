@@ -115,7 +115,10 @@ def main(argv: list[str] | None = None) -> int:
         out = out_dir / "guides" / f"Guide_for_the_Grown-Up_{args.locale}-{vi.label}.pdf"
         qr = f"{PROJECT_URL}/tree/main/kits/guides"
         pages.render_guide(src, out, args.locale, version=vi, qr_url=qr)
+        qs = out_dir / "guides" / f"How_to_Play_{args.locale}-{vi.label}.pdf"
+        pages.build_quickstart(qs, args.locale, version=vi)
         print(f"built {out}")
+        print(f"built {qs}")
         return 0
 
     if args.command == "render-playbook":
@@ -153,6 +156,7 @@ def main(argv: list[str] | None = None) -> int:
         total = (
             len(built.story_packs) + len(built.playbooks)
             + len(built.world_books) + len(built.guides)
+            + len(built.quickstarts)
         )
         print(f"rebuilt {total} artifact(s) into {out_dir}")
         return 0

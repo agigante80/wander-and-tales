@@ -8,16 +8,14 @@ minuto.*
 
 Se non hai mai giocato a una cosa del genere, immagina una favola della buonanotte
 che il tuo bambino aiuta a guidare, un po' come un libro a bivi "scegli la tua
-avventura" recitato ad alta voce tutti insieme. In fondo è solo questo. È
-un'avventura cooperativa fatta di storia e rompicapi che giochi con un bambino, o con
-un gruppetto di bambini, ad alta voce, con un kit stampato e qualche oggetto di casa. Niente app, niente schermo. Tu leggi un po' di storia, i bambini fanno le
-loro scelte e, insieme, risolvete rompicapi gentili con dadi semplici. Giocate
-tutti dalla stessa parte, aiutandovi a venirne fuori, mai gli uni contro gli
-altri. È un modo per esercitare l'immaginazione, la capacità di risolvere problemi
-e il gioco di squadra, e una bella scusa per passare del tempo senza fretta e senza
-schermi, una cosa che gli studi collegano a quanto bene i bambini si calmano e
-crescono. Non serve nessuna esperienza. Se sai leggere una favola della buonanotte,
-sai condurre questo gioco.
+avventura" recitato ad alta voce tutti insieme. In fondo è solo questo. Ci giochi con
+un bambino, o con un gruppetto di bambini, ad alta voce, con un kit stampato e qualche
+oggetto di casa. Niente app, niente schermo. Tu leggi un po' di storia, i bambini
+dicono che cosa vogliono fare e, insieme, superate piccole sfide con un tiro di dado.
+Giocate tutti dalla stessa parte, aiutandovi a vicenda, mai gli uni contro gli altri.
+L'unico obiettivo è divertirsi insieme e sentirsi in gamba e gentili. Non serve
+nessuna esperienza: se sai leggere una favola della buonanotte, sai condurre questo
+gioco.
 
 ## Com'è giocare, in pratica
 
