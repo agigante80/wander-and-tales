@@ -1,12 +1,15 @@
 # Guía para el Adulto
 
 *¿Es tu primera vez? Aquí tienes todo lo que necesitas. Léela una vez y estarás
-listo para cualquier kit de la biblioteca. Te llevará unos cinco minutos.*
+listo para cualquier kit de la biblioteca. Te llevará unos minutos.*
 
 ## Qué es esto
 
-Es una aventura cooperativa de historia y puzles que juegas con un niño, o con unos
-cuantos niños, en voz alta, con un kit impreso y unas pocas cosas de casa. No hay
+Si nunca has jugado a algo así, imagina un cuento antes de dormir que tu hijo ayuda a
+llevar, un poco como un libro de "elige tu propia aventura" representado en voz alta
+entre todos. En el fondo es solo eso. Es una aventura cooperativa de historia y puzles
+que juegas con un niño, o con unos cuantos niños, en voz alta, con un kit impreso y
+unas pocas cosas de casa. No hay
 aplicación ni pantalla. Tú lees un poco de historia, los niños toman decisiones y,
 juntos, resolvéis puzles amables con dados sencillos. Jugáis todos en el mismo
 equipo, ayudándoos a salir adelante, nunca unos contra otros. Es una forma de practicar la imaginación, la resolución
@@ -14,6 +17,86 @@ de problemas y el trabajo en equipo, y una bonita excusa para un rato sin prisas
 sin pantallas, algo que los estudios relacionan con cómo los niños se calman y
 crecen. No hace falta ninguna experiencia. Si sabes leer un cuento antes de dormir,
 sabes dirigir esto.
+
+## Cómo es jugar, en la práctica
+
+Así es un turno entero, para que te lo imagines. Tú lees una línea, un niño responde y
+una tirada del dado añade una pizca de sorpresa:
+
+- **Tú lees:** "La puerta de enredaderas está toda anudada. ¿Qué hacéis?"
+- **Un niño:** "Le pido a mi búho que la abra a picotazos."
+- **Tú:** "Bonita idea. Es un reto Normal, así que tira el dado." Sacan un tres. "El
+  búho tira con fuerza y un nudo se suelta. Una buena idea más y estáis al otro lado."
+
+Ese es todo el motor: una pregunta, una idea, una tirada y un "sí, y..." que mantiene
+la historia en marcha. Nadie puede quedarse fuera de la diversión por fallar: una
+tirada baja solo significa que buscáis otra manera. La historia te dice cuándo tirar,
+el Cuaderno para la persona adulta te da las soluciones y esta Guía hace el resto.
+
+## Mundos, historias y kits
+
+La biblioteca se construye con **mundos**, **historias** y los **kits** que imprimes.
+
+- Un **mundo** es un escenario con sus propios lugares, personajes y estilo: un racimo
+  de islas flotantes, las colinas soleadas del mito griego, los fiordos nevados del
+  norte y más, con mundos nuevos que se van añadiendo con el tiempo.
+- Una **historia** es una aventura completa dentro de un mundo, con su propio recorrido
+  de paradas y sus propios puzles. Un mundo reúne varias historias, y podéis jugarlas
+  en el orden que queráis.
+- Un **kit** es todo lo que necesitas para jugar una historia. Eliges un mundo, eliges
+  una historia e imprimes ese kit. Cada historia viene en un nivel de lectura ajustado
+  a la edad de tus niños, y en más de un idioma.
+
+Nunca hace falta leerse un mundo entero para empezar. Una historia es una tarde.
+
+## Qué trae un kit, y qué imprimir
+
+Un kit llega como unos cuantos PDF cortos. No tienes por qué imprimirlos todos.
+
+- **El Cuaderno de la historia.** Este es el que hay que **imprimir**. Es el
+  cuadernillo apto para los niños desde el que jugáis: el comienzo, un mapa, la
+  historia para leer en voz alta, las imágenes y, en la última página, una **ficha de
+  aventura** en blanco.
+- **El Cuaderno para la persona adulta.** Las reglas y, sobre todo, las **soluciones**
+  de los puzles. Esta parte es para ti, no para los niños. Puedes tenerla en el móvil o
+  en una pantalla para ahorrar papel. **Léela antes de empezar.**
+- **El Libro del Mundo** (opcional). Un "quién es quién" de los personajes y criaturas
+  del mundo, además de un banco de ideas extra, para cuando quieras más. Está bien
+  tenerlo, pero nunca es imprescindible.
+- **Los Héroes de Ejemplo** (opcional). Una página de héroes ya hechos, rellenados,
+  para enseñar a tus niños cómo puede ser un héroe. Imprímela para inspiraros, o solo
+  échale un vistazo en la pantalla.
+- **Esta Guía** (se lee una vez). Lo que estás leyendo ahora. Después de esto estarás
+  listo para cualquier kit de la biblioteca.
+
+El camino más corto: imprime el **Cuaderno de la historia**, ten el **Cuaderno para la
+persona adulta** abierto a tu lado y a jugar.
+
+## La ficha de aventura
+
+La última página de cada Cuaderno de la historia es una **ficha de aventura**, donde
+cada jugador crea su propio héroe. Cogéis una cada uno, tú incluido. En ella un jugador
+escribe un nombre, da a su héroe tres **magias** (o, en los mundos sin magia, tres
+**fortalezas** como el ingenio, el valor o un buen corazón), hace un dibujo rápido y
+anota las pocas cosas que lleva consigo. Las cinco **estrellas de energía** se colorean
+a medida que se gastan durante el juego, así que imprime una ficha nueva para cada
+jugador y cada aventura. Los **Héroes de Ejemplo** enseñan cómo queda una terminada.
+Crear un héroe lleva un par de minutos y es parte de la diversión, así que no te lo
+saltes.
+
+## Antes de empezar: cinco minutos de preparación
+
+1. **Lee el Cuaderno para la persona adulta** una vez, y echa un vistazo a la historia
+   para hacerte con su forma. No tienes que memorizar nada; las páginas te van guiando
+   sobre la marcha.
+2. **Imprime** el Cuaderno de la historia y una ficha de aventura de más para cada
+   jugador.
+3. **Reúne** un solo dado de seis caras (con uno basta para cualquier kit), un lápiz
+   para cada uno y un puñadito de fichas, monedas o botones para representar a los
+   jugadores y para marcar las estrellas de energía.
+4. **Acomódate** en un sitio agradable, sin pantallas y sin prisa.
+
+Eso es toda la preparación que un kit necesita.
 
 ## Tus trabajos, y tú también juegas
 
@@ -32,6 +115,21 @@ lado de los niños, ayudándoles a encontrar el camino.
   antes, pero no tienes por qué actuar como si la supieras: déjate sorprender,
   asómbrate en voz alta y descubre cada turno con los niños. Lo importante es
   ayudarles a salir adelante, no ser quien lo sabe todo.
+
+## Cómo presentárselo a los niños
+
+Empieza por la promesa, cread un héroe cada uno y luego a empezar.
+
+- **Haz primero la promesa.** Diles la única regla antes que nada: "En este juego no
+  pierde nadie. Estamos todos en el mismo equipo, y si algo no sale, sencillamente
+  buscamos otra manera." Esa sola frase libera al niño para atreverse.
+- **Cread un héroe cada uno.** Reparte las fichas de aventura y haced los héroes
+  juntos, tú incluido. Que elijan un nombre y tres magias o fortalezas, y que dibujen
+  su retrato. Los Héroes de Ejemplo están ahí si alguien quiere un modelo.
+- **Pon la escena.** Lee el comienzo de la historia en voz alta, despacio, y haz la
+  primera pregunta. A partir de ahí, la historia os lleva a los dos.
+
+Luego seguid jugando, con el resto de esta Guía. Ahora sois todos aventureros.
 
 ## La regla de oro: sí, y...
 
