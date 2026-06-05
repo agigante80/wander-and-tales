@@ -4,22 +4,24 @@ from build.render import library
 def test_build_all_creates_every_artifact(sample_repo):
     out_dir = sample_repo / "kits"
     built = library.build_all(sample_repo, out_dir)
-    assert (out_dir / "en-GB" / "floating-isles" / "sleeping-garden" / "tale-book-simple-v0.0.pdf").is_file()
-    assert (out_dir / "en-GB" / "floating-isles" / "sleeping-garden" / "atlas-v0.0.pdf").is_file()
-    assert (out_dir / "en-GB" / "floating-isles" / "world-book-v0.0.pdf").is_file()
+    story_dir = out_dir / "en-GB" / "floating-isles" / "sleeping-garden"
+    assert (story_dir / "floating-isles-sleeping-garden-tale-book-simple-en-GB-v0.0.pdf").is_file()
+    assert (story_dir / "floating-isles-sleeping-garden-atlas-en-GB-v0.0.pdf").is_file()
+    assert (out_dir / "en-GB" / "floating-isles" / "floating-isles-world-book-en-GB-v0.0.pdf").is_file()
     assert ("floating-isles", "sleeping-garden", "es-ES", "rich") in built.tale_books
 
 
 def test_prune_removes_superseded_versions(sample_repo):
     out_dir = sample_repo / "kits"
     built = library.build_all(sample_repo, out_dir)
-    stale = out_dir / "en-GB" / "floating-isles" / "sleeping-garden" / "tale-book-simple-v9.9.pdf"
+    story_dir = out_dir / "en-GB" / "floating-isles" / "sleeping-garden"
+    stale = story_dir / "floating-isles-sleeping-garden-tale-book-simple-en-GB-v9.9.pdf"
     stale.write_bytes(b"%PDF-stale")
     removed = library.prune_old(out_dir, built)
     assert stale in removed
     assert not stale.exists()
     # the current version survives
-    assert (out_dir / "en-GB" / "floating-isles" / "sleeping-garden" / "tale-book-simple-v0.0.pdf").is_file()
+    assert (story_dir / "floating-isles-sleeping-garden-tale-book-simple-en-GB-v0.0.pdf").is_file()
 
 
 def test_readme_block_lists_stories_and_links(sample_repo):
@@ -29,8 +31,8 @@ def test_readme_block_lists_stories_and_links(sample_repo):
     assert library.README_BEGIN in block
     assert library.README_END in block
     assert "The Sleeping Garden" in block
-    assert "tale-book-simple-v0.0.pdf" in block
-    assert "atlas-v0.0.pdf" in block
+    assert "floating-isles-sleeping-garden-tale-book-simple-en-GB-v0.0.pdf" in block
+    assert "floating-isles-sleeping-garden-atlas-en-GB-v0.0.pdf" in block
     # the catalogue is grouped per world, each with its World Book links
     assert "### The Floating Isles" in block
     assert "**World Book:**" in block
