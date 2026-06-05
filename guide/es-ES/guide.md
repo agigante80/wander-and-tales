@@ -50,10 +50,11 @@ Nunca hace falta leerse un mundo entero para empezar. Una historia es una tarde.
 
 Un kit llega como unos cuantos PDF cortos. No tienes por qué imprimirlos todos.
 
-- **El Cuaderno de la historia.** Este es el que hay que **imprimir**. Es el
-  cuadernillo apto para los niños desde el que jugáis: el comienzo, un mapa, la
-  historia para leer en voz alta, las imágenes y, en la última página, una **ficha de
-  aventura** en blanco.
+- **El Cuaderno de la historia.** El único cuadernillo que lees y desde el que jugáis,
+  y es **tuyo**, no de los niños: el comienzo, un mapa, la historia para leer en voz
+  alta, las imágenes para mostrar en cada lugar y, en la última página, una **ficha de
+  aventura** en blanco. Guárdalo para ti y ve revelando las cosas sobre la marcha, así
+  la historia sigue siendo una sorpresa; los niños no necesitan su propia copia.
 - **El Cuaderno para la persona adulta.** Las reglas y, sobre todo, las **soluciones**
   de los puzles. Esta parte es para ti, no para los niños. Puedes tenerla en el móvil o
   en una pantalla para ahorrar papel. **Léela antes de empezar.**
@@ -66,15 +67,17 @@ Un kit llega como unos cuantos PDF cortos. No tienes por qué imprimirlos todos.
 - **Esta Guía** (se lee una vez). Lo que estás leyendo ahora. Después de esto estarás
   listo para cualquier kit de la biblioteca.
 
-El camino más corto: imprime el **Cuaderno de la historia**, ten el **Cuaderno para la
-persona adulta** abierto a tu lado y a jugar.
+El camino más corto: imprime **un solo Cuaderno de la historia** (tu copia para leer) y
+una ficha de aventura para cada jugador, ten el **Cuaderno para la persona adulta**
+abierto a tu lado y lee la historia en voz alta, mostrando cada imagen al llegar a ese
+lugar.
 
 ## La ficha de aventura
 
 La última página de cada Cuaderno de la historia es una **ficha de aventura**, donde
 cada jugador crea su propio héroe. Cogéis una cada uno, tú incluido. En ella un jugador
 escribe un nombre, da a su héroe tres **magias** (o, en los mundos sin magia, tres
-**fortalezas** como el ingenio, el valor o un buen corazón), hace un dibujo rápido y
+**fortalezas** como la imaginación, el valor o un buen corazón), hace un dibujo rápido y
 anota las pocas cosas que lleva consigo. Las cinco **estrellas de energía** se colorean
 a medida que se gastan durante el juego, así que imprime una ficha nueva para cada
 jugador y cada aventura. Los **Héroes de Ejemplo** enseñan cómo queda una terminada.
@@ -86,8 +89,8 @@ saltes.
 1. **Lee el Cuaderno para la persona adulta** una vez, y echa un vistazo a la historia
    para hacerte con su forma. No tienes que memorizar nada; las páginas te van guiando
    sobre la marcha.
-2. **Imprime** el Cuaderno de la historia y una ficha de aventura de más para cada
-   jugador.
+2. **Imprime** un solo Cuaderno de la historia (tu copia para leer) y una ficha de
+   aventura para cada jugador.
 3. **Reúne** un solo dado de seis caras (con uno basta para cualquier kit), un lápiz
    para cada uno y un puñadito de fichas, monedas o botones para representar a los
    jugadores y para marcar las estrellas de energía.
