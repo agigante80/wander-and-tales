@@ -52,9 +52,14 @@ world's peril level. A heroic world may have a fearsome foe, but it is befriende
 Gather, with sensible defaults so a one-line request works: age tier
 (`early`/`young`/`older`), which reading levels to write (`simple`, `rich`, or
 both), the skill mix (from the vocabulary in `build/tags.py`), peril
-(`gentle`/`mild`/`heroic`), players (min and max), play time in minutes, and any
-special requirements the author states (a theme, a learning focus, a length, a
-named character they want).
+(`gentle`/`mild`/`heroic`), the **number of stops** the adventure runs through
+(each stop is one challenge or trial, a `## Stop N` beat; default three, fewer for a
+very short story, more for older children), players (min and max), play time in
+minutes (which scales with the number of stops), and any special requirements the
+author states (a theme, a learning focus, a length, a named character they want).
+The stop count is a free choice: the build adapts (the generated map winds for a few
+stops and switches to a serpentine for many), so a longer or shorter adventure needs
+only more or fewer `## Stop N` sections, no code change.
 
 ## Step 4: reuse canon, never redefine it
 

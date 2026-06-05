@@ -50,10 +50,11 @@ older) using the world's magics or qualities, for the sample adventure sheets.
 ## 2. The story idea
 
 Offer three to five ideas fitted to the chosen world and audience, or take the
-author's own. A good idea here is small, has two to four "stops" or beats, and
-resolves through good ideas and kindness. Confirm the idea keeps the ethos: nobody
-loses, no real villains beyond the world's peril, and any fearsome thing turns out
-lonely or misunderstood, or is outwitted without cruelty.
+author's own. A good idea here is small, runs through a handful of "stops" or beats
+(the trials the heroes face, usually three; the author sets the count in the
+parameters below), and resolves through good ideas and kindness. Confirm the idea
+keeps the ethos: nobody loses, no real villains beyond the world's peril, and any
+fearsome thing turns out lonely or misunderstood, or is outwitted without cruelty.
 
 ## 3. The parameters
 
@@ -67,8 +68,16 @@ Gather these (allowed values in brackets; pick a default when the author is unsu
   spatial, observation, social-emotional]. Pick two to four that fit the puzzles.
 - **Peril** [`gentle`, `mild`, `heroic`]. Match it to the world and age; default
   `gentle` for young, `heroic` only for older.
+- **Stops (trials)** [how many challenges the adventure runs through]. Default 3.
+  Each stop is one puzzle or trial with its own beat, written as a `## Stop N: Name`
+  heading (and usually a scene picture), so this sets how long the adventure is. Two
+  for a very short early-tier story, up to about six for older children. More stops
+  means more play time, so keep the two in step. Nothing in the build is hardcoded to
+  three: the map adapts (it winds for a few stops, serpentine for many), the heading
+  names become the map labels, so just write the chosen number of `## Stop N`
+  sections in the narration.
 - **Players** [min and max]. Default 2 and 2 (an adult and a child).
-- **Play time** [minutes]. Default 30, a little more for older.
+- **Play time** [minutes]. Default 30, a little more for older or for more stops.
 - **Special requirements** [free text]. A theme, a learning focus, a named
   character, a length, anything the author asks for.
 
