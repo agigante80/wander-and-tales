@@ -11,7 +11,7 @@ description: >-
   Isles / The Sleeping Garden and the Greek-myth world), even when the request
   only says "write the story", "draft the narration", "add a creature",
   "translate this to Spanish", or "write the grown-up guide". It encodes the
-  no-lose, clever-and-kind ethos, the writing constraints (no em or en dashes),
+  no-lose, kind-and-imaginative ethos, the writing constraints (no em or en dashes),
   the associational (non-causal) claims rule, reading-level and peril-tone
   guidance, the en-GB-first then es-ES workflow, and canon-name discipline.
 ---
@@ -30,7 +30,7 @@ The wider system (architecture, conventions, and build pipeline) is described in
 
 ## The one thing to hold onto
 
-Every kit teaches the same quiet lesson: **you win by being clever and kind.**
+Every kit teaches the same quiet lesson: **there are no wrong answers, and you win by being kind and full of ideas.**
 The games are cooperative (a grown-up and one or more children, together, on the same
 side), and **nobody loses.** The grown-up is not a referee standing apart: they guide
 the story and play along as a fellow adventurer, taking a hero of their own, helping
@@ -177,7 +177,7 @@ A story's `peril` tag sets how much tension is allowed.
 - **mild**: real obstacles and suspense, but nobody dies and no one is cruel. A
   bit more edge, still safe.
 - **heroic**: higher stakes for an older audience; foes can be outwitted or
-  "fall". The cooperative, no-elimination engine stays underneath, and cleverness
+  "fall". The cooperative, no-elimination engine stays underneath, and good ideas
   and kindness still win. The Greek-myth world uses a non-magic framing (wits and
   courage rather than the four magics), and even a fearsome foe can be befriended
   rather than slain where the story allows.
@@ -221,7 +221,7 @@ Rules for every image:
   repeat the style in each prompt.
 - The art must contain no text, letters, words, or numbers (so one image serves
   every language, like the maps). Never ask for captions or titles in the image.
-- Keep it gentle and on-palette, in the no-lose, clever-and-kind spirit: nothing
+- Keep it gentle and on-palette, in the no-lose, kind-and-imaginative spirit: nothing
   frightening, no real violence, friendly faces.
 - Set `canon_ref` to the canon id when an image depicts a named place, character,
   or creature, so the export adds that entry's description and the art stays

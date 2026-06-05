@@ -12,7 +12,7 @@ loud, with a printed kit and a few things from around the house. There is no app
 no screen. You read a little story, the children say what they want to do, and
 together you get past little challenges with a roll of the dice. You are all on the
 same side, helping each other along, never one against another. The only goal is to
-have fun together and feel clever and kind. You need no experience at all: if you can
+have fun together, and every idea is a good one. You need no experience at all: if you can
 read a bedtime story, you can run this.
 
 ## What playing actually looks like
@@ -150,7 +150,7 @@ Sticking is normal. Reach for these, in order:
 - **Lower the difficulty** one band, or let the helper roll carry it.
 - Let them **combine their strengths** for an automatic success.
 - If all else stalls, **just let them succeed.** Momentum matters more than rigour.
-  A child who feels clever will play for an hour; a child who feels stuck will wander
+  A child who feels proud of their ideas will play for an hour; a child who feels stuck will wander
   off.
 
 ## Keeping a young child captivated
@@ -181,7 +181,7 @@ clock and no score. The best ending is a child asking to play again.
 Keep these on the tip of your tongue:
 
 - "Yes, and..."
-- "Ooh, what a clever idea. What happens next?"
+- "Ooh, what a great idea. What happens next?"
 - "You can absolutely try that. Let us see..."
 - "That did not quite work, so what else could we do?"
-- "You did that by being clever and kind. Well done."
+- "You did that with kindness and your own good ideas. Well done."

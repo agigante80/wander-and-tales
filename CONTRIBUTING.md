@@ -45,8 +45,8 @@ artifacts that continuous integration and the maintainer rebuild.
 
 - `python -m build validate --root .` passes.
 - `python -m build lint --root .` reports no errors (image-file warnings are fine).
-- The story keeps the promise every kit makes: cooperative play, nobody loses, and
-  you win by being clever and kind.
+- The story keeps the promise every kit makes: cooperative play, nobody loses, no
+  wrong answers, and you win by being kind and full of ideas.
 
 ## Maintainer: publishing a merged story
 

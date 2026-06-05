@@ -51,7 +51,7 @@ older) using the world's magics or qualities, for the sample adventure sheets.
 
 Offer three to five ideas fitted to the chosen world and audience, or take the
 author's own. A good idea here is small, has two to four "stops" or beats, and
-resolves through cleverness and kindness. Confirm the idea keeps the ethos: nobody
+resolves through good ideas and kindness. Confirm the idea keeps the ethos: nobody
 loses, no real villains beyond the world's peril, and any fearsome thing turns out
 lonely or misunderstood, or is outwitted without cruelty.
 

@@ -45,7 +45,7 @@ pointing to, made easy to start.
 > cooperative story-and-puzzle adventure you play together with your child or children,
 > with a single die and a few household bits, where nobody loses and the only way
 > forward is
-> to be clever and kind. Every story is written and checked by people, not generated
+> kindness and good ideas. Every story is written and checked by people, not generated
 > by a chatbot in your child's hands, and it comes ready to play in British English
 > and Spanish from Spain (with Italian on the way), at a reading level that grows with
 > your child. And the research keeps returning to one thing above all: attentive,
@@ -67,7 +67,7 @@ pointing to, made easy to start.
 > each other, away from a screen. Wander & Tales is built for that moment: a free,
 > printable, cooperative adventure you play around a table with a single die and a few
 > household objects, where you and your child solve puzzles with imagination instead of
-> buttons, where nobody loses, and where you win by being clever and kind. There is no
+> buttons, where nobody loses, and where you win by being kind and full of ideas. There is no
 > app, no screen, and no chatbot talking to your child: every story is written and
 > checked by a person, and each one comes in careful British English and Spanish from
 > Spain (Italian is on the way), at two reading levels so the same world can grow with

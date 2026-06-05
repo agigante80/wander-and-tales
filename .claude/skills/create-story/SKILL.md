@@ -43,7 +43,7 @@ seed list):
 ## Step 2: choose or write the story idea
 
 Offer three to five ideas fitted to the world and the audience, or take the
-author's own. Every idea must keep the no-lose, clever-and-kind ethos and match the
+author's own. Every idea must keep the no-lose, kind-and-imaginative ethos and match the
 world's peril level. A heroic world may have a fearsome foe, but it is befriended or
 "falls" without cruelty, never an elimination.
 

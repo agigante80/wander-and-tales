@@ -80,7 +80,7 @@ for the Grown-Up. Keep it scannable; an adult reads this once before play.
 The challenges and their solutions, for the adult GM. Each puzzle states its
 difficulty band, what the players need to figure out or do, and the intended
 solution, plus gentle fallbacks so a stuck child still moves forward. Remember
-that more than one approach should work; reward cleverness and kindness.
+that more than one approach should work; reward good ideas and kindness.
 
 ### idea-bank.md
 
