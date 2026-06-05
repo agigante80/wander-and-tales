@@ -65,12 +65,14 @@
     en-GB: Chiron the Centaur
     es-ES: Quirón el Centauro
     it-IT: Chirone il Centauro
+    pt-PT: Quíron o Centauro
   kind: creature
   disposition: wise
   description:
     en-GB: The gentlest and kindest of the centaurs, half horse and half person, a teacher of heroes who believes the best deeds are gentle ones.
     es-ES: El más amable y bondadoso de los centauros, mitad caballo y mitad persona, maestro de héroes que cree que las mejores hazañas son las amables.
     it-IT: Il più gentile e buono dei centauri, metà cavallo e metà persona, un maestro di eroi che crede che le imprese migliori siano quelle gentili.
+    pt-PT: O mais meigo e bondoso dos centauros, metade cavalo e metade pessoa, um mestre de heróis que acredita que os melhores feitos são os feitos com bondade.
   first_seen: the-singing-spring
 
 - id: glaux-owl
@@ -78,12 +80,14 @@
     en-GB: Glaux the Little Owl
     es-ES: Glaux el Búho
     it-IT: Glaux la Civetta
+    pt-PT: Glaux a Mochinha
   kind: creature
   disposition: friendly
   description:
     en-GB: Kind Athena's little owl, with wide, bright, curious eyes. She is gentle and friendly, but on a foggy morning even the most careful owl can lose her way home.
     es-ES: El pequeño búho de la buena Atenea, de ojos grandes, brillantes y curiosos. Es dulce y amistoso, pero en una mañana de niebla hasta el búho más cuidadoso puede perder el camino a casa.
     it-IT: La civetta della buona Atena, dagli occhi grandi, vivaci e curiosi. È dolce e amichevole, ma in una mattina di nebbia persino la civetta più attenta può perdere la strada di casa.
+    pt-PT: A mochinha da boa Atena, de olhos grandes, vivos e curiosos. É meiga e amistosa, mas numa manhã de nevoeiro até a mocha mais cuidadosa pode perder o caminho de casa.
   first_seen: athenas-owl
 
 - id: hill-bees
