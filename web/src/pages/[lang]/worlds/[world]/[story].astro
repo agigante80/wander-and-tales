@@ -18,6 +18,7 @@ const story = world.stories.find((s: any) => s.id === storyId)!;
 
 const cover = story.images?.find((i: any) => i.role === "cover");
 const coverUrl = mediaUrl(cover?.path);
+const worldCoverUrl = mediaUrl((world.images?.find((i: any) => i.role === "cover") ?? world.images?.[0])?.path);
 const scenes = (story.images ?? []).filter((i: any) => i.role === "scene");
 
 const cp = story.content_paths?.[locale] ?? {};
@@ -172,7 +173,7 @@ const jsonld = {
     </section>
 
     <a class="card card-link" href={`/${lang}/worlds/${world.id}`} style="margin-top:var(--sp-8);padding:var(--sp-5);display:flex;align-items:center;gap:var(--sp-4)">
-      <span class="art square" style="width:64px;height:64px;flex:none;border-radius:var(--r-md)" aria-hidden="true"></span>
+      <span class="art square" style="width:64px;height:64px;flex:none;border-radius:var(--r-md)" aria-hidden="true">{worldCoverUrl && <img src={worldCoverUrl} alt="" loading="lazy" />}</span>
       <span>
         <span class="faint" style="font-size:var(--fs-tiny);font-weight:700;text-transform:uppercase;letter-spacing:.08em">{t(lang!, "more_from_world")}</span>
         <span style="display:block;font-family:var(--font-display);font-weight:600;color:var(--ink-strong);font-size:var(--fs-h4)">{world.name[locale]} ›</span>
