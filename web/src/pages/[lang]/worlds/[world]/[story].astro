@@ -97,8 +97,8 @@ const jsonld = {
     </div>
 
     {coverUrl && (
-      <figure style="margin:var(--sp-7) 0 0">
-        <div class="art wide"><img src={coverUrl} alt={cover?.alt?.[locale] ?? ""} /></div>
+      <figure style="margin:var(--sp-7) auto 0;max-width:360px">
+        <div class="art" style="aspect-ratio:2/3"><img src={coverUrl} alt={cover?.alt?.[locale] ?? ""} /></div>
       </figure>
     )}
 
