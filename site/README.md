@@ -7,15 +7,16 @@ repo content, so it is derived data; regenerate it rather than editing it by han
 
 ## Regenerate
 
-After any content change or a `python -m build rebuild`, run from the repo root with
-the project virtualenv:
+`python -m build rebuild` refreshes this file automatically as its last step, so a
+normal publish keeps it current. To regenerate it on its own (without rebuilding the
+PDFs), run from the repo root with the project virtualenv:
 
 ```bash
-.venv/bin/python site/gen_manifest.py
+.venv/bin/python -m build manifest --root .
 ```
 
-It rewrites `site/manifest.json` and prints a one-line integrity report (worlds,
-stories, and any missing story images or PDFs).
+Both read the built kits under `kits/`, so the PDF links always point at the current
+versioned filenames. The generator lives in `build/render/manifest.py`.
 
 ## Shape
 

@@ -1,106 +1,78 @@
-"""Generate a machine-readable site content manifest from the repo content.
+"""Generate the machine-readable site content manifest (site/manifest.json).
 
-Walks every world and story, reads the YAML metadata, the narration beat headings,
-the on-disk artwork, and the current versioned PDFs in kits/, and emits one JSON the
-website builder can ingest directly. Re-run any time the content changes.
+A snapshot of the whole library for a website to ingest: every world and story with
+titles, tags, lore, beat headings, image paths, and the current versioned PDF links,
+in every required locale. Derived data, regenerated on every `build rebuild` (and via
+`python -m build manifest`), so it never drifts from the content. Not a render source,
+so writing it does not bump any PDF version.
 """
-import json
+from __future__ import annotations
+
+import datetime
 import glob
-import pathlib
-import re
-import sys
+import json
+from pathlib import Path
 
 import yaml
 
-from build.locales import REQUIRED_LOCALES, CANONICAL_LOCALE
+from build.locales import CANONICAL_LOCALE, REQUIRED_LOCALES
 from build.render import strings
 from build.render.library import _LANG_NAME, _LEVEL_LABELS
 
-ROOT = pathlib.Path(".")
-GENERATED_AT = "2026-06-06"
 REPO = "https://github.com/agigante80/wander-and-tales"
 RAW_BASE = "https://raw.githubusercontent.com/agigante80/wander-and-tales/main/"
 
 
-def load_yaml(p):
-    return yaml.safe_load(pathlib.Path(p).read_text(encoding="utf-8"))
+def _load(p: Path):
+    return yaml.safe_load(p.read_text(encoding="utf-8"))
 
 
-def rel(p):
-    """Repo-relative posix path, or None if the file is absent."""
-    p = pathlib.Path(p)
-    return p.as_posix() if p.is_file() else None
+def _rel(root: Path, p: Path) -> str | None:
+    """Root-relative posix path, or None when the file is absent."""
+    return p.relative_to(root).as_posix() if p.is_file() else None
 
 
-def beats(world, story, locale):
+def _beats(content_dir: Path) -> list[str]:
     """The ## headings of the simple narration, in order (the story's beats)."""
-    f = ROOT / "worlds" / world / "stories" / story / "content" / locale / "narration.simple.md"
+    f = content_dir / "narration.simple.md"
     if not f.is_file():
         return []
-    out = []
-    for line in f.read_text(encoding="utf-8").splitlines():
-        if line.startswith("## "):
-            out.append(line[3:].strip())
-    return out
+    return [line[3:].strip() for line in f.read_text(encoding="utf-8").splitlines()
+            if line.startswith("## ")]
 
 
-def first_pdf(pattern):
+def _first_pdf(root: Path, pattern: str) -> str | None:
     hits = sorted(glob.glob(pattern))
-    return pathlib.Path(hits[0]).as_posix() if hits else None
+    return Path(hits[0]).relative_to(root).as_posix() if hits else None
 
 
-def image_entry(base_dir, img):
-    """Normalise a YAML image entry into the manifest shape (path if the PNG exists)."""
+def _image(root: Path, base: Path, img: dict) -> dict:
     iid = img["id"]
     return {
         "id": iid,
         "role": img.get("role"),
         "orientation": img.get("orientation"),
         "canon_ref": img.get("canon_ref"),
-        "path": rel(base_dir / "assets" / f"{iid}.png"),
+        "path": _rel(root, base / "assets" / f"{iid}.png"),
         "alt": img.get("alt", {}),
     }
 
 
-def world_pdfs(world):
-    out = {}
-    for loc in REQUIRED_LOCALES:
-        d = f"kits/{loc}/{world}"
-        out[loc] = {
-            "world_book": first_pdf(f"{d}/*-world-book-{loc}-*.pdf"),
-            "example_heroes": first_pdf(f"{d}/*-example-heroes-{loc}-*.pdf"),
-        }
-    return out
-
-
-def story_pdfs(world, story):
-    out = {}
-    for loc in REQUIRED_LOCALES:
-        d = f"kits/{loc}/{world}/{story}"
-        out[loc] = {
-            "tale_simple": first_pdf(f"{d}/*-tale-book-simple-{loc}-*.pdf"),
-            "tale_rich": first_pdf(f"{d}/*-tale-book-rich-{loc}-*.pdf"),
-            "atlas": first_pdf(f"{d}/*-atlas-{loc}-*.pdf"),
-        }
-    return out
-
-
-def build_world(world_dir):
+def _world(root: Path, out_dir: Path, world_dir: Path) -> dict:
     wid = world_dir.name
-    wy = load_yaml(world_dir / "world.yaml")
+    wy = _load(world_dir / "world.yaml")
 
-    # canon: id -> entry, with a world-level portrait path if one points at it
-    portrait = {}
+    portrait: dict[str, str | None] = {}
     world_images = []
     for img in wy.get("images", []):
-        e = image_entry(world_dir, img)
+        e = _image(root, world_dir, img)
         world_images.append(e)
         if e["canon_ref"]:
             portrait[e["canon_ref"]] = e["path"]
 
     canon = []
     for cf in sorted((world_dir / "canon").glob("*.yaml")):
-        for row in load_yaml(cf) or []:
+        for row in _load(cf) or []:
             canon.append({
                 "id": row["id"],
                 "kind": row.get("kind"),
@@ -113,7 +85,8 @@ def build_world(world_dir):
     heroes = []
     hf = world_dir / "heroes.yaml"
     if hf.is_file():
-        for h in load_yaml(hf) or []:
+        for h in _load(hf) or []:
+            img = h.get("image")
             heroes.append({
                 "id": h["id"],
                 "tier": h.get("tier"),
@@ -122,28 +95,44 @@ def build_world(world_dir):
                 "magics": h.get("magics", []),
                 "energy": h.get("energy"),
                 "carry": h.get("carry", []),
-                "image_path": rel(world_dir / "assets" / f"{h['image']['id']}.png") if h.get("image") else None,
+                "image_path": _rel(root, world_dir / "assets" / f"{img['id']}.png") if img else None,
             })
+
+    def world_pdfs() -> dict:
+        out = {}
+        for loc in REQUIRED_LOCALES:
+            d = str(out_dir / loc / wid)
+            out[loc] = {
+                "world_book": _first_pdf(root, f"{d}/*-world-book-{loc}-*.pdf"),
+                "example_heroes": _first_pdf(root, f"{d}/*-example-heroes-{loc}-*.pdf"),
+            }
+        return out
 
     stories = []
     for sy_path in sorted(world_dir.glob("stories/*/story.yaml")):
         sdir = sy_path.parent
         sid = sdir.name
-        sy = load_yaml(sy_path)
-        images = [image_entry(sdir, img) for img in sy.get("images", [])]
+        sy = _load(sy_path)
         content_paths = {}
+        beats = {}
         for loc in REQUIRED_LOCALES:
             cdir = sdir / "content" / loc
             content_paths[loc] = {
-                kind: rel(cdir / f"{fname}")
-                for kind, fname in (
-                    ("simple", "narration.simple.md"),
-                    ("rich", "narration.rich.md"),
-                    ("rules", "rules.md"),
-                    ("puzzles", "puzzles.md"),
-                )
+                "simple": _rel(root, cdir / "narration.simple.md"),
+                "rich": _rel(root, cdir / "narration.rich.md"),
+                "rules": _rel(root, cdir / "rules.md"),
+                "puzzles": _rel(root, cdir / "puzzles.md"),
             }
+            beats[loc] = _beats(cdir)
         svg = sdir / "assets" / "map.svg"
+        story_pdfs = {}
+        for loc in REQUIRED_LOCALES:
+            d = str(out_dir / loc / wid / sid)
+            story_pdfs[loc] = {
+                "tale_simple": _first_pdf(root, f"{d}/*-tale-book-simple-{loc}-*.pdf"),
+                "tale_rich": _first_pdf(root, f"{d}/*-tale-book-rich-{loc}-*.pdf"),
+                "atlas": _first_pdf(root, f"{d}/*-atlas-{loc}-*.pdf"),
+            }
         stories.append({
             "id": sid,
             "slug": sid,
@@ -158,11 +147,11 @@ def build_world(world_dir):
                 "adult_gm": sy.get("adult_gm"),
                 "dice": sy.get("dice", {}),
             },
-            "beats": {loc: beats(wid, sid, loc) for loc in REQUIRED_LOCALES},
+            "beats": beats,
             "content_paths": content_paths,
-            "images": images,
-            "map": {"type": "svg", "path": rel(svg)} if svg.is_file() else {"type": "generated"},
-            "pdfs": story_pdfs(wid, sid),
+            "images": [_image(root, sdir, img) for img in sy.get("images", [])],
+            "map": {"type": "svg", "path": _rel(root, svg)} if svg.is_file() else {"type": "generated"},
+            "pdfs": story_pdfs,
         })
 
     return {
@@ -178,19 +167,23 @@ def build_world(world_dir):
         "images": world_images,
         "canon": canon,
         "heroes": heroes,
-        "pdfs": world_pdfs(wid),
+        "pdfs": world_pdfs(),
         "stories": stories,
     }
 
 
-def main():
-    worlds = [build_world(w.parent) for w in sorted(ROOT.glob("worlds/*/world.yaml"))]
+def build_manifest(root: Path, out_dir: Path, manifest_path: Path | None = None) -> Path:
+    """Write site/manifest.json from the content tree and the built kits in out_dir."""
+    root = root.resolve()
+    out_dir = out_dir if out_dir.is_absolute() else root / out_dir
+    worlds = [_world(root, out_dir, w.parent) for w in sorted(root.glob("worlds/*/world.yaml"))]
 
     shared_pdfs = {}
     for loc in REQUIRED_LOCALES:
+        g = str(out_dir / "guides")
         shared_pdfs[loc] = {
-            "guide": first_pdf(f"kits/guides/Guide_for_the_Grown-Up_{loc}-*.pdf"),
-            "how_to_play": first_pdf(f"kits/guides/How_to_Play_{loc}-*.pdf"),
+            "guide": _first_pdf(root, f"{g}/Guide_for_the_Grown-Up_{loc}-*.pdf"),
+            "how_to_play": _first_pdf(root, f"{g}/How_to_Play_{loc}-*.pdf"),
         }
 
     manifest = {
@@ -217,12 +210,12 @@ def main():
                 "ai_illustrations": "Illustrations are AI-generated from text prompts, offered under CC BY-SA 4.0 to the extent protectable; AI images may not be eligible for copyright in some jurisdictions.",
                 "fonts": "Bundled fonts keep their own licences (DejaVu Fonts Licence and SIL Open Font Licence 1.1); see build/assets/fonts/OFL-NOTICE.txt.",
             },
-            "analytics": {"provider": "google", "measurement_id": "G-XXXXXXXXXX", "note": "placeholder; the owner will supply the real Measurement ID later"},
-            "cookie_consent": {"required": True, "reason": "EU and UK visitors; analytics consent"},
-            "contact": {"type": "github_issues", "url": f"{REPO}/issues", "note": "no email; use GitHub issues for contact and takedown requests"},
+            "analytics": {"provider": None, "note": "to be configured; cookieless analytics avoids a consent banner"},
+            "cookie_consent": {"required": False, "note": "no banner needed if analytics stays cookieless; revisit if a cookie-setting tool is added"},
+            "contact": {"type": "github_issues", "url": f"{REPO}/issues", "note": "general contact; a private channel is needed for GDPR rights and takedown requests"},
             "community": None,
             "disclaimers": [
-                "Not affiliated with, or endorsed by, Anthropic. 'Claude' is referenced only as the tool used to author stories.",
+                "Not affiliated with, or endorsed by, Anthropic.",
                 "Cooperative, no-lose games: nobody competes, nobody is eliminated, and there are no wrong answers.",
             ],
             "create_your_own": {
@@ -235,24 +228,13 @@ def main():
             "ui_strings_source": "build/render/strings.py (per-locale UI labels)",
             "shared_pdfs": shared_pdfs,
             "counts": {"worlds": len(worlds), "stories": sum(len(w["stories"]) for w in worlds), "languages": len(REQUIRED_LOCALES)},
-            "generated_at": GENERATED_AT,
+            "generated_at": datetime.date.today().isoformat(),
             "note": "Story text lives in the content_paths markdown files (kid-facing narration.simple and narration.rich); render those for the online reader. rules.md and puzzles.md are grown-up-only.",
         },
         "worlds": worlds,
     }
 
-    out = ROOT / "site" / "manifest.json"
-    out.parent.mkdir(exist_ok=True)
-    out.write_text(json.dumps(manifest, ensure_ascii=False, indent=2), encoding="utf-8")
-    # quick integrity report to stderr
-    missing_img = sum(1 for w in worlds for s in w["stories"] for i in s["images"] if not i["path"])
-    missing_pdf = sum(
-        1 for w in worlds for s in w["stories"] for loc in REQUIRED_LOCALES
-        for v in s["pdfs"][loc].values() if not v
-    )
-    print(f"wrote {out}  worlds={len(worlds)} stories={manifest['site']['counts']['stories']} "
-          f"missing_story_images={missing_img} missing_story_pdfs={missing_pdf}", file=sys.stderr)
-
-
-if __name__ == "__main__":
-    main()
+    out = manifest_path or (root / "site" / "manifest.json")
+    out.parent.mkdir(parents=True, exist_ok=True)
+    out.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    return out
