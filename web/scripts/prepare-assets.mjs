@@ -61,4 +61,14 @@ if (fs.existsSync(kitsDir)) {
   });
 }
 
-console.log(`prepare-assets: copied ${images} images, ${fonts} fonts, ${pdfs} PDFs into web/public`);
+// 4) story trail maps (PNG), self-hosted at /maps/<world>/<story>/map-<locale>.png
+let maps = 0;
+const mapsDir = path.join(ROOT, "maps");
+if (fs.existsSync(mapsDir)) {
+  fs.cpSync(mapsDir, path.join(PUB, "maps"), { recursive: true });
+  walk(path.join(PUB, "maps"), (f) => {
+    if (f.endsWith(".png")) maps++;
+  });
+}
+
+console.log(`prepare-assets: copied ${images} images, ${fonts} fonts, ${pdfs} PDFs, ${maps} maps into web/public`);

@@ -66,6 +66,10 @@ def main(argv: list[str] | None = None) -> int:
     _add_root(manifest_parser)
     manifest_parser.add_argument("--out-dir", type=Path, default=None)
 
+    maps_parser = sub.add_parser("render-maps", help="render every story map to a PNG for the website")
+    _add_root(maps_parser)
+    maps_parser.add_argument("--out-dir", type=Path, default=None, help="output root (default: <root>/maps)")
+
     prompts_parser = sub.add_parser("prompts", help="export image generation prompts")
     _add_root(prompts_parser)
     prompts_parser.add_argument("--world", default=None)
@@ -169,6 +173,18 @@ def main(argv: list[str] | None = None) -> int:
 
         m = manifest_mod.build_manifest(args.root, out_dir)
         print(f"refreshed {m}")
+        from build.render import web_map
+
+        n = web_map.render_all_maps(args.root, args.root / "maps")
+        print(f"rendered {n} story map(s) into {args.root / 'maps'}")
+        return 0
+
+    if args.command == "render-maps":
+        from build.render import web_map
+
+        out_dir = args.out_dir if args.out_dir is not None else args.root / "maps"
+        n = web_map.render_all_maps(args.root, out_dir)
+        print(f"rendered {n} story map(s) into {out_dir}")
         return 0
 
     if args.command == "manifest":
