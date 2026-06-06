@@ -1,0 +1,21 @@
+---
+import { LANGS } from "../consts";
+const { lang, route = "" } = Astro.props;
+---
+
+<div class="flex items-center gap-1 text-xs">
+  {
+    LANGS.map((l) => (
+      <a
+        href={`/${l.code}${route ? "/" + route : "/"}`}
+        class={
+          "px-1.5 py-0.5 rounded uppercase " +
+          (l.code === lang ? "bg-teal text-white" : "text-ink/60 hover:text-teal")
+        }
+        hreflang={l.code}
+      >
+        {l.code}
+      </a>
+    ))
+  }
+</div>

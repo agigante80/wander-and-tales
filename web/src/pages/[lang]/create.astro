@@ -1,0 +1,44 @@
+---
+import Base from "../../layouts/Base.astro";
+import { LANGS, CREATE_URL, REPO, localeOf } from "../../consts";
+import { t } from "../../lib/i18n";
+
+export function getStaticPaths() {
+  return LANGS.map((l) => ({ params: { lang: l.code } }));
+}
+const { lang } = Astro.params;
+const steps = [
+  ["1", "Clone the repository.", "git clone https://github.com/agigante80/wander-and-tales.git"],
+  ["2", "Set up the toolchain (Python 3.11+).", 'pip install -e ".[dev,render]"'],
+  ["3", 'In Claude Code, ask to "create a story".', "The create-story skill walks you through it."],
+  ["4", "Pictures, your choice.", "Generate with your own key, paste prompts elsewhere, or play text-only."],
+  ["5", "Read and play.", "Your printable PDFs build into dist/, in four languages."],
+];
+---
+
+<Base lang={lang!} route="create" title={`${t(lang!, "create_title")} · Wander & Tales`} description={t(lang!, "create_body")}>
+  <section class="max-w-3xl mx-auto px-4 py-14">
+    <h1 class="font-display text-3xl md:text-4xl text-purple">{t(lang!, "create_title")}</h1>
+    <p class="mt-4 text-lg text-ink/80">{t(lang!, "create_body")}</p>
+
+    <ol class="mt-8 space-y-4">
+      {
+        steps.map(([n, title, detail]) => (
+          <li class="flex gap-4">
+            <span class="shrink-0 w-8 h-8 rounded-full bg-purple text-white font-display grid place-items-center">{n}</span>
+            <div>
+              <p class="font-display">{title}</p>
+              <p class="text-sm text-ink/70 font-mono mt-1 break-all">{detail}</p>
+            </div>
+          </li>
+        ))
+      }
+    </ol>
+
+    <div class="mt-10 flex flex-wrap gap-3">
+      <a href={CREATE_URL} class="bg-purple text-white font-display px-5 py-2.5 rounded-full hover:brightness-110" rel="noopener">{t(lang!, "create_cta")}</a>
+      <a href={REPO} class="ring-1 ring-ink/20 px-5 py-2.5 rounded-full hover:bg-white" rel="noopener">{t(lang!, "source")}</a>
+    </div>
+    <p class="mt-6 text-xs text-ink/50">{t(lang!, "not_affiliated")}</p>
+  </section>
+</Base>

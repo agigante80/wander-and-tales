@@ -1,0 +1,19 @@
+---
+import LangSwitcher from "./LangSwitcher.astro";
+import { t } from "../lib/i18n";
+const { lang, route = "" } = Astro.props;
+---
+
+<header class="bg-cream/90 backdrop-blur border-b border-paper sticky top-0 z-20">
+  <div class="max-w-5xl mx-auto px-4 h-16 flex items-center justify-between gap-4">
+    <a href={`/${lang}/`} class="flex items-center gap-2 font-display text-lg text-ink">
+      <img src="/favicon.svg" width="32" height="32" alt="" class="rounded-lg" />
+      Wander <span class="text-teal">&amp;</span> Tales
+    </a>
+    <nav class="flex items-center gap-4 text-sm">
+      <a href={`/${lang}/#worlds`} class="hover:text-teal">{t(lang, "nav_worlds")}</a>
+      <a href={`/${lang}/create`} class="hover:text-teal">{t(lang, "nav_create")}</a>
+      <LangSwitcher lang={lang} route={route} />
+    </nav>
+  </div>
+</header>

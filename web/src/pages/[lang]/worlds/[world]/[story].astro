@@ -1,0 +1,104 @@
+---
+import Base from "../../../../layouts/Base.astro";
+import { LANGS, SITE_URL, localeOf } from "../../../../consts";
+import { worlds, site, mediaUrl, pdfUrl, narrationHtml } from "../../../../lib/content";
+import { t, AGE_RANGE } from "../../../../lib/i18n";
+
+export function getStaticPaths() {
+  return LANGS.flatMap((l) =>
+    worlds.flatMap((w) =>
+      w.stories.map((s: any) => ({ params: { lang: l.code, world: w.id, story: s.id } })),
+    ),
+  );
+}
+const { lang, world: worldId, story: storyId } = Astro.params;
+const locale = localeOf(lang!);
+const world = worlds.find((w) => w.id === worldId)!;
+const story = world.stories.find((s: any) => s.id === storyId)!;
+
+const cover = story.images?.find((i: any) => i.role === "cover");
+const coverUrl = mediaUrl(cover?.path);
+const scenes = (story.images ?? []).filter((i: any) => i.role === "scene");
+
+const cp = story.content_paths?.[locale] ?? {};
+const simpleHtml = narrationHtml(cp.simple);
+const richHtml = narrationHtml(cp.rich);
+const labels = site.level_labels?.[locale] ?? { simple: "Simple", rich: "Full" };
+
+const players = story.tags.players ?? {};
+const playersText = players.max ? `${players.min} to ${players.max}` : `${players.min}+`;
+const skills = (story.tags.skills ?? []).map((s: string) => s.replace(/-/g, " ")).join(", ");
+
+const taleSimple = pdfUrl(story.pdfs?.[locale]?.tale_simple);
+const taleRich = pdfUrl(story.pdfs?.[locale]?.tale_rich);
+const atlas = pdfUrl(story.pdfs?.[locale]?.atlas);
+
+const jsonld = {
+  "@context": "https://schema.org",
+  "@type": "CreativeWork",
+  name: story.title[locale],
+  inLanguage: locale,
+  isAccessibleForFree: true,
+  isPartOf: world.name[locale],
+  url: `${SITE_URL}/${lang}/worlds/${world.id}/${story.id}`,
+};
+---
+
+<Base
+  lang={lang!}
+  route={`worlds/${world.id}/${story.id}`}
+  title={`${story.title[locale]} · ${world.name[locale]}`}
+  description={site.tagline[locale]}
+  jsonld={jsonld}
+>
+  <article class="max-w-3xl mx-auto px-4 py-10">
+    <a href={`/${lang}/worlds/${world.id}`} class="text-sm text-teal hover:underline">{t(lang!, "back_world")}</a>
+    <h1 class="font-display text-3xl md:text-4xl text-pine mt-2">{story.title[locale]}</h1>
+    <p class="text-sm text-ink/60 mt-2">
+      {t(lang!, "ages")} {AGE_RANGE[story.tags.age_recommended] ?? story.tags.age_recommended} ·
+      {playersText} {t(lang!, "players")} ·
+      {story.tags.play_time_minutes} {t(lang!, "minutes")}
+    </p>
+    {skills && <p class="text-sm text-ink/55 mt-1">{skills}</p>}
+
+    {coverUrl && <img src={coverUrl} alt={cover?.alt?.[locale] ?? ""} class="w-full rounded-2xl mt-6 border border-paper" />}
+
+    <p class="mt-6 italic text-purple">{t(lang!, "online_note")}</p>
+
+    <div class="mt-4">
+      <input type="radio" name="lvl" id="lvl-simple" class="peer/simple sr-only" checked />
+      <input type="radio" name="lvl" id="lvl-rich" class="peer/rich sr-only" />
+      <div class="inline-flex rounded-full bg-paper p-1 text-sm">
+        <label for="lvl-simple" class="px-4 py-1.5 rounded-full cursor-pointer select-none">{labels.simple}</label>
+        <label for="lvl-rich" class="px-4 py-1.5 rounded-full cursor-pointer select-none">{labels.rich}</label>
+      </div>
+      <div class="prose-tale mt-6 hidden peer-checked/simple:block" set:html={simpleHtml} />
+      <div class="prose-tale mt-6 hidden peer-checked/rich:block" set:html={richHtml} />
+    </div>
+
+    {
+      scenes.length > 0 && (
+        <section class="mt-12">
+          <h2 class="font-display text-xl text-pine">{t(lang!, "pictures")}</h2>
+          <div class="grid sm:grid-cols-2 gap-4 mt-4">
+            {scenes.map((im: any) => (
+              <figure>
+                {mediaUrl(im.path) && <img src={mediaUrl(im.path)} alt={im.alt?.[locale] ?? ""} loading="lazy" class="w-full rounded-xl border border-paper" />}
+                <figcaption class="text-xs text-ink/55 mt-1">{im.alt?.[locale] ?? ""}</figcaption>
+              </figure>
+            ))}
+          </div>
+        </section>
+      )
+    }
+
+    <section class="mt-12 rounded-2xl bg-white border border-paper p-6">
+      <h2 class="font-display text-xl text-pine">{t(lang!, "downloads")}</h2>
+      <div class="mt-3 flex flex-wrap gap-2 text-sm">
+        {taleSimple && <a href={taleSimple} class="ring-1 ring-ink/15 px-3 py-1.5 rounded-full hover:bg-paper" rel="noopener">{t(lang!, "tale_book")}: {labels.simple}</a>}
+        {taleRich && <a href={taleRich} class="ring-1 ring-ink/15 px-3 py-1.5 rounded-full hover:bg-paper" rel="noopener">{t(lang!, "tale_book")}: {labels.rich}</a>}
+        {atlas && <a href={atlas} class="ring-1 ring-ink/15 px-3 py-1.5 rounded-full hover:bg-paper" rel="noopener">{t(lang!, "atlas")}</a>}
+      </div>
+    </section>
+  </article>
+</Base>

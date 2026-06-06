@@ -1,0 +1,20 @@
+---
+import { t } from "../lib/i18n";
+import { REPO } from "../consts";
+const { lang } = Astro.props;
+---
+
+<footer class="mt-16 bg-dusk text-cream">
+  <div class="max-w-5xl mx-auto px-4 py-10 space-y-4">
+    <p class="font-display text-lg max-w-xl">{t(lang, "the_promise")}</p>
+    <nav class="flex flex-wrap gap-x-5 gap-y-2 text-sm">
+      <a href={`/${lang}/privacy`} class="hover:underline">{t(lang, "privacy")}</a>
+      <a href={`/${lang}/legal`} class="hover:underline">{t(lang, "legal")}</a>
+      <a href={`/${lang}/terms`} class="hover:underline">{t(lang, "terms")}</a>
+      <a href={REPO} class="hover:underline" rel="noopener">{t(lang, "source")}</a>
+    </nav>
+    <p class="text-xs text-cream/70">
+      {t(lang, "license_line")} {t(lang, "not_affiliated")}
+    </p>
+  </div>
+</footer>
