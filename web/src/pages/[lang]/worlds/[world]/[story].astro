@@ -29,9 +29,8 @@ const firstStopIdx = sections.findIndex((s: any) => s.sceneUrl);
 const rulesHtml = mdHtml(cp.rules);
 const labels = site.level_labels?.[locale] ?? { simple: "Simple", rich: "Full" };
 const lead = snippet(firstParagraph(cp.simple));
-const worldLore = snippet(world.lore?.[locale], 240);
+const worldLore = world.lore?.[locale] ?? "";
 const metaDesc = lead || site.tagline[locale];
-const atlasIco = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 4 4 6v14l5-2 6 2 5-2V4l-5 2-6-2Z"/><path d="M9 4v14M15 6v14"/></svg>';
 
 const players = story.tags.players ?? {};
 const playersText = players.max ? `${players.min} to ${players.max}` : `${players.min}+`;
@@ -110,14 +109,6 @@ const jsonld = {
       <figure style="margin:var(--sp-7) auto 0;max-width:340px">
         <div class="art" style="aspect-ratio:2/3"><img src={coverUrl} alt={cover?.alt?.[locale] ?? ""} /></div>
       </figure>
-    )}
-
-    {pdfUrl(sp.atlas) && (
-      <a class="btn-dl" href={pdfUrl(sp.atlas)} rel="noopener" style="margin-top:var(--sp-6)">
-        <span class="ico" set:html={atlasIco} />
-        <span><span class="t">{t(lang!, "atlas")}</span><br /><span class="m">{t(lang!, "atlas_note")}{ver(sp.atlas)}</span></span>
-        <span class="arr"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 4v13M6 11l6 6 6-6"></path></svg></span>
-      </a>
     )}
 
     {sections.map((sec: any, idx: number) => (

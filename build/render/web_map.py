@@ -12,11 +12,30 @@ import subprocess
 import tempfile
 from pathlib import Path
 
+from PIL import Image, ImageChops
+
 from build import content
 from build.locales import REQUIRED_LOCALES
 from build.render import theme
 from build.render import map as kit_map, mapgen
 from build.render.kit import _map_label
+
+# Warm paper beige. The map page is rendered on pure white; in the browser that reads
+# too stark next to the cream/dark theme, so we replace the near-white pixels with this.
+_PAPER = (237, 228, 208)
+
+
+def _recolor_background(src: Path, dst: Path, paper: tuple = _PAPER, cutoff: int = 248) -> None:
+    """Repaint the near-white background of a rasterized map to a warm beige.
+
+    Only pixels where every channel is near-white become beige, so the trail,
+    markers, labels, and the tinted scenery shapes are untouched.
+    """
+    im = Image.open(src).convert("RGB")
+    r, g, b = im.split()
+    near = lambda ch: ch.point(lambda v: 255 if v >= cutoff else 0)
+    mask = ImageChops.multiply(ImageChops.multiply(near(r), near(g)), near(b))
+    Image.composite(Image.new("RGB", im.size, paper), im, mask).save(dst)
 
 
 def render_story_map_png(
@@ -55,7 +74,7 @@ def render_story_map_png(
             ["pdftoppm", "-png", "-r", str(dpi), "-singlefile", str(map_pdf), str(prefix)],
             check=True, capture_output=True,
         )
-        Path(str(prefix) + ".png").replace(out_png)
+        _recolor_background(Path(str(prefix) + ".png"), out_png)
     return out_png
 
 
