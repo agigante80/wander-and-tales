@@ -26,14 +26,17 @@ const richHtml = narrationHtml(cp.rich);
 const rulesHtml = mdHtml(cp.rules);
 const puzzlesHtml = mdHtml(cp.puzzles);
 const labels = site.level_labels?.[locale] ?? { simple: "Simple", rich: "Full" };
-const metaDesc = snippet(firstParagraph(cp.simple)) || site.tagline[locale];
+const lead = snippet(firstParagraph(cp.simple));
+const metaDesc = lead || site.tagline[locale];
 
 const players = story.tags.players ?? {};
 const playersText = players.max ? `${players.min} to ${players.max}` : `${players.min}+`;
-const skills = (story.tags.skills ?? []).map((s: string) => s.replace(/-/g, " ")).join(", ");
+const skills = (story.tags.skills ?? []).map((s: string) => s.replace(/-/g, " ")).join(" · ");
 
 const sp = story.pdfs?.[locale] ?? {};
-const ver = (e: any) => (pdfVer(e) ? ` (${pdfVer(e)})` : "");
+const ver = (e: any) => (pdfVer(e) ? ` · v${pdfVer(e)}` : "");
+
+const docIco = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 3h8l4 4v14a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1Z"/><path d="M13 3v5h5"/></svg>';
 
 const jsonld = {
   "@context": "https://schema.org",
@@ -54,68 +57,126 @@ const jsonld = {
   image={coverUrl ?? undefined}
   jsonld={jsonld}
 >
-  <article class="max-w-3xl mx-auto px-4 py-10">
-    <a href={`/${lang}/worlds/${world.id}`} class="text-sm text-teal hover:underline">{t(lang!, "back_world")}</a>
-    <h1 class="font-display text-3xl md:text-4xl text-pine mt-2">{story.title[locale]}</h1>
-    <p class="text-sm text-ink/60 mt-2">
-      {t(lang!, "ages")} {AGE_RANGE[story.tags.age_recommended] ?? story.tags.age_recommended} ·
-      {playersText} {t(lang!, "players")} ·
-      {story.tags.play_time_minutes} {t(lang!, "minutes")}
-    </p>
-    {skills && <p class="text-sm text-ink/55 mt-1">{skills}</p>}
+  <section class="wrap-read" style="padding-top:var(--sp-7)">
+    <nav aria-label="Breadcrumb" style="font-size:var(--fs-small);color:var(--ink-faint);margin-bottom:var(--sp-4)">
+      <a href={`/${lang}/`} style="color:var(--ink-faint)">Wander &amp; Tales</a>
+      <span aria-hidden="true">  ›  </span>
+      <a href={`/${lang}/worlds/${world.id}`} style="color:var(--ink-faint)">{world.name[locale]}</a>
+    </nav>
 
-    {coverUrl && <img src={coverUrl} alt={cover?.alt?.[locale] ?? ""} class="w-full rounded-2xl mt-6 border border-paper" />}
+    <p class="eyebrow">{t(lang!, "from_world")} {world.name[locale]}</p>
+    <h1 style="font-size:var(--fs-display);margin-top:var(--sp-2)">{story.title[locale]}</h1>
+    {lead && <p class="lead" style="margin-top:var(--sp-4)">{lead}</p>}
 
-    <p class="mt-6 italic text-purple">{t(lang!, "online_note")}</p>
-
-    <div class="mt-4">
-      <input type="radio" name="lvl" id="lvl-simple" class="peer/simple sr-only" checked />
-      <input type="radio" name="lvl" id="lvl-rich" class="peer/rich sr-only" />
-      <div class="inline-flex rounded-full bg-paper p-1 text-sm">
-        <label for="lvl-simple" class="px-4 py-1.5 rounded-full cursor-pointer select-none">{labels.simple}</label>
-        <label for="lvl-rich" class="px-4 py-1.5 rounded-full cursor-pointer select-none">{labels.rich}</label>
-      </div>
-      <div class="prose-tale mt-6 hidden peer-checked/simple:block" set:html={simpleHtml} />
-      <div class="prose-tale mt-6 hidden peer-checked/rich:block" set:html={richHtml} />
+    <div class="chips" style="margin-top:var(--sp-5)">
+      <span class="chip">{t(lang!, "ages")} {AGE_RANGE[story.tags.age_recommended] ?? story.tags.age_recommended}</span>
+      <span class="chip">{playersText} {t(lang!, "players")}</span>
+      <span class="chip">{story.tags.play_time_minutes} {t(lang!, "minutes")}</span>
+      {skills && <span class="chip chip-teal">{skills}</span>}
     </div>
 
-    {
-      scenes.length > 0 && (
-        <section class="mt-12">
-          <h2 class="font-display text-xl text-pine">{t(lang!, "pictures")}</h2>
-          <div class="grid sm:grid-cols-2 gap-4 mt-4">
-            {scenes.map((im: any) => (
-              <figure>
-                {mediaUrl(im.path) && <img src={mediaUrl(im.path)} alt={im.alt?.[locale] ?? ""} loading="lazy" class="w-full rounded-xl border border-paper" />}
-                <figcaption class="text-xs text-ink/55 mt-1">{im.alt?.[locale] ?? ""}</figcaption>
+    <div style="display:flex;flex-wrap:wrap;align-items:center;gap:var(--sp-3);margin-top:var(--sp-5)">
+      <span class="badge-adult">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3l7 3v5c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6Z"></path><path d="M9.5 12l1.8 1.8L15 10"></path></svg>
+        {t(lang!, "adult_led")}
+      </span>
+    </div>
+  </section>
+
+  <section class="wrap-read reader" style="padding-top:var(--sp-7)" data-reader data-level="simple" id="reader">
+    <div class="card" style="padding:var(--sp-4) var(--sp-5);display:flex;flex-wrap:wrap;align-items:center;gap:var(--sp-4);justify-content:space-between;position:sticky;top:calc(var(--header-h) + 8px);z-index:40">
+      <div>
+        <p class="kicker" style="margin-bottom:2px">{t(lang!, "reading_level")}</p>
+        <p class="faint" style="font-size:var(--fs-tiny)">{t(lang!, "reader_note")}</p>
+      </div>
+      <div class="seg" data-level-seg role="group" aria-label={t(lang!, "reading_level")}>
+        <button data-level="simple" aria-pressed="true">{labels.simple}<span class="ages">3 to 8</span></button>
+        <button data-level="rich" aria-pressed="false">{labels.rich}<span class="ages">9 to 12</span></button>
+      </div>
+    </div>
+
+    {coverUrl && (
+      <figure style="margin:var(--sp-7) 0 0">
+        <div class="art wide"><img src={coverUrl} alt={cover?.alt?.[locale] ?? ""} /></div>
+      </figure>
+    )}
+
+    <article class="prose" style="margin-top:var(--sp-7)">
+      {simpleHtml && <div data-when="simple" set:html={simpleHtml} />}
+      {richHtml && <div data-when="rich" set:html={richHtml} />}
+    </article>
+
+    <div class="callout callout-promise" style="margin-top:var(--sp-7)">
+      <p class="ph">{t(lang!, "the_promise")}</p>
+      <p class="muted" style="font-size:var(--fs-small);margin-top:6px">{t(lang!, "online_note")}</p>
+    </div>
+
+    {(rulesHtml || puzzlesHtml) && (
+      <details class="spoiler" style="margin-top:var(--sp-8)">
+        <summary>
+          <span class="lock"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="10" width="16" height="10" rx="2.5"></rect><path d="M8 10V7a4 4 0 0 1 8 0v3"></path></svg></span>
+          <span>
+            <span class="sm-t">{t(lang!, "gm_title")}</span>
+            <span class="sm-s">{t(lang!, "gm_hint")}</span>
+          </span>
+          <span class="chev"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6"></path></svg></span>
+        </summary>
+        <div class="body">
+          {rulesHtml && <div class="prose-tale" set:html={rulesHtml} />}
+          {puzzlesHtml && <div class="prose-tale" set:html={puzzlesHtml} />}
+        </div>
+      </details>
+    )}
+
+    {scenes.length > 0 && (
+      <section style="margin-top:var(--sp-9)">
+        <p class="eyebrow">{t(lang!, "pictures")}</p>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:var(--sp-3);margin-top:var(--sp-4)">
+          {scenes.map((im: any) => (
+            mediaUrl(im.path) && (
+              <figure style="margin:0">
+                <div class="art square"><img src={mediaUrl(im.path)} alt={im.alt?.[locale] ?? ""} loading="lazy" /></div>
+                <figcaption class="faint" style="font-size:var(--fs-tiny);margin-top:6px">{im.alt?.[locale] ?? ""}</figcaption>
               </figure>
-            ))}
-          </div>
-        </section>
-      )
-    }
+            )
+          ))}
+        </div>
+      </section>
+    )}
 
-    {
-      (rulesHtml || puzzlesHtml) && (
-        <details class="group mt-12 rounded-2xl bg-dusk/5 border border-dusk/20 p-6">
-          <summary class="cursor-pointer list-none flex flex-wrap items-baseline gap-x-2 gap-y-1">
-            <span class="text-purple transition-transform group-open:rotate-90 inline-block">&#9656;</span>
-            <span class="font-display text-xl text-purple">{t(lang!, "gm_title")}</span>
-            <span class="text-sm text-ink/55">{t(lang!, "gm_hint")}</span>
-          </summary>
-          {rulesHtml && <div class="prose-tale mt-6" set:html={rulesHtml} />}
-          {puzzlesHtml && <div class="prose-tale mt-8" set:html={puzzlesHtml} />}
-        </details>
-      )
-    }
-
-    <section class="mt-12 rounded-2xl bg-white border border-paper p-6">
-      <h2 class="font-display text-xl text-pine">{t(lang!, "downloads")}</h2>
-      <div class="mt-3 flex flex-wrap gap-2 text-sm">
-        {pdfUrl(sp.tale_simple) && <a href={pdfUrl(sp.tale_simple)} class="ring-1 ring-ink/15 px-3 py-1.5 rounded-full hover:bg-paper" rel="noopener">{t(lang!, "tale_book")}: {labels.simple}{ver(sp.tale_simple)}</a>}
-        {pdfUrl(sp.tale_rich) && <a href={pdfUrl(sp.tale_rich)} class="ring-1 ring-ink/15 px-3 py-1.5 rounded-full hover:bg-paper" rel="noopener">{t(lang!, "tale_book")}: {labels.rich}{ver(sp.tale_rich)}</a>}
-        {pdfUrl(sp.atlas) && <a href={pdfUrl(sp.atlas)} class="ring-1 ring-ink/15 px-3 py-1.5 rounded-full hover:bg-paper" rel="noopener">{t(lang!, "atlas")}{ver(sp.atlas)}</a>}
+    <section style="margin-top:var(--sp-9)">
+      <h2 style="font-size:var(--fs-h3);margin:var(--sp-2) 0 var(--sp-3)">{t(lang!, "downloads")}</h2>
+      <div style="display:grid;grid-template-columns:1fr;gap:var(--sp-3)">
+        {pdfUrl(sp.tale_simple) && (
+          <a class="btn-dl" href={pdfUrl(sp.tale_simple)} rel="noopener">
+            <span class="ico" set:html={docIco} />
+            <span><span class="t">{t(lang!, "tale_book")} · {labels.simple}</span><br /><span class="m">PDF{ver(sp.tale_simple)}</span></span>
+            <span class="arr"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 4v13M6 11l6 6 6-6"></path></svg></span>
+          </a>
+        )}
+        {pdfUrl(sp.tale_rich) && (
+          <a class="btn-dl" href={pdfUrl(sp.tale_rich)} rel="noopener">
+            <span class="ico" set:html={docIco} />
+            <span><span class="t">{t(lang!, "tale_book")} · {labels.rich}</span><br /><span class="m">PDF{ver(sp.tale_rich)}</span></span>
+            <span class="arr"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 4v13M6 11l6 6 6-6"></path></svg></span>
+          </a>
+        )}
+        {pdfUrl(sp.atlas) && (
+          <a class="btn-dl" href={pdfUrl(sp.atlas)} rel="noopener">
+            <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 4 4 6v14l5-2 6 2 5-2V4l-5 2-6-2Z"></path><path d="M9 4v14M15 6v14"></path></svg></span>
+            <span><span class="t">{t(lang!, "atlas")}</span><br /><span class="m">PDF{ver(sp.atlas)}</span></span>
+            <span class="arr"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 4v13M6 11l6 6 6-6"></path></svg></span>
+          </a>
+        )}
       </div>
     </section>
-  </article>
+
+    <a class="card card-link" href={`/${lang}/worlds/${world.id}`} style="margin-top:var(--sp-8);padding:var(--sp-5);display:flex;align-items:center;gap:var(--sp-4)">
+      <span class="art square" style="width:64px;height:64px;flex:none;border-radius:var(--r-md)" aria-hidden="true"></span>
+      <span>
+        <span class="faint" style="font-size:var(--fs-tiny);font-weight:700;text-transform:uppercase;letter-spacing:.08em">{t(lang!, "more_from_world")}</span>
+        <span style="display:block;font-family:var(--font-display);font-weight:600;color:var(--ink-strong);font-size:var(--fs-h4)">{world.name[locale]} ›</span>
+      </span>
+    </a>
+  </section>
 </Base>
