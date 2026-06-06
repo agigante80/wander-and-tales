@@ -1,0 +1,51 @@
+---
+import Base from "../../layouts/Base.astro";
+import { LANGS, localeOf } from "../../consts";
+import { site, pdfUrl, pdfVer } from "../../lib/content";
+import { t } from "../../lib/i18n";
+
+export function getStaticPaths() {
+  return LANGS.map((l) => ({ params: { lang: l.code } }));
+}
+const { lang } = Astro.params;
+const locale = localeOf(lang!);
+const htp = site.shared_pdfs?.[locale]?.how_to_play;
+const ver = (e: any) => (pdfVer(e) ? ` (${pdfVer(e)})` : "");
+const steps = [t(lang!, "htp_s1"), t(lang!, "htp_s2"), t(lang!, "htp_s3")];
+---
+
+<Base lang={lang!} route="how-to-play" title={`${t(lang!, "how_to_play")} · Wander & Tales`} description={t(lang!, "meta_help")}>
+  <section class="bg-gradient-to-b from-teal/15 to-transparent">
+    <div class="max-w-3xl mx-auto px-4 pt-12 pb-6">
+      <h1 class="font-display text-3xl md:text-4xl text-pine">{t(lang!, "how_to_play")}</h1>
+      <p class="mt-3 text-ink/75">{t(lang!, "hero_sub")}</p>
+    </div>
+  </section>
+
+  <section class="max-w-3xl mx-auto px-4 pb-8">
+    <h2 class="font-display text-xl md:text-2xl text-purple">{t(lang!, "htp_steps")}</h2>
+    <ol class="mt-5 space-y-4">
+      {steps.map((s, i) => (
+        <li class="flex gap-4 items-start">
+          <span class="shrink-0 w-9 h-9 rounded-full bg-gold text-ink font-display grid place-items-center">{i + 1}</span>
+          <p class="text-ink/80 pt-1">{s}</p>
+        </li>
+      ))}
+    </ol>
+    <p class="mt-6 font-display text-lg text-pine">{t(lang!, "the_promise")}</p>
+
+    {pdfUrl(htp) && (
+      <div class="mt-6">
+        <a href={pdfUrl(htp)} class="inline-block bg-teal text-white px-4 py-2 rounded-full hover:brightness-105 text-sm" rel="noopener">{t(lang!, "how_to_play")} (PDF){ver(htp)}</a>
+      </div>
+    )}
+  </section>
+
+  <section class="max-w-3xl mx-auto px-4 pb-16">
+    <div class="rounded-2xl bg-white border border-paper p-6 md:p-8">
+      <h2 class="font-display text-xl md:text-2xl text-purple">{t(lang!, "guide")}</h2>
+      <p class="mt-2 text-ink/75">{t(lang!, "htp_more")}</p>
+      <a href={`/${lang}/help`} class="inline-block mt-4 bg-purple text-white font-display px-5 py-2.5 rounded-full hover:brightness-110">{t(lang!, "guide")}</a>
+    </div>
+  </section>
+</Base>

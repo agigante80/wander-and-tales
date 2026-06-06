@@ -15,10 +15,10 @@ const guide = site.shared_pdfs?.[locale]?.guide;
 const ver = (e: any) => (pdfVer(e) ? ` (${pdfVer(e)})` : "");
 ---
 
-<Base lang={lang!} route="help" title={`${t(lang!, "nav_help")} · Wander & Tales`} description={t(lang!, "meta_help")}>
+<Base lang={lang!} route="help" title={`${t(lang!, "guide")} · Wander & Tales`} description={t(lang!, "meta_guide")}>
   <section class="bg-gradient-to-b from-teal/15 to-transparent">
     <div class="max-w-3xl mx-auto px-4 pt-12 pb-6">
-      <h1 class="font-display text-3xl md:text-4xl text-pine">{t(lang!, "nav_help")}</h1>
+      <h1 class="font-display text-3xl md:text-4xl text-pine">{t(lang!, "guide")}</h1>
       <p class="mt-3 text-ink/75">{t(lang!, "hero_sub")}</p>
       <div class="mt-5 flex flex-wrap gap-2 text-sm">
         {pdfUrl(htp) && <a href={pdfUrl(htp)} class="bg-teal text-white px-4 py-2 rounded-full hover:brightness-105" rel="noopener">{t(lang!, "how_to_play")} (PDF){ver(htp)}</a>}
