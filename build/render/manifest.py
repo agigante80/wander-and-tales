@@ -190,7 +190,7 @@ def build_manifest(root: Path, out_dir: Path, manifest_path: Path | None = None)
         "site": {
             "name": "Wander and Tales",
             "tagline": {loc: strings.UI[loc]["tagline"] for loc in REQUIRED_LOCALES},
-            "domain": "wanderandtales.com",
+            "domain": "www.wanderandtales.com",
             "repo": REPO,
             "repo_raw_base": RAW_BASE,
             "default_language": CANONICAL_LOCALE,
