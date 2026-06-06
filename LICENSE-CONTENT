@@ -18,6 +18,19 @@ under these terms:
   No additional restrictions. You may not apply legal terms or technological
   measures that legally restrict others from doing anything the licence permits.
 
+Generated illustrations. The pictures under worlds/**/assets/ (and as embedded in
+the kits/ PDFs) are produced with an AI image model from text prompts. They are
+offered under this same CC BY-SA 4.0 licence to the extent they are protectable by
+copyright. AI-generated images may not be eligible for copyright in some
+jurisdictions; where they are not, they carry no copyright restriction regardless.
+Either way, when you reuse a whole kit please keep the attribution to Wander and
+Tales. The trail maps are drawn by the build from each story's stop headings and
+are ordinary content under this licence.
+
+Fonts are not covered. The typefaces bundled under build/assets/fonts/ keep their
+own separate licences (the DejaVu Fonts Licence and the SIL Open Font Licence 1.1),
+described in build/assets/fonts/OFL-NOTICE.txt, and are neither CC BY-SA nor MIT.
+
 The full legal code is at https://creativecommons.org/licenses/by-sa/4.0/legalcode
 and the human-readable summary at https://creativecommons.org/licenses/by-sa/4.0/.
 

@@ -234,6 +234,23 @@ The **code** (the `build/` package and `tests/`) is licensed **MIT**. See
 
 By contributing, you agree to license your contribution under these same terms.
 
+### Credits and third-party assets
+
+- **Fonts** bundled under `build/assets/fonts/` keep their own licences and are
+  covered by neither licence above: DejaVu Sans and Serif under the DejaVu Fonts
+  Licence, and Quicksand, Nunito, and Caveat under the SIL Open Font Licence 1.1.
+  See [`build/assets/fonts/OFL-NOTICE.txt`](build/assets/fonts/OFL-NOTICE.txt) for
+  the full list, designers, and sources. The OFL permits embedding them in the
+  generated PDFs.
+- **Illustrations** under `worlds/**/assets/` are AI-generated from text prompts.
+  They are offered under the same CC BY-SA 4.0 content licence to the extent they
+  are protectable; AI-generated images may not be eligible for copyright in some
+  jurisdictions, in which case they carry no copyright restriction. The trail maps
+  are drawn by the build from each story's stop headings and are ordinary CC BY-SA
+  4.0 content.
+- **"Wander and Tales"** is the project's name and the attribution credit; the
+  content licence covers copyright, not the name itself.
+
 ## The promise
 
 This is an open project. Whatever you build with it, keep the promise the games
