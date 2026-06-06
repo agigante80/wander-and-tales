@@ -53,3 +53,17 @@
     it-IT: Parla con le sorgenti, le pietre e l'acqua che scorre, e ascolta in silenzio quello che ti raccontano.
     pt-PT: Fala com as fontes, as pedras e a água que corre, e escuta em silêncio o que elas te contam.
   first_seen: mouras-lost-comb
+
+- id: magic-birdsong
+  names:
+    en-GB: Birdsong
+    es-ES: Canto de los Pájaros
+    it-IT: Canto degli Uccelli
+    pt-PT: Canto dos Pássaros
+  kind: quality
+  description:
+    en-GB: Calls the birds and understands their songs, so a shy creature can be coaxed gently into the open and a lost path can be sung back home.
+    es-ES: Llama a los pájaros y entiende sus cantos, para engatusar con dulzura a una criatura tímida hasta que salga y para que un camino perdido vuelva cantando a casa.
+    it-IT: Chiama gli uccelli e ne comprende i canti, così una creatura timida si può invitare con dolcezza allo scoperto e un sentiero perduto si può cantare di nuovo verso casa.
+    pt-PT: Chama os pássaros e percebe os seus cantos, para com doçura trazer ao de cima uma criatura tímida e para que um caminho perdido volte a cantar para casa.
+  first_seen: galos-silent-dawn

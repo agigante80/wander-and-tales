@@ -11,7 +11,7 @@
     es-ES: las Islas Esmeralda de los Celtas
     it-IT: le Isole di Smeraldo dei Celti
     pt-PT: as Ilhas Esmeralda dos Celtas
-  magics: [imagination, kindness, courage]
+  magics: [imagination, kindness]
   energy: 4
   carry:
     - { en-GB: a woollen cloak, es-ES: una capa de lana, it-IT: un mantello di lana, pt-PT: um manto de lã }
@@ -39,7 +39,7 @@
     es-ES: las Islas Esmeralda de los Celtas
     it-IT: le Isole di Smeraldo dei Celti
     pt-PT: as Ilhas Esmeralda dos Celtas
-  magics: [courage, kindness, imagination]
+  magics: [courage]
   energy: 3
   carry:
     - { en-GB: a little harp, es-ES: un arpa pequeña, it-IT: una piccola arpa, pt-PT: uma pequena harpa }
@@ -66,7 +66,7 @@
     es-ES: las Islas Esmeralda de los Celtas
     it-IT: le Isole di Smeraldo dei Celti
     pt-PT: as Ilhas Esmeralda dos Celtas
-  magics: [imagination, courage, kindness]
+  magics: [curiosity, patience]
   energy: 5
   carry:
     - { en-GB: a coil of red wool, es-ES: un rollo de lana roja, it-IT: una matassa di lana rossa, pt-PT: um rolo de lã vermelha }
@@ -95,7 +95,7 @@
     es-ES: las Islas Esmeralda de los Celtas
     it-IT: le Isole di Smeraldo dei Celti
     pt-PT: as Ilhas Esmeralda dos Celtas
-  magics: [courage, imagination, kindness]
+  magics: [courage, imagination]
   energy: 4
   carry:
     - { en-GB: a sturdy walking staff, es-ES: un bastón resistente, it-IT: un solido bastone da cammino, pt-PT: um cajado robusto }

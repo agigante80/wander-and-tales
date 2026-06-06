@@ -41,3 +41,31 @@
     it-IT: La cura per ogni anima, fata o amica. I più grandi eroi delle isole sono quelli che condividono, aiutano e mantengono una promessa.
     pt-PT: O cuidado por toda a alma, fada ou amiga. Os maiores heróis das ilhas são os que partilham, ajudam e cumprem uma promessa.
   first_seen: pooks-tangled-paths
+
+- id: curiosity
+  names:
+    en-GB: Curiosity
+    es-ES: Curiosidad
+    it-IT: Curiosità
+    pt-PT: Curiosidade
+  kind: quality
+  description:
+    en-GB: Asking the right question and noticing what others miss. In the misty isles, a careful look often finds the thread that leads the whole way home.
+    es-ES: Hacer la pregunta justa y fijarse en lo que otros no ven. En las islas brumosas, una mirada atenta encuentra a menudo el hilo que lleva a casa.
+    it-IT: Fare la domanda giusta e notare ciò che gli altri non vedono. Nelle isole nebbiose, uno sguardo attento trova spesso il filo che porta fino a casa.
+    pt-PT: Fazer a pergunta certa e reparar no que os outros não veem. Nas ilhas enevoadas, um olhar atento encontra muitas vezes o fio que leva a casa.
+  first_seen: pooks-tangled-paths
+
+- id: patience
+  names:
+    en-GB: Patience
+    es-ES: Paciencia
+    it-IT: Pazienza
+    pt-PT: Paciência
+  kind: quality
+  description:
+    en-GB: Waiting kindly and trying again, until a shy creature or a tangled path comes right. In the isles, the salmon and the selkie come close only to the patient.
+    es-ES: Esperar con amabilidad y volver a intentarlo, hasta que una criatura tímida o un camino enredado se arregle. En las islas, el salmón y la selkie solo se acercan a quien tiene paciencia.
+    it-IT: Aspettare con gentilezza e riprovare, finché una creatura timida o un sentiero ingarbugliato si sistema. Nelle isole, il salmone e la selkie si avvicinano solo a chi ha pazienza.
+    pt-PT: Esperar com amabilidade e tentar de novo, até que uma criatura tímida ou um caminho enredado se resolva. Nas ilhas, o salmão e a selkie só se aproximam de quem tem paciência.
+  first_seen: swan-childrens-lullaby

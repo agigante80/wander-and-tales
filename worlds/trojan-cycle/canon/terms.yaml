@@ -41,3 +41,31 @@
     it-IT: Stare accanto ai tuoi amici e non lasciare indietro nessuno. I più grandi eroi delle coste sono quelli che tengono fede, aiutano e ritrovano insieme la via di casa.
     pt-PT: Estar ao lado dos teus amigos e não deixar ninguém para trás. Os maiores heróis das costas são os que mantêm a palavra, ajudam e encontram juntos o caminho de casa.
   first_seen: the-great-wooden-horse
+
+- id: cleverness
+  names:
+    en-GB: Cleverness
+    es-ES: Astucia
+    it-IT: Astuzia
+    pt-PT: Astúcia
+  kind: quality
+  description:
+    en-GB: A quick, kind wit that finds the clever way through. On the shores of Troy, a wooden horse and a well-timed word do what ten years of fighting could not.
+    es-ES: Un ingenio rápido y amable que encuentra la salida lista. En las costas de Troya, un caballo de madera y una palabra a tiempo logran lo que diez años de lucha no pudieron.
+    it-IT: Un'intelligenza rapida e gentile che trova la via furba. Sulle coste di Troia, un cavallo di legno e una parola al momento giusto fanno ciò che dieci anni di guerra non poterono.
+    pt-PT: Uma esperteza rápida e gentil que encontra o caminho astuto. Nas costas de Troia, um cavalo de madeira e uma palavra a tempo fazem o que dez anos de guerra não conseguiram.
+  first_seen: the-great-wooden-horse
+
+- id: patience
+  names:
+    en-GB: Patience
+    es-ES: Paciencia
+    it-IT: Pazienza
+    pt-PT: Paciência
+  kind: quality
+  description:
+    en-GB: Waiting kindly and trying again, across a long sea and a longer war. On the windswept shores, patience brings a wanderer all the way home.
+    es-ES: Esperar con amabilidad y volver a intentarlo, a través de un largo mar y una guerra aún más larga. En las costas batidas por el viento, la paciencia trae a un viajero hasta casa.
+    it-IT: Aspettare con gentilezza e riprovare, attraverso un lungo mare e una guerra ancora più lunga. Sulle coste battute dal vento, la pazienza riporta un viandante fino a casa.
+    pt-PT: Esperar com amabilidade e tentar de novo, ao longo de um mar imenso e de uma guerra ainda mais longa. Nas costas fustigadas pelo vento, a paciência traz um viajante até casa.
+  first_seen: the-long-way-home

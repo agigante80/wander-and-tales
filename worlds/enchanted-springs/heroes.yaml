@@ -11,7 +11,7 @@
     es-ES: las Fuentes Encantadas de Portugal
     it-IT: delle Sorgenti Incantate del Portogallo
     pt-PT: das Fontes Encantadas de Portugal
-  magics: [magic-riversong, magic-bloom, magic-truth]
+  magics: [magic-riversong, magic-bloom]
   energy: 4
   carry:
     - { en-GB: a little clay jug, es-ES: una jarrita de barro, it-IT: una piccola brocca di terracotta, pt-PT: um cântaro de barro pequeno }
@@ -39,7 +39,7 @@
     es-ES: las Fuentes Encantadas de Portugal
     it-IT: delle Sorgenti Incantate del Portogallo
     pt-PT: das Fontes Encantadas de Portugal
-  magics: [magic-starlight, magic-truth, magic-riversong]
+  magics: [magic-starlight]
   energy: 4
   carry:
     - { en-GB: a little lantern, es-ES: un farolillo, it-IT: una lanterna piccola, pt-PT: uma lanterna pequena }
@@ -66,7 +66,7 @@
     es-ES: las Fuentes Encantadas de Portugal
     it-IT: delle Sorgenti Incantate del Portogallo
     pt-PT: das Fontes Encantadas de Portugal
-  magics: [magic-truth, magic-riversong, magic-starlight]
+  magics: [magic-truth]
   energy: 3
   carry:
     - { en-GB: a little book of riddles, es-ES: un librito de adivinanzas, it-IT: un libretto di indovinelli, pt-PT: um livrinho de adivinhas }
@@ -93,7 +93,7 @@
     es-ES: las Fuentes Encantadas de Portugal
     it-IT: delle Sorgenti Incantate del Portogallo
     pt-PT: das Fontes Encantadas de Portugal
-  magics: [magic-bloom, magic-starlight, magic-riversong]
+  magics: [magic-birdsong, magic-bloom]
   energy: 3
   carry:
     - { en-GB: a pouch of almond blossom, es-ES: una bolsita de flor de almendro, it-IT: un sacchetto di fiori di mandorlo, pt-PT: um saquinho de flor de amendoeira }

@@ -11,7 +11,7 @@
     es-ES: las Costas Ventosas de Troya
     it-IT: le Coste Ventose di Troia
     pt-PT: as Costas Ventosas de Troia
-  magics: [imagination, loyalty, courage]
+  magics: [imagination, loyalty]
   energy: 4
   carry:
     - { en-GB: a sailor's cloak, es-ES: una capa de marinero, it-IT: un mantello da marinaio, pt-PT: uma capa de marinheiro }
@@ -39,7 +39,7 @@
     es-ES: las Costas Ventosas de Troya
     it-IT: le Coste Ventose di Troia
     pt-PT: as Costas Ventosas de Troia
-  magics: [courage, loyalty, imagination]
+  magics: [courage]
   energy: 3
   carry:
     - { en-GB: a little wooden boat, es-ES: un barquito de madera, it-IT: una barchetta di legno, pt-PT: um barquinho de madeira }
@@ -67,7 +67,7 @@
     es-ES: las Costas Ventosas de Troya
     it-IT: le Coste Ventose di Troia
     pt-PT: as Costas Ventosas de Troia
-  magics: [imagination, courage, loyalty]
+  magics: [cleverness, patience]
   energy: 5
   carry:
     - { en-GB: a sea chart, es-ES: una carta de navegación, it-IT: una carta nautica, pt-PT: uma carta de navegação }
@@ -96,7 +96,7 @@
     es-ES: las Costas Ventosas de Troya
     it-IT: le Coste Ventose di Troia
     pt-PT: as Costas Ventosas de Troia
-  magics: [courage, imagination, loyalty]
+  magics: [loyalty, courage]
   energy: 4
   carry:
     - { en-GB: a sturdy oar, es-ES: un remo resistente, it-IT: un solido remo, pt-PT: um remo resistente }

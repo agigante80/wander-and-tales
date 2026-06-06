@@ -10,7 +10,7 @@
     es-ES: las Islas Flotantes
     it-IT: delle Isole Volanti
     pt-PT: das Ilhas Flutuantes
-  magics: [magic-light, magic-voice, magic-grow]
+  magics: [magic-light, magic-voice]
   energy: 4
   carry:
     - { en-GB: a glowing lantern, es-ES: un farol que brilla, it-IT: una lanterna che brilla, pt-PT: uma lanterna que brilha }
@@ -37,7 +37,7 @@
     es-ES: las Islas Flotantes
     it-IT: delle Isole Volanti
     pt-PT: das Ilhas Flutuantes
-  magics: [magic-grow, magic-change, magic-voice]
+  magics: [magic-grow]
   energy: 3
   carry:
     - { en-GB: a building brick, es-ES: una pieza de construcción, it-IT: un mattoncino, pt-PT: uma peça de construção }
@@ -64,7 +64,7 @@
     es-ES: las Islas Flotantes
     it-IT: delle Isole Volanti
     pt-PT: das Ilhas Flutuantes
-  magics: [magic-light, magic-change, magic-voice]
+  magics: [magic-change]
   energy: 5
   carry:
     - { en-GB: a star chart, es-ES: un mapa de estrellas, it-IT: una mappa delle stelle, pt-PT: um mapa de estrelas }
@@ -92,7 +92,7 @@
     es-ES: las Islas Flotantes
     it-IT: delle Isole Volanti
     pt-PT: das Ilhas Flutuantes
-  magics: [magic-voice, magic-grow, magic-light]
+  magics: [magic-float, magic-grow]
   energy: 4
   carry:
     - { en-GB: a wooden flute, es-ES: una flauta de madera, it-IT: un flauto di legno, pt-PT: uma flauta de madeira }

@@ -11,7 +11,7 @@
     es-ES: los Fiordos Nevados del Norte
     it-IT: i Fiordi Innevati del Nord
     pt-PT: os Fiordes Nevados do Norte
-  magics: [imagination, heart, courage]
+  magics: [imagination, heart]
   energy: 4
   carry:
     - { en-GB: a warm woollen cloak, es-ES: una capa de lana caliente, it-IT: un mantello di lana caldo, pt-PT: uma capa de lã quente }
@@ -39,7 +39,7 @@
     es-ES: los Fiordos Nevados del Norte
     it-IT: i Fiordi Innevati del Nord
     pt-PT: os Fiordes Nevados do Norte
-  magics: [courage, heart, imagination]
+  magics: [courage]
   energy: 3
   carry:
     - { en-GB: a carved wooden fox, es-ES: un zorro de madera tallada, it-IT: una volpe di legno intagliato, pt-PT: uma raposa de madeira entalhada }
@@ -67,7 +67,7 @@
     es-ES: los Fiordos Nevados del Norte
     it-IT: i Fiordi Innevati del Nord
     pt-PT: os Fiordes Nevados do Norte
-  magics: [imagination, courage, heart]
+  magics: [patience, kindness]
   energy: 5
   carry:
     - { en-GB: a star map of the winter sky, es-ES: un mapa de las estrellas de invierno, it-IT: una mappa delle stelle d'inverno, pt-PT: um mapa das estrelas de inverno }
@@ -96,7 +96,7 @@
     es-ES: los Fiordos Nevados del Norte
     it-IT: i Fiordi Innevati del Nord
     pt-PT: os Fiordes Nevados do Norte
-  magics: [courage, imagination, heart]
+  magics: [heart, courage]
   energy: 4
   carry:
     - { en-GB: a sturdy walking staff, es-ES: un bastón resistente, it-IT: un solido bastone da cammino, pt-PT: um cajado robusto }
