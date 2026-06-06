@@ -140,6 +140,15 @@ journey lands. There is nothing extra to author: a good set of stop names is a g
 map. An author may later drop in a bespoke `assets/map.svg` to override the generated
 one, but it is never required.
 
+The stop headings are load-bearing in one more place: the **website reader** pairs each
+stop's grown-up solution to its question by matching the `## Stop N: Name` heading in
+`puzzles.md` to the same heading in the narration, and it shows each stop's scene image
+inline. So keep the headings identical between `narration.simple.md`,
+`narration.rich.md`, and `puzzles.md` (the puzzles file may add a band suffix like
+`(Easy)`, which is fine), and order the `images:` so the scenes follow the stops (a
+cover, then one scene per stop, then the ending). Matching headings keep the printed
+kit and the website in step.
+
 The idea bank is world-level (one per world per locale), not per story; the narration,
 rules, and puzzles remain per story. Version numbers, the colophon, and the licence are
 added automatically at build time, so you never edit them.

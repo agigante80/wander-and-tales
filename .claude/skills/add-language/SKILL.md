@@ -184,9 +184,36 @@ Update the spots that name the languages explicitly or count them:
    ```
 
    It builds every kit in the new language and relinks the README catalogue; the new
-   language column appears automatically (it is derived from `REQUIRED_LOCALES`).
+   language column appears automatically (it is derived from `REQUIRED_LOCALES`). It
+   also refreshes `site/manifest.json`, which the website reads.
 3. Confirm no dirty `+` versions (`find kits -name '*+*'`), then commit the `kits/`
-   tree and README and push. End commit messages with the standard co-author trailer.
+   tree, the README, and `site/manifest.json`, and push. End commit messages with the
+   standard co-author trailer.
+
+## Step 8: wire the website (`web/`)
+
+The public site (`web/`, Astro) is locale-driven and is **not** derived from
+`REQUIRED_LOCALES`, so the new language must be added there by hand:
+
+- **`web/src/consts.ts`**: add the locale to `LANGS` (`{ code, locale, name }`, e.g.
+  `{ code: "de", locale: "de-DE", name: "Deutsch" }`). The short `code` is the URL
+  segment; the full `locale` keys hreflang and `og:locale`.
+- **`web/src/lib/i18n.ts`**: add a UI block for the new `code` translating **every**
+  key (it must match the `en` key set; missing keys fall back to English). This is the
+  nav, buttons, footer, the reader labels, and the per-page meta descriptions.
+- **`web/src/content/why/<code>.md`**: translate the "Why it works" page (keep the
+  associational, non-causal claims and the verified source links).
+
+Then render the new language's website trail maps and check the build:
+
+```bash
+.venv/bin/python -m build render-maps --root .   # writes maps/<world>/<story>/map-<locale>.png
+cd web && npm run build                          # prepare-assets copies media/kits/maps; Astro builds every locale
+```
+
+Commit the `web/` changes, the new `maps/`, and `site/manifest.json`. The site
+otherwise picks up the new language automatically from the manifest, media, and kits,
+and redeploys on push.
 
 ## Quick checklist before you call it done
 
@@ -198,8 +225,10 @@ Update the spots that name the languages explicitly or count them:
 - [ ] A sample kit was built and eyeballed (map labels and UI strings in the new
       language).
 - [ ] Docs and skills updated (marketing list, counts, the new register note).
-- [ ] Rebuilt in the foreground, no dirty versions, `kits/` + README committed and
-      pushed.
+- [ ] Website wired: `web/src/consts.ts` `LANGS`, a full `i18n.ts` UI block,
+      `web/src/content/why/<code>.md`; `render-maps` run; `cd web && npm run build` OK.
+- [ ] Rebuilt in the foreground, no dirty versions; `kits/`, README,
+      `site/manifest.json`, `maps/`, and `web/` committed and pushed.
 
 See `references/checklist.md` for the exact file list, the verification scripts, and
 the per-language register table.

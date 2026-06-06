@@ -112,6 +112,18 @@ pick up a `+` (which marks a work-in-progress build that saw uncommitted inputs)
 The README's "Get the kit" table is generated, so do not hand-edit between the
 `BEGIN KIT TABLE` and `END KIT TABLE` markers; `rebuild` owns that block.
 
+`rebuild` also refreshes `site/manifest.json`, which the website (`web/`) reads. If
+this is a new story or world, or you changed a story's `## Stop` headings, render its
+website trail maps too (the PNGs are deterministic, so only the new or changed ones
+move in git):
+
+```bash
+.venv/bin/python -m build render-maps --root .
+```
+
+The website picks up the new story automatically from the manifest, media, and maps,
+and redeploys on push; you do not hand-edit `web/` for a story.
+
 ## Step 5: confirm the PDFs are created correctly
 
 - Run the test suite; it is green only if the structural invariants hold (every page
@@ -146,10 +158,13 @@ The README's "Get the kit" table is generated, so do not hand-edit between the
 ## Step 6: commit and push
 
 ```bash
-git add kits README.md
+git add kits README.md site/manifest.json maps
 git commit -m "build: publish <World> / <Story> (art, kits, README)"
 git push origin main
 ```
+
+(`site/manifest.json` and any new `maps/` PNGs feed the website; include them so the
+site has the new story on the next deploy.)
 
 If art was generated in Step 2 but not yet committed, include `worlds/<w>` in this
 commit (or commit it in Step 4). Push to `main` so the README download links resolve
