@@ -10,8 +10,9 @@ const { lang, route = "" } = Astro.props;
       <img src="/favicon.svg" width="32" height="32" alt="" class="rounded-lg" />
       Wander <span class="text-teal">&amp;</span> Tales
     </a>
-    <nav class="flex items-center gap-4 text-sm">
+    <nav class="flex items-center gap-3 sm:gap-4 text-sm">
       <a href={`/${lang}/#worlds`} class="hover:text-teal">{t(lang, "nav_worlds")}</a>
+      <a href={`/${lang}/help`} class="hover:text-teal hidden sm:inline">{t(lang, "nav_help")}</a>
       <a href={`/${lang}/create`} class="hover:text-teal">{t(lang, "nav_create")}</a>
       <LangSwitcher lang={lang} route={route} />
     </nav>
