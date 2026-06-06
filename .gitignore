@@ -31,3 +31,5 @@ Thumbs.db
 # Packaging metadata
 *.egg-info/
 .eggs/
+
+.playwright-mcp/
