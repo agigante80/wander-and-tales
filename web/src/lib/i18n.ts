@@ -80,6 +80,10 @@ export const UI: Record<LangCode, Dict> = {
     stat_stories: "stories",
     stat_languages: "languages",
     theme_label: "Switch light or dark theme",
+    adult_led: "Adult-led",
+    reader_note: "Same story, gentler or richer words.",
+    from_world: "a story from",
+    more_from_world: "More from this world",
   },
   es: {
     skip: "Saltar al contenido",
@@ -158,6 +162,10 @@ export const UI: Record<LangCode, Dict> = {
     stat_stories: "historias",
     stat_languages: "idiomas",
     theme_label: "Cambiar entre tema claro y oscuro",
+    adult_led: "Guiado por un adulto",
+    reader_note: "La misma historia, con palabras más sencillas o más ricas.",
+    from_world: "una historia de",
+    more_from_world: "Más de este mundo",
   },
   it: {
     skip: "Vai al contenuto",
@@ -236,6 +244,10 @@ export const UI: Record<LangCode, Dict> = {
     stat_stories: "storie",
     stat_languages: "lingue",
     theme_label: "Cambia tema chiaro o scuro",
+    adult_led: "Guidato da un adulto",
+    reader_note: "La stessa storia, con parole più semplici o più ricche.",
+    from_world: "una storia da",
+    more_from_world: "Altro da questo mondo",
   },
   pt: {
     skip: "Saltar para o conteúdo",
@@ -314,6 +326,10 @@ export const UI: Record<LangCode, Dict> = {
     stat_stories: "histórias",
     stat_languages: "línguas",
     theme_label: "Alternar tema claro ou escuro",
+    adult_led: "Conduzido por um adulto",
+    reader_note: "A mesma história, com palavras mais simples ou mais ricas.",
+    from_world: "uma história de",
+    more_from_world: "Mais deste mundo",
   },
 };
 
