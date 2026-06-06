@@ -8,37 +8,35 @@ export function getStaticPaths() {
 }
 const { lang } = Astro.params;
 const steps = [
-  ["1", "Clone the repository.", "git clone https://github.com/agigante80/wander-and-tales.git"],
-  ["2", "Set up the toolchain (Python 3.11+).", 'pip install -e ".[dev,render]"'],
-  ["3", 'In Claude Code, ask to "create a story".', "The create-story skill walks you through it."],
-  ["4", "Pictures, your choice.", "Generate with your own key, paste prompts elsewhere, or play text-only."],
-  ["5", "Read and play.", "Your printable PDFs build into dist/, in four languages."],
+  ["Clone the repository.", "git clone https://github.com/agigante80/wander-and-tales.git"],
+  ["Set up the toolchain (Python 3.11+).", 'pip install -e ".[dev,render]"'],
+  ['In Claude Code, ask to "create a story".', "The create-story skill walks you through it."],
+  ["Pictures, your choice.", "Generate with your own key, paste prompts elsewhere, or play text-only."],
+  ["Read and play.", "Your printable PDFs build into dist/, in four languages."],
 ];
 ---
 
 <Base lang={lang!} route="create" title={`${t(lang!, "create_title")} · Wander & Tales`} description={t(lang!, "create_body")}>
-  <section class="max-w-3xl mx-auto px-4 py-14">
-    <h1 class="font-display text-3xl md:text-4xl text-purple">{t(lang!, "create_title")}</h1>
-    <p class="mt-4 text-lg text-ink/80">{t(lang!, "create_body")}</p>
+  <section class="wrap-read section">
+    <p class="kicker">{t(lang!, "nav_create")}</p>
+    <h1 style="font-size:var(--fs-h2);margin-top:var(--sp-2)">{t(lang!, "create_title")}</h1>
+    <p class="lead" style="margin-top:var(--sp-4)">{t(lang!, "create_body")}</p>
 
-    <ol class="mt-8 space-y-4">
-      {
-        steps.map(([n, title, detail]) => (
-          <li class="flex gap-4">
-            <span class="shrink-0 w-8 h-8 rounded-full bg-purple text-white font-display grid place-items-center">{n}</span>
-            <div>
-              <p class="font-display">{title}</p>
-              <p class="text-sm text-ink/70 font-mono mt-1 break-all">{detail}</p>
-            </div>
-          </li>
-        ))
-      }
+    <ol class="steps" style="margin-top:var(--sp-7)">
+      {steps.map(([title, detail]) => (
+        <li>
+          <div>
+            <p class="font-display">{title}</p>
+            <p class="muted" style="font-family:ui-monospace,monospace;font-size:var(--fs-small);margin-top:2px;word-break:break-word">{detail}</p>
+          </div>
+        </li>
+      ))}
     </ol>
 
-    <div class="mt-10 flex flex-wrap gap-3">
-      <a href={CREATE_URL} class="bg-purple text-white font-display px-5 py-2.5 rounded-full hover:brightness-110" rel="noopener">{t(lang!, "create_cta")}</a>
-      <a href={REPO} class="ring-1 ring-ink/20 px-5 py-2.5 rounded-full hover:bg-white" rel="noopener">{t(lang!, "source")}</a>
+    <div class="acts" style="display:flex;flex-wrap:wrap;gap:var(--sp-3);margin-top:var(--sp-8)">
+      <a class="btn btn-primary" href={CREATE_URL} rel="noopener">{t(lang!, "create_cta")}</a>
+      <a class="btn btn-secondary" href={REPO} rel="noopener">{t(lang!, "source")}</a>
     </div>
-    <p class="mt-6 text-xs text-ink/50">{t(lang!, "not_affiliated")}</p>
+    <p class="faint" style="font-size:var(--fs-tiny);margin-top:var(--sp-5)">{t(lang!, "not_affiliated")}</p>
   </section>
 </Base>

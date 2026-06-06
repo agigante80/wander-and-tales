@@ -4,10 +4,8 @@ const { lang, route, heading, description, image } = Astro.props;
 ---
 
 <Base lang={lang} route={route} title={`${heading} · Wander & Tales`} description={description} image={image}>
-  <article
-    class="max-w-3xl mx-auto px-4 py-12 space-y-3 [&_h2]:font-display [&_h2]:text-pine [&_h2]:text-xl [&_h2]:mt-7 [&_p]:text-ink/80 [&_p]:leading-relaxed [&_a]:text-teal [&_a]:underline [&_ul]:list-disc [&_ul]:pl-6 [&_ul]:space-y-1 [&_li]:text-ink/80"
-  >
-    <h1 class="font-display text-3xl text-pine">{heading}</h1>
-    <slot />
+  <article class="wrap-read" style="padding-block:var(--sp-9) var(--sp-11)">
+    <h1 style="font-size:var(--fs-h2);color:var(--pine)">{heading}</h1>
+    <div class="prose-tale" style="margin-top:var(--sp-4)"><slot /></div>
   </article>
 </Base>

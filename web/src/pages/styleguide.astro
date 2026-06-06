@@ -1,0 +1,156 @@
+---
+import "../styles/global.css";
+
+const surfaces = [
+  ["--bg", "page"], ["--surface", "raised card"], ["--surface-2", "elevated / popover"], ["--inset", "recessed well"],
+];
+const text = [
+  ["--ink-strong", "headings"], ["--ink", "body"], ["--ink-soft", "secondary"], ["--ink-faint", "tertiary"],
+];
+const accents = [
+  ["--accent", "teal"], ["--gold", "gold"], ["--purple", "dusk"], ["--green", "green"], ["--pine", "pine"],
+];
+const scale = [
+  ["--fs-display", "display / h1"], ["--fs-h2", "h2"], ["--fs-h3", "h3"], ["--fs-lead", "lead"], ["--fs-body", "body"], ["--fs-small", "small"], ["--fs-tiny", "tiny"],
+];
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="robots" content="noindex, nofollow" />
+    <script is:inline>
+      (function () {
+        try {
+          var t = localStorage.getItem("wt-theme");
+          if (!t) t = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+          document.documentElement.setAttribute("data-theme", t);
+        } catch (e) { document.documentElement.setAttribute("data-theme", "light"); }
+      })();
+    </script>
+    <title>Style guide · Wander &amp; Tales</title>
+    <meta name="theme-color" content="#5b62a8" />
+    <style>
+      .swatches{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:var(--sp-3)}
+      .sw{border:1px solid var(--line-soft);border-radius:var(--r-md);overflow:hidden;background:var(--surface)}
+      .sw .chip-color{height:56px}
+      .sw .meta{padding:8px 10px;font-size:var(--fs-tiny)}
+      .sw .meta b{font-family:var(--font-display)}
+      .sg-h2{font-size:var(--fs-h2);margin:var(--sp-9) 0 var(--sp-4)}
+      .row{display:flex;flex-wrap:wrap;gap:var(--sp-3);align-items:center}
+    </style>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap bar">
+        <a class="brand" href="/en/">
+          <span class="name">Wander <span class="amp">&amp;</span> Tales</span>
+        </a>
+        <div class="header-tools" style="margin-left:auto">
+          <span class="faint" style="font-size:var(--fs-small)">Style guide</span>
+          <button class="icon-btn" data-theme-toggle aria-pressed="false" aria-label="Switch light or dark theme">
+            <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4.5"></circle><path d="M12 2v2.5M12 19.5V22M4.2 4.2l1.8 1.8M18 18l1.8 1.8M2 12h2.5M19.5 12H22M4.2 19.8 6 18M18 6l1.8-1.8"></path></svg>
+            <svg class="moon" viewBox="0 0 24 24" fill="currentColor"><path d="M20 14.5A8 8 0 0 1 9.5 4 7 7 0 1 0 20 14.5Z"></path></svg>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main id="main" class="wrap" style="padding-block:var(--sp-8) var(--sp-11)">
+      <p class="eyebrow">living reference</p>
+      <h1 style="font-size:var(--fs-display)">Design tokens &amp; components</h1>
+      <p class="lead" style="margin-top:var(--sp-3)">Flip the theme toggle to see every token retune live. This page is built from the same tokens the site ships.</p>
+
+      <h2 class="sg-h2">Surfaces</h2>
+      <div class="swatches">
+        {surfaces.map(([v, label]) => (
+          <div class="sw"><div class="chip-color" style={`background:var(${v})`}></div><div class="meta"><b>{v}</b><br /><span class="faint">{label}</span></div></div>
+        ))}
+      </div>
+
+      <h2 class="sg-h2">Text</h2>
+      <div class="swatches">
+        {text.map(([v, label]) => (
+          <div class="sw"><div class="chip-color" style={`background:var(${v})`}></div><div class="meta"><b>{v}</b><br /><span class="faint">{label}</span></div></div>
+        ))}
+      </div>
+
+      <h2 class="sg-h2">Accents</h2>
+      <div class="swatches">
+        {accents.map(([v, label]) => (
+          <div class="sw"><div class="chip-color" style={`background:var(${v})`}></div><div class="meta"><b>{v}</b><br /><span class="faint">{label}</span></div></div>
+        ))}
+      </div>
+
+      <h2 class="sg-h2">Type scale</h2>
+      <div class="stack-3">
+        {scale.map(([v, label]) => (
+          <div style="display:flex;align-items:baseline;gap:var(--sp-4)"><span class="faint" style="font-size:var(--fs-tiny);min-width:120px">{label}</span><span class="font-display" style={`font-size:var(${v})`}>Wander &amp; Tales</span></div>
+        ))}
+      </div>
+
+      <h2 class="sg-h2">Buttons</h2>
+      <div class="row">
+        <a class="btn btn-primary">Primary</a>
+        <a class="btn btn-gold">Gold</a>
+        <a class="btn btn-secondary">Secondary</a>
+        <a class="btn btn-ghost">Ghost</a>
+      </div>
+
+      <h2 class="sg-h2">Chips &amp; badge</h2>
+      <div class="row">
+        <span class="chip">Ages 3 to 12</span>
+        <span class="chip chip-teal">kindness</span>
+        <span class="chip chip-gold">brave</span>
+        <span class="chip chip-purple">cosy</span>
+        <span class="badge-adult"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3l7 3v5c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6Z"></path></svg>Adult-led</span>
+      </div>
+
+      <h2 class="sg-h2">Segmented toggle</h2>
+      <div class="seg" role="group" aria-label="Reading level">
+        <button aria-pressed="true">Simple<span class="ages">3 to 8</span></button>
+        <button aria-pressed="false">Rich<span class="ages">9 to 12</span></button>
+      </div>
+
+      <h2 class="sg-h2">Promise callout</h2>
+      <div class="callout callout-promise"><p class="ph">Here nobody loses.</p><p class="muted" style="font-size:var(--fs-small);margin-top:6px">There are no wrong answers. If a try does not work, you find another way.</p></div>
+
+      <h2 class="sg-h2">Spoiler</h2>
+      <details class="spoiler">
+        <summary>
+          <span class="lock"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="10" width="16" height="10" rx="2.5"></rect><path d="M8 10V7a4 4 0 0 1 8 0v3"></path></svg></span>
+          <span><span class="sm-t">For the grown-up</span><span class="sm-s">Gentle rules and the answers.</span></span>
+          <span class="chev"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6"></path></svg></span>
+        </summary>
+        <div class="body"><p class="muted">Spoiler body content.</p></div>
+      </details>
+
+      <h2 class="sg-h2">Download affordance</h2>
+      <a class="btn-dl" style="max-width:420px">
+        <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 3h8l4 4v14a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1Z"></path><path d="M13 3v5h5"></path></svg></span>
+        <span><span class="t">Tale Book · Simple</span><br /><span class="m">PDF · v2.3</span></span>
+        <span class="arr"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 4v13M6 11l6 6 6-6"></path></svg></span>
+      </a>
+    </main>
+
+    <script is:inline>
+      (function () {
+        var root = document.documentElement;
+        function cur() { return root.getAttribute("data-theme") || "light"; }
+        function setTheme(t, persist) {
+          root.setAttribute("data-theme", t);
+          if (persist) { try { localStorage.setItem("wt-theme", t); } catch (e) {} }
+          document.querySelectorAll("[data-theme-toggle]").forEach(function (b) { b.setAttribute("aria-pressed", String(t === "dark")); });
+          var m = document.querySelector('meta[name="theme-color"]');
+          if (m) m.setAttribute("content", t === "dark" ? "#1a1c26" : "#5b62a8");
+        }
+        document.addEventListener("click", function (e) {
+          if (e.target.closest("[data-theme-toggle]")) setTheme(cur() === "dark" ? "light" : "dark", true);
+        });
+        setTheme(cur(), false);
+      })();
+    </script>
+  </body>
+</html>
