@@ -116,6 +116,15 @@ headings become the generated map's labels.
 
 ### Gotchas (these bit us adding pt-PT; warn every subagent)
 
+- **Native register, not textbook (the biggest miss).** Adding pt-PT, the subagents
+  wrote the archaic "vós" register and Brazilian gerunds throughout, both wrong for
+  Portugal and both the textbook default a non-native model reaches for. Every
+  language has an equivalent trap (the form a learner is taught versus what natives
+  actually say). Give each subagent the specific native forms to use and to avoid,
+  not just the pronoun name. For pt-PT, route them through the **`pt-pt-quality`**
+  skill (its register guide and scanner) and scan every file before you validate.
+  When you add a new language, consider leaving behind a sibling guard skill the
+  same way.
 - **YAML colon trap.** A `: ` (colon then space) inside an **unquoted** YAML scalar
   value breaks parsing with "mapping values are not allowed here". Do not put `: `
   inside a canon `name` or `description` value; use a full stop, comma, or semicolon

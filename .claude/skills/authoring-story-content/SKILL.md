@@ -82,7 +82,12 @@ These are small and unforgiving, so check them deliberately.
    - **Italian (it-IT)**: natural, warm Italian, "voi" for the players, full accents.
    - **European Portuguese (pt-PT)**: natural Portugal Portuguese, "vocês" for the
      players (and "tu" when a prompt speaks to one child), full accents. Never
-     Brazilian Portuguese.
+     Brazilian Portuguese. The two traps a non-native writer falls into are the
+     archaic **"vós" register** (use "vocês" with 3rd person plural verbs: "Leiam",
+     "São", "fizeram", never "Lede", "Sois", "fizestes") and Brazilian **gerunds**
+     (use "a + infinitivo": "está a dormir", never "está dormindo"). For pt-PT,
+     follow the **`pt-pt-quality`** skill, which holds the full register guide and a
+     scanner; run it whenever you write or review Portuguese.
    US English, Latin American Spanish, Brazilian Portuguese, and other languages are
    **separate languages** that slot in later, each in its own content files, exactly
    like European versus Brazilian Portuguese, or French and German. Never quietly mix
