@@ -2,48 +2,25 @@
 import Legal from "../../layouts/Legal.astro";
 import { LANGS } from "../../consts";
 import { t } from "../../lib/i18n";
+import { marked } from "marked";
+
+// localized content lives in web/src/content/why/<lang>.md
+const files = import.meta.glob("../../content/why/*.md", {
+  query: "?raw",
+  import: "default",
+  eager: true,
+});
+
 export function getStaticPaths() {
   return LANGS.map((l) => ({ params: { lang: l.code } }));
 }
 const { lang } = Astro.params;
-const W = "https://www.weforum.org/publications/the-future-of-jobs-report-2025/in-full/3-skills-outlook/";
-const O = "https://www.oecd.org/en/data/tools/oecd-learning-compass-2030.html";
-const U = "https://www.unicef.org/reports/global-framework-transferable-skills";
-const J = "https://pmc.ncbi.nlm.nih.gov/articles/PMC12053794/";
-const A = "https://publications.aap.org/pediatrics/article/142/3/e20182058/38649/The-Power-of-Play-A-Pediatric-Role-in-Enhancing";
-const P = "https://pmc.ncbi.nlm.nih.gov/articles/PMC10766374/";
-const B = "https://pmc.ncbi.nlm.nih.gov/articles/PMC10527566/";
-const H = "https://www.who.int/publications/i/item/9789241550536";
+const md = (files[`../../content/why/${lang}.md`] ?? files["../../content/why/en.md"]) as string;
+const html = marked.parse(md, { gfm: true, async: false }) as string;
+const banner = "/media/worlds/enchanted-springs/stories/mouras-lost-comb/assets/scene-the-spring-sings-again.png";
 ---
 
 <Legal lang={lang!} route="why" heading={t(lang!, "nav_why")}>
-  <p>This page is currently in English; localized versions will follow.</p>
-
-  <p>No one can say exactly what the world will look like for our children as AI reshapes it. But the people who study it agree on the human skills that will matter most: imagination, creative and critical thinking, problem-solving, curiosity, and knowing how to work well with someone else. Wander &amp; Tales is a simple, screen-free way to practise exactly those, together.</p>
-
-  <h2>The skills that will matter are human ones</h2>
-  <p>The <a href={W} rel="noopener">World Economic Forum's Future of Jobs Report 2025</a> and the <a href={O} rel="noopener">OECD Learning Compass 2030</a> name much the same capacities for the next generation: analytical and creative thinking, problem-solving, resilience, and cooperation. <a href={U} rel="noopener">UNICEF's framework of transferable skills</a> echoes them from a child-development angle. A cooperative story-and-puzzle adventure is a gentle chance to exercise those very muscles.</p>
-
-  <h2>Time together is the strongest thread</h2>
-  <p>The most consistent positive finding in the research on children and screens is not really about screens at all; it is about attention. In a 2024 meta-analysis in JAMA Pediatrics covering 176,742 children (<a href={J} rel="noopener">open-access copy</a>), a parent and child using media together was associated with better cognitive outcomes, while distracted, device-divided caregiving was associated with poorer psychosocial ones. (Associated with, not caused by.) The American Academy of Pediatrics makes a related case for unhurried play in <a href={A} rel="noopener">The Power of Play</a>. Wander &amp; Tales is simply an easy excuse for more of that attentive, screen-free time.</p>
-
-  <h2>Imaginative, cooperative play is a chance to practise</h2>
-  <p>Studies of pretend play and of tabletop games suggest that imaginative, rule-light, cooperative play is a setting where children exercise creativity, flexible thinking, and working things out with others (for example a <a href={P} rel="noopener">review of pretend play and development</a> and a <a href={B} rel="noopener">study of board games and skills</a>). The evidence here is supportive rather than conclusive, so we keep the claim soft: it is a way to practise these things, not a guarantee of anything.</p>
-
-  <h2>And no AI in your child's path</h2>
-  <p>Every story is written and checked by a person. There is no chatbot for your child to talk to, and nothing is invented on the fly in front of them. We do use AI tools behind the scenes, for example to draft illustrations, always reviewed by a person, so we say "no AI in your child's path", not "no AI anywhere". Nobody competes and nobody loses: a tricky moment is a detour to another way, never a defeat. And each story comes at two reading levels, so one world can grow with your child.</p>
-  <p>We cannot know what the AI world will become; UNICEF and the World Economic Forum say as much. What we can do is make more room for the human things, away from a screen.</p>
-
-  <h2>Sources</h2>
-  <ul>
-    <li>World Economic Forum, <a href={W} rel="noopener">Future of Jobs Report 2025</a> (skills outlook).</li>
-    <li>OECD, <a href={O} rel="noopener">Learning Compass 2030</a>.</li>
-    <li>UNICEF, <a href={U} rel="noopener">Global Framework for Transferable Skills</a>.</li>
-    <li>Mallawaarachchi et al. (2024), screen use and child outcomes, JAMA Pediatrics: <a href={J} rel="noopener">open-access copy</a>.</li>
-    <li>American Academy of Pediatrics (2018), <a href={A} rel="noopener">The Power of Play</a>.</li>
-    <li>Bredikyte and Brandisauskiene (2023), <a href={P} rel="noopener">pretend play and development</a> (open access).</li>
-    <li>Moya-Higueras et al. (2023), <a href={B} rel="noopener">board games and skills</a> (open access).</li>
-    <li>World Health Organization, <a href={H} rel="noopener">guidelines on physical activity, sedentary behaviour and sleep for under-5s</a>.</li>
-  </ul>
-  <p>These links go to the original sources. Some are academic publisher pages; where an open-access copy exists it is noted.</p>
+  <img src={banner} alt="" loading="lazy" class="w-full rounded-2xl border border-paper mt-2 mb-7" />
+  <div set:html={html} />
 </Legal>
