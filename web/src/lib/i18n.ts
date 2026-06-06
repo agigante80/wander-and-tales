@@ -84,6 +84,8 @@ export const UI: Record<LangCode, Dict> = {
     reader_note: "Same story, gentler or richer words.",
     from_world: "a story from",
     more_from_world: "More from this world",
+    atlas_note: "The map, the pictures, and a hero sheet to print.",
+    gm_solution: "For the grown-up: the solution",
   },
   es: {
     skip: "Saltar al contenido",
@@ -166,6 +168,8 @@ export const UI: Record<LangCode, Dict> = {
     reader_note: "La misma historia, con palabras más sencillas o más ricas.",
     from_world: "una historia de",
     more_from_world: "Más de este mundo",
+    atlas_note: "El mapa, las imágenes y una hoja de héroe para imprimir.",
+    gm_solution: "Para la persona adulta: la solución",
   },
   it: {
     skip: "Vai al contenuto",
@@ -248,6 +252,8 @@ export const UI: Record<LangCode, Dict> = {
     reader_note: "La stessa storia, con parole più semplici o più ricche.",
     from_world: "una storia da",
     more_from_world: "Altro da questo mondo",
+    atlas_note: "La mappa, le immagini e una scheda dell'eroe da stampare.",
+    gm_solution: "Per l'adulto: la soluzione",
   },
   pt: {
     skip: "Saltar para o conteúdo",
@@ -330,6 +336,8 @@ export const UI: Record<LangCode, Dict> = {
     reader_note: "A mesma história, com palavras mais simples ou mais ricas.",
     from_world: "uma história de",
     more_from_world: "Mais deste mundo",
+    atlas_note: "O mapa, as imagens e uma folha de herói para imprimir.",
+    gm_solution: "Para o adulto: a solução",
   },
 };
 

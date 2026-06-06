@@ -62,6 +62,75 @@ export function snippet(text?: string | null, max = 158): string {
   return cut.slice(0, Math.max(cut.lastIndexOf(" "), max - 20)).trimEnd() + "...";
 }
 
+// ---- per-stop story reader ---------------------------------------------------
+// Narration and puzzles share the same "## Stop N: Name" headings, so we can
+// interleave each stop's scene image and its grown-up solution inline.
+
+const stripH1 = (md: string) => md.replace(/^#\s+.*$/m, "").trim();
+
+// split markdown into sections by "## " headings; text before the first ## has heading=null
+function splitSections(md: string): { heading: string | null; body: string }[] {
+  const out: { heading: string | null; body: string[] }[] = [{ heading: null, body: [] }];
+  for (const ln of md.split("\n")) {
+    const m = ln.match(/^##\s+(.*\S)\s*$/);
+    if (m) out.push({ heading: m[1].trim(), body: [] });
+    else out[out.length - 1].body.push(ln);
+  }
+  return out
+    .map((s) => ({ heading: s.heading, body: s.body.join("\n").trim() }))
+    .filter((s) => s.heading !== null || s.body);
+}
+
+// normalize a stop heading for matching across files (drops a trailing "(Easy)" band)
+const normHeading = (h: string) => h.toLowerCase().replace(/\s*\([^)]*\)\s*$/, "").trim();
+
+export interface ReaderSection {
+  heading: string | null;
+  simpleHtml: string;
+  richHtml: string;
+  sceneUrl: string | null;
+  sceneAlt: string;
+  solutionHtml: string | null;
+}
+
+export function storyReader(
+  simplePath?: string | null,
+  richPath?: string | null,
+  puzzlesPath?: string | null,
+  scenes: any[] = [],
+  locale = "en-GB",
+): ReaderSection[] {
+  const md2 = (b: string) => (b ? (marked.parse(b, { gfm: true, async: false }) as string) : "");
+  const simple = simplePath ? splitSections(stripH1(readText(simplePath))) : [];
+  const rich = richPath ? splitSections(stripH1(readText(richPath))) : [];
+  const puzz = puzzlesPath ? splitSections(stripH1(readText(puzzlesPath))) : [];
+
+  const puzzMap = new Map<string, string>();
+  for (const p of puzz) if (p.heading) puzzMap.set(normHeading(p.heading), p.body);
+
+  // scenes correspond to the trailing headed sections (the stops and the ending);
+  // the opening "before you begin" section has no scene. Match by order so it works
+  // in every locale (scene ids are English slugs, headings are translated).
+  const headedIdx = simple.map((s, i) => (s.heading ? i : -1)).filter((i) => i >= 0);
+  const target = headedIdx.slice(Math.max(0, headedIdx.length - scenes.length));
+  const sceneFor = new Map<number, any>();
+  target.forEach((idx, k) => { if (scenes[k]) sceneFor.set(idx, scenes[k]); });
+
+  return simple.map((s, i) => {
+    const r = rich[i] ?? s;
+    const sc = sceneFor.get(i);
+    const sol = s.heading ? puzzMap.get(normHeading(s.heading)) : null;
+    return {
+      heading: s.heading,
+      simpleHtml: md2(s.body),
+      richHtml: md2(r.body),
+      sceneUrl: sc ? mediaUrl(sc.path) : null,
+      sceneAlt: sc?.alt?.[locale] ?? "",
+      solutionHtml: sol ? md2(sol) : null,
+    };
+  });
+}
+
 // the first body paragraph of a markdown file (skips headings and *italic* lines):
 // used as a localized, unique meta description for a story
 export function firstParagraph(relPath?: string | null): string {
