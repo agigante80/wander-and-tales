@@ -12,7 +12,7 @@ const { lang, route = "" } = Astro.props;
           "px-1.5 py-0.5 rounded uppercase " +
           (l.code === lang ? "bg-teal text-white" : "text-ink/60 hover:text-teal")
         }
-        hreflang={l.code}
+        hreflang={l.locale}
       >
         {l.code}
       </a>
