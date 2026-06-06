@@ -118,10 +118,10 @@ def main(argv: list[str] | None = None) -> int:
         vi = ver.version_info(
             args.root, ver.guide_inputs(args.root, args.locale), ver.render_sources(args.root)
         )
-        out = out_dir / "guides" / f"Guide_for_the_Grown-Up_{args.locale}-{vi.label}.pdf"
+        out = out_dir / "guides" / f"Guide_for_the_Grown-Up_{args.locale}.pdf"
         qr = f"{PROJECT_URL}/tree/main/kits/guides"
         pages.render_guide(src, out, args.locale, version=vi, qr_url=qr)
-        qs = out_dir / "guides" / f"How_to_Play_{args.locale}-{vi.label}.pdf"
+        qs = out_dir / "guides" / f"How_to_Play_{args.locale}.pdf"
         pages.build_quickstart(qs, args.locale, version=vi)
         print(f"built {out}")
         print(f"built {qs}")

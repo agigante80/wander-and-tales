@@ -50,4 +50,15 @@ for (const f of ["Quicksand-SemiBold.ttf", "Nunito-Regular.ttf", "Nunito-Bold.tt
   }
 }
 
-console.log(`prepare-assets: copied ${images} images and ${fonts} fonts into web/public`);
+// 3) the published kits (PDFs), self-hosted at /kits/... (manifest pdf paths are
+// "kits/<locale>/...", so the public URL is "/" + that path)
+let pdfs = 0;
+const kitsDir = path.join(ROOT, "kits");
+if (fs.existsSync(kitsDir)) {
+  fs.cpSync(kitsDir, path.join(PUB, "kits"), { recursive: true });
+  walk(path.join(PUB, "kits"), (f) => {
+    if (f.endsWith(".pdf")) pdfs++;
+  });
+}
+
+console.log(`prepare-assets: copied ${images} images, ${fonts} fonts, ${pdfs} PDFs into web/public`);

@@ -1,7 +1,7 @@
 ---
 import Base from "../../../../layouts/Base.astro";
 import { LANGS, SITE_URL, localeOf } from "../../../../consts";
-import { worlds, site, mediaUrl, pdfUrl } from "../../../../lib/content";
+import { worlds, site, mediaUrl, pdfUrl, pdfVer } from "../../../../lib/content";
 import { t, AGE_RANGE } from "../../../../lib/i18n";
 
 export function getStaticPaths() {
@@ -12,11 +12,12 @@ const locale = localeOf(lang!);
 const world = worlds.find((w) => w.id === worldId)!;
 const cover = world.images?.find((i: any) => i.role === "cover") ?? world.images?.[0];
 const coverUrl = mediaUrl(cover?.path);
-const wb = pdfUrl(world.pdfs?.[locale]?.world_book);
-const eh = pdfUrl(world.pdfs?.[locale]?.example_heroes);
-const guide = pdfUrl(site.shared_pdfs?.[locale]?.guide);
-const htp = pdfUrl(site.shared_pdfs?.[locale]?.how_to_play);
+const wbE = world.pdfs?.[locale]?.world_book;
+const ehE = world.pdfs?.[locale]?.example_heroes;
+const guideE = site.shared_pdfs?.[locale]?.guide;
+const htpE = site.shared_pdfs?.[locale]?.how_to_play;
 const skill = (s: string) => s.replace(/-/g, " ");
+const ver = (e: any) => (pdfVer(e) ? ` (${pdfVer(e)})` : "");
 const jsonld = {
   "@context": "https://schema.org",
   "@type": "CreativeWork",
@@ -60,7 +61,7 @@ const jsonld = {
             <p class="text-sm text-ink/60 mt-1">{(s.tags.skills ?? []).map(skill).join(", ")}</p>
             <div class="mt-3 flex flex-wrap gap-2 text-sm">
               <a href={`/${lang}/worlds/${world.id}/${s.id}`} class="bg-teal text-white px-3 py-1.5 rounded-full hover:brightness-105">{t(lang!, "read_online")}</a>
-              {pdfUrl(s.pdfs?.[locale]?.atlas) && <a href={pdfUrl(s.pdfs[locale].atlas)} class="ring-1 ring-ink/15 px-3 py-1.5 rounded-full hover:bg-paper" rel="noopener">{t(lang!, "atlas")} (PDF)</a>}
+              {pdfUrl(s.pdfs?.[locale]?.atlas) && <a href={pdfUrl(s.pdfs[locale].atlas)} class="ring-1 ring-ink/15 px-3 py-1.5 rounded-full hover:bg-paper" rel="noopener">{t(lang!, "atlas")} (PDF){ver(s.pdfs[locale].atlas)}</a>}
             </div>
           </article>
         ))
@@ -69,10 +70,10 @@ const jsonld = {
 
     <h2 class="font-display text-2xl text-pine mt-12">{t(lang!, "world_downloads")}</h2>
     <ul class="mt-4 flex flex-wrap gap-2 text-sm">
-      {wb && <li><a href={wb} class="ring-1 ring-ink/15 px-3 py-1.5 rounded-full hover:bg-white" rel="noopener">{t(lang!, "world_book")}</a></li>}
-      {eh && <li><a href={eh} class="ring-1 ring-ink/15 px-3 py-1.5 rounded-full hover:bg-white" rel="noopener">{t(lang!, "example_heroes")}</a></li>}
-      {guide && <li><a href={guide} class="ring-1 ring-ink/15 px-3 py-1.5 rounded-full hover:bg-white" rel="noopener">{t(lang!, "guide")}</a></li>}
-      {htp && <li><a href={htp} class="ring-1 ring-ink/15 px-3 py-1.5 rounded-full hover:bg-white" rel="noopener">{t(lang!, "how_to_play")}</a></li>}
+      {pdfUrl(wbE) && <li><a href={pdfUrl(wbE)} class="ring-1 ring-ink/15 px-3 py-1.5 rounded-full hover:bg-white" rel="noopener">{t(lang!, "world_book")}{ver(wbE)}</a></li>}
+      {pdfUrl(ehE) && <li><a href={pdfUrl(ehE)} class="ring-1 ring-ink/15 px-3 py-1.5 rounded-full hover:bg-white" rel="noopener">{t(lang!, "example_heroes")}{ver(ehE)}</a></li>}
+      {pdfUrl(guideE) && <li><a href={pdfUrl(guideE)} class="ring-1 ring-ink/15 px-3 py-1.5 rounded-full hover:bg-white" rel="noopener">{t(lang!, "guide")}{ver(guideE)}</a></li>}
+      {pdfUrl(htpE) && <li><a href={pdfUrl(htpE)} class="ring-1 ring-ink/15 px-3 py-1.5 rounded-full hover:bg-white" rel="noopener">{t(lang!, "how_to_play")}{ver(htpE)}</a></li>}
     </ul>
   </section>
 </Base>

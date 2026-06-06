@@ -2,8 +2,10 @@
 
 `manifest.json` is a machine-readable snapshot of the whole library for a website to
 ingest: every world and story with titles, tags, lore, beat headings, image paths, and
-the current versioned PDF links, in every supported language. It is generated from the
-repo content, so it is derived data; regenerate it rather than editing it by hand.
+PDF links, in every supported language. PDF filenames carry no version (stable URLs);
+each PDF entry is `{path, version, updated}` instead, so the site can show the version.
+It is generated from the repo content, so it is derived data; regenerate it rather than
+editing it by hand.
 
 ## Regenerate
 
@@ -15,8 +17,8 @@ PDFs), run from the repo root with the project virtualenv:
 .venv/bin/python -m build manifest --root .
 ```
 
-Both read the built kits under `kits/`, so the PDF links always point at the current
-versioned filenames. The generator lives in `build/render/manifest.py`.
+Both read the built kits under `kits/`, so the PDF links always point at the current,
+stable (unversioned) filenames. The generator lives in `build/render/manifest.py`.
 
 ## Shape
 
@@ -33,7 +35,9 @@ versioned filenames. The generator lives in `build/render/manifest.py`.
   reader's chapter chips and align with the scene images), `content_paths` (the
   markdown to render: kid-facing `simple` and `rich`; `rules` and `puzzles` are
   grown-up only), the ordered `images`, the `map` (almost always `generated`), and the
-  per-locale `tale_simple` / `tale_rich` / `atlas` PDFs.
+  per-locale `tale_simple` / `tale_rich` / `atlas` PDFs, each a `{path, version, updated}`
+  object (the world-level `world_book` / `example_heroes` and the shared `guide` /
+  `how_to_play` follow the same shape).
 
 ## Paths
 
