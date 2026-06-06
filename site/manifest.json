@@ -70,22 +70,21 @@
       "fonts": "Bundled fonts keep their own licences (DejaVu Fonts Licence and SIL Open Font Licence 1.1); see build/assets/fonts/OFL-NOTICE.txt."
     },
     "analytics": {
-      "provider": "google",
-      "measurement_id": "G-XXXXXXXXXX",
-      "note": "placeholder; the owner will supply the real Measurement ID later"
+      "provider": null,
+      "note": "to be configured; cookieless analytics avoids a consent banner"
     },
     "cookie_consent": {
-      "required": true,
-      "reason": "EU and UK visitors; analytics consent"
+      "required": false,
+      "note": "no banner needed if analytics stays cookieless; revisit if a cookie-setting tool is added"
     },
     "contact": {
       "type": "github_issues",
       "url": "https://github.com/agigante80/wander-and-tales/issues",
-      "note": "no email; use GitHub issues for contact and takedown requests"
+      "note": "general contact; a private channel is needed for GDPR rights and takedown requests"
     },
     "community": null,
     "disclaimers": [
-      "Not affiliated with, or endorsed by, Anthropic. 'Claude' is referenced only as the tool used to author stories.",
+      "Not affiliated with, or endorsed by, Anthropic.",
       "Cooperative, no-lose games: nobody competes, nobody is eliminated, and there are no wrong answers."
     ],
     "create_your_own": {

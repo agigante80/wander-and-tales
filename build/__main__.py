@@ -60,6 +60,12 @@ def main(argv: list[str] | None = None) -> int:
     _add_root(rebuild_parser)
     rebuild_parser.add_argument("--out-dir", type=Path, default=None)
 
+    manifest_parser = sub.add_parser(
+        "manifest", help="regenerate site/manifest.json from the content and built kits"
+    )
+    _add_root(manifest_parser)
+    manifest_parser.add_argument("--out-dir", type=Path, default=None)
+
     prompts_parser = sub.add_parser("prompts", help="export image generation prompts")
     _add_root(prompts_parser)
     prompts_parser.add_argument("--world", default=None)
@@ -159,6 +165,18 @@ def main(argv: list[str] | None = None) -> int:
             + len(built.quickstarts)
         )
         print(f"rebuilt {total} artifact(s) into {out_dir}")
+        from build.render import manifest as manifest_mod
+
+        m = manifest_mod.build_manifest(args.root, out_dir)
+        print(f"refreshed {m}")
+        return 0
+
+    if args.command == "manifest":
+        from build.render import manifest as manifest_mod
+
+        out_dir = args.out_dir if args.out_dir is not None else args.root / "kits"
+        m = manifest_mod.build_manifest(args.root, out_dir)
+        print(f"wrote {m}")
         return 0
 
     if args.command == "prompts":
