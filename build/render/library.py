@@ -66,10 +66,10 @@ def build_all(root: Path, out_dir: Path) -> Built:
             vi = version.version_info(
                 root, version.guide_inputs(root, locale), version.render_sources(root)
             )
-            out = out_dir / "guides" / f"Guide_for_the_Grown-Up_{locale}-{vi.label}.pdf"
+            out = out_dir / "guides" / f"Guide_for_the_Grown-Up_{locale}.pdf"
             qr = f"{PROJECT_URL}/tree/main/kits/guides"
             built.guides[locale] = pages.render_guide(guide_md, out, locale, version=vi, qr_url=qr)
-            qs = out_dir / "guides" / f"How_to_Play_{locale}-{vi.label}.pdf"
+            qs = out_dir / "guides" / f"How_to_Play_{locale}.pdf"
             built.quickstarts[locale] = pages.build_quickstart(qs, locale, version=vi)
     return built
 

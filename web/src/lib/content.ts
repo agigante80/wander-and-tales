@@ -28,9 +28,14 @@ export function readText(relPath: string): string {
 export const mediaUrl = (relPath?: string | null) =>
   relPath ? "/media/" + relPath : null;
 
-// download URL for a kit PDF (served from GitHub raw for now; self-host later)
-export const pdfUrl = (relPath?: string | null) =>
-  relPath ? site.repo_raw_base + relPath : null;
+// A manifest PDF entry is { path, version, updated } (or null). The PDFs are
+// self-hosted under /kits/... (copied into public by scripts/prepare-assets.mjs).
+export const pdfUrl = (entry?: any) => {
+  const p = typeof entry === "string" ? entry : entry?.path;
+  return p ? "/" + p : null;
+};
+export const pdfVer = (entry?: any) =>
+  entry && typeof entry === "object" ? entry.version : null;
 
 // render narration markdown to HTML, dropping the leading "# Title" (we render our own)
 export function narrationHtml(relPath?: string | null): string {

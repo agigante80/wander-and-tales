@@ -112,8 +112,13 @@ so there is no clash. Data flows in one direction:
   and each world also has a **World Book** plus the shared Guide; `version.py` stamps an
   automatic git-derived version, `colophon.py` adds the end page, `footer.py` the
   per-page footer, and `library.py` rebuilds the whole library. Output is a language-first
-  versioned tree: `dist|kits/<locale>/<world>/<story>/tale-book-<level>-v<n>.pdf`,
-  `.../atlas-v<n>.pdf`, and `.../<world>/world-book-v<n>.pdf`.
+  tree with self-describing, unversioned filenames (stable URLs):
+  `dist|kits/<locale>/<world>/<story>/<world>-<story>-tale-book-<level>-<locale>.pdf`,
+  `.../<world>-<story>-atlas-<locale>.pdf`, and
+  `.../<world>/<world>-world-book-<locale>.pdf`. The git-derived version is no longer in
+  the filename; it lives in each PDF's colophon and in the `manifest.json` per-PDF entry
+  (`{path, version, updated}`), so a version bump updates a file in place instead of
+  renaming it.
 - **Maps are world-level or story-level, and may be per-locale.** A story map
   lives at `worlds/<world>/stories/<story>/assets/`, a world map at
   `worlds/<world>/assets/`. `map.py:find_map` resolves a kit's map in order: story

@@ -67,8 +67,7 @@ def build_example_heroes(
             parts.append(sheet)
 
         out_path = (
-            out_dir / locale / world_id
-            / f"{world_id}-example-heroes-{locale}-{version_info.label}.pdf"
+            out_dir / locale / world_id / f"{world_id}-example-heroes-{locale}.pdf"
         )
         _merge(parts, out_path)
 

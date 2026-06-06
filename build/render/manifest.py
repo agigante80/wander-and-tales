@@ -1,10 +1,11 @@
 """Generate the machine-readable site content manifest (site/manifest.json).
 
 A snapshot of the whole library for a website to ingest: every world and story with
-titles, tags, lore, beat headings, image paths, and the current versioned PDF links,
-in every required locale. Derived data, regenerated on every `build rebuild` (and via
-`python -m build manifest`), so it never drifts from the content. Not a render source,
-so writing it does not bump any PDF version.
+titles, tags, lore, beat headings, image paths, and PDF links, in every required
+locale. PDF filenames carry no version (stable URLs); each PDF entry instead records
+its git-derived version and date, so the site can show it. Derived data, regenerated
+on every `build rebuild` (and via `python -m build manifest`), so it never drifts from
+the content. Not a render source, so writing it does not bump any PDF version.
 """
 from __future__ import annotations
 
@@ -17,6 +18,7 @@ import yaml
 
 from build.locales import CANONICAL_LOCALE, REQUIRED_LOCALES
 from build.render import strings
+from build.render import version as ver
 from build.render.library import _LANG_NAME, _LEVEL_LABELS
 
 REPO = "https://github.com/agigante80/wander-and-tales"
@@ -44,6 +46,18 @@ def _beats(content_dir: Path) -> list[str]:
 def _first_pdf(root: Path, pattern: str) -> str | None:
     hits = sorted(glob.glob(pattern))
     return Path(hits[0]).relative_to(root).as_posix() if hits else None
+
+
+def _pdf(root: Path, path: str | None, content_inputs: list) -> dict | None:
+    """A PDF entry: its root-relative path plus the git-derived version and date.
+
+    Filenames carry no version (stable URLs), so the version travels here instead and
+    in the PDF colophon. Recomputed from git, deterministically matching the build.
+    """
+    if not path:
+        return None
+    vi = ver.version_info(root, content_inputs, ver.render_sources(root))
+    return {"path": path, "version": vi.label, "updated": vi.updated}
 
 
 def _image(root: Path, base: Path, img: dict) -> dict:
@@ -103,8 +117,14 @@ def _world(root: Path, out_dir: Path, world_dir: Path) -> dict:
         for loc in REQUIRED_LOCALES:
             d = str(out_dir / loc / wid)
             out[loc] = {
-                "world_book": _first_pdf(root, f"{d}/*-world-book-{loc}-*.pdf"),
-                "example_heroes": _first_pdf(root, f"{d}/*-example-heroes-{loc}-*.pdf"),
+                "world_book": _pdf(
+                    root, _first_pdf(root, f"{d}/*-world-book-{loc}.pdf"),
+                    ver.world_book_inputs(root, wid, loc),
+                ),
+                "example_heroes": _pdf(
+                    root, _first_pdf(root, f"{d}/*-example-heroes-{loc}.pdf"),
+                    ver.example_heroes_inputs(root, wid, loc),
+                ),
             }
         return out
 
@@ -129,9 +149,18 @@ def _world(root: Path, out_dir: Path, world_dir: Path) -> dict:
         for loc in REQUIRED_LOCALES:
             d = str(out_dir / loc / wid / sid)
             story_pdfs[loc] = {
-                "tale_simple": _first_pdf(root, f"{d}/*-tale-book-simple-{loc}-*.pdf"),
-                "tale_rich": _first_pdf(root, f"{d}/*-tale-book-rich-{loc}-*.pdf"),
-                "atlas": _first_pdf(root, f"{d}/*-atlas-{loc}-*.pdf"),
+                "tale_simple": _pdf(
+                    root, _first_pdf(root, f"{d}/*-tale-book-simple-{loc}.pdf"),
+                    ver.tale_book_inputs(root, wid, sid, loc, "simple"),
+                ),
+                "tale_rich": _pdf(
+                    root, _first_pdf(root, f"{d}/*-tale-book-rich-{loc}.pdf"),
+                    ver.tale_book_inputs(root, wid, sid, loc, "rich"),
+                ),
+                "atlas": _pdf(
+                    root, _first_pdf(root, f"{d}/*-atlas-{loc}.pdf"),
+                    ver.atlas_inputs(root, wid, sid, loc),
+                ),
             }
         stories.append({
             "id": sid,
@@ -181,9 +210,10 @@ def build_manifest(root: Path, out_dir: Path, manifest_path: Path | None = None)
     shared_pdfs = {}
     for loc in REQUIRED_LOCALES:
         g = str(out_dir / "guides")
+        guide_inputs = ver.guide_inputs(root, loc)  # the How to Play shares the guide version
         shared_pdfs[loc] = {
-            "guide": _first_pdf(root, f"{g}/Guide_for_the_Grown-Up_{loc}-*.pdf"),
-            "how_to_play": _first_pdf(root, f"{g}/How_to_Play_{loc}-*.pdf"),
+            "guide": _pdf(root, _first_pdf(root, f"{g}/Guide_for_the_Grown-Up_{loc}.pdf"), guide_inputs),
+            "how_to_play": _pdf(root, _first_pdf(root, f"{g}/How_to_Play_{loc}.pdf"), guide_inputs),
         }
 
     manifest = {

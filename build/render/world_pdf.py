@@ -152,8 +152,7 @@ def build_world_pdf(
         parts.append(pages.render_flowables(colo, tmp_path / "90_colophon.pdf", world))
 
         out_path = (
-            out_dir / locale / world_id
-            / f"{world_id}-world-book-{locale}-{version_info.label}.pdf"
+            out_dir / locale / world_id / f"{world_id}-world-book-{locale}.pdf"
         )
         _merge(parts, out_path)
 

@@ -1,7 +1,7 @@
 ---
 import Base from "../../../../layouts/Base.astro";
 import { LANGS, SITE_URL, localeOf } from "../../../../consts";
-import { worlds, site, mediaUrl, pdfUrl, narrationHtml } from "../../../../lib/content";
+import { worlds, site, mediaUrl, pdfUrl, pdfVer, narrationHtml } from "../../../../lib/content";
 import { t, AGE_RANGE } from "../../../../lib/i18n";
 
 export function getStaticPaths() {
@@ -29,9 +29,8 @@ const players = story.tags.players ?? {};
 const playersText = players.max ? `${players.min} to ${players.max}` : `${players.min}+`;
 const skills = (story.tags.skills ?? []).map((s: string) => s.replace(/-/g, " ")).join(", ");
 
-const taleSimple = pdfUrl(story.pdfs?.[locale]?.tale_simple);
-const taleRich = pdfUrl(story.pdfs?.[locale]?.tale_rich);
-const atlas = pdfUrl(story.pdfs?.[locale]?.atlas);
+const sp = story.pdfs?.[locale] ?? {};
+const ver = (e: any) => (pdfVer(e) ? ` (${pdfVer(e)})` : "");
 
 const jsonld = {
   "@context": "https://schema.org",
@@ -95,9 +94,9 @@ const jsonld = {
     <section class="mt-12 rounded-2xl bg-white border border-paper p-6">
       <h2 class="font-display text-xl text-pine">{t(lang!, "downloads")}</h2>
       <div class="mt-3 flex flex-wrap gap-2 text-sm">
-        {taleSimple && <a href={taleSimple} class="ring-1 ring-ink/15 px-3 py-1.5 rounded-full hover:bg-paper" rel="noopener">{t(lang!, "tale_book")}: {labels.simple}</a>}
-        {taleRich && <a href={taleRich} class="ring-1 ring-ink/15 px-3 py-1.5 rounded-full hover:bg-paper" rel="noopener">{t(lang!, "tale_book")}: {labels.rich}</a>}
-        {atlas && <a href={atlas} class="ring-1 ring-ink/15 px-3 py-1.5 rounded-full hover:bg-paper" rel="noopener">{t(lang!, "atlas")}</a>}
+        {pdfUrl(sp.tale_simple) && <a href={pdfUrl(sp.tale_simple)} class="ring-1 ring-ink/15 px-3 py-1.5 rounded-full hover:bg-paper" rel="noopener">{t(lang!, "tale_book")}: {labels.simple}{ver(sp.tale_simple)}</a>}
+        {pdfUrl(sp.tale_rich) && <a href={pdfUrl(sp.tale_rich)} class="ring-1 ring-ink/15 px-3 py-1.5 rounded-full hover:bg-paper" rel="noopener">{t(lang!, "tale_book")}: {labels.rich}{ver(sp.tale_rich)}</a>}
+        {pdfUrl(sp.atlas) && <a href={pdfUrl(sp.atlas)} class="ring-1 ring-ink/15 px-3 py-1.5 rounded-full hover:bg-paper" rel="noopener">{t(lang!, "atlas")}{ver(sp.atlas)}</a>}
       </div>
     </section>
   </article>

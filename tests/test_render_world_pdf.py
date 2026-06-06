@@ -9,7 +9,7 @@ def test_world_book_writes_nested_versioned_pdf(sample_repo, tmp_path):
     )
     assert out == (
         tmp_path / "en-GB" / "floating-isles"
-        / "floating-isles-world-book-en-GB-v0.0.pdf"
+        / "floating-isles-world-book-en-GB.pdf"
     )
     assert out.read_bytes().startswith(b"%PDF")
     # cover + glossary + idea bank + stories list + colophon = 5 pages

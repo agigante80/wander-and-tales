@@ -141,7 +141,7 @@ def build_atlas(
 
         out_path = (
             out_dir / locale / world_id / story_id
-            / f"{world_id}-{story_id}-atlas-{locale}-{version_info.label}.pdf"
+            / f"{world_id}-{story_id}-atlas-{locale}.pdf"
         )
         _merge(parts, out_path)
 
