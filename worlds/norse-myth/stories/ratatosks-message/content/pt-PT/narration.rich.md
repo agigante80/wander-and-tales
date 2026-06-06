@@ -1,6 +1,6 @@
 # A Mensagem Baralhada de Ratatosk
 
-*Lede em voz alta, ou deixai uma criança mais velha ler sozinha. Fazei uma pausa em
+*Leiam em voz alta, ou deixem uma criança mais velha ler sozinha. Façam uma pausa em
 cada pergunta para os heróis decidirem juntos. Aqui não há respostas erradas, só
 ideias mais corajosas para tentar.*
 
@@ -14,7 +14,7 @@ de toda a gente entre as raízes e o céu. Nunca deixou cair uma na vida. Até h
 
 Hoje o Ratatosk apressou-se de tal maneira que baralhou todas as mensagens. Por causa
 da confusão, a grande Águia no cimo da árvore acredita agora que um pequeno amigo lá
-em baixo, entre as raízes, disse algo maldoso sobre ela. E o pequeno amigo, ouvindo
+em baixo, entre as raízes, disse algo maldoso sobre ela. E o pequeno amigo, ao ouvir
 também as palavras erradas, acredita que a Águia disse algo maldoso em troca. Nenhum
 deles o fez. Foi só um emaranhado de mensagens trocadas. Mas os dois velhos amigos
 viraram as costas um ao outro, e a árvore inteira sente o frio disso.
@@ -34,7 +34,7 @@ Coração?*
 
 ## Paragem 1: Apanhar o Esquilo
 
-Saístes para debaixo da Grande Árvore do Mundo, e ali estava o Ratatosk, um risco de
+Saíram para debaixo da Grande Árvore do Mundo, e ali estava o Ratatosk, um risco de
 pelo vermelho a subir o tronco, à volta de um ramo e outra vez para baixo, demasiado
 atrapalhado para parar por quem quer que fosse. "Desculpem, desculpem, não há tempo,
 está tudo baralhado, não posso parar!", tagarelava enquanto passava a zunir num
@@ -48,7 +48,7 @@ descansar.
 sentar-se muito quietos e falar com uma voz suave e devagar? Podiam reparar para que
 lado ele corre e esperar com paciência pelo momento certo de lho oferecer?*
 
-Quando estendestes o petisco com doçura e falastes baixinho e com carinho, o Ratatosk
+Quando estenderam o petisco com doçura e falaram baixinho e com carinho, o Ratatosk
 abrandou, parou e por fim sentou-se. Trincou, a sua respiração rápida tornou-se firme
 e o seu coração acelerado por fim sossegou. "Oh, obrigado", suspirou. "É muito mais
 fácil pensar quando alguém é bondoso connosco. Agora, à trapalhada."
@@ -65,14 +65,14 @@ Lá desceram os Dois Corvos, Pensamento e Memória, a pousar ao vosso lado. Voam
 todos os fiordes e não esquecem nada, e bem gostam de deixar cair uma dica útil para
 os heróis que estão mesmo a esforçar-se.
 
-*Conseguem lembrar-se de quem vive onde na árvore? Lede cada mensagem com atenção e
+*Conseguem lembrar-se de quem vive onde na árvore? Leiam cada mensagem com atenção e
 procurem a pista lá dentro. Uma mensagem fala do vento e do céu largo lá no alto. Uma
 fala do fresco e do escuro fundo entre as raízes. Uma diz apenas um olá quente e
 amigo. Então a que amigo pertence cada mensagem?*
 
-Quando juntastes cada mensagem ao amigo certo, o grande emaranhado desapareceu por
+Quando juntaram cada mensagem ao amigo certo, o grande emaranhado desapareceu por
 completo. "É isso! É mesmo isso!", festejou o Ratatosk, a bater as patinhas e a
-rodopiar no sítio. Agora sabíeis ao certo o que levar, e a quem devia ir cada bondosa
+rodopiar no sítio. Agora sabiam ao certo o que levar, e a quem devia ir cada bondosa
 e verdadeira mensagem.
 
 ## Paragem 3: Subir e Entregar
@@ -90,12 +90,12 @@ como um fio de segurança, e segui-la a subir para poderem sempre encontrar o ca
 de volta? Podiam acender a vossa pequena lanterna para ver lá em baixo, entre as
 raízes fundas e escuras?*
 
-Quando atastes a lã vermelha e subistes devagar e com cuidado, chegastes por fim à
-Águia no seu alto ninho. Lestes em voz alta a mensagem bondosa e sincera, a que tinha
+Quando ataram a lã vermelha e subiram devagar e com cuidado, chegaram por fim à
+Águia no seu alto ninho. Leram em voz alta a mensagem bondosa e sincera, a que tinha
 sido dela o tempo todo. A cara carrancuda da Águia suavizou-se em espanto. "Oh", disse
 ela baixinho. "Então o meu velho amigo nunca foi maldoso comigo. Foi só uma
-trapalhada." Depois seguistes a lã para baixo, para baixo, para baixo, até às raízes,
-com a vossa pequena lanterna a brilhar, e destes ao pequeno amigo a mensagem
+trapalhada." Depois seguiram a lã para baixo, para baixo, para baixo, até às raízes,
+com a vossa pequena lanterna a brilhar, e deram ao pequeno amigo a mensagem
 verdadeira também. Os olhos do pequeno amigo ficaram redondos, brilhantes e felizes.
 
 ## Amigos de Novo

@@ -36,7 +36,7 @@ nisso. Pelo contrário, parecia satisfeita por ter visitantes que talvez pensass
 mesmo.
 
 *Vão ouvir com atenção e resolvê-lo juntos? Um palpite corajoso e bem pensado
-também é bem-vindo. O que tentais?*
+também é bem-vindo. O que tentam?*
 
 Quando a vossa resposta chegou, a esfinge baixou as grandes asas e abriu o portão.
 "Bem pensado", disse ela, quase a sorrir, e deixou-vos passar.
@@ -45,18 +45,18 @@ Quando a vossa resposta chegou, a esfinge baixou as grandes asas e abriu o port�
 
 Para além do portão, o caminho dividia-se, e voltava a dividir-se, num labirinto
 de velhos muros de pedra onde cada esquina parecia exatamente igual à última. Uma
-escolha errada e podereis vaguear até anoitecer.
+escolha errada e podem vaguear até anoitecer.
 
-Um sátiro de pernas de cabra trepou para cima de um muro, sorrindo. Era o Silvado,
+Um sátiro de pernas de cabra trepou para cima de um muro, a sorrir. Era o Silvado,
 que gostava de um viajante e de uma boa piada na mesma medida. Cantarolou uma
 melodia e inclinou a cabeça em direção a um beco sombrio.
 
 *Como vão evitar perder o caminho? Levam um novelo de fio dourado, e o Silvado
 parece disposto a ajudar. Qual é o vosso plano?*
 
-Ao atar o fio à entrada e deixá-lo arrastar atrás de vós, cada passo passou a ser
-um passo que podereis desfazer. O labirinto não consegue prender um herói com um
-fio e, em breve, saístes para a longa luz dourada da tarde.
+Ao atar o fio à entrada e deixá-lo arrastar atrás de vocês, cada passo passou a ser
+um passo que podem desfazer. O labirinto não consegue prender um herói com um
+fio e, em breve, saíram para a longa luz dourada da tarde.
 
 ## Paragem 3: O Gigante Solitário
 
@@ -64,22 +64,22 @@ E ali, por fim, estava a fonte. Mas um gigante estava sentado mesmo à frente de
 um olho enorme, dois braços cruzados e uma cara dura como a falésia atrás dele. O
 vosso coração bateu com força. Por um momento, parecia o fim da aventura.
 
-Então ele fungou. E percebestes. Não estava zangado. Estava sozinho. Nenhum
+Então ele fungou. E perceberam. Não estava zangado. Estava sozinho. Nenhum
 viajante alguma vez ficara a falar com ele, e o longo silêncio tornara-o
 rabugento.
 
 *Isto nunca foi uma luta. Que bondade poderiam mostrar-lhe? Têm um bolo de mel
 para partilhar. Poderiam perguntar-lhe o nome, ou simplesmente dizer-lhe que não
-está sozinho. O que fazeis?*
+está sozinho. O que fazem?*
 
-Quando lhe oferecestes a vossa bondade, o enorme olho do gigante transbordou, e
+Quando lhe ofereceram a vossa bondade, o enorme olho do gigante transbordou, e
 ele limpou-o com as costas de uma mão imensa. "Ficaram", sussurrou, como se mal
 pudesse acreditar. "Vocês são meus amigos." E chegou-se para o lado, muito devagar.
 
 ## A Fonte Volta a Cantar
 
-Ficastes à beira da água silenciosa e erguestes a pequena lira. A melodia que
-tocastes era simples e um pouco trémula, mas vinha mesmo do coração, e era só isso
+Ficaram à beira da água silenciosa e ergueram a pequena lira. A melodia que
+tocaram era simples e um pouco trémula, mas vinha mesmo do coração, e era só isso
 que a fonte estava à espera.
 
 A superfície tremeu. Entre os salpicos ergueram-se as Ninfas Cantoras, a rir, com

@@ -28,9 +28,9 @@ de papel e dizer "por favor, abelhas", e o frasco fica cheio.
 **O desafio.** O bolo de mel do Milo tem de ser partilhado para que cada convidado
 da festa fique com uma fatia e ninguém fique de fora, incluindo o enorme Ciclope.
 
-**Solução pretendida.** Este é um momento de Matemática e Coração. Contai os
+**Solução pretendida.** Este é um momento de Matemática e Coração. Contem os
 convidados juntos (um punhado de gente da vila, a Dafne, o Milo, os dois heróis e o
-gigante). Cortai uma fatia para cada, e lembrai-vos de que justo não quer dizer
+gigante). Cortem uma fatia para cada, e lembrem-se de que justo não quer dizer
 igual: o gigante é dez vezes maior, por isso precisa de uma fatia muito maior,
 enquanto a criança mais pequena se contenta com uma pequena. Qualquer plano em que
 todos tenham que chegue é um sucesso.
@@ -52,7 +52,7 @@ dar a coragem de vir.
 **Solução pretendida.** Este é um momento de Coração e Coragem. Qualquer
 tranquilização sincera e calorosa resulta: dizer-lhe claramente que é desejado,
 lembrar-lhe que a vila são agora seus amigos, mostrar-lhe a grande fatia guardada
-só para ele, ou oferecer-vos para descer ao seu lado. É a bondade, e não um plano
+só para ele, ou oferecer-se para descer ao seu lado. É a bondade, e não um plano
 qualquer, que leva esta paragem.
 
 **Ajuda.** Se as crianças não souberem o que dizer, faz o gigante perguntar

@@ -20,7 +20,7 @@ por sermos corajosos, meigos e cheios de ideias."
 
 ## Paragem 1: O Portão dos Enigmas
 
-Subis a estrada soalheira e chegais a um alto portão de mármore. Nos degraus está
+Sobem a estrada soalheira e chegam a um alto portão de mármore. Nos degraus está
 sentada uma esfinge, grande como um leão, com asas douradas e um rosto bondoso e
 sereno.
 
@@ -44,33 +44,33 @@ Cantarola uma cançãozita e aponta um caminho com uma piscadela.
 *Como vão evitar perder-se? Têm um novelo de fio dourado. O que poderiam fazer com
 ele? Poderiam pedir uma dica ao Silvado?*
 
-Quando atais o fio no início e o seguis, nunca perdeis o caminho. Saís do outro
+Quando atam o fio no início e o seguem, nunca perdem o caminho. Saem do outro
 lado, para a luz da tarde.
 
 ## Paragem 3: O Gigante Solitário
 
-Por fim chegais à fonte. Mas um gigante enorme está sentado à frente dela, com um
+Por fim chegam à fonte. Mas um gigante enorme está sentado à frente dela, com um
 grande olho e uma cara funda e triste. Cruza os braços. Parece assustador.
 
-Mas escutai. Ele fungou. Será que está, talvez, um bocadinho sozinho? Nunca
+Mas escutem. Ele fungou. Será que está, talvez, um bocadinho sozinho? Nunca
 ninguém o vem visitar.
 
 *Isto não é uma luta. Que coisa meiga poderiam fazer? Têm um bolo de mel para
 partilhar. Poderiam perguntar-lhe o nome. Poderiam dizer-lhe que não está sozinho.
-O que tentais?*
+O que tentam?*
 
 Quando são meigos com ele, o grande olho do gigante enche-se de lágrimas felizes.
 Ele chega-se para o lado. "Obrigado por serem meus amigos", diz baixinho.
 
 ## A Fonte Volta a Cantar
 
-Agora estais junto à fonte silenciosa. Tirais a pequena lira e tocais uma melodia
+Agora estão junto à fonte silenciosa. Tiram a pequena lira e tocam uma melodia
 simples, mesmo do coração.
 
 A água estremece. Ninfas meigas erguem-se entre os salpicos, a rir e a cantar. A
 fonte volta a ganhar vida! Lá em baixo, cada poço da vila enche-se, fresco e
 limpo.
 
-Lá no alto da montanha, a boa Atena sorri para vós. Conseguiram, juntos. Foram
+Lá no alto da montanha, a boa Atena sorri para vocês. Conseguiram, juntos. Foram
 corajosos, foram cheios de ideias e, acima de tudo, foram meigos. Muito bem,
 heróis.

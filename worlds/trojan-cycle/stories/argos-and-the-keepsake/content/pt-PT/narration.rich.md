@@ -35,7 +35,7 @@ marcar o caminho, para que nunca se perdessem. Depois levou dois dedos aos lábi
 assobiou, e praia acima, num trote teso e velho, veio um cão de focinho grisalho, de
 olhos vivos e bondosos e de cauda que não parava.
 
-"Este é o Argos, o Cão Fiel", disse Ulisses, fazendo festas atrás das orelhas do cão.
+"Este é o Argos, o Cão Fiel", disse Ulisses, a fazer festas atrás das orelhas do cão.
 "Ele nunca esquece um amigo, e nunca esquece um cheiro. Sigam o focinho dele. Sigam-se
 uns aos outros. E, façam o que fizerem, não deixem ninguém para trás."
 
@@ -44,7 +44,7 @@ Lealdade?*
 
 ## Etapa 1: A Seguir Argos
 
-Argos baixou o focinho à areia e partiu, e vós seguistes atrás dele pela orla
+Argos baixou o focinho à areia e partiu, e vocês seguiram atrás dele pela orla
 luminosa do mar. Não tinha pressa. A cada poucos passos parava numa pequena marca,
 cheirava-a fundo e olhava para trás para ver se também estavam atentos.
 
@@ -54,7 +54,7 @@ estava uma marca larga na areia, onde um viajante cansado se sentara a descansar
 mais adiante as pegadas seguiam numa direção bem clara.
 
 *Para que lado andou o vosso amigo? Vão agachar-se com o Argos e ler os rastos juntos,
-distinguindo as marcas que levam em frente das que não levam a lado nenhum? O Argos
+a distinguir as marcas que levam em frente das que não levam a lado nenhum? O Argos
 diz-vos se estão a aquecer.*
 
 Quando escolheram o rasto para onde as pistas apontavam, Argos soltou um único ladrido
@@ -72,8 +72,8 @@ Junto à primeira poça estava uma única concha branca. Junto à segunda estava
 concha às riscas, castanha e creme. Junto à terceira estava um seixo cinzento e liso,
 redondo como um ovo.
 
-Argos farejou com cuidado por todos os rochedos, depois sentou-se e olhou para vós, e
-percebestes que ele tinha encontrado duas pistas para guardarem na cabeça. O cheiro,
+Argos farejou com cuidado por todos os rochedos, depois sentou-se e olhou para vocês, e
+perceberam que ele tinha encontrado duas pistas para guardarem na cabeça. O cheiro,
 parecia dizer ele, tinha passado por uma concha às riscas, e não por uma branca. E o
 cheiro não se demorara onde estava o seixo cinzento.
 
@@ -89,7 +89,7 @@ dele. *Bem lembrado.*
 
 ## Etapa 3: A Duna Distante
 
-O rasto seguiu sempre em frente, até as naus ficarem pequeninas atrás de vós, e
+O rasto seguiu sempre em frente, até as naus ficarem pequeninas atrás de vocês, e
 terminou numa duna solitária onde o vento andara atarefado toda a longa tarde, a
 levantar a areia pálida e a deixá-la cair. Se a lembrança tinha caído ali, o vento
 passara horas a escondê-la dos olhos.
@@ -99,11 +99,11 @@ repente parou completamente quieto, com uma pata levantada e as orelhas espetada
 fitar um único pedaço de areia como se conseguisse ver através dele.
 
 *Vão confiar no focinho fiel dele? Vão ajoelhar onde ele aponta e cavar, com cuidado e
-todos juntos, afastando a areia solta um punhado de cada vez, à procura de um canto
+todos juntos, a afastar a areia solta um punhado de cada vez, à procura de um canto
 quente de madeira de oliveira?*
 
 Varreram a areia, e ali estava ela, um brilho de madeira talhada a acordar à luz do
-sol. Argos terminou o trabalho ele próprio, tirando o resto da areia com uma pata
+sol. Argos terminou o trabalho ele próprio, a tirar o resto da areia com uma pata
 suave e cuidadosa, e depois ergueu a pequena prenda na boca, orgulhoso como tudo, e
 deixou-a, quente e inteira, nas vossas mãos à espera.
 
@@ -122,7 +122,7 @@ Ulisses, o Brilhante observava, e havia algo de doce no seu rosto vivo. "Um bra�
 forte não teria conseguido fazer isto", disse ele. "Só corações fiéis que não
 deixariam um amigo para trás. Essa é a melhor ideia que alguma vez existiu, e ela é
 vossa." E bem ao longe, onde rolavam as ondas luminosas, Tétis, a Mãe do Mar ergueu o
-rosto doce da água e sorriu para vós, e o mar ficou calmo e amável para a viagem que
+rosto doce da água e sorriu para vocês, e o mar ficou calmo e amável para a viagem que
 vinha.
 
 Assim as naus voltaram a casa ao pôr do sol, com cada amigo a bordo e cada tesouro em

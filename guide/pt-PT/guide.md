@@ -66,7 +66,7 @@ Um kit chega como uns quantos PDFs curtos. Não tens de os imprimir todos.
 - **Este Guia** (lê uma vez). É o que estás a ler agora. Depois disto ficas a postos para
   qualquer kit da biblioteca.
 
-O caminho mais curto: abre o **Livro do Conto** e lê-o em voz alta, mostrando cada imagem
+O caminho mais curto: abre o **Livro do Conto** e lê-o em voz alta, a mostrar cada imagem
 do **Atlas** à medida que chegas a esse lugar, e dá a cada jogador uma folha de aventura.
 
 **Sem impressora? Sem problema.** Nunca tens de imprimir tudo. Podes ler a história num
@@ -149,7 +149,7 @@ Começa pela promessa, criem um herói cada, depois começa.
 - **Prepara o cenário.** Lê a abertura da história em voz alta, devagar, e faz a primeira
   pergunta. A partir daí a história leva-vos aos dois pela mão.
 
-Depois continuem a jogar, seguindo o resto deste Guia. Agora são todos aventureiros.
+Depois continuem a jogar, a seguir o resto deste Guia. Agora são todos aventureiros.
 
 ## A única regra de ouro: sim, e
 

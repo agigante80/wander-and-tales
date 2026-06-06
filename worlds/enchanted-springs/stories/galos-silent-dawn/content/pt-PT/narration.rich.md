@@ -1,6 +1,6 @@
 # A Madrugada Silenciosa do Galo
 
-*Lede em voz alta, ou deixai uma criança mais velha ler sozinha. Fazei pausas muitas vezes
+*Leiam em voz alta, ou deixem uma criança mais velha ler sozinha. Façam pausas muitas vezes
 para que todos possam pensar, maravilhar-se e experimentar ideias. Aqui não há respostas
 erradas, só novos caminhos a seguir.*
 

@@ -6,7 +6,7 @@ nesta aventura. Uma jogada falhada nunca é uma derrota; ninguém perde.
 
 ## Preparar
 
-- Não precisas de mapa impresso para esta. Imaginai a Rua do Mercado, ou disponde
+- Não precisas de mapa impresso para esta. Imaginem a Rua do Mercado, ou disponham
   alguns objetos de casa para serem as bancas e as suas mercadorias.
 - Cada jogador escolhe uma magia: Luz, Crescer, Transformação ou Voz. Duas magias
   diferentes resultam melhor, porque combiná-las é metade da diversão. (A Voz é
@@ -26,10 +26,10 @@ que sair. O Guia explica como funciona.
 | Lança | Surpresa |
 |---|---|
 | 1 | Uma Borboleta Mensageira passa a esvoaçar e dá-vos uma dica grátis. |
-| 2 | Um vendedor simpático dá-vos um petisco: recuperai uma estrela de energia. |
+| 2 | Um vendedor simpático dá-vos um petisco: recuperem uma estrela de energia. |
 | 3 | Uma lufada de vento arrumadinha: o próximo desafio é Fácil. |
-| 4 | O Gato de Névoa aparece e ronrona. Está tudo bem; continuai. |
-| 5 | Reparais numa etiqueta útil que ninguém viu: guardai uma jogada para usar mais tarde. |
+| 4 | O Gato de Névoa aparece e ronrona. Está tudo bem; continuem. |
+| 5 | Reparam numa etiqueta útil que ninguém viu: guardem uma jogada para usar mais tarde. |
 | 6 | Um músico de rua começa uma melodia e toda a gente trauteia durante um turno feliz. |
 
 ## Como acaba

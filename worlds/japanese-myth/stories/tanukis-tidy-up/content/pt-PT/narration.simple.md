@@ -23,7 +23,7 @@ corajosos, bondosos e cheios de ideias."
 
 ## Paragem 1: As Barracas Desarrumadas
 
-Correis até ao mercado e encontrais o Pon, o Tanuki, sentado no meio da confusão. As
+Correm até ao mercado e encontram o Pon, o Tanuki, sentado no meio da confusão. As
 orelhas caem-lhe. O nariz treme-lhe. "Estraguei tudo", funga ele. "Eu só queria ajudar."
 
 Está demasiado abatido para arrumar. Precisa primeiro de uma palavra bondosa.
@@ -37,7 +37,7 @@ amigos", diz ele. "Vamos arrumar juntos." E levanta-se de um salto, pronto a aju
 
 ## Paragem 2: A Grande Arrumação
 
-Agora olhais para a trapalhada. Leques, fruta e lanternas estão tudo misturado num grande
+Agora olham para a trapalhada. Leques, fruta e lanternas estão tudo misturado num grande
 monte. Tudo tem de voltar à barraca certa antes de a festa começar.
 
 Os leques pertencem à barraca dos leques. A fruta pertence aos cestos da fruta. As

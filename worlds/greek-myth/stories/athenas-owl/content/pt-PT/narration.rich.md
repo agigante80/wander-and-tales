@@ -34,12 +34,12 @@ para o lado. Estava demasiado assustada para ser ainda levada para qualquer lado
 
 *Como poderiam ajudá-la a sentir-se segura antes de partirem? Poderiam mexer-se
 devagar e manter as vozes baixas? Poderiam estender uma mão firme e simplesmente
-esperar que ela vos escolha? O que tentais?*
+esperar que ela vos escolha? O que tentam?*
 
-Quando ficastes calmos e meigos e a deixastes vir ter convosco ao seu próprio
+Quando ficaram calmos e meigos e a deixaram vir ter convosco ao seu próprio
 ritmo, a Glaux deixou de tremer. Estudou-vos com aqueles olhos redondos cor de
 âmbar, deu um pequeno pio contente e saltou para a vossa mão à espera. A partir
-desse momento, confiou em vós por completo.
+desse momento, confiou em vocês por completo.
 
 ## Paragem 2: Os Trilhos Sussurrantes
 
@@ -47,7 +47,7 @@ Onde a vila terminava, três trilhos estreitos serpenteavam para o nevoeiro e, n
 penumbra cinzenta, cada um parecia exatamente igual aos outros. Só um deles subia
 ao templo de Atena; os outros dois levar-vos-iam às voltas até o dia se esgotar.
 
-Um sátiro de pernas de cabra trepou para cima de um muro, sorrindo por entre o
+Um sátiro de pernas de cabra trepou para cima de um muro, a sorrir por entre o
 nevoeiro. Era o Silvado, que gostava de um viajante e de uma boa piada na mesma
 medida, e que estava sempre contente por apontar o caminho aos heróis de quem
 gostava.
@@ -57,8 +57,8 @@ noite, a Glaux deixou cair penas cinzentas e macias pelo caminho. Poderiam segui
 esse rasto para cima? Poderiam pedir uma dica ao alegre Silvado? Qual é o vosso
 plano?*
 
-Ao seguirdes as penas espalhadas, ou ao pedirdes ajuda ao meigo Silvado,
-encontrastes o único trilho verdadeiro, e começastes a subir juntos pelo nevoeiro
+Ao seguirem as penas espalhadas, ou ao pedirem ajuda ao meigo Silvado,
+encontraram o único trilho verdadeiro, e começaram a subir juntos pelo nevoeiro
 que se arrastava.
 
 ## Paragem 3: O Poleiro Alto
@@ -71,9 +71,9 @@ sozinha.
 
 *Isto nunca foi sobre ser forte. Como poderiam ajudá-la a subir? Poderiam levantar
 um ramo firme para fazer uma ponte para as suas patinhas? Poderiam animá-la, para
-que ela encontrasse a sua coragem? O que fazeis?*
+que ela encontrasse a sua coragem? O que fazem?*
 
-Quando a ajudastes com paciência e bondade, a Glaux ganhou alento, abriu as
+Quando a ajudaram com paciência e bondade, a Glaux ganhou alento, abriu as
 pequenas asas e esvoaçou por fim até ao seu poleiro. Ali acomodou-se no recanto
 quente, em segurança e aconchegada, e enfiou a cabeça debaixo de uma asa.
 

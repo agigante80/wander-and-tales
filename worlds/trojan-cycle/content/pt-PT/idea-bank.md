@@ -8,7 +8,7 @@ ideia caminha para a imaginação, a amizade e ninguém perder.*
 
 - Ulisses, o Brilhante passa por ali, coça a barba e faz uma pergunta que é, na
   verdade, uma pista disfarçada.
-- Argos, o Cão Fiel trota até vós, cheira o ar e aponta o focinho para o lado certo.
+- Argos, o Cão Fiel trota até vocês, cheira o ar e aponta o focinho para o lado certo.
 - Uma gaivota dá voltas lá no alto e deixa cair uma pena sobre aquilo que importa.
 - Deixa os heróis gastar uma estrela de energia para "lembrar uma manha que um velho
   marinheiro lhes ensinou".

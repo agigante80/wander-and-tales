@@ -23,14 +23,14 @@ meigos e cheios de ideias."
 ## Paragem 1: A Praça com Nevoeiro
 
 A Glaux está no meio da praça, muito pequenina e muito assustada. As penas estão
-eriçadas. Os grandes olhos redondos piscam depressa. Quando dais um passo
+eriçadas. Os grandes olhos redondos piscam depressa. Quando dão um passo
 demasiado rápido, ela salta para o lado.
 
 *Como poderiam ajudá-la a sentir-se segura? Poderiam mexer-se devagar e falar
-baixinho? Poderiam estender uma mão firme para ela poisar? O que tentais?*
+baixinho? Poderiam estender uma mão firme para ela poisar? O que tentam?*
 
-Quando estais calmos e meigos, a Glaux deixa de tremer. Salta para a vossa mão e
-dá um piozinho feliz. Agora confia em vós.
+Quando estão calmos e meigos, a Glaux deixa de tremer. Salta para a vossa mão e
+dá um piozinho feliz. Agora confia em vocês.
 
 ## Paragem 2: Os Trilhos Sussurrantes
 
@@ -39,14 +39,14 @@ iguais. Só um leva ao templo de Atena.
 
 Um sátiro de pernas de cabra espreita por cima de um muro. É o Silvado, que gosta
 de um viajante e de uma boa piada. Cantarola e inclina a cabeça, pronto a ajudar se
-pedirdes com jeito.
+pedirem com jeito.
 
 *Como vão escolher o trilho certo? Olhem com atenção. A Glaux deixou cair penas
 cinzentas e macias quando caiu. Poderiam segui-las para cima? Poderiam pedir uma
 dica ao Silvado?*
 
-Quando seguis o rasto de penas, ou pedis ao meigo Silvado, encontrais o trilho
-certo e subis pelo nevoeiro juntos.
+Quando seguem o rasto de penas, ou pedem ao meigo Silvado, encontram o trilho
+certo e sobem pelo nevoeiro juntos.
 
 ## Paragem 3: O Poleiro Alto
 
@@ -56,15 +56,15 @@ Tem medo de voar até lá sozinha.
 
 *Isto não é sobre ser forte. Como poderiam ajudá-la a subir? Poderiam levantar um
 ramo firme como uma ponte? Poderiam animá-la para que se sinta corajosa? O que
-fazeis?*
+fazem?*
 
-Quando a ajudais com bondade, a Glaux esvoaça até ao seu poleiro e aninha-se, em
+Quando a ajudam com bondade, a Glaux esvoaça até ao seu poleiro e aninha-se, em
 segurança e quentinha por fim.
 
 ## A Glaux Volta a Casa
 
 Quando a mochinha se acomoda, dois olhos cinzentos e calmos abrem-se no templo. É a
-Atena, deusa das boas ideias, e está a sorrir para vós.
+Atena, deusa das boas ideias, e está a sorrir para vocês.
 
 O nevoeiro da manhã desfaz-se. A luz do sol espalha-se sobre a Vila das Oliveiras
 lá em baixo, quente e dourada. Do seu poleiro, a Glaux dá um piozinho de

@@ -10,12 +10,12 @@ A longa discórdia tinha enfim acabado, e acabara da forma mais surpreendente de
 não com lanças nem fogo, mas com amizade. Os grandes portões cor de mel de Troia
 ficavam abertos ao sol da manhã, e os dois velhos acampamentos partilhavam o pão como
 vizinhos. Restava agora só uma viagem, a mais longa de todas. Era tempo de voltar a
-casa, atravessando o Mar Cor de Vinho, todo o caminho de volta até à Sala do Tear, onde
+casa, a atravessar o Mar Cor de Vinho, todo o caminho de volta até à Sala do Tear, onde
 uma lareira quente, um banquete de regresso e velhos amigos tinham esperado por todos
 os longos anos de ausência.
 
 Ulisses, o Brilhante levou-vos os dois até onde as naus estavam encalhadas na longa
-areia. "É um longo caminho para casa", disse ele, olhando para a água vasta e inquieta,
+areia. "É um longo caminho para casa", disse ele, a olhar para a água vasta e inquieta,
 "e o mar é dono dos seus próprios segredos. Mas vocês são cheios de ideias, são
 corajosos e mantêm a palavra aos amigos, e isso vale mais numa viagem do que um porão
 cheio de tesouro."
@@ -41,8 +41,8 @@ bem atados dentro de um grande saco de couro.
 Éolo recebeu-vos com um rosto amigável, mas era um anfitrião cauteloso. Só emprestaria
 um vento favorável, explicou, aos viajantes que lho pedissem com uma boa ideia e com
 cortesia, e que não fossem gananciosos a ponto de andarem à espreita de mais do que
-precisavam. "Pedi-me bem", disse ele, com um brilho no olhar, "e dai-me a vossa palavra
-de que nunca desatareis o saco dos ventos para espreitar lá dentro. O vento é um
+precisavam. "Peçam-me bem", disse ele, com um brilho no olhar, "e deem-me a vossa palavra
+de que nunca desatam o saco dos ventos para espreitar lá dentro. O vento é um
 presente, não um tesouro para guardar com avareza."
 
 *Como vão pedir um vento favorável a Éolo? Conseguem encontrar palavras boas e corteses,
@@ -52,7 +52,7 @@ plano?*
 Quando lho pediram com uma boa ideia e com amabilidade, e deram a vossa palavra, Éolo
 atirou a cabeça para trás e riu de contente. Juntou um vento suave de oeste nas mãos e
 atou-o com doçura na vossa vela. "Um vento favorável para amigos que sabem pedir", disse
-ele, e as falésias de bronze afundaram-se atrás de vós enquanto a vossa nau saltava para
+ele, e as falésias de bronze afundaram-se atrás de vocês enquanto a vossa nau saltava para
 a frente sobre as ondas.
 
 ## Etapa 2: As Sereias Cantoras
@@ -79,17 +79,17 @@ hesitou e mudou. As Sereias ergueram a cabeça, maravilhadas, e depois riram, um
 não se ouvia naqueles rochedos havia cem anos. Cantaram de novo, mas agora a canção era
 luminosa e alegre, e enrolou-se à volta da vossa nau como uma mão amiga e guiou-vos em
 segurança por entre os rochedos. "Voltem um dia para nos visitar!", chamaram elas,
-acenando até os rochedos ficarem pequeninos atrás de vós.
+a acenar até os rochedos ficarem pequeninos atrás de vocês.
 
 ## Etapa 3: Em Casa, Por Fim
 
 Por fim, lá longe sobre a água luminosa, uma costa baixa e verde apareceu, e algo dentro
-de vós ficou muito quieto e muito certo. Seria mesmo a casa, depois de todo este tempo?
+de vocês ficou muito quieto e muito certo. Seria mesmo a casa, depois de todo este tempo?
 Debruçaram-se sobre a amurada e olharam, e olharam outra vez, pois tinham de ter a
 certeza.
 
 A nau deslizou para uma areia que meio recordavam, e seguiram um caminho a serpentear
-desde a costa até que a Sala do Tear se ergueu diante de vós, tal como sempre estivera.
+desde a costa até que a Sala do Tear se ergueu diante de vocês, tal como sempre estivera.
 Pela porta aberta conseguiam ver o grande tear de pé à luz da lareira, com um tecido
 meio acabado, como se alguém ali andasse a trabalhar com paciência todo o tempo em que
 estiveram fora. Um velho amigo ergueu os olhos junto ao tear. E ali, enroscado junto à
@@ -101,7 +101,7 @@ que ali espera?*
 
 Era o Argos, o Cão Fiel, que em toda a sua longa vida nunca esquecera um amigo nem um
 cheiro. Por um instante limitou-se a olhar. Depois levantou-se nas suas pernas velhas e
-tesas e trotou até vós, a abanar a cauda com tanta força que todo ele abanava com ela, e
+tesas e trotou até vocês, a abanar a cauda com tanta força que todo ele abanava com ela, e
 souberam, sem sombra de dúvida, que estavam em casa, por fim.
 
 ## Em Casa, Por Fim
@@ -109,11 +109,11 @@ souberam, sem sombra de dúvida, que estavam em casa, por fim.
 A Sala do Tear encheu-se de calor e de luz dourada. O banquete de regresso estava posto
 ao longo da mesa comprida: pão fresco ainda quente do forno, figos maduros e mel claro.
 Os velhos amigos atiraram-vos os braços ao pescoço e chamaram-vos pelo vosso nome de
-herói, mal acreditando que o longo caminho para casa estava feito. E Argos, o Cão Fiel
+herói, e mal conseguiam acreditar que o longo caminho para casa estava feito. E Argos, o Cão Fiel
 não se separava do vosso lado, nem por um único instante.
 
 Bem ao longe, sobre o mar calmo e luzente, Tétis, a Mãe do Mar ergueu os olhos das ondas
 suaves e sorriu. Tinham atravessado todo o vasto Mar Cor de Vinho, das costas ventosas
 de Troia até à vossa própria porta acolhedora, e tinham-no conseguido juntos: com a
-vossa coragem, com a vossa imaginação e, acima de tudo, mantendo a palavra uns aos
+vossa coragem, com a vossa imaginação e, acima de tudo, por manterem a palavra uns aos
 outros. Muito bem, heróis das costas ventosas. Bem-vindos a casa.

@@ -1,6 +1,6 @@
 # O Pente Perdido da Moura
 
-*Lede em voz alta, devagar e com carinho. Parai muitas vezes para deixar as crianças
+*Leiam em voz alta, devagar e com carinho. Parem muitas vezes para deixar as crianças
 responder. Aqui não há respostas erradas, só novas ideias para experimentar.*
 
 ## Antes de começar
@@ -45,7 +45,7 @@ Uma vozinha na água trauteia: "Folha, estrela, onda, folha, estrela, e depois?"
 
 *Que marca vem a seguir no padrão? Que pedra é que pisas?*
 
-Quando pisais a pedra da onda, a água acalma e deixa-vos passar. Na outra margem, o rasto
+Quando pisam a pedra da onda, a água acalma e deixa-vos passar. Na outra margem, o rasto
 brilhante segue por baixo de uma pequena ponte de pedra.
 
 ## Paragem 3: O Cantinho do Trasgo
@@ -60,7 +60,7 @@ gosta de coisas brilhantes e de um bom jogo, e está um bocadinho sozinho aqui e
 *Como te fazes amigo do Trasgo? Podias oferecer uma troca, uma adivinha ou um jogo? De que
 gostaria um duende brincalhão?*
 
-Quando trocais por algo de que ele gosta, ou ganhais o jogo dele, o Trasgo ri-se e entrega
+Quando trocam por algo de que ele gosta, ou ganham o jogo dele, o Trasgo ri-se e entrega
 o pente. "Venham visitar-me outra vez", diz ele. "É sossegado aqui em baixo."
 
 ## Paragem 4: O Pente Devolvido

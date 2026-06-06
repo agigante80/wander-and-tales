@@ -51,7 +51,7 @@ baixinho. Rema convosco para dentro da névoa, e do outro lado espera a Terra da
 
 Saltam para terra, para dentro do Outro Mundo. As macieiras estão todas em flor, a luz é
 dourada, e ali está o vosso amigo, a rir no meio das flores. Mas quando chamam o seu nome,
-ele só se lembra de vós pela metade. "Fiquem", diz ele. "Fiquem aqui para sempre. Aqui é
+ele só se lembra de vocês pela metade. "Fiquem", diz ele. "Fiquem aqui para sempre. Aqui é
 sempre tão lindo."
 
 Seria fácil ficar. É esse o perigo. Mas vocês lembram-se de casa: a Casa Redonda quente, a
@@ -62,7 +62,7 @@ de casa até ele sorrir. Podiam atar a lã vermelha para que todos encontrem o c
 volta. O que fazem?*
 
 Com doçura e carinho, ajudam o vosso amigo a lembrar-se. Os olhos dele clareiam. "Casa",
-diz ele. "Sim. Vamos para casa juntos." Atais a lã vermelha com força, e todos escolhem,
+diz ele. "Sim. Vamos para casa juntos." Atam a lã vermelha com força, e todos escolhem,
 juntos, regressar.
 
 ## De Volta a Casa Através da Névoa
@@ -72,5 +72,5 @@ vermelha até casa. A névoa abre-se. Ali está a margem verde, luminosa ao sol 
 vosso amigo são e a sorrir ao vosso lado.
 
 Voltaram para casa juntos, e agora têm também uma amiga selkie. Lá no alto, nas colinas
-verdes, Danu, a Bondosa, olha para baixo e sorri para vós. Vocês conseguiram. Foram
+verdes, Danu, a Bondosa, olha para baixo e sorri para vocês. Vocês conseguiram. Foram
 corajosos, foram bondosos e, acima de tudo, estavam cheios de ideias. Muito bem, heróis.

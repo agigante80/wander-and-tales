@@ -17,12 +17,12 @@ tratarem o gelo com cuidado e **atravessar juntos de mãos dadas** para ninguém
 para trás. Estender a **lã vermelha** como linha-guia, ou testar o caminho com
 atenção, resulta igualmente bem.
 
-**Ajuda.** Se as crianças hesitarem, fazei os **Dois Corvos** girar lá no alto e
-"grasnar" para os heróis formarem uma fila cuidadosa e espalhada, ou deixai-as gastar
+**Ajuda.** Se as crianças hesitarem, façam os **Dois Corvos** girar lá no alto e
+"grasnar" para os heróis formarem uma fila cuidadosa e espalhada, ou deixem-nas gastar
 uma estrela de energia para firmar os pés. Atravessar devagar e com leveza resulta
 sempre, e repõe uma estrela de energia.
 
-**Tornar mais simples.** Andai em bicos de pés pela sala todos juntos, como pinguins
+**Tornar mais simples.** Andem em bicos de pés pela sala todos juntos, como pinguins
 calados e cuidadosos no gelo escorregadio.
 
 ## Paragem 2: O Gigante de Gelo Solitário (Difícil, depois sem jogada)
@@ -38,11 +38,11 @@ estar sozinho. Quando as crianças são bondosas, a cara gelada dele aquece num 
 torna-se amigo delas e vem com elas. Não há jogada para o vencer, porque não há como o
 vencer; só há fazer dele amigo.
 
-**Ajuda.** Se as crianças congelarem, ou quiserem "vencer" pela força, fazei o gigante
+**Ajuda.** Se as crianças congelarem, ou quiserem "vencer" pela força, façam o gigante
 tremer e perguntar, muito baixinho: "Também estão com frio e sozinhos?" Uma única
 palavra quente derrete-o. A bondade é o desafio inteiro, e não pode ser falhada.
 
-**Tornar mais simples.** Dai ao gigante solitário um grande abraço quentinho e dizei
+**Tornar mais simples.** Deem ao gigante solitário um grande abraço quentinho e digam
 "podes ser nosso amigo".
 
 ## Paragem 3: A Ponte do Arco-Íris (Normal)
@@ -53,16 +53,16 @@ atravessar, a levar a brasa, e chegar ao alto salão para reacender o calor do m
 
 **Solução prevista.** Este é um momento de Coração e Imaginação. Como os heróis levam a
 **Brasa Sempre Quente** e agora viajam com o **Gigante de Gelo Solitário** como amigo,
-os seus corações são exatamente o que a ponte procura. Atravessando com verdade e com
-cuidado, mantendo o novo amigo ao seu lado, a ponte ilumina-se e aguenta. No topo,
+os seus corações são exatamente o que a ponte procura. Ao atravessarem com verdade e com
+cuidado, a manter o novo amigo ao seu lado, a ponte ilumina-se e aguenta. No topo,
 erguem a brasa e o calor do mundo acende-se outra vez.
 
-**Ajuda.** Se hesitarem à beira, fazei a ponte brilhar um pouco mais quente a cada
+**Ajuda.** Se hesitarem à beira, façam a ponte brilhar um pouco mais quente a cada
 palavra bondosa que dizem, para que um único e sincero "viemos trazer o calor de
 volta" ilumine o caminho. A ponte aguenta sempre para estes heróis; os seus corações
 já a mereceram.
 
-**Tornar mais simples.** Caminhai sobre uma fila de almofadas coloridas ou um cachecol
+**Tornar mais simples.** Caminhem sobre uma fila de almofadas coloridas ou um cachecol
 estendido no chão, de mãos dadas e a dizer uma cor a cada passo.
 
 ## O final
@@ -71,5 +71,5 @@ Não há batalha nem perdedor. Quando a brasa é erguida no alto salão, todos o
 lar reacendem-se pelo vale, todas as janelas cor de âmbar brilham de novo, e a noite
 mais longa termina em madrugada e cor. Os **Espíritos da Aurora** dançam lá no alto, o
 **Gigante de Gelo Solitário** tem amigos por fim, e **Freya a Bondosa** sorri lá de
-cima dos altos salões. Os heróis venceram da única maneira que aqui se vence: sendo
+cima dos altos salões. Os heróis venceram da única maneira que aqui se vence: a serem
 corajosos, bondosos e cheios de ideias.

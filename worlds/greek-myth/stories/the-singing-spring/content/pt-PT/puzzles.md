@@ -14,7 +14,7 @@ pensativa.
 **O enigma.** Lê-o em voz alta: *"Tenho raízes que ninguém vê. Sou mais alta do
 que a árvore mais alta. Subo, subo, subo sem parar, e no entanto nunca cresço. O
 que sou eu?"* A resposta é **uma montanha** (pensa no Olimpo a erguer-se acima de
-vós).
+vocês).
 
 **Solução pretendida.** Este é um desafio de pensamento, de Imaginação e um pouco
 de Vocabulário. Deixa as crianças conversar sobre ele juntas. A esfinge aceita a
@@ -58,7 +58,7 @@ luta. Não é.
 simplesmente sozinho; ninguém o visita. Qualquer bondade genuína resulta:
 partilhar o **bolo de mel**, perguntar-lhe o nome, dizer-lhe que não está sozinho,
 convidá-lo a ser amigo. Quando as crianças são meigas, ele chega-se para o lado com
-lágrimas felizes. Depois despertam a fonte tocando a **pequena lira**, e as
+lágrimas felizes. Depois despertam a fonte a tocar a **pequena lira**, e as
 **Ninfas Cantoras** erguem-se e cantam.
 
 **Ajuda.** Se as crianças congelarem, ou quiserem "vencer" pela força, faz o

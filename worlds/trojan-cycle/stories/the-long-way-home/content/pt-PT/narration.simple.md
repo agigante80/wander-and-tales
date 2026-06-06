@@ -6,9 +6,9 @@ responderem. Aqui não há respostas erradas, só ideias novas e corajosas para 
 ## Antes de começar
 
 A longa discórdia acabou, e acabou não com lanças, mas com amizade. Os grandes portões
-de Troia estão abertos, e agora é tempo de voltar a casa, atravessando o Mar Cor de
+de Troia estão abertos, e agora é tempo de voltar a casa, a atravessar o Mar Cor de
 Vinho. Lá longe espera-vos a Sala do Tear, onde uma lareira quente, um banquete de
-regresso e velhos amigos estão prontos para vós.
+regresso e velhos amigos estão prontos para vocês.
 
 Ulisses, o Brilhante leva-vos até às naus, na longa praia de areia. "É um longo caminho
 para casa", diz ele, "e o mar é vasto. Mas vocês são cheios de ideias, são corajosos e
@@ -28,7 +28,7 @@ bronze a brilhar. Esta é a Ilha dos Ventos, onde vive Éolo, Guardião dos Vent
 guarda todos os ventos do mundo, bem atados dentro de um grande saco de couro.
 
 Éolo é amável, mas é cauteloso. Só empresta um vento favorável aos viajantes que pedem
-com uma boa ideia e com boa educação, e que não são gananciosos. "Pedi-me com jeitinho",
+com uma boa ideia e com boa educação, e que não são gananciosos. "Peçam-me com jeitinho",
 diz ele, "e nunca, nunca espreitem para dentro do saco dos ventos."
 
 *Como vão pedir um vento favorável? Conseguem pensar em palavras boas e amáveis para
@@ -68,7 +68,7 @@ grisalha e fareja o ar.
 *Como vão saber que estão mesmo em casa? De que se lembram deste lugar? Procurem o tear,
 um velho amigo, o cão fiel. Quem espera junto à lareira?*
 
-É o Argos, o Cão Fiel! Ele nunca se esqueceu de vós. Trota até vós, a abanar a cauda
+É o Argos, o Cão Fiel! Ele nunca se esqueceu de vocês. Trota até vocês, a abanar a cauda
 com tanta força que quase cai, e estão em casa, por fim.
 
 ## Em Casa, Por Fim
@@ -77,7 +77,7 @@ A Sala do Tear está quente e cheia de luz. O banquete de regresso está posto: 
 quente, figos doces e mel. Os velhos amigos abraçam-vos e chamam-vos pelo vosso nome de
 herói. Argos, o Cão Fiel não sai do vosso lado.
 
-Bem no alto, sobre a água calma, Tétis, a Mãe do Mar sorri para vós. Atravessaram o Mar
+Bem no alto, sobre a água calma, Tétis, a Mãe do Mar sorri para vocês. Atravessaram o Mar
 Cor de Vinho inteiro e voltaram a casa juntos. Foram corajosos, foram cheios de ideias
 e, acima de tudo, mantiveram a palavra aos vossos amigos. Muito bem, heróis. Bem-vindos
 a casa.

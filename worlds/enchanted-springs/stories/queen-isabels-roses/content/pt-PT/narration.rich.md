@@ -1,6 +1,6 @@
 # As Rosas da Rainha Isabel
 
-*Lede em voz alta, ou deixai uma criança mais velha ler sozinha. Fazei pausas muitas vezes
+*Leiam em voz alta, ou deixem uma criança mais velha ler sozinha. Façam pausas muitas vezes
 para que todos possam pensar, maravilhar-se e experimentar ideias. Aqui não há respostas
 erradas, só novos caminhos a seguir.*
 
@@ -18,7 +18,7 @@ bondade no meu lugar? Levem pão a quem precisa, e façam-no com discrição, co
 pedir nada em troca."
 
 Vocês prometeram que sim, e desceram em direção à cidade que acordava, com os sinos do
-castelo a repicar com doçura atrás de vós.
+castelo a repicar com doçura atrás de vocês.
 
 *Qual é o teu nome de herói? Que três magias vais levar: Floração, Verdade, Luz de Estrela ou
 Canto do Rio?*
@@ -43,7 +43,7 @@ manhã sem sequer um ranger da porta. O cozinheiro continuou a dormir, sem dar p
 
 Vocês levaram o cesto tapado para o emaranhado de ruas estreitas, e aí veio a pergunta mais
 difícil: de todas estas portas, quem precisava mais do pão? A Rainha nunca dava ao acaso;
-dava onde fazia falta. Por isso olhastes com atenção, como ela teria olhado. Uma chaminé sem
+dava onde fazia falta. Por isso olharam com atenção, como ela teria olhado. Uma chaminé sem
 fumo a subir. Uma soleira onde um gato magro esperava com esperança. Um rostinho pálido a uma
 janela sem pequeno-almoço por trás.
 
@@ -52,7 +52,7 @@ forma a que ninguém se sinta envergonhado por o aceitar?*
 
 Quando deixaram os vossos pães em silêncio às portas certas, com uma palavra suave e sem
 alarido nenhum, as pessoas que os encontraram ergueram os olhos numa alegria espantada, e não
-sabiam a quem agradecer. As ruas frias pareciam aquecer atrás de vós à medida que avançavam.
+sabiam a quem agradecer. As ruas frias pareciam aquecer atrás de vocês à medida que avançavam.
 
 ## Paragem 3: O Portão do Guarda
 

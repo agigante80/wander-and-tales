@@ -32,7 +32,7 @@ correspondente. O Guia explica como funciona.
 | 1 | Ulisses, o Brilhante dá-vos uma pista grátis. |
 | 2 | Recuperam o fôlego e voltam a ganhar uma estrela de energia. |
 | 3 | Um vento favorável vindo do mar, e o próximo desafio é Fácil. |
-| 4 | Argos, o Cão Fiel trota até vós e abana a cauda. Está tudo bem. |
+| 4 | Argos, o Cão Fiel trota até vocês e abana a cauda. Está tudo bem. |
 | 5 | Um cesto de figos para dar sorte: guardem uma jogada para usar mais tarde. |
 | 6 | Uma brisa quente do mar, e por um instante todos se sentem corajosos. |
 

@@ -1,6 +1,6 @@
 # O Pente Perdido da Moura
 
-*Lede em voz alta, ou deixai uma criança mais velha ler sozinha. Fazei pausas muitas vezes
+*Leiam em voz alta, ou deixem uma criança mais velha ler sozinha. Façam pausas muitas vezes
 para que todos possam pensar, maravilhar-se e experimentar ideias. Aqui não há respostas
 erradas, só novos caminhos a seguir.*
 
@@ -25,7 +25,7 @@ ou Canto do Rio?*
 
 ## Paragem 1: A Fonte Silenciosa
 
-Perto do cimo das colinas encontrastes a fonte: um charco límpido cercado de pedras com
+Perto do cimo das colinas encontraram a fonte: um charco límpido cercado de pedras com
 musgo e fetos, o próprio coração de toda a água da aldeia. Ao lado estava sentada uma
 donzela serena de longos cabelos escuros, com o queixo apoiado nos joelhos. Era a Moura
 Encantada, o espírito meigo da fonte, e parecia à beira das lágrimas.
@@ -51,7 +51,7 @@ por favor sejam meigos. Nem tudo o que leva uma coisa brilhante quer fazer mal."
 
 O rasto reluzente levou-vos a um ribeiro pouco fundo, largo demais para saltar. A única
 forma de o atravessar era uma fila a serpentear de velhas pedras de passagem, cada uma
-gravada com um pequeno símbolo gasto. Lestes-os em voz alta à medida que avançavam: uma
+gravada com um pequeno símbolo gasto. Leram-nos em voz alta à medida que avançavam: uma
 folha, uma estrela, uma onda, depois uma folha outra vez, uma estrela outra vez, e depois
 uma pedra cuja marca se desfizera, com água mais funda de cada lado.
 
@@ -67,7 +67,7 @@ arco coberto de musgo de uma pequena ponte de pedra.
 
 ## Paragem 3: O Cantinho do Trasgo
 
-Por baixo da ponte encontrastes um cantinho aconchegado e cheio de musgo, e ele cintilava.
+Por baixo da ponte encontraram um cantinho aconchegado e cheio de musgo, e ele cintilava.
 Cada saliência estava apinhada de coisinhas brilhantes: um botão de latão, um caco de
 espelho, um caracol de fita. No meio de tudo estava sentado um pequeno duende de barrete
 vermelho vivo, o Trasgo, a virar o pente de ouro entre as mãos vezes sem conta e a
@@ -75,7 +75,7 @@ traquinar para si mesmo.
 
 Ele sorriu quando vos viu, mas os dedos apertaram-se à volta do pente. "Encontrei-o em boa
 lei. É a coisa mais brilhante que alguma vez encontrei, e agora é minha." Não era mau, só
-brincalhão e orgulhoso, e, foram percebendo aos poucos, bastante sozinho debaixo da sua
+brincalhão e orgulhoso, e, foram-se apercebendo aos poucos, bastante sozinho debaixo da sua
 ponte sossegada. O que ele mais amava no mundo era um jogo, uma adivinha ou uma troca
 justa.
 

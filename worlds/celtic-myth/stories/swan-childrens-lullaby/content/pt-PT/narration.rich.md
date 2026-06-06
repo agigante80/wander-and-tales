@@ -35,7 +35,7 @@ mas a névoa tinha-as deixado caladas e tímidas, e nem uma pena se via.
 movimento na água. Podiam chamar, baixinho e com carinho, para que saibam que chegou um
 amigo. O que tentam?*
 
-Quando vos movestes com doçura e falaram com carinho, quatro formas pálidas vieram a
+Quando se moveram com doçura e falaram com carinho, quatro formas pálidas vieram a
 deslizar para fora da névoa em vossa direção: quatro cisnes brancos de pescoço comprido e
 olhos suaves e tristes. Tinham estado à espera, parecia, de alguém com uma cara amiga.
 Aproximaram-se e deixaram-vos sentar à beira da água com elas.
@@ -55,7 +55,7 @@ ofereceu uma pequena dica, de lado.
 a canção e qual a termina. Conversem sobre isso em conjunto, e confiem na imagem que as
 palavras pintam.*
 
-Quando puseste os três versos na sua ordem certa, os olhos das crianças-cisne brilharam.
+Quando puseram os três versos na sua ordem certa, os olhos das crianças-cisne brilharam.
 "Sim, é isso", suspiraram. "É exatamente assim que ela vai." A forma da canção
 voltou-lhes como um sonho meio lembrado.
 
@@ -71,7 +71,7 @@ harpa. Podiam tocar uma melodia lenta e suave para as guiar. Podiam dizer à cis
 tímida que não está sozinha, e cantar ao lado dela para que ninguém tenha de começar
 sozinho. O que fazem?*
 
-Quando ergueste a pequena harpa e começaste a tocar, e as vossas próprias vozes se
+Quando ergueram a pequena harpa e começaram a tocar, e as vossas próprias vozes se
 juntaram à melodia, a cisne mais tímida levantou devagar a cabeça. Uma única nota doce
 soltou-se, depois outra, mais corajosa a cada respiração. Uma a uma, as outras juntaram-se
 a ela, até as quatro crianças-cisne estarem a cantar juntas, claras, fortes e sem medo.
@@ -88,6 +88,6 @@ sempre que as crianças-cisne cantam. Os quatro cisnes deslizaram num círculo l
 canção a derramar-se pela água. E lá no alto, sobre o lago, Danu, a Bondosa, olhou para
 tudo aquilo e sorriu.
 
-Tínheis conseguido, e tinham conseguido juntos: com a vossa coragem, com a vossa bondade
+Tinham conseguido, e tinham conseguido juntos: com a vossa coragem, com a vossa bondade
 e, acima de tudo, com as vossas ideias brilhantes. Boa noite, heróis das Ilhas Esmeralda.
 Durmam bem.
