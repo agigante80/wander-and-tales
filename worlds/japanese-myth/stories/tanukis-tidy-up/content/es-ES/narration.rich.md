@@ -12,7 +12,7 @@ pintado, cestas rebosantes de ciruelas y peras y caquis dorados, y largas filas 
 faroles de papel esperando para encenderse. Los pétalos de cerezo flotaban en la
 brisa, y todos zumbaban de ilusión.
 
-Nadie zumbaba más que Pon el Tanuki. Estaba tan contento, tan redondo y tan
+Nadie burbujeaba de ilusión más que Pon el Tanuki. Estaba tan contento, tan redondo y tan
 saltarín, que sencillamente no podía quedarse quieto. Rodó. Rebotó. Dio volteretas
 por todo el centro del mercado, y uno a uno, cada puesto se vino abajo con estrépito.
 Cuando se posó el polvo, los abanicos, la fruta y los faroles quedaron en un enorme

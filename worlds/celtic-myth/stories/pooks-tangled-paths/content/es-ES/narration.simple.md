@@ -66,7 +66,7 @@ Más adentro del robledal encontráis de nuevo a Pook, sentado en una seta. Ya h
 dejado de reír. Se abraza las rodillas y se mira los pies.
 
 Convirtió todo el robledal en un juego, y ahora se siente un poquito triste. No
-pensó que la gente del pueblo fuera a ponerse triste.
+pensó que la gente del pueblo se fuera a disgustar.
 
 *Esto no es una pelea. ¿Qué cosa amable podríais hacer? Tenéis una torta de avena
 y miel para compartir. Podríais sentaros a su lado. Podríais decirle que en la

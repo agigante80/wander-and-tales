@@ -92,7 +92,7 @@ UI: dict[str, dict[str, str]] = {
         "group_term": "Palabras que conviene saber",
         "group_strengths": "Fortalezas del Héroe",
         "group_magics": "Magias del Héroe",
-        "glossary_quality_lead": "Esto es lo que puede ser un héroe. En la ficha de aventura, cada jugador elige tres.",
+        "glossary_quality_lead": "Así puede ser un héroe. En la ficha de aventura, cada jugador elige tres.",
         "sheet_title": "Mi Ficha de Aventura",
         "sheet_name": "Mi nombre",
         "sheet_hero_type": "Soy un héroe de",

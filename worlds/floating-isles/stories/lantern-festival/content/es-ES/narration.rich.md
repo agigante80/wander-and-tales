@@ -83,7 +83,7 @@ ballenita de nube joven, tímida y redondita, hecha de nube pálida y flotante, 
 brillo cálido y suave que resplandece muy adentro. Se llama Nimbo. Fue Nimbo,
 entendéis ahora, quien recogió todos los faroles, uno a uno, en el cielo.
 
-No por travesura, ni por estropear nada. Nimbo llevaba mucho tiempo sola en la
+Ni por travesura, ni para estropear nada. Nimbo llevaba mucho tiempo sola en la
 inmensa tarde vacía, y cuando las lucecitas cálidas empezaron a subir, le gustaron
 tanto que no pudo soportar dejarlas pasar de largo.
 

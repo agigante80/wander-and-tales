@@ -101,7 +101,7 @@ pequeña la subió a su nido en la torre, porque brillaba. No había ningún lad
 
 Un silencio cayó sobre el mercado. Uno a uno, la gente del pueblo se volvió a mirar
 al viajero al que tan deprisa habían culpado, y sus caras se llenaron de vergüenza
-por su propia injusticia. Es algo difícil de afrontar, haber hecho mal a un
+por su propia injusticia. Es duro reconocer que se ha tratado mal a un
 forastero.
 
 *¿Cómo ayudáis a la gente del mercado a arreglarlo? ¿Qué palabras convierten su

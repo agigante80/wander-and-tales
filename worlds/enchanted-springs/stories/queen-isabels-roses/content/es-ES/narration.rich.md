@@ -94,7 +94,7 @@ vuelto un pequeño y luminoso milagro entre vuestras manos.
 ahora al guardia? ¿Podría vuestra magia de Floración ayudar a que las rosas se abran
 más llenas y más brillantes todavía?*
 
-El guardia miró, y volvió a mirar, y la seriedad simplemente cayó de él. No había
+El guardia miró, y volvió a mirar, y perdió de pronto toda su seriedad. No había
 aquí nada que prohibir, nada que reprochar, solo flores fuera de temporada y un
 secreto demasiado tierno para castigarlo. La entrega callada de la Reina estaba a
 salvo, escondida dentro de una maravilla, y el guardia, precisamente él, descubrió que

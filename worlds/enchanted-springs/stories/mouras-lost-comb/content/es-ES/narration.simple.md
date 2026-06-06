@@ -59,7 +59,7 @@ encantan las cosas brillantes y un buen juego, y está un poco solo aquí abajo.
 *¿Cómo os hacéis amigos del Trasgo? ¿Podríais ofrecerle un trueque, una adivinanza o
 un juego? ¿Qué le gustaría a un duende juguetón?*
 
-Cuando le cambiáis algo que le encanta, o ganáis su juego, el Trasgo se ríe y os
+Cuando le hacéis un trueque por algo que le encanta, o ganáis su juego, el Trasgo se ríe y os
 entrega el peine. "Venid a visitarme otra vez", dice. "Aquí abajo hay mucho silencio."
 
 ## Parada 4: El Peine Devuelto

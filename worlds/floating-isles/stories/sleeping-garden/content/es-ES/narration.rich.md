@@ -41,7 +41,7 @@ En cuanto la puerta se abre de par en par, una sola flor dormida despliega un
 pétalo, como para comprobar si de verdad ha llegado la mañana. El jardín se
 despierta, solo un poquito.
 
-## Parada 2: El Cantero de Flores
+## Parada 2: El Macizo de Flores
 
 Tras la puerta hay un ancho cantero de flores, y aquí algo se ha torcido con
 suavidad. Cuatro flores se han caído y han olvidado dónde van, con los colores
@@ -80,7 +80,7 @@ cantar. Ahora solo el mismísimo corazón del jardín sigue dormido.
 En el centro del Gran Jardín, donde el camino dorado por fin termina, encontráis la
 causa de todo: un duende pequeño, hecho un ovillo apretado como un puño, con la
 cara llena de preocupación. Es quien durmió el jardín. No por maldad, os dais
-cuenta, y no como ningún tipo de malo. Sencillamente estaba solo, tan solo que no
+cuenta, y no porque fuera un villano. Sencillamente estaba solo, tan solo que no
 sabía cómo pedir compañía, y un jardín dormido era la única manera que conocía de
 mantener a alguien cerca.
 

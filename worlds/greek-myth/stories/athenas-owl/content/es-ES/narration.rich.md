@@ -14,7 +14,7 @@ y era la compañera de la buena Atenea, cuyo templo se alzaba en lo alto de la c
 de mármol blanco. Con la niebla había perdido el rumbo y no encontraba el camino a
 casa.
 
-La vieja Dafne, guardiana del olivar, os llamó a su lado a los dos. "Tenéis ojos
+La vieja Dafne, guardiana del olivar, os llamó a su lado. "Tenéis ojos
 agudos y corazones amables", os dijo, "y esta mañana eso vale más que el par de
 piernas más rápido de toda Grecia. ¿Querréis guiar al pequeño búho Glaux sano y salvo
 de vuelta hasta Atenea?"

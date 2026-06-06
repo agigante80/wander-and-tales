@@ -50,7 +50,7 @@ Nunca hace falta leerse un mundo entero para empezar. Una historia es una tarde.
 
 Un kit llega como unos cuantos PDF cortos. No tienes por qué imprimirlos todos.
 
-- **El Tale Book.** El que lees y desde el que diriges el juego, y es **tuyo**, no de
+- **El Tale Book.** Es el que lees y desde el que diriges el juego, y es **tuyo**, no de
   los niños: la historia para leer en voz alta, cómo dirigirla y las **soluciones** de
   los puzles. Léelo en una pantalla o imprímelo, y guárdalo para ti, así las sorpresas
   siguen siendo sorpresas. Viene en dos niveles de lectura (uno sencillo para 3 a 8
@@ -229,8 +229,8 @@ cierres el paso sin más; ofrécele siempre una puerta.
 
 Apunta a entre quince y treinta minutos por sentada, menos con los más pequeños.
 Puedes **saltarte un puzle**, acortar la lectura o **parar pronto** y seguir la
-próxima vez. No hay reloj ni puntuación. El mejor final es un niño que pide jugar
-otra vez.
+próxima vez. No hay reloj ni puntuación. El mejor final es un niño que pide volver
+a jugar.
 
 ## Unas cuantas frases listas para usar
 

@@ -1,8 +1,8 @@
 # El Peine Perdido de la Moura: Acertijos y soluciones
 
 *Para tus ojos, no los de los niños. Cada parada indica su banda, lo que los jugadores
-tienen que averiguar, la solución prevista y un apoyo amable para que un niño atascado
-siempre avance. Más de una buena idea debería funcionar; premia las buenas ideas y la
+tienen que averiguar, la solución prevista y una pequeña ayuda para que un niño atascado
+siempre avance. Cualquier buena idea debería ser válida; premia las buenas ideas y la
 amabilidad por encima de la respuesta "correcta".*
 
 ## Parada 1: La Fuente Callada (Fácil)
@@ -72,7 +72,7 @@ broma compartida; el Trasgo se contenta fácilmente.
 ## Parada 4: El Peine Devuelto (Fácil)
 
 **El reto.** Los jugadores llevan el peine de vuelta y se lo devuelven a la Moura Encantada.
-La única "prueba" es hacerlo con suavidad y amabilidad, para que el momento siga siendo cálido.
+La única "dificultad" es hacerlo con suavidad y amabilidad, para que el momento siga siendo cálido.
 
 **Solución prevista.** Haz que los jugadores entreguen el peine con cuidado y digan algo
 amable. Aquí no hay ninguna tirada que fallar. **Canto del Río** puede dejarles contarle la

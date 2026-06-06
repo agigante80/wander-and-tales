@@ -2,7 +2,7 @@
 
 *Para vuestros ojos, no los de los niños. Cada parada indica su banda, lo que los
 jugadores tienen que averiguar, la solución prevista y un apoyo amable para que un
-niño atascado siempre avance. Más de una buena idea debería funcionar; premiad las
+niño atascado siempre avance. Cualquier buena idea debería ser válida; premiad las
 ideas y la amabilidad por encima de la respuesta "correcta".*
 
 ## Parada 1: La Plaza Apagada (Fácil)
@@ -58,7 +58,7 @@ atrevida:
 - **Voz**: pedid a la brisa de la tarde el empujón más suave para soltarlo.
 - **Cambio**: convertid un guijarro en un gancho blando sobre un tallo largo y
   crecido para bajarlo.
-Cualquier plan que lo baje sin peligro funciona. Recalcad que nadie necesita trepar
+Cualquier plan para bajarlo sin peligro sirve. Recalcad que nadie necesita trepar
 ni arriesgarse a caer.
 
 **Apoyo.** Si los niños se quedan en blanco, haced que la brisa dé un soplido

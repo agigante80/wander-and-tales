@@ -2,7 +2,7 @@
 
 *Para vuestros ojos, no para los niños. Cada parada indica su nivel, lo que los
 jugadores deben averiguar, la solución prevista y un apoyo amable para que un niño
-atascado siempre avance. Más de una buena idea debería valer; premiad la imaginación y
+atascado siempre avance. Cualquier buena idea debería ser válida; premiad la imaginación y
 la amabilidad por encima de la respuesta "correcta".*
 
 ## Parada 1: El Acertijo del Salmón (Normal)
@@ -18,7 +18,7 @@ y desaparezco en cuanto te vuelves a mirar. ¿Qué soy?"* La respuesta es **la b
 lago).
 
 **Solución prevista.** Es un reto de pensar, de Imaginación y un poco de paciencia.
-Dejad que los niños lo hablen juntos. El salmón acepta la respuesta correcta y, como
+Dejad que los niños lo hablen entre ellos. El salmón acepta la respuesta correcta y, como
 es amable, también acepta una conjetura valiente y meditada.
 
 **Apoyo.** Si se atascan, el salmón ofrece una pista ("Habéis caminado a través de

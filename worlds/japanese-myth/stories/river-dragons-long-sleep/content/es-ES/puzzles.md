@@ -2,7 +2,7 @@
 
 *Para vuestros ojos, no para los niños. Cada parada indica su nivel, lo que los
 jugadores deben averiguar, la solución prevista y un apoyo amable para que un niño
-atascado siempre avance. Más de una buena idea debería valer; premiad la imaginación y
+atascado siempre avance. Cualquier buena idea debería ser válida; premiad la imaginación y
 la bondad por encima de la respuesta "correcta".*
 
 ## Parada 1: La Puerta de los Guardianes (Normal)
@@ -17,7 +17,7 @@ por mi nombre. ¿Qué soy?"* La respuesta es **la lluvia** (justo lo que el vall
 esperando).
 
 **Solución prevista.** Es un reto de pensar, de Imaginación y un poco de paciencia.
-Dejad que los niños lo hablen juntos. Los Perros-León Guardianes aceptan la respuesta
+Dejad que los niños lo hablen entre ellos. Los Perros-León Guardianes aceptan la respuesta
 correcta y, como son justos y amables, también aceptan una conjetura valiente y
 meditada.
 

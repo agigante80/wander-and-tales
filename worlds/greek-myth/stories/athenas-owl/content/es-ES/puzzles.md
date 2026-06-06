@@ -2,7 +2,7 @@
 
 *Para vuestros ojos, no para los niños. Cada parada indica su nivel, lo que los
 jugadores deben averiguar, la solución prevista y un apoyo amable para que un niño
-atascado siempre avance. Más de una buena idea debería valer; premiad las ideas nuevas y
+atascado siempre avance. Cualquier buena idea debería ser válida; premiad las ideas nuevas y
 la amabilidad por encima de la respuesta "correcta".*
 
 ## Parada 1: La Plaza con Niebla (Fácil)

@@ -34,7 +34,7 @@ corresponda. La Guía explica cómo funciona.
 | 3 | Una brisa suave llega del lago y el próximo reto es Fácil. |
 | 4 | El Salmón de la Sabiduría sopla una burbuja de la suerte. Todo va bien. |
 | 5 | Una ramita de roble para la suerte: guardad una tirada para usarla más tarde. |
-| 6 | Un estallido de cantos de pájaro, y por un momento todos os sentís valientes. |
+| 6 | Un estallido de cantos de pájaros, y por un momento todos os sentís valientes. |
 
 ## Cómo termina
 
