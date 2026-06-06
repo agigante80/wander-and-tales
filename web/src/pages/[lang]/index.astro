@@ -2,7 +2,7 @@
 import Base from "../../layouts/Base.astro";
 import WorldCard from "../../components/WorldCard.astro";
 import { LANGS, SITE_URL, localeOf } from "../../consts";
-import { worlds, site } from "../../lib/content";
+import { worlds, site, mediaUrl } from "../../lib/content";
 import { t } from "../../lib/i18n";
 
 export function getStaticPaths() {
@@ -10,6 +10,9 @@ export function getStaticPaths() {
 }
 const { lang } = Astro.params;
 const locale = localeOf(lang!);
+const storyCovers = worlds
+  .flatMap((w: any) => w.stories.map((s: any) => mediaUrl((s.images?.find((i: any) => i.role === "cover") ?? s.images?.[0])?.path)))
+  .filter(Boolean);
 const jsonld = {
   "@context": "https://schema.org",
   "@type": "WebSite",
@@ -62,9 +65,43 @@ const jsonld = {
           <a class="btn btn-primary" href={`/${lang}/create`}>{t(lang!, "create_cta")}</a>
         </div>
       </div>
-      <div class="art tall t-dusk" role="img" aria-label={t(lang!, "create_title")}>
-        <img src="/media/worlds/enchanted-springs/assets/cover.png" alt="" loading="lazy" />
+      <div class="art tall t-dusk" role="img" aria-label={t(lang!, "create_title")} data-cover-carousel data-srcs={JSON.stringify(storyCovers)}>
+        <img class="art-cf show" src={storyCovers[0]} alt="" decoding="async" />
+        <img class="art-cf" alt="" decoding="async" />
       </div>
     </div>
   </section>
+
+  <script is:inline>
+    (function () {
+      var box = document.querySelector("[data-cover-carousel]");
+      if (!box) return;
+      if (matchMedia("(prefers-reduced-motion: reduce)").matches) return; // keep the single static image
+      var srcs;
+      try { srcs = JSON.parse(box.getAttribute("data-srcs") || "[]"); } catch (e) { return; }
+      if (srcs.length < 2) return;
+      for (var i = srcs.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)); var t = srcs[i]; srcs[i] = srcs[j]; srcs[j] = t; }
+      var layers = box.querySelectorAll(".art-cf");
+      if (layers.length < 2) return;
+      var idx = 0, front = 0, timer = null;
+      function next() {
+        idx = (idx + 1) % srcs.length;
+        var back = 1 - front;
+        var img = layers[back];
+        img.onload = function () {
+          layers[back].classList.add("show");
+          layers[front].classList.remove("show");
+          front = back;
+        };
+        img.src = srcs[idx];
+      }
+      function start() { if (!timer) timer = setInterval(next, 5200); }
+      function stop() { if (timer) { clearInterval(timer); timer = null; } }
+      start();
+      box.addEventListener("mouseenter", stop);
+      box.addEventListener("mouseleave", start);
+      box.addEventListener("focusin", stop);
+      box.addEventListener("focusout", start);
+    })();
+  </script>
 </Base>

@@ -209,6 +209,10 @@ button{font-family:inherit;color:inherit}
 :root[data-theme="dark"] .art .label{background:rgba(0,0,0,.32);color:rgba(255,255,255,.62)}
 .art.tall{aspect-ratio:4/5} .art.wide{aspect-ratio:21/9} .art.square{aspect-ratio:1/1}
 .t-isles{--art-a:#bfe0da;--art-b:#7fb6c4} .t-forest{--art-a:#bcdcae;--art-b:#6fa36a} .t-dusk{--art-a:#b3aede;--art-b:#8f86c4} .t-ember{--art-a:#f0c98f;--art-b:#d99a5c} .t-deep{--art-a:#9fc7b6;--art-b:#5b8f7c}
+/* crossfade carousel layers (decorative art that rotates between images) */
+.art-cf{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity 1.1s var(--ease)}
+.art-cf.show{opacity:1}
+@media (prefers-reduced-motion:reduce){ .art-cf{transition:none} }
 
 /* ============================================================
    CHIPS + BADGES
