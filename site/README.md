@@ -1,0 +1,41 @@
+# Site content manifest
+
+`manifest.json` is a machine-readable snapshot of the whole library for a website to
+ingest: every world and story with titles, tags, lore, beat headings, image paths, and
+the current versioned PDF links, in every supported language. It is generated from the
+repo content, so it is derived data; regenerate it rather than editing it by hand.
+
+## Regenerate
+
+After any content change or a `python -m build rebuild`, run from the repo root with
+the project virtualenv:
+
+```bash
+.venv/bin/python site/gen_manifest.py
+```
+
+It rewrites `site/manifest.json` and prints a one-line integrity report (worlds,
+stories, and any missing story images or PDFs).
+
+## Shape
+
+- `site`: name, tagline (per locale), domain, repo, the language list and endonyms,
+  level labels, the licence block (content CC BY-SA 4.0, code MIT, AI-illustration and
+  font notes), analytics placeholder, cookie-consent flag, GitHub-issues contact, the
+  "create your own with Claude" block, the shared Guide and How to Play PDFs, and
+  counts.
+- `worlds[]`: id, name (per locale), tone, `hero_powers`, palette, lore (per locale),
+  visual style, world images, canon (with per-locale names and descriptions and a
+  portrait path where one exists), example heroes, the world-level PDFs, and `stories`.
+- `worlds[].stories[]`: id, title (per locale), tags (age, skills, peril, players,
+  time, dice), `beats` (the ordered `##` headings per locale, which double as the
+  reader's chapter chips and align with the scene images), `content_paths` (the
+  markdown to render: kid-facing `simple` and `rich`; `rules` and `puzzles` are
+  grown-up only), the ordered `images`, the `map` (almost always `generated`), and the
+  per-locale `tale_simple` / `tale_rich` / `atlas` PDFs.
+
+## Paths
+
+All file paths are repo-relative. Prepend `site.repo_raw_base`
+(`https://raw.githubusercontent.com/agigante80/wander-and-tales/main/`) to fetch any
+image, markdown, or PDF directly, or serve the files from your own host.
