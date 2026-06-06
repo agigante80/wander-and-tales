@@ -4,20 +4,30 @@ import { REPO } from "../consts";
 const { lang } = Astro.props;
 ---
 
-<footer class="mt-16 bg-dusk text-cream">
-  <div class="max-w-5xl mx-auto px-4 py-10 space-y-4">
-    <p class="font-display text-lg max-w-xl">{t(lang, "the_promise")}</p>
-    <nav class="flex flex-wrap gap-x-5 gap-y-2 text-sm">
-      <a href={`/${lang}/how-to-play`} class="hover:underline">{t(lang, "nav_help")}</a>
-      <a href={`/${lang}/help`} class="hover:underline">{t(lang, "guide")}</a>
-      <a href={`/${lang}/why`} class="hover:underline">{t(lang, "nav_why")}</a>
-      <a href={`/${lang}/privacy`} class="hover:underline">{t(lang, "privacy")}</a>
-      <a href={`/${lang}/legal`} class="hover:underline">{t(lang, "legal")}</a>
-      <a href={`/${lang}/terms`} class="hover:underline">{t(lang, "terms")}</a>
-      <a href={REPO} class="hover:underline" rel="noopener">{t(lang, "source")}</a>
-    </nav>
-    <p class="text-xs text-cream/70">
-      {t(lang, "license_line")} {t(lang, "not_affiliated")}
-    </p>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footcols">
+      <div><p class="promise">{t(lang, "the_promise")}</p></div>
+      <div>
+        <h5>{t(lang, "foot_play")}</h5>
+        <a href={`/${lang}/how-to-play`}>{t(lang, "nav_help")}</a>
+        <a href={`/${lang}/help`}>{t(lang, "guide")}</a>
+        <a href={`/${lang}/why`}>{t(lang, "nav_why")}</a>
+      </div>
+      <div>
+        <h5>{t(lang, "foot_make")}</h5>
+        <a href={`/${lang}/create`}>{t(lang, "nav_create")}</a>
+        <a href={REPO} rel="noopener">{t(lang, "source")}</a>
+      </div>
+      <div>
+        <h5>{t(lang, "foot_smallprint")}</h5>
+        <a href={`/${lang}/privacy`}>{t(lang, "privacy")}</a>
+        <a href={`/${lang}/legal`}>{t(lang, "legal")}</a>
+        <a href={`/${lang}/terms`}>{t(lang, "terms")}</a>
+      </div>
+    </div>
+    <div class="foot-legal">
+      {t(lang, "license_line")} {t(lang, "foot_cookieless")} {t(lang, "not_affiliated")}
+    </div>
   </div>
 </footer>
