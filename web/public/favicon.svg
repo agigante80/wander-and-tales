@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><defs><linearGradient id="skyDusk" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="512"><stop offset="0" stop-color="#5b62a8"/><stop offset="1" stop-color="#9a86c4"/></linearGradient></defs>
+<rect width="512" height="512" fill="url(#skyDusk)"/>
+<circle cx="386" cy="120" r="52" fill="#f6f1e6"/><circle cx="408" cy="104" r="45" fill="url(#skyDusk)"/>
+<path d="M150,250 C128,304 168,366 256,436 C344,366 384,304 362,250 Z" fill="#25543c"/>
+<ellipse cx="256" cy="250" rx="98" ry="33" fill="#2f6f4f"/>
+<polygon points="214,202 256,158 298,202" fill="#25543c"/>
+<rect x="222" y="200" width="68" height="54" rx="4" fill="#f6f1e6"/>
+<rect x="245" y="220" width="22" height="34" rx="2" fill="#f2a93b"/></svg>

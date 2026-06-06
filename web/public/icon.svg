@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="Wander &amp; Tales — floating archipelago at dusk">
+  <defs>
+    <linearGradient id="skyDusk" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="512">
+      <stop offset="0" stop-color="#5b62a8"></stop>
+      <stop offset="1" stop-color="#9a86c4"></stop>
+    </linearGradient>
+  </defs>
+
+  
+  <rect width="512" height="512" fill="url(#skyDusk)"></rect>
+
+  
+  <circle cx="372" cy="118" r="40" fill="#f6f1e6"></circle>
+  <circle cx="388.8" cy="106" r="35.2" fill="url(#skyDusk)"></circle>
+
+  
+  <circle cx="138" cy="150" r="22" fill="#f2a93b"></circle>
+
+  
+  <circle cx="300" cy="70" r="16" fill="#f2a93b"></circle>
+
+  
+  <path d="M104,330 C96,356 110,388 144,418 C178,388 192,356 184,330 Z" fill="#2f6f4f"></path>
+  <ellipse cx="144" cy="330" rx="46" ry="17" fill="#4ea24a"></ellipse>
+
+  
+  <path d="M330,348 C324,368 334,392 360,414 C386,392 396,368 390,348 Z" fill="#25543c"></path>
+  <ellipse cx="360" cy="348" rx="36" ry="13" fill="#4ea24a"></ellipse>
+
+  
+  <path d="M196,256 C182,296 204,344 256,392 C308,344 330,296 316,256 Z" fill="#25543c"></path>
+  <ellipse cx="256" cy="256" rx="74" ry="26" fill="#2f6f4f"></ellipse>
+
+  
+  <polygon points="224,214 256,180 288,214" fill="#25543c"></polygon>
+  <rect x="230" y="212" width="52" height="42" rx="3" fill="#f6f1e6"></rect>
+  <rect x="247" y="226" width="18" height="28" rx="2" fill="#f2a93b"></rect>
+</svg>
