@@ -11,14 +11,15 @@ interface Props {
   route?: string;
   title: string;
   description?: string;
+  image?: string;
   jsonld?: unknown;
 }
-const { lang, route = "", title, description, jsonld } = Astro.props;
+const { lang, route = "", title, description, image, jsonld } = Astro.props;
 const locale = localeOf(lang);
 const desc = description ?? site.tagline[locale];
 const path = route ? `/${lang}/${route}` : `/${lang}/`;
 const canonical = SITE_URL + path;
-const ogImage = SITE_URL + "/og-image.png";
+const ogImage = image ? SITE_URL + image : SITE_URL + "/og-image.png";
 const alt = (code: string) => `${SITE_URL}/${code}${route ? "/" + route : "/"}`;
 ---
 
@@ -46,9 +47,10 @@ const alt = (code: string) => `${SITE_URL}/${code}${route ? "/" + route : "/"}`;
     <meta property="og:description" content={desc} />
     <meta property="og:url" content={canonical} />
     <meta property="og:image" content={ogImage} />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
+    {!image && <meta property="og:image:width" content="1200" />}
+    {!image && <meta property="og:image:height" content="630" />}
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content={ogImage} />
 
     {jsonld && <script type="application/ld+json" set:html={JSON.stringify(jsonld)} />}
     {

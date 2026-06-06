@@ -1,7 +1,7 @@
 ---
 import Base from "../../../../layouts/Base.astro";
 import { LANGS, SITE_URL, localeOf } from "../../../../consts";
-import { worlds, site, mediaUrl, pdfUrl, pdfVer } from "../../../../lib/content";
+import { worlds, site, mediaUrl, pdfUrl, pdfVer, snippet } from "../../../../lib/content";
 import { t, AGE_RANGE } from "../../../../lib/i18n";
 
 export function getStaticPaths() {
@@ -40,7 +40,7 @@ const jsonld = {
 };
 ---
 
-<Base lang={lang!} route={`worlds/${world.id}`} title={`${world.name[locale]} · Wander & Tales`} description={world.lore?.[locale]} jsonld={jsonld}>
+<Base lang={lang!} route={`worlds/${world.id}`} title={`${world.name[locale]} · Wander & Tales`} description={snippet(world.lore?.[locale])} image={coverUrl ?? undefined} jsonld={jsonld}>
   <section class="relative">
     <div class="h-48 md:h-64 overflow-hidden bg-dusk">
       {coverUrl && <img src={coverUrl} alt="" class="w-full h-full object-cover opacity-90" />}

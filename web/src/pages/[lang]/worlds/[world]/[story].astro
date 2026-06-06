@@ -1,7 +1,7 @@
 ---
 import Base from "../../../../layouts/Base.astro";
 import { LANGS, SITE_URL, localeOf } from "../../../../consts";
-import { worlds, site, mediaUrl, pdfUrl, pdfVer, narrationHtml, mdHtml } from "../../../../lib/content";
+import { worlds, site, mediaUrl, pdfUrl, pdfVer, narrationHtml, mdHtml, snippet, firstParagraph } from "../../../../lib/content";
 import { t, AGE_RANGE } from "../../../../lib/i18n";
 
 export function getStaticPaths() {
@@ -26,6 +26,7 @@ const richHtml = narrationHtml(cp.rich);
 const rulesHtml = mdHtml(cp.rules);
 const puzzlesHtml = mdHtml(cp.puzzles);
 const labels = site.level_labels?.[locale] ?? { simple: "Simple", rich: "Full" };
+const metaDesc = snippet(firstParagraph(cp.simple)) || site.tagline[locale];
 
 const players = story.tags.players ?? {};
 const playersText = players.max ? `${players.min} to ${players.max}` : `${players.min}+`;
@@ -49,7 +50,8 @@ const jsonld = {
   lang={lang!}
   route={`worlds/${world.id}/${story.id}`}
   title={`${story.title[locale]} · ${world.name[locale]}`}
-  description={site.tagline[locale]}
+  description={metaDesc}
+  image={coverUrl ?? undefined}
   jsonld={jsonld}
 >
   <article class="max-w-3xl mx-auto px-4 py-10">
