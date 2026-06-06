@@ -152,7 +152,7 @@ def readme_block(root: Path, built: Built) -> str:
         "",
         "Every story is cooperative and no-lose, for two or more (a grown-up and one",
         "or more children), and playable with a single ordinary die. Each kit comes in",
-        "three languages. The grown-up reads from the **Tale Book** (the story, the rules,",
+        "every language the library ships. The grown-up reads from the **Tale Book** (the story, the rules,",
         "and the answers); the **Atlas** holds the map, the pictures to show at each place,",
         "and the hero sheet; the **World Book** holds the lore. You can read from a screen,",
         "and print the Atlas or simply draw and build it by hand: nothing needs a printer.",
