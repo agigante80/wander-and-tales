@@ -39,7 +39,18 @@ const ld = jsonld ?? {
 <html lang={locale}>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <script is:inline>
+      (function () {
+        try {
+          var t = localStorage.getItem("wt-theme");
+          if (!t) t = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+          document.documentElement.setAttribute("data-theme", t);
+        } catch (e) {
+          document.documentElement.setAttribute("data-theme", "light");
+        }
+      })();
+    </script>
     <title>{title}</title>
     <meta name="description" content={desc} />
     <link rel="canonical" href={canonical} />
@@ -77,12 +88,91 @@ const ld = jsonld ?? {
       )
     }
   </head>
-  <body class="min-h-screen flex flex-col">
-    <a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:p-3 focus:bg-cream">{t(lang, "skip")}</a>
+  <body>
+    <a href="#main" class="skip">{t(lang, "skip")}</a>
     <Header lang={lang} route={route} />
-    <main id="main" class="flex-1">
+    <main id="main">
       <slot />
     </main>
     <Footer lang={lang} />
+    <script is:inline>
+      (function () {
+        "use strict";
+        var root = document.documentElement;
+        function cur() {
+          return root.getAttribute("data-theme") || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+        }
+        function setTheme(t, persist) {
+          root.setAttribute("data-theme", t);
+          if (persist) { try { localStorage.setItem("wt-theme", t); } catch (e) {} }
+          document.querySelectorAll("[data-theme-toggle]").forEach(function (b) {
+            b.setAttribute("aria-pressed", String(t === "dark"));
+          });
+          var m = document.querySelector('meta[name="theme-color"]');
+          if (m) m.setAttribute("content", t === "dark" ? "#1a1c26" : "#5b62a8");
+        }
+        document.addEventListener("click", function (e) {
+          var t = e.target.closest("[data-theme-toggle]");
+          if (t) setTheme(cur() === "dark" ? "light" : "dark", true);
+        });
+        try {
+          matchMedia("(prefers-color-scheme: dark)").addEventListener("change", function (ev) {
+            if (!localStorage.getItem("wt-theme")) setTheme(ev.matches ? "dark" : "light", false);
+          });
+        } catch (e) {}
+        setTheme(cur(), false);
+
+        var saved; try { saved = localStorage.getItem("wt-level"); } catch (e) {}
+        document.querySelectorAll("[data-reader]").forEach(function (reader) {
+          if (saved) reader.setAttribute("data-level", saved);
+          var seg = reader.querySelector("[data-level-seg]") || document.querySelector("[data-level-seg]");
+          if (!seg) return;
+          function paint() {
+            var lvl = reader.getAttribute("data-level");
+            seg.querySelectorAll("button").forEach(function (b) {
+              b.setAttribute("aria-pressed", String(b.dataset.level === lvl));
+            });
+          }
+          seg.addEventListener("click", function (e) {
+            var b = e.target.closest("button[data-level]");
+            if (!b) return;
+            reader.setAttribute("data-level", b.dataset.level);
+            try { localStorage.setItem("wt-level", b.dataset.level); } catch (err) {}
+            paint();
+          });
+          paint();
+        });
+
+        var mb = document.querySelector("[data-menu-toggle]");
+        var mn = document.querySelector("[data-mobile-nav]");
+        if (mb && mn) {
+          mb.addEventListener("click", function () {
+            var o = mn.classList.toggle("open");
+            mb.setAttribute("aria-expanded", String(o));
+          });
+        }
+
+        document.querySelectorAll("[data-lang]").forEach(function (g) {
+          var btn = g.querySelector("[data-lang-btn]");
+          var menu = g.querySelector("[data-lang-menu]");
+          if (!btn || !menu) return;
+          btn.addEventListener("click", function (e) {
+            e.stopPropagation();
+            var o = menu.classList.toggle("open");
+            btn.setAttribute("aria-expanded", String(o));
+          });
+        });
+        document.addEventListener("click", function () {
+          document.querySelectorAll("[data-lang-menu].open").forEach(function (m) {
+            m.classList.remove("open");
+            var b = m.parentElement.querySelector("[data-lang-btn]");
+            if (b) b.setAttribute("aria-expanded", "false");
+          });
+        });
+        document.addEventListener("keydown", function (e) {
+          if (e.key === "Escape") document.querySelectorAll(".open").forEach(function (m) { m.classList.remove("open"); });
+        });
+      })();
+    </script>
   </body>
 </html>

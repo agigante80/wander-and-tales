@@ -1,20 +1,69 @@
 ---
-import LangSwitcher from "./LangSwitcher.astro";
+import { LANGS } from "../consts";
 import { t } from "../lib/i18n";
 const { lang, route = "" } = Astro.props;
+
+const isWorlds = route === "" || route.startsWith("worlds");
+const isHowTo = route === "how-to-play";
+const isCreate = route === "create";
+const langHref = (code: string) => `/${code}${route ? "/" + route : "/"}`;
+
+const NAV = [
+  { href: `/${lang}/#worlds`, label: t(lang, "nav_worlds"), active: isWorlds },
+  { href: `/${lang}/how-to-play`, label: t(lang, "nav_help"), active: isHowTo },
+  { href: `/${lang}/create`, label: t(lang, "nav_create"), active: isCreate },
+];
 ---
 
-<header class="bg-cream/90 backdrop-blur border-b border-paper sticky top-0 z-20">
-  <div class="max-w-5xl mx-auto px-4 h-16 flex items-center justify-between gap-4">
-    <a href={`/${lang}/`} class="flex items-center gap-2 font-display text-lg text-ink">
-      <img src="/favicon.svg" width="32" height="32" alt="" class="rounded-lg" />
-      Wander <span class="text-teal">&amp;</span> Tales
+<header class="site-header">
+  <div class="wrap bar">
+    <a class="brand" href={`/${lang}/`} aria-label="Wander and Tales, home" aria-current={route === "" ? "page" : undefined}>
+      <span class="mark">
+        <svg viewBox="0 0 512 512" aria-hidden="true"><defs><linearGradient id="wtA" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="512"><stop offset="0" stop-color="#5b62a8"></stop><stop offset="1" stop-color="#9a86c4"></stop></linearGradient></defs><rect width="512" height="512" fill="url(#wtA)"></rect><circle cx="372" cy="120" r="40" fill="#f6f1e6"></circle><circle cx="389" cy="108" r="35" fill="url(#wtA)"></circle><circle cx="140" cy="150" r="20" fill="#f2a93b"></circle><path d="M196,256 C182,296 204,344 256,392 C308,344 330,296 316,256 Z" fill="#25543c"></path><ellipse cx="256" cy="256" rx="74" ry="26" fill="#2f6f4f"></ellipse><polygon points="224,214 256,180 288,214" fill="#25543c"></polygon><rect x="230" y="212" width="52" height="42" rx="3" fill="#f6f1e6"></rect><rect x="247" y="226" width="18" height="28" rx="2" fill="#f2a93b"></rect><path d="M104,338 C97,360 110,386 140,410 C170,386 183,360 176,338 Z" fill="#2f6f4f"></path><ellipse cx="140" cy="338" rx="40" ry="14" fill="#4ea24a"></ellipse></svg>
+      </span>
+      <span class="name">Wander <span class="amp">&amp;</span> Tales</span>
     </a>
-    <nav class="flex items-center gap-3 sm:gap-4 text-sm">
-      <a href={`/${lang}/#worlds`} class="hover:text-teal">{t(lang, "nav_worlds")}</a>
-      <a href={`/${lang}/how-to-play`} class="hover:text-teal hidden sm:inline">{t(lang, "nav_help")}</a>
-      <a href={`/${lang}/create`} class="hover:text-teal">{t(lang, "nav_create")}</a>
-      <LangSwitcher lang={lang} route={route} />
+
+    <nav class="nav-desk" aria-label="Primary">
+      {NAV.map((n) => <a href={n.href} aria-current={n.active ? "page" : undefined}>{n.label}</a>)}
     </nav>
+
+    <div class="header-tools">
+      <div class="lang" data-lang>
+        <button class="lang-btn" data-lang-btn aria-haspopup="true" aria-expanded="false" aria-label={t(lang, "other_langs")}>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"></circle><path d="M3 12h18M12 3c2.5 2.7 2.5 15.3 0 18M12 3c-2.5 2.7-2.5 15.3 0 18"></path></svg>
+          <span>{lang.toUpperCase()}</span>
+        </button>
+        <div class="lang-menu" data-lang-menu role="menu">
+          {LANGS.map((l) => (
+            <a href={langHref(l.code)} hreflang={l.locale} aria-current={l.code === lang ? "true" : "false"} role="menuitem">
+              {l.name} <span class="tick">✓</span>
+            </a>
+          ))}
+        </div>
+      </div>
+
+      <span class="theme-desk">
+        <button class="icon-btn" data-theme-toggle aria-pressed="false" aria-label={t(lang, "theme_label")}>
+          <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4.5"></circle><path d="M12 2v2.5M12 19.5V22M4.2 4.2l1.8 1.8M18 18l1.8 1.8M2 12h2.5M19.5 12H22M4.2 19.8 6 18M18 6l1.8-1.8"></path></svg>
+          <svg class="moon" viewBox="0 0 24 24" fill="currentColor"><path d="M20 14.5A8 8 0 0 1 9.5 4 7 7 0 1 0 20 14.5Z"></path></svg>
+        </button>
+      </span>
+
+      <button class="icon-btn menu-toggle" data-menu-toggle aria-expanded="false" aria-label="Menu" aria-controls="mnav">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"></path></svg>
+      </button>
+    </div>
   </div>
+
+  <nav class="mobile-nav wrap" id="mnav" data-mobile-nav aria-label="Mobile">
+    {NAV.map((n) => <a href={n.href} aria-current={n.active ? "page" : undefined}>{n.label}</a>)}
+    <div class="mobile-theme">
+      <span>{t(lang, "theme_label")}</span>
+      <button class="icon-btn" data-theme-toggle aria-pressed="false" aria-label={t(lang, "theme_label")}>
+        <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4.5"></circle><path d="M12 2v2.5M12 19.5V22M4.2 4.2l1.8 1.8M18 18l1.8 1.8M2 12h2.5M19.5 12H22M4.2 19.8 6 18M18 6l1.8-1.8"></path></svg>
+        <svg class="moon" viewBox="0 0 24 24" fill="currentColor"><path d="M20 14.5A8 8 0 0 1 9.5 4 7 7 0 1 0 20 14.5Z"></path></svg>
+      </button>
+    </div>
+  </nav>
 </header>
