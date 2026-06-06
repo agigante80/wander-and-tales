@@ -4,20 +4,22 @@ const { world, lang, locale } = Astro.props;
 const cover = world.images?.find((i: any) => i.role === "cover") ?? world.images?.[0];
 const img = mediaUrl(cover?.path);
 const lore: string = world.lore?.[locale] ?? "";
-const snippet = lore.length > 150 ? lore.slice(0, 147).trimEnd() + "..." : lore;
-const accent = world.palette?.[1] ?? "#2bb3a3";
+const snippet = lore.length > 140 ? lore.slice(0, 137).trimEnd() + "..." : lore;
+const TINTS = ["t-isles", "t-forest", "t-ember", "t-deep", "t-dusk"];
+let h = 0;
+for (const ch of world.id) h = (h + ch.charCodeAt(0)) % TINTS.length;
+const tint = TINTS[h];
 ---
 
-<a
-  href={`/${lang}/worlds/${world.id}`}
-  class="group block rounded-2xl overflow-hidden bg-white shadow-sm hover:shadow-md transition border border-paper"
->
-  <div class="aspect-[4/3] overflow-hidden bg-paper">
-    {img && <img src={img} alt="" loading="lazy" class="w-full h-full object-cover group-hover:scale-[1.03] transition" />}
+<a class="card card-link" href={`/${lang}/worlds/${world.id}`}>
+  <div class={`art ${tint}`} role="img" aria-label={world.name[locale]}>
+    {img ? <img src={img} alt="" loading="lazy" /> : <span class="label">{world.name[locale].toLowerCase()}</span>}
   </div>
-  <div class="p-4">
-    <h3 class="font-display text-lg" style={`color:${accent}`}>{world.name[locale]}</h3>
-    <p class="text-sm text-ink/70 mt-1">{snippet}</p>
-    <p class="text-xs text-ink/50 mt-2">{world.stories.length} stories</p>
+  <div class="card-pad">
+    <div style="display:flex;align-items:center;justify-content:space-between;gap:var(--sp-3)">
+      <h3 style="font-size:var(--fs-h4)">{world.name[locale]}</h3>
+      <span class="pill-count">{world.stories.length}</span>
+    </div>
+    {snippet && <p class="muted" style="font-size:var(--fs-small);margin-top:6px">{snippet}</p>}
   </div>
 </a>
