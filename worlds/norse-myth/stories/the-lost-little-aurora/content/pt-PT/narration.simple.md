@@ -1,6 +1,6 @@
 # A Pequena Aurora Perdida
 
-*Lede em voz alta, devagar e com carinho. Parai muitas vezes para deixar as crianças
+*Leiam em voz alta, devagar e com carinho. Parem muitas vezes para deixar as crianças
 responder. Aqui não há respostas erradas, só ideias novas e corajosas para tentar.*
 
 ## Antes de começar
@@ -25,7 +25,7 @@ fortes. Vencemos por sermos corajosos, bondosos e cheios de ideias."
 
 ## Paragem 1: A Floresta Escura
 
-Saís para os Pinheiros Sussurrantes. A neve é funda e macia. As árvores altas estão
+Saem para os Pinheiros Sussurrantes. A neve é funda e macia. As árvores altas estão
 escuras e caladas à vossa volta.
 
 Algures aqui, a pequena aurora está escondida. É tímida e fria e muito, muito
@@ -35,9 +35,9 @@ pequenina. Vão ter de olhar com atenção para a encontrar.
 Podiam seguir pegadas pequeninas na neve? Podiam pedir ajuda ao Nori o Tomte, o duende
 do lar de barrete vermelho?*
 
-Quando olhais com doçura, vedes um brilho suave atrás de uma árvore. Ali está ela, a
+Quando olham com doçura, veem um brilho suave atrás de uma árvore. Ali está ela, a
 mais pequena aurora, não maior do que as vossas duas mãos, apagada e a tremer. "Olá",
-sussurrais. "Viemos ajudar-te."
+sussurram. "Viemos ajudar-te."
 
 ## Paragem 2: As Três Cores
 
@@ -45,14 +45,14 @@ A pequena aurora está feliz por a terem encontrado. Mas não consegue brilhar. 
 as minhas três cores quando caí", diz ela com tristeza. "Azul-turquesa, e verde, e
 roxo. Andam escondidas pelo mundo agora."
 
-Olhai à volta. As cores não foram longe. Estão todas perto de vós.
+Olhem à volta. As cores não foram longe. Estão todas perto de vocês.
 
 *Conseguem encontrar as três cores dela? Onde está o azul-turquesa? Onde está o verde?
-Onde está o roxo? Olhai para os pingentes de gelo, olhai para os pinheiros, olhai para
+Onde está o roxo? Olhem para os pingentes de gelo, olhem para os pinheiros, olhem para
 cima, para o céu.*
 
-Encontrais o azul-turquesa num pingente de gelo brilhante. Encontrais o verde num ramo
-escuro de pinheiro. Encontrais o roxo lá no alto, no céu do entardecer. Uma a uma, a
+Encontram o azul-turquesa num pingente de gelo brilhante. Encontram o verde num ramo
+escuro de pinheiro. Encontram o roxo lá no alto, no céu do entardecer. Uma a uma, a
 pequena aurora junta as suas cores de volta. Começa a brilhar, suave e quente.
 
 ## Paragem 3: A Subida ao Céu
@@ -66,8 +66,8 @@ Ela precisa da vossa coragem para lhe emprestar um bocadinho da dela.
 animá-la? Vocês têm um novelo de lã vermelha. Podiam dar-lhe um empurrãozinho gentil
 para cima?*
 
-Subis ao pinheiro mais alto. Atais a lã vermelha para ela se segurar. Contais juntos,
-um, dois, três. "Tu consegues!", gritais. A pequena aurora respira fundo, larga-se e
+Sobem ao pinheiro mais alto. Atam a lã vermelha para ela se segurar. Contam juntos,
+um, dois, três. "Tu consegues!", gritam. A pequena aurora respira fundo, larga-se e
 salta para o escuro.
 
 ## O Céu Dança Outra Vez
@@ -78,6 +78,6 @@ descem em voo para a receber, a rir. "Voltaste! Voltaste!", cantam.
 Então o céu inteiro rebenta em cor. Azul-turquesa, e verde, e roxo, todos a dançar
 juntos por cima do fiorde nevado. A longa noite já não é escura.
 
-Lá no alto, por entre as estrelas, Freya a Bondosa olha para baixo e sorri para vós.
+Lá no alto, por entre as estrelas, Freya a Bondosa olha para baixo e sorri para vocês.
 Conseguiram juntos. Estiveram cheios de ideias, foram corajosos e, acima de tudo,
 foram bondosos. Muito bem, heróis dos fiordes.

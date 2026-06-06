@@ -38,7 +38,7 @@ brilhantes e uma folhinha na cabeça. Pisca-vos o olho com simpatia.
 doçura e falar baixinho? Tens um bolo de arroz doce para partilhar. Podias ficar muito
 quietinho e deixar que venham ter contigo?*
 
-Quando estais calmos e bondosos, uma luzinha aproxima-se. Depois outra. Em pouco tempo,
+Quando estão calmos e bondosos, uma luzinha aproxima-se. Depois outra. Em pouco tempo,
 uma nuvem de minúsculos pirilampos dourados paira à vossa volta, já sem medo. "Muito
 bem", sussurra a Kon. "Agora confiam em vocês."
 
@@ -56,7 +56,7 @@ pequena para a maior? Podias simplesmente seguir o fio vermelho de lanterna em l
 Podias pedir uma dica à Kon, a Raposa?*
 
 Quando encontram a ordem suave e as acendem uma a uma, abre-se uma estrada macia de luz
-dourada. Os pequenos pirilampos vão saltitando por ela, felizes, a seguir-vos colina
+dourada. Os pequenos pirilampos saltitam por ela, felizes, a seguir-vos colina
 abaixo.
 
 ## Paragem 3: A Grande Lanterna

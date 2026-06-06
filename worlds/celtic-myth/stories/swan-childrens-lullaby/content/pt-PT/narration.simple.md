@@ -28,7 +28,7 @@ ali estão as quatro crianças-cisne, mas estão caladas e escondidas.
 *Como vão encontrá-las? Podiam ficar muito quietos e ouvir? Podiam chamar baixinho e com
 carinho, para não as assustar? Tentem alguma coisa e vejam.*
 
-Quando vos aproximais, com doçura e carinho, quatro formas brancas deslizam para fora da
+Quando se aproximam, com doçura e carinho, quatro formas brancas deslizam para fora da
 névoa. Quatro cisnes de olhos suaves e tristes. Ficam contentes por ver uma cara amiga.
 Deixam-vos chegar perto.
 
@@ -56,7 +56,7 @@ todas. Abre o bico, e não sai nenhum som. Esconde a cabeça debaixo da asa.
 Podiam tocar uma melodia suave para todas elas? Podiam dizer à cisne tímida que não está
 sozinha, e cantar com ela para não ter de cantar sozinha?*
 
-Quando tocas a pequena harpa e cantam com elas, a cisne mais tímida levanta a cabeça. Sai
+Quando tocam a pequena harpa e cantam com elas, a cisne mais tímida levanta a cabeça. Sai
 uma notinha doce. Depois outra. Em breve as quatro estão a cantar juntas, fortes e claras.
 
 ## O Anoitecer Fica Rosa
@@ -66,7 +66,7 @@ suaviza-se e desvanece. Derrete-se em rosa e ouro, e o pôr do sol derrama-se so
 
 Lá em cima, na colina verde, o Círculo de Pedras acompanha, baixinho e feliz. As
 crianças-cisne deslizam em círculo, a cantar de alma e coração. E lá no alto, sobre o
-lago, Danu, a Bondosa, olha para baixo e sorri para vós.
+lago, Danu, a Bondosa, olha para baixo e sorri para vocês.
 
 Vocês conseguiram, juntos. Foram corajosos, foram bondosos e, acima de tudo, estavam
 cheios de ideias. Boa noite, heróis. Bons sonhos.

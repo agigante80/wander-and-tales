@@ -32,9 +32,9 @@ por sermos corajosos, bondosos e cheios de ideias."
 
 ## Stop 1: O Bosque Enredado
 
-Entrastes por baixo dos grandes carvalhos e, logo ali, o bosque começou a fazer a sua
+Entraram por baixo dos grandes carvalhos e, logo ali, o bosque começou a fazer a sua
 partida. Os caminhos enrolavam-se, torciam-se e voltavam para trás, e cada curva cheia
-de folhas era igualzinha à anterior. Caminhastes e caminhastes com grande cuidado e, de
+de folhas era igualzinha à anterior. Caminharam e caminharam com grande cuidado e, de
 alguma maneira, regressavam sempre ao mesmo velho carvalho retorcido de onde tinham
 partido.
 
@@ -42,10 +42,10 @@ Um viajante sem plano podia vaguear por estes caminhos até a lua nascer e ainda
 não estar mais perto da feira.
 
 *Como vão evitar perder-se? Levam um novelo de lã vermelha. O que podem fazer com ele?
-Podiam atar uma ponta no início e deixá-la a arrastar atrás de vós?*
+Podiam atar uma ponta no início e deixá-la a arrastar atrás de vocês?*
 
-Então atastes a lã vermelha bem apertada num ramo baixo à entrada e deixaste-la
-desenrolar-se com cuidado atrás de vós à medida que avançavam. Agora cada passo era um
+Então ataram a lã vermelha bem apertada num ramo baixo à entrada e deixaram-na
+desenrolar-se com cuidado atrás de vocês à medida que avançavam. Agora cada passo era um
 passo que podiam desfazer, e o bosque que se enrola não conseguia apanhar um herói que
 levava um fio. Em pouco tempo encontraram o único caminho que levava em frente, mais
 para dentro do bosque sussurrante.
@@ -54,7 +54,7 @@ para dentro do bosque sussurrante.
 
 As árvores afastaram-se e o caminho abriu-se numa clareira verde e calma. Ali, tecidas de
 ramos de carvalho vivos e penduradas com musgo macio, erguiam-se três altas portas em
-arco, lado a lado. Só uma delas levava em frente. As outras duas, tínheis a certeza,
+arco, lado a lado. Só uma delas levava em frente. As outras duas, tinham a certeza,
 fariam-vos voltar logo pelo caminho por onde tinham vindo.
 
 Com um restolhar de folhas, o próprio Pook apareceu: uma pequena forma peluda de olhos
@@ -91,7 +91,7 @@ há lugar para ele na feira. O que fazem?*
 
 Quando se sentaram ao lado dele e partiram o bolo de aveia e mel em dois e o partilharam,
 os olhos brilhantes do Pook ficaram suaves e quentes. "Não estão zangados comigo?",
-sussurrou, mal acreditando. "Então vou pôr tudo direitinho, cada último enredo, prometo."
+sussurrou, mal podia acreditar. "Então vou pôr tudo direitinho, cada último enredo, prometo."
 
 ## Os Caminhos Ficam Certos
 
@@ -107,6 +107,6 @@ frente, e a feira de maio começou num rodopio de fitas, música de viola e dan�
 relvado.
 
 Lá no alto, sobre as ilhas esmeralda, Danu, a Bondosa, olhou para baixo pela névoa que se
-abria e sorriu. Tínheis conseguido, e tinham conseguido juntos: com a vossa coragem, com
+abria e sorriu. Tinham conseguido, e tinham conseguido juntos: com a vossa coragem, com
 a vossa bondade e com todas as vossas ideias brilhantes. Muito bem, heróis das Ilhas
 Esmeralda.

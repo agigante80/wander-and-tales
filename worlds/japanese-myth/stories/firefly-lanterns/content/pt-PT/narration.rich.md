@@ -76,8 +76,8 @@ simplesmente seguir o fio vermelho de lanterna em lanterna. Ou podes pedir uma d
 sossegada à Kon, a Raposa, que conhece bem estes caminhos. Qual é o teu plano?*
 
 Quando encontraram a ordem suave e tocaram cada lanterna para a acender, uma após outra,
-uma estrada dourada e macia desenrolou-se colina abaixo. Os pequenos pirilampos foram
-saltitando por ela numa fita feliz de luz, a seguir-vos de perto, sendo cada passo do
+uma estrada dourada e macia desenrolou-se colina abaixo. Os pequenos pirilampos saltitaram
+por ela numa fita feliz de luz, a seguir-vos de perto, sendo cada passo do
 caminho um passo que não tinham medo de dar.
 
 ## Paragem 3: A Grande Lanterna
@@ -88,7 +88,7 @@ tímido de todos tinha de voar lá para dentro e brilhar. Mas este pequeno espí
 mais acanhado de todos. Ficou para trás, junto ao vosso ombro, a tremer, a olhar lá para
 cima para a grande lanterna escura como se fosse uma montanha alta demais para subir.
 
-Isto nunca foi uma luta, e não havia aqui nada para derrotar. O pequeno pirilampo só
+Isto nunca foi uma luta, e não havia aqui nenhum inimigo. O pequeno pirilampo só
 precisava de encontrar, algures dentro de si, um pequeno e firme bocadinho de coragem.
 
 *O que poderias dizer-lhe para o ajudar a sentir-se corajoso? Podias falar com a voz mais

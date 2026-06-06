@@ -1,6 +1,6 @@
 # A Noite do Longo Inverno
 
-*Lede em voz alta, devagar e com carinho. Parai muitas vezes para deixar as crianças
+*Leiam em voz alta, devagar e com carinho. Parem muitas vezes para deixar as crianças
 responder. Aqui não há respostas erradas, só ideias novas e corajosas para tentar.*
 
 ## Antes de começar
@@ -21,8 +21,8 @@ fortes. Vencemos por sermos corajosos, bondosos e cheios de ideias."
 
 ## Paragem 1: O Fiorde Gelado
 
-Saís para a neve e chegais ao Fiorde Gelado. É uma larga placa de gelo entre as
-montanhas, lisa e prateada. Quando vos pondes em cima dela, o gelo geme e estala
+Saem para a neve e chegam ao Fiorde Gelado. É uma larga placa de gelo entre as
+montanhas, lisa e prateada. Quando se põem em cima dela, o gelo geme e estala
 debaixo dos vossos pés.
 
 Lá no alto, os Dois Corvos dão voltas e observam-vos com olhos brilhantes e amigos.
@@ -31,8 +31,8 @@ Lá no alto, os Dois Corvos dão voltas e observam-vos com olhos brilhantes e am
 estarem todos num monte pesado? Podiam ir de mãos dadas e atravessar juntos? Vocês têm
 um novelo de lã vermelha para estender como guia.*
 
-Quando atravessais devagar e com cuidado, o gelo aguenta firme e deixa-vos passar.
-Chegais à outra margem com as faces frias e os corações quentes.
+Quando atravessam devagar e com cuidado, o gelo aguenta firme e deixa-vos passar.
+Chegam à outra margem com as faces frias e os corações quentes.
 
 ## Paragem 2: O Gigante de Gelo Solitário
 
@@ -40,14 +40,14 @@ Passado o fiorde, um enorme gigante de gelo azul pálido está sentado mesmo no 
 caminho. É mais alto do que a casa comprida, e a cara dele parece feroz. Cruza os
 grandes braços frios.
 
-Mas ouvi. Ele treme. Será que está, se calhar, um bocadinho sozinho? Nunca ninguém
+Mas ouçam. Ele treme. Será que está, se calhar, um bocadinho sozinho? Nunca ninguém
 para para falar com ele.
 
 *Isto não é uma luta. Que coisa bondosa podiam fazer? Vocês têm um pãozinho de mel
 quente para partilhar. Podiam perguntar o nome dele. Podiam oferecer-lhe um lugar
-junto à brasa. O que tentais?*
+junto à brasa. O que tentam?*
 
-Quando sois bondosos com ele, a cara gelada do gigante derrete-se num sorriso.
+Quando são bondosos com ele, a cara gelada do gigante derrete-se num sorriso.
 "Obrigado por serem meus amigos", diz ele baixinho. E vem convosco, gentil como a
 neve.
 
@@ -58,10 +58,10 @@ altos salões. Só se mantém firme para quem a atravessa com um coração bondo
 sincero.
 
 *Atravessam com bom coração? Vocês levam a Brasa Sempre Quente, e agora têm um novo
-amigo ao vosso lado. Saí juntos, com cuidado e com verdade.*
+amigo ao vosso lado. Saiam juntos, com cuidado e com verdade.*
 
 A ponte brilha forte debaixo dos vossos pés e aguenta-vos até lá acima. No alto salão
-estendeis a Brasa Sempre Quente, e o calor do mundo acende-se outra vez.
+estendem a Brasa Sempre Quente, e o calor do mundo acende-se outra vez.
 
 ## Madrugada e Calor
 

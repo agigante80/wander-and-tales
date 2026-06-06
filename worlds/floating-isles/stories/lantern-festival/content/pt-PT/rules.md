@@ -6,8 +6,8 @@ nesta aventura. Uma jogada falhada nunca é uma derrota; ninguém perde.
 
 ## Preparar
 
-- Não precisas de mapa impresso para esta. Imaginai a viagem da Praça das Lanternas
-  até às nuvens, ou disponde três pontos pequenos para serem as três paragens.
+- Não precisas de mapa impresso para esta. Imaginem a viagem da Praça das Lanternas
+  até às nuvens, ou disponham três pontos pequenos para serem as três paragens.
 - Cada jogador escolhe uma magia: Luz, Crescer, Transformação ou Voz. Duas magias
   diferentes resultam melhor, porque combiná-las é metade da diversão.
 - Dá a cada jogador cinco estrelas de energia (cinco fichas ou peças pequenas).
@@ -25,10 +25,10 @@ que sair. O Guia explica como funciona.
 | Lança | Surpresa |
 |---|---|
 | 1 | Uma Borboleta Mensageira passa a esvoaçar e dá-vos uma dica grátis. |
-| 2 | Apanhais uma faísca de luz quente: recuperai uma estrela de energia. |
+| 2 | Apanham uma faísca de luz quente: recuperem uma estrela de energia. |
 | 3 | Uma brisa meiga e firme: o próximo desafio é Fácil. |
-| 4 | O Gato de Névoa aparece e ronrona. Está tudo bem; continuai. |
-| 5 | Uma lanterna amiga ilumina-vos o caminho: guardai uma jogada para usar mais tarde. |
+| 4 | O Gato de Névoa aparece e ronrona. Está tudo bem; continuem. |
+| 5 | Uma lanterna amiga ilumina-vos o caminho: guardem uma jogada para usar mais tarde. |
 | 6 | Uma cançãozinha de festa passa e toda a gente trauteia durante um turno feliz. |
 
 ## Como acaba

@@ -32,10 +32,10 @@ correspondente. O Guia explica como funciona.
 | Lançamento | Reviravolta do Destino |
 |---|---|
 | 1 | Um sátiro amigável dá-vos uma dica gratuita. |
-| 2 | Recuperais a vossa coragem e ficais com uma estrela de energia de volta. |
+| 2 | Recuperam a vossa coragem e ficam com uma estrela de energia de volta. |
 | 3 | Um vento favorável, e o próximo desafio é Fácil. |
 | 4 | O centauro Quíron passa e acena com bondade. Está tudo bem. |
-| 5 | Um ramo de oliveira pela sorte: guardai uma jogada para usar mais tarde. |
+| 5 | Um ramo de oliveira pela sorte: guardem uma jogada para usar mais tarde. |
 | 6 | Uma explosão de cantos de pássaros, e por um momento todos se sentem corajosos. |
 
 ## Como termina

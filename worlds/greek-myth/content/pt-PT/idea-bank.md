@@ -27,7 +27,7 @@ companheiro, escolher o caminho meigo em vez do caminho fácil.
   oferecer uma palavra calma.
 - As **Ninfas Cantoras** da fonte recompensam a bondade com uma canção.
 - A **Esfinge dos Enigmas** é severa no seu portão, mas calorosa depois de
-  responderdes.
+  responderem.
 - Até o **Ciclope Solitário** se torna um amigo meigo que leva os heróis aos
   ombros por brincadeira.
 

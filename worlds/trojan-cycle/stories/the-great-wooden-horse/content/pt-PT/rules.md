@@ -32,7 +32,7 @@ correspondente. O Guia explica como funciona.
 | 1 | Ulisses, o Brilhante dá-vos uma pista grátis. |
 | 2 | Recuperam o fôlego e voltam a ganhar uma estrela de energia. |
 | 3 | Um vento favorável, e o próximo desafio é Fácil. |
-| 4 | Argos, o Cão Fiel trota até vós e abana a cauda. Está tudo bem. |
+| 4 | Argos, o Cão Fiel trota até vocês e abana a cauda. Está tudo bem. |
 | 5 | Um cesto de figos para dar sorte: guardem uma jogada para usar mais tarde. |
 | 6 | Uma brisa quente do mar, e por um instante todos se sentem corajosos. |
 
@@ -40,7 +40,7 @@ correspondente. O Guia explica como funciona.
 
 A cidade desconfiada aos portões é o "obstáculo", mas não há aqui vilão nenhum, e nem
 um único soldado se esconde dentro do cavalo. A cidade altiva está apenas farta de uma
-velha discórdia, tal como os navegantes. A história não se ganha derrotando alguém, mas
-surpreendendo a cidade cansada com amizade: uma nota quente na concha-buzina, uma
+velha discórdia, tal como os navegantes. A história não se ganha ao derrotar alguém, mas
+ao surpreender a cidade cansada com amizade: uma nota quente na concha-buzina, uma
 portinhola aberta e um cesto de figos partilhado. Deixa a bondade acontecer; é esse o
 sentido de tudo. Vê a página dos enigmas para os três desafios e as suas soluções.

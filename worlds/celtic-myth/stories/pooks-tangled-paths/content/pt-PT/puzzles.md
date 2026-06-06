@@ -22,7 +22,7 @@ o caminho verdadeiro, ou faz um pisco simpático saltar à frente de ramo em ram
 com uma ajudinha conta na mesma como sucesso completo e repõe uma estrela de energia.
 
 **Para tornar mais simples.** Para os mais pequeninos, estende um pedaço de fio ou lã pelo
-chão e deixa-os caminhar ao lado dele até à sala seguinte, enrolando-o à medida que
+chão e deixa-os caminhar ao lado dele até à sala seguinte, a enrolá-lo à medida que
 avançam.
 
 ## Stop 2: As Três Portas de Pook (Normal)
@@ -76,4 +76,4 @@ Não há batalha nem perdedor. Quando o Pook bate as patas, as fitas de névoa
 desenrolam-se, os caminhos do bosque ficam direitos e certos, e o Pook vai a saltar para
 levar os heróis até à saída. A feira de maio acontece num rodopio de música e dança, e
 **Danu, a Bondosa**, sorri lá de cima das ilhas verdes. Os heróis venceram da única forma
-que se vence aqui: sendo corajosos, bondosos e cheios de ideias.
+que se vence aqui: por serem corajosos, bondosos e cheios de ideias.

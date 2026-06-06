@@ -20,7 +20,7 @@ meigos", disse ela, "e uma festa constrói-se com ambos. Querem juntar o que ain
 falta e trazer o nosso grande amigo em segurança até à mesa?"
 
 Pôs um frasco vazio nas vossas mãos e sorriu. "Lembrem-se", disse ela, "nesta vila
-não festejamos deixando ninguém de fora. Partilhamos o que temos, e arranjamos
+não festejamos a deixar ninguém de fora. Partilhamos o que temos, e arranjamos
 sempre lugar para mais um."
 
 *Qual é o teu nome de herói? Que qualidade vais levar: Imaginação, Coragem ou
@@ -33,12 +33,12 @@ guardavam o mel mais doce de todas as Colinas Soalheiras. Rodopiavam em círculo
 dourados e atarefados à volta da colmeia, e via-se logo que quem entrasse a correr
 ou agarrasse só ia encontrar um frasco vazio e uma nuvem de zumbido.
 
-*Como podereis pedir às abelhas que partilhem o seu mel? Poderiam mexer-se devagar
+*Como podem pedir às abelhas que partilhem o seu mel? Poderiam mexer-se devagar
 e manter-se calmos? Poderiam oferecer-lhes primeiro um presente de flores do prado
-e pedir com delicadeza? O que tentais?*
+e pedir com delicadeza? O que tentam?*
 
-Quando viestes com meiguice e pedistes com bondade, as Abelhas da Colina zumbiram a
-sua aprovação e rodearam o vosso frasco num turbilhão dourado e amigável, enchendo-o
+Quando vieram com meiguice e pediram com bondade, as Abelhas da Colina zumbiram a
+sua aprovação e rodearam o vosso frasco num turbilhão dourado e amigável, a enchê-lo
 até à borda. "Por um amigo, e por uma festa", zumbiram elas, "de bom grado."
 
 ## Paragem 2: A Cozinha do Milo
@@ -48,16 +48,16 @@ mel tão vasto que ocupava a sua mesa inteira. Mas um bolo só é tão bom quant
 partilha dele, e aqui estava o enigma: como cortá-lo para que cada convidado, da
 criança mais pequena ao enorme Ciclope, tivesse uma fatia, e ninguém ficasse sem.
 
-*Vamos resolvê-lo juntos. Quantos amigos vêm à festa? Como podereis cortar o bolo
+*Vamos resolvê-lo juntos. Quantos amigos vêm à festa? Como podem cortar o bolo
 para que todos tenham que chegue, com uma fatia grande o suficiente para um gigante?
 Uma parte justa, lembrem-se, nem sempre é uma parte do mesmo tamanho.*
 
-Quando contastes os convidados e partilhastes o bolo com cuidado, cada prato da
+Quando contaram os convidados e partilharam o bolo com cuidado, cada prato da
 vila ficou cheio, e a maior fatia de todas ficou à espera do vosso amigo gigante.
 
 ## Paragem 3: Buscar o Amigo
 
-Subistes até à boca da gruta do Ciclope. Ele ficou radiante por vos ver, mas
+Subiram até à boca da gruta do Ciclope. Ele ficou radiante por vos ver, mas
 quando percebeu que uma vila inteira de gente esperava lá em baixo, olhou para os
 seus enormes pés e o sorriso vacilou. "Uma vila inteira?" disse ele. "Mas eu sou
 tão grande. E se não houver lugar para mim? E se olharem uma vez e ficarem com
@@ -65,13 +65,13 @@ medo?"
 
 *Ele encontrara a sua bondade há muito tempo, mas agora precisava de um bocadinho
 de coragem. Que coisa meiga poderiam dizer-lhe? Poderiam dizer-lhe claramente que é
-desejado? Poderiam mostrar-lhe a grande fatia que tinham guardado e oferecer-vos
-para descer ao seu lado? O que fazeis?*
+desejado? Poderiam mostrar-lhe a grande fatia que tinham guardado e oferecer-se
+para descer ao seu lado? O que fazem?*
 
-Quando o tranquilizastes com palavras calorosas e sinceras, a preocupação do
+Quando o tranquilizaram com palavras calorosas e sinceras, a preocupação do
 gigante derreteu-se, e um sorriso espalhou-se devagar por toda a sua cara larga.
 Fechou cuidadosamente uma mão imensa à volta da vossa e, juntos, passo a passo
-meigo, descestes a colina até à festa.
+meigo, desceram a colina até à festa.
 
 ## Todos à Mesa
 

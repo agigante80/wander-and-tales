@@ -24,16 +24,16 @@ mais fortes. Vencemos por sermos corajosos, bondosos e cheios de ideias."
 
 ## Stop 1: O Bosque Enredado
 
-Entrais no bosque. Os caminhos enrolam-se, torcem-se e voltam para trás. Caminhais e
-caminhais, e de alguma maneira voltam sempre ao mesmo velho carvalho.
+Entram no bosque. Os caminhos enrolam-se, torcem-se e voltam para trás. Caminham e
+caminham, e de alguma maneira voltam sempre ao mesmo velho carvalho.
 
 Seria fácil perderem-se aqui para sempre.
 
 *O que podiam fazer? Têm um novelo de lã vermelha. Podiam atar uma ponta no início e
 segui-la à medida que avançam? Assim podem sempre encontrar o caminho de volta.*
 
-Quando atais a lã vermelha no início e a desenrolais atrás de vós, nunca perdeis o
-caminho. O bosque não consegue enredar um herói que tem um fio. Em breve encontrais o
+Quando atam a lã vermelha no início e a desenrolam atrás de vocês, nunca perdem o
+caminho. O bosque não consegue enredar um herói que tem um fio. Em breve encontram o
 caminho que vos leva mais para dentro.
 
 ## Stop 2: As Três Portas de Pook
@@ -54,11 +54,11 @@ saída."*
 pedir-lhe uma dica?*
 
 Quando escolhem a porta da direita, ela abre-se com um estalido feliz. Pook ri-se às
-gargalhadas e dá uma cambalhota para dentro das folhas. Passais por ela.
+gargalhadas e dá uma cambalhota para dentro das folhas. Passam por ela.
 
 ## Stop 3: Conquistar o Pook
 
-Mais para dentro do bosque encontrais o Pook outra vez, sentado num cogumelo. Já não
+Mais para dentro do bosque encontram o Pook outra vez, sentado num cogumelo. Já não
 está a rir. Abraça os joelhos e olha para os pés.
 
 Ele transformou todo o bosque num jogo, e agora sente-se um bocadinho triste. Não pensou

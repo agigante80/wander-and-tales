@@ -1,6 +1,6 @@
 # A Madrugada Silenciosa do Galo
 
-*Lede em voz alta, devagar e com carinho. Parai muitas vezes para deixar as crianças
+*Leiam em voz alta, devagar e com carinho. Parem muitas vezes para deixar as crianças
 responder. Aqui não há respostas erradas, só novas ideias para experimentar.*
 
 ## Antes de começar

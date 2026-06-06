@@ -24,8 +24,8 @@ ser corajosos, bondosos e cheios de ideias."
 
 ## Paragem 1: O Portão dos Guardiões
 
-Subis o caminho íngreme e chegais ao Portão Torii Vermelho. De cada lado está sentado um
-grande cão-leão de pedra, quieto como a rocha. Quando vos aproximais, eles pestanejam e
+Sobem o caminho íngreme e chegam ao Portão Torii Vermelho. De cada lado está sentado um
+grande cão-leão de pedra, quieto como a rocha. Quando se aproximam, eles pestanejam e
 espreguiçam-se.
 
 "Ninguém passa", troam eles, "até responderem à nossa adivinha." Parecem ferozes, mas os
@@ -34,7 +34,7 @@ olhos são bondosos. Gostam de uma boa cara pensativa, e um palpite corajoso é 
 *O que poderias fazer? Podias ouvir com atenção e resolvê-la juntos? Podias pedir uma dica
 à Kon, a Raposa. Um palpite ponderado também vale. O que vais tentar?*
 
-Quando respondeis, os Cães-Leão Guardiões acenam com a cabeça e recostam-se. "Bem
+Quando respondem, os Cães-Leão Guardiões acenam com a cabeça e recostam-se. "Bem
 pensado", dizem. O portão abre-se, e o caminho segue em frente.
 
 ## Paragem 2: A Ponte ao Luar
@@ -53,17 +53,17 @@ vossos pés. Saem do outro lado, em segurança, para o escuro enevoado.
 
 ## Paragem 3: O Dragão Adormecido
 
-Por fim chegais ao largo rio enevoado. E lá está ele: o grande Dragão do Rio, enrolado ao
+Por fim chegam ao largo rio enevoado. E lá está ele: o grande Dragão do Rio, enrolado ao
 longo da água, vasto como uma colina, a respirar devagar. Dormiu durante tanto tempo que a
 neblina se juntou nas suas costas.
 
-Isto não é uma luta. Nunca conseguiríeis acordar um gigante assim aos gritos, e também não
-o iríeis querer assustar. Ele é bondoso, e um bocadinho solitário.
+Isto não é uma luta. Nunca conseguiriam acordar um gigante assim aos gritos, e também não
+o iriam querer assustar. Ele é bondoso, e um bocadinho solitário.
 
 *Que coisa bondosa e calma poderias fazer? Tens uma sineta que toca suave e clara. Podias
 tocá-la e cantar-lhe uma canção sossegada e amiga. O que vais tentar?*
 
-Quando tocais a sineta e cantais baixinho, os olhos sonolentos do grande dragão abrem-se.
+Quando tocam a sineta e cantam baixinho, os olhos sonolentos do grande dragão abrem-se.
 "Veio alguém", murmura ele, surpreendido e contente. "Veio alguém acordar-me com bondade."
 
 ## As Chuvas Voltam

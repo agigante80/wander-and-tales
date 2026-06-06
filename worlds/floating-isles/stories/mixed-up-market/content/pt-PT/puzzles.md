@@ -69,7 +69,7 @@ poderem mexê-los fisicamente; a lógica encaixa assim que a virem como uma roda
 para começar a cadeia ("as botas vão com os sapatos"), e o resto tende a seguir.
 Resolvê-lo com um empurrãozinho é um sucesso completo.
 
-**Mais simples.** Para uma criança muito pequena, fazei só uma troca: deixa-a passar
+**Mais simples.** Para uma criança muito pequena, façam só uma troca: deixa-a passar
 as botas do padeiro ao sapateiro e que isso seja o trabalho todo feito.
 
 ## Pip, o Novo Mago (sem jogada)

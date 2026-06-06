@@ -31,7 +31,7 @@ Lealdade?*
 ## Etapa 1: A Seguir Argos
 
 Argos encosta o focinho à areia e parte ao longo da praia. Para numa pequena marca na
-areia, depois noutra, e depois olha para vós e espera.
+areia, depois noutra, e depois olha para vocês e espera.
 
 Há rastos aqui, e também pequenas pistas: um figo caído, uma pegada, uma marca onde
 alguém se sentou a descansar.
@@ -67,7 +67,7 @@ O rasto acaba numa duna solitária, lá ao longe na praia, onde o vento andou o 
 a empilhar a areia. Foi algures aqui que a lembrança caiu, e o vento já a deixou
 meio enterrada.
 
-Argos fareja em grandes círculos, depois para num sítio e olha para vós, de orelhas
+Argos fareja em grandes círculos, depois para num sítio e olha para vocês, de orelhas
 levantadas.
 
 *O que podiam fazer? Podiam ver onde o Argos aponta o focinho e cavar aí, com muito
@@ -86,7 +86,7 @@ e depois abraça o Argos, que abana a cauda com tanta força que quase cai.
 
 Ulisses, o Brilhante sorri e diz: "Não deixaram um amigo para trás. Essa é a melhor
 ideia que alguma vez existiu." Lá fora, sobre as ondas luminosas, Tétis, a Mãe do Mar
-ergue o seu rosto doce e sorri para vós.
+ergue o seu rosto doce e sorri para vocês.
 
 As naus já podem voltar a casa, com cada amigo e cada tesouro em segurança a bordo.
 Muito bem, heróis. Muito bem, Argos. Ninguém ficou para trás.

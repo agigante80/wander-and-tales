@@ -18,8 +18,8 @@ Ratatosk corre e, no momento certo, oferecer-lhe o **petisco** que a Edda lhes d
 Uma criança paciente e meiga que acompanhe o caminho do esquilo e espere por ele
 ganha depressa a sua confiança.
 
-**Ajuda.** Se as crianças hesitarem, fazei o Ratatosk parar para recuperar o fôlego
-mesmo ao lado delas, para que o petisco seja fácil de oferecer, ou deixai-as gastar
+**Ajuda.** Se as crianças hesitarem, façam o Ratatosk parar para recuperar o fôlego
+mesmo ao lado delas, para que o petisco seja fácil de oferecer, ou deixem-nas gastar
 uma estrela de energia para dizerem algo que o acalme e ele oiça. Qualquer bondade
 verdadeira o sossega. Assim que está calmo, senta-se, trinca e agradece-lhes, e a
 história avança.
@@ -31,15 +31,15 @@ respirem três vezes fundo e fiquem quietos.
 
 **O desafio.** O Ratatosk despeja três mensagens baralhadas. Três amigos esperam na
 árvore, e cada mensagem pertence a exatamente um deles. Os jogadores têm de se lembrar
-de quem vive onde e juntar cada mensagem ao amigo a que pertence, usando uma pista
+de quem vive onde e juntar cada mensagem ao amigo a que pertence, com uma pista
 escondida dentro de cada uma.
 
-**Os três amigos.** Lede-os em voz alta para as crianças imaginarem a árvore: **a
+**Os três amigos.** Leiam-nos em voz alta para as crianças imaginarem a árvore: **a
 Águia** vive bem no cimo, lá no alto, no vento e no céu largo; **a Coruja** está num
 ramo do meio, simpática e amiga de um olá; e **o pequeno amigo** vive lá em baixo,
 entre as raízes fundas e escuras.
 
-**As três mensagens e as suas pistas.** Lede cada mensagem e deixai as crianças
+**As três mensagens e as suas pistas.** Leiam cada mensagem e deixem as crianças
 descobrir a quem pertence:
 
 - *"O vento está agreste aqui no alto hoje, mas adoro o céu largo."* A pista é **o
@@ -55,13 +55,13 @@ descobrir a quem pertence:
 juntá-la ao amigo que combina. Juntar as três arruma a confusão. Os **Dois Corvos**
 estão ali para confirmar um bom palpite ou dar um empurrãozinho a quem fica preso.
 
-**Ajuda.** Se as crianças hesitarem, fazei um Corvo ler uma mensagem outra vez,
+**Ajuda.** Se as crianças hesitarem, façam um Corvo ler uma mensagem outra vez,
 devagar, e perguntar "Então, quem é que gosta do vento lá no alto?" Arrumar mesmo uma
 só mensagem faz as outras começarem a encaixar, e lá chegar com a ajuda dos Corvos
 continua a contar como êxito completo e repõe uma estrela de energia.
 
-**Tornar mais simples.** Usai só dois amigos, a Águia lá no alto e o pequeno amigo lá
-em baixo, e perguntai "no alto ou em baixo?" para cada uma.
+**Tornar mais simples.** Usem só dois amigos, a Águia lá no alto e o pequeno amigo lá
+em baixo, e perguntem "no alto ou em baixo?" para cada uma.
 
 ## Paragem 3: Subir e Entregar (Normal)
 
@@ -77,14 +77,14 @@ subir e a descer, para que os escaladores encontrem sempre o caminho, e acender 
 a cada amigo a sua mensagem verdadeira com calor, para que a Águia e o pequeno amigo
 percebam que as palavras maldosas nunca foram reais, só uma confusão.
 
-**Ajuda.** Se as crianças sentirem a subida demasiado alta, deixai o Ratatosk correr a
-seu lado para mostrar os ramos mais seguros, ou deixai-as gastar uma estrela de
+**Ajuda.** Se as crianças sentirem a subida demasiado alta, deixem o Ratatosk correr a
+seu lado para mostrar os ramos mais seguros, ou deixem-nas gastar uma estrela de
 energia para subir de mãos dadas. Se não souberem o que dizer, a mensagem bondosa pode
 ser tão simples como "O teu amigo nunca esteve zangado contigo; foi tudo uma
 trapalhada." Assim que as palavras verdadeiras são ditas, a cara fechada do amigo vira
 alegria.
 
-**Tornar mais simples.** Deixai a criança mais pequena esticar-se bem alto para
+**Tornar mais simples.** Deixem a criança mais pequena esticar-se bem alto para
 chegar à Águia, depois agachar-se bem baixo para o amigo nas raízes.
 
 ## O final
@@ -94,4 +94,4 @@ mensagens. Quando as palavras certas chegam aos amigos certos, a Águia lá no a
 árvore e o pequeno amigo lá em baixo nas raízes acenam com calor um ao outro e gritam:
 "Amigos de novo!" O Ratatosk agradece aos heróis com uma volta feliz à árvore, e
 **Freya a Bondosa** sorri lá de cima dos fiordes nevados. Os heróis venceram da única
-maneira que aqui se vence: sendo corajosos, bondosos e cheios de ideias.
+maneira que aqui se vence: a serem corajosos, bondosos e cheios de ideias.

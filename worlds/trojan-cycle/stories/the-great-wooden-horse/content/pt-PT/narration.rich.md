@@ -16,7 +16,7 @@ dois acampamentos estavam cansados até aos ossos, e os dois, lá no fundo do co
 desejavam apenas que aquilo acabasse.
 
 Ulisses, o Brilhante chamou-vos os dois para junto dele. Tinha uma barba curta e
-encaracolada e um sorriso amável e cintilante, e ia virando um cavalinho talhado nas
+encaracolada e um sorriso amável e cintilante, e girava um cavalinho talhado nas
 mãos enquanto falava. "Tive uma ideia", disse ele, "e é melhor do que qualquer gritaria
 pela areia fora. Vamos construir um grande cavalo de madeira, alto como uma casa. Mas
 não o vamos encher de soldados, como as velhas e tristes histórias talvez contassem.
@@ -39,7 +39,7 @@ mas montes de madeira ainda não são um cavalo. Tinha de ficar de pé, alto e f
 sobre as suas rodas, equilibrado para não baloiçar nem tombar, com uma portinhola bem
 feita aberta num dos lados.
 
-Os carpinteiros coçaram a cabeça e olharam para vós. Quantas tábuas precisaria cada
+Os carpinteiros coçaram a cabeça e olharam para vocês. Quantas tábuas precisaria cada
 perna robusta? Como deviam encaixar-se as peças curvas do grande corpo em forma de
 barril, para que tudo ficasse equilibrado? O Fio de Penélope era a ferramenta certa
 para medir uma peça antes de ser cortada, e contar com cuidado dir-vos-ia exatamente

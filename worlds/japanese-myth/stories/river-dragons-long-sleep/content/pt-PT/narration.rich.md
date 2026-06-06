@@ -32,8 +32,8 @@ a Bondade?*
 
 O caminho subia a pique por entre os cedros até chegar ao Portão Torii Vermelho, alto e cor
 de vermelhão contra o verde da montanha. De cada lado estava agachado um grande cão-leão de
-pedra, tão quieto que se poderia passar mesmo ao lado sem reparar. Depois, à medida que vos
-aproximáveis, a pedra pareceu amolecer: pestanejaram, espreguiçaram-se e viraram as cabeças
+pedra, tão quieto que se poderia passar mesmo ao lado sem reparar. Depois, à medida que se
+aproximavam, a pedra pareceu amolecer: pestanejaram, espreguiçaram-se e viraram as cabeças
 talhadas para vos olhar.
 
 "Ninguém passa", trovejaram os Cães-Leão Guardiões em conjunto, "até responderem à nossa
@@ -75,9 +75,9 @@ descer devagar como a maré. Tinha dormido tanto, tanto tempo, que a neblina se 
 suas escamas e juncos tinham crescido entre as suas garras. Por um momento, parecia o fim
 da aventura.
 
-Mas isto nunca foi uma luta, e nunca poderia ser. Não podíeis lutar com uma criatura assim
-mais do que com a própria montanha, e nem o iríeis querer. Ele não era feroz. Era bondoso,
-e, percebestes devagar, era solitário, pois há muito tempo ninguém subia todo aquele
+Mas isto nunca foi uma luta, e nunca poderia ser. Não podiam lutar com uma criatura assim
+mais do que com a própria montanha, e nem o iriam querer. Ele não era feroz. Era bondoso,
+e, perceberam devagar, era solitário, pois há muito tempo ninguém subia todo aquele
 caminho para se sentar com ele.
 
 *Isto pede uma bondade calma e cuidadosa. Levas uma sineta que toca suave e clara, o tipo
@@ -97,7 +97,7 @@ sombra passava começava a cair uma chuva suave e quente, a primeira chuva de to
 verão.
 
 O Rio Prateado encheu-se e transbordou e reluziu. Lá bem em baixo, os campos de arroz
-sedentos beberam fundo e tornaram-se, quase enquanto olháveis, de um verde alegre e vivo. E
+sedentos beberam fundo e tornaram-se, quase enquanto olhavam, de um verde alegre e vivo. E
 o dragão já não estava solitário, pois agora tinha dois amigos que subiriam a montanha para
 o ver outra vez.
 

@@ -16,13 +16,13 @@ bondoso é abrandar e olhar com doçura: ficar atentos ao ténue brilho da luz d
 seguir pequenas pegadas na neve e falar baixinho para ela não se assustar. Pedir uma
 dica ao **Nori o Tomte**, o duende do lar de barrete vermelho, resulta igualmente bem.
 
-**Ajuda.** Se as crianças não a conseguirem ver, fazei a própria luz dela tremular por
-um momento atrás de uma árvore em especial, ou deixai o Nori espreitar e apontar com
+**Ajuda.** Se as crianças não a conseguirem ver, façam a própria luz dela tremular por
+um momento atrás de uma árvore em especial, ou deixem o Nori espreitar e apontar com
 uma piscadela. O olhar mais doce ou a palavra mais bondosa fá-la sair; qualquer
 tentativa sincera de a encontrar conta como êxito completo e repõe uma estrela de
 energia.
 
-**Tornar mais simples.** Escondei uma ficha luminosa atrás de uma almofada e deixai a
+**Tornar mais simples.** Escondam uma ficha luminosa atrás de uma almofada e deixem a
 criança mais pequena encontrá-la com um feliz "cu-cu".
 
 ## Paragem 2: As Três Cores (Normal)
@@ -37,13 +37,13 @@ cada cor ao mundo à volta delas: **azul-turquesa** de um pingente de gelo brilh
 Nomear qualquer fonte sensata de cada cor resulta; o que conta é fazer corresponder a
 cor à coisa, não um único objeto certo.
 
-**Ajuda.** Se ficarem presas numa cor, deixai a pequena aurora olhar com esperança
-para o sítio certo ("um pingente de gelo chama-lhe a atenção"), ou fazei o Nori
+**Ajuda.** Se ficarem presas numa cor, deixem a pequena aurora olhar com esperança
+para o sítio certo ("um pingente de gelo chama-lhe a atenção"), ou façam o Nori
 trautear e inclinar a cabeça nessa direção. Cada cor encontrada fá-la brilhar um pouco
 mais, e encontrá-las com ajuda continua a contar por inteiro.
 
-**Tornar mais simples.** Pedi à criança mais pequena para apontar para qualquer coisa
-verde na sala, depois qualquer coisa azul, e festejai cada uma.
+**Tornar mais simples.** Peçam à criança mais pequena para apontar para qualquer coisa
+verde na sala, depois qualquer coisa azul, e festejem cada uma.
 
 ## Paragem 3: A Subida ao Céu (Normal)
 
@@ -56,11 +56,11 @@ resulta: subir o pinheiro mais alto a seu lado, animá-la, contar até ao salto,
 a **lã vermelha** para lhe dar um empurrãozinho gentil para o ar. Quando as crianças
 lhe emprestam a sua coragem, ela respira fundo e salta.
 
-**Ajuda.** Se ela hesitar, ou as crianças não souberem como ajudar, fazei-a perguntar
+**Ajuda.** Se ela hesitar, ou as crianças não souberem como ajudar, façam-na perguntar
 baixinho: "Contam comigo?" Uma única palavra bondosa e corajosa chega. No momento em
 que os jogadores a animam de qualquer maneira, ela ganha alento e sobe.
 
-**Tornar mais simples.** Contai "um, dois, três, saltar!" juntos e fazei toda a gente
+**Tornar mais simples.** Contem "um, dois, três, saltar!" juntos e façam toda a gente
 saltar no sítio com uma grande festa.
 
 ## O final

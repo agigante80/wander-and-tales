@@ -24,10 +24,10 @@ que sair. O Guia explica como funciona.
 | Lança | Surpresa |
 |---|---|
 | 1 | Uma Borboleta Mensageira passa a esvoaçar e dá-vos uma dica grátis. |
-| 2 | Encontrais um brilho de energia: recuperai uma estrela de energia. |
+| 2 | Encontram um brilho de energia: recuperem uma estrela de energia. |
 | 3 | Uma brisa meiga: o próximo desafio é Fácil. |
-| 4 | O Gato de Névoa aparece e ronrona. Está tudo bem; continuai. |
-| 5 | Uma criatura sábia deixa-vos repetir uma jogada mais tarde, quando quiserdes. |
+| 4 | O Gato de Névoa aparece e ronrona. Está tudo bem; continuem. |
+| 5 | Uma criatura sábia deixa-vos repetir uma jogada mais tarde, quando quiserem. |
 | 6 | Uma cançãozinha passa e toda a gente dança durante um turno feliz. |
 
 ## Como acaba

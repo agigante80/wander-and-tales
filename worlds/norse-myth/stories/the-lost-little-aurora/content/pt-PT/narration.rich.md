@@ -1,6 +1,6 @@
 # A Pequena Aurora Perdida
 
-*Lede em voz alta, ou deixai uma criança mais velha ler sozinha. Fazei uma pausa em
+*Leiam em voz alta, ou deixem uma criança mais velha ler sozinha. Façam uma pausa em
 cada pergunta para os heróis decidirem juntos. Aqui não há respostas erradas, só
 ideias mais corajosas para tentar.*
 
@@ -31,7 +31,7 @@ Coração?*
 
 ## Paragem 1: A Floresta Escura
 
-Saístes para debaixo do céu escuro e para dentro dos Pinheiros Sussurrantes. A neve
+Saíram para debaixo do céu escuro e para dentro dos Pinheiros Sussurrantes. A neve
 estava funda e macia e calada, e as árvores altas erguiam-se à vossa volta, quietas e
 caladas, com o vento a levar vozes suaves por entre os seus ramos. Algures em toda
 aquela quietude, uma minúscula aurora estava escondida, tímida e fria e não maior do
@@ -41,11 +41,11 @@ Seria fácil não a ver. Iam ter de se mover com doçura e olhar com atenção.
 
 *Como a vão encontrar? Podiam andar baixinho e ficar atentos ao mais ténue brilho de
 luz, ou seguir pequenas pegadas marcadas na neve. O Nori o Tomte, o duende do lar de
-barrete vermelho, anda algures por perto, e adora ajudar. O que tentais?*
+barrete vermelho, anda algures por perto, e adora ajudar. O que tentam?*
 
-Quando abrandastes bem e olhastes com doçura para as sombras, lá o vistes: um brilho
+Quando abrandaram bem e olharam com doçura para as sombras, lá o viram: um brilho
 suave e a tremer atrás de um tronco de pinheiro. Ali estava ela, a mais pequena
-aurora, apagada e a tremer e muito contente por ser encontrada. "Olá", sussurrastes.
+aurora, apagada e a tremer e muito contente por ser encontrada. "Olá", sussurraram.
 "Viemos ajudar-te." E ela saiu devagarinho para vos receber.
 
 ## Paragem 2: As Três Cores
@@ -56,15 +56,15 @@ caí", disse ela, e a sua voz era pequenina. "Azul-turquesa, e verde, e roxo.
 Escaparam-se para o mundo, e eu não consigo brilhar sem elas."
 
 Mas as cores não tinham ido nada longe. Cada uma estava escondida algures perto,
-numa coisa que vestia essa mesma cor, se ao menos soubésseis onde olhar.
+numa coisa que vestia essa mesma cor, se ao menos soubessem onde olhar.
 
 *Conseguem encontrar as três cores dela? Onde, neste lugar nevado, se poderá esconder
-o azul-turquesa? E o verde? E o roxo? Pensai nos pingentes de gelo, nos pinheiros e no
+o azul-turquesa? E o verde? E o roxo? Pensem nos pingentes de gelo, nos pinheiros e no
 largo céu da tarde.*
 
-Encontrastes o azul-turquesa dela no coração de um pingente de gelo brilhante, o verde
+Encontraram o azul-turquesa dela no coração de um pingente de gelo brilhante, o verde
 nas agulhas fundas de um ramo de pinheiro e o roxo lá no alto, onde o céu do
-entardecer escurecia. Uma cor de cada vez, ajudaste-la a puxar cada uma de volta para
+entardecer escurecia. Uma cor de cada vez, ajudaram-na a puxar cada uma de volta para
 dentro de si, e uma cor de cada vez, a pequena aurora começou a brilhar, suave e
 quente e mais clara a cada momento.
 
@@ -81,8 +81,8 @@ coragem emprestada por amigos, e de uma mão que a ajudasse a subir.
 lado, animá-la lá de baixo, ou usar o novelo de lã vermelha para lhe dar um
 empurrãozinho gentil para o ar. Qual é o vosso plano?*
 
-Subistes o pinheiro mais alto, ramo nevado a ramo nevado, e atastes a lã vermelha para
-ela ter onde se segurar. Depois contastes juntos, um, dois, três, e gritastes: "Tu
+Subiram o pinheiro mais alto, ramo nevado a ramo nevado, e ataram a lã vermelha para
+ela ter onde se segurar. Depois contaram juntos, um, dois, três, e gritaram: "Tu
 consegues, acreditamos em ti!" A pequena aurora respirou fundo, largou o ramo mais
 alto e saltou para o escuro.
 

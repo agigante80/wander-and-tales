@@ -1,6 +1,6 @@
 # A Pequena Aurora Perdida: Regras para o Adulto
 
-*Novo nisto? Lede primeiro o Guia para o Adulto. Explica a ideia toda em duas páginas
+*Novo nisto? Leiam primeiro o Guia para o Adulto. Explica a ideia toda em duas páginas
 e nunca mais vão precisar dele.*
 
 O Guia para o Adulto explica como o jogo funciona. Esta página tem só o que é especial
@@ -10,30 +10,30 @@ ninguém fica verdadeiramente magoado.
 
 ## Preparar
 
-- Imprimi o mapa. Cada jogador põe uma figurinha no Início, o Salão do Lar.
+- Imprimam o mapa. Cada jogador põe uma figurinha no Início, o Salão do Lar.
 - Este mundo não tem magia. Em vez disso cada herói apoia-se numa de três qualidades:
   **Imaginação** (imaginar ideias), **Coragem** (um coração firme) ou **Coração**
-  (cuidar dos outros). Na ficha do herói, onde diz magia, deixai cada criança escrever
+  (cuidar dos outros). Na ficha do herói, onde diz magia, deixem cada criança escrever
   a qualidade de que mais gosta. Duas qualidades diferentes funcionam melhor juntas.
-- Dai a cada jogador cinco estrelas de energia (cinco fichas ou peças pequenas). São
+- Deem a cada jogador cinco estrelas de energia (cinco fichas ou peças pequenas). São
   gastas e repostas durante o jogo.
-- Ponde de parte três adereços, se puderdes: uma luzinha ou ficha para a pequena
+- Ponham de parte três adereços, se puderem: uma luzinha ou ficha para a pequena
   lanterna, um novelo de cordel vermelho para a lã vermelha e qualquer coisinha para o
   pãozinho de mel. Qualquer coisa pode ser qualquer coisa.
-- Mantende os dados e a tabela das bandas de dados, do fim do kit, ao vosso lado.
+- Mantenham os dados e a tabela das bandas de dados, do fim do kit, ao vosso lado.
 
 ## A Volta do Destino
 
-Uma vez em cada lugar os jogadores podem lançar para uma volta; lede a linha que
+Uma vez em cada lugar os jogadores podem lançar para uma volta; leiam a linha que
 corresponde. O Guia explica como funciona.
 
 | Jogada | Volta do Destino |
 |---|---|
 | 1 | O Nori o Tomte aparece e dá-vos uma dica de graça. |
-| 2 | Voltais a encontrar a vossa coragem, e recuperais uma estrela de energia. |
+| 2 | Voltam a encontrar a vossa coragem, e recuperam uma estrela de energia. |
 | 3 | Um vento amigo vindo do fiorde, e o próximo desafio é Fácil. |
 | 4 | Os Dois Corvos passam a voar e acenam com gentileza. Está tudo bem. |
-| 5 | Um fio de lã vermelha com sorte: guardai uma jogada para usar mais tarde. |
+| 5 | Um fio de lã vermelha com sorte: guardem uma jogada para usar mais tarde. |
 | 6 | Uma explosão de calor do lar, e por um momento todos se sentem corajosos. |
 
 ## Como termina
@@ -41,5 +41,5 @@ corresponde. O Guia explica como funciona.
 A pequena aurora está demasiado tímida e demasiado fria para brilhar, mas não é nenhum
 vilão e não há inimigo nenhum nesta história. Vence-se não por derrotar ninguém, mas
 por a encontrar, ajudá-la a juntar as suas três cores e emprestar-lhe a coragem de
-saltar de volta para o céu. Deixai a bondade pousar; é o sentido de tudo. Vede a página
+saltar de volta para o céu. Deixem a bondade pousar; é o sentido de tudo. Vejam a página
 dos enigmas para os três desafios e as suas soluções.

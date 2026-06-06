@@ -17,7 +17,7 @@ trampolim de musgo, uma flor-chapéu para abrigo, raízes amigas que dão uma aj
 
 **Transformação:** um toque que transforma (uma pedra numa chave), um feitiço de
 mini-e-maxi que encolhe ou aumenta as coisas, cores de camaleão, um truque de água
-(gelo em névoa), uma chave coringa, um caminho de pedras de passar, um eco-espelho.
+(gelo em névoa), uma chave-mestra, um caminho de pedras de passar, um eco-espelho.
 
 **Voz:** conversa com os animais, um sussurro aos objetos (a perguntar do que
 precisam), uma canção que acalma, um eco que encontra, um pedido amigo, um

@@ -15,20 +15,20 @@ ela. "Vocês têm mãos prestáveis e corações meigos", diz ela. "Querem ajuda
 juntar o que precisamos e trazer o nosso grande amigo até à mesa?"
 
 Ela dá-vos um frasco vazio e um sorriso caloroso. "Aqui em cima não festejamos
-deixando ninguém de fora. Partilhamos, e arranjamos sempre lugar para mais um."
+a deixar ninguém de fora. Partilhamos, e arranjamos sempre lugar para mais um."
 
 *Qual é o teu nome de herói? És um herói de Imaginação, de Coragem ou de Coração?*
 
 ## Paragem 1: A Colina das Abelhas
 
 Lá em cima, num prado soalheiro, vivem as Abelhas da Colina, que guardam o mel mais
-doce de todas as colinas. Zumbem em círculos atarefados à volta da colmeia. Se vos
-apressardes ou agarrardes, elas fogem num instante.
+doce de todas as colinas. Zumbem em círculos atarefados à volta da colmeia. Se se
+apressarem ou agarrarem, elas fogem num instante.
 
 *Como poderiam pedir às abelhas para partilhar? Poderiam mexer-se devagar e ficar
-calmos? Poderiam oferecer-lhes primeiro umas flores? O que tentais?*
+calmos? Poderiam oferecer-lhes primeiro umas flores? O que tentam?*
 
-Quando sois meigos e pedis com bondade, as Abelhas da Colina zumbem felizes e
+Quando são meigos e pedem com bondade, as Abelhas da Colina zumbem felizes e
 enchem o vosso frasco até cima de mel dourado. "Obrigada, amigos", zumbem elas.
 
 ## Paragem 2: A Cozinha do Milo
@@ -37,24 +37,24 @@ De volta à vila, o Milo o padeiro fez um enorme bolo de mel. Mas como o partilh
 para que todos fiquem com uma fatia, até o enorme Ciclope, que precisa de uma fatia
 muito grande?
 
-*Vamos contar juntos. Quantos amigos vêm? Como podereis cortar o bolo para que
+*Vamos contar juntos. Quantos amigos vêm? Como podem cortar o bolo para que
 ninguém fique de fora, e o gigante também receba que chegue? Uma fatia justa nem
 sempre é do mesmo tamanho.*
 
-Quando contais os convidados e partilhais o bolo com justiça, cada prato fica
+Quando contam os convidados e partilham o bolo com justiça, cada prato fica
 cheio, com uma grande fatia guardada para o vosso amigo gigante.
 
 ## Paragem 3: Buscar o Amigo
 
-Subis até à gruta do Ciclope. Ele fica feliz por vos ver, mas é tímido. "Uma vila
+Sobem até à gruta do Ciclope. Ele fica feliz por vos ver, mas é tímido. "Uma vila
 inteira?" diz ele, a olhar para os seus grandes pés. "E se eu for grande demais? E
 se tiverem medo de mim?"
 
 *Ele precisa de um bocadinho de coragem. Que coisa meiga poderiam dizer? Poderiam
 dizer-lhe que é bem-vindo? Poderiam mostrar-lhe a fatia que guardaram e descer
-juntos? O que fazeis?*
+juntos? O que fazem?*
 
-Quando o animais com palavras meigas, o gigante sorri de orelha a orelha. Ele dá-vos
+Quando o animam com palavras meigas, o gigante sorri de orelha a orelha. Ele dá-vos
 a mão e descem a colina juntos.
 
 ## Todos à Mesa

@@ -1,7 +1,7 @@
 # Banco de Ideias: Os Fiordes Nevados do Norte
 
 *Sugestões de improviso para o adulto. Quando as crianças quiserem tentar algo que a
-página não tinha previsto, vinde buscar aqui. Não há respostas erradas; cada ideia
+página não tinha previsto, venham buscar aqui. Não há respostas erradas; cada ideia
 inclina-se para o calor, a imaginação e ninguém perder.*
 
 ## Se os heróis ficarem presos
@@ -11,7 +11,7 @@ inclina-se para o calor, a imaginação e ninguém perder.*
 - Os Dois Corvos dão voltas lá no alto e deixam cair uma única pena no caminho certo.
 - A voz de Edda a Guardiã das Sagas chega no vento com a primeira linha de uma saga
   antiga que guarda uma dica.
-- Deixai os heróis gastar uma estrela de energia para "lembrar uma coisa que o Avô
+- Deixem os heróis gastar uma estrela de energia para "lembrar uma coisa que o Avô
   costumava dizer".
 
 ## Caras amigas para fazer aparecer

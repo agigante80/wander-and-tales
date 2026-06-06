@@ -34,7 +34,7 @@ a Bondade?*
 
 ## Paragem 1: As Barracas Desarrumadas
 
-Correis ao largo do mercado, e ali, mesmo no meio da confusão, estava sentado o Pon, o
+Correm ao largo do mercado, e ali, mesmo no meio da confusão, estava sentado o Pon, o
 Tanuki. As orelhas caíam-lhe. O nariz redondo tremia-lhe. Uma lágrima gorda estava pronta a
 cair. "Estraguei a festa toda", fungou ele. "Eu só sempre quis ajudar, e fiz tudo pior."
 
@@ -52,7 +52,7 @@ salto, pronto a pôr cada coisinha no lugar.
 
 ## Paragem 2: A Grande Arrumação
 
-Agora olhastes bem para o monte, e que monte ele era. Leques, fruta e lanternas jaziam tudo
+Agora olharam bem para o monte, e que monte ele era. Leques, fruta e lanternas jaziam tudo
 emaranhado numa grande montanha de trapalhada, e cada coisinha tinha de encontrar o seu
 lugar próprio antes de a festa poder começar.
 
@@ -66,7 +66,7 @@ calmas e cuidadosas.
 ou contar o número certo de lanternas para cada poste, ou juntar cada fruta ao seu cesto
 pela cor. Qual é o teu plano?*
 
-Com paciência, peça a peça, separastes e contastes tudo de volta ao lugar, e devagar o
+Com paciência, peça a peça, separaram e contaram tudo de volta ao lugar, e devagar o
 mercado ficou arrumado e luminoso outra vez. O Pon olhava maravilhado e batia as patinhas.
 "Vocês são tão cheios de ideias e tão calmos", disse ele. "Eu teria feito tudo à pressa e
 piorado as coisas, mas vocês pensaram nisto até ao fim."
@@ -74,7 +74,7 @@ piorado as coisas, mas vocês pensaram nisto até ao fim."
 ## Paragem 3: A Última Lanterna
 
 O mercado parecia agora quase perfeito, cada leque e fruta e lanterna no seu lugar. Quase.
-Pois quando olhastes para o coração do largo, vistes que a mais grandiosa lanterna de todas
+Pois quando olharam para o coração do largo, viram que a mais grandiosa lanterna de todas
 faltava: a grande lanterna vermelha da festa, que ficava pendurada bem no centro, aquela
 cujo brilho era o sinal para a festa começar. Sem ela, o tambor não podia soar.
 
@@ -88,7 +88,7 @@ uma lanterna fugitiva."
 ameixoeira, ou pedir ao Pon, que conhece cada canto do mercado, que ajude a procurar. E
 como vais ajudar o Pon a sentir-se orgulhoso em vez de envergonhado? O que vais fazer?*
 
-Seguistes a pista pela viela abaixo, e ali, bem aconchegada debaixo da ameixoeira pendente,
+Seguiram a pista pela viela abaixo, e ali, bem aconchegada debaixo da ameixoeira pendente,
 estava a grande lanterna vermelha, sã e salva. Quando a levantaram, o Pon veio a correr, e
 foi o Pon quem apontou o próprio ramo em que ela ficara presa. "Eu sabia para onde ela ia
 rolar", disse ele, e pela primeira vez em todo o dia ficou bem direito e orgulhoso. "Afinal

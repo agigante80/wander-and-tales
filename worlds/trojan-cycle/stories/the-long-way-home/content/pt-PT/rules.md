@@ -32,7 +32,7 @@ correspondente. O Guia explica como funciona.
 | 1 | Ulisses, o Brilhante dá-vos uma pista grátis. |
 | 2 | Voltam a apanhar o jeito do mar e ganham de novo uma estrela de energia. |
 | 3 | Um vento favorável enche a vela, e o próximo desafio é Fácil. |
-| 4 | Argos, o Cão Fiel trota até vós e abana a cauda. Está tudo bem. |
+| 4 | Argos, o Cão Fiel trota até vocês e abana a cauda. Está tudo bem. |
 | 5 | Um cesto de figos para dar sorte: guardem uma jogada para usar mais tarde. |
 | 6 | Uma brisa quente do mar, e por um instante todos se sentem corajosos. |
 
@@ -41,7 +41,7 @@ correspondente. O Guia explica como funciona.
 As Sereias Cantoras junto aos rochedos são o "obstáculo" da viagem, mas não são vilãs.
 São cantoras do mar que andam solitárias há tempo de mais, e a sua canção triste só
 desvia as naus do rumo porque nunca ninguém parou para ser amigo delas. A história não
-se ganha fugindo delas nem com qualquer tipo de força, mas respondendo à solidão delas
+se ganha ao fugir delas nem com qualquer tipo de força, mas ao responder à solidão delas
 com bondade: uma canção cantada de volta, a Concha-Buzina tocada, o Cesto de Mel e Figos
 partilhado. Uma vez animadas e tornadas amigas, as Sereias cantam para guiar os heróis
 em segurança. Deixa a bondade acontecer; é esse o sentido de tudo. A última etapa é a
