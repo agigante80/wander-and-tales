@@ -21,30 +21,48 @@ const jsonld = {
 ---
 
 <Base lang={lang!} route="" title={`Wander & Tales · ${site.tagline[locale]}`} jsonld={jsonld}>
-  <section class="bg-gradient-to-b from-dusk to-dusk2 text-cream">
-    <div class="max-w-5xl mx-auto px-4 py-16 md:py-24 text-center">
-      <p class="uppercase tracking-wide text-cream/80 text-sm">{t(lang!, "hero_kicker")}</p>
-      <h1 class="font-display text-4xl md:text-6xl mt-3">Wander <span class="text-gold">&amp;</span> Tales</h1>
-      <p class="max-w-2xl mx-auto mt-5 text-cream/90 text-lg">{t(lang!, "hero_sub")}</p>
-      <div class="mt-8 flex flex-wrap gap-3 justify-center">
-        <a href={`/${lang}/how-to-play`} class="bg-gold text-ink font-display px-5 py-2.5 rounded-full hover:brightness-105">{t(lang!, "how_to_play")}</a>
-        <a href="#worlds" class="bg-cream/15 ring-1 ring-cream/40 px-5 py-2.5 rounded-full hover:bg-cream/25">{t(lang!, "hero_read")}</a>
+  <section class="hero">
+    <div class="wrap inner">
+      <div class="stack-4">
+        <p class="eyebrow rise">{t(lang!, "hero_kicker")}</p>
+        <h1 class="rise d1">Wander <span class="amp">&amp;</span> Tales</h1>
+        <p class="sub rise d2">{t(lang!, "hero_sub")}</p>
+        <div class="acts rise d3">
+          <a class="btn btn-gold btn-lg" href={`/${lang}/how-to-play`}>{t(lang!, "how_to_play")}</a>
+          <a class="btn btn-secondary btn-lg" href="#worlds">{t(lang!, "hero_read")}</a>
+        </div>
+        <div class="pills rise d4">
+          <span class="stat"><b>7</b><span>{t(lang!, "stat_worlds")}</span></span>
+          <span class="statsep" aria-hidden="true"></span>
+          <span class="stat"><b>21</b><span>{t(lang!, "stat_stories")}</span></span>
+          <span class="statsep" aria-hidden="true"></span>
+          <span class="stat"><b>4</b><span>{t(lang!, "stat_languages")}</span></span>
+        </div>
+      </div>
+      <div class="scene rise d2" role="img" aria-label="A little green house on a floating island beneath a crescent moon">
+        <svg viewBox="0 0 512 512" aria-hidden="true"><circle cx="372" cy="118" r="42" fill="#f6f1e6"></circle><circle cx="390" cy="106" r="36" fill="#6a6cae"></circle><circle cx="138" cy="150" r="22" fill="#f2a93b"></circle><circle cx="300" cy="70" r="15" fill="#f2a93b"></circle><path d="M196,256 C182,296 204,344 256,392 C308,344 330,296 316,256 Z" fill="#25543c"></path><ellipse cx="256" cy="256" rx="76" ry="27" fill="#2f6f4f"></ellipse><polygon points="224,212 256,178 288,212" fill="#25543c"></polygon><rect x="230" y="210" width="52" height="44" rx="3" fill="#f6f1e6"></rect><rect x="247" y="225" width="18" height="29" rx="2" fill="#f2a93b"></rect><path d="M104,330 C96,356 110,388 144,418 C178,388 192,356 184,330 Z" fill="#2f6f4f"></path><ellipse cx="144" cy="330" rx="46" ry="17" fill="#4ea24a"></ellipse><path d="M330,348 C324,368 334,392 360,414 C386,392 396,368 390,348 Z" fill="#25543c"></path><ellipse cx="360" cy="348" rx="36" ry="13" fill="#4ea24a"></ellipse></svg>
       </div>
     </div>
   </section>
 
-  <section id="worlds" class="max-w-5xl mx-auto px-4 py-14">
-    <h2 class="font-display text-2xl md:text-3xl text-pine">{t(lang!, "worlds_title")}</h2>
-    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 mt-6">
+  <section class="section wrap" id="worlds">
+    <h2 style="font-size:var(--fs-h2)">{t(lang!, "worlds_title")}</h2>
+    <div class="grid-worlds" style="margin-top:var(--sp-6)">
       {worlds.map((w) => <WorldCard world={w} lang={lang} locale={locale} />)}
     </div>
   </section>
 
-  <section class="max-w-5xl mx-auto px-4 pb-16">
-    <div class="rounded-2xl bg-white border border-paper p-8 text-center">
-      <h2 class="font-display text-2xl text-purple">{t(lang!, "create_title")}</h2>
-      <p class="max-w-2xl mx-auto mt-3 text-ink/75">{t(lang!, "create_body")}</p>
-      <a href={`/${lang}/create`} class="inline-block mt-5 bg-purple text-white font-display px-5 py-2.5 rounded-full hover:brightness-110">{t(lang!, "create_cta")}</a>
+  <section class="section wrap" id="create">
+    <div class="create">
+      <div class="stack-4">
+        <p class="kicker">{t(lang!, "nav_create")}</p>
+        <h2 style="font-size:var(--fs-h2)">{t(lang!, "create_title")}</h2>
+        <p class="muted">{t(lang!, "create_body")}</p>
+        <div class="acts" style="margin-top:var(--sp-2)">
+          <a class="btn btn-primary" href={`/${lang}/create`}>{t(lang!, "create_cta")}</a>
+        </div>
+      </div>
+      <div class="art tall t-dusk" role="img" aria-label={t(lang!, "create_title")}><span class="label">page one</span></div>
     </div>
   </section>
 </Base>

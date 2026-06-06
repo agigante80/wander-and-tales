@@ -1,7 +1,7 @@
 ---
 import Base from "../../../../layouts/Base.astro";
 import { LANGS, SITE_URL, localeOf } from "../../../../consts";
-import { worlds, site, mediaUrl, pdfUrl, pdfVer, snippet } from "../../../../lib/content";
+import { worlds, site, mediaUrl, pdfUrl, pdfVer, snippet, firstParagraph } from "../../../../lib/content";
 import { t, AGE_RANGE } from "../../../../lib/i18n";
 
 export function getStaticPaths() {
@@ -16,20 +16,30 @@ const wbE = world.pdfs?.[locale]?.world_book;
 const ehE = world.pdfs?.[locale]?.example_heroes;
 const guideE = site.shared_pdfs?.[locale]?.guide;
 const htpE = site.shared_pdfs?.[locale]?.how_to_play;
-const skill = (s: string) => s.replace(/-/g, " ");
-const ver = (e: any) => (pdfVer(e) ? ` (${pdfVer(e)})` : "");
+const ver = (e: any) => (pdfVer(e) ? ` · v${pdfVer(e)}` : "");
 
 const heroes = world.heroes ?? [];
 const canon = world.canon ?? [];
 const canonName = (id: string) => canon.find((c: any) => c.id === id)?.names?.[locale] ?? id;
 const localize = (arr: any[]) => (arr ?? []).map((m: any) => (typeof m === "string" ? m : m?.[locale])).filter(Boolean);
+const teaser = (s: any) => snippet(firstParagraph(s.content_paths?.[locale]?.simple));
+const playersText = (s: any) => (s.tags.players?.max ? `${s.tags.players.min} to ${s.tags.players.max}` : `${s.tags.players?.min}+`);
+
 const KIND_ORDER = ["quality", "character", "creature", "place", "item", "term"];
 const KIND_KEY: Record<string, string> = { character: "c_character", creature: "c_creature", place: "c_place", item: "c_item", term: "c_term" };
-const groups = KIND_ORDER
-  .map((k) => ({ kind: k, items: canon.filter((c: any) => c.kind === k) }))
-  .filter((g) => g.items.length);
+const DOT: Record<string, string> = { quality: "var(--purple-2)", character: "var(--accent-solid)", creature: "var(--brand-green)", place: "var(--brand-dusk)", item: "var(--gold-solid)", term: "var(--gold-solid)" };
+const groups = KIND_ORDER.map((k) => ({ kind: k, items: canon.filter((c: any) => c.kind === k) })).filter((g) => g.items.length);
 const kindLabel = (k: string) =>
   k === "quality" ? t(lang!, world.hero_powers === "strength" ? "c_strength" : "c_magic") : t(lang!, KIND_KEY[k] ?? "c_term");
+
+const dl = (e: any, title: string, ico: string) =>
+  pdfUrl(e)
+    ? `<a class="btn-dl" href="${pdfUrl(e)}" rel="noopener"><span class="ico">${ico}</span><span><span class="t">${title}</span><br><span class="m">PDF${ver(e)}</span></span><span class="arr"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 4v13M6 11l6 6 6-6"/></svg></span></a>`
+    : "";
+const icoBook = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 4h11l3 3v13a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1Z"/><path d="M8 9h7M8 13h7M8 17h4"/></svg>';
+const icoHero = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="8" r="3"/><path d="M3.5 19c0-3 2.5-5 5.5-5s5.5 2 5.5 5"/></svg>';
+const icoShield = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3l7 3v5c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6Z"/></svg>';
+
 const jsonld = {
   "@context": "https://schema.org",
   "@type": "CreativeWork",
@@ -41,98 +51,134 @@ const jsonld = {
 ---
 
 <Base lang={lang!} route={`worlds/${world.id}`} title={`${world.name[locale]} · Wander & Tales`} description={snippet(world.lore?.[locale])} image={coverUrl ?? undefined} jsonld={jsonld}>
-  <section class="relative">
-    <div class="h-48 md:h-64 overflow-hidden bg-dusk">
-      {coverUrl && <img src={coverUrl} alt="" class="w-full h-full object-cover opacity-90" />}
-    </div>
-    <div class="max-w-4xl mx-auto px-4 -mt-12 relative">
-      <div class="bg-white rounded-2xl border border-paper p-6 shadow-sm">
-        <a href={`/${lang}/#worlds`} class="text-sm text-teal hover:underline">{t(lang!, "all_worlds")}</a>
-        <h1 class="font-display text-3xl text-pine mt-1">{world.name[locale]}</h1>
-        <p class="mt-3 text-ink/80">{world.lore?.[locale]}</p>
+  <section class="world-hero">
+    <div class="wrap inner">
+      <div class="stack-4">
+        <nav aria-label="Breadcrumb" style="font-size:var(--fs-small);color:rgba(246,241,230,.7)">
+          <a href={`/${lang}/`} style="color:rgba(246,241,230,.7)">Wander &amp; Tales</a>
+          <span aria-hidden="true">  ›  </span>
+          <a href={`/${lang}/#worlds`} style="color:rgba(246,241,230,.7)">{t(lang!, "all_worlds")}</a>
+        </nav>
+        <h1>{world.name[locale]}</h1>
+        <p>{world.lore?.[locale]}</p>
+        <div class="chips" style="margin-top:var(--sp-2)">
+          <span class="chip">{world.stories.length} {t(lang!, "stat_stories")}</span>
+          <span class="chip">{t(lang!, "ages")} 3 to 12</span>
+        </div>
+      </div>
+      <div class="art square t-isles" style="box-shadow:0 24px 50px -22px rgba(0,0,0,.5)" role="img" aria-label={world.name[locale]}>
+        {coverUrl && <img src={coverUrl} alt="" />}
       </div>
     </div>
   </section>
 
-  <section class="max-w-4xl mx-auto px-4 py-12">
-    <h2 class="font-display text-2xl text-pine">{t(lang!, "stories_in")}</h2>
-    <div class="mt-6 space-y-4">
-      {
-        world.stories.map((s: any) => (
-          <article class="rounded-xl bg-white border border-paper p-5">
-            <div class="flex flex-wrap items-baseline justify-between gap-2">
-              <h3 class="font-display text-xl">
-                <a href={`/${lang}/worlds/${world.id}/${s.id}`} class="hover:text-teal">{s.title[locale]}</a>
-              </h3>
-              <p class="text-xs text-ink/60">
-                {t(lang!, "ages")} {AGE_RANGE[s.tags.age_recommended] ?? s.tags.age_recommended} ·
-                {s.tags.players?.max ? `${s.tags.players.min} to ${s.tags.players.max}` : `${s.tags.players?.min}+`} {t(lang!, "players")} ·
-                {s.tags.play_time_minutes} {t(lang!, "minutes")}
-              </p>
-            </div>
-            <p class="text-sm text-ink/60 mt-1">{(s.tags.skills ?? []).map(skill).join(", ")}</p>
-            <div class="mt-3 flex flex-wrap gap-2 text-sm">
-              <a href={`/${lang}/worlds/${world.id}/${s.id}`} class="bg-teal text-white px-3 py-1.5 rounded-full hover:brightness-105">{t(lang!, "read_online")}</a>
-              {pdfUrl(s.pdfs?.[locale]?.atlas) && <a href={pdfUrl(s.pdfs[locale].atlas)} class="ring-1 ring-ink/15 px-3 py-1.5 rounded-full hover:bg-paper" rel="noopener">{t(lang!, "atlas")} (PDF){ver(s.pdfs[locale].atlas)}</a>}
-            </div>
-          </article>
-        ))
-      }
-    </div>
-
-    {
-      heroes.length > 0 && (
-        <>
-          <h2 class="font-display text-2xl text-pine mt-14">{t(lang!, "heroes_title")}</h2>
-          <div class="mt-6 grid sm:grid-cols-2 gap-5">
-            {heroes.map((h: any) => (
-              <article class="rounded-xl bg-white border border-paper p-5 flex gap-4">
-                {mediaUrl(h.image_path) && <img src={mediaUrl(h.image_path)} alt="" loading="lazy" class="w-20 h-20 rounded-lg object-cover shrink-0" />}
-                <div class="min-w-0">
-                  <h3 class="font-display text-lg">{h.name}</h3>
-                  <p class="text-xs text-ink/55">{AGE_RANGE[h.tier] ?? h.tier}</p>
-                  {h.magics?.length > 0 && <p class="text-sm text-ink/75 mt-1">{h.magics.map(canonName).join(", ")}</p>}
-                  {h.carry?.length > 0 && <p class="text-xs text-ink/55 mt-1">{t(lang!, "carries")}: {localize(h.carry).join(", ")}</p>}
-                </div>
-              </article>
-            ))}
+  <section class="section wrap">
+    <h2 style="font-size:var(--fs-h2);margin-bottom:var(--sp-6)">{t(lang!, "stories_in")}</h2>
+    <div style="display:grid;grid-template-columns:1fr;gap:var(--sp-4)">
+      {world.stories.map((s: any, i: number) => {
+        const stale = teaser(s);
+        const chips = (
+          <div class="chips" style="margin-top:var(--sp-4)">
+            <span class="chip">{t(lang!, "ages")} {AGE_RANGE[s.tags.age_recommended] ?? s.tags.age_recommended}</span>
+            <span class="chip">{s.tags.play_time_minutes} {t(lang!, "minutes")}</span>
+            {(s.tags.skills ?? []).slice(0, 2).map((sk: string) => <span class="chip chip-teal">{sk.replace(/-/g, " ")}</span>)}
           </div>
-        </>
-      )
-    }
-
-    {
-      groups.length > 0 && (
-        <>
-          <h2 class="font-display text-2xl text-pine mt-14">{t(lang!, "whoswho_title")}</h2>
-          <div class="mt-6 space-y-8">
-            {groups.map((g) => (
-              <div>
-                <h3 class="font-display text-lg text-purple">{kindLabel(g.kind)}</h3>
-                <dl class="mt-3 space-y-3">
-                  {g.items.map((c: any) => (
-                    <div class="flex gap-4">
-                      {mediaUrl(c.image_path) && <img src={mediaUrl(c.image_path)} alt="" loading="lazy" class="w-14 h-14 rounded-lg object-cover shrink-0" />}
-                      <div>
-                        <dt class="font-display">{c.names?.[locale] ?? c.id}</dt>
-                        <dd class="text-sm text-ink/70">{c.description?.[locale] ?? ""}</dd>
-                      </div>
-                    </div>
-                  ))}
-                </dl>
+        );
+        return i === 0 ? (
+          <a class="card card-link" href={`/${lang}/worlds/${world.id}/${s.id}`}>
+            <div class="story-row">
+              <div class="art t-isles" style="aspect-ratio:16/9" role="img" aria-label={s.title[locale]}>
+                {mediaUrl(s.images?.find((im: any) => im.role === "cover")?.path) && <img src={mediaUrl(s.images.find((im: any) => im.role === "cover").path)} alt="" />}
               </div>
-            ))}
-          </div>
-        </>
-      )
-    }
+              <div class="card-pad">
+                <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap">
+                  <h3 style="font-size:var(--fs-h3)">{s.title[locale]}</h3>
+                  <span class="badge-adult"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3l7 3v5c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6Z"></path></svg>{t(lang!, "adult_led")}</span>
+                </div>
+                {stale && <p class="muted" style="margin-top:8px">{stale}</p>}
+                {chips}
+              </div>
+            </div>
+          </a>
+        ) : (
+          <a class="card card-link" href={`/${lang}/worlds/${world.id}/${s.id}`}>
+            <div class="card-pad">
+              <h3 style="font-size:var(--fs-h3)">{s.title[locale]}</h3>
+              {stale && <p class="muted" style="margin-top:8px">{stale}</p>}
+              {chips}
+            </div>
+          </a>
+        );
+      })}
+    </div>
+  </section>
 
-    <h2 class="font-display text-2xl text-pine mt-14">{t(lang!, "world_downloads")}</h2>
-    <ul class="mt-4 flex flex-wrap gap-2 text-sm">
-      {pdfUrl(wbE) && <li><a href={pdfUrl(wbE)} class="ring-1 ring-ink/15 px-3 py-1.5 rounded-full hover:bg-white" rel="noopener">{t(lang!, "world_book")}{ver(wbE)}</a></li>}
-      {pdfUrl(ehE) && <li><a href={pdfUrl(ehE)} class="ring-1 ring-ink/15 px-3 py-1.5 rounded-full hover:bg-white" rel="noopener">{t(lang!, "example_heroes")}{ver(ehE)}</a></li>}
-      {pdfUrl(guideE) && <li><a href={pdfUrl(guideE)} class="ring-1 ring-ink/15 px-3 py-1.5 rounded-full hover:bg-white" rel="noopener">{t(lang!, "guide")}{ver(guideE)}</a></li>}
-      {pdfUrl(htpE) && <li><a href={pdfUrl(htpE)} class="ring-1 ring-ink/15 px-3 py-1.5 rounded-full hover:bg-white" rel="noopener">{t(lang!, "how_to_play")}{ver(htpE)}</a></li>}
-    </ul>
+  {heroes.length > 0 && (
+    <section class="section wrap" style="padding-top:0">
+      <h2 style="font-size:var(--fs-h2);margin-bottom:var(--sp-2)">{t(lang!, "heroes_title")}</h2>
+      <div class="hero-cards" style="margin-top:var(--sp-6)">
+        {heroes.map((h: any) => (
+          <div class="card hero-card card-pad stack-4">
+            <div style="display:flex;align-items:center;gap:var(--sp-4)">
+              <span class="art square t-isles" style="width:72px;height:72px;flex:none;border-radius:var(--r-md)" aria-hidden="true">
+                {mediaUrl(h.image_path) && <img src={mediaUrl(h.image_path)} alt="" loading="lazy" />}
+              </span>
+              <div>
+                <h3 style="font-size:var(--fs-h4)">{h.name}</h3>
+                <p class="faint" style="font-size:var(--fs-small)">{AGE_RANGE[h.tier] ?? h.tier}</p>
+              </div>
+            </div>
+            {h.magics?.length > 0 && (
+              <div>
+                <p class="kicker" style="margin-bottom:8px">{t(lang!, world.hero_powers === "strength" ? "c_strength" : "c_magic")}</p>
+                <div class="chips">{h.magics.map((m: string) => <span class="chip chip-teal">{canonName(m)}</span>)}</div>
+              </div>
+            )}
+            {typeof h.energy === "number" && (
+              <div>
+                <div style="display:flex;justify-content:space-between;font-size:var(--fs-small);margin-bottom:6px"><span class="muted">{t(lang!, "energy")}</span></div>
+                <div class="meter"><i style={`width:${Math.round((h.energy / 5) * 100)}%`}></i></div>
+              </div>
+            )}
+            {h.carry?.length > 0 && (
+              <div>
+                <p class="kicker" style="margin-bottom:8px">{t(lang!, "carries")}</p>
+                <div class="carry">{localize(h.carry).map((c: string) => <span>{c}</span>)}</div>
+              </div>
+            )}
+          </div>
+        ))}
+      </div>
+    </section>
+  )}
+
+  {groups.length > 0 && (
+    <section class="section wrap" style="padding-top:0">
+      <h2 style="font-size:var(--fs-h2);margin-bottom:var(--sp-6)">{t(lang!, "whoswho_title")}</h2>
+      <div class="glossary">
+        {groups.map((g) => (
+          <div class="card card-pad gloss-group">
+            <h3><span class="dot" style={`background:${DOT[g.kind]}`}></span>{kindLabel(g.kind)}</h3>
+            <dl>
+              {g.items.map((c: any) => (
+                <div><dt>{c.names?.[locale] ?? c.id}</dt><dd>{c.description?.[locale] ?? ""}</dd></div>
+              ))}
+            </dl>
+          </div>
+        ))}
+      </div>
+    </section>
+  )}
+
+  <section class="section wrap" style="padding-top:0">
+    <h2 style="font-size:var(--fs-h2);margin-bottom:var(--sp-5)">{t(lang!, "world_downloads")}</h2>
+    <div style="display:grid;grid-template-columns:1fr;gap:var(--sp-3)"
+      set:html={[
+        dl(wbE, t(lang!, "world_book"), icoBook),
+        dl(ehE, t(lang!, "example_heroes"), icoHero),
+        dl(guideE, t(lang!, "guide"), icoShield),
+        dl(htpE, t(lang!, "how_to_play"), icoBook),
+      ].join("")}
+    />
   </section>
 </Base>
