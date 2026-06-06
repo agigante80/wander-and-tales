@@ -1,9 +1,9 @@
 ---
 import Base from "./Base.astro";
-const { lang, route, heading, description } = Astro.props;
+const { lang, route, heading, description, image } = Astro.props;
 ---
 
-<Base lang={lang} route={route} title={`${heading} · Wander & Tales`} description={description}>
+<Base lang={lang} route={route} title={`${heading} · Wander & Tales`} description={description} image={image}>
   <article
     class="max-w-3xl mx-auto px-4 py-12 space-y-3 [&_h2]:font-display [&_h2]:text-pine [&_h2]:text-xl [&_h2]:mt-7 [&_p]:text-ink/80 [&_p]:leading-relaxed [&_a]:text-teal [&_a]:underline [&_ul]:list-disc [&_ul]:pl-6 [&_ul]:space-y-1 [&_li]:text-ink/80"
   >

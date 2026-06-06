@@ -21,17 +21,29 @@ const path = route ? `/${lang}/${route}` : `/${lang}/`;
 const canonical = SITE_URL + path;
 const ogImage = image ? SITE_URL + image : SITE_URL + "/og-image.png";
 const alt = (code: string) => `${SITE_URL}/${code}${route ? "/" + route : "/"}`;
+const ogLocale = locale.replace("-", "_");
+const ogLocaleAlt = LANGS.filter((l) => l.locale !== locale).map((l) => l.locale.replace("-", "_"));
+// every page gets structured data; pages may override with their own jsonld
+const ld = jsonld ?? {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  name: title,
+  description: desc,
+  url: canonical,
+  inLanguage: locale,
+  isPartOf: { "@type": "WebSite", name: "Wander & Tales", url: SITE_URL + "/" },
+};
 ---
 
 <!doctype html>
-<html lang={lang}>
+<html lang={locale}>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{title}</title>
     <meta name="description" content={desc} />
     <link rel="canonical" href={canonical} />
-    {LANGS.map((l) => <link rel="alternate" hreflang={l.code} href={alt(l.code)} />)}
+    {LANGS.map((l) => <link rel="alternate" hreflang={l.locale} href={alt(l.code)} />)}
     <link rel="alternate" hreflang="x-default" href={alt("en")} />
 
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -46,13 +58,15 @@ const alt = (code: string) => `${SITE_URL}/${code}${route ? "/" + route : "/"}`;
     <meta property="og:title" content={title} />
     <meta property="og:description" content={desc} />
     <meta property="og:url" content={canonical} />
+    <meta property="og:locale" content={ogLocale} />
+    {ogLocaleAlt.map((l) => <meta property="og:locale:alternate" content={l} />)}
     <meta property="og:image" content={ogImage} />
     {!image && <meta property="og:image:width" content="1200" />}
     {!image && <meta property="og:image:height" content="630" />}
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:image" content={ogImage} />
 
-    {jsonld && <script type="application/ld+json" set:html={JSON.stringify(jsonld)} />}
+    <script type="application/ld+json" set:html={JSON.stringify(ld)} />
     {
       CF_ANALYTICS_TOKEN && (
         <script
