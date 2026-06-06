@@ -1,7 +1,7 @@
 ---
 import Base from "../../../../layouts/Base.astro";
 import { LANGS, SITE_URL, localeOf } from "../../../../consts";
-import { worlds, site, mediaUrl, pdfUrl, pdfVer, narrationHtml, mdHtml, snippet, firstParagraph } from "../../../../lib/content";
+import { worlds, site, mediaUrl, pdfUrl, pdfVer, mdHtml, snippet, firstParagraph, storyReader } from "../../../../lib/content";
 import { t, AGE_RANGE } from "../../../../lib/i18n";
 
 export function getStaticPaths() {
@@ -22,13 +22,13 @@ const worldCoverUrl = mediaUrl((world.images?.find((i: any) => i.role === "cover
 const scenes = (story.images ?? []).filter((i: any) => i.role === "scene");
 
 const cp = story.content_paths?.[locale] ?? {};
-const simpleHtml = narrationHtml(cp.simple);
-const richHtml = narrationHtml(cp.rich);
+const sections = storyReader(cp.simple, cp.rich, cp.puzzles, scenes, locale);
 const rulesHtml = mdHtml(cp.rules);
-const puzzlesHtml = mdHtml(cp.puzzles);
 const labels = site.level_labels?.[locale] ?? { simple: "Simple", rich: "Full" };
 const lead = snippet(firstParagraph(cp.simple));
+const worldLore = snippet(world.lore?.[locale], 240);
 const metaDesc = lead || site.tagline[locale];
+const atlasIco = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 4 4 6v14l5-2 6 2 5-2V4l-5 2-6-2Z"/><path d="M9 4v14M15 6v14"/></svg>';
 
 const players = story.tags.players ?? {};
 const playersText = players.max ? `${players.min} to ${players.max}` : `${players.min}+`;
@@ -82,10 +82,17 @@ const jsonld = {
         {t(lang!, "adult_led")}
       </span>
     </div>
+
+    {worldLore && (
+      <div class="callout" style="margin-top:var(--sp-6)">
+        <p class="kicker">{world.name[locale]}</p>
+        <p class="muted" style="margin-top:6px;font-size:var(--fs-small)">{worldLore}</p>
+      </div>
+    )}
   </section>
 
   <section class="wrap-read reader" style="padding-top:var(--sp-7)" data-reader data-level="simple" id="reader">
-    <div class="card" style="padding:var(--sp-4) var(--sp-5);display:flex;flex-wrap:wrap;align-items:center;gap:var(--sp-4);justify-content:space-between;position:sticky;top:calc(var(--header-h) + 8px);z-index:40">
+    <div class="card" style="padding:var(--sp-4) var(--sp-5);display:flex;flex-wrap:wrap;align-items:center;gap:var(--sp-4);justify-content:space-between">
       <div>
         <p class="kicker" style="margin-bottom:2px">{t(lang!, "reading_level")}</p>
         <p class="faint" style="font-size:var(--fs-tiny)">{t(lang!, "reader_note")}</p>
@@ -97,23 +104,21 @@ const jsonld = {
     </div>
 
     {coverUrl && (
-      <figure style="margin:var(--sp-7) auto 0;max-width:360px">
+      <figure style="margin:var(--sp-7) auto 0;max-width:340px">
         <div class="art" style="aspect-ratio:2/3"><img src={coverUrl} alt={cover?.alt?.[locale] ?? ""} /></div>
       </figure>
     )}
 
-    <article class="prose" style="margin-top:var(--sp-7)">
-      {simpleHtml && <div data-when="simple" set:html={simpleHtml} />}
-      {richHtml && <div data-when="rich" set:html={richHtml} />}
-    </article>
+    {pdfUrl(sp.atlas) && (
+      <a class="btn-dl" href={pdfUrl(sp.atlas)} rel="noopener" style="margin-top:var(--sp-6)">
+        <span class="ico" set:html={atlasIco} />
+        <span><span class="t">{t(lang!, "atlas")}</span><br /><span class="m">{t(lang!, "atlas_note")}{ver(sp.atlas)}</span></span>
+        <span class="arr"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 4v13M6 11l6 6 6-6"></path></svg></span>
+      </a>
+    )}
 
-    <div class="callout callout-promise" style="margin-top:var(--sp-7)">
-      <p class="ph">{t(lang!, "the_promise")}</p>
-      <p class="muted" style="font-size:var(--fs-small);margin-top:6px">{t(lang!, "online_note")}</p>
-    </div>
-
-    {(rulesHtml || puzzlesHtml) && (
-      <details class="spoiler" style="margin-top:var(--sp-8)">
+    {rulesHtml && (
+      <details class="spoiler" style="margin-top:var(--sp-6)">
         <summary>
           <span class="lock"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="10" width="16" height="10" rx="2.5"></rect><path d="M8 10V7a4 4 0 0 1 8 0v3"></path></svg></span>
           <span>
@@ -122,28 +127,39 @@ const jsonld = {
           </span>
           <span class="chev"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6"></path></svg></span>
         </summary>
-        <div class="body">
-          {rulesHtml && <div class="prose-tale" set:html={rulesHtml} />}
-          {puzzlesHtml && <div class="prose-tale" set:html={puzzlesHtml} />}
-        </div>
+        <div class="body"><div class="prose-tale" set:html={rulesHtml} /></div>
       </details>
     )}
 
-    {scenes.length > 0 && (
-      <section style="margin-top:var(--sp-9)">
-        <p class="eyebrow">{t(lang!, "pictures")}</p>
-        <div style="display:grid;grid-template-columns:1fr 1fr;gap:var(--sp-3);margin-top:var(--sp-4)">
-          {scenes.map((im: any) => (
-            mediaUrl(im.path) && (
-              <figure style="margin:0">
-                <div class="art square"><img src={mediaUrl(im.path)} alt={im.alt?.[locale] ?? ""} loading="lazy" /></div>
-                <figcaption class="faint" style="font-size:var(--fs-tiny);margin-top:6px">{im.alt?.[locale] ?? ""}</figcaption>
-              </figure>
-            )
-          ))}
+    {sections.map((sec: any) => (
+      <div style="margin-top:var(--sp-7)">
+        {sec.heading && <h2 class="font-display" style="font-size:var(--fs-h3);color:var(--pine);margin:0 0 var(--sp-3)">{sec.heading}</h2>}
+        {sec.sceneUrl && (
+          <figure style="margin:0 0 var(--sp-4)">
+            <div class="art" style="aspect-ratio:3/2"><img src={sec.sceneUrl} alt={sec.sceneAlt} loading="lazy" /></div>
+          </figure>
+        )}
+        <div class="prose">
+          {sec.simpleHtml && <div data-when="simple" set:html={sec.simpleHtml} />}
+          {sec.richHtml && <div data-when="rich" set:html={sec.richHtml} />}
         </div>
-      </section>
-    )}
+        {sec.solutionHtml && (
+          <details class="spoiler" style="margin-top:var(--sp-4)">
+            <summary>
+              <span class="lock"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="10" width="16" height="10" rx="2.5"></rect><path d="M8 10V7a4 4 0 0 1 8 0v3"></path></svg></span>
+              <span><span class="sm-t">{t(lang!, "gm_solution")}</span></span>
+              <span class="chev"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6"></path></svg></span>
+            </summary>
+            <div class="body"><div class="prose-tale" set:html={sec.solutionHtml} /></div>
+          </details>
+        )}
+      </div>
+    ))}
+
+    <div class="callout callout-promise" style="margin-top:var(--sp-8)">
+      <p class="ph">{t(lang!, "the_promise")}</p>
+      <p class="muted" style="font-size:var(--fs-small);margin-top:6px">{t(lang!, "online_note")}</p>
+    </div>
 
     <section style="margin-top:var(--sp-9)">
       <h2 style="font-size:var(--fs-h3);margin:var(--sp-2) 0 var(--sp-3)">{t(lang!, "downloads")}</h2>

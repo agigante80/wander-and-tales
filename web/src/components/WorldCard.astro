@@ -12,7 +12,7 @@ const tint = TINTS[h];
 ---
 
 <a class="card card-link" href={`/${lang}/worlds/${world.id}`}>
-  <div class={`art ${tint}`} role="img" aria-label={world.name[locale]}>
+  <div class={`art ${tint}`} style="aspect-ratio:2/3" role="img" aria-label={world.name[locale]}>
     {img ? <img src={img} alt="" loading="lazy" /> : <span class="label">{world.name[locale].toLowerCase()}</span>}
   </div>
   <div class="card-pad">

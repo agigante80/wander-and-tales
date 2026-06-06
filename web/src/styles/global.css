@@ -310,7 +310,7 @@ button{font-family:inherit;color:inherit}
 .reader[data-level="simple"]{font-size:clamp(1.18rem,1.05rem + .6vw,1.4rem);line-height:1.95;--measure:34rem}
 .reader[data-level="rich"]{font-size:clamp(1.06rem,1rem + .4vw,1.22rem);line-height:var(--lh-read);--measure:40rem}
 .reader[data-level="simple"] [data-when="rich"], .reader[data-level="rich"] [data-when="simple"]{display:none}
-.reader .prose{max-width:var(--measure);margin-inline:auto}
+.reader .prose{max-width:none}
 .reader .prose>p+p{margin-top:1.1em}
 .reader .prose p{text-wrap:pretty}
 .reader .prose h2{font-family:var(--font-display);font-size:var(--fs-h3);color:var(--pine);margin:1.6em 0 .2em}
