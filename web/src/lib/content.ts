@@ -45,3 +45,11 @@ export function narrationHtml(relPath?: string | null): string {
   const body = md.replace(/^#\s+.*$/m, "").trim();
   return marked.parse(body, { gfm: true, async: false }) as string;
 }
+
+// render a markdown file to HTML as-is (keeps its heading); used for the grown-up
+// rules and puzzles sections
+export function mdHtml(relPath?: string | null): string {
+  if (!relPath) return "";
+  const md = readText(relPath);
+  return md ? (marked.parse(md, { gfm: true, async: false }) as string) : "";
+}

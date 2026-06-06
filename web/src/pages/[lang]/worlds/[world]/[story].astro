@@ -1,7 +1,7 @@
 ---
 import Base from "../../../../layouts/Base.astro";
 import { LANGS, SITE_URL, localeOf } from "../../../../consts";
-import { worlds, site, mediaUrl, pdfUrl, pdfVer, narrationHtml } from "../../../../lib/content";
+import { worlds, site, mediaUrl, pdfUrl, pdfVer, narrationHtml, mdHtml } from "../../../../lib/content";
 import { t, AGE_RANGE } from "../../../../lib/i18n";
 
 export function getStaticPaths() {
@@ -23,6 +23,8 @@ const scenes = (story.images ?? []).filter((i: any) => i.role === "scene");
 const cp = story.content_paths?.[locale] ?? {};
 const simpleHtml = narrationHtml(cp.simple);
 const richHtml = narrationHtml(cp.rich);
+const rulesHtml = mdHtml(cp.rules);
+const puzzlesHtml = mdHtml(cp.puzzles);
 const labels = site.level_labels?.[locale] ?? { simple: "Simple", rich: "Full" };
 
 const players = story.tags.players ?? {};
@@ -88,6 +90,20 @@ const jsonld = {
             ))}
           </div>
         </section>
+      )
+    }
+
+    {
+      (rulesHtml || puzzlesHtml) && (
+        <details class="group mt-12 rounded-2xl bg-dusk/5 border border-dusk/20 p-6">
+          <summary class="cursor-pointer list-none flex flex-wrap items-baseline gap-x-2 gap-y-1">
+            <span class="text-purple transition-transform group-open:rotate-90 inline-block">&#9656;</span>
+            <span class="font-display text-xl text-purple">{t(lang!, "gm_title")}</span>
+            <span class="text-sm text-ink/55">{t(lang!, "gm_hint")}</span>
+          </summary>
+          {rulesHtml && <div class="prose-tale mt-6" set:html={rulesHtml} />}
+          {puzzlesHtml && <div class="prose-tale mt-8" set:html={puzzlesHtml} />}
+        </details>
       )
     }
 
