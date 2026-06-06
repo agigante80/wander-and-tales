@@ -9,7 +9,7 @@ solo ideas más valientes que probar.*
 Desde que cualquiera en la aldea tenía memoria, cuatro cisnes blancos habían
 cantado una nana sobre El Lago Brumoso cada anochecer. Su canción levantaba la
 bruma de la tarde y volvía todo el cielo de rosa y oro, y la aldea se iba a dormir
-debajo de ella. Pero esta tarde la canción flaqueó. Vaciló, perdió el rumbo y se
+bajo ella. Pero esta tarde la canción flaqueó. Vaciló, perdió el rumbo y se
 olvidó de su propia melodía a mitad de camino. Una bruma gris y pesada trepó desde
 el agua y se posó sobre el lago y los tejados, y nadie pudo encontrar la puesta de
 sol detrás de ella.
@@ -70,11 +70,11 @@ miedo de cantar sola.
 
 *Esto nunca fue una pelea. ¿Cómo podríais ayudarla a encontrar su valor? Lleváis
 El Arpa Pequeña. Podríais tocar una melodía lenta y suave para guiarlos. Podríais
-decirle a la cisne más tímida que no está sola, y cantar a su lado para que nadie
+decirle a la niña cisne más tímida que no está sola, y cantar a su lado para que nadie
 tenga que empezar solo. ¿Qué hacéis?*
 
 Cuando levantasteis El Arpa Pequeña y empezasteis a tocar, y vuestras propias voces
-se unieron a la melodía, la cisne más tímida alzó despacio la cabeza. Una sola nota
+se unieron a la melodía, la niña cisne más tímida alzó despacio la cabeza. Una sola nota
 dulce se le escapó, luego otra, más valiente con cada respiración. Uno a uno los
 demás se unieron a ella, hasta que los cuatro niños cisne cantaban juntos, claros,
 fuertes y sin miedo.
@@ -82,7 +82,7 @@ fuertes y sin miedo.
 ## El Anochecer se Vuelve Rosa
 
 La nana se elevó sobre El Lago Brumoso como siempre lo había hecho, y la pesada
-bruma gris empezó a ablandarse y a aclararse. Poco a poco se deshizo, y en su lugar
+bruma gris empezó a disiparse y a aclararse. Poco a poco se deshizo, y en su lugar
 el anochecer se volvió de un rosa hondo y luminoso, atravesado de oro, hasta que
 todo el lago sostuvo la puesta de sol como un espejo.
 

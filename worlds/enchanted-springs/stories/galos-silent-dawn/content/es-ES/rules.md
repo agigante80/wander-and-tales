@@ -27,7 +27,7 @@ toque. La Guía explica cómo funciona.
 | Tirada | Sorpresa |
 |---|---|
 | 1 | Un vendedor del mercado os ofrece un pastel calentito y una pista gratis. |
-| 2 | Encontráis una moneda caída que brilla: recuperad una estrella de energía. |
+| 2 | Encontráis una moneda en el suelo que brilla: recuperad una estrella de energía. |
 | 3 | Una brisa fresca del río: el siguiente reto es Fácil. |
 | 4 | El Galo da un cloqueo de ánimo. Todo va bien; seguid adelante. |
 | 5 | Un peregrino que pasa os deja repetir una tirada más tarde, cuando queráis. |

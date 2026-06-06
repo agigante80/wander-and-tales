@@ -59,7 +59,7 @@ De debaixo da superfície, uma vozinha de água trauteava a mesma cantilena veze
 "Folha, estrela, onda, folha, estrela, e depois?"
 
 *Olhem para o padrão que as gravuras formam. Que símbolo tem de ser a pedra desfeita?
-Descobri a marca seguinte da sequência, e essa é a pedra segura para pisar.*
+Descubram a marca seguinte da sequência, e essa é a pedra segura para pisar.*
 
 No momento em que escolheram a pedra da onda, o ribeiro acalmou e deixou-vos passar de pés
 secos. Na outra margem o rasto brilhante juntou-se e seguiu em frente, mesmo por baixo do

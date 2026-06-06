@@ -2,7 +2,7 @@
 
 *Para vuestros ojos, no para los niños. Cada parada indica su nivel, lo que los
 jugadores deben averiguar, la solución prevista y un apoyo amable para que un niño
-atascado siempre avance. Más de una buena idea debería valer; premiad la imaginación y
+atascado siempre avance. Cualquier buena idea debería ser válida; premiad la imaginación y
 la amabilidad por encima de la respuesta "correcta".*
 
 ## Parada 1: El Robledal Enredado (Fácil)
@@ -11,8 +11,8 @@ la amabilidad por encima de la respuesta "correcta".*
 la vuelta, y los jugadores llegan una y otra vez al mismo viejo roble. Deben
 encontrar una manera de cruzar sin perderse sin remedio.
 
-**Solución prevista.** Es un momento de Imaginación y Espacio. La buena jugada
-bondadosa es usar el **ovillo de lana roja**: atad un extremo en la entrada y
+**Solución prevista.** Es un momento de Imaginación y Espacio. La idea más amable
+es usar el **ovillo de lana roja**: atad un extremo en la entrada y
 soltadlo a medida que avanzáis, así siempre podéis volver sobre vuestros pasos y
 nunca recorréis dos veces el mismo camino equivocado. Marcar cada giro, o seguir el
 hilo de vuelta para probar un camino nuevo, vale igual de bien.
@@ -63,7 +63,7 @@ cosas.
 poco avergonzado y no sabe cómo pedir perdón. Vale cualquier bondad sincera:
 compartir la **torta de avena y miel**, sentarse a su lado, decirle que hay sitio
 para él en la feria de mayo, decirle que todos hacemos un lío de vez en cuando.
-Cuando los niños son amables, Pook se ilumina y promete arreglar él mismo todos los
+Cuando los niños son amables, a Pook se le ilumina la cara y promete arreglar todos los
 senderos.
 
 **Apoyo.** Si los niños se quedan parados, o quieren reñirle, que Pook sorba por la

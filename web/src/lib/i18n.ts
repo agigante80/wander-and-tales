@@ -73,7 +73,7 @@ export const UI: Record<LangCode, Dict> = {
     nav_create: "Crea el tuyo",
     hero_kicker: "Un pequeño mundo en el que entrar",
     hero_sub:
-      "Aventuras con historias para imprimir y jugar juntos, gratis. Nadie compite, nadie pierde y no hay respuestas equivocadas. Léelas en pantalla, o imprímelas y juega con un solo dado y unas cosas de casa.",
+      "Aventuras con historias para imprimir y jugar juntos, gratis. Nadie compite, nadie pierde y no hay respuestas equivocadas. Léelas en pantalla, o imprímelas y juega con un solo dado y algunos objetos de casa.",
     hero_read: "Explora los mundos",
     hero_create: "Crea el tuyo",
     worlds_title: "Elige un mundo",

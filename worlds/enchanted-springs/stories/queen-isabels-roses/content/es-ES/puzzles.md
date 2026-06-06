@@ -2,13 +2,13 @@
 
 *Para vuestros ojos, no para los de los niños. Cada parada indica su banda, lo que
 los jugadores tienen que averiguar, la solución prevista y un apoyo amable para que
-un niño atascado siempre pueda avanzar. Debería valer más de una buena idea;
+un niño atascado siempre pueda avanzar. Cualquier buena idea debería ser válida;
 premiad las buenas ideas y la amabilidad por encima de la respuesta "correcta".*
 
 ## Parada 1: La Cocina del Castillo (Fácil)
 
 **El reto.** Coger solo una parte justa del Pan Rosca y sacarlo en silencio, sin
-despertar a la cocinera que dormita ni hacer ostentación de la entrega.
+despertar a la cocinera que dormita ni llamar la atención sobre lo que hacéis.
 
 **Soluciones previstas.** Un momento de planear con delicadeza:
 - **Verdad** para juzgar con honestidad cuánto es justo coger y no más.

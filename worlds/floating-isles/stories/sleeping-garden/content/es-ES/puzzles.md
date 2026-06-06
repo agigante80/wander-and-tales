@@ -2,7 +2,7 @@
 
 *Para vuestros ojos, no los de los niños. Cada parada indica su banda, lo que los
 jugadores tienen que averiguar, la solución prevista y un apoyo amable para que un
-niño atascado siempre avance. Más de una buena idea debería funcionar; premiad las
+niño atascado siempre avance. Cualquier buena idea debería ser válida; premiad las
 ideas y la amabilidad por encima de la respuesta "correcta".*
 
 ## Parada 1: La Puerta de Enredaderas (Fácil)
@@ -11,7 +11,7 @@ ideas y la amabilidad por encima de la respuesta "correcta".*
 sola.
 
 **Soluciones previstas.** Cualquiera de las magias lo resuelve:
-- **Crecer** un hueco entre las enredaderas, o hacer crecer una escalera de hiedra
+- **Crecer** para abrir un hueco entre las enredaderas, o hacer crecer una escalera de hiedra
   por encima de la puerta.
 - **Cambio**: convertir el nudo en algo más suelto, o en una llave para el
   pestillo.
@@ -25,7 +25,7 @@ o combinan dos magias para terminar. En esta puerta nadie espera mucho rato.
 **Hazlo más fácil.** Con un peque muy pequeño, cruzad un trozo de cuerda en la
 entrada y dejad que tire de ella a un lado para "abrir" la puerta de enredaderas.
 
-## Parada 2: El Cantero de Flores (Normal)
+## Parada 2: El Macizo de Flores (Normal)
 
 **El reto.** Cuatro flores han perdido su orden. Una vocecilla canturrea la pista:
 "Primero el sol, luego el mar, después la fresa y a volar." Los jugadores deben

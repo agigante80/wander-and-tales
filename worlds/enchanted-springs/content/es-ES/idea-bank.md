@@ -29,7 +29,7 @@ inventa el resto.*
   trueque; nunca es cruel.
 - **Olharapo**, el gigante grandote y solitario, es tierno en cuanto alguien es
   amable con él primero.
-- **La Reina Isabel** es el espíritu de la bondad callada: un pan compartido se
+- **La Reina Isabel** es el espíritu de la bondad discreta: un pan compartido se
   convierte en un regalo de rosas.
 
 ## Chispas de "¿y si...?" cuando los niños se atascan o se inquietan

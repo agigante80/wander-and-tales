@@ -2,7 +2,7 @@
 
 *Para vuestros ojos, no para los niños. Cada parada indica su nivel, lo que los
 jugadores deben averiguar, la solución prevista y un apoyo amable para que un niño
-atascado siempre avance. Más de una buena idea debería valer; premiad las ideas nuevas y
+atascado siempre avance. Cualquier buena idea debería ser válida; premiad las ideas nuevas y
 la amabilidad por encima de la respuesta "correcta".*
 
 ## Parada 1: La Puerta de los Acertijos (Normal)
@@ -16,7 +16,7 @@ el árbol más alto. Subo y subo y subo, y sin embargo nunca crezco. ¿Qué soy?
 respuesta es **una montaña** (pensad en el Olimpo que se alza sobre vosotros).
 
 **Solución prevista.** Es un reto de pensar, de Imaginación y un poco de Vocabulario.
-Dejad que los niños lo hablen juntos. La esfinge acepta la respuesta correcta y, como
+Dejad que los niños lo hablen entre ellos. La esfinge acepta la respuesta correcta y, como
 es amable, también acepta una conjetura valiente y meditada.
 
 **Apoyo.** Si se atascan, la esfinge ofrece una pista ("Me ves desde tu pueblo y los

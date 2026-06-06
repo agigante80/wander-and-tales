@@ -34,7 +34,7 @@ corresponda. La Guía explica cómo funciona.
 | 3 | Sopla una brisa suave entre los robles y el próximo reto es Fácil. |
 | 4 | El Salmón de la Sabiduría sopla una burbuja de la suerte. Todo va bien. |
 | 5 | Una ramita de roble para la suerte: guardad una tirada para usarla más tarde. |
-| 6 | Un estallido de cantos de pájaro, y por un momento todos os sentís valientes. |
+| 6 | Un estallido de cantos de pájaros, y por un momento todos os sentís valientes. |
 
 ## Cómo termina
 
@@ -43,5 +43,5 @@ un juego de los senderos y luego se sintió mal por el lío que había causado. 
 historia se gana no venciéndolo, sino haciéndose su amigo: compartiendo la torta de
 avena y miel, sentándose a su lado, diciéndole que hay un sitio para él en la feria.
 Dejad que la bondad cale; es lo más importante. Una vez que se hace amigo vuestro,
-Pook desenreda con gusto él mismo todos los senderos. En la página de puzles tenéis
+Pook desenreda con gusto todos los senderos él mismo. En la página de puzles tenéis
 los tres retos y sus soluciones.

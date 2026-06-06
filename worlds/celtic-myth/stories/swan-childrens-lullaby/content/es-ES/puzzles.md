@@ -2,7 +2,7 @@
 
 *Para vuestros ojos, no para los niños. Cada parada indica su nivel, lo que los
 jugadores deben averiguar, la solución prevista y un apoyo amable para que un niño
-atascado siempre avance. Más de una buena idea debería valer; premiad la imaginación y
+atascado siempre avance. Cualquier buena idea debería ser válida; premiad la imaginación y
 la amabilidad por encima de la respuesta "correcta".*
 
 ## Parada 1: La Bruma Gris (Fácil)
@@ -69,12 +69,12 @@ sola.
 **Solución prevista.** Es un momento Socioemocional y de Valor. Los jugadores
 guían la canción en vez de esperar a los cisnes: tocan El Arpa Pequeña para darles
 una melodía que seguir, cantan con ellos para que ningún cisne tenga que empezar
-solo, y le dicen una palabra amable a la cisne más tímida para que sepa que no está
+solo, y le dicen una palabra amable a la niña cisne más tímida para que sepa que no está
 sola. Cuando los jugadores van primero y se quedan a su lado, ella encuentra su nota
 y los demás la siguen.
 
 **Apoyo.** Si los niños se quedan parados, o esperan a que empiecen los cisnes,
-dejad que la cisne más tímida susurre: "¿La cantáis conmigo?" En cuanto los
+dejad que la niña cisne más tímida susurre: "¿La cantáis conmigo?" En cuanto los
 jugadores tararean cualquier melodía y la invitan, su primera notita se le escapa y
 los cuatro niños cisne se unen a la canción.
 

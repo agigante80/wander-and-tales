@@ -2,7 +2,7 @@
 
 *Para vuestros ojos, no para los de los niños. Cada parada indica su banda, lo que
 los jugadores tienen que averiguar, la solución prevista y un apoyo amable para que
-un niño atascado siempre pueda avanzar. Debería valer más de una buena idea;
+un niño atascado siempre pueda avanzar. Cualquier buena idea debería ser válida;
 premiad las buenas ideas y la amabilidad por encima de la respuesta "correcta".*
 
 ## Parada 1: El Gallinero Silencioso (Fácil)

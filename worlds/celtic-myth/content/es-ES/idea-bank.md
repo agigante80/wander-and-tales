@@ -15,7 +15,7 @@ equivocada; cada idea se inclina hacia la calidez, la imaginación y que nadie p
 - Dejad que los héroes gasten una estrella de energía para "recordar un dicho que les
   cantaba su abuela".
 
-## Caras amables para colar en la historia
+## Caras amables para incluir en la historia
 
 - Un ciervo rojo con el rocío en la cornamenta, que indicará el camino a cambio de una
   palabra amable.

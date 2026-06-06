@@ -43,7 +43,7 @@ ou poderias simplesmente sentar-te com ele e prometer pôr as coisas no sítio? 
 experimentas?*
 
 Quando o Galo se sentiu verdadeiramente cuidado, conseguiu um pequeno cacarejo rouco, o
-primeiro fio da sua voz a voltar. "Tragam a taça de volta", grasnou ele, "ponham-na onde
+primeiro fio da sua voz a voltar. "Tragam a taça de volta", disse ele com voz rouca, "ponham-na onde
 pertence, e eu canto tão alto que a verdade não pode escapar a ninguém."
 
 ## Paragem 2: O Mercado de Barcelos

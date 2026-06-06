@@ -29,7 +29,7 @@ enredaderas con amabilidad que se aparten? Probad algo y mirad qué pasa.*
 Cuando la puerta se abre, la primera flor dormida abre un pétalo. El jardín se
 despierta, solo un poquito.
 
-## Parada 2: El Cantero de Flores
+## Parada 2: El Macizo de Flores
 
 Ahora llegáis a un cantero de flores. Cuatro de ellas se han caído y han perdido
 su orden. Una vocecilla canturrea una rima: "Primero el sol, luego el mar, después

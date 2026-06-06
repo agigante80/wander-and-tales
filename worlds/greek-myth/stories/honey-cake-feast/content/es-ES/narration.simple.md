@@ -36,7 +36,7 @@ llenan vuestro tarro hasta el borde de miel dorada. "Gracias, amigos", zumban.
 
 De vuelta en el pueblo, Milo el Panadero ha hecho un enorme pastel de miel. Pero ¿cómo
 lo repartís para que todos reciban un trozo, incluso el inmenso Cíclope, que necesita
-una porción muy grande?
+una porción enorme?
 
 *Contemos juntos. ¿Cuántos amigos vienen? ¿Cómo podéis cortar el pastel para que nadie
 se quede fuera y el gigante también tenga suficiente? Un trozo justo no siempre es del

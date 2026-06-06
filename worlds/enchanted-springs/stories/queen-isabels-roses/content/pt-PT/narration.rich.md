@@ -18,7 +18,7 @@ bondade no meu lugar? Levem pão a quem precisa, e façam-no com discrição, co
 pedir nada em troca."
 
 Vocês prometeram que sim, e desceram em direção à cidade que acordava, com os sinos do
-castelo a dobrar com doçura atrás de vós.
+castelo a repicar com doçura atrás de vós.
 
 *Qual é o teu nome de herói? Que três magias vais levar: Floração, Verdade, Luz de Estrela ou
 Canto do Rio?*
@@ -97,7 +97,7 @@ ele, deu por si a sorrir.
 
 À medida que voltavam por Coimbra, as rosas não queriam ficar no cesto. Começaram a
 desabrochar pelo cimo dos muros, à volta dos umbrais, nas fendas dos velhos degraus de pedra,
-até a cidade inteira, a trepar, as usar como uma grinalda. As pessoas saíam a maravilhar-se, e
+até a cidade inteira as usar como uma grinalda, as rosas a trepar por cada muro e soleira. As pessoas saíam a maravilhar-se, e
 dando por si contentes, começavam a partilhar umas com as outras o que tinham.
 
 O guarda pegou num cesto vazio e perguntou, quase com timidez, se podia ajudar a levar pão na

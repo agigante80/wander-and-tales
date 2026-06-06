@@ -61,7 +61,7 @@ vuestro amigo gigante.
 
 Subisteis hasta la entrada de la cueva del Cíclope. Se alegró muchísimo de veros, pero
 cuando entendió que todo un pueblo lo esperaba abajo, se miró los enormes pies y su
-sonrisa se apagó. "¿Todo un pueblo?", dijo. "Pero si soy tan grande. ¿Y si no hay
+sonrisa se desvaneció. "¿Todo un pueblo?", dijo. "Pero si soy tan grande. ¿Y si no hay
 sitio para mí? ¿Y si me miran una vez y se asustan?"
 
 *Había encontrado su bondad hacía mucho, pero justo ahora necesitaba un poco de valor.

@@ -59,13 +59,13 @@ el ala.
 Arpa Pequeña. ¿Podríais tocar una melodía suave para todos? ¿Podríais decirle a la
 cisne tímida que no está sola, y cantar con ella para que no cante solita?*
 
-Cuando tocáis El Arpa Pequeña y cantáis con ellos, la cisne más tímida levanta la
+Cuando tocáis El Arpa Pequeña y cantáis con ellos, la niña cisne más tímida levanta la
 cabeza. Una nota pequeña y dulce se le escapa. Luego otra. Pronto los cuatro
 cantan juntos, fuertes y claros.
 
 ## El Anochecer se Vuelve Rosa
 
-La nana se eleva sobre El Lago Brumoso, igual que antes. La bruma gris se ablanda
+La nana se eleva sobre El Lago Brumoso, igual que antes. La bruma gris se disipa
 y se aclara. Se deshace en rosa y oro, y la puesta de sol se derrama sobre el agua.
 
 Arriba, en la loma verde, El Círculo de Piedras tararea bajito y feliz. Los niños

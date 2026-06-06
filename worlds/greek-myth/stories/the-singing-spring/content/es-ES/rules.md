@@ -36,7 +36,7 @@ corresponda. La Guía explica cómo funciona.
 | 3 | Sopla un viento favorable y el próximo reto es Fácil. |
 | 4 | Quirón el centauro pasa por allí y os saluda con la cabeza. Todo va bien. |
 | 5 | Una rama de olivo para la suerte: guardad una tirada para usarla más tarde. |
-| 6 | Un estallido de cantos de pájaro, y por un momento todos os sentís valientes. |
+| 6 | Un estallido de cantos de pájaros, y por un momento todos os sentís valientes. |
 
 ## Cómo termina
 

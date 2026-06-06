@@ -21,7 +21,7 @@ completo que a la gente del pueblo le importaría.
 La Vieja Maeve, Tejedora de Cuentos, os llamó a su lado junto al cálido hogar.
 "Tenéis cabezas llenas de ideas y corazones bondadosos", dijo, "y eso vale más en el
 robledal que el brazo más fuerte. ¿Iréis a desenredar los senderos y a ganaros a
-nuestro Pook con una palabra amable, para que él mismo lo arregle?"
+nuestro Pook con una palabra amable, para que lo arregle él mismo?"
 
 En vuestras manos puso tres regalos: un ovillo de lana roja brillante, una torta de
 avena y miel todavía caliente del hogar, y una pequeña ramita de hojas de roble

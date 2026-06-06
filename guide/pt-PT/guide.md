@@ -114,7 +114,7 @@ leva uns dois minutos e faz parte da diversão, por isso não o saltes.
 3. **Junta** um único dado de seis faces (um chega para qualquer kit), um lápis para cada
    um, e um pequeno punhado de fichas, moedas ou botões para representarem os jogadores e
    para marcarem as estrelas de energia.
-4. **Instalem-se** algures confortável, sem ecrãs e sem pressas.
+4. **Instalem-se** num lugar confortável, sem ecrãs e sem pressas.
 
 É toda a preparação de que um kit alguma vez precisa.
 
