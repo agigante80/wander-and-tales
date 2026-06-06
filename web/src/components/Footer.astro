@@ -8,7 +8,8 @@ const { lang } = Astro.props;
   <div class="max-w-5xl mx-auto px-4 py-10 space-y-4">
     <p class="font-display text-lg max-w-xl">{t(lang, "the_promise")}</p>
     <nav class="flex flex-wrap gap-x-5 gap-y-2 text-sm">
-      <a href={`/${lang}/help`} class="hover:underline">{t(lang, "nav_help")}</a>
+      <a href={`/${lang}/how-to-play`} class="hover:underline">{t(lang, "nav_help")}</a>
+      <a href={`/${lang}/help`} class="hover:underline">{t(lang, "guide")}</a>
       <a href={`/${lang}/why`} class="hover:underline">{t(lang, "nav_why")}</a>
       <a href={`/${lang}/privacy`} class="hover:underline">{t(lang, "privacy")}</a>
       <a href={`/${lang}/legal`} class="hover:underline">{t(lang, "legal")}</a>
