@@ -1,0 +1,23 @@
+---
+import { mediaUrl } from "../lib/content";
+const { world, lang, locale } = Astro.props;
+const cover = world.images?.find((i: any) => i.role === "cover") ?? world.images?.[0];
+const img = mediaUrl(cover?.path);
+const lore: string = world.lore?.[locale] ?? "";
+const snippet = lore.length > 150 ? lore.slice(0, 147).trimEnd() + "..." : lore;
+const accent = world.palette?.[1] ?? "#2bb3a3";
+---
+
+<a
+  href={`/${lang}/worlds/${world.id}`}
+  class="group block rounded-2xl overflow-hidden bg-white shadow-sm hover:shadow-md transition border border-paper"
+>
+  <div class="aspect-[4/3] overflow-hidden bg-paper">
+    {img && <img src={img} alt="" loading="lazy" class="w-full h-full object-cover group-hover:scale-[1.03] transition" />}
+  </div>
+  <div class="p-4">
+    <h3 class="font-display text-lg" style={`color:${accent}`}>{world.name[locale]}</h3>
+    <p class="text-sm text-ink/70 mt-1">{snippet}</p>
+    <p class="text-xs text-ink/50 mt-2">{world.stories.length} stories</p>
+  </div>
+</a>

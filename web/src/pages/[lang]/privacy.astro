@@ -1,0 +1,38 @@
+---
+import Legal from "../../layouts/Legal.astro";
+import { LANGS } from "../../consts";
+import { t } from "../../lib/i18n";
+export function getStaticPaths() {
+  return LANGS.map((l) => ({ params: { lang: l.code } }));
+}
+const { lang } = Astro.params;
+---
+
+<Legal lang={lang!} route="privacy" heading={t(lang!, "privacy")}>
+  <p class="text-sm text-ink/50">Last updated: 6 June 2026. This notice is currently provided in English; localized versions will follow.</p>
+
+  <h2>Who is responsible</h2>
+  <p>Wander &amp; Tales is a free, non-commercial project. The data controller can be reached at <a href="mailto:privacy@wanderandtales.com">privacy@wanderandtales.com</a>. The project is run from Spain.</p>
+
+  <h2>What we collect</h2>
+  <p>We keep no user accounts and run no advertising or profiling. For audience statistics we use <strong>Cloudflare Web Analytics</strong>, which is cookieless: it sets no cookies and does not track you across other websites. To produce aggregate, anonymous figures, Cloudflare processes technical data such as your IP address, browser type, the page visited, the referring page, an approximate region, and performance timings.</p>
+  <p>Because this analytics is cookieless, no consent banner is required. Our legal basis is our legitimate interest (Article 6(1)(f) GDPR) in understanding overall usage in a privacy-preserving way.</p>
+
+  <h2>Hosting</h2>
+  <p>The site is hosted on Cloudflare, which acts as our processor and may handle server logs to deliver and secure the site.</p>
+
+  <h2>Children</h2>
+  <p>This site presents content for children but is intended for parents and other adults to choose and read with them. We do not knowingly collect personal data from children (under 14 in Spain and Italy). There is no sign-up and nothing for a child to submit.</p>
+
+  <h2>International transfers</h2>
+  <p>Cloudflare is established in the United States. Any transfer relies on the EU to US Data Privacy Framework and on standard contractual clauses.</p>
+
+  <h2>Retention</h2>
+  <p>We hold no personal database. Analytics data is aggregate and is retained by Cloudflare under its own policy.</p>
+
+  <h2>Your rights</h2>
+  <p>You have the right to access, rectification, erasure, restriction, objection, and portability. Write to <a href="mailto:privacy@wanderandtales.com">privacy@wanderandtales.com</a>. You may also complain to the Spanish authority (AEPD, <a href="https://www.aepd.es" rel="noopener">www.aepd.es</a>) or the Italian authority (Garante, <a href="https://www.garanteprivacy.it" rel="noopener">www.garanteprivacy.it</a>).</p>
+
+  <h2>Changes</h2>
+  <p>We may update this policy and will revise the date above when we do.</p>
+</Legal>

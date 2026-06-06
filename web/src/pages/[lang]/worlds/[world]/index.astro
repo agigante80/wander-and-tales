@@ -1,0 +1,78 @@
+---
+import Base from "../../../../layouts/Base.astro";
+import { LANGS, SITE_URL, localeOf } from "../../../../consts";
+import { worlds, site, mediaUrl, pdfUrl } from "../../../../lib/content";
+import { t, AGE_RANGE } from "../../../../lib/i18n";
+
+export function getStaticPaths() {
+  return LANGS.flatMap((l) => worlds.map((w) => ({ params: { lang: l.code, world: w.id } })));
+}
+const { lang, world: worldId } = Astro.params;
+const locale = localeOf(lang!);
+const world = worlds.find((w) => w.id === worldId)!;
+const cover = world.images?.find((i: any) => i.role === "cover") ?? world.images?.[0];
+const coverUrl = mediaUrl(cover?.path);
+const wb = pdfUrl(world.pdfs?.[locale]?.world_book);
+const eh = pdfUrl(world.pdfs?.[locale]?.example_heroes);
+const guide = pdfUrl(site.shared_pdfs?.[locale]?.guide);
+const htp = pdfUrl(site.shared_pdfs?.[locale]?.how_to_play);
+const skill = (s: string) => s.replace(/-/g, " ");
+const jsonld = {
+  "@context": "https://schema.org",
+  "@type": "CreativeWork",
+  name: world.name[locale],
+  inLanguage: locale,
+  description: world.lore?.[locale],
+  url: `${SITE_URL}/${lang}/worlds/${world.id}`,
+};
+---
+
+<Base lang={lang!} route={`worlds/${world.id}`} title={`${world.name[locale]} · Wander & Tales`} description={world.lore?.[locale]} jsonld={jsonld}>
+  <section class="relative">
+    <div class="h-48 md:h-64 overflow-hidden bg-dusk">
+      {coverUrl && <img src={coverUrl} alt="" class="w-full h-full object-cover opacity-90" />}
+    </div>
+    <div class="max-w-4xl mx-auto px-4 -mt-12 relative">
+      <div class="bg-white rounded-2xl border border-paper p-6 shadow-sm">
+        <a href={`/${lang}/#worlds`} class="text-sm text-teal hover:underline">{t(lang!, "all_worlds")}</a>
+        <h1 class="font-display text-3xl text-pine mt-1">{world.name[locale]}</h1>
+        <p class="mt-3 text-ink/80">{world.lore?.[locale]}</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="max-w-4xl mx-auto px-4 py-12">
+    <h2 class="font-display text-2xl text-pine">{t(lang!, "stories_in")}</h2>
+    <div class="mt-6 space-y-4">
+      {
+        world.stories.map((s: any) => (
+          <article class="rounded-xl bg-white border border-paper p-5">
+            <div class="flex flex-wrap items-baseline justify-between gap-2">
+              <h3 class="font-display text-xl">
+                <a href={`/${lang}/worlds/${world.id}/${s.id}`} class="hover:text-teal">{s.title[locale]}</a>
+              </h3>
+              <p class="text-xs text-ink/60">
+                {t(lang!, "ages")} {AGE_RANGE[s.tags.age_recommended] ?? s.tags.age_recommended} ·
+                {s.tags.players?.max ? `${s.tags.players.min} to ${s.tags.players.max}` : `${s.tags.players?.min}+`} {t(lang!, "players")} ·
+                {s.tags.play_time_minutes} {t(lang!, "minutes")}
+              </p>
+            </div>
+            <p class="text-sm text-ink/60 mt-1">{(s.tags.skills ?? []).map(skill).join(", ")}</p>
+            <div class="mt-3 flex flex-wrap gap-2 text-sm">
+              <a href={`/${lang}/worlds/${world.id}/${s.id}`} class="bg-teal text-white px-3 py-1.5 rounded-full hover:brightness-105">{t(lang!, "read_online")}</a>
+              {pdfUrl(s.pdfs?.[locale]?.atlas) && <a href={pdfUrl(s.pdfs[locale].atlas)} class="ring-1 ring-ink/15 px-3 py-1.5 rounded-full hover:bg-paper" rel="noopener">{t(lang!, "atlas")} (PDF)</a>}
+            </div>
+          </article>
+        ))
+      }
+    </div>
+
+    <h2 class="font-display text-2xl text-pine mt-12">{t(lang!, "world_downloads")}</h2>
+    <ul class="mt-4 flex flex-wrap gap-2 text-sm">
+      {wb && <li><a href={wb} class="ring-1 ring-ink/15 px-3 py-1.5 rounded-full hover:bg-white" rel="noopener">{t(lang!, "world_book")}</a></li>}
+      {eh && <li><a href={eh} class="ring-1 ring-ink/15 px-3 py-1.5 rounded-full hover:bg-white" rel="noopener">{t(lang!, "example_heroes")}</a></li>}
+      {guide && <li><a href={guide} class="ring-1 ring-ink/15 px-3 py-1.5 rounded-full hover:bg-white" rel="noopener">{t(lang!, "guide")}</a></li>}
+      {htp && <li><a href={htp} class="ring-1 ring-ink/15 px-3 py-1.5 rounded-full hover:bg-white" rel="noopener">{t(lang!, "how_to_play")}</a></li>}
+    </ul>
+  </section>
+</Base>

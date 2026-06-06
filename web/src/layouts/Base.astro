@@ -1,0 +1,72 @@
+---
+import "../styles/global.css";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import { LANGS, SITE_URL, CF_ANALYTICS_TOKEN, localeOf } from "../consts";
+import { site } from "../lib/content";
+import { t } from "../lib/i18n";
+
+interface Props {
+  lang: string;
+  route?: string;
+  title: string;
+  description?: string;
+  jsonld?: unknown;
+}
+const { lang, route = "", title, description, jsonld } = Astro.props;
+const locale = localeOf(lang);
+const desc = description ?? site.tagline[locale];
+const path = route ? `/${lang}/${route}` : `/${lang}/`;
+const canonical = SITE_URL + path;
+const ogImage = SITE_URL + "/og-image.png";
+const alt = (code: string) => `${SITE_URL}/${code}${route ? "/" + route : "/"}`;
+---
+
+<!doctype html>
+<html lang={lang}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={desc} />
+    <link rel="canonical" href={canonical} />
+    {LANGS.map((l) => <link rel="alternate" hreflang={l.code} href={alt(l.code)} />)}
+    <link rel="alternate" hreflang="x-default" href={alt("en")} />
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta name="theme-color" content="#5b62a8" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Wander & Tales" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={desc} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    {jsonld && <script type="application/ld+json" set:html={JSON.stringify(jsonld)} />}
+    {
+      CF_ANALYTICS_TOKEN && (
+        <script
+          defer
+          src="https://static.cloudflareinsights.com/beacon.min.js"
+          data-cf-beacon={`{"token": "${CF_ANALYTICS_TOKEN}"}`}
+        />
+      )
+    }
+  </head>
+  <body class="min-h-screen flex flex-col">
+    <a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:p-3 focus:bg-cream">{t(lang, "skip")}</a>
+    <Header lang={lang} route={route} />
+    <main id="main" class="flex-1">
+      <slot />
+    </main>
+    <Footer lang={lang} />
+  </body>
+</html>

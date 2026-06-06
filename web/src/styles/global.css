@@ -1,0 +1,92 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Quicksand", ui-sans-serif, system-ui, sans-serif;
+  --font-body: "Nunito", ui-sans-serif, system-ui, sans-serif;
+  --font-hand: "Caveat", ui-serif, cursive;
+
+  --color-teal: #2bb3a3;
+  --color-green: #4ea24a;
+  --color-pine: #2f6f4f;
+  --color-deep: #25543c;
+  --color-gold: #f2a93b;
+  --color-cream: #f6f1e6;
+  --color-paper: #e9e6df;
+  --color-dusk: #5b62a8;
+  --color-dusk2: #9a86c4;
+  --color-purple: #7a6bbd;
+  --color-ink: #20324a;
+}
+
+@font-face {
+  font-family: "Quicksand";
+  src: url("/fonts/Quicksand-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Nunito";
+  src: url("/fonts/Nunito-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Nunito";
+  src: url("/fonts/Nunito-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Caveat";
+  src: url("/fonts/Caveat-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-display: swap;
+}
+
+:root {
+  color-scheme: light;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: var(--font-body);
+  background: var(--color-paper);
+  color: var(--color-ink);
+}
+h1,
+h2,
+h3,
+.font-display {
+  font-family: var(--font-display);
+}
+
+/* Narration prose rendered from the kit markdown */
+.prose-tale {
+  line-height: 1.75;
+  font-size: 1.075rem;
+}
+.prose-tale h2 {
+  font-family: var(--font-display);
+  font-size: 1.4rem;
+  margin: 1.8rem 0 0.5rem;
+  color: var(--color-pine);
+}
+.prose-tale p {
+  margin: 0.7rem 0;
+}
+.prose-tale em {
+  color: var(--color-purple);
+  font-style: italic;
+}
+.prose-tale table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+.prose-tale th,
+.prose-tale td {
+  border: 1px solid #d8d3c7;
+  padding: 0.4rem 0.6rem;
+  text-align: left;
+}

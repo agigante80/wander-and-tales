@@ -1,0 +1,28 @@
+---
+import Legal from "../../layouts/Legal.astro";
+import { LANGS, REPO } from "../../consts";
+import { t } from "../../lib/i18n";
+export function getStaticPaths() {
+  return LANGS.map((l) => ({ params: { lang: l.code } }));
+}
+const { lang } = Astro.params;
+---
+
+<Legal lang={lang!} route="legal" heading={t(lang!, "legal")}>
+  <p class="text-sm text-ink/50">This notice is currently provided in English; localized versions will follow.</p>
+
+  <h2>Publisher</h2>
+  <p>Wander &amp; Tales is a free, non-commercial educational project that offers printable cooperative story-adventure kits for children. It sells nothing and runs no advertising. Contact: <a href="mailto:privacy@wanderandtales.com">privacy@wanderandtales.com</a>. The project is run from Spain.</p>
+
+  <h2>Source and licence</h2>
+  <p>All content and source code are public on GitHub: <a href={REPO} rel="noopener">{REPO}</a>. The stories, prose, and illustrations are licensed under Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0); the software is licensed under MIT.</p>
+
+  <h2>Illustrations</h2>
+  <p>The illustrations are generated with an AI image model from text prompts. They are offered under the same CC BY-SA 4.0 licence to the extent they are protectable by copyright.</p>
+
+  <h2>Independence</h2>
+  <p>Wander &amp; Tales is not affiliated with, or endorsed by, Anthropic. "Claude" is referenced only as the tool used to help author stories.</p>
+
+  <h2>Applicable law</h2>
+  <p>This notice and the use of the site are governed by Spanish and EU law.</p>
+</Legal>

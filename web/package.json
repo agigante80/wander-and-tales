@@ -1,0 +1,23 @@
+{
+  "name": "wander-and-tales-web",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Website for Wander & Tales: read every story online and download the printable kits.",
+  "scripts": {
+    "prepare-assets": "node scripts/prepare-assets.mjs",
+    "dev": "npm run prepare-assets && astro dev",
+    "build": "npm run prepare-assets && astro build",
+    "preview": "astro preview",
+    "deploy": "npm run build && wrangler deploy"
+  },
+  "dependencies": {
+    "astro": "^5.6.1",
+    "marked": "^15.0.7"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.0.17",
+    "tailwindcss": "^4.0.17",
+    "wrangler": "^4.7.0"
+  }
+}
