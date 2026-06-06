@@ -8,7 +8,7 @@ export function getStaticPaths() {
 const { lang } = Astro.params;
 ---
 
-<Legal lang={lang!} route="terms" heading={t(lang!, "terms")}>
+<Legal lang={lang!} route="terms" heading={t(lang!, "terms")} description={t(lang!, "meta_terms")}>
   <p class="text-sm text-ink/50">This notice is currently provided in English; localized versions will follow.</p>
 
   <h2>Free to use</h2>

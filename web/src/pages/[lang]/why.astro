@@ -20,7 +20,7 @@ const html = marked.parse(md, { gfm: true, async: false }) as string;
 const banner = "/media/worlds/enchanted-springs/stories/mouras-lost-comb/assets/scene-the-spring-sings-again.png";
 ---
 
-<Legal lang={lang!} route="why" heading={t(lang!, "nav_why")}>
+<Legal lang={lang!} route="why" heading={t(lang!, "nav_why")} description={t(lang!, "meta_why")}>
   <img src={banner} alt="" loading="lazy" class="w-full rounded-2xl border border-paper mt-2 mb-7" />
   <div set:html={html} />
 </Legal>

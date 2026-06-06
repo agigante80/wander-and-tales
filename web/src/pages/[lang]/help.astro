@@ -15,7 +15,7 @@ const guide = site.shared_pdfs?.[locale]?.guide;
 const ver = (e: any) => (pdfVer(e) ? ` (${pdfVer(e)})` : "");
 ---
 
-<Base lang={lang!} route="help" title={`${t(lang!, "nav_help")} · Wander & Tales`}>
+<Base lang={lang!} route="help" title={`${t(lang!, "nav_help")} · Wander & Tales`} description={t(lang!, "meta_help")}>
   <section class="bg-gradient-to-b from-teal/15 to-transparent">
     <div class="max-w-3xl mx-auto px-4 pt-12 pb-6">
       <h1 class="font-display text-3xl md:text-4xl text-pine">{t(lang!, "nav_help")}</h1>

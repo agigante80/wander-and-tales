@@ -53,3 +53,24 @@ export function mdHtml(relPath?: string | null): string {
   const md = readText(relPath);
   return md ? (marked.parse(md, { gfm: true, async: false }) as string) : "";
 }
+
+// trim text to a meta-description-friendly length at a word boundary
+export function snippet(text?: string | null, max = 158): string {
+  const t = (text ?? "").replace(/\s+/g, " ").trim();
+  if (t.length <= max) return t;
+  const cut = t.slice(0, max);
+  return cut.slice(0, Math.max(cut.lastIndexOf(" "), max - 20)).trimEnd() + "...";
+}
+
+// the first body paragraph of a markdown file (skips headings and *italic* lines):
+// used as a localized, unique meta description for a story
+export function firstParagraph(relPath?: string | null): string {
+  const md = readText(relPath);
+  if (!md) return "";
+  for (const para of md.split(/\n\s*\n/)) {
+    const line = para.trim();
+    if (!line || line.startsWith("#") || line.startsWith("*") || line.startsWith("|")) continue;
+    return line.replace(/\n/g, " ");
+  }
+  return "";
+}

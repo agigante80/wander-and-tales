@@ -8,7 +8,7 @@ export function getStaticPaths() {
 const { lang } = Astro.params;
 ---
 
-<Legal lang={lang!} route="privacy" heading={t(lang!, "privacy")}>
+<Legal lang={lang!} route="privacy" heading={t(lang!, "privacy")} description={t(lang!, "meta_privacy")}>
   <p class="text-sm text-ink/50">Last updated: 6 June 2026. This notice is currently provided in English; localized versions will follow.</p>
 
   <h2>Who is responsible</h2>
