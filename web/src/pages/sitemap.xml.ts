@@ -4,7 +4,7 @@ import { LANGS, SITE_URL } from "../consts";
 export const GET = () => {
   const urls: string[] = [];
   for (const l of LANGS) {
-    urls.push(`/${l.code}/`, `/${l.code}/create`, `/${l.code}/privacy`, `/${l.code}/legal`, `/${l.code}/terms`);
+    urls.push(`/${l.code}/`, `/${l.code}/help`, `/${l.code}/why`, `/${l.code}/create`, `/${l.code}/privacy`, `/${l.code}/legal`, `/${l.code}/terms`);
     for (const w of worlds) {
       urls.push(`/${l.code}/worlds/${w.id}`);
       for (const s of w.stories) urls.push(`/${l.code}/worlds/${w.id}/${s.id}`);
