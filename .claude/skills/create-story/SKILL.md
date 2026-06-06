@@ -1,6 +1,6 @@
 ---
 name: create-story
-description: Use when a user wants to create their own Wander & Tales story (or a new world) and build their own printable kit to play at home. Guides choosing or creating a world, choosing or writing an idea, setting the audience and challenges, authoring the content in British English, Spanish from Spain, and Italian with image prompts, optionally generating the pictures with the user's own OpenAI key (or leaving prompts to paste elsewhere), validating, and building the printable PDFs into dist/. Defers all voice, reading-level, peril-tone, and canon-name rules to the authoring-story-content skill. Sharing the story with the public library is optional and handled by the separate contribute-story skill. Trigger on requests like "create a story", "make my own adventure", "make a kit about X", "write a new story to print", or "start a new world".
+description: Use when a user wants to create their own Wander & Tales story (or a new world) and build their own printable kit to play at home. Guides choosing or creating a world, choosing or writing an idea, setting the audience and challenges, authoring the content in all the project's required languages (see build/locales.py) with image prompts, optionally generating the pictures with the user's own OpenAI key (or leaving prompts to paste elsewhere), validating, and building the printable PDFs into dist/. Defers all voice, reading-level, peril-tone, and canon-name rules to the authoring-story-content skill. Sharing the story with the public library is optional and handled by the separate contribute-story skill. Trigger on requests like "create a story", "make my own adventure", "make a kit about X", "write a new story to print", or "start a new world".
 ---
 
 # Creating your own Wander & Tales kit
@@ -64,16 +64,18 @@ only more or fewer `## Stop N` sections, no code change.
 ## Step 4: reuse canon, never redefine it
 
 Before naming anything, read the world's `canon/*.yaml` and the repo-wide
-`lexicon/terms.yaml`. Reuse existing entries with their exact en-GB, es-ES, and it-IT
-names, and treat each entry's `description` as a contract: an existing gentle
+`lexicon/terms.yaml`. Reuse existing entries with their exact names in every
+`REQUIRED_LOCALES` locale, and treat each entry's `description` as a contract: an existing gentle
 creature stays gentle, a named place keeps its nature. Add a new `canon/` entry for
 anything genuinely new before you use it in prose. Never rewrite an existing entry.
 
 ## Step 5: author the content
 
-Draft **en-GB first** (the source of truth), then **every locale in
-`build/locales.py` `REQUIRED_LOCALES`** (es-ES and it-IT today), translating for the
-target child's ear, not word for word. Produce:
+Draft **en-GB first** (the source of truth), then **every other locale in
+`build/locales.py` `REQUIRED_LOCALES`** (read that file for the current set; do not
+assume a fixed list, the project gains languages over time), translating for the
+target child's ear, not word for word. Every `REQUIRED_LOCALES` locale must be
+present and complete or the kit will not validate. Produce:
 
 - `worlds/<world>/stories/<story>/story.yaml`: the tags and the image entries (each
   with a `prompt`, locale-neutral and text-free, plus localized `alt`, following the

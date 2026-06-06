@@ -4,8 +4,9 @@ description: >-
   Author or revise content for the Wander & Tales children's story-kit library:
   story narration (simple and rich reading levels), world lore, canon registry
   entries, puzzles, idea banks, rules-page text, and the Guide for the Grown-Up,
-  in British English (en-GB, canonical), Spanish from Spain (es-ES), and Italian
-  (it-IT), the synced locales. Use this skill whenever you
+  in British English (en-GB, canonical) and the synced locales kept in step with it
+  (defined in build/locales.py REQUIRED_LOCALES; currently Spanish from Spain es-ES,
+  Italian it-IT, and European Portuguese pt-PT). Use this skill whenever you
   write, draft, translate, or edit any kid-facing or grown-up-facing prose or
   YAML content for Wander & Tales (any world or story, including The Floating
   Isles / The Sleeping Garden and the Greek-myth world), even when the request
@@ -71,16 +72,24 @@ These are small and unforgiving, so check them deliberately.
    phrasings that are cleared and the list of claims never to make. It governs all
    grown-up-facing copy (world intros, the Guide, any positioning text).
 
-3. **Write British English (en-GB), Spanish from Spain (es-ES), and Italian
-   (it-IT).** These are the synced locales, and they are specific: British spelling
-   and idiom (colour, organise, maths, autumn, "have you got"); peninsular Spanish
-   with "vosotros" for the players and full, correct accents; and natural Italian
-   with "voi" for the players and full accents (the old font limit that dropped
-   accents is gone). US English, Latin American Spanish, and other languages are
+3. **Write every locale in `build/locales.py` `REQUIRED_LOCALES`** (read that file
+   for the live set; the project gains languages over time). Each is a specific
+   locale with its own register:
+   - **British English (en-GB)**, canonical: British spelling and idiom (colour,
+     organise, maths, autumn, "have you got").
+   - **Spanish from Spain (es-ES)**: peninsular Spanish, "vosotros" for the players,
+     full correct accents. Never Latin American Spanish.
+   - **Italian (it-IT)**: natural, warm Italian, "voi" for the players, full accents.
+   - **European Portuguese (pt-PT)**: natural Portugal Portuguese, "vocês" for the
+     players (and "tu" when a prompt speaks to one child), full accents. Never
+     Brazilian Portuguese.
+   US English, Latin American Spanish, Brazilian Portuguese, and other languages are
    **separate languages** that slot in later, each in its own content files, exactly
    like European versus Brazilian Portuguese, or French and German. Never quietly mix
-   an Americanism into en-GB, a Latin American turn of phrase into es-ES, or a
-   non-native turn into it-IT. See `references/voice-and-reading-levels.md`.
+   an Americanism into en-GB, a Latin American turn of phrase into es-ES, a non-native
+   turn into it-IT, or a Brazilianism into pt-PT. See
+   `references/voice-and-reading-levels.md`. Adding a new language to the project is
+   the **`add-language`** skill, which also extends this register list.
 
 4. **Use plain, everyday words a parent can relay to a child, especially when
    describing the game itself.** A grown-up reads the description and then has to
@@ -107,9 +116,10 @@ These are small and unforgiving, so check them deliberately.
 | `guide/<locale>/guide.md` | adult GM | adult | the generic Guide for the Grown-Up |
 | `story.yaml` | system | n/a | tags and metadata only |
 
-`<locale>` is always an explicit code: `en-GB` (canonical) and `es-ES` today, with
-others like `en-US` or `es-419` added later as their own folders. The same codes
-key the `title:` map in `story.yaml` and the `names:` map in canon.
+`<locale>` is always an explicit code: `en-GB` (canonical) plus the rest of
+`REQUIRED_LOCALES` (today `es-ES`, `it-IT`, `pt-PT`), with others like `en-US` or
+`es-419` added later as their own folders. The same codes key the `title:` map in
+`story.yaml` and the `names:` map in canon.
 
 Glossary appendices, hand-drawn map labels, and the catalog are **generated from
 canon**, so you do not hand-write them; you keep canon correct and they follow.

@@ -14,10 +14,10 @@ content is data and a layout-only build renders the PDFs.
 This file plus the code are the source of truth; the full design history lives in
 git. The project is built and working end to end: the `build` package (content model,
 validation, and the `validate`/`lint` CLI), the `build/render/` PDF
-pipeline, and the content for six worlds (Floating Isles, the Greek-myth Sunlit Hills,
+pipeline, and the content for seven worlds (Floating Isles, the Greek-myth Sunlit Hills,
 the Norse Snowlit Fjords, the Japanese Blossom Mountains of Yamato, the Celtic Emerald
-Isles, and the Epic-Cycle Windswept Shores of Troy), eighteen stories in all, in en-GB,
-es-ES, and it-IT. Each story builds
+Isles, the Epic-Cycle Windswept Shores of Troy, and the Portuguese-folklore Enchanted
+Springs), twenty-one stories in all, in en-GB, es-ES, it-IT, and pt-PT. Each story builds
 into three artifacts (a Tale Book, an Atlas, and a World Book) plus the
 shared Guide for the Grown-Up, every PDF carrying an automatic git-derived version, a
 colophon, and a per-page footer, assembled into the language-first `kits/` tree by
@@ -162,12 +162,15 @@ this for file writes and edits (it activates on a normal session start).
 ## Core conventions (from the spec)
 
 - **Languages**: British English (`en-GB`) is canonical; Spanish from Spain
-  (`es-ES`) and Italian (`it-IT`) are kept in sync (the `REQUIRED_LOCALES`). These
+  (`es-ES`), Italian (`it-IT`), and European Portuguese (`pt-PT`) are kept in sync
+  (the `REQUIRED_LOCALES`, the single source of truth in `build/locales.py`). These
   are specific locales: write British spelling and idiom, peninsular Spanish
-  (vosotros, full accents), and natural Italian (voi for the players, full accents).
-  US English, Latin American Spanish, and any other locale are treated as separate
-  languages that slot in later with no code changes (like `pt-PT` versus `pt-BR`);
-  never mix an Americanism into `en-GB` or a Latin turn of phrase into `es-ES`.
+  (vosotros, full accents), natural Italian (voi for the players, full accents), and
+  natural European Portuguese (vocês for the players, full accents). US English,
+  Latin American Spanish, and Brazilian Portuguese are treated as separate languages
+  that slot in later (like `pt-PT` versus `pt-BR`); never mix an Americanism into
+  `en-GB`, a Latin turn of phrase into `es-ES`, or a Brazilian one into `pt-PT`.
+  Adding a language is the `add-language` skill: it knows every file and action.
 - **Content-driven**: content is text plus YAML metadata; Python builders are
   layout-only and take `(world, story, language, reading_level)`. Adding a world,
   story, language, or age tier is a content task, not a coding task.
