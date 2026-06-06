@@ -11,7 +11,7 @@
     es-ES: las Montañas en Flor de Yamato
     it-IT: i Monti in Fiore di Yamato
     pt-PT: as Montanhas em Flor de Yamato
-  magics: [imagination, kindness, courage]
+  magics: [imagination, kindness]
   energy: 4
   carry:
     - { en-GB: a paper lantern, es-ES: un farol de papel, it-IT: una lanterna di carta, pt-PT: uma lanterna de papel }
@@ -39,7 +39,7 @@
     es-ES: las Montañas en Flor de Yamato
     it-IT: i Monti in Fiore di Yamato
     pt-PT: as Montanhas em Flor de Yamato
-  magics: [courage, kindness, imagination]
+  magics: [courage]
   energy: 3
   carry:
     - { en-GB: a little bell, es-ES: una campanilla, it-IT: un campanello, pt-PT: uma sineta }
@@ -67,7 +67,7 @@
     es-ES: las Montañas en Flor de Yamato
     it-IT: i Monti in Fiore di Yamato
     pt-PT: as Montanhas em Flor de Yamato
-  magics: [imagination, courage, kindness]
+  magics: [patience, curiosity]
   energy: 5
   carry:
     - { en-GB: a scroll of riddles, es-ES: un pergamino de acertijos, it-IT: un rotolo di indovinelli, pt-PT: um pergaminho de adivinhas }
@@ -96,7 +96,7 @@
     es-ES: las Montañas en Flor de Yamato
     it-IT: i Monti in Fiore di Yamato
     pt-PT: as Montanhas em Flor de Yamato
-  magics: [courage, imagination, kindness]
+  magics: [kindness, courage]
   energy: 4
   carry:
     - { en-GB: a bamboo flute, es-ES: una flauta de bambú, it-IT: un flauto di bambù, pt-PT: uma flauta de bambu }

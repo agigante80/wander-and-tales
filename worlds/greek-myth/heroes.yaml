@@ -11,7 +11,7 @@
     es-ES: las Colinas Soleadas de Grecia
     it-IT: delle Colline Assolate della Grecia
     pt-PT: das Colinas Soalheiras da Grécia
-  magics: [imagination, courage, heart]
+  magics: [imagination, heart]
   energy: 4
   carry:
     - { en-GB: an olive branch, es-ES: una rama de olivo, it-IT: un ramo di ulivo, pt-PT: um ramo de oliveira }
@@ -38,7 +38,7 @@
     es-ES: las Colinas Soleadas de Grecia
     it-IT: delle Colline Assolate della Grecia
     pt-PT: das Colinas Soalheiras da Grécia
-  magics: [courage, heart, imagination]
+  magics: [courage]
   energy: 3
   carry:
     - { en-GB: a little wooden sword, es-ES: una espadita de madera, it-IT: una spadina di legno, pt-PT: uma pequena espada de madeira }
@@ -65,7 +65,7 @@
     es-ES: las Colinas Soleadas de Grecia
     it-IT: delle Colline Assolate della Grecia
     pt-PT: das Colinas Soalheiras da Grécia
-  magics: [imagination, heart, courage]
+  magics: [curiosity, cleverness]
   energy: 5
   carry:
     - { en-GB: a little lyre, es-ES: una pequeña lira, it-IT: una piccola lira, pt-PT: uma pequena lira }
@@ -93,7 +93,7 @@
     es-ES: las Colinas Soleadas de Grecia
     it-IT: delle Colline Assolate della Grecia
     pt-PT: das Colinas Soalheiras da Grécia
-  magics: [courage, imagination, heart]
+  magics: [courage, imagination]
   energy: 4
   carry:
     - { en-GB: a shepherd's staff, es-ES: un cayado de pastor, it-IT: un bastone da pastore, pt-PT: um cajado de pastor }

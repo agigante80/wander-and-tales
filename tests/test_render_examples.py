@@ -15,7 +15,7 @@ def _write_heroes(repo):
           tier: young
           name: Aria
           hero_of: { en-GB: the Isles, es-ES: las Islas, it-IT: le Isole, pt-PT: le Isole }
-          magics: [mist-cat, mist-cat, mist-cat]
+          magics: [mist-cat, mist-cat]
           energy: 3
           carry:
             - { en-GB: a lantern, es-ES: un farol, it-IT: una lanterna, pt-PT: una lanterna }
@@ -29,7 +29,7 @@ def _write_heroes(repo):
           tier: young
           name: Leo
           hero_of: { en-GB: the Isles, es-ES: las Islas, it-IT: le Isole, pt-PT: le Isole }
-          magics: [mist-cat, mist-cat, mist-cat]
+          magics: [mist-cat, mist-cat]
           energy: 2
           carry: []
           image:
@@ -42,7 +42,7 @@ def _write_heroes(repo):
           tier: older
           name: Mira
           hero_of: { en-GB: the Isles, es-ES: las Islas, it-IT: le Isole, pt-PT: le Isole }
-          magics: [mist-cat, mist-cat, mist-cat]
+          magics: [mist-cat, mist-cat]
           energy: 5
           carry: []
           image:
@@ -55,7 +55,7 @@ def _write_heroes(repo):
           tier: older
           name: Theo
           hero_of: { en-GB: the Isles, es-ES: las Islas, it-IT: le Isole, pt-PT: le Isole }
-          magics: [mist-cat, mist-cat, mist-cat]
+          magics: [mist-cat, mist-cat]
           energy: 4
           carry: []
           image:
@@ -88,12 +88,12 @@ def test_example_heroes_renders_in_spanish(sample_repo, tmp_path):
     assert out.read_bytes().startswith(b"%PDF")
 
 
-def test_example_hero_requires_three_magics():
+def test_example_hero_rejects_three_or_more_magics():
     with pytest.raises(ValidationError):
         ExampleHero.model_validate({
             "id": "x", "tier": "young", "name": "X",
             "hero_of": {"en-GB": "a", "es-ES": "a", "it-IT": "a", "pt-PT": "a"},
-            "magics": ["a", "b"],
+            "magics": ["a", "b", "c"],
             "image": {
                 "id": "h", "role": "hero", "orientation": "portrait",
                 "prompt": "p", "alt": {"en-GB": "a", "es-ES": "a", "it-IT": "a", "pt-PT": "a"},
@@ -106,7 +106,7 @@ def test_example_hero_tier_must_be_young_or_older():
         ExampleHero.model_validate({
             "id": "x", "tier": "early", "name": "X",
             "hero_of": {"en-GB": "a", "es-ES": "a", "it-IT": "a", "pt-PT": "a"},
-            "magics": ["a", "b", "c"],
+            "magics": ["a", "b"],
             "image": {
                 "id": "h", "role": "hero", "orientation": "portrait",
                 "prompt": "p", "alt": {"en-GB": "a", "es-ES": "a", "it-IT": "a", "pt-PT": "a"},

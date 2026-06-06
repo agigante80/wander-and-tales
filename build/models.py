@@ -191,7 +191,7 @@ class ExampleHero(_Strict):
     tier: str  # young or older (the two example sheet tiers)
     name: str
     hero_of: dict[str, str]
-    magics: list[str]  # exactly 3 canon term ids (magics or qualities)
+    magics: list[str]  # 1 or 2 canon term ids (magics or qualities)
     energy: int = 0
     carry: list[dict[str, str]] = []
     image: Image
@@ -211,9 +211,9 @@ class ExampleHero(_Strict):
 
     @field_validator("magics")
     @classmethod
-    def _three_magics(cls, value: list[str]) -> list[str]:
-        if len(value) != 3:
-            raise ValueError("a hero needs exactly 3 magics or qualities")
+    def _one_or_two_magics(cls, value: list[str]) -> list[str]:
+        if not 1 <= len(value) <= 2:
+            raise ValueError("a hero needs 1 or 2 magics or qualities")
         return value
 
     @field_validator("energy")

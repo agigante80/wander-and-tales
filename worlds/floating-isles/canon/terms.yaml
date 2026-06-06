@@ -70,3 +70,17 @@
     it-IT: La sera in cui le famiglie delle Isole fanno salire insieme lanterne del cielo luminose nel cielo tranquillo.
     pt-PT: A noite em que as famílias das Ilhas fazem subir juntas lanternas do céu luminosas para o céu tranquilo.
   first_seen: lantern-festival
+
+- id: magic-float
+  names:
+    en-GB: Float
+    es-ES: Flotar
+    it-IT: Fluttuare
+    pt-PT: Flutuar
+  kind: quality
+  description:
+    en-GB: Lifts and floats heavy things gently up into the air, the way the isles themselves drift on the sky. A stuck cart or a fallen friend rises light as a feather.
+    es-ES: Eleva y hace flotar con suavidad las cosas pesadas por el aire, como las propias islas que van a la deriva por el cielo. Un carro atascado o un amigo caído se alza ligero como una pluma.
+    it-IT: Solleva e fa fluttuare con dolcezza le cose pesanti nell'aria, come le isole stesse che vanno alla deriva nel cielo. Un carro bloccato o un amico caduto si alza leggero come una piuma.
+    pt-PT: Eleva e faz flutuar com suavidade as coisas pesadas pelo ar, como as próprias ilhas que vagueiam pelo céu. Um carro preso ou um amigo caído ergue-se leve como uma pena.
+  first_seen: lantern-festival

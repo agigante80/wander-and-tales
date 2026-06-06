@@ -41,3 +41,31 @@
     it-IT: La cura per gli altri e un posto accanto al fuoco per tutti. I più grandi eroi dei fiordi sono quelli che condividono, aiutano e non abbandonano un amico.
     pt-PT: O cuidado pelos outros e um lugar junto ao fogo para todos. Os maiores heróis dos fiordes são os que partilham, ajudam e não abandonam um amigo.
   first_seen: the-lost-little-aurora
+
+- id: patience
+  names:
+    en-GB: Patience
+    es-ES: Paciencia
+    it-IT: Pazienza
+    pt-PT: Paciência
+  kind: quality
+  description:
+    en-GB: Waiting kindly and trying again, through the longest, coldest night. In the fjords, patience keeps a small flame alight until the dawn returns.
+    es-ES: Esperar con amabilidad y volver a intentarlo, durante la noche más larga y fría. En los fiordos, la paciencia mantiene encendida una pequeña llama hasta que vuelve el amanecer.
+    it-IT: Aspettare con gentilezza e riprovare, nella notte più lunga e fredda. Nei fiordi, la pazienza tiene accesa una piccola fiamma finché torna l'alba.
+    pt-PT: Esperar com amabilidade e tentar de novo, na noite mais longa e fria. Nos fiordes, a paciência mantém acesa uma pequena chama até que o amanhecer regresse.
+  first_seen: the-long-winters-night
+
+- id: kindness
+  names:
+    en-GB: Kindness
+    es-ES: Bondad
+    it-IT: Gentilezza
+    pt-PT: Bondade
+  kind: quality
+  description:
+    en-GB: A warm word and a helping hand, even to a fearsome-seeming stranger, which turns most foes into friends. In the cold fjords, kindness is the warmest fire of all.
+    es-ES: Una palabra cálida y una mano amiga, incluso para un extraño de aspecto temible, que convierte a casi cualquier enemigo en amigo. En los fiordos fríos, la bondad es el fuego más cálido de todos.
+    it-IT: Una parola calorosa e una mano tesa, anche a uno straniero dall'aria spaventosa, che trasforma quasi ogni nemico in amico. Nei fiordi freddi, la gentilezza è il fuoco più caldo di tutti.
+    pt-PT: Uma palavra calorosa e uma mão amiga, mesmo a um estranho de aspeto assustador, que torna quase qualquer inimigo num amigo. Nos fiordes frios, a bondade é o fogo mais quente de todos.
+  first_seen: the-long-winters-night

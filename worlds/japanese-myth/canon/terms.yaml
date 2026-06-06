@@ -41,3 +41,31 @@
     it-IT: La cura per ogni essere vivente, da una lucciola timida a un grande drago. I più grandi eroi delle montagne sono quelli che sono gentili, condividono e aiutano.
     pt-PT: O cuidado por todos os seres vivos, de um pirilampo tímido a um grande dragão. Os maiores heróis das montanhas são os que são gentis, partilham e ajudam.
   first_seen: firefly-lanterns
+
+- id: patience
+  names:
+    en-GB: Patience
+    es-ES: Paciencia
+    it-IT: Pazienza
+    pt-PT: Paciência
+  kind: quality
+  description:
+    en-GB: Waiting kindly and trying again, without rushing. In the still mountains of Yamato, the gentlest things appear only to those who wait.
+    es-ES: Esperar con amabilidad y volver a intentarlo, sin prisa. En las montañas serenas de Yamato, las cosas más delicadas aparecen solo ante quien sabe esperar.
+    it-IT: Aspettare con gentilezza e riprovare, senza fretta. Nelle montagne quiete di Yamato, le cose più delicate appaiono solo a chi sa aspettare.
+    pt-PT: Esperar com amabilidade e tentar de novo, sem pressa. Nas montanhas serenas de Yamato, as coisas mais delicadas aparecem só a quem sabe esperar.
+  first_seen: firefly-lanterns
+
+- id: curiosity
+  names:
+    en-GB: Curiosity
+    es-ES: Curiosidad
+    it-IT: Curiosità
+    pt-PT: Curiosidade
+  kind: quality
+  description:
+    en-GB: Asking the right question and noticing what others miss. In the quiet mountains, a curious heart hears the small sound that shows the way.
+    es-ES: Hacer la pregunta justa y fijarse en lo que otros no ven. En las montañas tranquilas, un corazón curioso oye el pequeño sonido que muestra el camino.
+    it-IT: Fare la domanda giusta e notare ciò che gli altri non vedono. Nelle montagne tranquille, un cuore curioso ode il piccolo suono che indica la via.
+    pt-PT: Fazer a pergunta certa e reparar no que os outros não veem. Nas montanhas tranquilas, um coração curioso ouve o pequeno som que mostra o caminho.
+  first_seen: firefly-lanterns

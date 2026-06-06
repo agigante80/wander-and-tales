@@ -41,3 +41,31 @@
     it-IT: La cura per gli altri. In questo mondo i più grandi eroi sono quelli che aiutano, condividono e non abbandonano un amico.
     pt-PT: O cuidado pelos outros. Neste mundo, os maiores heróis são os que ajudam, partilham e nunca abandonam um amigo.
   first_seen: the-singing-spring
+
+- id: curiosity
+  names:
+    en-GB: Curiosity
+    es-ES: Curiosidad
+    it-IT: Curiosità
+    pt-PT: Curiosidade
+  kind: quality
+  description:
+    en-GB: Asking the right question and noticing what others miss. Under the bright Greek sun, a curious eye spots the small clue that solves the whole puzzle.
+    es-ES: Hacer la pregunta justa y fijarse en lo que otros no ven. Bajo el sol brillante de Grecia, un ojo curioso descubre la pequeña pista que resuelve todo el enigma.
+    it-IT: Fare la domanda giusta e notare ciò che gli altri non vedono. Sotto il sole splendente della Grecia, un occhio curioso scopre il piccolo indizio che risolve l'intero enigma.
+    pt-PT: Fazer a pergunta certa e reparar no que os outros não veem. Sob o sol brilhante da Grécia, um olho curioso descobre a pequena pista que resolve todo o enigma.
+  first_seen: athenas-owl
+
+- id: cleverness
+  names:
+    en-GB: Cleverness
+    es-ES: Astucia
+    it-IT: Astuzia
+    pt-PT: Astúcia
+  kind: quality
+  description:
+    en-GB: A quick, kind wit that finds the clever way through. In the land of Athena, a bright idea outshines brute strength every time.
+    es-ES: Un ingenio rápido y amable que encuentra la salida lista. En la tierra de Atenea, una idea brillante supera siempre a la fuerza bruta.
+    it-IT: Un'intelligenza rapida e gentile che trova la via furba. Nella terra di Atena, un'idea brillante batte ogni volta la forza bruta.
+    pt-PT: Uma esperteza rápida e gentil que encontra o caminho astuto. Na terra de Atena, uma ideia brilhante supera sempre a força bruta.
+  first_seen: athenas-owl
