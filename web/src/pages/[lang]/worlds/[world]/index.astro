@@ -77,35 +77,27 @@ const jsonld = {
     <div style="display:grid;grid-template-columns:1fr;gap:var(--sp-4)">
       {world.stories.map((s: any, i: number) => {
         const stale = teaser(s);
-        const chips = (
-          <div class="chips" style="margin-top:var(--sp-4)">
-            <span class="chip">{t(lang!, "ages")} {AGE_RANGE[s.tags.age_recommended] ?? s.tags.age_recommended}</span>
-            <span class="chip">{s.tags.play_time_minutes} {t(lang!, "minutes")}</span>
-            {(s.tags.skills ?? []).slice(0, 2).map((sk: string) => <span class="chip chip-teal">{sk.replace(/-/g, " ")}</span>)}
-          </div>
-        );
-        return i === 0 ? (
+        const scov = mediaUrl((s.images?.find((im: any) => im.role === "cover") ?? s.images?.[0])?.path);
+        return (
           <a class="card card-link" href={`/${lang}/worlds/${world.id}/${s.id}`}>
             <div class="story-row">
-              <div class="art t-isles" style="aspect-ratio:16/9" role="img" aria-label={s.title[locale]}>
-                {mediaUrl(s.images?.find((im: any) => im.role === "cover")?.path) && <img src={mediaUrl(s.images.find((im: any) => im.role === "cover").path)} alt="" />}
+              <div class="art" style="aspect-ratio:16/9" role="img" aria-label={s.title[locale]}>
+                {scov && <img src={scov} alt="" loading="lazy" />}
               </div>
               <div class="card-pad">
                 <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap">
                   <h3 style="font-size:var(--fs-h3)">{s.title[locale]}</h3>
-                  <span class="badge-adult"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3l7 3v5c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6Z"></path></svg>{t(lang!, "adult_led")}</span>
+                  {i === 0 && (
+                    <span class="badge-adult"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3l7 3v5c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6Z"></path></svg>{t(lang!, "adult_led")}</span>
+                  )}
                 </div>
                 {stale && <p class="muted" style="margin-top:8px">{stale}</p>}
-                {chips}
+                <div class="chips" style="margin-top:var(--sp-4)">
+                  <span class="chip">{t(lang!, "ages")} {AGE_RANGE[s.tags.age_recommended] ?? s.tags.age_recommended}</span>
+                  <span class="chip">{s.tags.play_time_minutes} {t(lang!, "minutes")}</span>
+                  {(s.tags.skills ?? []).slice(0, 2).map((sk: string) => <span class="chip chip-teal">{sk.replace(/-/g, " ")}</span>)}
+                </div>
               </div>
-            </div>
-          </a>
-        ) : (
-          <a class="card card-link" href={`/${lang}/worlds/${world.id}/${s.id}`}>
-            <div class="card-pad">
-              <h3 style="font-size:var(--fs-h3)">{s.title[locale]}</h3>
-              {stale && <p class="muted" style="margin-top:8px">{stale}</p>}
-              {chips}
             </div>
           </a>
         );
