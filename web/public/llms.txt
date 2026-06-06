@@ -8,6 +8,6 @@ The games are played by a grown-up and one or more children together, with a sin
 die and household objects. There are seven worlds and twenty-one stories, each with a
 Tale Book (two reading levels), an Atlas (map and pictures), and a World Book.
 
-- Worlds and stories: https://wanderandtales.com/en/
+- Worlds and stories: https://www.wanderandtales.com/en/
 - Create your own with Claude: https://github.com/agigante80/wander-and-tales#create-your-own-story
 - Source and licence (CC BY-SA 4.0 content, MIT code): https://github.com/agigante80/wander-and-tales

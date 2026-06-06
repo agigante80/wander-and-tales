@@ -8,7 +8,7 @@ export const LANGS = [
 export type LangCode = (typeof LANGS)[number]["code"];
 
 export const DEFAULT_LANG: LangCode = "en";
-export const SITE_URL = "https://wanderandtales.com";
+export const SITE_URL = "https://www.wanderandtales.com";
 export const REPO = "https://github.com/agigante80/wander-and-tales";
 export const CREATE_URL = REPO + "#create-your-own-story";
 
