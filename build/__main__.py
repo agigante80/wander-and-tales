@@ -173,10 +173,6 @@ def main(argv: list[str] | None = None) -> int:
 
         m = manifest_mod.build_manifest(args.root, out_dir)
         print(f"refreshed {m}")
-        from build.render import web_map
-
-        n = web_map.render_all_maps(args.root, args.root / "maps")
-        print(f"rendered {n} story map(s) into {args.root / 'maps'}")
         return 0
 
     if args.command == "render-maps":
