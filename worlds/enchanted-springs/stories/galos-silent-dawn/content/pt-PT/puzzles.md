@@ -14,6 +14,8 @@ até os jogadores o animarem e cuidarem dele.
 - **Canto do Rio** para lhe ir buscar uma golada de água fresca da fonte e pedir à água que
   lhe suavize a garganta.
 - **Floração** para trazer um pouco de cor e de vida de volta ao seu poleiro abatido.
+- **Canto dos Pássaros** para o chamar de pássaro para pássaro e convidar o seu próprio
+  cantar a sair de novo.
 - Um gesto bondoso simples sem magia: sentar-se com ele, cantar baixinho, ou prometer em
   voz alta limpar o nome do viajante.
 
@@ -33,7 +35,8 @@ furtos brilhantes (uma fita, um botão, um brilho junto à torre) até à torre 
 **Solução.** As pistas somam-se a uma criatura que adora coisas brilhantes e chega a
 sítios altos, e os brilhos levam ao cimo da **velha torre do sino**. Isto é observação e
 lógica, não uma magia, embora a **Luz de Estrela** possa facilitar avistar um brilho ténue,
-e o **Canto do Rio** possa perguntar à praça o que viu.
+o **Canto do Rio** possa perguntar à praça o que viu, e o **Canto dos Pássaros** possa
+perguntar aos pássaros do mercado para onde voou o pequeno ladrão brilhante.
 
 **Alternativa.** Se as crianças encalharem, faz um feirante mencionar "aquele pássaro
 maroto lá na torre já me levou os botões outra vez", entregando-lhes a ligação. Chegar à
@@ -56,6 +59,8 @@ facilidade. Os jogadores têm de se fazer amigos dela, não agarrar a taça.
   deixa-vos levá-la.
 - **Luz de Estrela** para conjurar um brilho que ela ache ainda mais encantador, ou
   **Verdade** para lhe mostrar com doçura que a taça faz falta e que uma troca é justa.
+- **Canto dos Pássaros** para lhe falar no seu próprio chilrear de gralha, para que fique
+  calma e venha cá fora em vez de se assustar.
 
 **Alternativa.** Se as crianças bloquearem, faz a própria gralha empurrar um botão
 brilhante na direção delas, como se propusesse a troca. Assim que ofereçam qualquer bondade

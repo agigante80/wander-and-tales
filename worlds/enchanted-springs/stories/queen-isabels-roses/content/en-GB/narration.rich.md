@@ -21,8 +21,8 @@ the way I would, asking nothing back."
 You promised that you would, and went down toward the waking city, the castle bells
 tolling gently behind you.
 
-*What is your hero name? Which three magics will you carry: Bloom, Truth,
-Starlight, or Riversong?*
+*What is your hero name? Which one or two magics will you carry: Bloom, Truth,
+Starlight, Riversong, or Birdsong?*
 
 ## Stop 1: The Castle Kitchen
 

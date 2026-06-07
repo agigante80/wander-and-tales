@@ -10,8 +10,8 @@ pierde.
 - Imprimid el mapa, o dibujadlo, o montadlo con objetos de casa: una Salida, cuatro
   paradas y una Meta en un camino serpenteante. Cada jugador pone una figurita en la
   Salida.
-- Cada jugador elige tres magias de las cuatro de este mundo: Floración, Verdad, Luz
-  de Estrella y Canto del Río. Lo mejor es repartirlas entre los jugadores.
+- Cada jugador elige una o dos magias de las cinco de este mundo: Floración, Verdad, Luz
+  de Estrella, Canto del Río o Canto de los Pájaros. Lo mejor es repartirlas entre los jugadores.
 - Dad a cada jugador cinco estrellas de energía (cinco fichas o piezas pequeñas). Se
   gastan y se rellenan durante el juego.
 - Construid las cosas que vayan apareciendo (la copa de plata, el nido brillante de

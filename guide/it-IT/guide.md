@@ -88,7 +88,7 @@ famiglia: "un eroe delle Colline Assolate", "un eroe delle Isole Fluttuanti". Po
 suo eroe tre **punti forti** (oppure, in un mondo con la magia, tre **magie**), fa un
 disegno veloce e annota le poche cose che porta con sé.
 
-Tre punti forti bastano, e non c'è una scelta sbagliata. Un punto forte è solo un modo
+Uno o due punti forti bastano, e non c'è una scelta sbagliata. Un punto forte è solo un modo
 in cui a questo eroe piace aiutare, e "che cosa fa" è una riga breve con le parole del
 bambino. Proponine qualcuno e lascia che inventi i suoi:
 
@@ -152,7 +152,7 @@ Comincia dalla promessa, create un eroe a testa e poi via.
   cerchiamo semplicemente un'altra strada." Questa sola frase libera il bambino e lo fa
   sentire coraggioso.
 - **Create un eroe a testa.** Distribuisci le schede d'avventura e fate gli eroi
-  insieme, tu compreso. Lascia che scelgano un nome e tre magie o punti forti, e che
+  insieme, tu compreso. Lascia che scelgano un nome e una o due magie o punti forti, e che
   disegnino il loro ritratto. Gli Eroi di Esempio sono lì se qualcuno vuole un modello.
 - **Prepara la scena.** Leggi l'inizio della storia ad alta voce, piano, e fai la prima
   domanda. Da lì in poi, la storia vi porta avanti entrambi.

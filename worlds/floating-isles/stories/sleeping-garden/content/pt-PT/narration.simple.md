@@ -12,8 +12,8 @@ adormecido. As flores estão fechadas. A fonte não faz som nenhum.
 São dois pequenos magos. Pegam no vosso saco. Olham um para o outro. "Vamos
 acordá-lo," dizem ao mesmo tempo. O caminho dourado está à espera.
 
-*Qual é o vosso nome de mago? Que magia escolhes: Luz, Crescer, Transformação ou
-Voz?*
+*Qual é o vosso nome de mago? Que magia escolhes: Luz, Crescer, Transformação, Voz
+ou Flutuar?*
 
 ## Stop 1: O Portão das Trepadeiras
 

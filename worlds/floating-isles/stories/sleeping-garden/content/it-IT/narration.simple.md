@@ -15,7 +15,7 @@ Siete due piccoli maghi. Prendete la vostra borsa. Vi guardate. "Andiamo a
 svegliarlo", dite insieme. Il sentiero dorato vi aspetta.
 
 *Qual è il vostro nome da mago? Quale magia scegliete: Luce, Crescita,
-Cambiamento o Voce?*
+Cambiamento, Voce o Fluttuare?*
 
 ## Tappa 1: Il Cancello di Rampicanti
 

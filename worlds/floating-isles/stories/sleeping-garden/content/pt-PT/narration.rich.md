@@ -18,7 +18,7 @@ saco ao ombro, olham um para o outro e, sem bem o planearem, dizem as mesmas
 palavras no mesmo instante: "Vamos acordá-lo." Lá em baixo, o caminho dourado
 serpenteia para dentro da calma.
 
-*Escolhe o teu nome de mago e a tua magia, Luz, Crescer, Transformação ou Voz,
+*Escolhe o teu nome de mago e a tua magia, Luz, Crescer, Transformação, Voz ou Flutuar,
 antes de dares o primeiro passo.*
 
 ## Stop 1: O Portão das Trepadeiras

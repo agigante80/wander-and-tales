@@ -10,11 +10,12 @@ ordem.
 
 - Imprime o mapa. Cada jogador põe uma pequena figura na Partida, o Acampamento das
   Naus.
-- Este mundo não tem magia. Em vez disso, cada herói apoia-se numa de três qualidades:
-  **Imaginação** (inventar ideias), **Coragem** (um coração firme) ou **Lealdade**
-  (estar ao lado de um amigo). Na folha de herói, onde diz magia, deixa cada criança
-  escrever a qualidade de que mais gosta. Duas qualidades diferentes funcionam melhor
-  juntas.
+- Este mundo não tem magia. Em vez disso, cada herói apoia-se numa ou em duas das cinco
+  qualidades: **Imaginação** (inventar ideias), **Coragem** (um coração firme),
+  **Lealdade** (estar ao lado de um amigo), **Astúcia** (uma ideia astuta e gentil) ou
+  **Paciência** (esperar e tentar de novo). Na folha de herói, onde diz magia, deixa
+  cada criança escrever a qualidade de que mais gosta. Duas qualidades diferentes
+  funcionam melhor juntas.
 - Dá a cada jogador cinco estrelas de energia (cinco fichas ou peças pequenas). São
   gastas e repostas durante o jogo.
 - Põe à mão três adereços, se puderes: qualquer concha para a Concha-Buzina, um bolinho

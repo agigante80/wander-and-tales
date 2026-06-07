@@ -14,8 +14,8 @@ softly, the way I would."
 
 You pick up your bag. "We will," you say. The city is waking up below the castle.
 
-*What is your hero name? Which magics do you choose: Bloom, Truth, Starlight, or
-Riversong?*
+*What is your hero name? Which one or two magics do you choose: Bloom, Truth, Starlight,
+Riversong, or Birdsong?*
 
 ## Stop 1: The Castle Kitchen
 

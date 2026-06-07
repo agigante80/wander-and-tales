@@ -16,6 +16,7 @@ sozinho.
 - **Transformação**: tornar o nó em algo mais solto, ou numa chave para o fecho.
 - **Voz**: pedir às trepadeiras com educação que se desenrolem e se afastem.
 - **Luz** pode revelar um fecho escondido que, uma vez visto, é fácil de soltar.
+- **Flutuar**: erguer um jogador com brandura por cima do portão, para o abrir do outro lado.
 
 **Saída.** Se uma jogada falhar, o Gato de Névoa empurra uma trepadeira solta para
 mostrar por onde começar, depois os jogadores gastam uma estrela de energia ou

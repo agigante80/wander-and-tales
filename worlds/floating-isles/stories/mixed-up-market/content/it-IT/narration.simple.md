@@ -19,7 +19,7 @@ Siete piccoli maghi, e potete rimettere tutto a posto. "Sbroghiamo il mercato",
 dite insieme.
 
 *Qual è il vostro nome da mago? Quale magia scegliete: Luce, Crescita,
-Cambiamento o Voce?*
+Cambiamento, Voce o Fluttuare?*
 
 ## Tappa 1: Le Bancarelle Imbrogliate
 

@@ -18,7 +18,7 @@ bag, glance at each other, and without quite planning to, you say the same words
 at the same moment: "Let us go and wake it up." Below you, the golden path winds
 away into the quiet.
 
-*Choose your mage name and your magic, Light, Grow, Change, or Voice, before you
+*Choose your mage name and your magic, Light, Grow, Change, Voice, or Float, before you
 take the first step.*
 
 ## Stop 1: The Vine Gate

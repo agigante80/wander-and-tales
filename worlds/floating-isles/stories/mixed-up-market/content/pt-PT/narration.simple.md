@@ -17,8 +17,8 @@ e os brinquedos trocaram de banca. Ninguém encontra as suas coisas.
 São pequenos magos, e podem pôr isto certo. "Vamos desembaraçar o mercado,"
 dizem ao mesmo tempo.
 
-*Qual é o vosso nome de mago? Que magia escolhes: Luz, Crescer, Transformação ou
-Voz?*
+*Qual é o vosso nome de mago? Que magia escolhes: Luz, Crescer, Transformação, Voz
+ou Flutuar?*
 
 ## Stop 1: As Bancas Baralhadas
 

@@ -9,10 +9,11 @@ paura a lungo, nessuno si fa male, e le buone idee e la gentilezza vincono sempr
 
 - Stampate la mappa. Ogni giocatore mette una piccola pedina sulla Partenza, la casa
   rotonda.
-- In questo mondo non c'è magia. Al suo posto, ogni eroe si appoggia a una di tre
-  qualità: **Immaginazione** (inventare idee), **Coraggio** (un cuore
-  saldo) o **Gentilezza** (prendersi cura degli altri). Sulla scheda dell'eroe, dove
-  dice magia, che ogni bambino scriva la qualità che preferisce. Due qualità diverse
+- In questo mondo non c'è magia. Al suo posto, ogni eroe si appoggia a una o due delle
+  cinque qualità: **Immaginazione** (inventare idee), **Coraggio** (un cuore saldo),
+  **Gentilezza** (prendersi cura degli altri), **Curiosità** (notare ciò che gli altri
+  non vedono) o **Pazienza** (aspettare e riprovare). Sulla scheda dell'eroe, dove dice
+  magia, che ogni bambino scriva la qualità che preferisce. Due qualità diverse
   funzionano meglio insieme.
 - Date a ogni giocatore cinque stelle di energia (cinque gettoni o pezzi piccoli). Si
   spendono e si recuperano durante il gioco.

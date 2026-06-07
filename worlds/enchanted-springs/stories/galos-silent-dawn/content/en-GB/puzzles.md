@@ -14,6 +14,7 @@ not find his voice until the players cheer and care for him.
 - **Riversong** to fetch him a sip of cool spring water and ask the water to soothe
   his throat.
 - **Bloom** to bring a little colour and life back to his drooping perch.
+- **Birdsong** to call to him as one bird to another and coax his own song back out.
 - A plain kind act with no magic: sitting with him, singing softly, or promising
   out loud to clear the traveller's name.
 
@@ -34,7 +35,8 @@ the bell tower.
 **Solution.** The clues add up to a creature that loves shiny things and can reach
 high places, and the glints lead to the top of the **old bell tower**. This is
 observation and logic, not a magic, though **Starlight** can make a faint glint
-easier to spot, and **Riversong** can ask the square what it saw.
+easier to spot, **Riversong** can ask the square what it saw, and **Birdsong** can
+ask the market birds which way the shiny little thief flew.
 
 **Fallback.** If the children are stuck, have a market seller mention "that cheeky
 bird up the tower has had my buttons again," handing them the link. Reaching the
@@ -56,6 +58,8 @@ and is easily startled. The players must befriend her, not snatch the cup.
   she will let you take it.
 - **Starlight** to conjure a glint she finds even more delightful, or **Truth** to
   show her gently that the cup is needed and a swap is fair.
+- **Birdsong** to speak to her in her own jackdaw chatter, so she stays calm and
+  comes out instead of taking fright.
 
 **Fallback.** If the children freeze, have the jackdaw herself nudge a shiny button
 toward them, as if proposing the trade. The instant they offer any kindness or

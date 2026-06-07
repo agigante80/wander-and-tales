@@ -14,6 +14,8 @@ voz hasta que los jugadores lo animen y lo cuiden.
 - **Canto del Río** para traerle un sorbo de agua fresca de manantial y pedirle al
   agua que le calme la garganta.
 - **Floración** para devolver un poco de color y vida a su percha caída.
+- **Canto de los Pájaros** para llamarlo de pájaro a pájaro y animar a su propio
+  canto a salir de nuevo.
 - Un acto sencillo de amabilidad sin magia: sentarse con él, cantarle bajito o
   prometer en voz alta que limpiaréis el nombre del viajero.
 
@@ -34,8 +36,9 @@ a la torre) hacia arriba, hasta la torre del campanario.
 **Solución.** Las pistas suman una criatura a la que le encantan las cosas
 brillantes y puede llegar a sitios altos, y los brillos llevan a lo alto de la
 **vieja torre del campanario**. Esto es observación y lógica, no una magia, aunque
-la **Luz de Estrella** puede hacer más fácil ver un brillo tenue, y el **Canto del
-Río** puede preguntarle a la plaza qué vio.
+la **Luz de Estrella** puede hacer más fácil ver un brillo tenue, el **Canto del
+Río** puede preguntarle a la plaza qué vio, y el **Canto de los Pájaros** puede
+preguntar a los pájaros del mercado por dónde voló el pequeño ladrón brillante.
 
 **Apoyo.** Si los niños se atascan, haced que un vendedor del mercado mencione "ese
 pájaro travieso de la torre ha vuelto a llevarse mis botones", dándoles el enlace.
@@ -60,6 +63,8 @@ arrebatarle la copa.
 - **Luz de Estrella** para conjurar un brillo que le resulte aún más delicioso, o
   **Verdad** para mostrarle con dulzura que la copa hace falta y que el cambio es
   justo.
+- **Canto de los Pájaros** para hablarle en su propio parloteo de grajilla, para
+  que se quede tranquila y salga en lugar de asustarse.
 
 **Apoyo.** Si los niños se quedan parados, haced que la propia grajilla empuje un
 botón brillante hacia ellos, como proponiendo el cambio. En cuanto ofrecen cualquier

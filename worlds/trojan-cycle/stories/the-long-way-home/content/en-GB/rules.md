@@ -10,9 +10,10 @@ time, and no one is ever truly hurt.
 
 - Print the map. Each player puts a small figure on the Start, the Ship Camp on the
   shores of Troy.
-- This world has no magic. Instead each hero leans on one of three qualities:
-  **Imagination** (dreaming up ideas), **Courage** (a steady heart on a wide
-  sea), or **Loyalty** (keeping faith with a friend). On the hero sheet, where it
+- This world has no magic. Instead each hero leans on one or two of the five
+  qualities: **Imagination** (dreaming up ideas), **Courage** (a steady heart on a
+  wide sea), **Loyalty** (keeping faith with a friend), **Cleverness** (a clever,
+  kind idea), or **Patience** (waiting and trying again). On the hero sheet, where it
   says magic, let each child write the quality they like best. Two different
   qualities work best together.
 - Give each player five energy stars (five small tokens or bricks). They are spent

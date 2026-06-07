@@ -18,7 +18,7 @@ serpenteia. "Vamos trazer a festa de volta," dizem, e a praça escura espera por
 lá em baixo.
 
 *Qual é o vosso nome de mago? Que magia te parece mais a tua esta noite: Luz,
-Crescer, Transformação ou Voz?*
+Crescer, Transformação, Voz ou Flutuar?*
 
 ## Stop 1: A Praça Escura
 

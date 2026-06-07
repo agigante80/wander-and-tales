@@ -84,7 +84,7 @@ Colinas Soalheiras", "um herói das Ilhas Flutuantes". A seguir dão ao herói t
 **forças** (ou, num mundo de magia, três **magias**), desenham um desenho rápido, e fazem
 a lista das poucas coisas que levam consigo.
 
-Três forças chegam bem, e não há escolha errada. Uma força é só uma maneira de este herói
+Uma ou duas forças chegam bem, e não há escolha errada. Uma força é só uma maneira de este herói
 gostar de ajudar, e "o que ela faz" é uma linha curta nas palavras da própria criança.
 Sugere algumas e deixa-os inventar as suas:
 
@@ -144,7 +144,7 @@ Começa pela promessa, criem um herói cada, depois começa.
   ninguém perde. Estamos todos do mesmo lado, e se alguma coisa não resultar, encontramos
   outra maneira." Essa única frase liberta uma criança para ser ousada.
 - **Criem um herói cada.** Distribui as folhas de aventura e criem os vossos heróis juntos,
-  tu incluído. Deixa-os escolher um nome e três magias ou forças, e desenhar o seu desenho.
+  tu incluído. Deixa-os escolher um nome e uma ou duas magias ou forças, e desenhar o seu desenho.
   Os heróis de exemplo estão lá se alguém quiser um modelo.
 - **Prepara o cenário.** Lê a abertura da história em voz alta, devagar, e faz a primeira
   pergunta. A partir daí a história leva-vos aos dois pela mão.

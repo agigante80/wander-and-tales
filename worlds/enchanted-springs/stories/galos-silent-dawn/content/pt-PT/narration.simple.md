@@ -15,8 +15,8 @@ nunca roubaria.
 
 Vocês pegam no saco. "Vamos ajudar", dizem. "Vamos descobrir a verdade."
 
-*Qual é o teu nome de herói? Que magias escolhes: Floração, Verdade, Luz de Estrela ou
-Canto do Rio?*
+*Qual é o teu nome de herói? Que magias escolhes, uma ou duas: Floração, Verdade, Luz de Estrela,
+Canto do Rio ou Canto dos Pássaros?*
 
 ## Paragem 1: O Poleiro Silencioso
 

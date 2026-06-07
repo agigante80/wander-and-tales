@@ -17,7 +17,7 @@ cometa. La fruta y los juguetes han cambiado de puesto. Nadie encuentra sus cosa
 Sois pequeños magos, y podéis arreglar esto. "Vamos a desenredar el mercado",
 decís a la vez.
 
-*¿Cuál es vuestro nombre de mago? ¿Qué magia elegís: Luz, Crecer, Cambio o Voz?*
+*¿Cuál es vuestro nombre de mago? ¿Qué magia elegís: Luz, Crecer, Cambio, Voz o Flotar?*
 
 ## Parada 1: Los Puestos Revueltos
 

@@ -13,9 +13,10 @@ tirada fallida nunca es una derrota; nadie pierde.
 
 - Imprimid el mapa. Cada jugador pone una figura pequeña en la Salida, El Pueblo de
   los Faroles.
-- En este mundo no hay magia. En su lugar, cada héroe se apoya en una de tres
+- En este mundo no hay magia. En su lugar, cada héroe se apoya en una o dos de las cinco
   cualidades: **Imaginación** (inventar ideas), **Valor** (un corazón
-  firme) o **Bondad** (cuidar de los demás). En la ficha de héroe, donde dice magia,
+  firme), **Bondad** (cuidar de los demás), **Paciencia** (esperar y volver a intentarlo)
+  o **Curiosidad** (fijarse en lo que otros no ven). En la ficha de héroe, donde dice magia,
   que cada niño escriba la cualidad que más le guste. Dos cualidades distintas
   funcionan mejor juntas.
 - Dad a cada jugador cinco estrellas de energía (cinco fichas o piezas pequeñas). Se

@@ -12,9 +12,10 @@ jogada falhada nunca é uma derrota; ninguém perde.
 
 - Imprime o mapa. Cada jogador põe uma figurinha no Início, o mercado da Aldeia das
   Lanternas.
-- Este mundo não tem magia. Em vez disso, cada herói apoia-se numa de três qualidades:
-  **Imaginação** (inventar ideias), **Coragem** (um coração firme) ou **Bondade** (cuidar
-  dos outros). Na ficha do herói, onde diz magia, deixa cada criança escrever a qualidade
+- Este mundo não tem magia. Em vez disso, cada herói apoia-se numa ou duas das cinco qualidades:
+  **Imaginação** (inventar ideias), **Coragem** (um coração firme), **Bondade** (cuidar
+  dos outros), **Paciência** (esperar e tentar de novo) ou **Curiosidade** (reparar no que
+  os outros não veem). Na ficha do herói, onde diz magia, deixa cada criança escrever a qualidade
   de que mais gosta. Duas qualidades diferentes funcionam melhor juntas.
 - Dá a cada jogador cinco estrelas de energia (cinco fichas ou peças pequenas). São
   gastas e recuperadas durante o jogo.

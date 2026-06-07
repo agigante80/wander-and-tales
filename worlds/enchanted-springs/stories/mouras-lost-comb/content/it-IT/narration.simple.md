@@ -16,8 +16,8 @@ qualcosa. Andate a vedere?"
 Prendete la vostra borsa. Vi guardate e fate cenno di sì. Il sentiero sale a
 serpeggiare tra le colline verdi.
 
-*Qual è il vostro nome da eroi? Quali magie scegliete: Fioritura, Verità, Luce di
-Stella o Canto del Fiume?*
+*Qual è il vostro nome da eroi? Quali magie scegliete, una o due: Fioritura, Verità, Luce di
+Stella, Canto del Fiume o Canto degli Uccelli?*
 
 ## Tappa 1: La Sorgente Silenziosa
 

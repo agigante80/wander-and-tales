@@ -13,7 +13,7 @@ The lanterns have floated away.
 You are little mages. You pick up your bag. You look at each other. "Let us bring
 the lights back," you say together. The path to the square is waiting.
 
-*What is your mage name? Which magic do you choose: Light, Grow, Change, or Voice?*
+*What is your mage name? Which magic do you choose: Light, Grow, Change, Voice, or Float?*
 
 ## Stop 1: The Dim Square
 

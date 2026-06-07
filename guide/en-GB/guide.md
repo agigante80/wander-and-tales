@@ -85,7 +85,7 @@ Sunlit Hills", "a hero of the Floating Isles". Then they give the hero three
 **strengths** (or, in a magic world, three **magics**), draw a quick picture, and list
 the few things they carry.
 
-Three strengths is plenty, and there is no wrong choice. A strength is just a way this
+One or two strengths is plenty, and there is no wrong choice. A strength is just a way this
 hero likes to help, and "what it does" is one short line in the child's own words. Offer
 a few and let them invent their own:
 
@@ -145,7 +145,7 @@ Open with the promise, build a hero each, then begin.
   game nobody loses. We are all on the same side, and if something does not work, we
   just find another way." That single sentence frees a child to be bold.
 - **Build a hero each.** Hand out the adventure sheets and make your heroes together,
-  you included. Let them pick a name and three magics or strengths, and draw their
+  you included. Let them pick a name and one or two magics or strengths, and draw their
   picture. The example heroes are there if anyone wants a model.
 - **Set the scene.** Read the opening of the story aloud, slowly, and ask the first
   question. From there the story carries you both along.

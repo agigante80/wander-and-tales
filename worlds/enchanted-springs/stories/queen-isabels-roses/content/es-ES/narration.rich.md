@@ -21,8 +21,8 @@ como lo haría yo, sin pedir nada a cambio."
 Prometisteis que lo haríais, y bajasteis hacia la ciudad que despertaba, con las
 campanas del castillo tañendo con suavidad a vuestra espalda.
 
-*¿Cómo os llamáis, héroes? ¿Qué tres magias llevaréis: Floración, Verdad, Luz de
-Estrella o Canto del Río?*
+*¿Cómo os llamáis, héroes? ¿Qué magias llevaréis, una o dos: Floración, Verdad, Luz de
+Estrella, Canto del Río o Canto de los Pájaros?*
 
 ## Parada 1: La Cocina del Castillo
 

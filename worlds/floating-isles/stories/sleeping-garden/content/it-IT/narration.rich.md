@@ -19,8 +19,8 @@ borsa in spalla, vi guardate, e senza quasi accorgervene dite le stesse parole
 nello stesso istante: "Andiamo a svegliarlo." Sotto di voi, il sentiero dorato si
 snoda verso il silenzio.
 
-*Scegliete il vostro nome da mago e la vostra magia, Luce, Crescita, Cambiamento
-o Voce, prima di fare il primo passo.*
+*Scegliete il vostro nome da mago e la vostra magia, Luce, Crescita, Cambiamento,
+Voce o Fluttuare, prima di fare il primo passo.*
 
 ## Tappa 1: Il Cancello di Rampicanti
 

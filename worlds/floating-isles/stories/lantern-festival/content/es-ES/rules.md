@@ -9,7 +9,7 @@ esta aventura. Una tirada fallida nunca es una derrota; nadie pierde.
 - En esta no hace falta imprimir mapa. Imaginad el viaje desde la Plaza de los
   Faroles hasta las nubes, o colocad tres puntos pequeños que sean las tres
   paradas.
-- Cada jugador elige una magia: Luz, Crecer, Cambio o Voz. Lo mejor es elegir dos
+- Cada jugador elige una magia: Luz, Crecer, Cambio, Voz o Flotar. Lo mejor es elegir dos
   magias distintas, porque combinarlas es la mitad de la diversión.
 - Dad a cada jugador cinco estrellas de energía (cinco fichas o piezas pequeñas).
   Se gastan y se recuperan durante el juego.

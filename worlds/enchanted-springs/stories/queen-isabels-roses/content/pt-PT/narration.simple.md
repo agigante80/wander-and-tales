@@ -15,8 +15,8 @@ faria."
 Vocês pegam no saco. "Levamos", dizem. A cidade está a acordar lá em baixo, ao pé do
 castelo.
 
-*Qual é o teu nome de herói? Que magias escolhes: Floração, Verdade, Luz de Estrela ou
-Canto do Rio?*
+*Qual é o teu nome de herói? Que magias escolhes, uma ou duas: Floração, Verdade, Luz de Estrela,
+Canto do Rio ou Canto dos Pássaros?*
 
 ## Paragem 1: A Cozinha do Castelo
 

@@ -20,8 +20,8 @@ Vocês puseram o saco ao ombro, olharam uns para os outros e partiram. O caminho
 serpentear para fora da praça e para o frescor das colinas verdes, e quanto mais subiam,
 mais silencioso ficava o mundo.
 
-*Qual é o teu nome de herói? Que três magias vais levar: Floração, Verdade, Luz de Estrela
-ou Canto do Rio?*
+*Qual é o teu nome de herói? Que magias vais levar, uma ou duas: Floração, Verdade, Luz de Estrela,
+Canto do Rio ou Canto dos Pássaros?*
 
 ## Paragem 1: A Fonte Silenciosa
 

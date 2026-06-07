@@ -10,11 +10,12 @@ héroes ganan poniendo fin a la riña con una sorpresa amable.
 
 - Imprimid el mapa. Cada jugador pone una figura pequeña en la Salida, El Campamento
   de las Naves en la playa.
-- En este mundo no hay magia. En su lugar, cada héroe se apoya en una de tres
-  cualidades: **Imaginación** (inventar ideas), **Valor** (un corazón firme) o **Lealtad**
-  (mantenerse fiel a un amigo). En la ficha de héroe, donde dice magia, que cada niño
-  escriba la cualidad que más le guste. Dos cualidades distintas funcionan mejor
-  juntas.
+- En este mundo no hay magia. En su lugar, cada héroe se apoya en una o dos de las
+  cinco cualidades: **Imaginación** (inventar ideas), **Valor** (un corazón firme),
+  **Lealtad** (mantenerse fiel a un amigo), **Astucia** (una idea lista y amable) o
+  **Paciencia** (esperar y volver a intentarlo). En la ficha de héroe, donde dice
+  magia, que cada niño escriba la cualidad que más le guste. Dos cualidades distintas
+  funcionan mejor juntas.
 - Dad a cada jugador cinco estrellas de energía (cinco fichas o piezas pequeñas). Se
   gastan y se recuperan durante el juego.
 - Sacad tres objetos si podéis: un ovillo de cuerda para El Hilo de Penélope, unas

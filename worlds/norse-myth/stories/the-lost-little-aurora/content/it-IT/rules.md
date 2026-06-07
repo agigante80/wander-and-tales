@@ -12,9 +12,10 @@ sempre, e nessuno si fa mai male davvero.
 
 - Stampate la mappa. Ogni giocatore mette una piccola pedina sulla Partenza, La Sala
   del Focolare.
-- In questo mondo non c'è magia. Al suo posto, ogni eroe si appoggia a una di tre
-  qualità: **Immaginazione** (inventare idee), **Coraggio** (un cuore saldo) o **Cuore**
-  (prendersi cura degli altri). Sulla scheda dell'eroe, dove dice magia, che ogni
+- In questo mondo non c'è magia. Al suo posto, ogni eroe si appoggia a una o due delle cinque
+  qualità: **Immaginazione** (inventare idee), **Coraggio** (un cuore saldo), **Cuore**
+  (prendersi cura degli altri), **Pazienza** (aspettare e riprovare) o **Gentilezza**
+  (una mano calorosa e gentile). Sulla scheda dell'eroe, dove dice magia, che ogni
   bambino scriva la qualità che preferisce. Due qualità diverse funzionano meglio
   insieme.
 - Date a ogni giocatore cinque stelle di energia (cinque gettoni o pezzi piccoli). Si

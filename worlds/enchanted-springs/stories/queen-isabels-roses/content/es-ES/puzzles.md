@@ -34,8 +34,10 @@ más el pan, y darlo para que nadie se sienta avergonzado.
 esperando, un niño pálido en una ventana vacía. Los jugadores leen estas señales de
 necesidad y dejan pan con discreción en esas puertas, con una palabra amable y sin
 alboroto. Esto es observación y empatía, no una magia, aunque la **Luz de Estrella**
-puede iluminar un portal oscuro y la **Floración** puede dejar una pequeña flor como
-regalo amable junto a la hogaza, para que nadie pase apuro.
+puede iluminar un portal oscuro, la **Floración** puede dejar una pequeña flor como
+regalo amable junto a la hogaza, para que nadie pase apuro, y el **Canto de los
+Pájaros** puede enviar a un pajarillo por delante a encontrar la puerta callada donde
+alguien espera con hambre.
 
 **Apoyo.** Si los niños dudan, haced que un vecino murmure qué casa no ha tenido pan
 esta semana. Elegir con bondad, incluso con una pista, es un éxito completo y rellena

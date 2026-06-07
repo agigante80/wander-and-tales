@@ -12,9 +12,10 @@ siempre, y nadie sale herido de verdad.
 
 - Imprimid el mapa. Cada jugador pone una figura pequeña en la Salida, El Salón del
   Hogar.
-- En este mundo no hay magia. En su lugar, cada héroe se apoya en una de tres
-  cualidades: **Imaginación** (inventar ideas), **Valor** (un corazón firme) o
-  **Corazón** (cuidar de los demás). En la ficha de héroe, donde dice magia, que
+- En este mundo no hay magia. En su lugar, cada héroe se apoya en una o dos de las cinco
+  cualidades: **Imaginación** (inventar ideas), **Valor** (un corazón firme),
+  **Corazón** (cuidar de los demás), **Paciencia** (esperar y volver a intentarlo) o
+  **Bondad** (una mano cálida y amiga). En la ficha de héroe, donde dice magia, que
   cada niño escriba la cualidad que más le guste. Dos cualidades distintas funcionan
   mejor juntas.
 - Dad a cada jugador cinco estrellas de energía (cinco fichas o piezas pequeñas). Se

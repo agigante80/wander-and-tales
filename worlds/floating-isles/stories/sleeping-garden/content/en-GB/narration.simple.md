@@ -13,8 +13,8 @@ sound.
 You are two little mages. You pick up your bag. You look at each other. "Let us
 go and wake it up," you say together. The golden path is waiting.
 
-*What is your mage name? Which magic do you choose: Light, Grow, Change, or
-Voice?*
+*What is your mage name? Which magic do you choose: Light, Grow, Change, Voice, or
+Float?*
 
 ## Stop 1: The Vine Gate
 

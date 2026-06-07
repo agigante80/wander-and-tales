@@ -8,7 +8,7 @@ nesta aventura. Uma jogada falhada nunca é uma derrota; ninguém perde.
 
 - Não precisas de mapa impresso para esta. Imaginem a viagem da Praça das Lanternas
   até às nuvens, ou disponham três pontos pequenos para serem as três paragens.
-- Cada jogador escolhe uma magia: Luz, Crescer, Transformação ou Voz. Duas magias
+- Cada jogador escolhe uma magia: Luz, Crescer, Transformação, Voz ou Flutuar. Duas magias
   diferentes resultam melhor, porque combiná-las é metade da diversão.
 - Dá a cada jogador cinco estrelas de energia (cinco fichas ou peças pequenas).
   Gastam-se e voltam a encher-se durante o jogo.

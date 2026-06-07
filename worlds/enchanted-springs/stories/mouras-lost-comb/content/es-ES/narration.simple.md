@@ -14,8 +14,8 @@ Encantada, allá arriba en las colinas. Algo ha ido mal ahí arriba. ¿Subiréis
 Cogéis vuestra bolsa. Os miráis y asentís. El camino sube serpenteando hacia las
 colinas verdes.
 
-*¿Cuál es vuestro nombre de héroe? ¿Qué magias elegís: Floración, Verdad, Luz de
-Estrella o Canto del Río?*
+*¿Cuál es vuestro nombre de héroe? ¿Qué magias elegís, una o dos: Floración, Verdad, Luz de
+Estrella, Canto del Río o Canto de los Pájaros?*
 
 ## Parada 1: La Fuente Callada
 

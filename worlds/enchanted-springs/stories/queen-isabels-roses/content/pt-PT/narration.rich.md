@@ -20,8 +20,8 @@ pedir nada em troca."
 Vocês prometeram que sim, e desceram em direção à cidade que acordava, com os sinos do
 castelo a repicar com doçura atrás de vocês.
 
-*Qual é o teu nome de herói? Que três magias vais levar: Floração, Verdade, Luz de Estrela ou
-Canto do Rio?*
+*Qual é o teu nome de herói? Que magias vais levar, uma ou duas: Floração, Verdade, Luz de Estrela,
+Canto do Rio ou Canto dos Pássaros?*
 
 ## Paragem 1: A Cozinha do Castelo
 

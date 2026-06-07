@@ -60,7 +60,9 @@ justa.
   simplesmente joguem com generosidade, e ele entrega o pente pelo prazer da brincadeira.
 - A **Verdade** pode mostrar-lhe com doçura que o pente pertence à Moura e a aldeia precisa
   dele, e que um amigo vale mais do que um tesouro. A **Floração** pode iluminar o seu
-  cantinho solitário para ele se sentir menos sozinho.
+  cantinho solitário para ele se sentir menos sozinho. O **Canto dos Pássaros** pode encher
+  esse cantinho de pássaros e de cantoria, para o Trasgo solitário espreitar cá fora a ouvir
+  e juntar-se de boa vontade.
 
 **Alternativa.** Se as crianças bloquearem, faz o Trasgo propor o jogo ele próprio ("Troco-o
 por uma boa adivinha. Têm alguma?") para haver uma porta óbvia por onde entrar. Assim que

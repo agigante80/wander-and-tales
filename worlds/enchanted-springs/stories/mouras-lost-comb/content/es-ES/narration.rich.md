@@ -21,8 +21,8 @@ Os echasteis la bolsa al hombro, os mirasteis y os pusisteis en marcha. El camin
 serpenteando desde la plaza hacia las colinas verdes y frescas, y cuanto más subíais
 más callado se volvía el mundo.
 
-*¿Cuál es vuestro nombre de héroe? ¿Qué tres magias llevaréis: Floración, Verdad, Luz
-de Estrella o Canto del Río?*
+*¿Cuál es vuestro nombre de héroe? ¿Qué magias llevaréis, una o dos: Floración, Verdad, Luz
+de Estrella, Canto del Río o Canto de los Pájaros?*
 
 ## Parada 1: La Fuente Callada
 

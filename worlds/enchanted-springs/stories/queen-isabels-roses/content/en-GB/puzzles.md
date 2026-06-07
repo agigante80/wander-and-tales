@@ -32,8 +32,9 @@ bread, and give it so nobody feels ashamed.
 waiting, a pale child at a bare window. The players read these signs of need and
 leave bread quietly at those doors, with a kind word and no fuss. This is
 observation and empathy, not a magic, though **Starlight** can light a dim
-doorway and **Bloom** can leave a small flower as a gentle, face-saving gift
-beside the loaf.
+doorway, **Bloom** can leave a small flower as a gentle, face-saving gift
+beside the loaf, and **Birdsong** can send a little bird ahead to find the
+quiet door where someone waits hungry.
 
 **Fallback.** If the children are unsure, have a neighbour murmur which house has
 had no bread this week. Choosing kindly, even with a hint, is a full success and

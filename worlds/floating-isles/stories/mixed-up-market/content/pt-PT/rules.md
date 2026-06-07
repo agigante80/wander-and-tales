@@ -8,7 +8,7 @@ nesta aventura. Uma jogada falhada nunca é uma derrota; ninguém perde.
 
 - Não precisas de mapa impresso para esta. Imaginem a Rua do Mercado, ou disponham
   alguns objetos de casa para serem as bancas e as suas mercadorias.
-- Cada jogador escolhe uma magia: Luz, Crescer, Transformação ou Voz. Duas magias
+- Cada jogador escolhe uma magia: Luz, Crescer, Transformação, Voz ou Flutuar. Duas magias
   diferentes resultam melhor, porque combiná-las é metade da diversão. (A Voz é
   especialmente útil aqui, mas cada magia tem o seu lugar.)
 - Dá a cada jogador cinco estrelas de energia (cinco fichas ou peças pequenas).

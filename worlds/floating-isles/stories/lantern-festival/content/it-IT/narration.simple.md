@@ -14,8 +14,8 @@ grigia e silenziosa. Le lanterne sono volate via.
 Siete piccoli maghi. Prendete la vostra borsa. Vi guardate. "Riportiamo le luci",
 dite insieme. Il sentiero verso la piazza vi aspetta.
 
-*Qual è il vostro nome da mago? Quale magia scegliete: Luce, Crescita, Cambiamento
-o Voce?*
+*Qual è il vostro nome da mago? Quale magia scegliete: Luce, Crescita, Cambiamento,
+Voce o Fluttuare?*
 
 ## Tappa 1: La Piazza Spenta
 

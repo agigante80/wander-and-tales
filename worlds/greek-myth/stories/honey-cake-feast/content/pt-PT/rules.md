@@ -12,11 +12,12 @@ Uma jogada falhada nunca é uma derrota; ninguém perde.
 
 - Imprime o mapa. Cada jogador põe uma pequena figura na Partida, a Vila das
   Oliveiras.
-- Este mundo não tem magia. Em vez disso, cada herói apoia-se numa de três
-  qualidades: **Imaginação** (sonhar ideias), **Coragem** (um coração firme) ou
-  **Coração** (cuidar dos outros). Na ficha do herói, onde diz força, deixa cada
-  criança escrever a qualidade de que mais gosta. Duas qualidades diferentes
-  funcionam melhor juntas.
+- Este mundo não tem magia. Em vez disso, cada herói apoia-se numa ou duas das cinco
+  qualidades: **Imaginação** (sonhar ideias), **Coragem** (um coração firme),
+  **Coração** (cuidar dos outros), **Curiosidade** (reparar no que os outros não veem)
+  ou **Astúcia** (uma ideia astuta e gentil). Na ficha do herói, onde diz força,
+  deixa cada criança escrever a qualidade de que mais gosta. Duas qualidades
+  diferentes funcionam melhor juntas.
 - Dá a cada jogador cinco estrelas de energia (cinco pequenas fichas ou peças). São
   gastas e repostas durante o jogo.
 - Prepara um adereço ou dois, se puderes: um frasco ou copo vazio para o mel, uns

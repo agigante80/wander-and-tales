@@ -15,8 +15,8 @@ go and see?"
 You pick up your bag. You look at each other and nod. The path winds up into the
 green hills.
 
-*What is your hero name? Which magics do you choose: Bloom, Truth, Starlight, or
-Riversong?*
+*What is your hero name? Which one or two magics do you choose: Bloom, Truth, Starlight,
+Riversong, or Birdsong?*
 
 ## Stop 1: The Quiet Spring
 

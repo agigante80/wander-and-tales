@@ -13,7 +13,7 @@ no hace ningún ruido.
 Sois dos pequeños magos. Cogéis vuestra mochila. Os miráis. "Vamos a
 despertarlo", decís a la vez. El camino dorado os espera.
 
-*¿Cuál es vuestro nombre de mago? ¿Qué magia elegís: Luz, Crecer, Cambio o Voz?*
+*¿Cuál es vuestro nombre de mago? ¿Qué magia elegís: Luz, Crecer, Cambio, Voz o Flotar?*
 
 ## Parada 1: La Puerta de Enredaderas
 

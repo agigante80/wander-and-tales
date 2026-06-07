@@ -25,8 +25,8 @@ Mirasteis al gallo silencioso, y al forastero apenado, y supisteis que los dos
 problemas eran en realidad uno solo. "Vamos a encontrar la verdad", dijisteis, y os
 echasteis la bolsa al hombro.
 
-*¿Cómo os llamáis, héroes? ¿Qué tres magias llevaréis: Floración, Verdad, Luz de
-Estrella o Canto del Río?*
+*¿Cómo os llamáis, héroes? ¿Qué magias llevaréis, una o dos: Floración, Verdad, Luz de
+Estrella, Canto del Río o Canto de los Pájaros?*
 
 ## Parada 1: El Gallinero Silencioso
 

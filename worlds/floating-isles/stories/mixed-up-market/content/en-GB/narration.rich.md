@@ -21,7 +21,7 @@ learning to mend. You share a quick look and roll up your sleeves. "Let us untan
 the market," you say, and the muddle waits for you.
 
 *What is your mage name? Which magic feels most like you today: Light, Grow, Change,
-or Voice?*
+Voice, or Float?*
 
 ## Stop 1: The Muddled Stalls
 

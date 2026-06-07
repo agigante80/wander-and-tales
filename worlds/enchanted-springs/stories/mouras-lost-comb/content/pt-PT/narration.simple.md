@@ -14,8 +14,8 @@ Encantada, lá nas colinas. Alguma coisa correu mal lá em cima. Querem ir ver?"
 Vocês pegam no saco. Olham uns para os outros e acenam que sim. O caminho sobe a
 serpentear pelas colinas verdes.
 
-*Qual é o teu nome de herói? Que magias escolhes: Floração, Verdade, Luz de Estrela ou
-Canto do Rio?*
+*Qual é o teu nome de herói? Que magias escolhes, uma ou duas: Floração, Verdade, Luz de Estrela,
+Canto do Rio ou Canto dos Pássaros?*
 
 ## Paragem 1: A Fonte Silenciosa
 

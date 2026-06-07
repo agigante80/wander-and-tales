@@ -60,7 +60,8 @@ justo.
   o simplemente seguidle el juego con generosidad, y os entrega el peine por puro gusto.
 - **Verdad** puede mostrarle con dulzura que el peine es de la Moura y que el pueblo lo
   necesita, y que un amigo es mejor que un tesoro. **Floración** puede alegrar su rincón
-  solitario para que se sienta menos solo.
+  solitario para que se sienta menos solo. **Canto de los Pájaros** puede llenar ese rincón
+  de pájaros y de canto para que el Trasgo, tan solo, salga a escuchar y se anime a unirse.
 
 **Apoyo.** Si los niños se bloquean, haz que el Trasgo proponga el juego él mismo ("Lo cambio
 por una buena adivinanza. ¿Tenéis alguna?") para que haya una puerta clara que cruzar. En

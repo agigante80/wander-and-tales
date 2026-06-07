@@ -13,8 +13,8 @@ cinzenta e calada. As lanternas voaram para longe.
 São pequenos magos. Pegam no vosso saco. Olham um para o outro. "Vamos trazer as
 luzes de volta," dizem ao mesmo tempo. O caminho para a praça está à espera.
 
-*Qual é o vosso nome de mago? Que magia escolhes: Luz, Crescer, Transformação ou
-Voz?*
+*Qual é o vosso nome de mago? Que magia escolhes: Luz, Crescer, Transformação, Voz
+ou Flutuar?*
 
 ## Stop 1: A Praça Escura
 
