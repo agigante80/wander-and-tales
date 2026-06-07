@@ -103,10 +103,12 @@ find and replace. Use this table:
 **Pronoun and possessive.** "vós" becomes "vocês". The possessives "vosso" and
 "vossa" **may stay**, and the clitic "-vos" is natural ("a vossa magia",
 "deixa-vos atravessar" = lets you all cross), so keep them where they read well.
-This is accepted, dominant usage in Portugal (it avoids the ambiguity of "seu"),
-but it is a contested area: some grammarians prescribe "seu/sua" and "os/as/lhes"
-with "vocês". For warm kid prose the natural "vosso" and "-vos" win; just do not
-mistake the kept "-vos" clitic for a "vós" verb form you should be converting.
+This is the natural, dominant usage in Portugal (it avoids the ambiguity of
+"seu"), and a native review confirmed it for this project: "a vossa magia" and
+"deixa-vos" are right, not "a magia de vocês" or "deixa vocês". (Some grammars
+still prescribe "seu/sua" and "os/as/lhes" with "vocês", but for warm kid prose
+the natural "vosso" and "-vos" win.) Just do not mistake the kept "-vos" clitic
+for a "vós" verb form you should be converting.
 
 ## 2. Gerund versus "a + infinitivo" (Brazilianism)
 
@@ -155,19 +157,19 @@ hear: "vou dar-te", "ia encontrar-se".
 | bus | autocarro | ónibus |
 | train | comboio | trem |
 | tram | elétrico | bonde |
-| bathroom | casa de banho | banheiro |
+| bathroom | casa de banho, quarto de banho | banheiro |
 | fridge | frigorífico | geladeira |
 | juice | sumo | suco |
 | cup | chávena | xícara |
 | breakfast | pequeno-almoço | café da manhã |
-| boy / kid | rapaz, miúdo | garoto, moleque |
+| boy / kid | rapaz, miúdo, menino | garoto, moleque |
 | to grab, catch | apanhar | pegar |
 | team | equipa | equipe |
 | sticker | autocolante | adesivo |
 | to plan | planear | planejar |
 | cool, great | fixe, giro | legal, bacana |
 | wildcard, master key | chave-mestra | coringa |
-| girl | rapariga, miúda | garota |
+| girl | rapariga, menina, miúda | garota |
 | ice cream | gelado | sorvete |
 | sweet (candy) | rebuçado | bala |
 | trainers | sapatilhas, ténis | tênis |
@@ -178,10 +180,12 @@ Also: "nós" not "a gente" for "we" (note "toda a gente" meaning everyone is
 correct pt-PT). "para eu fazer" not "para mim fazer". Movement takes "a" or
 "para": "vou ao parque", never "vou no parque".
 
-"Rapariga" is the everyday Portugal word for a girl; keep it, and do not let a
-Brazilian ear "correct" it to "menina" or "garota" (in Brazil "rapariga" is
-offensive, but in Portugal it is neutral and normal). "Berlinde" (a marble) is
-worth knowing because these kits are played with household objects.
+"Rapariga" is the everyday Portugal word for a girl, and "menina" is just as
+natural (choose by sentence and register); likewise "miúdo" and "menino" both work
+for a child. Keep "rapariga": in Brazil it is offensive, but in Portugal it is
+neutral and normal, so the only word to avoid here is the Brazilian "garota".
+"Berlinde" (a marble) is worth knowing because these kits are played with
+household objects.
 
 ## 5. Spelling (Acordo Ortográfico 1990)
 
