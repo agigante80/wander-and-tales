@@ -45,9 +45,13 @@ scan "anglicisms: use the Italian word" \
   '(?i)\b(game|team|level|player|score|cool|okay|ok)\b'
 scan "po misspelling: write \"po'\" with an apostrophe, never the accented form" \
   '\bpò\b'
+scan "accent error: closed-e words take the acute (perché, né, sé), not the grave" \
+  '(?i)\b(perchè|affinchè|poichè|finchè|benchè|purchè|nè|sè)\b'
+scan "apostrophe error: qual è and un altro (m) take no apostrophe" \
+  '(?i)(\bqual[\x27\x{2019}]|\bun[\x27\x{2019}]altro\b)'
 scan "em/en dash: use comma, colon or parentheses" '[\x{2013}\x{2014}]'
 scan "no-lose tone (sconfitta/fallimento/perdere): use \"un'altra strada\"" \
-  '(?i)\b(sconfitt\w+|falliment\w+|perdere|perdi|perde|perso|perdete)\b'
+  '(?i)\b(sconfitt\w+|falliment\w+|perd(ere|i|e|ono|iamo|ete)|pers[oaie])\b'
 
 printf '\n%s candidate line(s). These are candidates, not auto-fixes:\n' "$total"
 echo "read each in context and apply .claude/skills/it-it-quality/references/it-it-guide.md."

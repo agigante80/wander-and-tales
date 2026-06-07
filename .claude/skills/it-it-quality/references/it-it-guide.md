@@ -41,13 +41,18 @@ a family game it reads cold and bureaucratic. Always use "tu" or "voi".
 This is the heart of good Italian here. Write the way a kind grown-up actually
 speaks to a child, not the way a grammar book does.
 
-- Reach for warm, everyday words: "coccole", "dolcezza", "tenero", "morbido",
-  "gentile", "abbraccio", "piano piano", "che bello!", "dai!", "forza!", "su!".
+- Reach for warm, everyday words and the little names a parent uses: "coccole",
+  "dolcezza", "tenero", "morbido", "gentile", "abbraccio", "tesoro", "amore",
+  "cucciolo", "piccolino", "piano piano", "che bello!", "dai!", "forza!",
+  "coraggio!", "su!".
 - Prefer natural phrasing over stiff constructions. "Dai, proviamo insieme!" not
   "Tentiamo di procedere congiuntamente." "Che bello, ce l'avete fatta!" not
   "Avete completato l'obiettivo con successo."
 - Keep sentences light and spoken. Contractions and elisions where natural:
   "c'è", "un'amica", "dell'acqua", "po'" (with the apostrophe, not "pò").
+- The euphonic "d" ("ed", "ad") now mainly goes before the same vowel ("ed ecco",
+  "ad andare"); before a different vowel, plain "e" and "a" sound more natural
+  ("e ora", "a una"), not "ed ora" or "ad una".
 - It is fine to be cosy and a little playful. The voice is a parent at bedtime,
   not a narrator reading an instruction manual.
 
@@ -79,6 +84,18 @@ are real words), so they are a judgment-pass job:
 
 Also: "po'" (a little) takes an apostrophe, never an accent ("pò" is wrong).
 
+**The three most common Italian spelling errors, get these right:**
+
+- **Acute accent on closed-e words.** "perché" takes the acute accent (é), never
+  the grave "perchè" (which does not exist). The same closed-e acute goes on
+  "affinché", "poiché", "finché", "benché", "purché", "né", "sé", "ché". Only the
+  open-e words take the grave: "è", "cioè", "caffè", "tè".
+- **"qual è" has no apostrophe** (never "qual'è"): "quale" is truncated, not
+  elided, so nothing is dropped before a vowel to mark.
+- **The elision apostrophe is gendered.** Feminine takes it, masculine does not:
+  "un'amica" but "un amico", "un'altra" but "un altro", "nessun'altra" but
+  "nessun altro".
+
 ## 5. Project rules (Wander & Tales)
 
 - **No losing.** Never "sconfitta", "fallimento", or "perdere" as failure. A
@@ -105,7 +122,9 @@ bambino"), not adults in general.
 3. [ ] No anglicisms where Italian has a word (gioco not game, squadra not team)?
 4. [ ] Full accents, and the homograph pairs correct (è/e, dà/da, sì/si, lì/li)?
 5. [ ] "po'" with an apostrophe, "È" not "E'"?
-6. [ ] No em or en dashes; ranges as "da 3 a 5"?
-7. [ ] No-lose tone: no "sconfitta", "fallimento", "perdere" as failure?
-8. [ ] Names match the it-IT canon and lexicon?
-9. [ ] Grown-up claims associational, never causal?
+6. [ ] "perché" with the acute accent (not "perchè"), "qual è" with no apostrophe,
+   "un'amica" but "un amico"?
+7. [ ] No em or en dashes; ranges as "da 3 a 5"?
+8. [ ] No-lose tone: no "sconfitta", "fallimento", "perdere" as failure?
+9. [ ] Names match the it-IT canon and lexicon?
+10. [ ] Grown-up claims associational, never causal?
