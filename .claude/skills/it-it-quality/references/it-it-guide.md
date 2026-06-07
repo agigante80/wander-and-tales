@@ -30,6 +30,12 @@ Write "Entrate nel giardino. Cosa fate?" not "Voi entrate...", and "Come ti
 chiami?" not "Tu come ti chiami?". Use "tu" or "voi" out loud only for emphasis or
 contrast ("Decidete **voi**.").
 
+**The cooperative "noi" is warm and on brand.** Because the grown-up plays along
+as a fellow adventurer (not a referee), the inclusive "we" fits beautifully for
+shared actions: "**Proviamo** insieme!", "**Apriamo** il cancello", "Cosa
+**facciamo** adesso?". A native parent reaches for this naturally. Use it freely
+alongside "voi"; it is often the warmest choice.
+
 ### Never use the formal "Lei" for the players
 
 The polite "Lei" (with 3rd person singular verbs) is for strangers and offices. In
@@ -49,16 +55,18 @@ speaks to a child, not the way a grammar book does.
 
 - Reach for warm, everyday words and the little names a parent uses: "coccole",
   "dolcezza", "tenero", "morbido", "gentile", "abbraccio", "tesoro", "amore",
-  "cucciolo", "piccolino", "piano piano", "che bello!", "dai!", "forza!",
-  "coraggio!", "su!".
+  "piccolo" (native reviewers prefer it to "piccolino"), "campione", "piano piano",
+  "che bello!", "dai!", "forza!", "coraggio!", "su!".
 - Prefer natural phrasing over stiff constructions. "Dai, proviamo insieme!" not
   "Tentiamo di procedere congiuntamente." "Che bello, ce l'avete fatta!" not
   "Avete completato l'obiettivo con successo."
 - Keep sentences light and spoken. Contractions and elisions where natural:
   "c'è", "un'amica", "dell'acqua", "po'" (with the apostrophe, not "pò").
-- The euphonic "d" ("ed", "ad") now mainly goes before the same vowel ("ed ecco",
-  "ad andare"); before a different vowel, plain "e" and "a" sound more natural
-  ("e ora", "a una"), not "ed ora" or "ad una".
+- The euphonic "d" ("ed", "ad") is a matter of ear, not a rule. Native reviewers
+  keep it for euphony, to avoid a pile-up of vowels ("ed ora", "ad una", "ad
+  esempio"), and that reads naturally. The modern trend trims it before a
+  different vowel ("e ora", "a una"), which is also fine. Both work, so go by
+  sound; just do not force one or the other.
 - It is fine to be cosy and a little playful. The voice is a parent at bedtime,
   not a narrator reading an instruction manual.
 
