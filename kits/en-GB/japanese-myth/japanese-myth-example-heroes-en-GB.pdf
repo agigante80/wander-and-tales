@@ -3,10 +3,10 @@
 1 0 obj
 <<
 /Producer (pypdf)
-/Title (The Blossom Mountains of Yamato\054 Example Heroes\054 en\055GB\054 v10\0562)
+/Title (The Blossom Mountains of Yamato\054 Example Heroes\054 en\055GB\054 v11\0560)
 /Author (Wander and Tales)
-/Subject (Example Heroes\054 v10\0562\054 2026\05506\05506)
-/Keywords (japanese\055myth\054 en\055GB\054 example\055heroes\054 v10\0562)
+/Subject (Example Heroes\054 v11\0560\054 2026\05506\05507)
+/Keywords (japanese\055myth\054 en\055GB\054 example\055heroes\054 v11\0560)
 >>
 endobj
 2 0 obj
@@ -45,7 +45,7 @@ endobj
 endobj
 6 0 obj
 <<
-/Length 14191
+/Length 13974
 >>
 stream
 q
@@ -302,13 +302,16 @@ S
 BT 1 0 0 1 59.99282 377.0277 Tm /F2+0 6 Tf 7.2 TL (draw it) Tj T* ET
 .575098 .644118 .557843 rg
 BT 1 0 0 1 102.0472 391.2009 Tm /F2+0 8 Tf 9.6 TL (My strength is) Tj T* ET
-.478431 .368627 .588235 rg
-BT 1 0 0 1 165.9311 390.3506 Tm /F3+0 12 Tf 14.4 TL (Courage) Tj T* ET
+[] 0 d
+.929412 .738235 .791176 RG
+.9 w
+n 164.5138 388.3663 m 538.5827 388.3663 l S
 .575098 .644118 .557843 rg
 BT 1 0 0 1 102.0472 372.7757 Tm /F2+0 8 Tf 9.6 TL (It helps me) Tj T* ET
-.227451 .352941 .196078 rg
-BT 1 0 0 1 150.3192 372.7757 Tm /F4+0 10 Tf 12 TL (A steady heart in a quiet, scary moment. Courage is not being unafraid; it is staying kind and trying anyway,) Tj T* ET
-BT 1 0 0 1 150.3192 359.4529 Tm /F4+0 10 Tf 12 TL (even when you are afraid.) Tj T* ET
+[] 0 d
+.929412 .738235 .791176 RG
+.9 w
+n 150.3192 369.9411 m 538.5827 369.9411 l S
 [] 0 d
 1 1 1 rg
 .847059 .658824 .219608 RG
@@ -511,7 +514,7 @@ T*
 ET
 BT
 1 0 0 1 477.2039 31.1811 Tm
-(en\055GB \267 v10\0562 \267 page 1 of 4) Tj
+(en\055GB \267 v11\0560 \267 page 1 of 4) Tj
 T*
 ET
 Q
@@ -860,7 +863,7 @@ endobj
 endobj
 26 0 obj
 <<
-/Length 14201
+/Length 13757
 >>
 stream
 q
@@ -1085,13 +1088,16 @@ S
 BT 1 0 0 1 59.99282 433.7206 Tm /F2+0 6 Tf 7.2 TL (draw it) Tj T* ET
 .575098 .644118 .557843 rg
 BT 1 0 0 1 102.0472 447.8939 Tm /F2+0 8 Tf 9.6 TL (My strength is) Tj T* ET
-.478431 .368627 .588235 rg
-BT 1 0 0 1 165.9311 447.0435 Tm /F3+0 12 Tf 14.4 TL (Kindness) Tj T* ET
+[] 0 d
+.929412 .738235 .791176 RG
+.9 w
+n 164.5138 445.0592 m 538.5827 445.0592 l S
 .575098 .644118 .557843 rg
 BT 1 0 0 1 102.0472 429.4687 Tm /F2+0 8 Tf 9.6 TL (It helps me) Tj T* ET
-.227451 .352941 .196078 rg
-BT 1 0 0 1 150.3192 429.4687 Tm /F4+0 10 Tf 12 TL (Care for every living thing, from a shy firefly to a great dragon. The greatest heroes of the mountains are the) Tj T* ET
-BT 1 0 0 1 150.3192 416.1458 Tm /F4+0 10 Tf 12 TL (ones who are gentle, share, and help.) Tj T* ET
+[] 0 d
+.929412 .738235 .791176 RG
+.9 w
+n 150.3192 426.634 m 538.5827 426.634 l S
 [.8 3] 0 d
 .713137 .652745 .773529 RG
 .7 w
@@ -1117,13 +1123,16 @@ S
 BT 1 0 0 1 59.99282 377.0277 Tm /F2+0 6 Tf 7.2 TL (draw it) Tj T* ET
 .575098 .644118 .557843 rg
 BT 1 0 0 1 102.0472 391.2009 Tm /F2+0 8 Tf 9.6 TL (My strength is) Tj T* ET
-.478431 .368627 .588235 rg
-BT 1 0 0 1 165.9311 390.3506 Tm /F3+0 12 Tf 14.4 TL (Imagination) Tj T* ET
+[] 0 d
+.929412 .738235 .791176 RG
+.9 w
+n 164.5138 388.3663 m 538.5827 388.3663 l S
 .575098 .644118 .557843 rg
 BT 1 0 0 1 102.0472 372.7757 Tm /F2+0 8 Tf 9.6 TL (It helps me) Tj T* ET
-.227451 .352941 .196078 rg
-BT 1 0 0 1 150.3192 372.7757 Tm /F4+0 10 Tf 12 TL (Imagining ideas and asking a thoughtful question. In these mountains, a good idea solves a riddle that strength) Tj T* ET
-BT 1 0 0 1 150.3192 359.4529 Tm /F4+0 10 Tf 12 TL (never could.) Tj T* ET
+[] 0 d
+.929412 .738235 .791176 RG
+.9 w
+n 150.3192 369.9411 m 538.5827 369.9411 l S
 [] 0 d
 1 1 1 rg
 .847059 .658824 .219608 RG
@@ -1326,7 +1335,7 @@ T*
 ET
 BT
 1 0 0 1 477.2039 31.1811 Tm
-(en\055GB \267 v10\0562 \267 page 2 of 4) Tj
+(en\055GB \267 v11\0560 \267 page 2 of 4) Tj
 T*
 ET
 Q
@@ -1675,7 +1684,7 @@ endobj
 endobj
 46 0 obj
 <<
-/Length 14825
+/Length 14605
 >>
 stream
 q
@@ -1869,12 +1878,12 @@ BT 1 0 0 1 59.99282 490.4135 Tm /F2+0 6 Tf 7.2 TL (draw it) Tj T* ET
 .575098 .644118 .557843 rg
 BT 1 0 0 1 102.0472 504.5868 Tm /F2+0 8 Tf 9.6 TL (My strength is) Tj T* ET
 .478431 .368627 .588235 rg
-BT 1 0 0 1 165.9311 503.7364 Tm /F3+0 12 Tf 14.4 TL (Imagination) Tj T* ET
+BT 1 0 0 1 165.9311 503.7364 Tm /F3+0 12 Tf 14.4 TL (Patience) Tj T* ET
 .575098 .644118 .557843 rg
 BT 1 0 0 1 102.0472 486.1616 Tm /F2+0 8 Tf 9.6 TL (It helps me) Tj T* ET
 .227451 .352941 .196078 rg
-BT 1 0 0 1 150.3192 486.1616 Tm /F4+0 10 Tf 12 TL (Imagining ideas and asking a thoughtful question. In these mountains, a good idea solves a riddle that strength) Tj T* ET
-BT 1 0 0 1 150.3192 472.8387 Tm /F4+0 10 Tf 12 TL (never could.) Tj T* ET
+BT 1 0 0 1 150.3192 486.1616 Tm /F4+0 10 Tf 12 TL (Waiting kindly and trying again, without rushing. In the still mountains of Yamato, the gentlest things appear) Tj T* ET
+BT 1 0 0 1 150.3192 472.8387 Tm /F4+0 10 Tf 12 TL (only to those who wait.) Tj T* ET
 [.8 3] 0 d
 .713137 .652745 .773529 RG
 .7 w
@@ -1901,12 +1910,12 @@ BT 1 0 0 1 59.99282 433.7206 Tm /F2+0 6 Tf 7.2 TL (draw it) Tj T* ET
 .575098 .644118 .557843 rg
 BT 1 0 0 1 102.0472 447.8939 Tm /F2+0 8 Tf 9.6 TL (My strength is) Tj T* ET
 .478431 .368627 .588235 rg
-BT 1 0 0 1 165.9311 447.0435 Tm /F3+0 12 Tf 14.4 TL (Courage) Tj T* ET
+BT 1 0 0 1 165.9311 447.0435 Tm /F3+0 12 Tf 14.4 TL (Curiosity) Tj T* ET
 .575098 .644118 .557843 rg
 BT 1 0 0 1 102.0472 429.4687 Tm /F2+0 8 Tf 9.6 TL (It helps me) Tj T* ET
 .227451 .352941 .196078 rg
-BT 1 0 0 1 150.3192 429.4687 Tm /F4+0 10 Tf 12 TL (A steady heart in a quiet, scary moment. Courage is not being unafraid; it is staying kind and trying anyway,) Tj T* ET
-BT 1 0 0 1 150.3192 416.1458 Tm /F4+0 10 Tf 12 TL (even when you are afraid.) Tj T* ET
+BT 1 0 0 1 150.3192 429.4687 Tm /F4+0 10 Tf 12 TL (Asking the right question and noticing what others miss. In the quiet mountains, a curious heart hears the small) Tj T* ET
+BT 1 0 0 1 150.3192 416.1458 Tm /F4+0 10 Tf 12 TL (sound that shows the way.) Tj T* ET
 [.8 3] 0 d
 .713137 .652745 .773529 RG
 .7 w
@@ -1932,13 +1941,16 @@ S
 BT 1 0 0 1 59.99282 377.0277 Tm /F2+0 6 Tf 7.2 TL (draw it) Tj T* ET
 .575098 .644118 .557843 rg
 BT 1 0 0 1 102.0472 391.2009 Tm /F2+0 8 Tf 9.6 TL (My strength is) Tj T* ET
-.478431 .368627 .588235 rg
-BT 1 0 0 1 165.9311 390.3506 Tm /F3+0 12 Tf 14.4 TL (Kindness) Tj T* ET
+[] 0 d
+.929412 .738235 .791176 RG
+.9 w
+n 164.5138 388.3663 m 538.5827 388.3663 l S
 .575098 .644118 .557843 rg
 BT 1 0 0 1 102.0472 372.7757 Tm /F2+0 8 Tf 9.6 TL (It helps me) Tj T* ET
-.227451 .352941 .196078 rg
-BT 1 0 0 1 150.3192 372.7757 Tm /F4+0 10 Tf 12 TL (Care for every living thing, from a shy firefly to a great dragon. The greatest heroes of the mountains are the) Tj T* ET
-BT 1 0 0 1 150.3192 359.4529 Tm /F4+0 10 Tf 12 TL (ones who are gentle, share, and help.) Tj T* ET
+[] 0 d
+.929412 .738235 .791176 RG
+.9 w
+n 150.3192 369.9411 m 538.5827 369.9411 l S
 [] 0 d
 1 1 1 rg
 .847059 .658824 .219608 RG
@@ -2169,7 +2181,7 @@ T*
 ET
 BT
 1 0 0 1 477.2039 31.1811 Tm
-(en\055GB \267 v10\0562 \267 page 3 of 4) Tj
+(en\055GB \267 v11\0560 \267 page 3 of 4) Tj
 T*
 ET
 Q
@@ -2518,7 +2530,7 @@ endobj
 endobj
 66 0 obj
 <<
-/Length 14712
+/Length 14502
 >>
 stream
 q
@@ -2712,12 +2724,12 @@ BT 1 0 0 1 59.99282 490.4135 Tm /F2+0 6 Tf 7.2 TL (draw it) Tj T* ET
 .575098 .644118 .557843 rg
 BT 1 0 0 1 102.0472 504.5868 Tm /F2+0 8 Tf 9.6 TL (My strength is) Tj T* ET
 .478431 .368627 .588235 rg
-BT 1 0 0 1 165.9311 503.7364 Tm /F3+0 12 Tf 14.4 TL (Courage) Tj T* ET
+BT 1 0 0 1 165.9311 503.7364 Tm /F3+0 12 Tf 14.4 TL (Kindness) Tj T* ET
 .575098 .644118 .557843 rg
 BT 1 0 0 1 102.0472 486.1616 Tm /F2+0 8 Tf 9.6 TL (It helps me) Tj T* ET
 .227451 .352941 .196078 rg
-BT 1 0 0 1 150.3192 486.1616 Tm /F4+0 10 Tf 12 TL (A steady heart in a quiet, scary moment. Courage is not being unafraid; it is staying kind and trying anyway,) Tj T* ET
-BT 1 0 0 1 150.3192 472.8387 Tm /F4+0 10 Tf 12 TL (even when you are afraid.) Tj T* ET
+BT 1 0 0 1 150.3192 486.1616 Tm /F4+0 10 Tf 12 TL (Care for every living thing, from a shy firefly to a great dragon. The greatest heroes of the mountains are the) Tj T* ET
+BT 1 0 0 1 150.3192 472.8387 Tm /F4+0 10 Tf 12 TL (ones who are gentle, share, and help.) Tj T* ET
 [.8 3] 0 d
 .713137 .652745 .773529 RG
 .7 w
@@ -2744,12 +2756,12 @@ BT 1 0 0 1 59.99282 433.7206 Tm /F2+0 6 Tf 7.2 TL (draw it) Tj T* ET
 .575098 .644118 .557843 rg
 BT 1 0 0 1 102.0472 447.8939 Tm /F2+0 8 Tf 9.6 TL (My strength is) Tj T* ET
 .478431 .368627 .588235 rg
-BT 1 0 0 1 165.9311 447.0435 Tm /F3+0 12 Tf 14.4 TL (Imagination) Tj T* ET
+BT 1 0 0 1 165.9311 447.0435 Tm /F3+0 12 Tf 14.4 TL (Courage) Tj T* ET
 .575098 .644118 .557843 rg
 BT 1 0 0 1 102.0472 429.4687 Tm /F2+0 8 Tf 9.6 TL (It helps me) Tj T* ET
 .227451 .352941 .196078 rg
-BT 1 0 0 1 150.3192 429.4687 Tm /F4+0 10 Tf 12 TL (Imagining ideas and asking a thoughtful question. In these mountains, a good idea solves a riddle that strength) Tj T* ET
-BT 1 0 0 1 150.3192 416.1458 Tm /F4+0 10 Tf 12 TL (never could.) Tj T* ET
+BT 1 0 0 1 150.3192 429.4687 Tm /F4+0 10 Tf 12 TL (A steady heart in a quiet, scary moment. Courage is not being unafraid; it is staying kind and trying anyway,) Tj T* ET
+BT 1 0 0 1 150.3192 416.1458 Tm /F4+0 10 Tf 12 TL (even when you are afraid.) Tj T* ET
 [.8 3] 0 d
 .713137 .652745 .773529 RG
 .7 w
@@ -2775,13 +2787,16 @@ S
 BT 1 0 0 1 59.99282 377.0277 Tm /F2+0 6 Tf 7.2 TL (draw it) Tj T* ET
 .575098 .644118 .557843 rg
 BT 1 0 0 1 102.0472 391.2009 Tm /F2+0 8 Tf 9.6 TL (My strength is) Tj T* ET
-.478431 .368627 .588235 rg
-BT 1 0 0 1 165.9311 390.3506 Tm /F3+0 12 Tf 14.4 TL (Kindness) Tj T* ET
+[] 0 d
+.929412 .738235 .791176 RG
+.9 w
+n 164.5138 388.3663 m 538.5827 388.3663 l S
 .575098 .644118 .557843 rg
 BT 1 0 0 1 102.0472 372.7757 Tm /F2+0 8 Tf 9.6 TL (It helps me) Tj T* ET
-.227451 .352941 .196078 rg
-BT 1 0 0 1 150.3192 372.7757 Tm /F4+0 10 Tf 12 TL (Care for every living thing, from a shy firefly to a great dragon. The greatest heroes of the mountains are the) Tj T* ET
-BT 1 0 0 1 150.3192 359.4529 Tm /F4+0 10 Tf 12 TL (ones who are gentle, share, and help.) Tj T* ET
+[] 0 d
+.929412 .738235 .791176 RG
+.9 w
+n 150.3192 369.9411 m 538.5827 369.9411 l S
 [] 0 d
 1 1 1 rg
 .847059 .658824 .219608 RG
@@ -3010,7 +3025,7 @@ T*
 ET
 BT
 1 0 0 1 477.2039 31.1811 Tm
-(en\055GB \267 v10\0562 \267 page 4 of 4) Tj
+(en\055GB \267 v11\0560 \267 page 4 of 4) Tj
 T*
 ET
 Q
@@ -3345,83 +3360,83 @@ xref
 0000000433 00000 n 
 0000000696 00000 n 
 0000000727 00000 n 
-0000014971 00000 n 
-0000015352 00000 n 
-0000015435 00000 n 
-0000015542 00000 n 
-0000015650 00000 n 
-0000016280 00000 n 
-0000016506 00000 n 
-0000024709 00000 n 
-0000025464 00000 n 
-0000026155 00000 n 
-0000026385 00000 n 
-0000035215 00000 n 
-0000035968 00000 n 
-0000036594 00000 n 
-0000036821 00000 n 
-0000055075 00000 n 
-0000055826 00000 n 
-0000505039 00000 n 
-0000505305 00000 n 
-0000505339 00000 n 
-0000519594 00000 n 
-0000519976 00000 n 
-0000520061 00000 n 
-0000520169 00000 n 
-0000520277 00000 n 
-0000520907 00000 n 
-0000521133 00000 n 
-0000529336 00000 n 
-0000530091 00000 n 
-0000530782 00000 n 
-0000531012 00000 n 
-0000539842 00000 n 
-0000540595 00000 n 
-0000541221 00000 n 
-0000541448 00000 n 
-0000559702 00000 n 
-0000560453 00000 n 
-0000985297 00000 n 
-0000985563 00000 n 
-0000985597 00000 n 
-0001000476 00000 n 
-0001000858 00000 n 
-0001000943 00000 n 
-0001001051 00000 n 
-0001001159 00000 n 
-0001001789 00000 n 
-0001002015 00000 n 
-0001010218 00000 n 
-0001010973 00000 n 
-0001011664 00000 n 
-0001011894 00000 n 
-0001020724 00000 n 
-0001021477 00000 n 
-0001022103 00000 n 
-0001022330 00000 n 
-0001040584 00000 n 
-0001041335 00000 n 
-0001474882 00000 n 
-0001475148 00000 n 
-0001475182 00000 n 
-0001489948 00000 n 
-0001490330 00000 n 
-0001490415 00000 n 
-0001490523 00000 n 
-0001490631 00000 n 
-0001491261 00000 n 
-0001491487 00000 n 
-0001499690 00000 n 
-0001500445 00000 n 
-0001501136 00000 n 
-0001501366 00000 n 
-0001510196 00000 n 
-0001510949 00000 n 
-0001511575 00000 n 
-0001511802 00000 n 
-0001530056 00000 n 
-0001530807 00000 n 
+0000014754 00000 n 
+0000015135 00000 n 
+0000015218 00000 n 
+0000015325 00000 n 
+0000015433 00000 n 
+0000016063 00000 n 
+0000016289 00000 n 
+0000024492 00000 n 
+0000025247 00000 n 
+0000025938 00000 n 
+0000026168 00000 n 
+0000034998 00000 n 
+0000035751 00000 n 
+0000036377 00000 n 
+0000036604 00000 n 
+0000054858 00000 n 
+0000055609 00000 n 
+0000504822 00000 n 
+0000505088 00000 n 
+0000505122 00000 n 
+0000518933 00000 n 
+0000519315 00000 n 
+0000519400 00000 n 
+0000519508 00000 n 
+0000519616 00000 n 
+0000520246 00000 n 
+0000520472 00000 n 
+0000528675 00000 n 
+0000529430 00000 n 
+0000530121 00000 n 
+0000530351 00000 n 
+0000539181 00000 n 
+0000539934 00000 n 
+0000540560 00000 n 
+0000540787 00000 n 
+0000559041 00000 n 
+0000559792 00000 n 
+0000984636 00000 n 
+0000984902 00000 n 
+0000984936 00000 n 
+0000999595 00000 n 
+0000999977 00000 n 
+0001000062 00000 n 
+0001000170 00000 n 
+0001000278 00000 n 
+0001000908 00000 n 
+0001001134 00000 n 
+0001009337 00000 n 
+0001010092 00000 n 
+0001010783 00000 n 
+0001011013 00000 n 
+0001019843 00000 n 
+0001020596 00000 n 
+0001021222 00000 n 
+0001021449 00000 n 
+0001039703 00000 n 
+0001040454 00000 n 
+0001474001 00000 n 
+0001474267 00000 n 
+0001474301 00000 n 
+0001488857 00000 n 
+0001489239 00000 n 
+0001489324 00000 n 
+0001489432 00000 n 
+0001489540 00000 n 
+0001490170 00000 n 
+0001490396 00000 n 
+0001498599 00000 n 
+0001499354 00000 n 
+0001500045 00000 n 
+0001500275 00000 n 
+0001509105 00000 n 
+0001509858 00000 n 
+0001510484 00000 n 
+0001510711 00000 n 
+0001528965 00000 n 
+0001529716 00000 n 
 trailer
 <<
 /Size 84
@@ -3429,5 +3444,5 @@ trailer
 /Info 1 0 R
 >>
 startxref
-1937973
+1936882
 %%EOF

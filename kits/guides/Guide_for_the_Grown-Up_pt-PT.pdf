@@ -3,9 +3,9 @@
 1 0 obj
 <<
 /Producer (pypdf)
-/Title (Guia para o Adulto\054 pt\055PT\054 v3\0560)
+/Title (Guia para o Adulto\054 pt\055PT\054 v4\0560)
 /Author (Wander and Tales)
-/Subject (Guide for the Grown\055Up\054 v3\0560\054 2026\05506\05506)
+/Subject (Guide for the Grown\055Up\054 v4\0560\054 2026\05506\05507)
 /Keywords (wander\055and\055tales\054 guide\054 pt\055PT)
 >>
 endobj
@@ -422,7 +422,7 @@ T*
 ET
 BT
 1 0 0 1 484.2109 31.1811 Tm
-(pt\055PT \267 v3\0560 \267 page 1 of 7) Tj
+(pt\055PT \267 v4\0560 \267 page 1 of 7) Tj
 T*
 ET
 Q
@@ -945,7 +945,7 @@ T*
 ET
 BT
 1 0 0 1 484.2109 31.1811 Tm
-(pt\055PT \267 v3\0560 \267 page 2 of 7) Tj
+(pt\055PT \267 v4\0560 \267 page 2 of 7) Tj
 T*
 ET
 Q
@@ -1586,7 +1586,7 @@ endobj
 endobj
 57 0 obj
 <<
-/Length 8195
+/Length 8199
 >>
 stream
 q
@@ -1659,7 +1659,7 @@ q
 1 0 0 1 57.02362 328.5354 cm
 q
 .227451 .352941 .196078 rg
-BT 1 0 0 1 0 32 Tm /F5+0 10 Tf 14 TL (Tr\006s for\003as chegam bem, e n\005o h\004 escolha errada. Uma for\003a \010 s\001 uma maneira de este her\001i) Tj T* (gostar de ajudar, e "o que ela faz" \010 uma linha curta nas palavras da pr\001pria crian\003a. Sugere) Tj T* (algumas e deixa-os inventar as suas:) Tj T* ET
+BT 1 0 0 1 0 32 Tm /F5+0 10 Tf 14 TL (Uma ou duas for\003as chegam bem, e n\005o h\004 escolha errada. Uma for\003a \010 s\001 uma maneira de) Tj T* (este her\001i gostar de ajudar, e "o que ela faz" \010 uma linha curta nas palavras da pr\001pria crian\003a.) Tj T* (Sugere algumas e deixa-os inventar as suas:) Tj T* ET
 Q
 Q
 q
@@ -1770,7 +1770,7 @@ T*
 ET
 BT
 1 0 0 1 484.2109 31.1811 Tm
-(pt\055PT \267 v3\0560 \267 page 3 of 7) Tj
+(pt\055PT \267 v4\0560 \267 page 3 of 7) Tj
 T*
 ET
 Q
@@ -1797,7 +1797,7 @@ endobj
 endobj
 61 0 obj
 <<
-/Length 6946
+/Length 6950
 >>
 stream
 q
@@ -1885,7 +1885,7 @@ q
 1 0 0 1 57.02362 282.5354 cm
 q
 BT 1 0 0 1 2 32 Tm /F1 10 Tf 12 TL .227451 .352941 .196078 rg (\177) Tj ET
-BT 1 0 0 1 14 32 Tm 14 TL .227451 .352941 .196078 rg /F6+0 10 Tf 14 TL (Criem um her\003i cada.) Tj /F5+0 10 Tf 14 TL ( Distribui as folhas de aventura e criem os vossos her\001is juntos, tu) Tj T* (inclu\012do. Deixa-os escolher um nome e tr\006s magias ou for\003as, e desenhar o seu desenho. Os) Tj T* (her\001is de exemplo est\005o l\004 se algu\010m quiser um modelo.) Tj T* ET
+BT 1 0 0 1 14 32 Tm 14 TL .227451 .352941 .196078 rg /F6+0 10 Tf 14 TL (Criem um her\003i cada.) Tj /F5+0 10 Tf 14 TL ( Distribui as folhas de aventura e criem os vossos her\001is juntos, tu) Tj T* (inclu\012do. Deixa-os escolher um nome e uma ou duas magias ou for\003as, e desenhar o seu) Tj T* (desenho. Os her\001is de exemplo est\005o l\004 se algu\010m quiser um modelo.) Tj T* ET
 Q
 Q
 q
@@ -1960,7 +1960,7 @@ T*
 ET
 BT
 1 0 0 1 484.2109 31.1811 Tm
-(pt\055PT \267 v3\0560 \267 page 4 of 7) Tj
+(pt\055PT \267 v4\0560 \267 page 4 of 7) Tj
 T*
 ET
 Q
@@ -2195,7 +2195,7 @@ T*
 ET
 BT
 1 0 0 1 484.2109 31.1811 Tm
-(pt\055PT \267 v3\0560 \267 page 5 of 7) Tj
+(pt\055PT \267 v4\0560 \267 page 5 of 7) Tj
 T*
 ET
 Q
@@ -2337,7 +2337,7 @@ T*
 ET
 BT
 1 0 0 1 484.2109 31.1811 Tm
-(pt\055PT \267 v3\0560 \267 page 6 of 7) Tj
+(pt\055PT \267 v4\0560 \267 page 6 of 7) Tj
 T*
 ET
 Q
@@ -2414,7 +2414,7 @@ q
 1 0 0 1 57.02362 656.5354 cm
 q
 .227451 .352941 .196078 rg
-BT 1 0 0 1 0 4 Tm /F5+0 10 Tf 14 TL (Vers\005o 3.0, atualizada em 2026-06-06, pt-PT) Tj T* ET
+BT 1 0 0 1 0 4 Tm /F5+0 10 Tf 14 TL (Vers\005o 4.0, atualizada em 2026-06-07, pt-PT) Tj T* ET
 Q
 Q
 q
@@ -2476,7 +2476,7 @@ T*
 ET
 BT
 1 0 0 1 484.2109 31.1811 Tm
-(pt\055PT \267 v3\0560 \267 page 7 of 7) Tj
+(pt\055PT \267 v4\0560 \267 page 7 of 7) Tj
 T*
 ET
 Q
@@ -2558,24 +2558,24 @@ xref
 0000149738 00000 n 
 0000149940 00000 n 
 0000149974 00000 n 
-0000158222 00000 n 
-0000158570 00000 n 
-0000158772 00000 n 
-0000158806 00000 n 
-0000165805 00000 n 
-0000166153 00000 n 
-0000166355 00000 n 
-0000166389 00000 n 
-0000174819 00000 n 
-0000175167 00000 n 
-0000175369 00000 n 
-0000175403 00000 n 
-0000177977 00000 n 
-0000178325 00000 n 
-0000178591 00000 n 
-0000178625 00000 n 
-0000180131 00000 n 
-0000180479 00000 n 
+0000158226 00000 n 
+0000158574 00000 n 
+0000158776 00000 n 
+0000158810 00000 n 
+0000165813 00000 n 
+0000166161 00000 n 
+0000166363 00000 n 
+0000166397 00000 n 
+0000174827 00000 n 
+0000175175 00000 n 
+0000175377 00000 n 
+0000175411 00000 n 
+0000177985 00000 n 
+0000178333 00000 n 
+0000178599 00000 n 
+0000178633 00000 n 
+0000180139 00000 n 
+0000180487 00000 n 
 trailer
 <<
 /Size 76
@@ -2583,5 +2583,5 @@ trailer
 /Info 1 0 R
 >>
 startxref
-187323
+187331
 %%EOF

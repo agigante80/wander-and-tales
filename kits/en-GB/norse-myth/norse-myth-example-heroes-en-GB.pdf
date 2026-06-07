@@ -3,10 +3,10 @@
 1 0 obj
 <<
 /Producer (pypdf)
-/Title (The Snowlit Fjords of the North\054 Example Heroes\054 en\055GB\054 v8\0562)
+/Title (The Snowlit Fjords of the North\054 Example Heroes\054 en\055GB\054 v9\0560)
 /Author (Wander and Tales)
-/Subject (Example Heroes\054 v8\0562\054 2026\05506\05506)
-/Keywords (norse\055myth\054 en\055GB\054 example\055heroes\054 v8\0562)
+/Subject (Example Heroes\054 v9\0560\054 2026\05506\05507)
+/Keywords (norse\055myth\054 en\055GB\054 example\055heroes\054 v9\0560)
 >>
 endobj
 2 0 obj
@@ -45,7 +45,7 @@ endobj
 endobj
 6 0 obj
 <<
-/Length 14169
+/Length 13941
 >>
 stream
 q
@@ -302,13 +302,16 @@ S
 BT 1 0 0 1 59.99282 377.0277 Tm /F2+0 6 Tf 7.2 TL (draw it) Tj T* ET
 .575098 .644118 .557843 rg
 BT 1 0 0 1 102.0472 391.2009 Tm /F2+0 8 Tf 9.6 TL (My strength is) Tj T* ET
-.478431 .415686 .658824 rg
-BT 1 0 0 1 165.9311 390.3506 Tm /F3+0 12 Tf 14.4 TL (Courage) Tj T* ET
+[] 0 d
+.514706 .658824 .767647 RG
+.9 w
+n 164.5138 388.3663 m 538.5827 388.3663 l S
 .575098 .644118 .557843 rg
 BT 1 0 0 1 102.0472 372.7757 Tm /F2+0 8 Tf 9.6 TL (It helps me) Tj T* ET
-.227451 .352941 .196078 rg
-BT 1 0 0 1 150.3192 372.7757 Tm /F4+0 10 Tf 12 TL (A warm, steady heart on the longest, darkest night. Courage is not being unafraid; it is staying kind and trying) Tj T* ET
-BT 1 0 0 1 150.3192 359.4529 Tm /F4+0 10 Tf 12 TL (anyway, even when you are afraid.) Tj T* ET
+[] 0 d
+.514706 .658824 .767647 RG
+.9 w
+n 150.3192 369.9411 m 538.5827 369.9411 l S
 [] 0 d
 1 1 1 rg
 .85098 .643137 .254902 RG
@@ -511,7 +514,7 @@ T*
 ET
 BT
 1 0 0 1 481.0959 31.1811 Tm
-(en\055GB \267 v8\0562 \267 page 1 of 4) Tj
+(en\055GB \267 v9\0560 \267 page 1 of 4) Tj
 T*
 ET
 Q
@@ -860,7 +863,7 @@ endobj
 endobj
 26 0 obj
 <<
-/Length 14187
+/Length 13747
 >>
 stream
 q
@@ -1085,13 +1088,16 @@ S
 BT 1 0 0 1 59.99282 433.7206 Tm /F2+0 6 Tf 7.2 TL (draw it) Tj T* ET
 .575098 .644118 .557843 rg
 BT 1 0 0 1 102.0472 447.8939 Tm /F2+0 8 Tf 9.6 TL (My strength is) Tj T* ET
-.478431 .415686 .658824 rg
-BT 1 0 0 1 165.9311 447.0435 Tm /F3+0 12 Tf 14.4 TL (Heart) Tj T* ET
+[] 0 d
+.514706 .658824 .767647 RG
+.9 w
+n 164.5138 445.0592 m 538.5827 445.0592 l S
 .575098 .644118 .557843 rg
 BT 1 0 0 1 102.0472 429.4687 Tm /F2+0 8 Tf 9.6 TL (It helps me) Tj T* ET
-.227451 .352941 .196078 rg
-BT 1 0 0 1 150.3192 429.4687 Tm /F4+0 10 Tf 12 TL (Care for others and a place by the fire for everyone. The greatest heroes of the fjords are the ones who share,) Tj T* ET
-BT 1 0 0 1 150.3192 416.1458 Tm /F4+0 10 Tf 12 TL (help, and stand by a friend.) Tj T* ET
+[] 0 d
+.514706 .658824 .767647 RG
+.9 w
+n 150.3192 426.634 m 538.5827 426.634 l S
 [.8 3] 0 d
 .713137 .678627 .812353 RG
 .7 w
@@ -1117,13 +1123,16 @@ S
 BT 1 0 0 1 59.99282 377.0277 Tm /F2+0 6 Tf 7.2 TL (draw it) Tj T* ET
 .575098 .644118 .557843 rg
 BT 1 0 0 1 102.0472 391.2009 Tm /F2+0 8 Tf 9.6 TL (My strength is) Tj T* ET
-.478431 .415686 .658824 rg
-BT 1 0 0 1 165.9311 390.3506 Tm /F3+0 12 Tf 14.4 TL (Imagination) Tj T* ET
+[] 0 d
+.514706 .658824 .767647 RG
+.9 w
+n 164.5138 388.3663 m 538.5827 388.3663 l S
 .575098 .644118 .557843 rg
 BT 1 0 0 1 102.0472 372.7757 Tm /F2+0 8 Tf 9.6 TL (It helps me) Tj T* ET
-.227451 .352941 .196078 rg
-BT 1 0 0 1 150.3192 372.7757 Tm /F4+0 10 Tf 12 TL (Imagining ideas and trying them. In the north, a good idea is worth more than a strong arm, and a riddle is) Tj T* ET
-BT 1 0 0 1 150.3192 359.4529 Tm /F4+0 10 Tf 12 TL (solved with a cool head.) Tj T* ET
+[] 0 d
+.514706 .658824 .767647 RG
+.9 w
+n 150.3192 369.9411 m 538.5827 369.9411 l S
 [] 0 d
 1 1 1 rg
 .85098 .643137 .254902 RG
@@ -1326,7 +1335,7 @@ T*
 ET
 BT
 1 0 0 1 481.0959 31.1811 Tm
-(en\055GB \267 v8\0562 \267 page 2 of 4) Tj
+(en\055GB \267 v9\0560 \267 page 2 of 4) Tj
 T*
 ET
 Q
@@ -1675,7 +1684,7 @@ endobj
 endobj
 46 0 obj
 <<
-/Length 14820
+/Length 14624
 >>
 stream
 q
@@ -1869,12 +1878,12 @@ BT 1 0 0 1 59.99282 490.4135 Tm /F2+0 6 Tf 7.2 TL (draw it) Tj T* ET
 .575098 .644118 .557843 rg
 BT 1 0 0 1 102.0472 504.5868 Tm /F2+0 8 Tf 9.6 TL (My strength is) Tj T* ET
 .478431 .415686 .658824 rg
-BT 1 0 0 1 165.9311 503.7364 Tm /F3+0 12 Tf 14.4 TL (Imagination) Tj T* ET
+BT 1 0 0 1 165.9311 503.7364 Tm /F3+0 12 Tf 14.4 TL (Patience) Tj T* ET
 .575098 .644118 .557843 rg
 BT 1 0 0 1 102.0472 486.1616 Tm /F2+0 8 Tf 9.6 TL (It helps me) Tj T* ET
 .227451 .352941 .196078 rg
-BT 1 0 0 1 150.3192 486.1616 Tm /F4+0 10 Tf 12 TL (Imagining ideas and trying them. In the north, a good idea is worth more than a strong arm, and a riddle is) Tj T* ET
-BT 1 0 0 1 150.3192 472.8387 Tm /F4+0 10 Tf 12 TL (solved with a cool head.) Tj T* ET
+BT 1 0 0 1 150.3192 486.1616 Tm /F4+0 10 Tf 12 TL (Waiting kindly and trying again, through the longest, coldest night. In the fjords, patience keeps a small flame) Tj T* ET
+BT 1 0 0 1 150.3192 472.8387 Tm /F4+0 10 Tf 12 TL (alight until the dawn returns.) Tj T* ET
 [.8 3] 0 d
 .713137 .678627 .812353 RG
 .7 w
@@ -1901,12 +1910,12 @@ BT 1 0 0 1 59.99282 433.7206 Tm /F2+0 6 Tf 7.2 TL (draw it) Tj T* ET
 .575098 .644118 .557843 rg
 BT 1 0 0 1 102.0472 447.8939 Tm /F2+0 8 Tf 9.6 TL (My strength is) Tj T* ET
 .478431 .415686 .658824 rg
-BT 1 0 0 1 165.9311 447.0435 Tm /F3+0 12 Tf 14.4 TL (Courage) Tj T* ET
+BT 1 0 0 1 165.9311 447.0435 Tm /F3+0 12 Tf 14.4 TL (Kindness) Tj T* ET
 .575098 .644118 .557843 rg
 BT 1 0 0 1 102.0472 429.4687 Tm /F2+0 8 Tf 9.6 TL (It helps me) Tj T* ET
 .227451 .352941 .196078 rg
-BT 1 0 0 1 150.3192 429.4687 Tm /F4+0 10 Tf 12 TL (A warm, steady heart on the longest, darkest night. Courage is not being unafraid; it is staying kind and trying) Tj T* ET
-BT 1 0 0 1 150.3192 416.1458 Tm /F4+0 10 Tf 12 TL (anyway, even when you are afraid.) Tj T* ET
+BT 1 0 0 1 150.3192 429.4687 Tm /F4+0 10 Tf 12 TL (A warm word and a helping hand, even to a fearsome-seeming stranger, which turns most foes into friends. In) Tj T* ET
+BT 1 0 0 1 150.3192 416.1458 Tm /F4+0 10 Tf 12 TL (the cold fjords, kindness is the warmest fire of all.) Tj T* ET
 [.8 3] 0 d
 .713137 .678627 .812353 RG
 .7 w
@@ -1932,13 +1941,16 @@ S
 BT 1 0 0 1 59.99282 377.0277 Tm /F2+0 6 Tf 7.2 TL (draw it) Tj T* ET
 .575098 .644118 .557843 rg
 BT 1 0 0 1 102.0472 391.2009 Tm /F2+0 8 Tf 9.6 TL (My strength is) Tj T* ET
-.478431 .415686 .658824 rg
-BT 1 0 0 1 165.9311 390.3506 Tm /F3+0 12 Tf 14.4 TL (Heart) Tj T* ET
+[] 0 d
+.514706 .658824 .767647 RG
+.9 w
+n 164.5138 388.3663 m 538.5827 388.3663 l S
 .575098 .644118 .557843 rg
 BT 1 0 0 1 102.0472 372.7757 Tm /F2+0 8 Tf 9.6 TL (It helps me) Tj T* ET
-.227451 .352941 .196078 rg
-BT 1 0 0 1 150.3192 372.7757 Tm /F4+0 10 Tf 12 TL (Care for others and a place by the fire for everyone. The greatest heroes of the fjords are the ones who share,) Tj T* ET
-BT 1 0 0 1 150.3192 359.4529 Tm /F4+0 10 Tf 12 TL (help, and stand by a friend.) Tj T* ET
+[] 0 d
+.514706 .658824 .767647 RG
+.9 w
+n 150.3192 369.9411 m 538.5827 369.9411 l S
 [] 0 d
 1 1 1 rg
 .85098 .643137 .254902 RG
@@ -2169,7 +2181,7 @@ T*
 ET
 BT
 1 0 0 1 481.0959 31.1811 Tm
-(en\055GB \267 v8\0562 \267 page 3 of 4) Tj
+(en\055GB \267 v9\0560 \267 page 3 of 4) Tj
 T*
 ET
 Q
@@ -2518,7 +2530,7 @@ endobj
 endobj
 66 0 obj
 <<
-/Length 14699
+/Length 14481
 >>
 stream
 q
@@ -2712,12 +2724,12 @@ BT 1 0 0 1 59.99282 490.4135 Tm /F2+0 6 Tf 7.2 TL (draw it) Tj T* ET
 .575098 .644118 .557843 rg
 BT 1 0 0 1 102.0472 504.5868 Tm /F2+0 8 Tf 9.6 TL (My strength is) Tj T* ET
 .478431 .415686 .658824 rg
-BT 1 0 0 1 165.9311 503.7364 Tm /F3+0 12 Tf 14.4 TL (Courage) Tj T* ET
+BT 1 0 0 1 165.9311 503.7364 Tm /F3+0 12 Tf 14.4 TL (Heart) Tj T* ET
 .575098 .644118 .557843 rg
 BT 1 0 0 1 102.0472 486.1616 Tm /F2+0 8 Tf 9.6 TL (It helps me) Tj T* ET
 .227451 .352941 .196078 rg
-BT 1 0 0 1 150.3192 486.1616 Tm /F4+0 10 Tf 12 TL (A warm, steady heart on the longest, darkest night. Courage is not being unafraid; it is staying kind and trying) Tj T* ET
-BT 1 0 0 1 150.3192 472.8387 Tm /F4+0 10 Tf 12 TL (anyway, even when you are afraid.) Tj T* ET
+BT 1 0 0 1 150.3192 486.1616 Tm /F4+0 10 Tf 12 TL (Care for others and a place by the fire for everyone. The greatest heroes of the fjords are the ones who share,) Tj T* ET
+BT 1 0 0 1 150.3192 472.8387 Tm /F4+0 10 Tf 12 TL (help, and stand by a friend.) Tj T* ET
 [.8 3] 0 d
 .713137 .678627 .812353 RG
 .7 w
@@ -2744,12 +2756,12 @@ BT 1 0 0 1 59.99282 433.7206 Tm /F2+0 6 Tf 7.2 TL (draw it) Tj T* ET
 .575098 .644118 .557843 rg
 BT 1 0 0 1 102.0472 447.8939 Tm /F2+0 8 Tf 9.6 TL (My strength is) Tj T* ET
 .478431 .415686 .658824 rg
-BT 1 0 0 1 165.9311 447.0435 Tm /F3+0 12 Tf 14.4 TL (Imagination) Tj T* ET
+BT 1 0 0 1 165.9311 447.0435 Tm /F3+0 12 Tf 14.4 TL (Courage) Tj T* ET
 .575098 .644118 .557843 rg
 BT 1 0 0 1 102.0472 429.4687 Tm /F2+0 8 Tf 9.6 TL (It helps me) Tj T* ET
 .227451 .352941 .196078 rg
-BT 1 0 0 1 150.3192 429.4687 Tm /F4+0 10 Tf 12 TL (Imagining ideas and trying them. In the north, a good idea is worth more than a strong arm, and a riddle is) Tj T* ET
-BT 1 0 0 1 150.3192 416.1458 Tm /F4+0 10 Tf 12 TL (solved with a cool head.) Tj T* ET
+BT 1 0 0 1 150.3192 429.4687 Tm /F4+0 10 Tf 12 TL (A warm, steady heart on the longest, darkest night. Courage is not being unafraid; it is staying kind and trying) Tj T* ET
+BT 1 0 0 1 150.3192 416.1458 Tm /F4+0 10 Tf 12 TL (anyway, even when you are afraid.) Tj T* ET
 [.8 3] 0 d
 .713137 .678627 .812353 RG
 .7 w
@@ -2775,13 +2787,16 @@ S
 BT 1 0 0 1 59.99282 377.0277 Tm /F2+0 6 Tf 7.2 TL (draw it) Tj T* ET
 .575098 .644118 .557843 rg
 BT 1 0 0 1 102.0472 391.2009 Tm /F2+0 8 Tf 9.6 TL (My strength is) Tj T* ET
-.478431 .415686 .658824 rg
-BT 1 0 0 1 165.9311 390.3506 Tm /F3+0 12 Tf 14.4 TL (Heart) Tj T* ET
+[] 0 d
+.514706 .658824 .767647 RG
+.9 w
+n 164.5138 388.3663 m 538.5827 388.3663 l S
 .575098 .644118 .557843 rg
 BT 1 0 0 1 102.0472 372.7757 Tm /F2+0 8 Tf 9.6 TL (It helps me) Tj T* ET
-.227451 .352941 .196078 rg
-BT 1 0 0 1 150.3192 372.7757 Tm /F4+0 10 Tf 12 TL (Care for others and a place by the fire for everyone. The greatest heroes of the fjords are the ones who share,) Tj T* ET
-BT 1 0 0 1 150.3192 359.4529 Tm /F4+0 10 Tf 12 TL (help, and stand by a friend.) Tj T* ET
+[] 0 d
+.514706 .658824 .767647 RG
+.9 w
+n 150.3192 369.9411 m 538.5827 369.9411 l S
 [] 0 d
 1 1 1 rg
 .85098 .643137 .254902 RG
@@ -3010,7 +3025,7 @@ T*
 ET
 BT
 1 0 0 1 481.0959 31.1811 Tm
-(en\055GB \267 v8\0562 \267 page 4 of 4) Tj
+(en\055GB \267 v9\0560 \267 page 4 of 4) Tj
 T*
 ET
 Q
@@ -3345,83 +3360,83 @@ xref
 0000000427 00000 n 
 0000000690 00000 n 
 0000000721 00000 n 
-0000014943 00000 n 
-0000015323 00000 n 
-0000015406 00000 n 
-0000015513 00000 n 
-0000015621 00000 n 
-0000016251 00000 n 
-0000016477 00000 n 
-0000024680 00000 n 
-0000025435 00000 n 
-0000026126 00000 n 
-0000026356 00000 n 
-0000035186 00000 n 
-0000035939 00000 n 
-0000036565 00000 n 
-0000036792 00000 n 
-0000055046 00000 n 
-0000055797 00000 n 
-0000493269 00000 n 
-0000493535 00000 n 
-0000493569 00000 n 
-0000507810 00000 n 
-0000508191 00000 n 
-0000508276 00000 n 
-0000508384 00000 n 
-0000508492 00000 n 
-0000509122 00000 n 
-0000509348 00000 n 
-0000517551 00000 n 
-0000518306 00000 n 
-0000518997 00000 n 
-0000519227 00000 n 
-0000528057 00000 n 
-0000528810 00000 n 
-0000529436 00000 n 
-0000529663 00000 n 
-0000547917 00000 n 
-0000548668 00000 n 
-0000914870 00000 n 
-0000915136 00000 n 
-0000915170 00000 n 
-0000930044 00000 n 
-0000930425 00000 n 
-0000930510 00000 n 
-0000930618 00000 n 
-0000930726 00000 n 
-0000931356 00000 n 
-0000931582 00000 n 
-0000939785 00000 n 
-0000940540 00000 n 
-0000941231 00000 n 
-0000941461 00000 n 
-0000950291 00000 n 
-0000951044 00000 n 
-0000951670 00000 n 
-0000951897 00000 n 
-0000970151 00000 n 
-0000970902 00000 n 
-0001377240 00000 n 
-0001377506 00000 n 
-0001377540 00000 n 
-0001392293 00000 n 
-0001392674 00000 n 
-0001392759 00000 n 
-0001392867 00000 n 
-0001392975 00000 n 
-0001393605 00000 n 
-0001393831 00000 n 
-0001402034 00000 n 
-0001402789 00000 n 
-0001403480 00000 n 
-0001403710 00000 n 
-0001412540 00000 n 
-0001413293 00000 n 
-0001413919 00000 n 
-0001414146 00000 n 
-0001432400 00000 n 
-0001433151 00000 n 
+0000014715 00000 n 
+0000015095 00000 n 
+0000015178 00000 n 
+0000015285 00000 n 
+0000015393 00000 n 
+0000016023 00000 n 
+0000016249 00000 n 
+0000024452 00000 n 
+0000025207 00000 n 
+0000025898 00000 n 
+0000026128 00000 n 
+0000034958 00000 n 
+0000035711 00000 n 
+0000036337 00000 n 
+0000036564 00000 n 
+0000054818 00000 n 
+0000055569 00000 n 
+0000493041 00000 n 
+0000493307 00000 n 
+0000493341 00000 n 
+0000507142 00000 n 
+0000507523 00000 n 
+0000507608 00000 n 
+0000507716 00000 n 
+0000507824 00000 n 
+0000508454 00000 n 
+0000508680 00000 n 
+0000516883 00000 n 
+0000517638 00000 n 
+0000518329 00000 n 
+0000518559 00000 n 
+0000527389 00000 n 
+0000528142 00000 n 
+0000528768 00000 n 
+0000528995 00000 n 
+0000547249 00000 n 
+0000548000 00000 n 
+0000914202 00000 n 
+0000914468 00000 n 
+0000914502 00000 n 
+0000929180 00000 n 
+0000929561 00000 n 
+0000929646 00000 n 
+0000929754 00000 n 
+0000929862 00000 n 
+0000930492 00000 n 
+0000930718 00000 n 
+0000938921 00000 n 
+0000939676 00000 n 
+0000940367 00000 n 
+0000940597 00000 n 
+0000949427 00000 n 
+0000950180 00000 n 
+0000950806 00000 n 
+0000951033 00000 n 
+0000969287 00000 n 
+0000970038 00000 n 
+0001376376 00000 n 
+0001376642 00000 n 
+0001376676 00000 n 
+0001391211 00000 n 
+0001391592 00000 n 
+0001391677 00000 n 
+0001391785 00000 n 
+0001391893 00000 n 
+0001392523 00000 n 
+0001392749 00000 n 
+0001400952 00000 n 
+0001401707 00000 n 
+0001402398 00000 n 
+0001402628 00000 n 
+0001411458 00000 n 
+0001412211 00000 n 
+0001412837 00000 n 
+0001413064 00000 n 
+0001431318 00000 n 
+0001432069 00000 n 
 trailer
 <<
 /Size 84
@@ -3429,5 +3444,5 @@ trailer
 /Info 1 0 R
 >>
 startxref
-1792629
+1791547
 %%EOF
