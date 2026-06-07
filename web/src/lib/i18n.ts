@@ -11,7 +11,9 @@ export const UI: Record<LangCode, Dict> = {
     hero_sub:
       "Gentle story-adventures a grown-up and a child play together. Nobody competes, nobody loses, and there are no wrong answers, just a warm way to share curiosity, courage and kindness. Read it on a screen, or print it out for screen-free play with a single die and a few household bits.",
     hero_audience:
-      "For any grown-up to share with a child, parents, grandparents, teachers, childminders, all welcome.",
+      "For any grown-up to share with a child, parents, grandparents, teachers, childminders, group leaders, all welcome.",
+    hero_bedtime:
+      "Calm enough for bedtime, for when 'I can't sleep' turns into one more little adventure.",
     hero_read: "Explore the worlds",
     hero_create: "Create your own",
     worlds_title: "Choose a world",
@@ -97,7 +99,9 @@ export const UI: Record<LangCode, Dict> = {
     hero_sub:
       "Aventuras tranquilas para que un adulto y un niño jueguen juntos. Nadie compite, nadie pierde y no hay respuestas equivocadas: solo una forma cálida de compartir curiosidad, valentía y bondad. Léelas en pantalla o imprímelas para jugar sin pantallas, con un solo dado y unas cosas de casa.",
     hero_audience:
-      "Para cualquier adulto que juegue con un niño: madres y padres, abuelos, profes, canguros, todos bienvenidos.",
+      "Para cualquier adulto que juegue con un niño: madres y padres, abuelos, profes, canguros, monitores, todos bienvenidos.",
+    hero_bedtime:
+      "Tan tranquilo que va bien para la hora de dormir: para cuando dicen 'no puedo dormir' y se convierte en una pequeña aventura más.",
     hero_read: "Explora los mundos",
     hero_create: "Crea el tuyo",
     worlds_title: "Elige un mundo",
@@ -183,7 +187,9 @@ export const UI: Record<LangCode, Dict> = {
     hero_sub:
       "Avventure dolci che un adulto e un bambino vivono insieme. Nessuno compete, nessuno perde e non ci sono risposte sbagliate: solo un modo caldo per condividere curiosità, coraggio e gentilezza. Leggetele sullo schermo, oppure stampatele per giocare senza schermi, con un dado e qualche cosa di casa.",
     hero_audience:
-      "Per qualsiasi adulto e un bambino: genitori, nonni, insegnanti, babysitter, tutti benvenuti.",
+      "Per qualsiasi adulto e un bambino: genitori, nonni, insegnanti, babysitter, animatori, tutti benvenuti.",
+    hero_bedtime:
+      "Calmo per la nanna: per quando 'non riesco a dormire' diventa un'altra piccola avventura.",
     hero_read: "Esplora i mondi",
     hero_create: "Crea il tuo",
     worlds_title: "Scegli un mondo",
@@ -269,7 +275,9 @@ export const UI: Record<LangCode, Dict> = {
     hero_sub:
       "Aventuras tranquilas para um adulto e uma criança jogarem juntos. Ninguém compete, ninguém perde e não há respostas erradas: apenas uma forma carinhosa de partilhar curiosidade, coragem e bondade. Lê no ecrã, ou imprime para jogar sem ecrãs, com um único dado e umas coisas lá de casa.",
     hero_audience:
-      "Para qualquer adulto partilhar com uma criança: pais, avós, professores, amas, todos bem-vindos.",
+      "Para qualquer adulto partilhar com uma criança: pais, avós, professores, amas, monitores, todos bem-vindos.",
+    hero_bedtime:
+      "Calmo para a hora de dormir: para quando 'não consigo dormir' se torna mais uma pequena aventura.",
     hero_read: "Explora os mundos",
     hero_create: "Cria o teu",
     worlds_title: "Escolhe um mundo",
