@@ -647,19 +647,191 @@ git commit -m "docs: pt-pt-quality Pass 1 also runs build check-lang"
 
 ---
 
-## Follow-up: per-locale quality skills (out of scope here, recommendation recorded)
+## Task 9: Document self-hosting LanguageTool in the main README
 
-The user asked whether to create a skill like `pt-pt-quality` for each language. The recommendation, to act on after this plan lands, is **not one blanket skill per language**, but skills only where there is a documented, recurring, project-specific register problem that LanguageTool cannot catch:
+**Files:**
+- Modify: `README.md`
 
-- **es-ES: yes, a lean sibling skill, later.** There is a real peninsular concern (use vosotros, avoid Latin-Americanisms, full accents) with review history. The skill is a Spanish register guide plus the shared `check-lang` finder. It must NOT duplicate the LanguageTool wiring; it calls `build check-lang --locale es-ES`. The Spanish guide swaps the
-Portuguese vos conversion table for a vosotros-versus-ustedes and
-Latin-Americanism list.
-- **it-IT: yes, a lean sibling skill, later.** Italian has both the strongest need for judgment (warm colloquial voi register, see the maintainer preference) and the weakest LanguageTool coverage (spelling and accents only). Same shape: an Italian register guide plus `build check-lang --locale it-IT`.
-- **en-GB: no separate skill.** It is the canonical, human-authored source, LanguageTool's English is the strongest of the four, and the main risk (Americanisms creeping in) is light. Cover it with a short note in `authoring-story-content` rather than a new skill, and only promote it to a skill if a recurring en-GB problem actually emerges.
+- [ ] **Step 1: Add a check-lang line to the developer command block**
 
-Shared principle: the mechanical layer (`check-lang`) is written once and shared; only the small register guide is per locale, and only where the need is real. This keeps the skills lean and prevents the LanguageTool URL and retry logic from being copied four times.
+In the `## For developers: the toolchain` code block, after the `generate-images`
+line, add:
 
-Each sibling skill is a content and authoring task (the register guide is prose), so it belongs with the `authoring-story-content` and skill-creation flow, not in this code plan.
+```bash
+python -m build check-lang --root . --locale pt-PT          # check a locale against LanguageTool
+```
+
+- [ ] **Step 2: Add a short subsection explaining the optional server**
+
+After the toolchain command block (before `### Where things live`), add a
+subsection telling a contributor they can spin up their own LanguageTool and run
+a check against it. It must state: the server is optional, it is self-hosted
+(Docker), the URL comes from `LANGUAGETOOL_URL` in `.env`, and the check is a
+candidate finder (strong for pt-PT and en-GB grammar, an accent net for es-ES and
+it-IT) whose register judgement stays with the locale-quality skills. See Step 2
+content in Task 9 of this plan body for the exact prose to paste.
+
+- [ ] **Step 3: Commit**
+
+```bash
+git add README.md
+git commit -m "docs: README note on self-hosting LanguageTool for check-lang"
+```
+
+The prose to paste in Step 2:
+
+```markdown
+### Optional: check translations with LanguageTool
+
+The locale-quality skills can cross-check prose against a self-hosted
+[LanguageTool](https://languagetool.org) server (open-source, runs in Docker).
+It is optional: nothing in the build needs it. To use it, run the server (for
+example `docker run -d -p 18010:8010 erikvl87/languagetool`), set its URL in
+`.env` as `LANGUAGETOOL_URL` (see `.env.example`), then:
+
+```bash
+python -m build check-lang --root . --locale pt-PT
+python -m build check-lang --root . --locale es-ES --world floating-isles --story sleeping-garden
+```
+
+It prints candidate findings (spelling, accents, grammar) with line numbers and
+exits 0; it exits non-zero only if the server cannot be reached. Treat the output
+as candidates, not auto-fixes: coverage is strong for pt-PT and en-GB grammar and
+a useful accent net for es-ES and it-IT, but regional register (peninsular
+Spanish, European Portuguese, warm Italian) stays with the locale-quality skills
+and a native reviewer.
+```
+
+---
+
+## Task 10: Create the es-ES quality skill
+
+**Files:**
+- Create: `.claude/skills/es-es-quality/SKILL.md`
+- Create: `.claude/skills/es-es-quality/references/es-es-guide.md`
+- Create: `.claude/skills/es-es-quality/scan.sh`
+
+- [ ] **Step 1: Write the Spanish register guide**
+
+Model it on `references/pt-pt-guide.md`, but for peninsular Spanish. Sections:
+register (vosotros for the group, tu for one child, address the grown-up as tu;
+never address the players as ustedes, which is Latin-American or over-formal for
+Spain); voseo is wrong (vos, tenes, queres); pt-style note removed; a
+Latin-Americanism vocabulary table (coche not carro, ordenador not computadora,
+movil not celular, zumo not jugo, patata not papa, coger/apanhar usage, vale not
+okay, mola/guay not chevere/padre); seseo and yeismo spellings to avoid in
+writing; the shared project rules (no losing: no derrota or perder as failure;
+warmth; no dashes, ranges as "3 a 5"; canon names; plain words; associational
+claims); a reviewer checklist.
+
+- [ ] **Step 2: Write the scanner**
+
+Copy `pt-pt-quality/scan.sh` and replace the pt-PT patterns with es-ES ones:
+address-as-ustedes (`\bustedes\b`, `\busted\b`), voseo (`\b(vos|tenés|querés|sos|podés|hacés)\b`),
+Latin-American vocabulary (`\b(carro|computadora|celular|jugo|papa|frijoles|chévere|padrísimo|ahorita|platicar|tomá|mirá)\b`),
+dashes (`[\x{2013}\x{2014}]`), no-lose tone (`\b(derrota\w*|fracas\w+|perder|perdiste|perdéis|pierden)\b`).
+Change the find default to `-path '*es-ES*'` and the closing pointer to the
+es-es-guide. Keep it a candidate finder with the same false-positive caveat.
+
+- [ ] **Step 3: Write SKILL.md**
+
+Model on `pt-pt-quality/SKILL.md`. The description triggers on "check the
+Spanish", "review es-ES", "is this peninsular Spanish", "fix the Spanish
+register", "before publishing Spanish". Pass 1 runs both `scan.sh` and
+`build check-lang --root . --locale es-ES`; Pass 2 is judgment against the guide.
+Same "after fixing: validate, lint, pytest, rebuild in foreground" block. State
+that LanguageTool covers Spanish spelling and accents but NOT peninsular register,
+so the register call is this skill's job.
+
+- [ ] **Step 4: Make the scanner executable and sanity-check it**
+
+```bash
+chmod +x .claude/skills/es-es-quality/scan.sh
+bash .claude/skills/es-es-quality/scan.sh | tail -5
+```
+
+Expected: it runs and prints a candidate count (likely low), no shell error.
+
+- [ ] **Step 5: Commit**
+
+```bash
+git add .claude/skills/es-es-quality
+git commit -m "feat: es-ES quality skill (peninsular register guide + scanner + check-lang)"
+```
+
+---
+
+## Task 11: Create the it-IT quality skill
+
+**Files:**
+- Create: `.claude/skills/it-it-quality/SKILL.md`
+- Create: `.claude/skills/it-it-quality/references/it-it-guide.md`
+- Create: `.claude/skills/it-it-quality/scan.sh`
+
+- [ ] **Step 1: Write the Italian register guide**
+
+Model on the pt-PT guide, for natural, warm Italian. Sections: register (address
+the group of players as "voi"; one child as "tu"; the grown-up as "tu"; do NOT
+use the formal "Lei" for players, it reads cold and bureaucratic); warmth (this is
+the maintainer's stated preference: warm colloquial Italian over textbook
+stiffness, reach for "coccole", "dolcezza", "tenero", "gentile"); avoid
+anglicisms where a natural Italian word exists (gioco not "game", squadra not
+"team"); the shared project rules (no losing: no "sconfitta", "perdere",
+"fallimento" as failure, use "un'altra strada"; no dashes, ranges as "da 3 a 5";
+canon names; plain words; associational claims); a reviewer checklist. Note that
+LanguageTool's Italian is spelling and accents only, so this skill and a native
+reviewer carry the grammar and register weight.
+
+- [ ] **Step 2: Write the scanner**
+
+Copy the scanner shape. it-IT patterns: formal-Lei addressing the players
+(`\b(Lei|La vostra signoria)\b` is noisy, so scan for the polite imperative and
+"Lei" pronoun carefully and mark as candidates), anglicisms
+(`\b(game|team|level|player|score|win|loser)\b`), dashes (`[\x{2013}\x{2014}]`),
+no-lose tone (`\b(sconfitt\w+|falliment\w+|perdere|perdi|perde|hai perso)\b`).
+Change the find default to `-path '*it-IT*'`. Keep the candidate-finder framing;
+Italian has more expected false positives, so lean on the judgment pass.
+
+- [ ] **Step 3: Write SKILL.md**
+
+Model on `pt-pt-quality/SKILL.md`. Triggers on "check the Italian", "review
+it-IT", "is this natural Italian", "fix the Italian register", "before publishing
+Italian". Pass 1 runs `scan.sh` and `build check-lang --root . --locale it-IT`;
+Pass 2 is judgment against the guide. State plainly that LanguageTool's Italian is
+thin (spelling and accents), so this skill plus native review carry grammar and
+warmth.
+
+- [ ] **Step 4: Make the scanner executable and sanity-check it**
+
+```bash
+chmod +x .claude/skills/it-it-quality/scan.sh
+bash .claude/skills/it-it-quality/scan.sh | tail -5
+```
+
+Expected: runs and prints a candidate count, no shell error.
+
+- [ ] **Step 5: Commit**
+
+```bash
+git add .claude/skills/it-it-quality
+git commit -m "feat: it-IT quality skill (warm-register guide + scanner + check-lang)"
+```
+
+---
+
+## Note on en-GB (no skill, by design)
+
+en-GB does **not** get a quality skill. It is the canonical, human-authored source,
+LanguageTool's English is the strongest of the four, and the only real risk
+(Americanisms creeping in) is light. It is covered by the existing
+`authoring-story-content` guidance, and `build check-lang --locale en-GB` still
+works for a grammar pass. Promote en-GB to its own skill only if a recurring
+problem actually emerges.
+
+Shared principle across all locales: the mechanical layer (`check-lang`) is written
+once and shared; only the small register guide is per locale. This keeps the skills
+lean and prevents the LanguageTool URL and retry logic from being copied per
+language.
 
 ---
 
@@ -673,7 +845,10 @@ Each sibling skill is a content and authoring task (the register guide is prose)
 - Transient-blip retry: Task 4.
 - Candidate-not-gate behaviour and loud-on-unreachable: Task 6, verified in Task 7.
 - pt-pt-quality skill wired to the shared finder: Task 8.
-- The "skill per language?" question: answered in the Follow-up section (es-ES and it-IT yes but lean and later, en-GB no), with the shared-mechanical-layer principle.
+- Main README documents self-hosting LanguageTool and running a check: Task 9.
+- es-ES quality skill (peninsular register guide, scanner, check-lang): Task 10.
+- it-IT quality skill (warm register guide, scanner, check-lang): Task 11.
+- en-GB intentionally gets no skill, with the reasoning recorded in its note.
 
 **Placeholder scan:** No TODOs or vague steps; every code step shows complete code and every run step shows the exact command and expected result.
 
