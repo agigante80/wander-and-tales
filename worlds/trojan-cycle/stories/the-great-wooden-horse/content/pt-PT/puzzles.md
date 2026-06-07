@@ -5,7 +5,7 @@ jogadores precisam de descobrir, a solução pretendida e uma ajuda meiga para q
 criança encravada avance sempre. Mais do que uma boa ideia deve resultar; recompensa a
 imaginação e a bondade mais do que a resposta "certa".*
 
-## Etapa 1: A Construir o Cavalo (Normal)
+## Paragem 1: A Construir o Cavalo (Normal)
 
 **O desafio.** O grande cavalo de madeira tem de ser construído alto, forte e firme
 sobre as rodas, com uma portinhola num dos lados. Os jogadores ajudam os carpinteiros a
@@ -29,7 +29,7 @@ energia.
 blocos de madeira para as pernas e um por cima para o corpo, e festejar o cavalinho de
 pé.
 
-## Etapa 2: A Enchê-lo de Amizade (Fácil)
+## Paragem 2: A Enchê-lo de Amizade (Fácil)
 
 **O desafio.** O cavalo está construído e a portinhola está aberta. Os jogadores
 escolhem o que pôr lá dentro. A ideia toda é uma surpresa amável, por isso a resposta
@@ -49,7 +49,7 @@ qualquer coisa amável é um sucesso completo e repõe uma estrela de energia.
 **Para tornar mais simples.** Pede a um mais pequenino que escolha só uma coisa boa da
 sala, um boneco macio ou um lanche, e a meta dentro do cavalo para partilhar.
 
-## Etapa 3: A Surpresa aos Portões (Normal)
+## Paragem 3: A Surpresa aos Portões (Normal)
 
 **O desafio.** Os heróis levam o cavalo até aos portões da cidade, que continuam
 fechados. A gente atenta nas muralhas parece desconfiada e cansada. Os jogadores podem

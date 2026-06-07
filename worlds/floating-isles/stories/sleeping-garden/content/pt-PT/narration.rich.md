@@ -21,7 +21,7 @@ serpenteia para dentro da calma.
 *Escolhe o teu nome de mago e a tua magia, Luz, Crescer, Transformação, Voz ou Flutuar,
 antes de dares o primeiro passo.*
 
-## Stop 1: O Portão das Trepadeiras
+## Paragem 1: O Portão das Trepadeiras
 
 O caminho leva-vos a um portão alto, e a passagem está bloqueada. Ao longo das
 estações, as trepadeiras cresceram por cima dele e enrolaram-se num enorme e
@@ -41,7 +41,7 @@ No momento em que o portão se abre de par em par, uma única flor sonolenta abr
 pétala, como a testar se a manhã chegou mesmo. O jardim está a acordar, só um
 bocadinho.
 
-## Stop 2: O Canteiro das Flores
+## Paragem 2: O Canteiro das Flores
 
 Para lá do portão fica um largo canteiro de flores, e aqui algo correu mal, com
 brandura. Quatro flores murcharam e esqueceram-se do seu lugar, com as cores
@@ -59,7 +59,7 @@ Quando a última flor desliza para o seu lugar, todas as quatro erguem a cabeça
 abrem por completo e viram o rosto para um céu que aos poucos fica azul. Mais dois
 cantinhos do jardim sacodem o cinzento de cima.
 
-## Stop 3: A Fonte Falante
+## Paragem 3: A Fonte Falante
 
 O caminho abre-se para uma larga fonte de pedra, e a primeira coisa que reparam é o
 silêncio. Nem um chape, nem um fio de água, nem sequer um pingo. A água repousa

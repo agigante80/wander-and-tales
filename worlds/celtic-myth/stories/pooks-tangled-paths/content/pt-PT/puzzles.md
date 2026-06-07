@@ -5,7 +5,7 @@ jogadores precisam de descobrir, a solução pretendida e uma ajuda meiga para q
 criança encravada avance sempre. Mais do que uma boa ideia deve funcionar; recompensa a
 imaginação e a bondade mais do que a resposta "certa".*
 
-## Stop 1: O Bosque Enredado (Fácil)
+## Paragem 1: O Bosque Enredado (Fácil)
 
 **O desafio.** Os caminhos sinuosos do Bosque de Carvalhos Sussurrantes enrolam-se e
 voltam para trás, e os jogadores chegam sempre ao mesmo velho carvalho. Têm de
@@ -25,7 +25,7 @@ com uma ajudinha conta na mesma como sucesso completo e repõe uma estrela de en
 chão e deixa-os caminhar ao lado dele até à sala seguinte, a enrolá-lo à medida que
 avançam.
 
-## Stop 2: As Três Portas de Pook (Normal)
+## Paragem 2: As Três Portas de Pook (Normal)
 
 **O desafio.** Pook fez crescer três portas em arco de musgo a partir de ramos de
 carvalho. Só uma leva em frente; as outras duas fazem os jogadores voltar para trás. Têm
@@ -50,7 +50,7 @@ escolhida com coragem abre-se na mesma com um estalido para o caminho certo.
 pista, depois pergunta: "Essa porta disse que era a bondosa e verdadeira?" A porta certa é
 a que diz que sim.
 
-## Stop 3: Conquistar o Pook (Normal, depois sem lançamento)
+## Paragem 3: Conquistar o Pook (Normal, depois sem lançamento)
 
 **O desafio.** Os jogadores encontram Pook, o Puca, encolhido num cogumelo, já sem rir.
 Parece pequeno e triste. As crianças podem perguntar-se como pôr as coisas direitas.

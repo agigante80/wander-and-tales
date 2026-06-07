@@ -20,7 +20,7 @@ mais fortes. Vencemos por sermos corajosos, bondosos e cheios de ideias."
 
 *Qual é o nome do teu herói? És um herói de Imaginação, de Coragem ou de Bondade?*
 
-## Stop 1: A Adivinha do Salmão
+## Paragem 1: A Adivinha do Salmão
 
 Descem até à margem do Lago Enevoado. A água está cinzenta e quieta. Como vão alguma vez
 atravessar?
@@ -35,7 +35,7 @@ também é permitido. Tentem alguma coisa e vejam.*
 Quando respondem, o salmão agita a cauda na água. "Bem pensado", diz ele. Mostra-vos onde
 esperar pelo barco.
 
-## Stop 2: A Travessia da Selkie
+## Paragem 2: A Travessia da Selkie
 
 Junto aos juncos espera Sorcha, a Selkie, uma meiga mulher-foca de manto cinzento e
 macio. Tem um barquinho de madeira. Mas é tímida, e parece um pouco solitária, e não vos
@@ -47,7 +47,7 @@ uma palavra amiga. Podiam partilhar o vosso bolo de aveia e mel. O que tentam?*
 Quando são bondosos, Sorcha sorri pela primeira vez em muito tempo. "Entrem", diz ela
 baixinho. Rema convosco para dentro da névoa, e do outro lado espera a Terra da Juventude.
 
-## Stop 3: A Terra da Juventude
+## Paragem 3: A Terra da Juventude
 
 Saltam para terra, para dentro do Outro Mundo. As macieiras estão todas em flor, a luz é
 dourada, e ali está o vosso amigo, a rir no meio das flores. Mas quando chamam o seu nome,

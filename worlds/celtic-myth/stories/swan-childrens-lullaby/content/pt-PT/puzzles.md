@@ -5,7 +5,7 @@ jogadores precisam de descobrir, a solução pretendida e uma ajuda meiga para q
 criança encravada avance sempre. Mais do que uma boa ideia deve funcionar; recompensa a
 imaginação e a bondade mais do que a resposta "certa".*
 
-## Stop 1: A Névoa Cinzenta (Fácil)
+## Paragem 1: A Névoa Cinzenta (Fácil)
 
 **O desafio.** Uma névoa cinzenta e espessa esconde as quatro crianças-cisne no lago. Os
 jogadores precisam de as encontrar e chegar perto sem as assustar.
@@ -25,7 +25,7 @@ chegam perto por sua própria vontade.
 pés-de-lã e sussurro: andem em bicos de pés e digam "olá, cisnes" na vossa voz mais
 meiga, e os cisnes deslizam para fora ao seu encontro.
 
-## Stop 2: Lembrar a Canção (Normal)
+## Paragem 2: Lembrar a Canção (Normal)
 
 **O desafio.** As crianças-cisne esqueceram-se da sua canção de embalar. Três versos
 curtos pairam na névoa, todos fora de ordem, e a canção não funciona até os jogadores os
@@ -59,7 +59,7 @@ lá com ajuda conta na mesma como sucesso completo e repõe uma estrela de energ
 **Para tornar mais simples.** Para os mais pequeninos, usa só dois versos: lê o da hora de
 dormir e o da manhã, e pergunta qual cantamos primeiro quando é hora de dormir.
 
-## Stop 3: Cantar Juntos (Normal)
+## Paragem 3: Cantar Juntos (Normal)
 
 **O desafio.** As crianças-cisne já sabem as palavras, mas têm demasiada vergonha para
 cantar, e a cisne mais pequena é a mais tímida de todas. Não consegue encontrar a sua voz

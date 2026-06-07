@@ -24,7 +24,7 @@ Vencemos por sermos corajosos, leais a um amigo e cheios de ideias."
 
 *Qual é o teu nome de herói? Vais levar a Imaginação, a Coragem ou a Lealdade?*
 
-## Etapa 1: A Construir o Cavalo
+## Paragem 1: A Construir o Cavalo
 
 Na praia há montes de tábuas de madeira lisa. O cavalo tem de ser construído alto e
 forte, para ficar de pé sem baloiçar, com uma pequena portinhola num dos lados.
@@ -39,7 +39,7 @@ as tábuas todos juntos? Experimentem uma coisa e vejam.*
 Quando encaixam as peças e as equilibram mesmo bem, o grande cavalo de madeira ergue-se
 sobre as rodas, alto, altivo e firme. Toda a gente festeja.
 
-## Etapa 2: A Enchê-lo de Amizade
+## Paragem 2: A Enchê-lo de Amizade
 
 Agora o cavalo está construído, e a portinhola está aberta. O que devem pôr lá dentro?
 Soldados, não, nunca soldados. A ideia toda é uma surpresa amável.
@@ -54,7 +54,7 @@ Quando metem lá dentro os figos, as flores e o tamborzinho, o cavalo fica quent
 acolhedor, como um presente à espera de ser aberto. É o cavalo mais simpático que
 alguém já viu.
 
-## Etapa 3: A Surpresa aos Portões
+## Paragem 3: A Surpresa aos Portões
 
 Devagar, devagarinho, levam o grande cavalo colina acima até aos portões da cidade. A
 gente nas muralhas espreita lá de cima. Parecem desconfiados e cansados. Os portões

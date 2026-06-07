@@ -26,7 +26,7 @@ corajosos, bondosos e cheios de ideias. E cumprimos as nossas promessas."
 
 *Qual é o nome do teu herói? Que qualidade vais levar: Imaginação, Coragem ou Bondade?*
 
-## Stop 1: A Adivinha do Salmão
+## Paragem 1: A Adivinha do Salmão
 
 O caminho levou-vos até à margem do Lago Enevoado, onde a água jazia lisa e cinzenta e a
 margem distante se perdia numa névoa branca e suave. Não parecia haver maneira nenhuma de
@@ -45,7 +45,7 @@ Quando a vossa resposta chegou, o salmão baixou a grande cabeça e agitou a cau
 a mandar lentos círculos pelo lago. "Bem pensado", disse ele, quase a sorrir, e
 disse-vos onde na margem deviam esperar por quem vos podia levar para o outro lado.
 
-## Stop 2: A Travessia da Selkie
+## Paragem 2: A Travessia da Selkie
 
 Onde o salmão tinha apontado, por entre os juncos sussurrantes, jazia pronto um barquinho
 de madeira, e ao lado dele esperava Sorcha, a Selkie, uma meiga mulher-foca envolta num
@@ -63,7 +63,7 @@ lado", disse ela baixinho. "Entrem, e fiquem perto." Pegou nos remos e remou con
 para dentro da névoa e, na margem distante, a brilhar através do branco, a Terra da
 Juventude começou a surgir devagar.
 
-## Stop 3: A Terra da Juventude
+## Paragem 3: A Terra da Juventude
 
 Saíram do barco para dentro do Outro Mundo, e ele cortou-vos a respiração. As macieiras
 erguiam-se por todo o lado em suave flor cor-de-rosa, a luz caía quente e dourada, e o

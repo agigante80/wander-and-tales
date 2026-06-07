@@ -32,7 +32,7 @@ cheios de ideias."
 *Qual é o teu nome de herói? Que qualidade vais levar: Imaginação, Coragem ou
 Lealdade?*
 
-## Etapa 1: A Construir o Cavalo
+## Paragem 1: A Construir o Cavalo
 
 Os construtores tinham juntado grandes montes de tábuas de madeira lisa pela areia,
 mas montes de madeira ainda não são um cavalo. Tinha de ficar de pé, alto e forte,
@@ -52,7 +52,7 @@ Quando as peças foram medidas, contadas e encaixadas mesmo assim, o grande cava
 madeira ergueu-se enfim sobre as rodas: alto, altivo e firme como as próprias
 muralhas. A praia inteira rompeu numa festa.
 
-## Etapa 2: A Enchê-lo de Amizade
+## Paragem 2: A Enchê-lo de Amizade
 
 O cavalo estava construído, e a sua pequena portinhola de lado estava aberta como uma
 pergunta. Agora vinha o coração da ideia de Ulisses: o que devia ir lá dentro?
@@ -72,7 +72,7 @@ tamborzinho, o grande cavalo parecia brilhar de acolhimento, como um presente qu
 pode esperar para ser aberto. Era, sem qualquer dúvida, o cavalo mais simpático que as
 costas de Troia alguma vez tinham visto.
 
-## Etapa 3: A Surpresa aos Portões
+## Paragem 3: A Surpresa aos Portões
 
 Devagar, e com muitas mãos prestáveis, levaram o grande cavalo pela longa colina acima
 até aos portões da cidade. Lá no alto, nas muralhas cor de mel, a gente da cidade

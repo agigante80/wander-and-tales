@@ -15,7 +15,7 @@ acordá-lo," dizem ao mesmo tempo. O caminho dourado está à espera.
 *Qual é o vosso nome de mago? Que magia escolhes: Luz, Crescer, Transformação, Voz
 ou Flutuar?*
 
-## Stop 1: O Portão das Trepadeiras
+## Paragem 1: O Portão das Trepadeiras
 
 Chegam a um portão alto. Trepadeiras verdes fecharam-no com um grande nó de folhas.
 O portão não abre.
@@ -29,7 +29,7 @@ trepadeiras com gentileza que se afastem? Experimentem e vejam.*
 Quando o portão se abre, a primeira flor sonolenta abre uma pétala. O jardim está a
 acordar, só um bocadinho.
 
-## Stop 2: O Canteiro das Flores
+## Paragem 2: O Canteiro das Flores
 
 Agora chegam a um canteiro de flores. Quatro delas murcharam e perderam a ordem.
 Uma vozinha cantarola uma pequena rima: "Primeiro o sol, depois o mar, depois a
@@ -43,7 +43,7 @@ que a rima canta?*
 Quando as flores ficam na sua ordem, abrem-se bem e viram o rosto para cima. Mais
 dois cantinhos do jardim voltam a ficar verdes.
 
-## Stop 3: A Fonte Falante
+## Paragem 3: A Fonte Falante
 
 Chegam a uma fonte de pedra. Não está a cantar. Não está sequer a pingar. A água
 está parada e cinzenta, e a fonte parece um pouco triste. Chegam-se perto.

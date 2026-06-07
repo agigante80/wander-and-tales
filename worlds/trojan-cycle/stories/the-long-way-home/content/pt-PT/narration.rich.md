@@ -30,7 +30,7 @@ mantermos a palavra e por sermos cheios de ideias."
 *Qual é o teu nome de herói? Que qualidade vais levar na viagem: Imaginação, Coragem ou
 Lealdade?*
 
-## Etapa 1: A Ilha dos Ventos
+## Paragem 1: A Ilha dos Ventos
 
 Navegaram durante muitos dias, até que, numa manhã luminosa, uma ilha estranha se
 ergueu do mar à frente, cercada toda à volta por falésias de bronze a brilhar, que
@@ -55,7 +55,7 @@ atou-o com doçura na vossa vela. "Um vento favorável para amigos que sabem ped
 ele, e as falésias de bronze afundaram-se atrás de vocês enquanto a vossa nau saltava para
 a frente sobre as ondas.
 
-## Etapa 2: As Sereias Cantoras
+## Paragem 2: As Sereias Cantoras
 
 Durante muitos dias tranquilos navegaram em frente, com o vento de Éolo firme nas
 costas. Depois, numa tarde calma, ouviram-na flutuar sobre a água: uma canção. Era a
@@ -81,7 +81,7 @@ luminosa e alegre, e enrolou-se à volta da vossa nau como uma mão amiga e guio
 segurança por entre os rochedos. "Voltem um dia para nos visitar!", chamaram elas,
 a acenar até os rochedos ficarem pequeninos atrás de vocês.
 
-## Etapa 3: Em Casa, Por Fim
+## Paragem 3: Em Casa, Por Fim
 
 Por fim, lá longe sobre a água luminosa, uma costa baixa e verde apareceu, e algo dentro
 de vocês ficou muito quieto e muito certo. Seria mesmo a casa, depois de todo este tempo?

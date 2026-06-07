@@ -42,7 +42,7 @@ uns aos outros. E, façam o que fizerem, não deixem ninguém para trás."
 *Qual é o teu nome de herói? Que qualidade vais levar: Imaginação, Coragem ou
 Lealdade?*
 
-## Etapa 1: A Seguir Argos
+## Paragem 1: A Seguir Argos
 
 Argos baixou o focinho à areia e partiu, e vocês seguiram atrás dele pela orla
 luminosa do mar. Não tinha pressa. A cada poucos passos parava numa pequena marca,
@@ -61,7 +61,7 @@ Quando escolheram o rasto para onde as pistas apontavam, Argos soltou um único 
 vivo, como quem diz *sim, é por aqui,* e trotou em frente de cauda alta. O cheiro era
 agora vosso, e a procura tinha verdadeiramente começado.
 
-## Etapa 2: As Poças da Maré
+## Paragem 2: As Poças da Maré
 
 O rasto levou-vos por entre as poças da maré, aqueles charquinhos soalheiros que o mar
 deixa nos rochedos, cada um a brilhar de conchas e de caranguejos a fugir. Algures por
@@ -87,7 +87,7 @@ um fio de lã preso numa rocha, deitado como uma pequena seta a apontar o caminh
 praia fora. Argos bateu com a cauda na areia. *Bem pensado,* diziam os olhos vivos
 dele. *Bem lembrado.*
 
-## Etapa 3: A Duna Distante
+## Paragem 3: A Duna Distante
 
 O rasto seguiu sempre em frente, até as naus ficarem pequeninas atrás de vocês, e
 terminou numa duna solitária onde o vento andara atarefado toda a longa tarde, a

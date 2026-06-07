@@ -20,7 +20,7 @@ dizem ao mesmo tempo.
 *Qual é o vosso nome de mago? Que magia escolhes: Luz, Crescer, Transformação, Voz
 ou Flutuar?*
 
-## Stop 1: As Bancas Baralhadas
+## Paragem 1: As Bancas Baralhadas
 
 Caminham pela rua. Cada objeto está no sítio errado, com um ar um pouco perdido. Um
 par de botas pisca-vos o olho da banca do pão.
@@ -33,7 +33,7 @@ objetos? Experimentem e vejam.*
 Quando os objetos vos dizem onde é a sua casa, começam a levá-los de volta. Os
 fáceis depressa voltam ao lugar certo. Mas alguns ainda estão baralhados.
 
-## Stop 2: A Memória do Mercado
+## Paragem 2: A Memória do Mercado
 
 Para acabar, precisam de se lembrar de como estava o mercado antes da confusão:
 quem tinha o quê, e onde. Isso é difícil, porque tudo se mexeu.
@@ -47,7 +47,7 @@ brinquedos? Devolvam cada coisa à banca certa.*
 Quando põem cada coisa onde começou, mais do mercado fica feliz de novo. Só falta
 desfazer um enredo, e é dos complicados.
 
-## Stop 3: A Última Troca
+## Paragem 3: A Última Troca
 
 Três bancas ainda estão erradas, e estão presas numa roda. O padeiro tem botas. O
 sapateiro tem um papagaio de papel. O fabricante de brinquedos tem pão. Cada um tem a

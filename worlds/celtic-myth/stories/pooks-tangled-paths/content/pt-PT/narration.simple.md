@@ -22,7 +22,7 @@ mais fortes. Vencemos por sermos corajosos, bondosos e cheios de ideias."
 
 *Qual é o nome do teu herói? És um herói de Imaginação, de Coragem ou de Bondade?*
 
-## Stop 1: O Bosque Enredado
+## Paragem 1: O Bosque Enredado
 
 Entram no bosque. Os caminhos enrolam-se, torcem-se e voltam para trás. Caminham e
 caminham, e de alguma maneira voltam sempre ao mesmo velho carvalho.
@@ -36,7 +36,7 @@ Quando atam a lã vermelha no início e a desenrolam atrás de vocês, nunca per
 caminho. O bosque não consegue enredar um herói que tem um fio. Em breve encontram o
 caminho que vos leva mais para dentro.
 
-## Stop 2: As Três Portas de Pook
+## Paragem 2: As Três Portas de Pook
 
 O caminho abre-se numa clareira. Ali, Pook fez crescer três portas de musgo a partir de
 ramos de carvalho, lado a lado. Só uma porta leva em frente. As outras fazem-vos voltar
@@ -56,7 +56,7 @@ pedir-lhe uma dica?*
 Quando escolhem a porta da direita, ela abre-se com um estalido feliz. Pook ri-se às
 gargalhadas e dá uma cambalhota para dentro das folhas. Passam por ela.
 
-## Stop 3: Conquistar o Pook
+## Paragem 3: Conquistar o Pook
 
 Mais para dentro do bosque encontram o Pook outra vez, sentado num cogumelo. Já não
 está a rir. Abraça os joelhos e olha para os pés.
