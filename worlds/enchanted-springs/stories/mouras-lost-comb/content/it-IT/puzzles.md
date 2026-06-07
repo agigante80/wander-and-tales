@@ -65,7 +65,9 @@ indovinello o uno scambio leale.
   pettine per il gusto di farlo.
 - **Verità** può mostrargli con dolcezza che il pettine è della Moura e che al paese
   serve, e che un amico vale più di un tesoro. **Fioritura** può rallegrare il suo
-  angolino solitario perché si senta meno solo.
+  angolino solitario perché si senta meno solo. **Canto degli Uccelli** può riempire
+  quell'angolino di uccelli e di canto, così il Trasgo solitario sbuca fuori ad
+  ascoltare e si unisce volentieri.
 
 **Via d'uscita.** Se i bambini si bloccano, fate proporre il gioco al Trasgo stesso
 ("Lo scambio con un bell'indovinello. Ne avete uno?") così c'è una porta evidente da

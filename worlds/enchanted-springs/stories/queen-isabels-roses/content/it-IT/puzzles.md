@@ -35,9 +35,10 @@ e darlo così che nessuno si vergogni.
 magro che aspetta, un bambino pallido a una finestra spoglia. I giocatori leggono
 questi segni del bisogno e lasciano il pane in silenzio a quelle porte, con una
 parola gentile e senza far storie. Questo è osservazione ed empatia, non una
-magia, anche se la **Luce di Stella** può illuminare una soglia buia e la
+magia, anche se la **Luce di Stella** può illuminare una soglia buia, la
 **Fioritura** può lasciare un fiorellino come dono delicato e che non fa
-vergognare, accanto alla pagnotta.
+vergognare, accanto alla pagnotta, e il **Canto degli Uccelli** può mandare avanti
+un uccellino a trovare la porta silenziosa dove qualcuno aspetta affamato.
 
 **Aiuto.** Se i bambini non sono sicuri, fate mormorare a un vicino quale casa è
 rimasta senza pane questa settimana. Scegliere con gentilezza, anche con un

@@ -9,8 +9,8 @@ about this adventure. A failed roll is never a defeat; nobody loses.
 - Print the map, or sketch it, or lay it out with household objects: a Start, four
   stops, and a Goal on a winding path. Each player puts a small figure on the
   Start.
-- Each player chooses three magics from the four in this world: Bloom, Truth,
-  Starlight, and Riversong. A mix across the players works best.
+- Each player chooses one or two magics from the five in this world: Bloom, Truth,
+  Starlight, Riversong, or Birdsong. A mix across the players works best.
 - Give each player five energy stars (five small tokens or bricks). These are
   spent and refilled during play.
 - Build the things that come up (the silver cup, the jackdaw's shiny nest) from

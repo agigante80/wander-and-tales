@@ -12,9 +12,10 @@ verdadeiramente magoado.
 ## Preparar
 
 - Imprimam o mapa. Cada jogador põe uma figurinha no Início, o Salão do Lar.
-- Este mundo não tem magia. Em vez disso cada herói apoia-se numa de três qualidades:
-  **Imaginação** (imaginar ideias), **Coragem** (um coração firme no escuro) ou
-  **Coração** (cuidar dos outros). Na ficha do herói, onde diz magia, deixem cada
+- Este mundo não tem magia. Em vez disso cada herói apoia-se numa ou duas das cinco qualidades:
+  **Imaginação** (imaginar ideias), **Coragem** (um coração firme no escuro),
+  **Coração** (cuidar dos outros), **Paciência** (esperar e tentar de novo) ou
+  **Bondade** (uma mão calorosa e amiga). Na ficha do herói, onde diz magia, deixem cada
   criança escrever a qualidade de que mais gosta. Duas qualidades diferentes funcionam
   melhor juntas.
 - Deem a cada jogador cinco estrelas de energia (cinco fichas ou peças pequenas). São

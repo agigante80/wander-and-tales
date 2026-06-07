@@ -17,6 +17,7 @@ sola.
   pestillo.
 - **Voz**: pedir a las enredaderas con educación que se desenrollen y se aparten.
 - **Luz** puede revelar un cierre escondido que, una vez visto, es fácil de soltar.
+- **Flotar** eleva con suavidad a un jugador por encima de la puerta para abrirla desde el otro lado.
 
 **Apoyo.** Si una tirada falla, el Gato de Niebla empuja una enredadera suelta para
 mostrar por dónde empezar, y entonces los jugadores gastan una estrella de energía

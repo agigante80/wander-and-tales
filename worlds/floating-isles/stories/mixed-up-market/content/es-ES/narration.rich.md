@@ -24,7 +24,7 @@ aprendiendo a arreglar. Os cruzáis una mirada rápida y os remangáis. "Vamos a
 desenredar el mercado", decís, y el lío os espera.
 
 *¿Cuál es vuestro nombre de mago? ¿Qué magia se parece más a vosotros hoy: Luz,
-Crecer, Cambio o Voz?*
+Crecer, Cambio, Voz o Flotar?*
 
 ## Parada 1: Los Puestos Revueltos
 

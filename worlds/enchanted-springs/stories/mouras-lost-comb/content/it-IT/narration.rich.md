@@ -21,8 +21,8 @@ Vi metteste la borsa in spalla, vi guardaste un istante e partiste. Il sentiero
 saliva a serpeggiare fuori dalla piazza e dentro le fresche colline verdi, e più
 salivate più il mondo si faceva silenzioso.
 
-*Qual è il vostro nome da eroi? Quali tre magie porterete con voi: Fioritura,
-Verità, Luce di Stella o Canto del Fiume?*
+*Qual è il vostro nome da eroi? Quali magie porterete con voi, una o due: Fioritura,
+Verità, Luce di Stella, Canto del Fiume o Canto degli Uccelli?*
 
 ## Tappa 1: La Sorgente Silenziosa
 

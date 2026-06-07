@@ -8,7 +8,7 @@ adventure. A failed roll is never a defeat; nobody loses.
 
 - You do not need a printed map for this one. Picture the Market Row, or lay out a
   few household objects to be the stalls and their goods.
-- Each player chooses one magic: Light, Grow, Change, or Voice. Two different magics
+- Each player chooses one magic: Light, Grow, Change, Voice, or Float. Two different magics
   work best, because combining them is half the fun. (Voice is especially handy here,
   but every magic has a place.)
 - Give each player five energy stars (five small tokens or bricks). These are spent

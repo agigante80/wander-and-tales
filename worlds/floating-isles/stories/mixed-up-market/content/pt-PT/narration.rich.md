@@ -24,7 +24,7 @@ aprender a remendar. Trocam um olhar rápido e arregaçam as mangas. "Vamos
 desembaraçar o mercado," dizem, e a confusão espera por vocês.
 
 *Qual é o vosso nome de mago? Que magia te parece mais a tua hoje: Luz, Crescer,
-Transformação ou Voz?*
+Transformação, Voz ou Flutuar?*
 
 ## Stop 1: As Bancas Baralhadas
 

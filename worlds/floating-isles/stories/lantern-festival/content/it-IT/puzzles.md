@@ -34,7 +34,8 @@ giocatori devono capire quali nuvole custodiscono una lanterna, e come raggiunge
 nuvola in modo tenue e la rende calda, mentre le nuvole vuote restano fredde e
 grigie. È un momento di **osservazione**: individuare le nuvole calde e luminose.
 Poi raggiungerle con **Crescita** (una scala di edera o una canna alta), con **Voce**
-(chiedere alla Farfalla Messaggera o alla brezza di portarle giù), oppure con una
+(chiedere alla Farfalla Messaggera o alla brezza di portarle giù), con **Fluttuare**
+(sollevare con dolcezza un giocatore fino alle nuvole luminose), oppure con una
 magia combinata.
 
 **Appoggio.** Se i bambini sono incerti, fate aleggiare la Farfalla Messaggera
@@ -59,6 +60,8 @@ ardita:
   scendere libera.
 - **Cambiamento**: trasformare un sassolino in un morbido gancio su un lungo stelo
   cresciuto, per farla scendere.
+- **Fluttuare**: far scivolare la lanterna con dolcezza giù dalla cengia e lasciarla
+  scendere fluttuando fra le mani che aspettano.
 Qualsiasi piano che la faccia scendere in sicurezza funziona. Sottolineate che
 nessuno deve arrampicarsi né rischiare una caduta.
 

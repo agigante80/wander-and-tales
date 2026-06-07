@@ -12,9 +12,10 @@ time. A failed roll is never a defeat; nobody loses.
 
 - Print the map. Each player puts a small figure on the Start, the Lantern Village
   market.
-- This world has no magic. Instead each hero leans on one of three qualities:
-  **Imagination** (dreaming up ideas), **Courage** (a steady heart), or **Kindness**
-  (caring for others). On the hero sheet, where it says magic, let each child write
+- This world has no magic. Instead each hero leans on one or two of the five qualities:
+  **Imagination** (dreaming up ideas), **Courage** (a steady heart), **Kindness**
+  (caring for others), **Patience** (waiting and trying again), or **Curiosity**
+  (noticing what others miss). On the hero sheet, where it says magic, let each child write
   the quality they like best. Two different qualities work best together.
 - Give each player five energy stars (five small tokens or bricks). They are spent
   and refilled during play.

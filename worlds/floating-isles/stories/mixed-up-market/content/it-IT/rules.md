@@ -8,7 +8,7 @@ in questa avventura. Un tiro fallito non è mai una sconfitta; nessuno perde.
 
 - Per questa storia non serve una mappa stampata. Immaginate la Via del Mercato,
   oppure disponete qualche oggetto di casa che faccia da bancarelle e da merci.
-- Ogni giocatore sceglie una magia: Luce, Crescita, Cambiamento o Voce. La cosa
+- Ogni giocatore sceglie una magia: Luce, Crescita, Cambiamento, Voce o Fluttuare. La cosa
   migliore è scegliere due magie diverse, perché combinarle è metà del
   divertimento. (Qui la Voce è particolarmente utile, ma ogni magia ha il suo
   posto.)

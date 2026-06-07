@@ -17,8 +17,8 @@ forestiero. Sembra molto triste. Voi lo sapete che lui non ruberebbe mai.
 
 Prendete la vostra borsa. "Aiutiamoli," dite. "Troviamo la verità."
 
-*Qual è il vostro nome da eroi? Quali magie scegliete: Fioritura, Verità, Luce
-di Stella o Canto del Fiume?*
+*Qual è il vostro nome da eroi? Quali magie scegliete, una o due: Fioritura, Verità, Luce
+di Stella, Canto del Fiume o Canto degli Uccelli?*
 
 ## Tappa 1: Il Posatoio Silenzioso
 

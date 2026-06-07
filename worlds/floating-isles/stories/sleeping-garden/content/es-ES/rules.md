@@ -8,7 +8,7 @@ esta aventura. Una tirada fallida nunca es una derrota; nadie pierde.
 
 - Imprimid el mapa. Cada jugador pone una figurita (un muñeco de piezas de
   construcción va muy bien) en la Salida.
-- Cada jugador elige una magia: Luz, Crecer, Cambio o Voz. Lo mejor es elegir dos
+- Cada jugador elige una magia: Luz, Crecer, Cambio, Voz o Flotar. Lo mejor es elegir dos
   magias distintas, porque combinarlas es la mitad de la diversión.
 - Dad a cada jugador cinco estrellas de energía (cinco fichas o piezas pequeñas).
   Se gastan y se recuperan durante el juego.

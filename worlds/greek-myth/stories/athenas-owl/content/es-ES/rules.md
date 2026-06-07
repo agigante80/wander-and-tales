@@ -12,11 +12,12 @@ derrota; nadie pierde.
 
 - Imprimid el mapa. Cada jugador pone una figura pequeña en la Salida, el Pueblo de
   los Olivos.
-- En este mundo no hay magia. En su lugar, cada héroe se apoya en una de tres
-  cualidades: **Imaginación** (inventar ideas), **Valor** (un corazón firme) o
-  **Corazón** (cuidar de los demás). En la ficha de héroe, donde dice magia, que
-  cada niño escriba la cualidad que más le guste. Dos cualidades distintas funcionan
-  mejor juntas.
+- En este mundo no hay magia. En su lugar, cada héroe se apoya en una o dos de las
+  cinco cualidades: **Imaginación** (inventar ideas), **Valor** (un corazón firme),
+  **Corazón** (cuidar de los demás), **Curiosidad** (fijarse en lo que otros no ven)
+  o **Astucia** (una idea lista y amable). En la ficha de héroe, donde dice magia,
+  que cada niño escriba la cualidad que más le guste. Dos cualidades distintas
+  funcionan mejor juntas.
 - Dad a cada jugador cinco estrellas de energía (cinco fichas o piezas pequeñas). Se
   gastan y se recuperan durante el juego.
 - Sacad un objeto o dos si podéis: cualquier cosa pequeña y blandita que haga de

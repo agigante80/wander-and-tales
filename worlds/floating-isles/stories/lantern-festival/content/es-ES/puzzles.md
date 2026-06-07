@@ -34,7 +34,8 @@ Los jugadores deben averiguar qué nubes guardan un farol, y cómo alcanzarlas.
 con suavidad y esté caliente, mientras que las nubes vacías siguen frías y grises.
 Este es un momento de **observación**: distinguid las nubes cálidas y brillantes.
 Luego llegad a ellas con **Crecer** (una escalera de enredadera o un junco alto),
-con **Voz** (pedid a la Mariposa Mensajera o a la brisa que las bajen) o con una
+con **Voz** (pedid a la Mariposa Mensajera o a la brisa que las bajen), con
+**Flotar** (elevad con suavidad a un jugador hasta las nubes brillantes) o con una
 magia combinada.
 
 **Apoyo.** Si los niños dudan, haced que la Mariposa Mensajera revolotee junto a una
@@ -58,6 +59,7 @@ atrevida:
 - **Voz**: pedid a la brisa de la tarde el empujón más suave para soltarlo.
 - **Cambio**: convertid un guijarro en un gancho blando sobre un tallo largo y
   crecido para bajarlo.
+- **Flotar** el farol con suavidad fuera de la repisa y dejad que baje flotando hasta unas manos que esperan.
 Cualquier plan para bajarlo sin peligro sirve. Recalcad que nadie necesita trepar
 ni arriesgarse a caer.
 

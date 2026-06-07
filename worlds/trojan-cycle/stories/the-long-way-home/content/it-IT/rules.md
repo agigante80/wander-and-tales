@@ -10,9 +10,10 @@ ma le buone idee e la gentilezza vincono sempre, e nessuno si fa mai male davver
 
 - Stampate la mappa. Ogni giocatore mette una piccola pedina sulla Partenza,
   L'Accampamento delle Navi sulle Coste Ventose di Troia.
-- In questo mondo non c'è magia. Al suo posto, ogni eroe si appoggia a una di tre
-  qualità: **Immaginazione** (inventare idee), **Coraggio** (un cuore saldo su
-  un mare vasto) o **Lealtà** (mantenere la lealtà con un amico). Sulla scheda
+- In questo mondo non c'è magia. Al suo posto, ogni eroe si appoggia a una o due delle
+  cinque qualità: **Immaginazione** (inventare idee), **Coraggio** (un cuore saldo su
+  un mare vasto), **Lealtà** (mantenere la lealtà con un amico), **Astuzia** (un'idea
+  furba e gentile) o **Pazienza** (aspettare e riprovare). Sulla scheda
   dell'eroe, dove dice magia, che ogni bambino scriva la qualità che preferisce. Due
   qualità diverse funzionano meglio insieme.
 - Date a ogni giocatore cinque stelle di energia (cinque gettoni o pezzi piccoli). Si

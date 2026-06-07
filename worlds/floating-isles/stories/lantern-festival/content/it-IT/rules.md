@@ -9,7 +9,7 @@ in questa avventura. Un tiro fallito non è mai una sconfitta; nessuno perde.
 - Per questa storia non serve una mappa stampata. Immaginate il viaggio dalla
   Piazza delle Lanterne su fino alle nuvole, oppure disponete tre piccoli punti che
   facciano da tre tappe.
-- Ogni giocatore sceglie una magia: Luce, Crescita, Cambiamento o Voce. La cosa
+- Ogni giocatore sceglie una magia: Luce, Crescita, Cambiamento, Voce o Fluttuare. La cosa
   migliore è scegliere due magie diverse, perché combinarle è metà del divertimento.
 - Date a ogni giocatore cinque stelle di energia (cinque gettoni o pezzetti
   piccoli). Si spendono e si recuperano durante il gioco.

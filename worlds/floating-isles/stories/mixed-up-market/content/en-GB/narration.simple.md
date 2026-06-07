@@ -15,7 +15,7 @@ and the toys have swapped stalls. Nobody can find their things.
 You are little mages, and you can put this right. "Let us untangle the market," you
 say together.
 
-*What is your mage name? Which magic do you choose: Light, Grow, Change, or Voice?*
+*What is your mage name? Which magic do you choose: Light, Grow, Change, Voice, or Float?*
 
 ## Stop 1: The Muddled Stalls
 

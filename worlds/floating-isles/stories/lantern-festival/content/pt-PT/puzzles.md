@@ -34,7 +34,8 @@ em surdina e ficar quente, enquanto as nuvens vazias se mantêm frias e cinzenta
 Este é um momento de **observação**: distinguir as nuvens quentes e a brilhar.
 Depois alcançá-las com **Crescer** (uma escada de trepadeira ou uma cana alta),
 com **Voz** (pedir à Borboleta Mensageira ou à brisa que as tragam cá para baixo),
-ou com uma magia combinada.
+com **Flutuar** (erguer um jogador com brandura até às nuvens a brilhar), ou com uma
+magia combinada.
 
 **Saída.** Se as crianças não tiverem a certeza, faz a Borboleta Mensageira pairar
 ao lado de uma nuvem a brilhar para lhes mostrar como é "quente e a brilhar", depois
@@ -57,6 +58,8 @@ arrojada:
 - **Voz**: pedir à brisa da noite o mais meigo dos empurrões para a soltar.
 - **Transformação**: tornar um seixo num gancho macio num longo caule crescido para a
   baixar.
+- **Flutuar**: soltar a lanterna com brandura da saliência e deixá-la descer a flutuar
+  até às mãos que esperam.
 Qualquer plano que a traga cá para baixo em segurança resulta. Faz questão de
 sublinhar que ninguém precisa de trepar nem de arriscar uma queda.
 

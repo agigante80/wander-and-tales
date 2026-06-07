@@ -10,10 +10,12 @@ hurt or frightened for long. A failed roll is never a defeat; nobody loses.
 ## Setting up
 
 - Print the map. Each player puts a small figure on the Start, the Olive Town.
-- This world has no magic. Instead each hero leans on one of three qualities:
-  **Imagination** (dreaming up ideas), **Courage** (a steady heart), or **Heart** (caring for
-  others). On the hero sheet, where it says magic, let each child write the quality
-  they like best. Two different qualities work best together.
+- This world has no magic. Instead each hero leans on one or two of the five
+  qualities: **Imagination** (dreaming up ideas), **Courage** (a steady heart),
+  **Heart** (caring for others), **Curiosity** (noticing what others miss), or
+  **Cleverness** (a clever, kind idea). On the hero sheet, where it says magic, let
+  each child write the quality they like best. Two different qualities work best
+  together.
 - Give each player five energy stars (five small tokens or bricks). They are spent
   and refilled during play.
 - Set out a prop or two if you can: anything small and soft to stand in for Glaux the

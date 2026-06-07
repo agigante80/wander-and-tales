@@ -25,7 +25,7 @@ che state imparando a sistemare. Vi scambiate un'occhiata veloce e vi rimboccate
 le maniche. "Sbroghiamo il mercato", dite, e il pasticcio vi aspetta.
 
 *Qual è il vostro nome da mago? Quale magia vi somiglia di più oggi: Luce,
-Crescita, Cambiamento o Voce?*
+Crescita, Cambiamento, Voce o Fluttuare?*
 
 ## Tappa 1: Le Bancarelle Imbrogliate
 

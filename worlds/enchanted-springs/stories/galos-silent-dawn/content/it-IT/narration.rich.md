@@ -25,8 +25,8 @@ Avete guardato il gallo silenzioso, e poi il forestiero infelice, e avete
 capito che i due problemi in fondo erano uno solo. "Troviamo la verità," avete
 detto, e vi siete messi la borsa in spalla.
 
-*Qual è il vostro nome da eroi? Quali tre magie porterete con voi: Fioritura,
-Verità, Luce di Stella o Canto del Fiume?*
+*Qual è il vostro nome da eroi? Quali magie porterete con voi, una o due: Fioritura,
+Verità, Luce di Stella, Canto del Fiume o Canto degli Uccelli?*
 
 ## Tappa 1: Il Posatoio Silenzioso
 

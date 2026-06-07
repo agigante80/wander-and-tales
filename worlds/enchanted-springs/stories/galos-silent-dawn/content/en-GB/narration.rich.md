@@ -23,8 +23,8 @@ You looked at the silent rooster, and at the unhappy stranger, and you knew the
 two troubles were really one. "Let us find the truth," you said, and shouldered
 your bag.
 
-*What is your hero name? Which three magics will you carry: Bloom, Truth,
-Starlight, or Riversong?*
+*What is your hero name? Which one or two magics will you carry: Bloom, Truth,
+Starlight, Riversong, or Birdsong?*
 
 ## Stop 1: The Silent Roost
 

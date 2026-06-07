@@ -19,7 +19,7 @@ sentiero che scende a serpentina. "Riportiamo la festa", dite, e la piazza buia 
 aspetta là sotto.
 
 *Qual è il vostro nome da mago? Quale magia vi somiglia di più stasera: Luce,
-Crescita, Cambiamento o Voce?*
+Crescita, Cambiamento, Voce o Fluttuare?*
 
 ## Tappa 1: La Piazza Spenta
 

@@ -13,7 +13,7 @@ La Plaza de los Faroles está gris y en silencio. Los faroles se han ido volando
 Sois pequeños magos. Cogéis vuestra mochila. Os miráis. "Vamos a traer de vuelta
 las luces", decís a la vez. El camino hacia la plaza os espera.
 
-*¿Cuál es vuestro nombre de mago? ¿Qué magia elegís: Luz, Crecer, Cambio o Voz?*
+*¿Cuál es vuestro nombre de mago? ¿Qué magia elegís: Luz, Crecer, Cambio, Voz o Flotar?*
 
 ## Parada 1: La Plaza Apagada
 

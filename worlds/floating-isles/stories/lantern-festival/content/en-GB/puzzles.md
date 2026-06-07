@@ -33,7 +33,8 @@ players must work out which clouds hold a lantern, and how to reach them.
 and feel warm, while the empty clouds stay cool and grey. This is an **observation**
 moment: pick out the warm, glowing clouds. Then reach them with **Grow** (a vine
 ladder or a tall reed), with **Voice** (ask the Messenger Butterfly or the breeze to
-carry them down), or with a combined magic.
+carry them down), with **Float** (lift a player gently up to the glowing clouds), or
+with a combined magic.
 
 **Fallback.** If the children are unsure, have the Messenger Butterfly hover beside
 one glowing cloud to show them what "warm and glowing" looks like, then let them find
@@ -53,6 +54,7 @@ danger.
 - **Grow** a thick cushion of leaves or a soft vine below to catch the lantern.
 - **Voice**: ask the evening breeze for the gentlest nudge to float it free.
 - **Change** a pebble into a soft hook on a long grown stem to lift it down.
+- **Float** the lantern gently off the ledge and let it drift down into waiting hands.
 Any plan that brings it down safely works. Make a point of the fact that nobody needs
 to climb or risk a fall.
 

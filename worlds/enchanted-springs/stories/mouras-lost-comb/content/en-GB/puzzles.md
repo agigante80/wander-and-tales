@@ -60,7 +60,8 @@ and he wants a game, a riddle, or a fair swap.
   play along generously, and he hands the comb over for the fun of it.
 - **Truth** can gently show him the comb belongs to the Moura and the village
   needs it, and that a friend is better than a treasure. **Bloom** can brighten
-  his lonely nook so he feels less alone.
+  his lonely nook so he feels less alone. **Birdsong** can fill that nook with
+  birds and song so the lonely Trasgo creeps out to listen and join in.
 
 **Fallback.** If the children freeze, have the Trasgo propose the game himself ("I
 will trade it for a good riddle. Got one?") so there is an obvious door to walk

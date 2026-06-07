@@ -17,7 +17,7 @@ bags, share a quick and certain look, and set off down the winding path. "Let us
 bring the festival back," you say, and the dark square waits for you below.
 
 *What is your mage name? Which magic feels most like you tonight: Light, Grow,
-Change, or Voice?*
+Change, Voice, or Float?*
 
 ## Stop 1: The Dim Square
 

@@ -16,8 +16,8 @@ very sad. You know he would never steal.
 
 You pick up your bag. "Let us help," you say. "Let us find the truth."
 
-*What is your hero name? Which magics do you choose: Bloom, Truth, Starlight, or
-Riversong?*
+*What is your hero name? Which one or two magics do you choose: Bloom, Truth, Starlight,
+Riversong, or Birdsong?*
 
 ## Stop 1: The Silent Roost
 

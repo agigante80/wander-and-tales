@@ -21,8 +21,8 @@ bisogno, e fatelo in silenzio, come farei io, senza chiedere niente in cambio."
 Avete promesso che l'avreste fatto, e siete scesi verso la città che si svegliava,
 mentre le campane del castello suonavano piano dietro di voi.
 
-*Qual è il vostro nome da eroi? Quali tre magie porterete con voi: Fioritura,
-Verità, Luce di Stella o Canto del Fiume?*
+*Qual è il vostro nome da eroi? Quali magie porterete con voi, una o due: Fioritura,
+Verità, Luce di Stella, Canto del Fiume o Canto degli Uccelli?*
 
 ## Tappa 1: La Cucina del Castello
 

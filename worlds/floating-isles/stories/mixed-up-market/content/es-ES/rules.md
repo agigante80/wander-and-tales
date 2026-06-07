@@ -8,7 +8,7 @@ esta aventura. Una tirada fallida nunca es una derrota; nadie pierde.
 
 - En esta no hace falta imprimir mapa. Imaginad la Calle del Mercado, o colocad unos
   cuantos objetos de casa que sean los puestos y sus mercancías.
-- Cada jugador elige una magia: Luz, Crecer, Cambio o Voz. Lo mejor es elegir dos
+- Cada jugador elige una magia: Luz, Crecer, Cambio, Voz o Flotar. Lo mejor es elegir dos
   magias distintas, porque combinarlas es la mitad de la diversión. (Aquí la Voz es
   especialmente útil, pero todas las magias tienen su sitio.)
 - Dad a cada jugador cinco estrellas de energía (cinco fichas o piezas pequeñas).

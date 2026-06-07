@@ -15,6 +15,8 @@ la voce finché i giocatori non lo conforteranno e si prenderanno cura di lui.
   chiedere all'acqua di lenirgli la gola.
 - **Fioritura** per riportare un po' di colore e vita sul suo posatoio
   afflosciato.
+- **Canto degli Uccelli** per chiamarlo da uccello a uccello e invogliare il suo
+  canto a tornare fuori.
 - Un semplice gesto gentile senza magia: sedersi accanto a lui, cantare piano o
   promettere ad alta voce di scagionare il viaggiatore.
 
@@ -38,8 +40,10 @@ campanaria.
 **Soluzione.** Gli indizi portano a una creatura che ama le cose che brillano e
 sa arrivare in alto, e i bagliori conducono in cima alla **vecchia torre
 campanaria**. Questo è osservazione e logica, non una magia, anche se la **Luce
-di Stella** può rendere più facile vedere un debole bagliore, e il **Canto del
-Fiume** può chiedere alla piazza che cosa ha visto.
+di Stella** può rendere più facile vedere un debole bagliore, il **Canto del
+Fiume** può chiedere alla piazza che cosa ha visto, e il **Canto degli Uccelli**
+può chiedere agli uccelli del mercato da che parte è volato il piccolo ladro
+luccicante.
 
 **Aiuto.** Se i bambini sono bloccati, fate dire a un venditore del mercato
 "quell'uccellaccio sfrontato lassù nella torre mi ha rubato di nuovo i bottoni,"
@@ -65,6 +69,8 @@ strapparle la coppa.
 - **Luce di Stella** per evocare un bagliore che le piace ancora di più, oppure
   **Verità** per mostrarle con dolcezza che la coppa serve e che lo scambio è
   giusto.
+- **Canto degli Uccelli** per parlarle nel suo stesso cinguettio di taccola, così
+  resta calma e viene fuori invece di spaventarsi.
 
 **Aiuto.** Se i bambini si bloccano, fate spingere alla taccola stessa un bottone
 luccicante verso di loro, come a proporre lo scambio. Nell'istante in cui offrono

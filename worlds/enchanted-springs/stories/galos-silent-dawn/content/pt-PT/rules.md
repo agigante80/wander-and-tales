@@ -8,8 +8,8 @@ aventura. Uma jogada falhada nunca é uma derrota; ninguém perde.
 
 - Imprime o mapa, ou desenha-o, ou monta-o com objetos da casa: um Início, quatro paragens
   e uma Meta num caminho a serpentear. Cada jogador põe uma figura pequena no Início.
-- Cada jogador escolhe três magias das quatro deste mundo: Floração, Verdade, Luz de Estrela
-  e Canto do Rio. Uma mistura entre os jogadores resulta melhor.
+- Cada jogador escolhe uma ou duas magias das cinco deste mundo: Floração, Verdade, Luz de Estrela,
+  Canto do Rio ou Canto dos Pássaros. Uma mistura entre os jogadores resulta melhor.
 - Dá a cada jogador cinco estrelas de energia (cinco fichas ou peças pequenas). Gastam-se e
   enchem-se de novo durante o jogo.
 - Monta as coisas que vão aparecendo (a taça de prata, o ninho brilhante da gralha) com

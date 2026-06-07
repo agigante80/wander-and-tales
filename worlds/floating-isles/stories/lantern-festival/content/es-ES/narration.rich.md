@@ -19,7 +19,7 @@ serpenteante. "Vamos a traer de vuelta la fiesta", decís, y la plaza oscura os
 espera abajo.
 
 *¿Cuál es vuestro nombre de mago? ¿Qué magia se parece más a vosotros esta noche:
-Luz, Crecer, Cambio o Voz?*
+Luz, Crecer, Cambio, Voz o Flotar?*
 
 ## Parada 1: La Plaza Apagada
 

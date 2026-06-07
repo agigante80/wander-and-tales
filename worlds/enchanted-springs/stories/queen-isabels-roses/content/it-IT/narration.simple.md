@@ -17,8 +17,8 @@ ha bisogno, e fatelo in silenzio, come farei io."
 Prendete la vostra borsa. "Lo faremo," dite. La città si sta svegliando, giù
 sotto il castello.
 
-*Qual è il vostro nome da eroi? Quali magie scegliete: Fioritura, Verità, Luce
-di Stella o Canto del Fiume?*
+*Qual è il vostro nome da eroi? Quali magie scegliete, una o due: Fioritura, Verità, Luce
+di Stella, Canto del Fiume o Canto degli Uccelli?*
 
 ## Tappa 1: La Cucina del Castello
 

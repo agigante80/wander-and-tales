@@ -8,7 +8,7 @@ adventure. A failed roll is never a defeat; nobody loses.
 
 - Print the map. Each player puts a small figure (a building-brick minifigure
   works well) on the Start.
-- Each player chooses one magic: Light, Grow, Change, or Voice. Two different
+- Each player chooses one magic: Light, Grow, Change, Voice, or Float. Two different
   magics work best, because combining them is half the fun.
 - Give each player five energy stars (five small tokens or bricks). These are
   spent and refilled during play.

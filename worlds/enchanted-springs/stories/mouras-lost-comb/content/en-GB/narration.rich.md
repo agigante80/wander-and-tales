@@ -20,8 +20,8 @@ You shouldered your bag, glanced at one another, and set off. The path wound up
 out of the square and into the cool green hills, and the further you climbed the
 quieter the world became.
 
-*What is your hero name? Which three magics will you carry: Bloom, Truth,
-Starlight, or Riversong?*
+*What is your hero name? Which one or two magics will you carry: Bloom, Truth,
+Starlight, Riversong, or Birdsong?*
 
 ## Stop 1: The Quiet Spring
 

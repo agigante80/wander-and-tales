@@ -10,8 +10,8 @@ sconfitta; nessuno perde.
 - Stampate la mappa, oppure disegnatela, oppure costruitela con oggetti di casa:
   una Partenza, quattro tappe e un Traguardo su un sentiero che serpeggia. Ogni
   giocatore mette una piccola pedina sulla Partenza.
-- Ogni giocatore sceglie tre magie fra le quattro di questo mondo: Fioritura,
-  Verità, Luce di Stella e Canto del Fiume. Un bel mix fra i giocatori funziona
+- Ogni giocatore sceglie una o due magie fra le cinque di questo mondo: Fioritura,
+  Verità, Luce di Stella, Canto del Fiume o Canto degli Uccelli. Un bel mix fra i giocatori funziona
   meglio.
 - Date a ogni giocatore cinque stelle di energia (cinque gettoni o mattoncini).
   Si spendono e si ricaricano durante il gioco.

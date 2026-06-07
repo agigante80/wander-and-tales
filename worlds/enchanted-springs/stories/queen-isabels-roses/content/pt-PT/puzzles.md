@@ -32,9 +32,10 @@ forma a que ninguém se sinta envergonhado.
 **Solução.** As pistas são os pormenores frios: uma chaminé sem fumo, um gato magro à espera,
 uma criança pálida a uma janela vazia. Os jogadores leem estes sinais de necessidade e deixam
 pão em silêncio a essas portas, com uma palavra bondosa e sem alarido. Isto é observação e
-empatia, não uma magia, embora a **Luz de Estrela** possa iluminar uma porta sombria e a
+empatia, não uma magia, embora a **Luz de Estrela** possa iluminar uma porta sombria, a
 **Floração** possa deixar uma florzinha como prenda meiga, que poupa o orgulho, ao lado do
-pão.
+pão, e o **Canto dos Pássaros** possa mandar à frente um passarinho a encontrar a porta
+caladinha onde alguém espera com fome.
 
 **Alternativa.** Se as crianças não souberem, faz uma vizinha murmurar qual a casa que ficou
 sem pão esta semana. Escolher com bondade, mesmo com uma pista, é um sucesso completo e enche

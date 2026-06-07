@@ -15,6 +15,7 @@ open on its own.
 - **Change** the knot into something looser, or into a key for the latch.
 - **Voice**: ask the vines politely to unwind and step aside.
 - **Light** can reveal a hidden catch that, once seen, is easy to undo.
+- **Float** lifts a player gently up and over the gate to open it from the far side.
 
 **Fallback.** If a roll misses, the Mist Cat nudges a loose vine to show where to
 start, then the players spend an energy star or combine two magics to finish.

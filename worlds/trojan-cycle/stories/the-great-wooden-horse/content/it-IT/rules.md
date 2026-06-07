@@ -10,9 +10,10 @@ e gli eroi vincono mettendo fine al litigio con una sorpresa gentile.
 
 - Stampate la mappa. Ogni giocatore mette una piccola pedina sulla Partenza,
   L'Accampamento delle Navi sulla spiaggia.
-- In questo mondo non c'è magia. Al suo posto, ogni eroe si appoggia a una di tre
-  qualità: **Immaginazione** (inventare idee), **Coraggio** (un cuore saldo) o **Lealtà**
-  (restare fedeli a un amico). Sulla scheda dell'eroe, dove dice magia, che ogni
+- In questo mondo non c'è magia. Al suo posto, ogni eroe si appoggia a una o due delle
+  cinque qualità: **Immaginazione** (inventare idee), **Coraggio** (un cuore saldo),
+  **Lealtà** (restare fedeli a un amico), **Astuzia** (un'idea furba e gentile) o
+  **Pazienza** (aspettare e riprovare). Sulla scheda dell'eroe, dove dice magia, che ogni
   bambino scriva la qualità che preferisce. Due qualità diverse funzionano meglio
   insieme.
 - Date a ogni giocatore cinque stelle di energia (cinque gettoni o pezzi piccoli). Si

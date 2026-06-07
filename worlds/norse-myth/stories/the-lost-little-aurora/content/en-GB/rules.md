@@ -11,9 +11,10 @@ is ever truly hurt.
 ## Setting up
 
 - Print the map. Each player puts a small figure on the Start, the Hearth Hall.
-- This world has no magic. Instead each hero leans on one of three qualities:
-  **Imagination** (dreaming up ideas), **Courage** (a steady heart), or **Heart** (caring
-  for others). On the hero sheet, where it says magic, let each child write the
+- This world has no magic. Instead each hero leans on one or two of the five qualities:
+  **Imagination** (dreaming up ideas), **Courage** (a steady heart), **Heart** (caring
+  for others), **Patience** (waiting and trying again), or **Kindness** (a warm helping
+  hand). On the hero sheet, where it says magic, let each child write the
   quality they like best. Two different qualities work best together.
 - Give each player five energy stars (five small tokens or bricks). They are spent
   and refilled during play.

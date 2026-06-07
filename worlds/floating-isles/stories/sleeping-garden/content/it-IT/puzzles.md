@@ -18,6 +18,8 @@ da solo.
 - **Voce**: chiedere ai rampicanti con educazione di srotolarsi e farsi da parte.
 - **Luce** può rivelare un fermo nascosto che, una volta visto, è facile da
   aprire.
+- **Fluttuare**: sollevare con dolcezza un giocatore oltre il cancello, per aprirlo
+  dall'altra parte.
 
 **Appoggio.** Se un tiro fallisce, il Gatto di Nebbia spinge un rampicante allentato
 per mostrare da dove cominciare, e poi i giocatori spendono una stella di energia o

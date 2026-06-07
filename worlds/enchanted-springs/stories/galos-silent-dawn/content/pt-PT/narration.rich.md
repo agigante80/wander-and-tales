@@ -23,8 +23,8 @@ Vocês olharam para o galo silencioso, e para o forasteiro infeliz, e perceberam
 problemas eram, no fundo, um só. "Vamos descobrir a verdade", disseram, e puseram o saco ao
 ombro.
 
-*Qual é o teu nome de herói? Que três magias vais levar: Floração, Verdade, Luz de Estrela
-ou Canto do Rio?*
+*Qual é o teu nome de herói? Que magias vais levar, uma ou duas: Floração, Verdade, Luz de Estrela,
+Canto do Rio ou Canto dos Pássaros?*
 
 ## Paragem 1: O Poleiro Silencioso
 

@@ -16,8 +16,8 @@ Parece muy triste. Vosotros sabéis que él jamás robaría.
 
 Cogéis vuestra bolsa. "Vamos a ayudar", decís. "Vamos a encontrar la verdad."
 
-*¿Cómo os llamáis, héroes? ¿Qué magias elegís: Floración, Verdad, Luz de Estrella
-o Canto del Río?*
+*¿Cómo os llamáis, héroes? ¿Qué magias elegís, una o dos: Floración, Verdad, Luz de Estrella,
+Canto del Río o Canto de los Pájaros?*
 
 ## Parada 1: El Gallinero Silencioso
 

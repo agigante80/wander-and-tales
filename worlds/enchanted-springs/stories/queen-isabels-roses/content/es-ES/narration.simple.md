@@ -16,8 +16,8 @@ discreción, como lo haría yo."
 Cogéis vuestra bolsa. "Lo haremos", decís. La ciudad se está despertando bajo el
 castillo.
 
-*¿Cómo os llamáis, héroes? ¿Qué magias elegís: Floración, Verdad, Luz de Estrella o
-Canto del Río?*
+*¿Cómo os llamáis, héroes? ¿Qué magias elegís, una o dos: Floración, Verdad, Luz de Estrella,
+Canto del Río o Canto de los Pájaros?*
 
 ## Parada 1: La Cocina del Castillo
 

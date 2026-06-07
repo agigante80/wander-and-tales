@@ -18,7 +18,7 @@ la mochila, os miráis y, casi sin pensarlo, decís las mismas palabras a la vez
 "Vamos a despertarlo." Allá abajo, el camino dorado se aleja serpenteando hacia el
 silencio.
 
-*Elegid vuestro nombre de mago y vuestra magia, Luz, Crecer, Cambio o Voz, antes
+*Elegid vuestro nombre de mago y vuestra magia, Luz, Crecer, Cambio, Voz o Flotar, antes
 de dar el primer paso.*
 
 ## Parada 1: La Puerta de Enredaderas

@@ -84,7 +84,7 @@ héroe. Cogéis una cada uno, tú incluido. Un jugador escribe un nombre y luego
 héroe tres **fortalezas** (o, en un mundo con magia, tres **magias**), hace un dibujo
 rápido y anota las pocas cosas que lleva consigo.
 
-Con tres fortalezas basta, y no hay elección equivocada. Una fortaleza es solo una
+Con una o dos fortalezas basta, y no hay elección equivocada. Una fortaleza es solo una
 manera en que a este héroe le gusta ayudar, y "lo que hace" es una línea corta con las
 palabras del niño. Ofrece algunas y deja que invente las suyas:
 
@@ -144,7 +144,7 @@ Empieza por la promesa, cread un héroe cada uno y luego a empezar.
   pierde nadie. Estamos todos en el mismo equipo, y si algo no sale, sencillamente
   buscamos otra manera." Esa sola frase libera al niño para atreverse.
 - **Cread un héroe cada uno.** Reparte las fichas de aventura y haced los héroes
-  juntos, tú incluido. Que elijan un nombre y tres magias o fortalezas, y que dibujen
+  juntos, tú incluido. Que elijan un nombre y una o dos magias o fortalezas, y que dibujen
   su retrato. Los Héroes de Ejemplo están ahí si alguien quiere un modelo.
 - **Pon la escena.** Lee el comienzo de la historia en voz alta, despacio, y haz la
   primera pregunta. A partir de ahí, la historia os lleva a los dos.
