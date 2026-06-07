@@ -10,6 +10,7 @@ const { lang } = Astro.props;
       <div><p class="promise">{t(lang, "the_promise")}</p></div>
       <div>
         <h5>{t(lang, "foot_play")}</h5>
+        <a href={`/${lang}/#worlds`}>{t(lang, "nav_worlds")}</a>
         <a href={`/${lang}/how-to-play`}>{t(lang, "nav_help")}</a>
         <a href={`/${lang}/help`}>{t(lang, "guide")}</a>
         <a href={`/${lang}/why`}>{t(lang, "nav_why")}</a>
