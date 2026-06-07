@@ -783,7 +783,7 @@
         "pt-PT": {
           "world_book": {
             "path": "kits/pt-PT/celtic-myth/celtic-myth-world-book-pt-PT.pdf",
-            "version": "v12.0",
+            "version": "v13.0",
             "updated": "2026-06-07"
           },
           "example_heroes": {
@@ -850,9 +850,9 @@
             ],
             "pt-PT": [
               "Antes de começar",
-              "Stop 1: O Bosque Enredado",
-              "Stop 2: As Três Portas de Pook",
-              "Stop 3: Conquistar o Pook",
+              "Paragem 1: O Bosque Enredado",
+              "Paragem 2: As Três Portas de Pook",
+              "Paragem 3: Conquistar o Pook",
               "Os Caminhos Ficam Certos"
             ]
           },
@@ -1007,18 +1007,18 @@
             "pt-PT": {
               "tale_simple": {
                 "path": "kits/pt-PT/celtic-myth/pooks-tangled-paths/celtic-myth-pooks-tangled-paths-tale-book-simple-pt-PT.pdf",
-                "version": "v9.0",
+                "version": "v10.0",
                 "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/pt-PT/celtic-myth/pooks-tangled-paths/celtic-myth-pooks-tangled-paths-tale-book-rich-pt-PT.pdf",
-                "version": "v9.0",
+                "version": "v10.0",
                 "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/pt-PT/celtic-myth/pooks-tangled-paths/celtic-myth-pooks-tangled-paths-atlas-pt-PT.pdf",
-                "version": "v8.0",
-                "updated": "2026-06-06"
+                "version": "v9.0",
+                "updated": "2026-06-07"
               }
             }
           }
@@ -1079,9 +1079,9 @@
             ],
             "pt-PT": [
               "Antes de começar",
-              "Stop 1: A Névoa Cinzenta",
-              "Stop 2: Lembrar a Canção",
-              "Stop 3: Cantar Juntos",
+              "Paragem 1: A Névoa Cinzenta",
+              "Paragem 2: Lembrar a Canção",
+              "Paragem 3: Cantar Juntos",
               "O Anoitecer Fica Rosa"
             ]
           },
@@ -1236,18 +1236,18 @@
             "pt-PT": {
               "tale_simple": {
                 "path": "kits/pt-PT/celtic-myth/swan-childrens-lullaby/celtic-myth-swan-childrens-lullaby-tale-book-simple-pt-PT.pdf",
-                "version": "v8.0",
+                "version": "v9.0",
                 "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/pt-PT/celtic-myth/swan-childrens-lullaby/celtic-myth-swan-childrens-lullaby-tale-book-rich-pt-PT.pdf",
-                "version": "v8.0",
+                "version": "v9.0",
                 "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/pt-PT/celtic-myth/swan-childrens-lullaby/celtic-myth-swan-childrens-lullaby-atlas-pt-PT.pdf",
-                "version": "v8.0",
-                "updated": "2026-06-06"
+                "version": "v9.0",
+                "updated": "2026-06-07"
               }
             }
           }
@@ -1308,9 +1308,9 @@
             ],
             "pt-PT": [
               "Antes de começar",
-              "Stop 1: A Adivinha do Salmão",
-              "Stop 2: A Travessia da Selkie",
-              "Stop 3: A Terra da Juventude",
+              "Paragem 1: A Adivinha do Salmão",
+              "Paragem 2: A Travessia da Selkie",
+              "Paragem 3: A Terra da Juventude",
               "De Volta a Casa Através da Névoa"
             ]
           },
@@ -1465,18 +1465,18 @@
             "pt-PT": {
               "tale_simple": {
                 "path": "kits/pt-PT/celtic-myth/the-land-of-youth/celtic-myth-the-land-of-youth-tale-book-simple-pt-PT.pdf",
-                "version": "v7.0",
+                "version": "v8.0",
                 "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/pt-PT/celtic-myth/the-land-of-youth/celtic-myth-the-land-of-youth-tale-book-rich-pt-PT.pdf",
-                "version": "v7.0",
+                "version": "v8.0",
                 "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/pt-PT/celtic-myth/the-land-of-youth/celtic-myth-the-land-of-youth-atlas-pt-PT.pdf",
-                "version": "v7.0",
-                "updated": "2026-06-06"
+                "version": "v8.0",
+                "updated": "2026-06-07"
               }
             }
           }
@@ -3617,7 +3617,7 @@
         "pt-PT": {
           "world_book": {
             "path": "kits/pt-PT/floating-isles/floating-isles-world-book-pt-PT.pdf",
-            "version": "v22.0",
+            "version": "v24.0",
             "updated": "2026-06-07"
           },
           "example_heroes": {
@@ -3684,9 +3684,9 @@
             ],
             "pt-PT": [
               "Antes de começar",
-              "Stop 1: A Praça Escura",
-              "Stop 2: O Banco de Nuvens",
-              "Stop 3: A Saliência Alta",
+              "Paragem 1: A Praça Escura",
+              "Paragem 2: O Banco de Nuvens",
+              "Paragem 3: A Saliência Alta",
               "Nimbo, a Baleia-Nuvem Bebé"
             ]
           },
@@ -3854,17 +3854,17 @@
             "pt-PT": {
               "tale_simple": {
                 "path": "kits/pt-PT/floating-isles/lantern-festival/floating-isles-lantern-festival-tale-book-simple-pt-PT.pdf",
-                "version": "v13.0",
+                "version": "v14.0",
                 "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/pt-PT/floating-isles/lantern-festival/floating-isles-lantern-festival-tale-book-rich-pt-PT.pdf",
-                "version": "v13.0",
+                "version": "v14.0",
                 "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/pt-PT/floating-isles/lantern-festival/floating-isles-lantern-festival-atlas-pt-PT.pdf",
-                "version": "v12.0",
+                "version": "v13.0",
                 "updated": "2026-06-07"
               }
             }
@@ -3925,9 +3925,9 @@
             ],
             "pt-PT": [
               "Antes de começar",
-              "Stop 1: As Bancas Baralhadas",
-              "Stop 2: A Memória do Mercado",
-              "Stop 3: A Última Troca",
+              "Paragem 1: As Bancas Baralhadas",
+              "Paragem 2: A Memória do Mercado",
+              "Paragem 3: A Última Troca",
               "Pip, o Novo Mago"
             ]
           },
@@ -4082,17 +4082,17 @@
             "pt-PT": {
               "tale_simple": {
                 "path": "kits/pt-PT/floating-isles/mixed-up-market/floating-isles-mixed-up-market-tale-book-simple-pt-PT.pdf",
-                "version": "v12.0",
+                "version": "v13.0",
                 "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/pt-PT/floating-isles/mixed-up-market/floating-isles-mixed-up-market-tale-book-rich-pt-PT.pdf",
-                "version": "v12.0",
+                "version": "v13.0",
                 "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/pt-PT/floating-isles/mixed-up-market/floating-isles-mixed-up-market-atlas-pt-PT.pdf",
-                "version": "v12.0",
+                "version": "v13.0",
                 "updated": "2026-06-07"
               }
             }
@@ -4154,9 +4154,9 @@
             ],
             "pt-PT": [
               "Antes de começar",
-              "Stop 1: O Portão das Trepadeiras",
-              "Stop 2: O Canteiro das Flores",
-              "Stop 3: A Fonte Falante",
+              "Paragem 1: O Portão das Trepadeiras",
+              "Paragem 2: O Canteiro das Flores",
+              "Paragem 3: A Fonte Falante",
               "O Coração do Jardim"
             ]
           },
@@ -4312,12 +4312,12 @@
             "pt-PT": {
               "tale_simple": {
                 "path": "kits/pt-PT/floating-isles/sleeping-garden/floating-isles-sleeping-garden-tale-book-simple-pt-PT.pdf",
-                "version": "v14.0",
+                "version": "v16.0",
                 "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/pt-PT/floating-isles/sleeping-garden/floating-isles-sleeping-garden-tale-book-rich-pt-PT.pdf",
-                "version": "v14.0",
+                "version": "v16.0",
                 "updated": "2026-06-07"
               },
               "atlas": {
@@ -9006,7 +9006,7 @@
         "pt-PT": {
           "world_book": {
             "path": "kits/pt-PT/trojan-cycle/trojan-cycle-world-book-pt-PT.pdf",
-            "version": "v13.0",
+            "version": "v14.0",
             "updated": "2026-06-07"
           },
           "example_heroes": {
@@ -9073,9 +9073,9 @@
             ],
             "pt-PT": [
               "Antes de começar",
-              "Etapa 1: A Seguir Argos",
-              "Etapa 2: As Poças da Maré",
-              "Etapa 3: A Duna Distante",
+              "Paragem 1: A Seguir Argos",
+              "Paragem 2: As Poças da Maré",
+              "Paragem 3: A Duna Distante",
               "Ninguém Fica para Trás"
             ]
           },
@@ -9230,18 +9230,18 @@
             "pt-PT": {
               "tale_simple": {
                 "path": "kits/pt-PT/trojan-cycle/argos-and-the-keepsake/trojan-cycle-argos-and-the-keepsake-tale-book-simple-pt-PT.pdf",
-                "version": "v9.0",
+                "version": "v10.0",
                 "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/pt-PT/trojan-cycle/argos-and-the-keepsake/trojan-cycle-argos-and-the-keepsake-tale-book-rich-pt-PT.pdf",
-                "version": "v9.0",
+                "version": "v10.0",
                 "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/pt-PT/trojan-cycle/argos-and-the-keepsake/trojan-cycle-argos-and-the-keepsake-atlas-pt-PT.pdf",
-                "version": "v8.0",
-                "updated": "2026-06-06"
+                "version": "v9.0",
+                "updated": "2026-06-07"
               }
             }
           }
@@ -9302,9 +9302,9 @@
             ],
             "pt-PT": [
               "Antes de começar",
-              "Etapa 1: A Construir o Cavalo",
-              "Etapa 2: A Enchê-lo de Amizade",
-              "Etapa 3: A Surpresa aos Portões",
+              "Paragem 1: A Construir o Cavalo",
+              "Paragem 2: A Enchê-lo de Amizade",
+              "Paragem 3: A Surpresa aos Portões",
               "A Longa Discórdia Acaba"
             ]
           },
@@ -9459,18 +9459,18 @@
             "pt-PT": {
               "tale_simple": {
                 "path": "kits/pt-PT/trojan-cycle/the-great-wooden-horse/trojan-cycle-the-great-wooden-horse-tale-book-simple-pt-PT.pdf",
-                "version": "v7.0",
+                "version": "v8.0",
                 "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/pt-PT/trojan-cycle/the-great-wooden-horse/trojan-cycle-the-great-wooden-horse-tale-book-rich-pt-PT.pdf",
-                "version": "v7.0",
+                "version": "v8.0",
                 "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/pt-PT/trojan-cycle/the-great-wooden-horse/trojan-cycle-the-great-wooden-horse-atlas-pt-PT.pdf",
-                "version": "v6.2",
-                "updated": "2026-06-06"
+                "version": "v7.0",
+                "updated": "2026-06-07"
               }
             }
           }
@@ -9531,9 +9531,9 @@
             ],
             "pt-PT": [
               "Antes de começar",
-              "Etapa 1: A Ilha dos Ventos",
-              "Etapa 2: As Sereias Cantoras",
-              "Etapa 3: Em Casa, Por Fim",
+              "Paragem 1: A Ilha dos Ventos",
+              "Paragem 2: As Sereias Cantoras",
+              "Paragem 3: Em Casa, Por Fim",
               "Em Casa, Por Fim"
             ]
           },
@@ -9688,18 +9688,18 @@
             "pt-PT": {
               "tale_simple": {
                 "path": "kits/pt-PT/trojan-cycle/the-long-way-home/trojan-cycle-the-long-way-home-tale-book-simple-pt-PT.pdf",
-                "version": "v8.0",
+                "version": "v9.0",
                 "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/pt-PT/trojan-cycle/the-long-way-home/trojan-cycle-the-long-way-home-tale-book-rich-pt-PT.pdf",
-                "version": "v8.0",
+                "version": "v9.0",
                 "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/pt-PT/trojan-cycle/the-long-way-home/trojan-cycle-the-long-way-home-atlas-pt-PT.pdf",
-                "version": "v7.0",
-                "updated": "2026-06-06"
+                "version": "v8.0",
+                "updated": "2026-06-07"
               }
             }
           }
