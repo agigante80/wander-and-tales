@@ -41,8 +41,8 @@ echo "# it-IT quality scan"
 # Note: case-sensitive on purpose for "Lei" (formal you) versus "lei" (she).
 scan "formal Lei for players (use tu/voi); noisy, 'Lei' can mean 'she'" \
   '\bLei\b'
-scan "anglicisms: use the Italian word" \
-  '(?i)\b(game|team|level|player|score|cool|okay|ok)\b'
+scan "anglicisms: use the Italian word ('ok' is fine, so not flagged)" \
+  '(?i)\b(game|team|level|player|score|cool)\b'
 scan "po misspelling: write \"po'\" with an apostrophe, never the accented form" \
   '\bpò\b'
 scan "accent error: closed-e words take the acute (perché, né, sé), not the grave" \

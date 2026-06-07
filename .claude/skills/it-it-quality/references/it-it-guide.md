@@ -24,6 +24,12 @@ forms can be copied directly.)
   ("Stampa", "Leggi", "Tieni a portata di mano"). Setup lists that address
   everyone together may use "voi", but pick one and stay consistent inside a file.
 
+**Drop the subject pronoun.** Italian carries the person in the verb ending, so
+the explicit "tu" and "voi" sound emphatic or textbook-stiff in neutral prose.
+Write "Entrate nel giardino. Cosa fate?" not "Voi entrate...", and "Come ti
+chiami?" not "Tu come ti chiami?". Use "tu" or "voi" out loud only for emphasis or
+contrast ("Decidete **voi**.").
+
 ### Never use the formal "Lei" for the players
 
 The polite "Lei" (with 3rd person singular verbs) is for strangers and offices. In
@@ -65,8 +71,11 @@ speaks to a child, not the way a grammar book does.
 | level | livello | level |
 | player | giocatore | player |
 | score, points | punti, punteggio | score |
-| okay | va bene, d'accordo | okay, ok |
 | cool, great | che bello, fantastico, forte | cool |
+
+"ok" is the exception: it is fully naturalised in Italian, so it is acceptable.
+"va bene" and "d'accordo" mean the same and are a touch warmer, so prefer them in
+the cosy voice, but "ok" is not an error to hunt down.
 
 ## 4. Spelling and accents
 
