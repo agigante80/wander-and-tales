@@ -7,3 +7,6 @@ public/fonts/
 public/kits/
 .wrangler/
 *.log
+
+# Unlighthouse audit output
+.unlighthouse/
