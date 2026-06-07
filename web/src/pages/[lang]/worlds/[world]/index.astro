@@ -1,7 +1,7 @@
 ---
 import Base from "../../../../layouts/Base.astro";
 import { LANGS, SITE_URL, localeOf } from "../../../../consts";
-import { worlds, site, mediaUrl, pdfUrl, pdfVer, snippet, firstParagraph } from "../../../../lib/content";
+import { worlds, site, mediaUrl, mediaSrcset, pdfUrl, pdfVer, snippet, firstParagraph } from "../../../../lib/content";
 import { t, AGE_RANGE } from "../../../../lib/i18n";
 
 export function getStaticPaths() {
@@ -67,7 +67,7 @@ const jsonld = {
         </div>
       </div>
       <div class="art t-isles" style="aspect-ratio:2/3;max-width:300px;margin-inline:auto;box-shadow:0 24px 50px -22px rgba(0,0,0,.5)" role="img" aria-label={world.name[locale]}>
-        {coverUrl && <img src={coverUrl} alt="" />}
+        {coverUrl && <img src={coverUrl} srcset={mediaSrcset(cover?.path)} sizes="300px" alt="" />}
       </div>
     </div>
   </section>
@@ -77,11 +77,12 @@ const jsonld = {
     <div style="display:grid;grid-template-columns:1fr;gap:var(--sp-4)">
       {world.stories.map((s: any, i: number) => {
         const stale = teaser(s);
-        const scov = mediaUrl((s.images?.find((im: any) => im.role === "cover") ?? s.images?.[0])?.path);
+        const scovPath = (s.images?.find((im: any) => im.role === "cover") ?? s.images?.[0])?.path;
+        const scov = mediaUrl(scovPath);
         return (
           <a class="card card-link" href={`/${lang}/worlds/${world.id}/${s.id}`} style="display:flex;gap:var(--sp-4);padding:var(--sp-4)">
             <span class="art" style="width:116px;flex:none;aspect-ratio:2/3;border-radius:var(--r-md)" role="img" aria-label={s.title[locale]}>
-              {scov && <img src={scov} alt="" loading="lazy" />}
+              {scov && <img src={scov} srcset={mediaSrcset(scovPath)} sizes="116px" alt="" loading="lazy" />}
             </span>
             <div style="min-width:0">
               <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">
@@ -111,7 +112,7 @@ const jsonld = {
           <div class="card hero-card card-pad stack-4">
             <div style="display:flex;align-items:center;gap:var(--sp-4)">
               <span class="art square t-isles" style="width:72px;height:72px;flex:none;border-radius:var(--r-md)" aria-hidden="true">
-                {mediaUrl(h.image_path) && <img src={mediaUrl(h.image_path)} alt="" loading="lazy" />}
+                {mediaUrl(h.image_path) && <img src={mediaUrl(h.image_path)} srcset={mediaSrcset(h.image_path)} sizes="72px" alt="" loading="lazy" />}
               </span>
               <div>
                 <h3 style="font-size:var(--fs-h4)">{h.name}</h3>

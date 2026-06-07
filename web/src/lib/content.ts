@@ -38,6 +38,30 @@ export const storyMapUrl = (worldId: string, storyId: string, locale: string) =>
     : null;
 };
 
+// Responsive srcset. prepare-assets writes <base>-<W>.webp for each width <= native,
+// under web/public; build the srcset from the variants that exist so the browser
+// picks the right size for the display. urlBase is the public path without extension.
+const PUB = path.resolve(process.cwd(), "public");
+const SRCSET_WIDTHS = [320, 640, 960, 1280];
+function srcsetFrom(urlBase: string, pubBase: string): string {
+  return SRCSET_WIDTHS.filter((w) => fs.existsSync(`${pubBase}-${w}.webp`))
+    .map((w) => `${urlBase}-${w}.webp ${w}w`)
+    .join(", ");
+}
+// srcset for a manifest image path ("worlds/.../assets/x.png")
+export const mediaSrcset = (relPath?: string | null) => {
+  if (!relPath) return undefined;
+  const base = relPath.replace(/\.png$/, "");
+  const set = srcsetFrom("/media/" + base, path.join(PUB, "media", base));
+  return set || undefined;
+};
+// srcset for a story trail map
+export const mapSrcset = (worldId: string, storyId: string, locale: string) => {
+  const base = `${worldId}/${storyId}/map-${locale}`;
+  const set = srcsetFrom("/maps/" + base, path.join(PUB, "maps", base));
+  return set || undefined;
+};
+
 // A manifest PDF entry is { path, version, updated } (or null). The PDFs are
 // self-hosted under /kits/... (copied into public by scripts/prepare-assets.mjs).
 export const pdfUrl = (entry?: any) => {
@@ -99,6 +123,7 @@ export interface ReaderSection {
   simpleHtml: string;
   richHtml: string;
   sceneUrl: string | null;
+  sceneSrcset?: string;
   sceneAlt: string;
   solutionHtml: string | null;
 }
@@ -135,6 +160,7 @@ export function storyReader(
       simpleHtml: md2(s.body),
       richHtml: md2(r.body),
       sceneUrl: sc ? mediaUrl(sc.path) : null,
+      sceneSrcset: sc ? mediaSrcset(sc.path) : undefined,
       sceneAlt: sc?.alt?.[locale] ?? "",
       solutionHtml: sol ? md2(sol) : null,
     };

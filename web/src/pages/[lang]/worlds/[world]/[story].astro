@@ -1,7 +1,7 @@
 ---
 import Base from "../../../../layouts/Base.astro";
 import { LANGS, SITE_URL, localeOf } from "../../../../consts";
-import { worlds, site, mediaUrl, pdfUrl, pdfVer, mdHtml, snippet, firstParagraph, storyReader, storyMapUrl } from "../../../../lib/content";
+import { worlds, site, mediaUrl, mediaSrcset, pdfUrl, pdfVer, mdHtml, snippet, firstParagraph, storyReader, storyMapUrl, mapSrcset } from "../../../../lib/content";
 import { t, AGE_RANGE } from "../../../../lib/i18n";
 
 export function getStaticPaths() {
@@ -107,7 +107,7 @@ const jsonld = {
 
     {coverUrl && (
       <figure style="margin:var(--sp-7) auto 0;max-width:340px">
-        <div class="art" style="aspect-ratio:2/3"><img src={coverUrl} alt={cover?.alt?.[locale] ?? ""} /></div>
+        <div class="art" style="aspect-ratio:2/3"><img src={coverUrl} srcset={mediaSrcset(cover?.path)} sizes="(min-width:380px) 340px, calc(100vw - 40px)" alt={cover?.alt?.[locale] ?? ""} /></div>
       </figure>
     )}
 
@@ -130,12 +130,12 @@ const jsonld = {
           {sec.heading && <h2 class="font-display" style="font-size:var(--fs-h3);color:var(--pine);margin:0 0 var(--sp-3)">{sec.heading}</h2>}
           {idx === firstHeadedIdx && mapUrl && (
             <figure style="margin:0 0 var(--sp-5)">
-              <img src={mapUrl} alt={story.title[locale]} loading="lazy" style="width:100%;border-radius:var(--r-lg);border:1px solid var(--frame);box-shadow:var(--sh-sm)" />
+              <img src={mapUrl} srcset={mapSrcset(world.id, story.id, locale)} sizes="(min-width:720px) 680px, calc(100vw - 40px)" alt={story.title[locale]} loading="lazy" style="width:100%;border-radius:var(--r-lg);border:1px solid var(--frame);box-shadow:var(--sh-sm)" />
             </figure>
           )}
           {sec.sceneUrl && (
             <figure style="margin:0 0 var(--sp-4)">
-              <div class="art" style="aspect-ratio:3/2"><img src={sec.sceneUrl} alt={sec.sceneAlt} loading="lazy" /></div>
+              <div class="art" style="aspect-ratio:3/2"><img src={sec.sceneUrl} srcset={sec.sceneSrcset} sizes="(min-width:720px) 680px, calc(100vw - 40px)" alt={sec.sceneAlt} loading="lazy" /></div>
             </figure>
           )}
           <div class="prose">
