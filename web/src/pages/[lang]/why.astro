@@ -17,7 +17,7 @@ export function getStaticPaths() {
 const { lang } = Astro.params;
 const md = (files[`../../content/why/${lang}.md`] ?? files["../../content/why/en.md"]) as string;
 const html = marked.parse(md, { gfm: true, async: false }) as string;
-const banner = "/media/worlds/enchanted-springs/stories/mouras-lost-comb/assets/scene-the-spring-sings-again.png";
+const banner = "/media/worlds/enchanted-springs/stories/mouras-lost-comb/assets/scene-the-spring-sings-again.webp";
 ---
 
 <Legal lang={lang!} route="why" heading={t(lang!, "nav_why")} description={t(lang!, "meta_why")} image={banner}>
