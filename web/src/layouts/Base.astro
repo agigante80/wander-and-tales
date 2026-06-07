@@ -17,10 +17,11 @@ interface Props {
 const { lang, route = "", title, description, image, jsonld } = Astro.props;
 const locale = localeOf(lang);
 const desc = description ?? site.tagline[locale];
-const path = route ? `/${lang}/${route}` : `/${lang}/`;
+// trailing slash on every path, matching the directory build and the sitemap
+const path = `/${lang}/${route ? route + "/" : ""}`;
 const canonical = SITE_URL + path;
 const ogImage = image ? SITE_URL + image : SITE_URL + "/og-image.png";
-const alt = (code: string) => `${SITE_URL}/${code}${route ? "/" + route : "/"}`;
+const alt = (code: string) => `${SITE_URL}/${code}/${route ? route + "/" : ""}`;
 const ogLocale = locale.replace("-", "_");
 const ogLocaleAlt = LANGS.filter((l) => l.locale !== locale).map((l) => l.locale.replace("-", "_"));
 // every page gets structured data; pages may override with their own jsonld
