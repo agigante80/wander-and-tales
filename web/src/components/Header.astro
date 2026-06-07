@@ -17,7 +17,7 @@ const NAV = [
 
 <header class="site-header">
   <div class="wrap bar">
-    <a class="brand" href={`/${lang}/`} aria-label="Wander and Tales, home" aria-current={route === "" ? "page" : undefined}>
+    <a class="brand" href={`/${lang}/`} aria-label={"Wander & Tales, home"} aria-current={route === "" ? "page" : undefined}>
       <span class="mark">
         <svg viewBox="0 0 512 512" aria-hidden="true"><defs><linearGradient id="wtA" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="512"><stop offset="0" stop-color="#5b62a8"></stop><stop offset="1" stop-color="#9a86c4"></stop></linearGradient></defs><rect width="512" height="512" fill="url(#wtA)"></rect><circle cx="372" cy="120" r="40" fill="#f6f1e6"></circle><circle cx="389" cy="108" r="35" fill="url(#wtA)"></circle><circle cx="140" cy="150" r="20" fill="#f2a93b"></circle><path d="M196,256 C182,296 204,344 256,392 C308,344 330,296 316,256 Z" fill="#25543c"></path><ellipse cx="256" cy="256" rx="74" ry="26" fill="#2f6f4f"></ellipse><polygon points="224,214 256,180 288,214" fill="#25543c"></polygon><rect x="230" y="212" width="52" height="42" rx="3" fill="#f6f1e6"></rect><rect x="247" y="226" width="18" height="28" rx="2" fill="#f2a93b"></rect><path d="M104,338 C97,360 110,386 140,410 C170,386 183,360 176,338 Z" fill="#2f6f4f"></path><ellipse cx="140" cy="338" rx="40" ry="14" fill="#4ea24a"></ellipse></svg>
       </span>
@@ -30,8 +30,8 @@ const NAV = [
 
     <div class="header-tools">
       <div class="lang" data-lang>
-        <button class="lang-btn" data-lang-btn aria-haspopup="true" aria-expanded="false" aria-label={t(lang, "other_langs")}>
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"></circle><path d="M3 12h18M12 3c2.5 2.7 2.5 15.3 0 18M12 3c-2.5 2.7-2.5 15.3 0 18"></path></svg>
+        <button class="lang-btn" data-lang-btn aria-haspopup="true" aria-expanded="false" aria-label={`${lang.toUpperCase()}, ${t(lang, "other_langs")}`}>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M3 12h18M12 3c2.5 2.7 2.5 15.3 0 18M12 3c-2.5 2.7-2.5 15.3 0 18"></path></svg>
           <span>{lang.toUpperCase()}</span>
         </button>
         <div class="lang-menu" data-lang-menu role="menu">

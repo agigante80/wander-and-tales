@@ -9,19 +9,19 @@ const { lang } = Astro.props;
     <div class="footcols">
       <div><p class="promise">{t(lang, "the_promise")}</p></div>
       <div>
-        <h5>{t(lang, "foot_play")}</h5>
+        <h2>{t(lang, "foot_play")}</h2>
         <a href={`/${lang}/#worlds`}>{t(lang, "nav_worlds")}</a>
         <a href={`/${lang}/how-to-play`}>{t(lang, "nav_help")}</a>
         <a href={`/${lang}/help`}>{t(lang, "guide")}</a>
         <a href={`/${lang}/why`}>{t(lang, "nav_why")}</a>
       </div>
       <div>
-        <h5>{t(lang, "foot_make")}</h5>
+        <h2>{t(lang, "foot_make")}</h2>
         <a href={`/${lang}/create`}>{t(lang, "nav_create")}</a>
         <a href={REPO} rel="noopener">{t(lang, "source")}</a>
       </div>
       <div>
-        <h5>{t(lang, "foot_smallprint")}</h5>
+        <h2>{t(lang, "foot_smallprint")}</h2>
         <a href={`/${lang}/privacy`}>{t(lang, "privacy")}</a>
         <a href={`/${lang}/legal`}>{t(lang, "legal")}</a>
         <a href={`/${lang}/terms`}>{t(lang, "terms")}</a>

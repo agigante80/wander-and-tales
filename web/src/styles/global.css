@@ -144,7 +144,7 @@ button{font-family:inherit;color:inherit}
 @media (max-width:560px){ .section{padding-block:var(--sp-9)} }
 .eyebrow{font-family:var(--font-hand);font-size:var(--fs-hand);color:var(--purple-2);line-height:1;font-weight:600}
 .lead{font-size:var(--fs-lead);line-height:1.55;color:var(--ink-soft)}
-.muted{color:var(--ink-soft)} .faint{color:var(--ink-faint)} .center{text-align:center}
+.muted{color:var(--ink-soft)} .faint{color:var(--ink-soft)} .center{text-align:center}
 .kicker{font-family:var(--font-display);font-weight:700;font-size:var(--fs-tiny);letter-spacing:.1em;text-transform:uppercase;color:var(--accent)}
 .divider{height:1px;background:var(--line-soft);border:0;margin-block:var(--sp-7)}
 
@@ -187,7 +187,7 @@ button{font-family:inherit;color:inherit}
 .btn-dl .ico{flex:none;width:42px;height:42px;border-radius:var(--r-sm);display:grid;place-items:center;background:var(--chip-bg);color:var(--accent)}
 .btn-dl .ico svg{width:22px;height:22px}
 .btn-dl .t{font-family:var(--font-display);font-weight:600;color:var(--ink-strong);line-height:1.2}
-.btn-dl .m{font-size:var(--fs-tiny);color:var(--ink-faint);font-variant-numeric:tabular-nums}
+.btn-dl .m{font-size:var(--fs-tiny);color:var(--ink-soft);font-variant-numeric:tabular-nums}
 .btn-dl .arr{margin-left:auto;color:var(--ink-faint)}
 
 /* ============================================================
@@ -341,7 +341,7 @@ button{font-family:inherit;color:inherit}
 .site-footer{margin-top:var(--sp-11);border-top:1px solid var(--line-soft);background:color-mix(in oklab,var(--surface),transparent 30%)}
 .site-footer .promise{font-family:var(--font-hand);font-size:clamp(1.4rem,1.1rem + 1.4vw,2rem);color:var(--purple-2);line-height:1.1;max-width:24ch}
 .footcols{display:grid;grid-template-columns:1fr;gap:var(--sp-7);padding-block:var(--sp-9)}
-.footcols h5{font-family:var(--font-display);font-weight:700;font-size:var(--fs-tiny);letter-spacing:.08em;text-transform:uppercase;color:var(--ink-faint);margin-bottom:var(--sp-3)}
+.footcols h2{font-family:var(--font-display);font-weight:700;font-size:var(--fs-tiny);letter-spacing:.08em;text-transform:uppercase;color:var(--ink-faint);margin-bottom:var(--sp-3)}
 .footcols a{display:block;color:var(--ink-soft);padding:6px 0;font-size:var(--fs-small)}
 .footcols a:hover{color:var(--accent)}
 .foot-legal{border-top:1px solid var(--line-soft);padding-block:var(--sp-5);font-size:var(--fs-tiny);color:var(--ink-faint);line-height:1.7}
