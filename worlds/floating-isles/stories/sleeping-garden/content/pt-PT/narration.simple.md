@@ -21,7 +21,7 @@ Chegam a um portão alto. Trepadeiras verdes fecharam-no com um grande nó de fo
 O portão não abre.
 
 Um gato cinzento e suave sai da névoa. É o Gato de Névoa. Ronrona e olha para o nó,
-depois para vós. Parece querer ajudar.
+depois para vocês. Parece querer ajudar.
 
 *Como abrem o caminho? Uma magia podia abrir uma brecha? Podiam pedir às
 trepadeiras com gentileza que se afastem? Experimentem e vejam.*

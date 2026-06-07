@@ -30,7 +30,7 @@ teimoso nó de folhas, e o portão não cede nem um dedo.
 Algo se mexe na bruma, ao lado do caminho. Um gato da cor do nevoeiro avança e
 senta-se e enrola a cauda com cuidado à volta das patas. É o Gato de Névoa, e toda
 a gente na ilha sabe que ele aparece exatamente quando uma dica pode ser útil.
-Estuda o nó, depois volta os olhos calmos para vós, como se dissesse: então, o que
+Estuda o nó, depois volta os olhos calmos para vocês, como se dissesse: então, o que
 vamos fazer com isto?
 
 *Como abrem o caminho? Podem fazer crescer uma brecha, transformar o nó em algo mais

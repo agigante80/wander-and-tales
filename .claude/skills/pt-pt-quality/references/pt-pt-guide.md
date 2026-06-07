@@ -129,6 +129,11 @@ only the **progressive** gerund for an action in progress ("estou fazendo") that
 is the Brazilianism to fix ("estou a fazer"). The scanner flags every gerund, so
 the judgment pass keeps the adverbial ones.
 
+The **gradual** construction "ir / vir + gerúndio" is also natural EP (confirmed
+by native review): "as coisas que **vão aparecendo**", "**foram-se apercebendo**
+aos poucos", "as estrelas **vão sendo** pintadas". Keep it; it carries a
+step-by-step sense the simple "a + infinitivo" does not.
+
 ## 3. Clitic pronoun placement
 
 European Portuguese puts the pronoun **after the verb (enclisis)** by default;
@@ -181,9 +186,10 @@ correct pt-PT). "para eu fazer" not "para mim fazer". Movement takes "a" or
 "para": "vou ao parque", never "vou no parque".
 
 "Rapariga" is the everyday Portugal word for a girl, and "menina" is just as
-natural (choose by sentence and register); likewise "miúdo" and "menino" both work
-for a child. Keep "rapariga": in Brazil it is offensive, but in Portugal it is
-neutral and normal, so the only word to avoid here is the Brazilian "garota".
+natural (for younger children "menina" fits, "rapariga" leans a little older);
+likewise "miúdo" and "menino" both work for a child. Keep "rapariga": in Brazil it
+is offensive, but in Portugal it is neutral and normal, so the only word to avoid
+here is the Brazilian "garota".
 "Berlinde" (a marble) is worth knowing because these kits are played with
 household objects.
 
@@ -199,8 +205,8 @@ assume the Brazilian spelling.
 
 - **No losing.** Never "derrota", "fracasso", or "perder" as failure. A failed try
   is a "desvio" or "outro caminho". Keep the no-lose promise intact.
-- **Warmth.** The voice is a kind grown-up, not a textbook. Reach for "meigo",
-  "doçura", "bondade", "calor", "aconchego".
+- **Warmth.** The voice is a kind grown-up, not a textbook. Reach for "meigo"
+  (and the diminutive "meiguinho"), "doçura", "bondade", "calor", "aconchego".
 - **No dashes.** Never an em dash or en dash, anywhere. Use commas, colons,
   parentheses, or separate sentences. Number ranges are "3 a 5", never with a dash.
 - **Canon names.** Every character, place, creature, and item name must match the
