@@ -74,6 +74,7 @@ def test_check_text_disables_stripping_artifact_rules_by_default(monkeypatch):
     assert "WHITESPACE_RULE" in disabled
     assert "COMMA_PARENTHESIS_WHITESPACE" in disabled
     assert "INCORRECT_SPACES" in disabled
+    assert "WHITESPACE_PUNCTUATION" in disabled
 
 
 def test_check_file_maps_offsets_to_line_and_col(tmp_path, monkeypatch):
