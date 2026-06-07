@@ -204,8 +204,29 @@ python -m build render-examples --root . --world floating-isles --locale en-GB  
 python -m build render-guide --root . --locale en-GB        # build the Guide PDF
 python -m build prompts --root .                            # export the image prompts
 python -m build generate-images --root .                   # generate art (needs your OpenAI key)
+python -m build check-lang --root . --locale pt-PT         # check a locale against LanguageTool
 python -m build rebuild --root .                            # maintainer: rebuild the library + README
 ```
+
+### Optional: check translations with LanguageTool
+
+The locale-quality skills can cross-check prose against a self-hosted
+[LanguageTool](https://languagetool.org) server (open-source, runs in Docker).
+It is optional: nothing in the build needs it. To use it, run the server (for
+example `docker run -d -p 18010:8010 erikvl87/languagetool`), set its URL in
+`.env` as `LANGUAGETOOL_URL` (see `.env.example`), then:
+
+```bash
+python -m build check-lang --root . --locale pt-PT
+python -m build check-lang --root . --locale es-ES --world floating-isles --story sleeping-garden
+```
+
+It prints candidate findings (spelling, accents, grammar) with line numbers and
+exits 0; it exits non-zero only if the server cannot be reached. Treat the output
+as candidates, not auto-fixes: coverage is strong for pt-PT and en-GB grammar and
+a useful accent net for es-ES and it-IT, but regional register (peninsular
+Spanish, European Portuguese, warm Italian) stays with the locale-quality skills
+and a native reviewer.
 
 ### Where things live
 
