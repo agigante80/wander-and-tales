@@ -59,6 +59,11 @@ const jsonld = {
   description={metaDesc}
   image={coverUrl ?? undefined}
   jsonld={jsonld}
+  breadcrumbs={[
+    { name: "Wander & Tales", url: `${SITE_URL}/${lang}/` },
+    { name: world.name[locale], url: `${SITE_URL}/${lang}/worlds/${world.id}/` },
+    { name: story.title[locale], url: `${SITE_URL}/${lang}/worlds/${world.id}/${story.id}/` },
+  ]}
 >
   <section class="wrap-read" style="padding-top:var(--sp-7)">
     <nav aria-label="Breadcrumb" style="font-size:var(--fs-small);color:var(--ink-faint);margin-bottom:var(--sp-4)">

@@ -50,7 +50,10 @@ const jsonld = {
 };
 ---
 
-<Base lang={lang!} route={`worlds/${world.id}`} title={`${world.name[locale]} · Wander & Tales`} description={snippet(world.lore?.[locale])} image={coverUrl ?? undefined} jsonld={jsonld}>
+<Base lang={lang!} route={`worlds/${world.id}`} title={`${world.name[locale]} · Wander & Tales`} description={snippet(world.lore?.[locale])} image={coverUrl ?? undefined} jsonld={jsonld} breadcrumbs={[
+  { name: "Wander & Tales", url: `${SITE_URL}/${lang}/` },
+  { name: world.name[locale], url: `${SITE_URL}/${lang}/worlds/${world.id}/` },
+]}>
   <section class="world-hero">
     <div class="wrap inner">
       <div class="stack-4">
