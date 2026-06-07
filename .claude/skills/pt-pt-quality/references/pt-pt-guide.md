@@ -23,6 +23,12 @@ forms can be copied directly.)
   doing it together may use "vocês" plural, but pick one and stay consistent
   inside a file.
 
+**Negative commands to one child use the subjunctive, not the indicative.** The
+affirmative "tu" imperative is "faz", "corre", "olha"; the negative is the present
+subjunctive: "não **faças**", "não **corras**", "não **tenhas** medo", "não **te
+preocupes**". Avoid the Brazilian colloquial "não faz", "não corre". For the group
+the negative is the same "vocês" form: "não **façam**", "não **tenham** medo".
+
 ### Never use "vós"
 
 "Vós" (and its 2nd person plural verbs) is archaic or regional in Portugal. This
@@ -95,9 +101,12 @@ find and replace. Use this table:
 | fôsseis | fossem | imperfect subjunctive |
 
 **Pronoun and possessive.** "vós" becomes "vocês". The possessives "vosso" and
-"vossa" **may stay**: in Portugal they sit naturally with "vocês" to avoid
-ambiguity ("a vossa magia"). The clitic "-vos" is also natural ("deixa-vos
-atravessar" = lets you all cross), so keep it where it reads well.
+"vossa" **may stay**, and the clitic "-vos" is natural ("a vossa magia",
+"deixa-vos atravessar" = lets you all cross), so keep them where they read well.
+This is accepted, dominant usage in Portugal (it avoids the ambiguity of "seu"),
+but it is a contested area: some grammarians prescribe "seu/sua" and "os/as/lhes"
+with "vocês". For warm kid prose the natural "vosso" and "-vos" win; just do not
+mistake the kept "-vos" clitic for a "vós" verb form you should be converting.
 
 ## 2. Gerund versus "a + infinitivo" (Brazilianism)
 
@@ -112,6 +121,12 @@ action. Use **"a + infinitivo"**.
 Watch for false friends when scanning: "quando", "lindo", "brando", "comando"
 end in those letters but are not gerunds.
 
+Not every gerund is Brazilian: the **adverbial** gerund is fine in European
+Portuguese ("**Mesmo sabendo** que era difícil", "**correndo** o risco de"). It is
+only the **progressive** gerund for an action in progress ("estou fazendo") that
+is the Brazilianism to fix ("estou a fazer"). The scanner flags every gerund, so
+the judgment pass keeps the adverbial ones.
+
 ## 3. Clitic pronoun placement
 
 European Portuguese puts the pronoun **after the verb (enclisis)** by default;
@@ -121,6 +136,15 @@ Brazilian prefers it before (proclisis).
   Avoid "Me dá um pão.", "Te vou ajudar."
 - After a negative or a subordinating word it moves before the verb (proclisis):
   "**Não lhe** dês o pão.", "Espero **que o** encontres."
+- Other words also pull the pronoun before the verb (proclisis): quantifiers
+  ("**todos** o sabem"), focalising adverbs ("**só** lhe disse", "**também** te
+  ajudo", "**até** me sorriu"), and some adverbs ("**já** te disse", "**sempre**
+  me ajuda", "**talvez** o encontres").
+
+Avoid **mesoclisis** in kid prose. Forms like "dar-te-ei" or "encontrar-se-ia"
+(the pronoun tucked inside a future or conditional verb) are grammatically
+European but sound formal and literary. Rephrase with a periphrasis a child would
+hear: "vou dar-te", "ia encontrar-se".
 
 ## 4. Vocabulary: pt-PT versus pt-BR
 
@@ -143,17 +167,29 @@ Brazilian prefers it before (proclisis).
 | to plan | planear | planejar |
 | cool, great | fixe, giro | legal, bacana |
 | wildcard, master key | chave-mestra | coringa |
+| girl | rapariga, miúda | garota |
+| ice cream | gelado | sorvete |
+| sweet (candy) | rebuçado | bala |
+| trainers | sapatilhas, ténis | tênis |
+| butcher's | talho | açougue |
+| marble (toy) | berlinde | bolinha de gude |
 
 Also: "nós" not "a gente" for "we" (note "toda a gente" meaning everyone is
 correct pt-PT). "para eu fazer" not "para mim fazer". Movement takes "a" or
 "para": "vou ao parque", never "vou no parque".
 
+"Rapariga" is the everyday Portugal word for a girl; keep it, and do not let a
+Brazilian ear "correct" it to "menina" or "garota" (in Brazil "rapariga" is
+offensive, but in Portugal it is neutral and normal). "Berlinde" (a marble) is
+worth knowing because these kits are played with household objects.
+
 ## 5. Spelling (Acordo Ortográfico 1990)
 
 pt-PT keeps some consonants that pt-BR drops, where the consonant still shapes the
 word. Common pt-PT spellings: "receção", "deteção", "facto" (a fact; "fato" is a
-suit in Portugal), "contacto", "aspeto". When unsure, check a Portugal
-dictionary; do not assume the Brazilian spelling.
+suit in Portugal), "contacto", "aspeto". Portugal also writes "**connosco**" with
+two n's (Brazilian "conosco"). When unsure, check a Portugal dictionary; do not
+assume the Brazilian spelling.
 
 ## 6. Project rules (Wander & Tales)
 
@@ -178,13 +214,16 @@ criança"), not adults in general.
 
 1. [ ] Any "vós" pronoun or 2nd person plural verb (`-ais`, `-eis`, `-des`,
    `-stes`, `-sseis`, `-rdes`)? Convert to the "vocês" 3rd person plural form.
-2. [ ] Any gerund (`-ando`, `-endo`, `-indo`) used for an action? Change to
-   "a + infinitivo".
-3. [ ] Clitics after the verb (enclisis), except after a negative or
-   subordinating word?
-4. [ ] Any pt-BR vocabulary (ecrã not tela, sumo not suco, apanhar not pegar)?
-5. [ ] Portugal spelling (facto, contacto, receção)?
-6. [ ] No em or en dashes; ranges as "3 a 5"?
-7. [ ] No-lose tone: no "derrota", "fracasso", "perder" as failure?
-8. [ ] Names match the pt-PT canon and lexicon?
-9. [ ] Grown-up claims associational, never causal?
+2. [ ] Any **progressive** gerund (`estou fazendo`) for an action in progress?
+   Change to "a + infinitivo". (Adverbial gerunds like "mesmo sabendo" are fine.)
+3. [ ] Negative commands to a child in the subjunctive ("não faças", "não
+   corras"), not the indicative ("não faz")?
+4. [ ] Clitics after the verb (enclisis), except after a negative, subordinating
+   word, quantifier, or focalising adverb? No mesoclisis ("dar-te-ei") in kid prose?
+5. [ ] Any pt-BR vocabulary (ecrã not tela, sumo not suco, apanhar not pegar,
+   rapariga kept not "corrected")?
+6. [ ] Portugal spelling (facto, contacto, receção, connosco)?
+7. [ ] No em or en dashes; ranges as "3 a 5"?
+8. [ ] No-lose tone: no "derrota", "fracasso", "perder" as failure?
+9. [ ] Names match the pt-PT canon and lexicon?
+10. [ ] Grown-up claims associational, never causal?

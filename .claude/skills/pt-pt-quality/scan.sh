@@ -37,7 +37,7 @@ scan() {
 
 echo "# pt-PT quality scan"
 
-scan "vos pronoun" '\bv[oó]s\b'
+scan "vós pronoun (not the enclitic -vos, which the guide keeps)" '(?<![-\w])v[oó]s\b'
 scan "vos preterite (-stes)" '\b\w+stes\b'
 scan "vos inflected infinitive / future subj (-rdes)" '\b\w+rdes\b'
 scan "vos imperfect subj (-sseis)" '\b\w+sseis\b'
@@ -50,7 +50,7 @@ scan "vos imperfect (estaveis, ereis, fazieis, ieis)" \
 scan "gerund (-ando/-endo/-indo): prefer 'a + infinitivo'" \
   '\b(?!quando|lindo|brando|comando|grande|fernando)\w+(ando|endo|indo)\b'
 scan "pt-BR vocabulary: use the pt-PT word" \
-  '\b(coringa|ónibus|onibus|trem|celular|banheiro|geladeira|suco|xícara|xicara|garot[oa]s?|bonitinh[oa]|você|pra|tô)\b'
+  '\b(coringa|ónibus|onibus|trem|celular|banheiro|geladeira|suco|sorvete|açougue|xícara|xicara|garot[oa]s?|bonitinh[oa]|você|pra|tô)\b'
 scan "em/en dash: use comma, colon or parentheses" '[\x{2013}\x{2014}]'
 scan "no-lose tone (derrota/fracasso/perder): use 'desvio' / 'outro caminho'" \
   '\b(derrota\w*|fracass\w+|perde(r|u|ste|ram)\w*)\b'
