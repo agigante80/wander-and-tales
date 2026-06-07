@@ -9,7 +9,9 @@ export const UI: Record<LangCode, Dict> = {
     nav_create: "Create your own",
     hero_kicker: "A little world to step into",
     hero_sub:
-      "Free, printable story-adventures you play together. Nobody competes, nobody loses, and there are no wrong answers. Read them online, or print and play with a single die and a few household bits.",
+      "Gentle story-adventures a grown-up and a child play together. Nobody competes, nobody loses, and there are no wrong answers, just a warm way to share curiosity, courage and kindness. Read it on a screen, or print it out for screen-free play with a single die and a few household bits.",
+    hero_audience:
+      "For any grown-up to share with a child, parents, grandparents, teachers, childminders, all welcome.",
     hero_read: "Explore the worlds",
     hero_create: "Create your own",
     worlds_title: "Choose a world",
@@ -93,7 +95,9 @@ export const UI: Record<LangCode, Dict> = {
     nav_create: "Crea el tuyo",
     hero_kicker: "Un pequeño mundo en el que entrar",
     hero_sub:
-      "Aventuras con historias para imprimir y jugar juntos, gratis. Nadie compite, nadie pierde y no hay respuestas equivocadas. Léelas en pantalla, o imprímelas y juega con un solo dado y algunos objetos de casa.",
+      "Aventuras tranquilas para que un adulto y un niño jueguen juntos. Nadie compite, nadie pierde y no hay respuestas equivocadas: solo una forma cálida de compartir curiosidad, valentía y bondad. Léelas en pantalla o imprímelas para jugar sin pantallas, con un solo dado y unas cosas de casa.",
+    hero_audience:
+      "Para cualquier adulto que juegue con un niño: madres y padres, abuelos, profes, canguros, todos bienvenidos.",
     hero_read: "Explora los mundos",
     hero_create: "Crea el tuyo",
     worlds_title: "Elige un mundo",
@@ -177,7 +181,9 @@ export const UI: Record<LangCode, Dict> = {
     nav_create: "Crea il tuo",
     hero_kicker: "Un piccolo mondo in cui entrare",
     hero_sub:
-      "Avventure di storie da stampare e giocare insieme, gratis. Nessuno compete, nessuno perde e non ci sono risposte sbagliate. Leggetele sullo schermo, o stampatele e giocate con un solo dado e qualche oggetto di casa.",
+      "Avventure dolci che un adulto e un bambino vivono insieme. Nessuno compete, nessuno perde e non ci sono risposte sbagliate: solo un modo caldo per condividere curiosità, coraggio e gentilezza. Leggetele sullo schermo, oppure stampatele per giocare senza schermi, con un dado e qualche cosa di casa.",
+    hero_audience:
+      "Per qualsiasi adulto e un bambino: genitori, nonni, insegnanti, babysitter, tutti benvenuti.",
     hero_read: "Esplora i mondi",
     hero_create: "Crea il tuo",
     worlds_title: "Scegli un mondo",
@@ -261,7 +267,9 @@ export const UI: Record<LangCode, Dict> = {
     nav_create: "Cria o teu",
     hero_kicker: "Um pequeno mundo onde entrar",
     hero_sub:
-      "Aventuras de histórias para imprimir e jogar juntos, grátis. Ninguém compete, ninguém perde e não há respostas erradas. Lê no ecrã, ou imprime e joga com um único dado e umas coisas lá de casa.",
+      "Aventuras tranquilas para um adulto e uma criança jogarem juntos. Ninguém compete, ninguém perde e não há respostas erradas: apenas uma forma carinhosa de partilhar curiosidade, coragem e bondade. Lê no ecrã, ou imprime para jogar sem ecrãs, com um único dado e umas coisas lá de casa.",
+    hero_audience:
+      "Para qualquer adulto partilhar com uma criança: pais, avós, professores, amas, todos bem-vindos.",
     hero_read: "Explora os mundos",
     hero_create: "Cria o teu",
     worlds_title: "Escolhe um mundo",
