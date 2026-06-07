@@ -102,49 +102,49 @@
       "en-GB": {
         "guide": {
           "path": "kits/guides/Guide_for_the_Grown-Up_en-GB.pdf",
-          "version": "v9.5",
-          "updated": "2026-06-06"
+          "version": "v10.0",
+          "updated": "2026-06-07"
         },
         "how_to_play": {
           "path": "kits/guides/How_to_Play_en-GB.pdf",
-          "version": "v9.5",
-          "updated": "2026-06-06"
+          "version": "v10.0",
+          "updated": "2026-06-07"
         }
       },
       "es-ES": {
         "guide": {
           "path": "kits/guides/Guide_for_the_Grown-Up_es-ES.pdf",
-          "version": "v10.0",
-          "updated": "2026-06-06"
+          "version": "v11.0",
+          "updated": "2026-06-07"
         },
         "how_to_play": {
           "path": "kits/guides/How_to_Play_es-ES.pdf",
-          "version": "v10.0",
-          "updated": "2026-06-06"
+          "version": "v11.0",
+          "updated": "2026-06-07"
         }
       },
       "it-IT": {
         "guide": {
           "path": "kits/guides/Guide_for_the_Grown-Up_it-IT.pdf",
-          "version": "v9.5",
-          "updated": "2026-06-06"
+          "version": "v10.0",
+          "updated": "2026-06-07"
         },
         "how_to_play": {
           "path": "kits/guides/How_to_Play_it-IT.pdf",
-          "version": "v9.5",
-          "updated": "2026-06-06"
+          "version": "v10.0",
+          "updated": "2026-06-07"
         }
       },
       "pt-PT": {
         "guide": {
           "path": "kits/guides/Guide_for_the_Grown-Up_pt-PT.pdf",
-          "version": "v3.0",
-          "updated": "2026-06-06"
+          "version": "v4.0",
+          "updated": "2026-06-07"
         },
         "how_to_play": {
           "path": "kits/guides/How_to_Play_pt-PT.pdf",
-          "version": "v3.0",
-          "updated": "2026-06-06"
+          "version": "v4.0",
+          "updated": "2026-06-07"
         }
       }
     },
@@ -153,7 +153,7 @@
       "stories": 21,
       "languages": 4
     },
-    "generated_at": "2026-06-06",
+    "generated_at": "2026-06-07",
     "note": "Story text lives in the content_paths markdown files (kid-facing narration.simple and narration.rich); render those for the online reader. rules.md and puzzles.md are grown-up-only."
   },
   "worlds": [
@@ -550,6 +550,42 @@
             "pt-PT": "O cuidado por toda a alma, fada ou amiga. Os maiores heróis das ilhas são os que partilham, ajudam e cumprem uma promessa."
           },
           "image_path": null
+        },
+        {
+          "id": "curiosity",
+          "kind": "quality",
+          "disposition": null,
+          "names": {
+            "en-GB": "Curiosity",
+            "es-ES": "Curiosidad",
+            "it-IT": "Curiosità",
+            "pt-PT": "Curiosidade"
+          },
+          "description": {
+            "en-GB": "Asking the right question and noticing what others miss. In the misty isles, a careful look often finds the thread that leads the whole way home.",
+            "es-ES": "Hacer la pregunta justa y fijarse en lo que otros no ven. En las islas brumosas, una mirada atenta encuentra a menudo el hilo que lleva a casa.",
+            "it-IT": "Fare la domanda giusta e notare ciò che gli altri non vedono. Nelle isole nebbiose, uno sguardo attento trova spesso il filo che porta fino a casa.",
+            "pt-PT": "Fazer a pergunta certa e reparar no que os outros não veem. Nas ilhas enevoadas, um olhar atento encontra muitas vezes o fio que leva a casa."
+          },
+          "image_path": null
+        },
+        {
+          "id": "patience",
+          "kind": "quality",
+          "disposition": null,
+          "names": {
+            "en-GB": "Patience",
+            "es-ES": "Paciencia",
+            "it-IT": "Pazienza",
+            "pt-PT": "Paciência"
+          },
+          "description": {
+            "en-GB": "Waiting kindly and trying again, until a shy creature or a tangled path comes right. In the isles, the salmon and the selkie come close only to the patient.",
+            "es-ES": "Esperar con amabilidad y volver a intentarlo, hasta que una criatura tímida o un camino enredado se arregle. En las islas, el salmón y la selkie solo se acercan a quien tiene paciencia.",
+            "it-IT": "Aspettare con gentilezza e riprovare, finché una creatura timida o un sentiero ingarbugliato si sistema. Nelle isole, il salmone e la selkie si avvicinano solo a chi ha pazienza.",
+            "pt-PT": "Esperar com amabilidade e tentar de novo, até que uma criatura tímida ou um caminho enredado se resolva. Nas ilhas, o salmão e a selkie só se aproximam de quem tem paciência."
+          },
+          "image_path": null
         }
       ],
       "heroes": [
@@ -565,8 +601,7 @@
           },
           "magics": [
             "imagination",
-            "kindness",
-            "courage"
+            "kindness"
           ],
           "energy": 4,
           "carry": [
@@ -602,9 +637,7 @@
             "pt-PT": "as Ilhas Esmeralda dos Celtas"
           },
           "magics": [
-            "courage",
-            "kindness",
-            "imagination"
+            "courage"
           ],
           "energy": 3,
           "carry": [
@@ -640,9 +673,8 @@
             "pt-PT": "as Ilhas Esmeralda dos Celtas"
           },
           "magics": [
-            "imagination",
-            "courage",
-            "kindness"
+            "curiosity",
+            "patience"
           ],
           "energy": 5,
           "carry": [
@@ -685,8 +717,7 @@
           },
           "magics": [
             "courage",
-            "imagination",
-            "kindness"
+            "imagination"
           ],
           "energy": 4,
           "carry": [
@@ -716,49 +747,49 @@
         "en-GB": {
           "world_book": {
             "path": "kits/en-GB/celtic-myth/celtic-myth-world-book-en-GB.pdf",
-            "version": "v10.2",
-            "updated": "2026-06-06"
+            "version": "v11.0",
+            "updated": "2026-06-07"
           },
           "example_heroes": {
             "path": "kits/en-GB/celtic-myth/celtic-myth-example-heroes-en-GB.pdf",
-            "version": "v8.2",
-            "updated": "2026-06-06"
+            "version": "v9.0",
+            "updated": "2026-06-07"
           }
         },
         "es-ES": {
           "world_book": {
             "path": "kits/es-ES/celtic-myth/celtic-myth-world-book-es-ES.pdf",
-            "version": "v11.0",
-            "updated": "2026-06-06"
+            "version": "v12.0",
+            "updated": "2026-06-07"
           },
           "example_heroes": {
             "path": "kits/es-ES/celtic-myth/celtic-myth-example-heroes-es-ES.pdf",
-            "version": "v8.2",
-            "updated": "2026-06-06"
+            "version": "v9.0",
+            "updated": "2026-06-07"
           }
         },
         "it-IT": {
           "world_book": {
             "path": "kits/it-IT/celtic-myth/celtic-myth-world-book-it-IT.pdf",
-            "version": "v10.2",
-            "updated": "2026-06-06"
+            "version": "v11.0",
+            "updated": "2026-06-07"
           },
           "example_heroes": {
             "path": "kits/it-IT/celtic-myth/celtic-myth-example-heroes-it-IT.pdf",
-            "version": "v8.2",
-            "updated": "2026-06-06"
+            "version": "v9.0",
+            "updated": "2026-06-07"
           }
         },
         "pt-PT": {
           "world_book": {
             "path": "kits/pt-PT/celtic-myth/celtic-myth-world-book-pt-PT.pdf",
-            "version": "v11.0",
-            "updated": "2026-06-06"
+            "version": "v12.0",
+            "updated": "2026-06-07"
           },
           "example_heroes": {
             "path": "kits/pt-PT/celtic-myth/celtic-myth-example-heroes-pt-PT.pdf",
-            "version": "v8.2",
-            "updated": "2026-06-06"
+            "version": "v9.0",
+            "updated": "2026-06-07"
           }
         }
       },
@@ -925,13 +956,13 @@
             "en-GB": {
               "tale_simple": {
                 "path": "kits/en-GB/celtic-myth/pooks-tangled-paths/celtic-myth-pooks-tangled-paths-tale-book-simple-en-GB.pdf",
-                "version": "v7.2",
-                "updated": "2026-06-06"
+                "version": "v8.0",
+                "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/en-GB/celtic-myth/pooks-tangled-paths/celtic-myth-pooks-tangled-paths-tale-book-rich-en-GB.pdf",
-                "version": "v7.2",
-                "updated": "2026-06-06"
+                "version": "v8.0",
+                "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/en-GB/celtic-myth/pooks-tangled-paths/celtic-myth-pooks-tangled-paths-atlas-en-GB.pdf",
@@ -942,13 +973,13 @@
             "es-ES": {
               "tale_simple": {
                 "path": "kits/es-ES/celtic-myth/pooks-tangled-paths/celtic-myth-pooks-tangled-paths-tale-book-simple-es-ES.pdf",
-                "version": "v8.0",
-                "updated": "2026-06-06"
+                "version": "v9.0",
+                "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/es-ES/celtic-myth/pooks-tangled-paths/celtic-myth-pooks-tangled-paths-tale-book-rich-es-ES.pdf",
-                "version": "v8.0",
-                "updated": "2026-06-06"
+                "version": "v9.0",
+                "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/es-ES/celtic-myth/pooks-tangled-paths/celtic-myth-pooks-tangled-paths-atlas-es-ES.pdf",
@@ -959,13 +990,13 @@
             "it-IT": {
               "tale_simple": {
                 "path": "kits/it-IT/celtic-myth/pooks-tangled-paths/celtic-myth-pooks-tangled-paths-tale-book-simple-it-IT.pdf",
-                "version": "v7.2",
-                "updated": "2026-06-06"
+                "version": "v8.0",
+                "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/it-IT/celtic-myth/pooks-tangled-paths/celtic-myth-pooks-tangled-paths-tale-book-rich-it-IT.pdf",
-                "version": "v7.2",
-                "updated": "2026-06-06"
+                "version": "v8.0",
+                "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/it-IT/celtic-myth/pooks-tangled-paths/celtic-myth-pooks-tangled-paths-atlas-it-IT.pdf",
@@ -976,13 +1007,13 @@
             "pt-PT": {
               "tale_simple": {
                 "path": "kits/pt-PT/celtic-myth/pooks-tangled-paths/celtic-myth-pooks-tangled-paths-tale-book-simple-pt-PT.pdf",
-                "version": "v8.0",
-                "updated": "2026-06-06"
+                "version": "v9.0",
+                "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/pt-PT/celtic-myth/pooks-tangled-paths/celtic-myth-pooks-tangled-paths-tale-book-rich-pt-PT.pdf",
-                "version": "v8.0",
-                "updated": "2026-06-06"
+                "version": "v9.0",
+                "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/pt-PT/celtic-myth/pooks-tangled-paths/celtic-myth-pooks-tangled-paths-atlas-pt-PT.pdf",
@@ -1154,13 +1185,13 @@
             "en-GB": {
               "tale_simple": {
                 "path": "kits/en-GB/celtic-myth/swan-childrens-lullaby/celtic-myth-swan-childrens-lullaby-tale-book-simple-en-GB.pdf",
-                "version": "v7.2",
-                "updated": "2026-06-06"
+                "version": "v8.0",
+                "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/en-GB/celtic-myth/swan-childrens-lullaby/celtic-myth-swan-childrens-lullaby-tale-book-rich-en-GB.pdf",
-                "version": "v7.2",
-                "updated": "2026-06-06"
+                "version": "v8.0",
+                "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/en-GB/celtic-myth/swan-childrens-lullaby/celtic-myth-swan-childrens-lullaby-atlas-en-GB.pdf",
@@ -1171,13 +1202,13 @@
             "es-ES": {
               "tale_simple": {
                 "path": "kits/es-ES/celtic-myth/swan-childrens-lullaby/celtic-myth-swan-childrens-lullaby-tale-book-simple-es-ES.pdf",
-                "version": "v8.0",
-                "updated": "2026-06-06"
+                "version": "v9.0",
+                "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/es-ES/celtic-myth/swan-childrens-lullaby/celtic-myth-swan-childrens-lullaby-tale-book-rich-es-ES.pdf",
-                "version": "v8.0",
-                "updated": "2026-06-06"
+                "version": "v9.0",
+                "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/es-ES/celtic-myth/swan-childrens-lullaby/celtic-myth-swan-childrens-lullaby-atlas-es-ES.pdf",
@@ -1188,13 +1219,13 @@
             "it-IT": {
               "tale_simple": {
                 "path": "kits/it-IT/celtic-myth/swan-childrens-lullaby/celtic-myth-swan-childrens-lullaby-tale-book-simple-it-IT.pdf",
-                "version": "v7.2",
-                "updated": "2026-06-06"
+                "version": "v8.0",
+                "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/it-IT/celtic-myth/swan-childrens-lullaby/celtic-myth-swan-childrens-lullaby-tale-book-rich-it-IT.pdf",
-                "version": "v7.2",
-                "updated": "2026-06-06"
+                "version": "v8.0",
+                "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/it-IT/celtic-myth/swan-childrens-lullaby/celtic-myth-swan-childrens-lullaby-atlas-it-IT.pdf",
@@ -1205,13 +1236,13 @@
             "pt-PT": {
               "tale_simple": {
                 "path": "kits/pt-PT/celtic-myth/swan-childrens-lullaby/celtic-myth-swan-childrens-lullaby-tale-book-simple-pt-PT.pdf",
-                "version": "v7.0",
-                "updated": "2026-06-06"
+                "version": "v8.0",
+                "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/pt-PT/celtic-myth/swan-childrens-lullaby/celtic-myth-swan-childrens-lullaby-tale-book-rich-pt-PT.pdf",
-                "version": "v7.0",
-                "updated": "2026-06-06"
+                "version": "v8.0",
+                "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/pt-PT/celtic-myth/swan-childrens-lullaby/celtic-myth-swan-childrens-lullaby-atlas-pt-PT.pdf",
@@ -1383,13 +1414,13 @@
             "en-GB": {
               "tale_simple": {
                 "path": "kits/en-GB/celtic-myth/the-land-of-youth/celtic-myth-the-land-of-youth-tale-book-simple-en-GB.pdf",
-                "version": "v6.2",
-                "updated": "2026-06-06"
+                "version": "v7.0",
+                "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/en-GB/celtic-myth/the-land-of-youth/celtic-myth-the-land-of-youth-tale-book-rich-en-GB.pdf",
-                "version": "v6.2",
-                "updated": "2026-06-06"
+                "version": "v7.0",
+                "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/en-GB/celtic-myth/the-land-of-youth/celtic-myth-the-land-of-youth-atlas-en-GB.pdf",
@@ -1400,13 +1431,13 @@
             "es-ES": {
               "tale_simple": {
                 "path": "kits/es-ES/celtic-myth/the-land-of-youth/celtic-myth-the-land-of-youth-tale-book-simple-es-ES.pdf",
-                "version": "v7.0",
-                "updated": "2026-06-06"
+                "version": "v8.0",
+                "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/es-ES/celtic-myth/the-land-of-youth/celtic-myth-the-land-of-youth-tale-book-rich-es-ES.pdf",
-                "version": "v7.0",
-                "updated": "2026-06-06"
+                "version": "v8.0",
+                "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/es-ES/celtic-myth/the-land-of-youth/celtic-myth-the-land-of-youth-atlas-es-ES.pdf",
@@ -1417,13 +1448,13 @@
             "it-IT": {
               "tale_simple": {
                 "path": "kits/it-IT/celtic-myth/the-land-of-youth/celtic-myth-the-land-of-youth-tale-book-simple-it-IT.pdf",
-                "version": "v6.2",
-                "updated": "2026-06-06"
+                "version": "v7.0",
+                "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/it-IT/celtic-myth/the-land-of-youth/celtic-myth-the-land-of-youth-tale-book-rich-it-IT.pdf",
-                "version": "v6.2",
-                "updated": "2026-06-06"
+                "version": "v7.0",
+                "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/it-IT/celtic-myth/the-land-of-youth/celtic-myth-the-land-of-youth-atlas-it-IT.pdf",
@@ -1434,13 +1465,13 @@
             "pt-PT": {
               "tale_simple": {
                 "path": "kits/pt-PT/celtic-myth/the-land-of-youth/celtic-myth-the-land-of-youth-tale-book-simple-pt-PT.pdf",
-                "version": "v6.0",
-                "updated": "2026-06-06"
+                "version": "v7.0",
+                "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/pt-PT/celtic-myth/the-land-of-youth/celtic-myth-the-land-of-youth-tale-book-rich-pt-PT.pdf",
-                "version": "v6.0",
-                "updated": "2026-06-06"
+                "version": "v7.0",
+                "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/pt-PT/celtic-myth/the-land-of-youth/celtic-myth-the-land-of-youth-atlas-pt-PT.pdf",
@@ -1912,6 +1943,24 @@
             "pt-PT": "Fala com as fontes, as pedras e a água que corre, e escuta em silêncio o que elas te contam."
           },
           "image_path": null
+        },
+        {
+          "id": "magic-birdsong",
+          "kind": "quality",
+          "disposition": null,
+          "names": {
+            "en-GB": "Birdsong",
+            "es-ES": "Canto de los Pájaros",
+            "it-IT": "Canto degli Uccelli",
+            "pt-PT": "Canto dos Pássaros"
+          },
+          "description": {
+            "en-GB": "Calls the birds and understands their songs, so a shy creature can be coaxed gently into the open and a lost path can be sung back home.",
+            "es-ES": "Llama a los pájaros y entiende sus cantos, para engatusar con dulzura a una criatura tímida hasta que salga y para que un camino perdido vuelva cantando a casa.",
+            "it-IT": "Chiama gli uccelli e ne comprende i canti, così una creatura timida si può invitare con dolcezza allo scoperto e un sentiero perduto si può cantare di nuovo verso casa.",
+            "pt-PT": "Chama os pássaros e percebe os seus cantos, para com doçura trazer ao de cima uma criatura tímida e para que um caminho perdido volte a cantar para casa."
+          },
+          "image_path": null
         }
       ],
       "heroes": [
@@ -1927,8 +1976,7 @@
           },
           "magics": [
             "magic-riversong",
-            "magic-bloom",
-            "magic-truth"
+            "magic-bloom"
           ],
           "energy": 4,
           "carry": [
@@ -1964,9 +2012,7 @@
             "pt-PT": "das Fontes Encantadas de Portugal"
           },
           "magics": [
-            "magic-starlight",
-            "magic-truth",
-            "magic-riversong"
+            "magic-starlight"
           ],
           "energy": 4,
           "carry": [
@@ -2002,9 +2048,7 @@
             "pt-PT": "das Fontes Encantadas de Portugal"
           },
           "magics": [
-            "magic-truth",
-            "magic-riversong",
-            "magic-starlight"
+            "magic-truth"
           ],
           "energy": 3,
           "carry": [
@@ -2040,9 +2084,8 @@
             "pt-PT": "das Fontes Encantadas de Portugal"
           },
           "magics": [
-            "magic-bloom",
-            "magic-starlight",
-            "magic-riversong"
+            "magic-birdsong",
+            "magic-bloom"
           ],
           "energy": 3,
           "carry": [
@@ -2072,49 +2115,49 @@
         "en-GB": {
           "world_book": {
             "path": "kits/en-GB/enchanted-springs/enchanted-springs-world-book-en-GB.pdf",
-            "version": "v9.0",
-            "updated": "2026-06-06"
+            "version": "v11.0",
+            "updated": "2026-06-07"
           },
           "example_heroes": {
             "path": "kits/en-GB/enchanted-springs/enchanted-springs-example-heroes-en-GB.pdf",
-            "version": "v9.0",
-            "updated": "2026-06-06"
+            "version": "v10.0",
+            "updated": "2026-06-07"
           }
         },
         "es-ES": {
           "world_book": {
             "path": "kits/es-ES/enchanted-springs/enchanted-springs-world-book-es-ES.pdf",
-            "version": "v9.0",
-            "updated": "2026-06-06"
+            "version": "v11.0",
+            "updated": "2026-06-07"
           },
           "example_heroes": {
             "path": "kits/es-ES/enchanted-springs/enchanted-springs-example-heroes-es-ES.pdf",
-            "version": "v9.0",
-            "updated": "2026-06-06"
+            "version": "v10.0",
+            "updated": "2026-06-07"
           }
         },
         "it-IT": {
           "world_book": {
             "path": "kits/it-IT/enchanted-springs/enchanted-springs-world-book-it-IT.pdf",
-            "version": "v9.0",
-            "updated": "2026-06-06"
+            "version": "v11.0",
+            "updated": "2026-06-07"
           },
           "example_heroes": {
             "path": "kits/it-IT/enchanted-springs/enchanted-springs-example-heroes-it-IT.pdf",
-            "version": "v9.0",
-            "updated": "2026-06-06"
+            "version": "v10.0",
+            "updated": "2026-06-07"
           }
         },
         "pt-PT": {
           "world_book": {
             "path": "kits/pt-PT/enchanted-springs/enchanted-springs-world-book-pt-PT.pdf",
-            "version": "v10.0",
-            "updated": "2026-06-06"
+            "version": "v12.0",
+            "updated": "2026-06-07"
           },
           "example_heroes": {
             "path": "kits/pt-PT/enchanted-springs/enchanted-springs-example-heroes-pt-PT.pdf",
-            "version": "v9.0",
-            "updated": "2026-06-06"
+            "version": "v10.0",
+            "updated": "2026-06-07"
           }
         }
       },
@@ -2298,69 +2341,69 @@
             "en-GB": {
               "tale_simple": {
                 "path": "kits/en-GB/enchanted-springs/galos-silent-dawn/enchanted-springs-galos-silent-dawn-tale-book-simple-en-GB.pdf",
-                "version": "v3.2",
-                "updated": "2026-06-06"
+                "version": "v4.0",
+                "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/en-GB/enchanted-springs/galos-silent-dawn/enchanted-springs-galos-silent-dawn-tale-book-rich-en-GB.pdf",
-                "version": "v3.2",
-                "updated": "2026-06-06"
+                "version": "v4.0",
+                "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/en-GB/enchanted-springs/galos-silent-dawn/enchanted-springs-galos-silent-dawn-atlas-en-GB.pdf",
-                "version": "v5.2",
-                "updated": "2026-06-06"
+                "version": "v6.0",
+                "updated": "2026-06-07"
               }
             },
             "es-ES": {
               "tale_simple": {
                 "path": "kits/es-ES/enchanted-springs/galos-silent-dawn/enchanted-springs-galos-silent-dawn-tale-book-simple-es-ES.pdf",
-                "version": "v5.0",
-                "updated": "2026-06-06"
+                "version": "v6.0",
+                "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/es-ES/enchanted-springs/galos-silent-dawn/enchanted-springs-galos-silent-dawn-tale-book-rich-es-ES.pdf",
-                "version": "v6.0",
-                "updated": "2026-06-06"
+                "version": "v7.0",
+                "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/es-ES/enchanted-springs/galos-silent-dawn/enchanted-springs-galos-silent-dawn-atlas-es-ES.pdf",
-                "version": "v5.2",
-                "updated": "2026-06-06"
+                "version": "v6.0",
+                "updated": "2026-06-07"
               }
             },
             "it-IT": {
               "tale_simple": {
                 "path": "kits/it-IT/enchanted-springs/galos-silent-dawn/enchanted-springs-galos-silent-dawn-tale-book-simple-it-IT.pdf",
-                "version": "v4.2",
-                "updated": "2026-06-06"
+                "version": "v5.0",
+                "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/it-IT/enchanted-springs/galos-silent-dawn/enchanted-springs-galos-silent-dawn-tale-book-rich-it-IT.pdf",
-                "version": "v4.2",
-                "updated": "2026-06-06"
+                "version": "v5.0",
+                "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/it-IT/enchanted-springs/galos-silent-dawn/enchanted-springs-galos-silent-dawn-atlas-it-IT.pdf",
-                "version": "v5.2",
-                "updated": "2026-06-06"
+                "version": "v6.0",
+                "updated": "2026-06-07"
               }
             },
             "pt-PT": {
               "tale_simple": {
                 "path": "kits/pt-PT/enchanted-springs/galos-silent-dawn/enchanted-springs-galos-silent-dawn-tale-book-simple-pt-PT.pdf",
-                "version": "v5.0",
-                "updated": "2026-06-06"
+                "version": "v6.0",
+                "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/pt-PT/enchanted-springs/galos-silent-dawn/enchanted-springs-galos-silent-dawn-tale-book-rich-pt-PT.pdf",
-                "version": "v6.0",
-                "updated": "2026-06-06"
+                "version": "v7.0",
+                "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/pt-PT/enchanted-springs/galos-silent-dawn/enchanted-springs-galos-silent-dawn-atlas-pt-PT.pdf",
-                "version": "v7.0",
-                "updated": "2026-06-06"
+                "version": "v8.0",
+                "updated": "2026-06-07"
               }
             }
           }
@@ -2544,69 +2587,69 @@
             "en-GB": {
               "tale_simple": {
                 "path": "kits/en-GB/enchanted-springs/mouras-lost-comb/enchanted-springs-mouras-lost-comb-tale-book-simple-en-GB.pdf",
-                "version": "v5.2",
-                "updated": "2026-06-06"
+                "version": "v6.0",
+                "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/en-GB/enchanted-springs/mouras-lost-comb/enchanted-springs-mouras-lost-comb-tale-book-rich-en-GB.pdf",
-                "version": "v5.2",
-                "updated": "2026-06-06"
+                "version": "v6.0",
+                "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/en-GB/enchanted-springs/mouras-lost-comb/enchanted-springs-mouras-lost-comb-atlas-en-GB.pdf",
-                "version": "v6.2",
-                "updated": "2026-06-06"
+                "version": "v7.0",
+                "updated": "2026-06-07"
               }
             },
             "es-ES": {
               "tale_simple": {
                 "path": "kits/es-ES/enchanted-springs/mouras-lost-comb/enchanted-springs-mouras-lost-comb-tale-book-simple-es-ES.pdf",
-                "version": "v6.0",
-                "updated": "2026-06-06"
+                "version": "v7.0",
+                "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/es-ES/enchanted-springs/mouras-lost-comb/enchanted-springs-mouras-lost-comb-tale-book-rich-es-ES.pdf",
-                "version": "v6.0",
-                "updated": "2026-06-06"
+                "version": "v7.0",
+                "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/es-ES/enchanted-springs/mouras-lost-comb/enchanted-springs-mouras-lost-comb-atlas-es-ES.pdf",
-                "version": "v7.0",
-                "updated": "2026-06-06"
+                "version": "v8.0",
+                "updated": "2026-06-07"
               }
             },
             "it-IT": {
               "tale_simple": {
                 "path": "kits/it-IT/enchanted-springs/mouras-lost-comb/enchanted-springs-mouras-lost-comb-tale-book-simple-it-IT.pdf",
-                "version": "v5.2",
-                "updated": "2026-06-06"
+                "version": "v6.0",
+                "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/it-IT/enchanted-springs/mouras-lost-comb/enchanted-springs-mouras-lost-comb-tale-book-rich-it-IT.pdf",
-                "version": "v5.2",
-                "updated": "2026-06-06"
+                "version": "v6.0",
+                "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/it-IT/enchanted-springs/mouras-lost-comb/enchanted-springs-mouras-lost-comb-atlas-it-IT.pdf",
-                "version": "v6.2",
-                "updated": "2026-06-06"
+                "version": "v7.0",
+                "updated": "2026-06-07"
               }
             },
             "pt-PT": {
               "tale_simple": {
                 "path": "kits/pt-PT/enchanted-springs/mouras-lost-comb/enchanted-springs-mouras-lost-comb-tale-book-simple-pt-PT.pdf",
-                "version": "v6.0",
-                "updated": "2026-06-06"
+                "version": "v7.0",
+                "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/pt-PT/enchanted-springs/mouras-lost-comb/enchanted-springs-mouras-lost-comb-tale-book-rich-pt-PT.pdf",
-                "version": "v7.0",
-                "updated": "2026-06-06"
+                "version": "v8.0",
+                "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/pt-PT/enchanted-springs/mouras-lost-comb/enchanted-springs-mouras-lost-comb-atlas-pt-PT.pdf",
-                "version": "v7.0",
-                "updated": "2026-06-06"
+                "version": "v8.0",
+                "updated": "2026-06-07"
               }
             }
           }
@@ -2790,69 +2833,69 @@
             "en-GB": {
               "tale_simple": {
                 "path": "kits/en-GB/enchanted-springs/queen-isabels-roses/enchanted-springs-queen-isabels-roses-tale-book-simple-en-GB.pdf",
-                "version": "v3.2",
-                "updated": "2026-06-06"
+                "version": "v4.0",
+                "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/en-GB/enchanted-springs/queen-isabels-roses/enchanted-springs-queen-isabels-roses-tale-book-rich-en-GB.pdf",
-                "version": "v3.2",
-                "updated": "2026-06-06"
+                "version": "v4.0",
+                "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/en-GB/enchanted-springs/queen-isabels-roses/enchanted-springs-queen-isabels-roses-atlas-en-GB.pdf",
-                "version": "v4.2",
-                "updated": "2026-06-06"
+                "version": "v5.0",
+                "updated": "2026-06-07"
               }
             },
             "es-ES": {
               "tale_simple": {
                 "path": "kits/es-ES/enchanted-springs/queen-isabels-roses/enchanted-springs-queen-isabels-roses-tale-book-simple-es-ES.pdf",
-                "version": "v5.0",
-                "updated": "2026-06-06"
+                "version": "v6.0",
+                "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/es-ES/enchanted-springs/queen-isabels-roses/enchanted-springs-queen-isabels-roses-tale-book-rich-es-ES.pdf",
-                "version": "v5.0",
-                "updated": "2026-06-06"
+                "version": "v6.0",
+                "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/es-ES/enchanted-springs/queen-isabels-roses/enchanted-springs-queen-isabels-roses-atlas-es-ES.pdf",
-                "version": "v5.2",
-                "updated": "2026-06-06"
+                "version": "v6.0",
+                "updated": "2026-06-07"
               }
             },
             "it-IT": {
               "tale_simple": {
                 "path": "kits/it-IT/enchanted-springs/queen-isabels-roses/enchanted-springs-queen-isabels-roses-tale-book-simple-it-IT.pdf",
-                "version": "v5.2",
-                "updated": "2026-06-06"
+                "version": "v6.0",
+                "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/it-IT/enchanted-springs/queen-isabels-roses/enchanted-springs-queen-isabels-roses-tale-book-rich-it-IT.pdf",
-                "version": "v5.2",
-                "updated": "2026-06-06"
+                "version": "v6.0",
+                "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/it-IT/enchanted-springs/queen-isabels-roses/enchanted-springs-queen-isabels-roses-atlas-it-IT.pdf",
-                "version": "v5.2",
-                "updated": "2026-06-06"
+                "version": "v6.0",
+                "updated": "2026-06-07"
               }
             },
             "pt-PT": {
               "tale_simple": {
                 "path": "kits/pt-PT/enchanted-springs/queen-isabels-roses/enchanted-springs-queen-isabels-roses-tale-book-simple-pt-PT.pdf",
-                "version": "v5.0",
-                "updated": "2026-06-06"
+                "version": "v6.0",
+                "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/pt-PT/enchanted-springs/queen-isabels-roses/enchanted-springs-queen-isabels-roses-tale-book-rich-pt-PT.pdf",
-                "version": "v6.0",
-                "updated": "2026-06-06"
+                "version": "v7.0",
+                "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/pt-PT/enchanted-springs/queen-isabels-roses/enchanted-springs-queen-isabels-roses-atlas-pt-PT.pdf",
-                "version": "v6.0",
-                "updated": "2026-06-06"
+                "version": "v7.0",
+                "updated": "2026-06-07"
               }
             }
           }
@@ -3360,6 +3403,24 @@
             "pt-PT": "A noite em que as famílias das Ilhas fazem subir juntas lanternas do céu luminosas para o céu tranquilo."
           },
           "image_path": null
+        },
+        {
+          "id": "magic-float",
+          "kind": "quality",
+          "disposition": null,
+          "names": {
+            "en-GB": "Float",
+            "es-ES": "Flotar",
+            "it-IT": "Fluttuare",
+            "pt-PT": "Flutuar"
+          },
+          "description": {
+            "en-GB": "Lifts and floats heavy things gently up into the air, the way the isles themselves drift on the sky. A stuck cart or a fallen friend rises light as a feather.",
+            "es-ES": "Eleva y hace flotar con suavidad las cosas pesadas por el aire, como las propias islas que van a la deriva por el cielo. Un carro atascado o un amigo caído se alza ligero como una pluma.",
+            "it-IT": "Solleva e fa fluttuare con dolcezza le cose pesanti nell'aria, come le isole stesse che vanno alla deriva nel cielo. Un carro bloccato o un amico caduto si alza leggero come una piuma.",
+            "pt-PT": "Eleva e faz flutuar com suavidade as coisas pesadas pelo ar, como as próprias ilhas que vagueiam pelo céu. Um carro preso ou um amigo caído ergue-se leve como uma pena."
+          },
+          "image_path": null
         }
       ],
       "heroes": [
@@ -3375,8 +3436,7 @@
           },
           "magics": [
             "magic-light",
-            "magic-voice",
-            "magic-grow"
+            "magic-voice"
           ],
           "energy": 4,
           "carry": [
@@ -3412,9 +3472,7 @@
             "pt-PT": "das Ilhas Flutuantes"
           },
           "magics": [
-            "magic-grow",
-            "magic-change",
-            "magic-voice"
+            "magic-grow"
           ],
           "energy": 3,
           "carry": [
@@ -3450,9 +3508,7 @@
             "pt-PT": "das Ilhas Flutuantes"
           },
           "magics": [
-            "magic-light",
-            "magic-change",
-            "magic-voice"
+            "magic-change"
           ],
           "energy": 5,
           "carry": [
@@ -3494,9 +3550,8 @@
             "pt-PT": "das Ilhas Flutuantes"
           },
           "magics": [
-            "magic-voice",
-            "magic-grow",
-            "magic-light"
+            "magic-float",
+            "magic-grow"
           ],
           "energy": 4,
           "carry": [
@@ -3526,49 +3581,49 @@
         "en-GB": {
           "world_book": {
             "path": "kits/en-GB/floating-isles/floating-isles-world-book-en-GB.pdf",
-            "version": "v20.0",
-            "updated": "2026-06-06"
+            "version": "v22.0",
+            "updated": "2026-06-07"
           },
           "example_heroes": {
             "path": "kits/en-GB/floating-isles/floating-isles-example-heroes-en-GB.pdf",
-            "version": "v18.0",
-            "updated": "2026-06-06"
+            "version": "v19.0",
+            "updated": "2026-06-07"
           }
         },
         "es-ES": {
           "world_book": {
             "path": "kits/es-ES/floating-isles/floating-isles-world-book-es-ES.pdf",
-            "version": "v20.0",
-            "updated": "2026-06-06"
+            "version": "v22.0",
+            "updated": "2026-06-07"
           },
           "example_heroes": {
             "path": "kits/es-ES/floating-isles/floating-isles-example-heroes-es-ES.pdf",
-            "version": "v18.0",
-            "updated": "2026-06-06"
+            "version": "v19.0",
+            "updated": "2026-06-07"
           }
         },
         "it-IT": {
           "world_book": {
             "path": "kits/it-IT/floating-isles/floating-isles-world-book-it-IT.pdf",
-            "version": "v19.0",
-            "updated": "2026-06-06"
+            "version": "v21.0",
+            "updated": "2026-06-07"
           },
           "example_heroes": {
             "path": "kits/it-IT/floating-isles/floating-isles-example-heroes-it-IT.pdf",
-            "version": "v18.0",
-            "updated": "2026-06-06"
+            "version": "v19.0",
+            "updated": "2026-06-07"
           }
         },
         "pt-PT": {
           "world_book": {
             "path": "kits/pt-PT/floating-isles/floating-isles-world-book-pt-PT.pdf",
-            "version": "v20.0",
-            "updated": "2026-06-06"
+            "version": "v22.0",
+            "updated": "2026-06-07"
           },
           "example_heroes": {
             "path": "kits/pt-PT/floating-isles/floating-isles-example-heroes-pt-PT.pdf",
-            "version": "v18.0",
-            "updated": "2026-06-06"
+            "version": "v19.0",
+            "updated": "2026-06-07"
           }
         }
       },
@@ -3748,69 +3803,69 @@
             "en-GB": {
               "tale_simple": {
                 "path": "kits/en-GB/floating-isles/lantern-festival/floating-isles-lantern-festival-tale-book-simple-en-GB.pdf",
-                "version": "v11.2",
-                "updated": "2026-06-06"
+                "version": "v12.0",
+                "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/en-GB/floating-isles/lantern-festival/floating-isles-lantern-festival-tale-book-rich-en-GB.pdf",
-                "version": "v11.2",
-                "updated": "2026-06-06"
+                "version": "v12.0",
+                "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/en-GB/floating-isles/lantern-festival/floating-isles-lantern-festival-atlas-en-GB.pdf",
-                "version": "v10.2",
-                "updated": "2026-06-06"
+                "version": "v11.0",
+                "updated": "2026-06-07"
               }
             },
             "es-ES": {
               "tale_simple": {
                 "path": "kits/es-ES/floating-isles/lantern-festival/floating-isles-lantern-festival-tale-book-simple-es-ES.pdf",
-                "version": "v12.0",
-                "updated": "2026-06-06"
+                "version": "v13.0",
+                "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/es-ES/floating-isles/lantern-festival/floating-isles-lantern-festival-tale-book-rich-es-ES.pdf",
-                "version": "v12.0",
-                "updated": "2026-06-06"
+                "version": "v13.0",
+                "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/es-ES/floating-isles/lantern-festival/floating-isles-lantern-festival-atlas-es-ES.pdf",
-                "version": "v10.2",
-                "updated": "2026-06-06"
+                "version": "v11.0",
+                "updated": "2026-06-07"
               }
             },
             "it-IT": {
               "tale_simple": {
                 "path": "kits/it-IT/floating-isles/lantern-festival/floating-isles-lantern-festival-tale-book-simple-it-IT.pdf",
-                "version": "v11.2",
-                "updated": "2026-06-06"
+                "version": "v12.0",
+                "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/it-IT/floating-isles/lantern-festival/floating-isles-lantern-festival-tale-book-rich-it-IT.pdf",
-                "version": "v11.2",
-                "updated": "2026-06-06"
+                "version": "v12.0",
+                "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/it-IT/floating-isles/lantern-festival/floating-isles-lantern-festival-atlas-it-IT.pdf",
-                "version": "v10.2",
-                "updated": "2026-06-06"
+                "version": "v11.0",
+                "updated": "2026-06-07"
               }
             },
             "pt-PT": {
               "tale_simple": {
                 "path": "kits/pt-PT/floating-isles/lantern-festival/floating-isles-lantern-festival-tale-book-simple-pt-PT.pdf",
-                "version": "v12.0",
-                "updated": "2026-06-06"
+                "version": "v13.0",
+                "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/pt-PT/floating-isles/lantern-festival/floating-isles-lantern-festival-tale-book-rich-pt-PT.pdf",
-                "version": "v12.0",
-                "updated": "2026-06-06"
+                "version": "v13.0",
+                "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/pt-PT/floating-isles/lantern-festival/floating-isles-lantern-festival-atlas-pt-PT.pdf",
-                "version": "v11.0",
-                "updated": "2026-06-06"
+                "version": "v12.0",
+                "updated": "2026-06-07"
               }
             }
           }
@@ -3976,69 +4031,69 @@
             "en-GB": {
               "tale_simple": {
                 "path": "kits/en-GB/floating-isles/mixed-up-market/floating-isles-mixed-up-market-tale-book-simple-en-GB.pdf",
-                "version": "v11.2",
-                "updated": "2026-06-06"
+                "version": "v12.0",
+                "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/en-GB/floating-isles/mixed-up-market/floating-isles-mixed-up-market-tale-book-rich-en-GB.pdf",
-                "version": "v11.2",
-                "updated": "2026-06-06"
+                "version": "v12.0",
+                "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/en-GB/floating-isles/mixed-up-market/floating-isles-mixed-up-market-atlas-en-GB.pdf",
-                "version": "v10.2",
-                "updated": "2026-06-06"
+                "version": "v11.0",
+                "updated": "2026-06-07"
               }
             },
             "es-ES": {
               "tale_simple": {
                 "path": "kits/es-ES/floating-isles/mixed-up-market/floating-isles-mixed-up-market-tale-book-simple-es-ES.pdf",
-                "version": "v12.0",
-                "updated": "2026-06-06"
+                "version": "v13.0",
+                "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/es-ES/floating-isles/mixed-up-market/floating-isles-mixed-up-market-tale-book-rich-es-ES.pdf",
-                "version": "v12.0",
-                "updated": "2026-06-06"
+                "version": "v13.0",
+                "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/es-ES/floating-isles/mixed-up-market/floating-isles-mixed-up-market-atlas-es-ES.pdf",
-                "version": "v10.2",
-                "updated": "2026-06-06"
+                "version": "v11.0",
+                "updated": "2026-06-07"
               }
             },
             "it-IT": {
               "tale_simple": {
                 "path": "kits/it-IT/floating-isles/mixed-up-market/floating-isles-mixed-up-market-tale-book-simple-it-IT.pdf",
-                "version": "v11.2",
-                "updated": "2026-06-06"
+                "version": "v12.0",
+                "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/it-IT/floating-isles/mixed-up-market/floating-isles-mixed-up-market-tale-book-rich-it-IT.pdf",
-                "version": "v11.2",
-                "updated": "2026-06-06"
+                "version": "v12.0",
+                "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/it-IT/floating-isles/mixed-up-market/floating-isles-mixed-up-market-atlas-it-IT.pdf",
-                "version": "v10.2",
-                "updated": "2026-06-06"
+                "version": "v11.0",
+                "updated": "2026-06-07"
               }
             },
             "pt-PT": {
               "tale_simple": {
                 "path": "kits/pt-PT/floating-isles/mixed-up-market/floating-isles-mixed-up-market-tale-book-simple-pt-PT.pdf",
-                "version": "v11.0",
-                "updated": "2026-06-06"
+                "version": "v12.0",
+                "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/pt-PT/floating-isles/mixed-up-market/floating-isles-mixed-up-market-tale-book-rich-pt-PT.pdf",
-                "version": "v11.0",
-                "updated": "2026-06-06"
+                "version": "v12.0",
+                "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/pt-PT/floating-isles/mixed-up-market/floating-isles-mixed-up-market-atlas-pt-PT.pdf",
-                "version": "v11.0",
-                "updated": "2026-06-06"
+                "version": "v12.0",
+                "updated": "2026-06-07"
               }
             }
           }
@@ -4206,13 +4261,13 @@
             "en-GB": {
               "tale_simple": {
                 "path": "kits/en-GB/floating-isles/sleeping-garden/floating-isles-sleeping-garden-tale-book-simple-en-GB.pdf",
-                "version": "v12.0",
-                "updated": "2026-06-06"
+                "version": "v13.0",
+                "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/en-GB/floating-isles/sleeping-garden/floating-isles-sleeping-garden-tale-book-rich-en-GB.pdf",
-                "version": "v12.0",
-                "updated": "2026-06-06"
+                "version": "v13.0",
+                "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/en-GB/floating-isles/sleeping-garden/floating-isles-sleeping-garden-atlas-en-GB.pdf",
@@ -4223,13 +4278,13 @@
             "es-ES": {
               "tale_simple": {
                 "path": "kits/es-ES/floating-isles/sleeping-garden/floating-isles-sleeping-garden-tale-book-simple-es-ES.pdf",
-                "version": "v12.0",
-                "updated": "2026-06-06"
+                "version": "v13.0",
+                "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/es-ES/floating-isles/sleeping-garden/floating-isles-sleeping-garden-tale-book-rich-es-ES.pdf",
-                "version": "v12.0",
-                "updated": "2026-06-06"
+                "version": "v13.0",
+                "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/es-ES/floating-isles/sleeping-garden/floating-isles-sleeping-garden-atlas-es-ES.pdf",
@@ -4240,13 +4295,13 @@
             "it-IT": {
               "tale_simple": {
                 "path": "kits/it-IT/floating-isles/sleeping-garden/floating-isles-sleeping-garden-tale-book-simple-it-IT.pdf",
-                "version": "v12.0",
-                "updated": "2026-06-06"
+                "version": "v13.0",
+                "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/it-IT/floating-isles/sleeping-garden/floating-isles-sleeping-garden-tale-book-rich-it-IT.pdf",
-                "version": "v12.0",
-                "updated": "2026-06-06"
+                "version": "v13.0",
+                "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/it-IT/floating-isles/sleeping-garden/floating-isles-sleeping-garden-atlas-it-IT.pdf",
@@ -4257,13 +4312,13 @@
             "pt-PT": {
               "tale_simple": {
                 "path": "kits/pt-PT/floating-isles/sleeping-garden/floating-isles-sleeping-garden-tale-book-simple-pt-PT.pdf",
-                "version": "v13.0",
-                "updated": "2026-06-06"
+                "version": "v14.0",
+                "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/pt-PT/floating-isles/sleeping-garden/floating-isles-sleeping-garden-tale-book-rich-pt-PT.pdf",
-                "version": "v13.0",
-                "updated": "2026-06-06"
+                "version": "v14.0",
+                "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/pt-PT/floating-isles/sleeping-garden/floating-isles-sleeping-garden-atlas-pt-PT.pdf",
@@ -4740,6 +4795,42 @@
             "pt-PT": "O cuidado pelos outros. Neste mundo, os maiores heróis são os que ajudam, partilham e nunca abandonam um amigo."
           },
           "image_path": null
+        },
+        {
+          "id": "curiosity",
+          "kind": "quality",
+          "disposition": null,
+          "names": {
+            "en-GB": "Curiosity",
+            "es-ES": "Curiosidad",
+            "it-IT": "Curiosità",
+            "pt-PT": "Curiosidade"
+          },
+          "description": {
+            "en-GB": "Asking the right question and noticing what others miss. Under the bright Greek sun, a curious eye spots the small clue that solves the whole puzzle.",
+            "es-ES": "Hacer la pregunta justa y fijarse en lo que otros no ven. Bajo el sol brillante de Grecia, un ojo curioso descubre la pequeña pista que resuelve todo el enigma.",
+            "it-IT": "Fare la domanda giusta e notare ciò che gli altri non vedono. Sotto il sole splendente della Grecia, un occhio curioso scopre il piccolo indizio che risolve l'intero enigma.",
+            "pt-PT": "Fazer a pergunta certa e reparar no que os outros não veem. Sob o sol brilhante da Grécia, um olho curioso descobre a pequena pista que resolve todo o enigma."
+          },
+          "image_path": null
+        },
+        {
+          "id": "cleverness",
+          "kind": "quality",
+          "disposition": null,
+          "names": {
+            "en-GB": "Cleverness",
+            "es-ES": "Astucia",
+            "it-IT": "Astuzia",
+            "pt-PT": "Astúcia"
+          },
+          "description": {
+            "en-GB": "A quick, kind wit that finds the clever way through. In the land of Athena, a bright idea outshines brute strength every time.",
+            "es-ES": "Un ingenio rápido y amable que encuentra la salida lista. En la tierra de Atenea, una idea brillante supera siempre a la fuerza bruta.",
+            "it-IT": "Un'intelligenza rapida e gentile che trova la via furba. Nella terra di Atena, un'idea brillante batte ogni volta la forza bruta.",
+            "pt-PT": "Uma esperteza rápida e gentil que encontra o caminho astuto. Na terra de Atena, uma ideia brilhante supera sempre a força bruta."
+          },
+          "image_path": null
         }
       ],
       "heroes": [
@@ -4755,7 +4846,6 @@
           },
           "magics": [
             "imagination",
-            "courage",
             "heart"
           ],
           "energy": 4,
@@ -4792,9 +4882,7 @@
             "pt-PT": "das Colinas Soalheiras da Grécia"
           },
           "magics": [
-            "courage",
-            "heart",
-            "imagination"
+            "courage"
           ],
           "energy": 3,
           "carry": [
@@ -4830,9 +4918,8 @@
             "pt-PT": "das Colinas Soalheiras da Grécia"
           },
           "magics": [
-            "imagination",
-            "heart",
-            "courage"
+            "curiosity",
+            "cleverness"
           ],
           "energy": 5,
           "carry": [
@@ -4875,8 +4962,7 @@
           },
           "magics": [
             "courage",
-            "imagination",
-            "heart"
+            "imagination"
           ],
           "energy": 4,
           "carry": [
@@ -4906,49 +4992,49 @@
         "en-GB": {
           "world_book": {
             "path": "kits/en-GB/greek-myth/greek-myth-world-book-en-GB.pdf",
-            "version": "v19.2",
-            "updated": "2026-06-06"
+            "version": "v20.0",
+            "updated": "2026-06-07"
           },
           "example_heroes": {
             "path": "kits/en-GB/greek-myth/greek-myth-example-heroes-en-GB.pdf",
-            "version": "v14.2",
-            "updated": "2026-06-06"
+            "version": "v15.0",
+            "updated": "2026-06-07"
           }
         },
         "es-ES": {
           "world_book": {
             "path": "kits/es-ES/greek-myth/greek-myth-world-book-es-ES.pdf",
-            "version": "v20.0",
-            "updated": "2026-06-06"
+            "version": "v21.0",
+            "updated": "2026-06-07"
           },
           "example_heroes": {
             "path": "kits/es-ES/greek-myth/greek-myth-example-heroes-es-ES.pdf",
-            "version": "v14.2",
-            "updated": "2026-06-06"
+            "version": "v15.0",
+            "updated": "2026-06-07"
           }
         },
         "it-IT": {
           "world_book": {
             "path": "kits/it-IT/greek-myth/greek-myth-world-book-it-IT.pdf",
-            "version": "v17.2",
-            "updated": "2026-06-06"
+            "version": "v18.0",
+            "updated": "2026-06-07"
           },
           "example_heroes": {
             "path": "kits/it-IT/greek-myth/greek-myth-example-heroes-it-IT.pdf",
-            "version": "v14.2",
-            "updated": "2026-06-06"
+            "version": "v15.0",
+            "updated": "2026-06-07"
           }
         },
         "pt-PT": {
           "world_book": {
             "path": "kits/pt-PT/greek-myth/greek-myth-world-book-pt-PT.pdf",
-            "version": "v18.0",
-            "updated": "2026-06-06"
+            "version": "v19.0",
+            "updated": "2026-06-07"
           },
           "example_heroes": {
             "path": "kits/pt-PT/greek-myth/greek-myth-example-heroes-pt-PT.pdf",
-            "version": "v14.2",
-            "updated": "2026-06-06"
+            "version": "v15.0",
+            "updated": "2026-06-07"
           }
         }
       },
@@ -5115,13 +5201,13 @@
             "en-GB": {
               "tale_simple": {
                 "path": "kits/en-GB/greek-myth/athenas-owl/greek-myth-athenas-owl-tale-book-simple-en-GB.pdf",
-                "version": "v8.2",
-                "updated": "2026-06-06"
+                "version": "v9.0",
+                "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/en-GB/greek-myth/athenas-owl/greek-myth-athenas-owl-tale-book-rich-en-GB.pdf",
-                "version": "v8.2",
-                "updated": "2026-06-06"
+                "version": "v9.0",
+                "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/en-GB/greek-myth/athenas-owl/greek-myth-athenas-owl-atlas-en-GB.pdf",
@@ -5132,13 +5218,13 @@
             "es-ES": {
               "tale_simple": {
                 "path": "kits/es-ES/greek-myth/athenas-owl/greek-myth-athenas-owl-tale-book-simple-es-ES.pdf",
-                "version": "v9.0",
-                "updated": "2026-06-06"
+                "version": "v10.0",
+                "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/es-ES/greek-myth/athenas-owl/greek-myth-athenas-owl-tale-book-rich-es-ES.pdf",
-                "version": "v9.0",
-                "updated": "2026-06-06"
+                "version": "v10.0",
+                "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/es-ES/greek-myth/athenas-owl/greek-myth-athenas-owl-atlas-es-ES.pdf",
@@ -5149,13 +5235,13 @@
             "it-IT": {
               "tale_simple": {
                 "path": "kits/it-IT/greek-myth/athenas-owl/greek-myth-athenas-owl-tale-book-simple-it-IT.pdf",
-                "version": "v8.2",
-                "updated": "2026-06-06"
+                "version": "v9.0",
+                "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/it-IT/greek-myth/athenas-owl/greek-myth-athenas-owl-tale-book-rich-it-IT.pdf",
-                "version": "v8.2",
-                "updated": "2026-06-06"
+                "version": "v9.0",
+                "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/it-IT/greek-myth/athenas-owl/greek-myth-athenas-owl-atlas-it-IT.pdf",
@@ -5166,13 +5252,13 @@
             "pt-PT": {
               "tale_simple": {
                 "path": "kits/pt-PT/greek-myth/athenas-owl/greek-myth-athenas-owl-tale-book-simple-pt-PT.pdf",
-                "version": "v8.0",
-                "updated": "2026-06-06"
+                "version": "v9.0",
+                "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/pt-PT/greek-myth/athenas-owl/greek-myth-athenas-owl-tale-book-rich-pt-PT.pdf",
-                "version": "v8.0",
-                "updated": "2026-06-06"
+                "version": "v9.0",
+                "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/pt-PT/greek-myth/athenas-owl/greek-myth-athenas-owl-atlas-pt-PT.pdf",
@@ -5344,13 +5430,13 @@
             "en-GB": {
               "tale_simple": {
                 "path": "kits/en-GB/greek-myth/honey-cake-feast/greek-myth-honey-cake-feast-tale-book-simple-en-GB.pdf",
-                "version": "v9.2",
-                "updated": "2026-06-06"
+                "version": "v10.0",
+                "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/en-GB/greek-myth/honey-cake-feast/greek-myth-honey-cake-feast-tale-book-rich-en-GB.pdf",
-                "version": "v9.2",
-                "updated": "2026-06-06"
+                "version": "v10.0",
+                "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/en-GB/greek-myth/honey-cake-feast/greek-myth-honey-cake-feast-atlas-en-GB.pdf",
@@ -5361,13 +5447,13 @@
             "es-ES": {
               "tale_simple": {
                 "path": "kits/es-ES/greek-myth/honey-cake-feast/greek-myth-honey-cake-feast-tale-book-simple-es-ES.pdf",
-                "version": "v10.0",
-                "updated": "2026-06-06"
+                "version": "v11.0",
+                "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/es-ES/greek-myth/honey-cake-feast/greek-myth-honey-cake-feast-tale-book-rich-es-ES.pdf",
-                "version": "v10.0",
-                "updated": "2026-06-06"
+                "version": "v11.0",
+                "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/es-ES/greek-myth/honey-cake-feast/greek-myth-honey-cake-feast-atlas-es-ES.pdf",
@@ -5378,13 +5464,13 @@
             "it-IT": {
               "tale_simple": {
                 "path": "kits/it-IT/greek-myth/honey-cake-feast/greek-myth-honey-cake-feast-tale-book-simple-it-IT.pdf",
-                "version": "v9.2",
-                "updated": "2026-06-06"
+                "version": "v10.0",
+                "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/it-IT/greek-myth/honey-cake-feast/greek-myth-honey-cake-feast-tale-book-rich-it-IT.pdf",
-                "version": "v9.2",
-                "updated": "2026-06-06"
+                "version": "v10.0",
+                "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/it-IT/greek-myth/honey-cake-feast/greek-myth-honey-cake-feast-atlas-it-IT.pdf",
@@ -5395,13 +5481,13 @@
             "pt-PT": {
               "tale_simple": {
                 "path": "kits/pt-PT/greek-myth/honey-cake-feast/greek-myth-honey-cake-feast-tale-book-simple-pt-PT.pdf",
-                "version": "v9.0",
-                "updated": "2026-06-06"
+                "version": "v10.0",
+                "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/pt-PT/greek-myth/honey-cake-feast/greek-myth-honey-cake-feast-tale-book-rich-pt-PT.pdf",
-                "version": "v9.0",
-                "updated": "2026-06-06"
+                "version": "v10.0",
+                "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/pt-PT/greek-myth/honey-cake-feast/greek-myth-honey-cake-feast-atlas-pt-PT.pdf",
@@ -5573,13 +5659,13 @@
             "en-GB": {
               "tale_simple": {
                 "path": "kits/en-GB/greek-myth/the-singing-spring/greek-myth-the-singing-spring-tale-book-simple-en-GB.pdf",
-                "version": "v10.2",
-                "updated": "2026-06-06"
+                "version": "v11.0",
+                "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/en-GB/greek-myth/the-singing-spring/greek-myth-the-singing-spring-tale-book-rich-en-GB.pdf",
-                "version": "v10.2",
-                "updated": "2026-06-06"
+                "version": "v11.0",
+                "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/en-GB/greek-myth/the-singing-spring/greek-myth-the-singing-spring-atlas-en-GB.pdf",
@@ -5590,13 +5676,13 @@
             "es-ES": {
               "tale_simple": {
                 "path": "kits/es-ES/greek-myth/the-singing-spring/greek-myth-the-singing-spring-tale-book-simple-es-ES.pdf",
-                "version": "v11.0",
-                "updated": "2026-06-06"
+                "version": "v12.0",
+                "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/es-ES/greek-myth/the-singing-spring/greek-myth-the-singing-spring-tale-book-rich-es-ES.pdf",
-                "version": "v11.0",
-                "updated": "2026-06-06"
+                "version": "v12.0",
+                "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/es-ES/greek-myth/the-singing-spring/greek-myth-the-singing-spring-atlas-es-ES.pdf",
@@ -5607,13 +5693,13 @@
             "it-IT": {
               "tale_simple": {
                 "path": "kits/it-IT/greek-myth/the-singing-spring/greek-myth-the-singing-spring-tale-book-simple-it-IT.pdf",
-                "version": "v9.2",
-                "updated": "2026-06-06"
+                "version": "v10.0",
+                "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/it-IT/greek-myth/the-singing-spring/greek-myth-the-singing-spring-tale-book-rich-it-IT.pdf",
-                "version": "v11.2",
-                "updated": "2026-06-06"
+                "version": "v12.0",
+                "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/it-IT/greek-myth/the-singing-spring/greek-myth-the-singing-spring-atlas-it-IT.pdf",
@@ -5624,13 +5710,13 @@
             "pt-PT": {
               "tale_simple": {
                 "path": "kits/pt-PT/greek-myth/the-singing-spring/greek-myth-the-singing-spring-tale-book-simple-pt-PT.pdf",
-                "version": "v10.0",
-                "updated": "2026-06-06"
+                "version": "v11.0",
+                "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/pt-PT/greek-myth/the-singing-spring/greek-myth-the-singing-spring-tale-book-rich-pt-PT.pdf",
-                "version": "v10.0",
-                "updated": "2026-06-06"
+                "version": "v11.0",
+                "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/pt-PT/greek-myth/the-singing-spring/greek-myth-the-singing-spring-atlas-pt-PT.pdf",
@@ -6053,6 +6139,42 @@
             "pt-PT": "O cuidado por todos os seres vivos, de um pirilampo tímido a um grande dragão. Os maiores heróis das montanhas são os que são gentis, partilham e ajudam."
           },
           "image_path": null
+        },
+        {
+          "id": "patience",
+          "kind": "quality",
+          "disposition": null,
+          "names": {
+            "en-GB": "Patience",
+            "es-ES": "Paciencia",
+            "it-IT": "Pazienza",
+            "pt-PT": "Paciência"
+          },
+          "description": {
+            "en-GB": "Waiting kindly and trying again, without rushing. In the still mountains of Yamato, the gentlest things appear only to those who wait.",
+            "es-ES": "Esperar con amabilidad y volver a intentarlo, sin prisa. En las montañas serenas de Yamato, las cosas más delicadas aparecen solo ante quien sabe esperar.",
+            "it-IT": "Aspettare con gentilezza e riprovare, senza fretta. Nelle montagne quiete di Yamato, le cose più delicate appaiono solo a chi sa aspettare.",
+            "pt-PT": "Esperar com amabilidade e tentar de novo, sem pressa. Nas montanhas serenas de Yamato, as coisas mais delicadas aparecem só a quem sabe esperar."
+          },
+          "image_path": null
+        },
+        {
+          "id": "curiosity",
+          "kind": "quality",
+          "disposition": null,
+          "names": {
+            "en-GB": "Curiosity",
+            "es-ES": "Curiosidad",
+            "it-IT": "Curiosità",
+            "pt-PT": "Curiosidade"
+          },
+          "description": {
+            "en-GB": "Asking the right question and noticing what others miss. In the quiet mountains, a curious heart hears the small sound that shows the way.",
+            "es-ES": "Hacer la pregunta justa y fijarse en lo que otros no ven. En las montañas tranquilas, un corazón curioso oye el pequeño sonido que muestra el camino.",
+            "it-IT": "Fare la domanda giusta e notare ciò che gli altri non vedono. Nelle montagne tranquille, un cuore curioso ode il piccolo suono che indica la via.",
+            "pt-PT": "Fazer a pergunta certa e reparar no que os outros não veem. Nas montanhas tranquilas, um coração curioso ouve o pequeno som que mostra o caminho."
+          },
+          "image_path": null
         }
       ],
       "heroes": [
@@ -6068,8 +6190,7 @@
           },
           "magics": [
             "imagination",
-            "kindness",
-            "courage"
+            "kindness"
           ],
           "energy": 4,
           "carry": [
@@ -6105,9 +6226,7 @@
             "pt-PT": "as Montanhas em Flor de Yamato"
           },
           "magics": [
-            "courage",
-            "kindness",
-            "imagination"
+            "courage"
           ],
           "energy": 3,
           "carry": [
@@ -6143,9 +6262,8 @@
             "pt-PT": "as Montanhas em Flor de Yamato"
           },
           "magics": [
-            "imagination",
-            "courage",
-            "kindness"
+            "patience",
+            "curiosity"
           ],
           "energy": 5,
           "carry": [
@@ -6187,9 +6305,8 @@
             "pt-PT": "as Montanhas em Flor de Yamato"
           },
           "magics": [
-            "courage",
-            "imagination",
-            "kindness"
+            "kindness",
+            "courage"
           ],
           "energy": 4,
           "carry": [
@@ -6219,49 +6336,49 @@
         "en-GB": {
           "world_book": {
             "path": "kits/en-GB/japanese-myth/japanese-myth-world-book-en-GB.pdf",
-            "version": "v11.2",
-            "updated": "2026-06-06"
+            "version": "v12.0",
+            "updated": "2026-06-07"
           },
           "example_heroes": {
             "path": "kits/en-GB/japanese-myth/japanese-myth-example-heroes-en-GB.pdf",
-            "version": "v10.2",
-            "updated": "2026-06-06"
+            "version": "v11.0",
+            "updated": "2026-06-07"
           }
         },
         "es-ES": {
           "world_book": {
             "path": "kits/es-ES/japanese-myth/japanese-myth-world-book-es-ES.pdf",
-            "version": "v11.2",
-            "updated": "2026-06-06"
+            "version": "v12.0",
+            "updated": "2026-06-07"
           },
           "example_heroes": {
             "path": "kits/es-ES/japanese-myth/japanese-myth-example-heroes-es-ES.pdf",
-            "version": "v10.2",
-            "updated": "2026-06-06"
+            "version": "v11.0",
+            "updated": "2026-06-07"
           }
         },
         "it-IT": {
           "world_book": {
             "path": "kits/it-IT/japanese-myth/japanese-myth-world-book-it-IT.pdf",
-            "version": "v11.2",
-            "updated": "2026-06-06"
+            "version": "v12.0",
+            "updated": "2026-06-07"
           },
           "example_heroes": {
             "path": "kits/it-IT/japanese-myth/japanese-myth-example-heroes-it-IT.pdf",
-            "version": "v10.2",
-            "updated": "2026-06-06"
+            "version": "v11.0",
+            "updated": "2026-06-07"
           }
         },
         "pt-PT": {
           "world_book": {
             "path": "kits/pt-PT/japanese-myth/japanese-myth-world-book-pt-PT.pdf",
-            "version": "v12.0",
-            "updated": "2026-06-06"
+            "version": "v13.0",
+            "updated": "2026-06-07"
           },
           "example_heroes": {
             "path": "kits/pt-PT/japanese-myth/japanese-myth-example-heroes-pt-PT.pdf",
-            "version": "v10.2",
-            "updated": "2026-06-06"
+            "version": "v11.0",
+            "updated": "2026-06-07"
           }
         }
       },
@@ -6428,13 +6545,13 @@
             "en-GB": {
               "tale_simple": {
                 "path": "kits/en-GB/japanese-myth/firefly-lanterns/japanese-myth-firefly-lanterns-tale-book-simple-en-GB.pdf",
-                "version": "v7.2",
-                "updated": "2026-06-06"
+                "version": "v8.0",
+                "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/en-GB/japanese-myth/firefly-lanterns/japanese-myth-firefly-lanterns-tale-book-rich-en-GB.pdf",
-                "version": "v7.2",
-                "updated": "2026-06-06"
+                "version": "v8.0",
+                "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/en-GB/japanese-myth/firefly-lanterns/japanese-myth-firefly-lanterns-atlas-en-GB.pdf",
@@ -6445,13 +6562,13 @@
             "es-ES": {
               "tale_simple": {
                 "path": "kits/es-ES/japanese-myth/firefly-lanterns/japanese-myth-firefly-lanterns-tale-book-simple-es-ES.pdf",
-                "version": "v8.0",
-                "updated": "2026-06-06"
+                "version": "v9.0",
+                "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/es-ES/japanese-myth/firefly-lanterns/japanese-myth-firefly-lanterns-tale-book-rich-es-ES.pdf",
-                "version": "v8.0",
-                "updated": "2026-06-06"
+                "version": "v9.0",
+                "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/es-ES/japanese-myth/firefly-lanterns/japanese-myth-firefly-lanterns-atlas-es-ES.pdf",
@@ -6462,13 +6579,13 @@
             "it-IT": {
               "tale_simple": {
                 "path": "kits/it-IT/japanese-myth/firefly-lanterns/japanese-myth-firefly-lanterns-tale-book-simple-it-IT.pdf",
-                "version": "v7.2",
-                "updated": "2026-06-06"
+                "version": "v8.0",
+                "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/it-IT/japanese-myth/firefly-lanterns/japanese-myth-firefly-lanterns-tale-book-rich-it-IT.pdf",
-                "version": "v7.2",
-                "updated": "2026-06-06"
+                "version": "v8.0",
+                "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/it-IT/japanese-myth/firefly-lanterns/japanese-myth-firefly-lanterns-atlas-it-IT.pdf",
@@ -6479,13 +6596,13 @@
             "pt-PT": {
               "tale_simple": {
                 "path": "kits/pt-PT/japanese-myth/firefly-lanterns/japanese-myth-firefly-lanterns-tale-book-simple-pt-PT.pdf",
-                "version": "v8.0",
-                "updated": "2026-06-06"
+                "version": "v9.0",
+                "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/pt-PT/japanese-myth/firefly-lanterns/japanese-myth-firefly-lanterns-tale-book-rich-pt-PT.pdf",
-                "version": "v8.0",
-                "updated": "2026-06-06"
+                "version": "v9.0",
+                "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/pt-PT/japanese-myth/firefly-lanterns/japanese-myth-firefly-lanterns-atlas-pt-PT.pdf",
@@ -6657,13 +6774,13 @@
             "en-GB": {
               "tale_simple": {
                 "path": "kits/en-GB/japanese-myth/river-dragons-long-sleep/japanese-myth-river-dragons-long-sleep-tale-book-simple-en-GB.pdf",
-                "version": "v6.2",
-                "updated": "2026-06-06"
+                "version": "v7.0",
+                "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/en-GB/japanese-myth/river-dragons-long-sleep/japanese-myth-river-dragons-long-sleep-tale-book-rich-en-GB.pdf",
-                "version": "v6.2",
-                "updated": "2026-06-06"
+                "version": "v7.0",
+                "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/en-GB/japanese-myth/river-dragons-long-sleep/japanese-myth-river-dragons-long-sleep-atlas-en-GB.pdf",
@@ -6674,13 +6791,13 @@
             "es-ES": {
               "tale_simple": {
                 "path": "kits/es-ES/japanese-myth/river-dragons-long-sleep/japanese-myth-river-dragons-long-sleep-tale-book-simple-es-ES.pdf",
-                "version": "v7.0",
-                "updated": "2026-06-06"
+                "version": "v8.0",
+                "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/es-ES/japanese-myth/river-dragons-long-sleep/japanese-myth-river-dragons-long-sleep-tale-book-rich-es-ES.pdf",
-                "version": "v7.0",
-                "updated": "2026-06-06"
+                "version": "v8.0",
+                "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/es-ES/japanese-myth/river-dragons-long-sleep/japanese-myth-river-dragons-long-sleep-atlas-es-ES.pdf",
@@ -6691,13 +6808,13 @@
             "it-IT": {
               "tale_simple": {
                 "path": "kits/it-IT/japanese-myth/river-dragons-long-sleep/japanese-myth-river-dragons-long-sleep-tale-book-simple-it-IT.pdf",
-                "version": "v6.2",
-                "updated": "2026-06-06"
+                "version": "v7.0",
+                "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/it-IT/japanese-myth/river-dragons-long-sleep/japanese-myth-river-dragons-long-sleep-tale-book-rich-it-IT.pdf",
-                "version": "v6.2",
-                "updated": "2026-06-06"
+                "version": "v7.0",
+                "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/it-IT/japanese-myth/river-dragons-long-sleep/japanese-myth-river-dragons-long-sleep-atlas-it-IT.pdf",
@@ -6708,13 +6825,13 @@
             "pt-PT": {
               "tale_simple": {
                 "path": "kits/pt-PT/japanese-myth/river-dragons-long-sleep/japanese-myth-river-dragons-long-sleep-tale-book-simple-pt-PT.pdf",
-                "version": "v6.0",
-                "updated": "2026-06-06"
+                "version": "v7.0",
+                "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/pt-PT/japanese-myth/river-dragons-long-sleep/japanese-myth-river-dragons-long-sleep-tale-book-rich-pt-PT.pdf",
-                "version": "v6.0",
-                "updated": "2026-06-06"
+                "version": "v7.0",
+                "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/pt-PT/japanese-myth/river-dragons-long-sleep/japanese-myth-river-dragons-long-sleep-atlas-pt-PT.pdf",
@@ -6886,13 +7003,13 @@
             "en-GB": {
               "tale_simple": {
                 "path": "kits/en-GB/japanese-myth/tanukis-tidy-up/japanese-myth-tanukis-tidy-up-tale-book-simple-en-GB.pdf",
-                "version": "v6.2",
-                "updated": "2026-06-06"
+                "version": "v7.0",
+                "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/en-GB/japanese-myth/tanukis-tidy-up/japanese-myth-tanukis-tidy-up-tale-book-rich-en-GB.pdf",
-                "version": "v6.2",
-                "updated": "2026-06-06"
+                "version": "v7.0",
+                "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/en-GB/japanese-myth/tanukis-tidy-up/japanese-myth-tanukis-tidy-up-atlas-en-GB.pdf",
@@ -6903,13 +7020,13 @@
             "es-ES": {
               "tale_simple": {
                 "path": "kits/es-ES/japanese-myth/tanukis-tidy-up/japanese-myth-tanukis-tidy-up-tale-book-simple-es-ES.pdf",
-                "version": "v7.0",
-                "updated": "2026-06-06"
+                "version": "v8.0",
+                "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/es-ES/japanese-myth/tanukis-tidy-up/japanese-myth-tanukis-tidy-up-tale-book-rich-es-ES.pdf",
-                "version": "v7.0",
-                "updated": "2026-06-06"
+                "version": "v8.0",
+                "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/es-ES/japanese-myth/tanukis-tidy-up/japanese-myth-tanukis-tidy-up-atlas-es-ES.pdf",
@@ -6920,13 +7037,13 @@
             "it-IT": {
               "tale_simple": {
                 "path": "kits/it-IT/japanese-myth/tanukis-tidy-up/japanese-myth-tanukis-tidy-up-tale-book-simple-it-IT.pdf",
-                "version": "v6.2",
-                "updated": "2026-06-06"
+                "version": "v7.0",
+                "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/it-IT/japanese-myth/tanukis-tidy-up/japanese-myth-tanukis-tidy-up-tale-book-rich-it-IT.pdf",
-                "version": "v6.2",
-                "updated": "2026-06-06"
+                "version": "v7.0",
+                "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/it-IT/japanese-myth/tanukis-tidy-up/japanese-myth-tanukis-tidy-up-atlas-it-IT.pdf",
@@ -6937,13 +7054,13 @@
             "pt-PT": {
               "tale_simple": {
                 "path": "kits/pt-PT/japanese-myth/tanukis-tidy-up/japanese-myth-tanukis-tidy-up-tale-book-simple-pt-PT.pdf",
-                "version": "v7.0",
-                "updated": "2026-06-06"
+                "version": "v8.0",
+                "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/pt-PT/japanese-myth/tanukis-tidy-up/japanese-myth-tanukis-tidy-up-tale-book-rich-pt-PT.pdf",
-                "version": "v7.0",
-                "updated": "2026-06-06"
+                "version": "v8.0",
+                "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/pt-PT/japanese-myth/tanukis-tidy-up/japanese-myth-tanukis-tidy-up-atlas-pt-PT.pdf",
@@ -7348,6 +7465,42 @@
             "pt-PT": "O cuidado pelos outros e um lugar junto ao fogo para todos. Os maiores heróis dos fiordes são os que partilham, ajudam e não abandonam um amigo."
           },
           "image_path": null
+        },
+        {
+          "id": "patience",
+          "kind": "quality",
+          "disposition": null,
+          "names": {
+            "en-GB": "Patience",
+            "es-ES": "Paciencia",
+            "it-IT": "Pazienza",
+            "pt-PT": "Paciência"
+          },
+          "description": {
+            "en-GB": "Waiting kindly and trying again, through the longest, coldest night. In the fjords, patience keeps a small flame alight until the dawn returns.",
+            "es-ES": "Esperar con amabilidad y volver a intentarlo, durante la noche más larga y fría. En los fiordos, la paciencia mantiene encendida una pequeña llama hasta que vuelve el amanecer.",
+            "it-IT": "Aspettare con gentilezza e riprovare, nella notte più lunga e fredda. Nei fiordi, la pazienza tiene accesa una piccola fiamma finché torna l'alba.",
+            "pt-PT": "Esperar com amabilidade e tentar de novo, na noite mais longa e fria. Nos fiordes, a paciência mantém acesa uma pequena chama até que o amanhecer regresse."
+          },
+          "image_path": null
+        },
+        {
+          "id": "kindness",
+          "kind": "quality",
+          "disposition": null,
+          "names": {
+            "en-GB": "Kindness",
+            "es-ES": "Bondad",
+            "it-IT": "Gentilezza",
+            "pt-PT": "Bondade"
+          },
+          "description": {
+            "en-GB": "A warm word and a helping hand, even to a fearsome-seeming stranger, which turns most foes into friends. In the cold fjords, kindness is the warmest fire of all.",
+            "es-ES": "Una palabra cálida y una mano amiga, incluso para un extraño de aspecto temible, que convierte a casi cualquier enemigo en amigo. En los fiordos fríos, la bondad es el fuego más cálido de todos.",
+            "it-IT": "Una parola calorosa e una mano tesa, anche a uno straniero dall'aria spaventosa, che trasforma quasi ogni nemico in amico. Nei fiordi freddi, la gentilezza è il fuoco più caldo di tutti.",
+            "pt-PT": "Uma palavra calorosa e uma mão amiga, mesmo a um estranho de aspeto assustador, que torna quase qualquer inimigo num amigo. Nos fiordes frios, a bondade é o fogo mais quente de todos."
+          },
+          "image_path": null
         }
       ],
       "heroes": [
@@ -7363,8 +7516,7 @@
           },
           "magics": [
             "imagination",
-            "heart",
-            "courage"
+            "heart"
           ],
           "energy": 4,
           "carry": [
@@ -7400,9 +7552,7 @@
             "pt-PT": "os Fiordes Nevados do Norte"
           },
           "magics": [
-            "courage",
-            "heart",
-            "imagination"
+            "courage"
           ],
           "energy": 3,
           "carry": [
@@ -7438,9 +7588,8 @@
             "pt-PT": "os Fiordes Nevados do Norte"
           },
           "magics": [
-            "imagination",
-            "courage",
-            "heart"
+            "patience",
+            "kindness"
           ],
           "energy": 5,
           "carry": [
@@ -7482,9 +7631,8 @@
             "pt-PT": "os Fiordes Nevados do Norte"
           },
           "magics": [
-            "courage",
-            "imagination",
-            "heart"
+            "heart",
+            "courage"
           ],
           "energy": 4,
           "carry": [
@@ -7514,49 +7662,49 @@
         "en-GB": {
           "world_book": {
             "path": "kits/en-GB/norse-myth/norse-myth-world-book-en-GB.pdf",
-            "version": "v10.2",
-            "updated": "2026-06-06"
+            "version": "v11.0",
+            "updated": "2026-06-07"
           },
           "example_heroes": {
             "path": "kits/en-GB/norse-myth/norse-myth-example-heroes-en-GB.pdf",
-            "version": "v8.2",
-            "updated": "2026-06-06"
+            "version": "v9.0",
+            "updated": "2026-06-07"
           }
         },
         "es-ES": {
           "world_book": {
             "path": "kits/es-ES/norse-myth/norse-myth-world-book-es-ES.pdf",
-            "version": "v11.0",
-            "updated": "2026-06-06"
+            "version": "v12.0",
+            "updated": "2026-06-07"
           },
           "example_heroes": {
             "path": "kits/es-ES/norse-myth/norse-myth-example-heroes-es-ES.pdf",
-            "version": "v8.2",
-            "updated": "2026-06-06"
+            "version": "v9.0",
+            "updated": "2026-06-07"
           }
         },
         "it-IT": {
           "world_book": {
             "path": "kits/it-IT/norse-myth/norse-myth-world-book-it-IT.pdf",
-            "version": "v10.2",
-            "updated": "2026-06-06"
+            "version": "v11.0",
+            "updated": "2026-06-07"
           },
           "example_heroes": {
             "path": "kits/it-IT/norse-myth/norse-myth-example-heroes-it-IT.pdf",
-            "version": "v8.2",
-            "updated": "2026-06-06"
+            "version": "v9.0",
+            "updated": "2026-06-07"
           }
         },
         "pt-PT": {
           "world_book": {
             "path": "kits/pt-PT/norse-myth/norse-myth-world-book-pt-PT.pdf",
-            "version": "v11.0",
-            "updated": "2026-06-06"
+            "version": "v12.0",
+            "updated": "2026-06-07"
           },
           "example_heroes": {
             "path": "kits/pt-PT/norse-myth/norse-myth-example-heroes-pt-PT.pdf",
-            "version": "v8.2",
-            "updated": "2026-06-06"
+            "version": "v9.0",
+            "updated": "2026-06-07"
           }
         }
       },
@@ -7723,13 +7871,13 @@
             "en-GB": {
               "tale_simple": {
                 "path": "kits/en-GB/norse-myth/ratatosks-message/norse-myth-ratatosks-message-tale-book-simple-en-GB.pdf",
-                "version": "v6.2",
-                "updated": "2026-06-06"
+                "version": "v7.0",
+                "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/en-GB/norse-myth/ratatosks-message/norse-myth-ratatosks-message-tale-book-rich-en-GB.pdf",
-                "version": "v6.2",
-                "updated": "2026-06-06"
+                "version": "v7.0",
+                "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/en-GB/norse-myth/ratatosks-message/norse-myth-ratatosks-message-atlas-en-GB.pdf",
@@ -7740,13 +7888,13 @@
             "es-ES": {
               "tale_simple": {
                 "path": "kits/es-ES/norse-myth/ratatosks-message/norse-myth-ratatosks-message-tale-book-simple-es-ES.pdf",
-                "version": "v7.0",
-                "updated": "2026-06-06"
+                "version": "v8.0",
+                "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/es-ES/norse-myth/ratatosks-message/norse-myth-ratatosks-message-tale-book-rich-es-ES.pdf",
-                "version": "v7.0",
-                "updated": "2026-06-06"
+                "version": "v8.0",
+                "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/es-ES/norse-myth/ratatosks-message/norse-myth-ratatosks-message-atlas-es-ES.pdf",
@@ -7757,13 +7905,13 @@
             "it-IT": {
               "tale_simple": {
                 "path": "kits/it-IT/norse-myth/ratatosks-message/norse-myth-ratatosks-message-tale-book-simple-it-IT.pdf",
-                "version": "v6.2",
-                "updated": "2026-06-06"
+                "version": "v7.0",
+                "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/it-IT/norse-myth/ratatosks-message/norse-myth-ratatosks-message-tale-book-rich-it-IT.pdf",
-                "version": "v6.2",
-                "updated": "2026-06-06"
+                "version": "v7.0",
+                "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/it-IT/norse-myth/ratatosks-message/norse-myth-ratatosks-message-atlas-it-IT.pdf",
@@ -7774,13 +7922,13 @@
             "pt-PT": {
               "tale_simple": {
                 "path": "kits/pt-PT/norse-myth/ratatosks-message/norse-myth-ratatosks-message-tale-book-simple-pt-PT.pdf",
-                "version": "v7.0",
-                "updated": "2026-06-06"
+                "version": "v8.0",
+                "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/pt-PT/norse-myth/ratatosks-message/norse-myth-ratatosks-message-tale-book-rich-pt-PT.pdf",
-                "version": "v7.0",
-                "updated": "2026-06-06"
+                "version": "v8.0",
+                "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/pt-PT/norse-myth/ratatosks-message/norse-myth-ratatosks-message-atlas-pt-PT.pdf",
@@ -7952,13 +8100,13 @@
             "en-GB": {
               "tale_simple": {
                 "path": "kits/en-GB/norse-myth/the-long-winters-night/norse-myth-the-long-winters-night-tale-book-simple-en-GB.pdf",
-                "version": "v6.2",
-                "updated": "2026-06-06"
+                "version": "v7.0",
+                "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/en-GB/norse-myth/the-long-winters-night/norse-myth-the-long-winters-night-tale-book-rich-en-GB.pdf",
-                "version": "v6.2",
-                "updated": "2026-06-06"
+                "version": "v7.0",
+                "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/en-GB/norse-myth/the-long-winters-night/norse-myth-the-long-winters-night-atlas-en-GB.pdf",
@@ -7969,13 +8117,13 @@
             "es-ES": {
               "tale_simple": {
                 "path": "kits/es-ES/norse-myth/the-long-winters-night/norse-myth-the-long-winters-night-tale-book-simple-es-ES.pdf",
-                "version": "v7.0",
-                "updated": "2026-06-06"
+                "version": "v8.0",
+                "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/es-ES/norse-myth/the-long-winters-night/norse-myth-the-long-winters-night-tale-book-rich-es-ES.pdf",
-                "version": "v7.0",
-                "updated": "2026-06-06"
+                "version": "v8.0",
+                "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/es-ES/norse-myth/the-long-winters-night/norse-myth-the-long-winters-night-atlas-es-ES.pdf",
@@ -7986,13 +8134,13 @@
             "it-IT": {
               "tale_simple": {
                 "path": "kits/it-IT/norse-myth/the-long-winters-night/norse-myth-the-long-winters-night-tale-book-simple-it-IT.pdf",
-                "version": "v6.2",
-                "updated": "2026-06-06"
+                "version": "v7.0",
+                "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/it-IT/norse-myth/the-long-winters-night/norse-myth-the-long-winters-night-tale-book-rich-it-IT.pdf",
-                "version": "v6.2",
-                "updated": "2026-06-06"
+                "version": "v7.0",
+                "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/it-IT/norse-myth/the-long-winters-night/norse-myth-the-long-winters-night-atlas-it-IT.pdf",
@@ -8003,13 +8151,13 @@
             "pt-PT": {
               "tale_simple": {
                 "path": "kits/pt-PT/norse-myth/the-long-winters-night/norse-myth-the-long-winters-night-tale-book-simple-pt-PT.pdf",
-                "version": "v6.0",
-                "updated": "2026-06-06"
+                "version": "v7.0",
+                "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/pt-PT/norse-myth/the-long-winters-night/norse-myth-the-long-winters-night-tale-book-rich-pt-PT.pdf",
-                "version": "v6.0",
-                "updated": "2026-06-06"
+                "version": "v7.0",
+                "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/pt-PT/norse-myth/the-long-winters-night/norse-myth-the-long-winters-night-atlas-pt-PT.pdf",
@@ -8181,13 +8329,13 @@
             "en-GB": {
               "tale_simple": {
                 "path": "kits/en-GB/norse-myth/the-lost-little-aurora/norse-myth-the-lost-little-aurora-tale-book-simple-en-GB.pdf",
-                "version": "v6.2",
-                "updated": "2026-06-06"
+                "version": "v7.0",
+                "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/en-GB/norse-myth/the-lost-little-aurora/norse-myth-the-lost-little-aurora-tale-book-rich-en-GB.pdf",
-                "version": "v6.2",
-                "updated": "2026-06-06"
+                "version": "v7.0",
+                "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/en-GB/norse-myth/the-lost-little-aurora/norse-myth-the-lost-little-aurora-atlas-en-GB.pdf",
@@ -8198,13 +8346,13 @@
             "es-ES": {
               "tale_simple": {
                 "path": "kits/es-ES/norse-myth/the-lost-little-aurora/norse-myth-the-lost-little-aurora-tale-book-simple-es-ES.pdf",
-                "version": "v7.0",
-                "updated": "2026-06-06"
+                "version": "v8.0",
+                "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/es-ES/norse-myth/the-lost-little-aurora/norse-myth-the-lost-little-aurora-tale-book-rich-es-ES.pdf",
-                "version": "v7.0",
-                "updated": "2026-06-06"
+                "version": "v8.0",
+                "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/es-ES/norse-myth/the-lost-little-aurora/norse-myth-the-lost-little-aurora-atlas-es-ES.pdf",
@@ -8215,13 +8363,13 @@
             "it-IT": {
               "tale_simple": {
                 "path": "kits/it-IT/norse-myth/the-lost-little-aurora/norse-myth-the-lost-little-aurora-tale-book-simple-it-IT.pdf",
-                "version": "v6.2",
-                "updated": "2026-06-06"
+                "version": "v7.0",
+                "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/it-IT/norse-myth/the-lost-little-aurora/norse-myth-the-lost-little-aurora-tale-book-rich-it-IT.pdf",
-                "version": "v6.2",
-                "updated": "2026-06-06"
+                "version": "v7.0",
+                "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/it-IT/norse-myth/the-lost-little-aurora/norse-myth-the-lost-little-aurora-atlas-it-IT.pdf",
@@ -8232,13 +8380,13 @@
             "pt-PT": {
               "tale_simple": {
                 "path": "kits/pt-PT/norse-myth/the-lost-little-aurora/norse-myth-the-lost-little-aurora-tale-book-simple-pt-PT.pdf",
-                "version": "v7.0",
-                "updated": "2026-06-06"
+                "version": "v8.0",
+                "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/pt-PT/norse-myth/the-lost-little-aurora/norse-myth-the-lost-little-aurora-tale-book-rich-pt-PT.pdf",
-                "version": "v7.0",
-                "updated": "2026-06-06"
+                "version": "v8.0",
+                "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/pt-PT/norse-myth/the-lost-little-aurora/norse-myth-the-lost-little-aurora-atlas-pt-PT.pdf",
@@ -8625,6 +8773,42 @@
             "pt-PT": "Estar ao lado dos teus amigos e não deixar ninguém para trás. Os maiores heróis das costas são os que mantêm a palavra, ajudam e encontram juntos o caminho de casa."
           },
           "image_path": null
+        },
+        {
+          "id": "cleverness",
+          "kind": "quality",
+          "disposition": null,
+          "names": {
+            "en-GB": "Cleverness",
+            "es-ES": "Astucia",
+            "it-IT": "Astuzia",
+            "pt-PT": "Astúcia"
+          },
+          "description": {
+            "en-GB": "A quick, kind wit that finds the clever way through. On the shores of Troy, a wooden horse and a well-timed word do what ten years of fighting could not.",
+            "es-ES": "Un ingenio rápido y amable que encuentra la salida lista. En las costas de Troya, un caballo de madera y una palabra a tiempo logran lo que diez años de lucha no pudieron.",
+            "it-IT": "Un'intelligenza rapida e gentile che trova la via furba. Sulle coste di Troia, un cavallo di legno e una parola al momento giusto fanno ciò che dieci anni di guerra non poterono.",
+            "pt-PT": "Uma esperteza rápida e gentil que encontra o caminho astuto. Nas costas de Troia, um cavalo de madeira e uma palavra a tempo fazem o que dez anos de guerra não conseguiram."
+          },
+          "image_path": null
+        },
+        {
+          "id": "patience",
+          "kind": "quality",
+          "disposition": null,
+          "names": {
+            "en-GB": "Patience",
+            "es-ES": "Paciencia",
+            "it-IT": "Pazienza",
+            "pt-PT": "Paciência"
+          },
+          "description": {
+            "en-GB": "Waiting kindly and trying again, across a long sea and a longer war. On the windswept shores, patience brings a wanderer all the way home.",
+            "es-ES": "Esperar con amabilidad y volver a intentarlo, a través de un largo mar y una guerra aún más larga. En las costas batidas por el viento, la paciencia trae a un viajero hasta casa.",
+            "it-IT": "Aspettare con gentilezza e riprovare, attraverso un lungo mare e una guerra ancora più lunga. Sulle coste battute dal vento, la pazienza riporta un viandante fino a casa.",
+            "pt-PT": "Esperar com amabilidade e tentar de novo, ao longo de um mar imenso e de uma guerra ainda mais longa. Nas costas fustigadas pelo vento, a paciência traz um viajante até casa."
+          },
+          "image_path": null
         }
       ],
       "heroes": [
@@ -8640,8 +8824,7 @@
           },
           "magics": [
             "imagination",
-            "loyalty",
-            "courage"
+            "loyalty"
           ],
           "energy": 4,
           "carry": [
@@ -8677,9 +8860,7 @@
             "pt-PT": "as Costas Ventosas de Troia"
           },
           "magics": [
-            "courage",
-            "loyalty",
-            "imagination"
+            "courage"
           ],
           "energy": 3,
           "carry": [
@@ -8715,9 +8896,8 @@
             "pt-PT": "as Costas Ventosas de Troia"
           },
           "magics": [
-            "imagination",
-            "courage",
-            "loyalty"
+            "cleverness",
+            "patience"
           ],
           "energy": 5,
           "carry": [
@@ -8759,9 +8939,8 @@
             "pt-PT": "as Costas Ventosas de Troia"
           },
           "magics": [
-            "courage",
-            "imagination",
-            "loyalty"
+            "loyalty",
+            "courage"
           ],
           "energy": 4,
           "carry": [
@@ -8791,49 +8970,49 @@
         "en-GB": {
           "world_book": {
             "path": "kits/en-GB/trojan-cycle/trojan-cycle-world-book-en-GB.pdf",
-            "version": "v11.2",
-            "updated": "2026-06-06"
+            "version": "v12.0",
+            "updated": "2026-06-07"
           },
           "example_heroes": {
             "path": "kits/en-GB/trojan-cycle/trojan-cycle-example-heroes-en-GB.pdf",
-            "version": "v10.2",
-            "updated": "2026-06-06"
+            "version": "v11.0",
+            "updated": "2026-06-07"
           }
         },
         "es-ES": {
           "world_book": {
             "path": "kits/es-ES/trojan-cycle/trojan-cycle-world-book-es-ES.pdf",
-            "version": "v11.2",
-            "updated": "2026-06-06"
+            "version": "v12.0",
+            "updated": "2026-06-07"
           },
           "example_heroes": {
             "path": "kits/es-ES/trojan-cycle/trojan-cycle-example-heroes-es-ES.pdf",
-            "version": "v10.2",
-            "updated": "2026-06-06"
+            "version": "v11.0",
+            "updated": "2026-06-07"
           }
         },
         "it-IT": {
           "world_book": {
             "path": "kits/it-IT/trojan-cycle/trojan-cycle-world-book-it-IT.pdf",
-            "version": "v11.2",
-            "updated": "2026-06-06"
+            "version": "v12.0",
+            "updated": "2026-06-07"
           },
           "example_heroes": {
             "path": "kits/it-IT/trojan-cycle/trojan-cycle-example-heroes-it-IT.pdf",
-            "version": "v10.2",
-            "updated": "2026-06-06"
+            "version": "v11.0",
+            "updated": "2026-06-07"
           }
         },
         "pt-PT": {
           "world_book": {
             "path": "kits/pt-PT/trojan-cycle/trojan-cycle-world-book-pt-PT.pdf",
-            "version": "v12.0",
-            "updated": "2026-06-06"
+            "version": "v13.0",
+            "updated": "2026-06-07"
           },
           "example_heroes": {
             "path": "kits/pt-PT/trojan-cycle/trojan-cycle-example-heroes-pt-PT.pdf",
-            "version": "v10.2",
-            "updated": "2026-06-06"
+            "version": "v11.0",
+            "updated": "2026-06-07"
           }
         }
       },
@@ -9000,13 +9179,13 @@
             "en-GB": {
               "tale_simple": {
                 "path": "kits/en-GB/trojan-cycle/argos-and-the-keepsake/trojan-cycle-argos-and-the-keepsake-tale-book-simple-en-GB.pdf",
-                "version": "v7.2",
-                "updated": "2026-06-06"
+                "version": "v8.0",
+                "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/en-GB/trojan-cycle/argos-and-the-keepsake/trojan-cycle-argos-and-the-keepsake-tale-book-rich-en-GB.pdf",
-                "version": "v7.2",
-                "updated": "2026-06-06"
+                "version": "v8.0",
+                "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/en-GB/trojan-cycle/argos-and-the-keepsake/trojan-cycle-argos-and-the-keepsake-atlas-en-GB.pdf",
@@ -9017,13 +9196,13 @@
             "es-ES": {
               "tale_simple": {
                 "path": "kits/es-ES/trojan-cycle/argos-and-the-keepsake/trojan-cycle-argos-and-the-keepsake-tale-book-simple-es-ES.pdf",
-                "version": "v8.0",
-                "updated": "2026-06-06"
+                "version": "v9.0",
+                "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/es-ES/trojan-cycle/argos-and-the-keepsake/trojan-cycle-argos-and-the-keepsake-tale-book-rich-es-ES.pdf",
-                "version": "v8.0",
-                "updated": "2026-06-06"
+                "version": "v9.0",
+                "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/es-ES/trojan-cycle/argos-and-the-keepsake/trojan-cycle-argos-and-the-keepsake-atlas-es-ES.pdf",
@@ -9034,13 +9213,13 @@
             "it-IT": {
               "tale_simple": {
                 "path": "kits/it-IT/trojan-cycle/argos-and-the-keepsake/trojan-cycle-argos-and-the-keepsake-tale-book-simple-it-IT.pdf",
-                "version": "v7.2",
-                "updated": "2026-06-06"
+                "version": "v8.0",
+                "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/it-IT/trojan-cycle/argos-and-the-keepsake/trojan-cycle-argos-and-the-keepsake-tale-book-rich-it-IT.pdf",
-                "version": "v7.2",
-                "updated": "2026-06-06"
+                "version": "v8.0",
+                "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/it-IT/trojan-cycle/argos-and-the-keepsake/trojan-cycle-argos-and-the-keepsake-atlas-it-IT.pdf",
@@ -9051,13 +9230,13 @@
             "pt-PT": {
               "tale_simple": {
                 "path": "kits/pt-PT/trojan-cycle/argos-and-the-keepsake/trojan-cycle-argos-and-the-keepsake-tale-book-simple-pt-PT.pdf",
-                "version": "v8.0",
-                "updated": "2026-06-06"
+                "version": "v9.0",
+                "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/pt-PT/trojan-cycle/argos-and-the-keepsake/trojan-cycle-argos-and-the-keepsake-tale-book-rich-pt-PT.pdf",
-                "version": "v8.0",
-                "updated": "2026-06-06"
+                "version": "v9.0",
+                "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/pt-PT/trojan-cycle/argos-and-the-keepsake/trojan-cycle-argos-and-the-keepsake-atlas-pt-PT.pdf",
@@ -9229,13 +9408,13 @@
             "en-GB": {
               "tale_simple": {
                 "path": "kits/en-GB/trojan-cycle/the-great-wooden-horse/trojan-cycle-the-great-wooden-horse-tale-book-simple-en-GB.pdf",
-                "version": "v6.2",
-                "updated": "2026-06-06"
+                "version": "v7.0",
+                "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/en-GB/trojan-cycle/the-great-wooden-horse/trojan-cycle-the-great-wooden-horse-tale-book-rich-en-GB.pdf",
-                "version": "v6.2",
-                "updated": "2026-06-06"
+                "version": "v7.0",
+                "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/en-GB/trojan-cycle/the-great-wooden-horse/trojan-cycle-the-great-wooden-horse-atlas-en-GB.pdf",
@@ -9246,13 +9425,13 @@
             "es-ES": {
               "tale_simple": {
                 "path": "kits/es-ES/trojan-cycle/the-great-wooden-horse/trojan-cycle-the-great-wooden-horse-tale-book-simple-es-ES.pdf",
-                "version": "v7.0",
-                "updated": "2026-06-06"
+                "version": "v8.0",
+                "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/es-ES/trojan-cycle/the-great-wooden-horse/trojan-cycle-the-great-wooden-horse-tale-book-rich-es-ES.pdf",
-                "version": "v7.0",
-                "updated": "2026-06-06"
+                "version": "v8.0",
+                "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/es-ES/trojan-cycle/the-great-wooden-horse/trojan-cycle-the-great-wooden-horse-atlas-es-ES.pdf",
@@ -9263,13 +9442,13 @@
             "it-IT": {
               "tale_simple": {
                 "path": "kits/it-IT/trojan-cycle/the-great-wooden-horse/trojan-cycle-the-great-wooden-horse-tale-book-simple-it-IT.pdf",
-                "version": "v6.2",
-                "updated": "2026-06-06"
+                "version": "v7.0",
+                "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/it-IT/trojan-cycle/the-great-wooden-horse/trojan-cycle-the-great-wooden-horse-tale-book-rich-it-IT.pdf",
-                "version": "v6.2",
-                "updated": "2026-06-06"
+                "version": "v7.0",
+                "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/it-IT/trojan-cycle/the-great-wooden-horse/trojan-cycle-the-great-wooden-horse-atlas-it-IT.pdf",
@@ -9280,13 +9459,13 @@
             "pt-PT": {
               "tale_simple": {
                 "path": "kits/pt-PT/trojan-cycle/the-great-wooden-horse/trojan-cycle-the-great-wooden-horse-tale-book-simple-pt-PT.pdf",
-                "version": "v6.0",
-                "updated": "2026-06-06"
+                "version": "v7.0",
+                "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/pt-PT/trojan-cycle/the-great-wooden-horse/trojan-cycle-the-great-wooden-horse-tale-book-rich-pt-PT.pdf",
-                "version": "v6.0",
-                "updated": "2026-06-06"
+                "version": "v7.0",
+                "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/pt-PT/trojan-cycle/the-great-wooden-horse/trojan-cycle-the-great-wooden-horse-atlas-pt-PT.pdf",
@@ -9458,13 +9637,13 @@
             "en-GB": {
               "tale_simple": {
                 "path": "kits/en-GB/trojan-cycle/the-long-way-home/trojan-cycle-the-long-way-home-tale-book-simple-en-GB.pdf",
-                "version": "v6.2",
-                "updated": "2026-06-06"
+                "version": "v7.0",
+                "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/en-GB/trojan-cycle/the-long-way-home/trojan-cycle-the-long-way-home-tale-book-rich-en-GB.pdf",
-                "version": "v6.2",
-                "updated": "2026-06-06"
+                "version": "v7.0",
+                "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/en-GB/trojan-cycle/the-long-way-home/trojan-cycle-the-long-way-home-atlas-en-GB.pdf",
@@ -9475,13 +9654,13 @@
             "es-ES": {
               "tale_simple": {
                 "path": "kits/es-ES/trojan-cycle/the-long-way-home/trojan-cycle-the-long-way-home-tale-book-simple-es-ES.pdf",
-                "version": "v7.0",
-                "updated": "2026-06-06"
+                "version": "v8.0",
+                "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/es-ES/trojan-cycle/the-long-way-home/trojan-cycle-the-long-way-home-tale-book-rich-es-ES.pdf",
-                "version": "v7.0",
-                "updated": "2026-06-06"
+                "version": "v8.0",
+                "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/es-ES/trojan-cycle/the-long-way-home/trojan-cycle-the-long-way-home-atlas-es-ES.pdf",
@@ -9492,13 +9671,13 @@
             "it-IT": {
               "tale_simple": {
                 "path": "kits/it-IT/trojan-cycle/the-long-way-home/trojan-cycle-the-long-way-home-tale-book-simple-it-IT.pdf",
-                "version": "v6.2",
-                "updated": "2026-06-06"
+                "version": "v7.0",
+                "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/it-IT/trojan-cycle/the-long-way-home/trojan-cycle-the-long-way-home-tale-book-rich-it-IT.pdf",
-                "version": "v6.2",
-                "updated": "2026-06-06"
+                "version": "v7.0",
+                "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/it-IT/trojan-cycle/the-long-way-home/trojan-cycle-the-long-way-home-atlas-it-IT.pdf",
@@ -9509,13 +9688,13 @@
             "pt-PT": {
               "tale_simple": {
                 "path": "kits/pt-PT/trojan-cycle/the-long-way-home/trojan-cycle-the-long-way-home-tale-book-simple-pt-PT.pdf",
-                "version": "v7.0",
-                "updated": "2026-06-06"
+                "version": "v8.0",
+                "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/pt-PT/trojan-cycle/the-long-way-home/trojan-cycle-the-long-way-home-tale-book-rich-pt-PT.pdf",
-                "version": "v7.0",
-                "updated": "2026-06-06"
+                "version": "v8.0",
+                "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/pt-PT/trojan-cycle/the-long-way-home/trojan-cycle-the-long-way-home-atlas-pt-PT.pdf",
