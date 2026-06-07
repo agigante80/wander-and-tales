@@ -1,15 +1,21 @@
-// Copy the assets the site serves from the content repo (one level up) into web/public.
-// Run as the prebuild step. Outputs are gitignored (public/media, public/fonts).
+// Prepare the assets the site serves, from the content repo (one level up), into
+// web/public. Run as the prebuild step. Outputs are gitignored.
 //
-//  - world and story illustrations: ../worlds/**/assets/*.png  ->  public/media/worlds/.../*.png
-//    (the manifest image "path" is "worlds/.../assets/x.png", so the public URL is "/media/" + path)
-//  - brand fonts: ../build/assets/fonts/*.ttf  ->  public/fonts/*.ttf  (self-hosted, no Google Fonts)
+//  - world and story illustrations: ../worlds/**/assets/*.png  ->  resized WebP at
+//    public/media/worlds/.../*.webp  (the manifest image "path" is "worlds/.../x.png",
+//    so the public URL is "/media/" + path with the extension swapped to .webp)
+//  - trail maps: ../maps/**/map-<locale>.png  ->  resized WebP at public/maps/.../*.webp
+//  - brand fonts: ../build/assets/fonts/*.ttf  ->  public/fonts/*.ttf (self-hosted)
+//  - published kits (PDFs): ../kits/**  ->  public/kits/**
 //
-// PDFs are NOT copied; the site links them from GitHub raw (manifest repo_raw_base) for now.
+// The source art is full-resolution PNG (covers 1024x1536, scenes 1536x1024, up to
+// ~4 MB each). Serving that for 116-700px displays is wasteful, so we resize to a
+// sensible max and convert to WebP, which cuts each image by roughly 20x.
 
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import sharp from "sharp";
 
 const HERE = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(HERE, "../.."); // repo root
@@ -28,18 +34,48 @@ function walk(dir, onFile) {
   }
 }
 
-// 1) world + story images
-let images = 0;
+async function toWebp(src, dest, { maxSide = 1200, quality = 72 } = {}) {
+  fs.mkdirSync(path.dirname(dest), { recursive: true });
+  await sharp(src)
+    .resize({ width: maxSide, height: maxSide, fit: "inside", withoutEnlargement: true })
+    .webp({ quality, effort: 4 })
+    .toFile(dest);
+}
+
+// run async tasks with a small concurrency cap (sharp is heavy)
+async function runPool(tasks, limit = 8) {
+  const queue = [...tasks];
+  const workers = Array.from({ length: limit }, async () => {
+    while (queue.length) await queue.shift()();
+  });
+  await Promise.all(workers);
+}
+
+// 1) world + story images -> resized WebP
+const imageTasks = [];
 const worldsDir = path.join(ROOT, "worlds");
 walk(worldsDir, (file) => {
   if (file.endsWith(".png") && path.basename(path.dirname(file)) === "assets") {
-    const rel = path.relative(ROOT, file); // worlds/.../assets/x.png
-    copy(file, path.join(PUB, "media", rel));
-    images++;
+    const rel = path.relative(ROOT, file).replace(/\.png$/, ".webp"); // worlds/.../assets/x.webp
+    imageTasks.push(() => toWebp(file, path.join(PUB, "media", rel), { maxSide: 1200, quality: 72 }));
   }
 });
 
-// 2) brand fonts
+// 2) trail maps -> resized WebP (text on the map, so a touch more quality)
+const mapTasks = [];
+const mapsDir = path.join(ROOT, "maps");
+if (fs.existsSync(mapsDir)) {
+  walk(mapsDir, (file) => {
+    if (file.endsWith(".png")) {
+      const rel = path.relative(mapsDir, file).replace(/\.png$/, ".webp");
+      mapTasks.push(() => toWebp(file, path.join(PUB, "maps", rel), { maxSide: 1200, quality: 82 }));
+    }
+  });
+}
+
+await runPool([...imageTasks, ...mapTasks]);
+
+// 3) brand fonts
 let fonts = 0;
 const fontDir = path.join(ROOT, "build", "assets", "fonts");
 for (const f of ["Quicksand-SemiBold.ttf", "Nunito-Regular.ttf", "Nunito-Bold.ttf", "Caveat-SemiBold.ttf"]) {
@@ -50,8 +86,7 @@ for (const f of ["Quicksand-SemiBold.ttf", "Nunito-Regular.ttf", "Nunito-Bold.tt
   }
 }
 
-// 3) the published kits (PDFs), self-hosted at /kits/... (manifest pdf paths are
-// "kits/<locale>/...", so the public URL is "/" + that path)
+// 4) the published kits (PDFs), self-hosted at /kits/...
 let pdfs = 0;
 const kitsDir = path.join(ROOT, "kits");
 if (fs.existsSync(kitsDir)) {
@@ -61,14 +96,4 @@ if (fs.existsSync(kitsDir)) {
   });
 }
 
-// 4) story trail maps (PNG), self-hosted at /maps/<world>/<story>/map-<locale>.png
-let maps = 0;
-const mapsDir = path.join(ROOT, "maps");
-if (fs.existsSync(mapsDir)) {
-  fs.cpSync(mapsDir, path.join(PUB, "maps"), { recursive: true });
-  walk(path.join(PUB, "maps"), (f) => {
-    if (f.endsWith(".png")) maps++;
-  });
-}
-
-console.log(`prepare-assets: copied ${images} images, ${fonts} fonts, ${pdfs} PDFs, ${maps} maps into web/public`);
+console.log(`prepare-assets: ${imageTasks.length} images and ${mapTasks.length} maps to WebP, ${fonts} fonts, ${pdfs} PDFs into web/public`);
