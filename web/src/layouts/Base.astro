@@ -13,8 +13,9 @@ interface Props {
   description?: string;
   image?: string;
   jsonld?: unknown;
+  breadcrumbs?: { name: string; url: string }[];
 }
-const { lang, route = "", title, description, image, jsonld } = Astro.props;
+const { lang, route = "", title, description, image, jsonld, breadcrumbs } = Astro.props;
 const locale = localeOf(lang);
 const desc = description ?? site.tagline[locale];
 // trailing slash on every path, matching the directory build and the sitemap
@@ -24,16 +25,44 @@ const ogImage = image ? SITE_URL + image : SITE_URL + "/og-image.png";
 const alt = (code: string) => `${SITE_URL}/${code}/${route ? route + "/" : ""}`;
 const ogLocale = locale.replace("-", "_");
 const ogLocaleAlt = LANGS.filter((l) => l.locale !== locale).map((l) => l.locale.replace("-", "_"));
-// every page gets structured data; pages may override with their own jsonld
-const ld = jsonld ?? {
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  name: title,
-  description: desc,
-  url: canonical,
-  inLanguage: locale,
-  isPartOf: { "@type": "WebSite", name: "Wander & Tales", url: SITE_URL + "/" },
+// Structured data as one @graph: a site-wide Organization and WebSite, the page's
+// own node (the passed jsonld, or a default WebPage), and breadcrumbs when given.
+const ORG_ID = SITE_URL + "/#org";
+const SITE_ID = SITE_URL + "/#website";
+const LICENCE = "https://creativecommons.org/licenses/by-sa/4.0/";
+const org = {
+  "@type": "Organization",
+  "@id": ORG_ID,
+  name: "Wander & Tales",
+  url: SITE_URL + "/",
+  logo: SITE_URL + "/favicon-32.png",
+  sameAs: ["https://github.com/agigante80/wander-and-tales"],
 };
+const website = {
+  "@type": "WebSite",
+  "@id": SITE_ID,
+  name: "Wander & Tales",
+  url: SITE_URL + "/",
+  inLanguage: ["en-GB", "es-ES", "it-IT", "pt-PT"],
+  publisher: { "@id": ORG_ID },
+};
+const passed: any = jsonld ? { ...(jsonld as any) } : null;
+if (passed) delete passed["@context"];
+const isContent = passed?.["@type"] === "CreativeWork";
+const extras = isContent
+  ? { isPartOf: { "@id": SITE_ID }, publisher: { "@id": ORG_ID }, license: LICENCE, isAccessibleForFree: true }
+  : { isPartOf: { "@id": SITE_ID } };
+const pageNode = passed
+  ? { ...extras, ...passed }
+  : { "@type": "WebPage", name: title, description: desc, url: canonical, inLanguage: locale, isPartOf: { "@id": SITE_ID } };
+const graph: any[] = [org, website, pageNode];
+if (breadcrumbs?.length) {
+  graph.push({
+    "@type": "BreadcrumbList",
+    itemListElement: breadcrumbs.map((b, i) => ({ "@type": "ListItem", position: i + 1, name: b.name, item: b.url })),
+  });
+}
+const ld = { "@context": "https://schema.org", "@graph": graph };
 ---
 
 <!doctype html>
