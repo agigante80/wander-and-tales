@@ -279,7 +279,12 @@ def main(argv: list[str] | None = None) -> int:
             print(f"\n## {fname}")
             for fnd in by_file[fname]:
                 sug = ", ".join(fnd.suggestions) or "(no suggestion)"
-                print(f"  {fnd.line}:{fnd.col} [{fnd.rule_id}] {fnd.message} -> {sug}")
+                ctx = " ".join(fnd.context.split())
+                if len(ctx) > 60:
+                    ctx = ctx[:57] + "..."
+                span = f'"{fnd.span}" ' if fnd.span else ""
+                ctx_part = f"   | {ctx}" if ctx else ""
+                print(f"  {fnd.line}:{fnd.col} [{fnd.rule_id}] {span}-> {sug}{ctx_part}")
 
         print(f"\n{len(findings)} candidate finding(s) for {args.locale}. "
               "Candidates, not auto-fixes;")
