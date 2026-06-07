@@ -35,6 +35,7 @@ class Finding:
     rule_id: str
     message: str
     context: str
+    span: str
     suggestions: tuple[str, ...]
 
 
@@ -95,11 +96,12 @@ def _post_json(url: str, fields: dict) -> dict:
         return json.loads(resp.read().decode("utf-8"))
 
 
-# Blanking Markdown to equal-length spaces (to preserve offsets) leaves runs of
-# spaces where headings, bullets, and table rows were, which trips the
-# "repeated space" rule. That noise is an artifact of our stripping, not the
-# prose, so disable it by default.
-DEFAULT_DISABLED_RULES = "WHITESPACE_RULE"
+# Blanking Markdown to equal-length spaces (to preserve offsets) leaves stray
+# spaces where headings, bullets, table rows, and emphasis markers were, which
+# trips the whitespace and comma-spacing rules (an emphasis marker next to a
+# comma leaves "palabra ,"). That noise is an artifact of our stripping, not the
+# prose, so disable those rules by default.
+DEFAULT_DISABLED_RULES = "WHITESPACE_RULE,COMMA_PARENTHESIS_WHITESPACE,INCORRECT_SPACES"
 
 
 def check_text(text: str, language: str, *, url: str = DEFAULT_URL,
@@ -136,9 +138,12 @@ def check_file(path: Path, locale: str, *, url: str = DEFAULT_URL,
     findings: list[Finding] = []
     for m in check_text(plain, language, url=url):
         line, col = _line_col(src, m["offset"])
-        ctx = m.get("context", {}).get("text", "")
+        ctx = m.get("context", {})
+        ctext = ctx.get("text", "")
+        coff, clen = ctx.get("offset", 0), ctx.get("length", 0)
+        span = ctext[coff:coff + clen] if clen else ""
         reps = tuple(r["value"] for r in m.get("replacements", [])[:5])
-        findings.append(Finding(rel, line, col, m["rule"]["id"], m["message"], ctx, reps))
+        findings.append(Finding(rel, line, col, m["rule"]["id"], m["message"], ctext, span, reps))
     return findings
 
 

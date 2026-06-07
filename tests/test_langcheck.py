@@ -61,7 +61,7 @@ def test_check_text_returns_matches_and_retries_on_blank(monkeypatch):
     assert matches[0]["rule"]["id"] == "X"
 
 
-def test_check_text_disables_whitespace_rule_by_default(monkeypatch):
+def test_check_text_disables_stripping_artifact_rules_by_default(monkeypatch):
     seen = {}
 
     def fake_post(url, fields):
@@ -70,7 +70,10 @@ def test_check_text_disables_whitespace_rule_by_default(monkeypatch):
 
     monkeypatch.setattr(langcheck, "_post_json", fake_post)
     langcheck.check_text("a  b", "pt-PT", url="http://h:1")
-    assert seen.get("disabledRules") == "WHITESPACE_RULE"
+    disabled = seen.get("disabledRules", "")
+    assert "WHITESPACE_RULE" in disabled
+    assert "COMMA_PARENTHESIS_WHITESPACE" in disabled
+    assert "INCORRECT_SPACES" in disabled
 
 
 def test_check_file_maps_offsets_to_line_and_col(tmp_path, monkeypatch):
@@ -84,7 +87,8 @@ def test_check_file_maps_offsets_to_line_and_col(tmp_path, monkeypatch):
     def fake_check_text(text, language, *, url):
         assert language == "pt-PT"
         return [{"rule": {"id": "AGREEMENT"}, "offset": off, "message": "concordancia",
-                 "replacements": [{"value": "meninos"}], "context": {"text": "Os menino vai."}}]
+                 "replacements": [{"value": "meninos"}],
+                 "context": {"text": "Os menino vai.", "offset": 3, "length": 6}}]
 
     monkeypatch.setattr(langcheck, "check_text", fake_check_text)
     findings = langcheck.check_file(f, "pt-PT", url="http://h:1", root=tmp_path)
@@ -92,6 +96,7 @@ def test_check_file_maps_offsets_to_line_and_col(tmp_path, monkeypatch):
     fnd = findings[0]
     assert fnd.line == 3 and fnd.col == 4   # "menino" starts at column 4 of line 3
     assert fnd.rule_id == "AGREEMENT"
+    assert fnd.span == "menino"             # the flagged word, from the context window
     assert fnd.suggestions == ("meninos",)
     assert fnd.file.endswith("narration.simple.md")
 
