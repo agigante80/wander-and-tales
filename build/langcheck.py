@@ -103,6 +103,7 @@ def _post_json(url: str, fields: dict) -> dict:
 # our stripping, not the prose, so disable that whole family by default.
 DEFAULT_DISABLED_RULES = (
     "WHITESPACE_RULE,COMMA_PARENTHESIS_WHITESPACE,INCORRECT_SPACES,WHITESPACE_PUNCTUATION"
+    ",SPACE_BEFORE_PUNCTUATION2,ESPACO_DUPLO"
 )
 
 
