@@ -30,17 +30,30 @@ skill. The two things to get right every time:
 
 Two passes: a mechanical scan to gather candidates, then a judgment pass.
 
-### Pass 1: scan
+### Pass 1: scan (two finders, different jobs)
+
+Run both. They catch almost entirely different problems, so use them together.
 
 ```bash
+# A. Project register, vocabulary, tone (things LanguageTool cannot see):
 bash .claude/skills/pt-pt-quality/scan.sh                 # all pt-PT content
 bash .claude/skills/pt-pt-quality/scan.sh worlds/<world>/stories/<story>/content/pt-PT/*.md
+
+# B. Grammar, spelling, accents (things scan.sh cannot see), via the
+#    self-hosted LanguageTool server (URL from .env: LANGUAGETOOL_URL):
+.venv/bin/python -m build check-lang --root . --locale pt-PT
+.venv/bin/python -m build check-lang --root . --locale pt-PT --world <world> --story <story>
 ```
 
-The scanner is a candidate finder, not an auto-fixer. It groups hits by category
-(vós register, gerunds, pt-BR vocabulary, dashes, no-lose tone). Expect some false
-positives (for example "verdes", "testes", "quando", "lindo"); the judgment pass
-decides.
+`scan.sh` finds the archaic "vós" register, Brazilian gerunds, pt-BR vocabulary,
+dashes, and no-lose tone slips. `check-lang` finds spelling, accent, and agreement
+errors. Both are candidate finders, not auto-fixers; expect false positives (for
+example "verdes", "testes", "quando", "lindo" from the scanner, and canon names
+flagged as spelling by LanguageTool). The judgment pass decides.
+
+`check-lang` needs the self-hosted LanguageTool server reachable at
+`$LANGUAGETOOL_URL` (see `.env.example`). If it is down, `check-lang` exits
+non-zero and prints the URL it tried; `scan.sh` still runs without it.
 
 ### Pass 2: judgment and fix
 
