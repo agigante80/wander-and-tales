@@ -80,12 +80,24 @@ export function narrationHtml(relPath?: string | null): string {
   return marked.parse(body, { gfm: true, async: false }) as string;
 }
 
+// shift every heading down by `by` levels (h1 -> h2 ...), capped at h6
+function shiftHeadings(html: string, by: number): string {
+  if (!by) return html;
+  for (let n = 6; n >= 1; n--) {
+    const m = Math.min(6, n + by);
+    html = html.replace(new RegExp(`<(/?)h${n}(?=[ >])`, "g"), `<$1h${m}`);
+  }
+  return html;
+}
+
 // render a markdown file to HTML as-is (keeps its heading); used for the grown-up
-// rules and puzzles sections
-export function mdHtml(relPath?: string | null): string {
+// rules and puzzles sections. `shift` demotes headings so a page keeps a single
+// <h1> and the heading order does not skip a level.
+export function mdHtml(relPath?: string | null, shift = 0): string {
   if (!relPath) return "";
   const md = readText(relPath);
-  return md ? (marked.parse(md, { gfm: true, async: false }) as string) : "";
+  if (!md) return "";
+  return shiftHeadings(marked.parse(md, { gfm: true, async: false }) as string, shift);
 }
 
 // trim text to a meta-description-friendly length at a word boundary

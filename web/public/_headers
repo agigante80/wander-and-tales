@@ -1,0 +1,28 @@
+# Cloudflare serves these response headers for the static assets in dist/.
+
+# Security headers on every route. The CSP allows inline styles/scripts (the
+# theme init and the many style="" attributes) and the Cloudflare Web Analytics
+# beacon; everything else is same-origin.
+/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: geolocation=(), microphone=(), camera=(), interest-cohort=()
+  Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+  Content-Security-Policy: default-src 'self'; base-uri 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' https://static.cloudflareinsights.com; font-src 'self'; connect-src 'self' https://cloudflareinsights.com; frame-ancestors 'none'; form-action 'self'
+
+# Fingerprinted and stable assets: cache hard.
+/_astro/*
+  Cache-Control: public, max-age=31536000, immutable
+/fonts/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Images and maps change rarely; long but mutable.
+/media/*
+  Cache-Control: public, max-age=2592000
+/maps/*
+  Cache-Control: public, max-age=2592000
+
+# PDFs update in place (unversioned filenames), so keep them fresher.
+/kits/*
+  Cache-Control: public, max-age=86400
