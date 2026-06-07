@@ -2,10 +2,16 @@
 
 *Stories to wander through together* &nbsp;·&nbsp; *Cuentos para recorrer juntos* &nbsp;·&nbsp; *Storie da percorrere insieme*
 
-A free, multilingual library of printable, cooperative story-adventure kits for a
-grown-up and a child to play together. You print a kit, grab a die and a few
-household bits, and share a gentle story-and-puzzle adventure. There is no app and
-no screen. **Nobody competes, nobody loses, and there are no wrong answers:** you win by being kind and full of ideas, and every idea counts.
+A free, multilingual library of cooperative story-adventure kits for a grown-up and
+a child to share: a parent, grandparent, teacher, childminder, group leader, anyone.
+Grab a die and a few household bits, read the story aloud, and work through a gentle
+adventure side by side. No app, nothing to install: read it on a screen, or print it
+out and play screen-free. **Nobody competes, nobody loses, and there are no wrong
+answers:** you win by being kind and full of ideas, and every idea counts. It is calm
+enough for bedtime, too.
+
+**Browse and read online at [www.wanderandtales.com](https://www.wanderandtales.com).**
+Explore every world, read any story on a screen, or download the printable kits.
 
 Every kit comes ready to play in British English, Spanish from Spain, Italian, and
 European Portuguese, at two reading levels. It is a lovely excuse for unhurried, screen-free time together, and
@@ -22,9 +28,10 @@ Each story comes as a **Tale Book** (the grown-up reads from this: the story, th
 rules, and the answers) and an **Atlas** (the map, a picture for each place, and the
 hero sheet, the only part the children see). Each world also has a **World Book** (its
 lore, who's who, and idea bank). The Tale Book comes in **Simple** (reads aloud well for
-ages 3 to 8) and **Rich** (ages 9 to 12). You can read from a screen and print the
-Atlas, or simply draw and build it by hand: nothing needs a printer. Every PDF shows its
-version on the last page, and the links below are generated automatically.
+ages 3 to 8) and **Rich** (ages 9 to 12). You can read any story online at
+[www.wanderandtales.com](https://www.wanderandtales.com), print the Atlas, or simply
+draw and build it by hand: nothing needs a printer. Every PDF shows its version on the
+last page, and the links below are generated automatically.
 
 <!-- BEGIN KIT TABLE -->
 
@@ -239,6 +246,9 @@ and a native reviewer.
   layout-only PDF renderer in `build/render/`.
 - `kits/` holds the maintainer-published library in a language-first tree; `dist/` is
   your own scratch build output and is not tracked.
+- `web/` is the public website ([www.wanderandtales.com](https://www.wanderandtales.com)),
+  an Astro static site that reads the same content and `site/manifest.json`, with the
+  worlds, an online reader, and the kit downloads in all four languages.
 
 The voice, reading-level, peril-tone, and canon rules live in `CLAUDE.md` and the
 `authoring-story-content` guidance.
