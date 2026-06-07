@@ -30,7 +30,7 @@ por sermos corajosos, bondosos e cheios de ideias."
 
 *Qual é o nome do teu herói? Que qualidade vais levar: Imaginação, Coragem ou Bondade?*
 
-## Stop 1: O Bosque Enredado
+## Paragem 1: O Bosque Enredado
 
 Entraram por baixo dos grandes carvalhos e, logo ali, o bosque começou a fazer a sua
 partida. Os caminhos enrolavam-se, torciam-se e voltavam para trás, e cada curva cheia
@@ -50,7 +50,7 @@ passo que podiam desfazer, e o bosque que se enrola não conseguia apanhar um he
 levava um fio. Em pouco tempo encontraram o único caminho que levava em frente, mais
 para dentro do bosque sussurrante.
 
-## Stop 2: As Três Portas de Pook
+## Paragem 2: As Três Portas de Pook
 
 As árvores afastaram-se e o caminho abriu-se numa clareira verde e calma. Ali, tecidas de
 ramos de carvalho vivos e penduradas com musgo macio, erguiam-se três altas portas em
@@ -75,7 +75,7 @@ uma brisa quente com cheiro a bosque entrou por ela. Pook riu-se e deu uma camba
 cima de um feto, encantado por terem jogado o jogo dele tão bem. Passaram para o coração
 fundo do bosque.
 
-## Stop 3: Conquistar o Pook
+## Paragem 3: Conquistar o Pook
 
 Mais para dentro do bosque, onde a luz caía suave e verde, encontraram o Pook outra vez.
 Mas agora não estava a rir. Estava encolhido num cogumelo, com os joelhos puxados até ao

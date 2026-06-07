@@ -5,7 +5,7 @@ jogadores precisam de descobrir, a solução pretendida e uma ajuda meiga para q
 criança encravada avance sempre. Mais do que uma boa ideia deve funcionar; recompensa a
 imaginação e a bondade mais do que a resposta "certa".*
 
-## Stop 1: A Adivinha do Salmão (Normal)
+## Paragem 1: A Adivinha do Salmão (Normal)
 
 **O desafio.** O Salmão da Sabedoria não mostra o caminho para atravessar o Lago Enevoado
 até os jogadores responderem à sua adivinha. É justo e bondoso, e quer que eles se saiam
@@ -28,7 +28,7 @@ do meio dos juncos. Um palpite dado com coragem ganha na mesma o caminho para o 
 paira sobre o lago, por onde podemos caminhar mas que nunca conseguimos segurar?" Apontar
 para a névoa é a resposta toda.
 
-## Stop 2: A Travessia da Selkie (Normal)
+## Paragem 2: A Travessia da Selkie (Normal)
 
 **O desafio.** Sorcha, a Selkie, tem o único barco, mas é tímida e um pouco solitária e
 não olha os heróis nos olhos. Têm de ganhar a sua confiança para serem levados para o
@@ -48,7 +48,7 @@ repõe uma estrela de energia.
 **Para tornar mais simples.** Para os mais pequeninos, basta pedir-lhes que acenem e digam
 "olá, queres ser nossa amiga?" Esse único olá amigável chega para conquistar a Sorcha.
 
-## Stop 3: A Terra da Juventude (Difícil, depois sem lançamento)
+## Paragem 3: A Terra da Juventude (Difícil, depois sem lançamento)
 
 **O desafio.** No Outro Mundo sempre em flor, os heróis encontram o amigo perdido, mas o
 amigo meio esqueceu a casa e pede com doçura que todos fiquem para sempre. A atração de

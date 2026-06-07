@@ -5,7 +5,7 @@ jogadores precisam de descobrir, a solução pretendida e uma ajuda meiga para q
 criança encravada avance sempre. Mais do que uma boa ideia deve resultar; recompensa a
 imaginação e a lealdade mais do que a resposta "certa".*
 
-## Etapa 1: A Seguir Argos (Fácil)
+## Paragem 1: A Seguir Argos (Fácil)
 
 **O desafio.** Argos tem o cheiro, mas os jogadores têm de ler os rastos e as pistas
 pela praia para escolher para que lado o amigo andou. Algumas marcas levam em frente;
@@ -29,7 +29,7 @@ início fácil e feliz.
 pequenino que ande em cima delas, em bicos de pés, como o Argos, a seguir o rasto
 todos juntos.
 
-## Etapa 2: As Poças da Maré (Normal)
+## Paragem 2: As Poças da Maré (Normal)
 
 **O desafio.** O rasto leva por entre três poças soalheiras da maré, e os jogadores têm
 de descobrir junto a que poça o amigo descansou, onde um fio lhe escorregou do manto.
@@ -57,7 +57,7 @@ como um sucesso completo e repõe uma estrela de energia.
 depois deixa um mais pequenino espreitar e apontar para o copo que tem a concha às
 riscas ao lado.
 
-## Etapa 3: A Duna Distante (Normal)
+## Paragem 3: A Duna Distante (Normal)
 
 **O desafio.** A lembrança caiu perto de uma duna solitária e o vento meio que a
 enterrou na areia. Argos encontra o sítio; os jogadores têm de a desenterrar com

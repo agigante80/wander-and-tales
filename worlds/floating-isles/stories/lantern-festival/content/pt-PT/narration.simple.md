@@ -16,7 +16,7 @@ luzes de volta," dizem ao mesmo tempo. O caminho para a praça está à espera.
 *Qual é o vosso nome de mago? Que magia escolhes: Luz, Crescer, Transformação, Voz
 ou Flutuar?*
 
-## Stop 1: A Praça Escura
+## Paragem 1: A Praça Escura
 
 Chegam à Praça das Lanternas. Devia estar luminosa e cheia de cantigas. Em vez
 disso, está escura. Uma última lanterna do céu está numa pedra, mas a sua chaminha
@@ -31,7 +31,7 @@ outras? Experimentem e vejam.*
 Quando a lanterna brilha de novo, ergue-se com brandura no ar e flutua pelo rasto
 acima, como a mostrar-vos o caminho. Para cima, em direção às nuvens, lá vão.
 
-## Stop 2: O Banco de Nuvens
+## Paragem 2: O Banco de Nuvens
 
 À beira da ilha chegam a um baixo banco de nuvens suaves. Algumas das nuvens estão
 quentes, e se olharem com atenção, brilham um pouco por dentro. As lanternas
@@ -45,7 +45,7 @@ Experimentem e vejam.*
 Quando recolhem as lanternas brilhantes de dentro das nuvens, elas baloiçam à vossa
 volta numa feliz nuvenzinha de luz. Só a maior lanterna de todas ainda falta.
 
-## Stop 3: A Saliência Alta
+## Paragem 3: A Saliência Alta
 
 Olham para cima. Bem acima da praça, a maior lanterna da festa foi parar a uma
 saliência de rocha e ficou ali presa. Está alta demais para alcançar, e querem

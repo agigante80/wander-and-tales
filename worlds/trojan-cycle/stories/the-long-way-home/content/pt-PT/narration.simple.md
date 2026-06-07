@@ -21,7 +21,7 @@ cheios de ideias."
 
 *Qual é o teu nome de herói? És um herói da Imaginação, da Coragem ou da Lealdade?*
 
-## Etapa 1: A Ilha dos Ventos
+## Paragem 1: A Ilha dos Ventos
 
 Navegam durante muitos dias, até chegarem a uma ilha flutuante cercada de falésias de
 bronze a brilhar. Esta é a Ilha dos Ventos, onde vive Éolo, Guardião dos Ventos. Ele
@@ -37,7 +37,7 @@ dizer? Conseguem prometer que não espreitam para dentro do saco? O que experime
 Quando pedem com uma boa ideia e com amabilidade, Éolo ri-se e ata um vento suave na
 vossa vela. "Um vento favorável para amigos", diz ele, e acena-vos adeus, mar fora.
 
-## Etapa 2: As Sereias Cantoras
+## Paragem 2: As Sereias Cantoras
 
 Durante um bom bocado navegam em frente. Depois ouvem-na: uma canção a flutuar sobre o
 mar, linda e tão, tão triste. Vem das Sereias Cantoras, cantoras do mar que se sentam
@@ -55,7 +55,7 @@ Quando respondem à solidão delas com bondade, as Sereias param a canção tris
 acenam, e começam a cantar uma melodia alegre e luminosa que guia a vossa nau em
 segurança por entre os rochedos. "Voltem para nos visitar!", chamam elas.
 
-## Etapa 3: Em Casa, Por Fim
+## Paragem 3: Em Casa, Por Fim
 
 Por fim, lá ao longe, veem uma costa que conhecem. O coração bate-vos depressa. Será
 mesmo a casa? Têm de olhar com atenção e ter a certeza.

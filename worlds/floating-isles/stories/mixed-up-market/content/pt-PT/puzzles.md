@@ -5,7 +5,7 @@ jogadores têm de descobrir, a solução pretendida e uma saída gentil para que
 criança encravada avance sempre. Mais do que uma boa ideia deve resultar; premeia as
 boas ideias e a gentileza acima da resposta "certa".*
 
-## Stop 1: As Bancas Baralhadas (Fácil)
+## Paragem 1: As Bancas Baralhadas (Fácil)
 
 **O desafio.** Cada objeto saltou para a banca errada. Os jogadores precisam de uma
 maneira de descobrir onde cada coisa pertence de verdade.
@@ -27,7 +27,7 @@ fica encravado muito tempo.
 **Mais simples.** Para uma criança muito pequena, põe só as botas e pergunta apenas a
 que banca pertencem, depois deixa-a levá-las até lá.
 
-## Stop 2: A Memória do Mercado (Normal)
+## Paragem 2: A Memória do Mercado (Normal)
 
 **O desafio.** Para devolver o resto, os jogadores têm de se lembrar do mercado como
 estava: que mercadorias pertenciam a que banca.
@@ -49,7 +49,7 @@ enche uma estrela de energia.
 **Mais simples.** Para uma criança muito pequena, levanta o pão e pergunta apenas
 "quem faz isto?", e festeja quando apontar para o padeiro.
 
-## Stop 3: A Última Troca (Normal)
+## Paragem 3: A Última Troca (Normal)
 
 **O desafio.** Três bancas estão presas numa roda: o padeiro tem botas, o sapateiro
 tem um papagaio de papel, e o fabricante de brinquedos tem pão. Os jogadores têm de

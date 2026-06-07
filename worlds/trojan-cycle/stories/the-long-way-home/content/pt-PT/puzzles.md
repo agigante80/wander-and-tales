@@ -5,7 +5,7 @@ jogadores precisam de descobrir, a solução pretendida e uma ajuda meiga para q
 criança encravada avance sempre. Mais do que uma boa ideia deve resultar; recompensa a
 imaginação e a bondade mais do que a resposta "certa".*
 
-## Etapa 1: A Ilha dos Ventos (Normal)
+## Paragem 1: A Ilha dos Ventos (Normal)
 
 **O desafio.** Éolo, Guardião dos Ventos, só empresta um vento favorável aos viajantes
 que lho pedem com uma boa ideia e com cortesia, e que não são gananciosos a ponto de
@@ -32,7 +32,7 @@ feito com coragem e educação ganha sempre o vento favorável.
 **Para tornar mais simples.** Pede a um mais pequenino que diga "por favor" e sopre um
 grande sopro como o vento, e Éolo manda-os contente pelo caminho fora.
 
-## Etapa 2: As Sereias Cantoras (Difícil, depois sem jogada)
+## Paragem 2: As Sereias Cantoras (Difícil, depois sem jogada)
 
 **O desafio.** As Sereias Cantoras sentam-se nos rochedos solitários, e a sua canção é
 tão triste e tão linda que desvia as naus do rumo. Os jogadores podem achar que é um
@@ -54,7 +54,7 @@ triste alegre e as Sereias tornam-se amigas logo ali.
 **Para tornar mais simples.** Deixa um mais pequenino cantarolar um alegre "lá-lá-lá" de
 volta às Sereias, e essa melodia alegre é tudo o que é preciso para as fazer sorrir.
 
-## Etapa 3: Em Casa, Por Fim (Normal)
+## Paragem 3: Em Casa, Por Fim (Normal)
 
 **O desafio.** Os heróis chegam a uma costa verde que pode ser a casa. Têm de cruzar o
 último trecho e ter a certeza, depois reconhecer a Sala do Tear e os amigos que esperam

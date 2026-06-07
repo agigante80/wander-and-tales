@@ -5,7 +5,7 @@ jogadores têm de descobrir, a solução pretendida e uma saída gentil para que
 criança encravada avance sempre. Mais do que uma boa ideia deve resultar; premeia as
 boas ideias e a gentileza acima da resposta "certa".*
 
-## Stop 1: O Portão das Trepadeiras (Fácil)
+## Paragem 1: O Portão das Trepadeiras (Fácil)
 
 **O desafio.** O portão está fechado por um nó grosso de trepadeiras e não abre
 sozinho.
@@ -25,7 +25,7 @@ combinam duas magias para acabar. Ninguém espera muito tempo neste portão.
 **Mais simples.** Para uma criança muito pequena, estende um fio à entrada e deixa-a
 puxá-lo para o lado para "abrir" o portão das trepadeiras.
 
-## Stop 2: O Canteiro das Flores (Normal)
+## Paragem 2: O Canteiro das Flores (Normal)
 
 **O desafio.** Quatro flores perderam a ordem. Uma vozinha cantarola a pista:
 "Primeiro o sol, depois o mar, depois a amora, depois voar." Os jogadores têm de pôr
@@ -48,7 +48,7 @@ na mesma como sucesso completo, e enche uma estrela de energia.
 **Mais simples.** Para uma criança muito pequena, põe só duas flores, um sol amarelo
 e um mar azul, e pergunta apenas qual vem primeiro.
 
-## Stop 3: A Fonte Falante (Normal)
+## Paragem 3: A Fonte Falante (Normal)
 
 **O desafio.** A fonte ficou calada e triste e não corre. Não precisa de conserto;
 precisa de alegria.

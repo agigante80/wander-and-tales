@@ -28,7 +28,7 @@ Sigam o focinho dele, sigam-se uns aos outros, e não deixem ninguém para trás
 *Qual é o teu nome de herói? Vais ser um herói da Imaginação, da Coragem ou da
 Lealdade?*
 
-## Etapa 1: A Seguir Argos
+## Paragem 1: A Seguir Argos
 
 Argos encosta o focinho à areia e parte ao longo da praia. Para numa pequena marca na
 areia, depois noutra, e depois olha para vocês e espera.
@@ -43,7 +43,7 @@ apontam para o outro?*
 Quando seguem o rasto certo, Argos solta um ladrido alegre e trota em frente. Agora já
 estão no encalço.
 
-## Etapa 2: As Poças da Maré
+## Paragem 2: As Poças da Maré
 
 O rasto leva-vos por entre as poças soalheiras dos rochedos, onde o mar deixou
 pequenos charcos cheios de conchas e caranguejos. A lembrança roçou por uma destas
@@ -61,7 +61,7 @@ nenhum seixo? Foi aí que o vosso amigo descansou, e deixou cair um fio do manto
 Quando descobrem a segunda poça, encontram o fio preso numa rocha, a apontar o
 caminho. Argos abana a cauda. Bem pensado!
 
-## Etapa 3: A Duna Distante
+## Paragem 3: A Duna Distante
 
 O rasto acaba numa duna solitária, lá ao longe na praia, onde o vento andou o dia todo
 a empilhar a areia. Foi algures aqui que a lembrança caiu, e o vento já a deixou

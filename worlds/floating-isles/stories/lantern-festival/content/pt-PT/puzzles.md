@@ -5,7 +5,7 @@ jogadores têm de descobrir, a solução pretendida e uma saída gentil para que
 criança encravada avance sempre. Mais do que uma boa ideia deve resultar; premeia as
 boas ideias e a gentileza acima da resposta "certa".*
 
-## Stop 1: A Praça Escura (Fácil)
+## Paragem 1: A Praça Escura (Fácil)
 
 **O desafio.** A última lanterna do céu ficou fria e escura, e os jogadores precisam
 de a reacender e de descobrir para onde foram à deriva as outras lanternas.
@@ -23,7 +23,7 @@ combinam duas magias para acabar. Ninguém espera muito tempo no escuro.
 **Mais simples.** Para uma criança muito pequena, dá-lhe uma lanterna de mão e deixa
 que acendê-la seja a magia que reacende a lanterna do céu.
 
-## Stop 2: O Banco de Nuvens (Normal)
+## Paragem 2: O Banco de Nuvens (Normal)
 
 **O desafio.** Várias lanternas estão escondidas dentro de um banco de nuvens
 suaves. Os jogadores têm de descobrir que nuvens guardam uma lanterna, e como lá
@@ -45,7 +45,7 @@ sucesso completo, e enche uma estrela de energia.
 **Mais simples.** Para uma criança muito pequena, esconde uma lanterna debaixo de uma
 única nuvem de algodão e deixa-a levantá-la para encontrar a luz.
 
-## Stop 3: A Saliência Alta (Normal)
+## Paragem 3: A Saliência Alta (Normal)
 
 **O desafio.** A maior lanterna da festa ficou presa numa saliência de rocha alta,
 fora de alcance. Os jogadores têm de a trazer cá para baixo com brandura, sem ninguém

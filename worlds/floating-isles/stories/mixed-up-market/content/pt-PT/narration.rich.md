@@ -26,7 +26,7 @@ desembaraçar o mercado," dizem, e a confusão espera por vocês.
 *Qual é o vosso nome de mago? Que magia te parece mais a tua hoje: Luz, Crescer,
 Transformação, Voz ou Flutuar?*
 
-## Stop 1: As Bancas Baralhadas
+## Paragem 1: As Bancas Baralhadas
 
 Seguem pela rua abaixo, e para onde quer que olhem um objeto está onde não pertence,
 com um ar levemente atrapalhado. Um par de botas pisca-vos o olho de entre os pães,
@@ -43,7 +43,7 @@ levá-los para casa, e os fáceis depressa voltam ao seu lugar. Mas uns quantos
 continuam irremediavelmente baralhados, e para esses vão ter de pensar um pouco
 mais.
 
-## Stop 2: A Memória do Mercado
+## Paragem 2: A Memória do Mercado
 
 Para desembaraçar o resto, têm de evocar uma imagem do mercado como estava antes
 de a magia correr mal: que banca tinha que mercadorias, e exatamente onde estava cada
@@ -59,7 +59,7 @@ qual os brinquedos? Devolvam cada coisa baralhada à banca de onde veio.*
 assenta de novo numa ordem feliz. Só falta um nó teimoso, e é o mais complicado de
 todos.
 
-## Stop 3: A Última Troca
+## Paragem 3: A Última Troca
 
 Três bancas continuam enredadas, e estão enredadas num anel. O padeiro tem um par de
 botas, o sapateiro tem um papagaio de papel, e o fabricante de brinquedos tem um pão

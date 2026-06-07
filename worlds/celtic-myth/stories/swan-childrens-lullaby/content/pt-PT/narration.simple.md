@@ -20,7 +20,7 @@ corajosos, bondosos e cheios de ideias."
 
 *Qual é o nome do teu herói? És um herói de Imaginação, de Coragem ou de Bondade?*
 
-## Stop 1: A Névoa Cinzenta
+## Paragem 1: A Névoa Cinzenta
 
 Descem até ao lago. A névoa cinzenta é tão espessa que mal conseguem ver a água. Algures
 ali estão as quatro crianças-cisne, mas estão caladas e escondidas.
@@ -32,7 +32,7 @@ Quando se aproximam, com doçura e carinho, quatro formas brancas deslizam para 
 névoa. Quatro cisnes de olhos suaves e tristes. Ficam contentes por ver uma cara amiga.
 Deixam-vos chegar perto.
 
-## Stop 2: Lembrar a Canção
+## Paragem 2: Lembrar a Canção
 
 As crianças-cisne querem cantar, mas esqueceram-se da sua canção de embalar. As palavras
 ficaram todas baralhadas. Três versinhos pairam na névoa, fora de ordem, e a canção não
@@ -47,7 +47,7 @@ por último? Podem conversar sobre isso em conjunto.*
 Quando põem os três versos na ordem certa, os olhos das crianças-cisne iluminam-se. "É
 isso!", sussurram. "É assim que ela vai!"
 
-## Stop 3: Cantar Juntos
+## Paragem 3: Cantar Juntos
 
 As crianças-cisne já sabem as palavras, mas são tímidas. Uma cisnezinha é a mais tímida de
 todas. Abre o bico, e não sai nenhum som. Esconde a cabeça debaixo da asa.
