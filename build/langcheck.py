@@ -95,14 +95,25 @@ def _post_json(url: str, fields: dict) -> dict:
         return json.loads(resp.read().decode("utf-8"))
 
 
-def check_text(text: str, language: str, *, url: str = DEFAULT_URL) -> list[dict]:
+# Blanking Markdown to equal-length spaces (to preserve offsets) leaves runs of
+# spaces where headings, bullets, and table rows were, which trips the
+# "repeated space" rule. That noise is an artifact of our stripping, not the
+# prose, so disable it by default.
+DEFAULT_DISABLED_RULES = "WHITESPACE_RULE"
+
+
+def check_text(text: str, language: str, *, url: str = DEFAULT_URL,
+               disabled_rules: str = DEFAULT_DISABLED_RULES) -> list[dict]:
     """POST text to the server's /v2/check and return its matches. Retries once
     on a blank or non-JSON body (the server can do that on a cold request)."""
     endpoint = url.rstrip("/") + "/v2/check"
+    fields = {"language": language, "text": text}
+    if disabled_rules:
+        fields["disabledRules"] = disabled_rules
     last_err: Exception | None = None
     for _ in range(2):
         try:
-            payload = _post_json(endpoint, {"language": language, "text": text})
+            payload = _post_json(endpoint, fields)
             return payload.get("matches", [])
         except (json.JSONDecodeError, ValueError) as exc:
             last_err = exc

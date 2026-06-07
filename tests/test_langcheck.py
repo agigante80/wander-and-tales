@@ -61,6 +61,18 @@ def test_check_text_returns_matches_and_retries_on_blank(monkeypatch):
     assert matches[0]["rule"]["id"] == "X"
 
 
+def test_check_text_disables_whitespace_rule_by_default(monkeypatch):
+    seen = {}
+
+    def fake_post(url, fields):
+        seen.update(fields)
+        return {"matches": []}
+
+    monkeypatch.setattr(langcheck, "_post_json", fake_post)
+    langcheck.check_text("a  b", "pt-PT", url="http://h:1")
+    assert seen.get("disabledRules") == "WHITESPACE_RULE"
+
+
 def test_check_file_maps_offsets_to_line_and_col(tmp_path, monkeypatch):
     md = "# Title\n\nOs menino vai.\n"
     f = tmp_path / "worlds" / "w" / "content" / "pt-PT" / "narration.simple.md"
