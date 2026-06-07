@@ -1,13 +1,33 @@
 # Wander & Tales
 
-> A free, printable library of cooperative, adult-led story-adventure kits for kids.
-> Read every story online in English, Spanish, Italian, and Portuguese, or download
-> the printable PDFs. Nobody competes, nobody loses, and there are no wrong answers.
+> A free, multilingual library of cooperative, no-lose story-adventure kits for a
+> grown-up and a child to share. Read every story online in English, Spanish,
+> Italian, and Portuguese, or print the kits. Nobody competes, nobody loses, and
+> there are no wrong answers. Calm enough for bedtime.
 
-The games are played by a grown-up and one or more children together, with a single
-die and household objects. There are seven worlds and twenty-one stories, each with a
-Tale Book (two reading levels), an Atlas (map and pictures), and a World Book.
+A grown-up (a parent, grandparent, teacher, childminder or group leader) and one or
+more children play together with a single die and a few household objects. No app,
+no login, no ads. There are seven worlds and twenty-one stories, each with a Tale
+Book (two reading levels), an Atlas (map and pictures), and a World Book.
 
-- Worlds and stories: https://www.wanderandtales.com/en/
-- Create your own with Claude: https://github.com/agigante80/wander-and-tales#create-your-own-story
-- Source and licence (CC BY-SA 4.0 content, MIT code): https://github.com/agigante80/wander-and-tales
+## Start here
+- [How to Play](https://www.wanderandtales.com/en/how-to-play): the one-page guide to playing a kit.
+- [Why it matters](https://www.wanderandtales.com/en/why): the evidence, with cited sources, kept associational (a way to practise, not a promise).
+- [Create your own story](https://www.wanderandtales.com/en/create): make your own kit with Claude.
+
+## Worlds
+- [The Floating Isles](https://www.wanderandtales.com/en/worlds/floating-isles)
+- [The Sunlit Hills of Greece](https://www.wanderandtales.com/en/worlds/greek-myth)
+- [The Snowlit Fjords of the North](https://www.wanderandtales.com/en/worlds/norse-myth)
+- [The Blossom Mountains of Yamato](https://www.wanderandtales.com/en/worlds/japanese-myth)
+- [The Emerald Isles of the Celts](https://www.wanderandtales.com/en/worlds/celtic-myth)
+- [The Windswept Shores of Troy](https://www.wanderandtales.com/en/worlds/trojan-cycle)
+- [The Enchanted Springs of Portugal](https://www.wanderandtales.com/en/worlds/enchanted-springs)
+
+## Key facts
+- Free and non-commercial; content licensed CC BY-SA 4.0, code MIT.
+- Cooperative and no-lose: you win by being kind and full of ideas, and every idea counts.
+- For any grown-up and a child: parents, grandparents, teachers, childminders, group leaders.
+- Four languages (en-GB, es-ES, it-IT, pt-PT), each at two reading levels.
+- Screen-free play: read online or print, with a single die and household objects.
+- Source and licence: https://github.com/agigante80/wander-and-tales
