@@ -12,7 +12,7 @@ const locale = localeOf(lang!);
 const html = narrationHtml(`guide/${locale}/guide.md`); // strips the guide's own H1
 const htp = site.shared_pdfs?.[locale]?.how_to_play;
 const guide = site.shared_pdfs?.[locale]?.guide;
-const ver = (e: any) => (pdfVer(e) ? ` · v${pdfVer(e)}` : "");
+const ver = (e: any) => (pdfVer(e) ? ` · ${pdfVer(e)}` : "");
 const docIco = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 3h8l4 4v14a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1Z"/><path d="M13 3v5h5"/></svg>';
 const arr = '<span class="arr"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 4v13M6 11l6 6 6-6"/></svg></span>';
 ---

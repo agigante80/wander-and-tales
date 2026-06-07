@@ -10,7 +10,7 @@ export function getStaticPaths() {
 const { lang } = Astro.params;
 const locale = localeOf(lang!);
 const htp = site.shared_pdfs?.[locale]?.how_to_play;
-const ver = (e: any) => (pdfVer(e) ? ` · v${pdfVer(e)}` : "");
+const ver = (e: any) => (pdfVer(e) ? ` · ${pdfVer(e)}` : "");
 
 const steps = [
   { body: t(lang!, "htp_s1"), ic: '<svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 5h16M4 12h16M4 19h10"/></svg>' },

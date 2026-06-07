@@ -37,7 +37,7 @@ const playersText = players.max ? `${players.min} to ${players.max}` : `${player
 const skills = (story.tags.skills ?? []).map((s: string) => s.replace(/-/g, " ")).join(" · ");
 
 const sp = story.pdfs?.[locale] ?? {};
-const ver = (e: any) => (pdfVer(e) ? ` · v${pdfVer(e)}` : "");
+const ver = (e: any) => (pdfVer(e) ? ` · ${pdfVer(e)}` : "");
 
 const docIco = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 3h8l4 4v14a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1Z"/><path d="M13 3v5h5"/></svg>';
 
