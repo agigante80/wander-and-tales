@@ -1,5 +1,5 @@
 ---
-import { mediaUrl } from "../lib/content";
+import { mediaUrl, mediaSrcset } from "../lib/content";
 const { world, lang, locale } = Astro.props;
 const cover = world.images?.find((i: any) => i.role === "cover") ?? world.images?.[0];
 const img = mediaUrl(cover?.path);
@@ -13,7 +13,7 @@ const tint = TINTS[h];
 
 <a class="card card-link" href={`/${lang}/worlds/${world.id}`}>
   <div class={`art ${tint}`} style="aspect-ratio:2/3" role="img" aria-label={world.name[locale]}>
-    {img ? <img src={img} alt="" loading="lazy" /> : <span class="label">{world.name[locale].toLowerCase()}</span>}
+    {img ? <img src={img} srcset={mediaSrcset(cover?.path)} sizes="(min-width:920px) 340px, (min-width:560px) 45vw, calc(100vw - 40px)" alt="" loading="lazy" /> : <span class="label">{world.name[locale].toLowerCase()}</span>}
   </div>
   <div class="card-pad">
     <div style="display:flex;align-items:center;justify-content:space-between;gap:var(--sp-3)">
