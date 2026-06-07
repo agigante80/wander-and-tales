@@ -9,7 +9,8 @@
     "dev": "npm run prepare-assets && astro dev",
     "build": "npm run prepare-assets && astro build",
     "preview": "astro preview",
-    "deploy": "npm run build && wrangler deploy"
+    "deploy": "npm run build && wrangler deploy",
+    "audit": "npx -y unlighthouse"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.3",
