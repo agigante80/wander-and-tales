@@ -16,7 +16,7 @@ const wbE = world.pdfs?.[locale]?.world_book;
 const ehE = world.pdfs?.[locale]?.example_heroes;
 const guideE = site.shared_pdfs?.[locale]?.guide;
 const htpE = site.shared_pdfs?.[locale]?.how_to_play;
-const ver = (e: any) => (pdfVer(e) ? ` · v${pdfVer(e)}` : "");
+const ver = (e: any) => (pdfVer(e) ? ` · ${pdfVer(e)}` : "");
 
 const heroes = world.heroes ?? [];
 const canon = world.canon ?? [];
