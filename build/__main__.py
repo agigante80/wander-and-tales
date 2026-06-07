@@ -6,6 +6,7 @@ import sys
 from pathlib import Path
 
 from build import content, lint
+from build.locales import REQUIRED_LOCALES
 
 
 def _add_root(parser: argparse.ArgumentParser) -> None:
@@ -81,6 +82,20 @@ def main(argv: list[str] | None = None) -> int:
     generate_parser.add_argument("--world", default=None)
     generate_parser.add_argument("--story", default=None)
     generate_parser.add_argument("--force", action="store_true")
+
+    check_parser = sub.add_parser(
+        "check-lang", help="check a locale's prose against a LanguageTool server"
+    )
+    _add_root(check_parser)
+    check_parser.add_argument("--locale", required=True, choices=REQUIRED_LOCALES)
+    check_parser.add_argument("--world", default=None)
+    check_parser.add_argument("--story", default=None)
+    check_parser.add_argument(
+        "--url", default=None,
+        help="LanguageTool base URL (default: $LANGUAGETOOL_URL or http://localhost:18010)",
+    )
+    check_parser.add_argument("paths", nargs="*", type=Path,
+                              help="optional explicit Markdown files to check")
 
     args = parser.parse_args(argv)
 
@@ -230,6 +245,45 @@ def main(argv: list[str] | None = None) -> int:
         for path in written:
             print(f"wrote {path}")
         print(f"{len(written)} image(s) written")
+        return 0
+
+    if args.command == "check-lang":
+        try:
+            from dotenv import load_dotenv
+
+            load_dotenv(args.root / ".env")
+        except ImportError:
+            pass
+
+        from build import langcheck
+
+        url = args.url or os.environ.get("LANGUAGETOOL_URL") or langcheck.DEFAULT_URL
+
+        files = list(args.paths) or None
+        if files is None and args.world:
+            base = args.root / "worlds" / args.world
+            if args.story:
+                base = base / "stories" / args.story
+            files = [p for p in base.rglob("*.md") if args.locale in p.parts]
+
+        try:
+            findings = langcheck.check_locale(args.root, args.locale, url=url, files=files)
+        except (RuntimeError, OSError) as exc:
+            print(f"could not reach LanguageTool at {url}: {exc}")
+            return 2
+
+        by_file: dict[str, list] = {}
+        for fnd in findings:
+            by_file.setdefault(fnd.file, []).append(fnd)
+        for fname in sorted(by_file):
+            print(f"\n## {fname}")
+            for fnd in by_file[fname]:
+                sug = ", ".join(fnd.suggestions) or "(no suggestion)"
+                print(f"  {fnd.line}:{fnd.col} [{fnd.rule_id}] {fnd.message} -> {sug}")
+
+        print(f"\n{len(findings)} candidate finding(s) for {args.locale}. "
+              "Candidates, not auto-fixes;")
+        print("read each in context and apply the locale-quality skill.")
         return 0
 
     return 2
