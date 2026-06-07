@@ -44,7 +44,7 @@ scan "Latin-American vocabulary: use the peninsular word" \
 scan "okay: use 'vale'" '\b(okay|ok)\b'
 scan "em/en dash: use comma, colon or parentheses" '[\x{2013}\x{2014}]'
 scan "no-lose tone (derrota/fracaso/perder): use 'desvío' / 'otro camino'" \
-  '\b(derrota\w*|fracas\w+|perder|perdéis|pierden|perdiste|perdió)\b'
+  '\b(derrota\w*|fracas\w+|perder|perdéis|pierde[ns]?|perdiste|perdió)\b'
 
 printf '\n%s candidate line(s). These are candidates, not auto-fixes:\n' "$total"
 echo "read each in context and apply .claude/skills/es-es-quality/references/es-es-guide.md."
