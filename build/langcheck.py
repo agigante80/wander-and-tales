@@ -98,10 +98,12 @@ def _post_json(url: str, fields: dict) -> dict:
 
 # Blanking Markdown to equal-length spaces (to preserve offsets) leaves stray
 # spaces where headings, bullets, table rows, and emphasis markers were, which
-# trips the whitespace and comma-spacing rules (an emphasis marker next to a
-# comma leaves "palabra ,"). That noise is an artifact of our stripping, not the
-# prose, so disable those rules by default.
-DEFAULT_DISABLED_RULES = "WHITESPACE_RULE,COMMA_PARENTHESIS_WHITESPACE,INCORRECT_SPACES"
+# trips the whitespace and punctuation-spacing rules (an emphasis marker next to
+# a comma or colon leaves "palabra ," or "Voce :"). That noise is an artifact of
+# our stripping, not the prose, so disable that whole family by default.
+DEFAULT_DISABLED_RULES = (
+    "WHITESPACE_RULE,COMMA_PARENTHESIS_WHITESPACE,INCORRECT_SPACES,WHITESPACE_PUNCTUATION"
+)
 
 
 def check_text(text: str, language: str, *, url: str = DEFAULT_URL,
