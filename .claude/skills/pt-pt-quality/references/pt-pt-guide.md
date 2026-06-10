@@ -212,6 +212,11 @@ assume the Brazilian spelling.
 - **Canon names.** Every character, place, creature, and item name must match the
   world `canon/` and the repo lexicon for pt-PT. Prose follows canon.
 - **Plain words a parent can relay.** Lead with the fun; avoid jargon.
+- **Linguagem inclusiva.** Ao falar das crianças em geral (não de uma personagem
+  concreta), não uses só o masculino genérico. O português tem um neutro à mão:
+  "criança" serve para qualquer género, por isso prefere "uma criança / as crianças".
+  Para "menino/menina", usa antes "criança", ou o par "menina e menino". Uma personagem
+  com nome mantém o seu género; isto é só para as referências gerais.
 
 ## 7. Soft, associational claims (the Why page and any grown-up copy)
 
@@ -237,3 +242,5 @@ criança"), not adults in general.
 8. [ ] No-lose tone: no "derrota", "fracasso", "perder" as failure?
 9. [ ] Names match the pt-PT canon and lexicon?
 10. [ ] Grown-up claims associational, never causal?
+11. [ ] Generic references to children inclusive ("criança / as crianças", or
+    "menina e menino"), not a bare masculine default ("os meninos")?

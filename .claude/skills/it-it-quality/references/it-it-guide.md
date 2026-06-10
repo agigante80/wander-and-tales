@@ -123,6 +123,13 @@ Also: "po'" (a little) takes an apostrophe, never an accent ("pò" is wrong).
 - **Canon names.** Every character, place, creature, and item name must match the
   world `canon/` and the repo lexicon for it-IT. Prose follows canon.
 - **Plain words a parent can relay.** Lead with the fun; avoid jargon.
+- **Linguaggio inclusivo.** Quando parli dei bambini in generale (non di un
+  personaggio preciso), non usare solo il maschile generico. L'italiano non ha un
+  neutro comodo, quindi usa la coppia "una bambina e un bambino / le bambine e i
+  bambini" oppure riformula ("chi gioca", "i più piccoli", "l'infanzia"). Un
+  personaggio con un nome mantiene il suo genere; questa regola vale solo per i
+  riferimenti generali. Non usare forme non standard (lo schwa "bambinə", l'asterisco
+  "bambin*"): non sono accettate e dividono.
 
 ## 6. Soft, associational claims (the Why page and any grown-up copy)
 
@@ -145,3 +152,5 @@ bambino"), not adults in general.
 8. [ ] No-lose tone: no "sconfitta", "fallimento", "perdere" as failure?
 9. [ ] Names match the it-IT canon and lexicon?
 10. [ ] Grown-up claims associational, never causal?
+11. [ ] Generic references to children inclusive ("una bambina e un bambino" or a
+    recast), not a bare masculine default, and no schwa or asterisk forms?

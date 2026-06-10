@@ -106,6 +106,17 @@ These are small and unforgiving, so check them deliberately.
    the fun and what you actually do, not the category. This governs the Guide, the
    one-page How to Play, world intros, and any copy a parent reads aloud or paraphrases.
 
+5. **Refer to children and players inclusively, never defaulting to the masculine.**
+   When you mean kids in general (not a specific named character), use gender-neutral
+   or inclusive wording. In en-GB this is easy: "a child", "the children", "they/them",
+   "a grown-up and a child"; avoid defaulting to "he", "boy", or "his". The synced
+   locales have grammatical gender, so each one's quality guide gives the natural
+   inclusive form to use (es-ES "peque/peques" or "niña y niño"; pt-PT "criança", which
+   is already neutral; it-IT "bambina e bambino" or a recast). Follow it. A named
+   character of course keeps their own gender; this rule is only about generic
+   references. Use only each language's accepted inclusive forms, never non-standard
+   spellings ("niñe/niñx", the schwa "bambinə", "l@s").
+
 ## Content types and where they live
 
 | File | Audience | Reading level | Notes |

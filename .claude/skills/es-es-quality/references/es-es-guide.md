@@ -124,6 +124,12 @@ register and vocabulary, which LanguageTool does not know.
 - **Canon names.** Every character, place, creature, and item name must match the
   world `canon/` and the repo lexicon for es-ES. Prose follows canon.
 - **Plain words a parent can relay.** Lead with the fun; avoid jargon.
+- **Lenguaje inclusivo.** Al referirte a la infancia en general (no a un personaje
+  concreto), no uses solo el masculino genérico. Prefiere el neutro y cálido "peque"
+  o "peques", o el par "niña y niño / niñas y niños", o reformula ("la infancia",
+  "quien juega", "las criaturas"). Un personaje con nombre conserva su género; esto es
+  solo para las referencias generales. No uses formas no normativas ("niñe", "niñx",
+  "l@s"): la RAE no las acepta y dividen; las opciones anteriores bastan.
 
 ## 5. Soft, associational claims (the Why page and any grown-up copy)
 
@@ -147,3 +153,5 @@ y su hijo o hija"), not adults in general.
 8. [ ] No-lose tone: no "derrota", "fracaso", "perder" as failure?
 9. [ ] Names match the es-ES canon and lexicon?
 10. [ ] Grown-up claims associational, never causal?
+11. [ ] Generic references to children inclusive ("peque/peques", "niña y niño"),
+    not a bare masculine default, and no non-normative forms ("niñe", "l@s")?
