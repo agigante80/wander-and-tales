@@ -97,9 +97,9 @@ export const UI: Record<LangCode, Dict> = {
     nav_create: "Crea el tuyo",
     hero_kicker: "Un pequeño mundo en el que entrar",
     hero_sub:
-      "Aventuras tranquilas para que un adulto y un niño jueguen juntos. Nadie compite, nadie pierde y no hay respuestas equivocadas: solo una forma cálida de compartir curiosidad, valentía y bondad. Léelas en pantalla o imprímelas para jugar sin pantallas, con un solo dado y unas cosas de casa.",
+      "Aventuras tranquilas para que un adulto y un peque jueguen juntos. Nadie compite, nadie pierde y no hay respuestas equivocadas: solo una forma cálida de compartir curiosidad, valentía y bondad. Léelas en pantalla o imprímelas para jugar sin pantallas, con un solo dado y unas cosas de casa.",
     hero_audience:
-      "Para cualquier adulto que juegue con un niño: madres y padres, abuelos, profes, canguros, monitores, todos bienvenidos.",
+      "Para cualquier adulto que juegue con un peque: madres y padres, abuelos, profes, canguros, monitores, todos bienvenidos.",
     hero_bedtime:
       "Tan tranquilo que va bien para la hora de dormir: para cuando dicen 'no puedo dormir' y se convierte en una pequeña aventura más.",
     hero_read: "Explora los mundos",
