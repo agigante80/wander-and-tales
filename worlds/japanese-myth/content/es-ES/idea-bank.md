@@ -1,6 +1,6 @@
 # Banco de Ideas: Las Montañas en Flor de Yamato
 
-*Sugerencias de improvisación para la persona adulta. Cuando los niños quieran probar
+*Sugerencias de improvisación para la persona adulta. Cuando los peques quieran probar
 algo que la página no había previsto, echad mano de esto. Ninguna idea es una
 respuesta equivocada; todo se inclina hacia la calma, la imaginación y que nadie pierda.*
 

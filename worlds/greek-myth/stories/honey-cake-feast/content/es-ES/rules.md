@@ -16,7 +16,7 @@ Una tirada fallida nunca es una derrota; nadie pierde.
   cinco cualidades: **Imaginación** (inventar ideas), **Valor** (un corazón firme),
   **Corazón** (cuidar de los demás), **Curiosidad** (fijarse en lo que otros no ven)
   o **Astucia** (una idea lista y amable). En la ficha de héroe, donde dice magia,
-  que cada niño escriba la cualidad que más le guste. Dos cualidades distintas
+  que cada peque escriba la cualidad que más le guste. Dos cualidades distintas
   funcionan mejor juntas.
 - Dad a cada jugador cinco estrellas de energía (cinco fichas o piezas pequeñas). Se
   gastan y se recuperan durante el juego.

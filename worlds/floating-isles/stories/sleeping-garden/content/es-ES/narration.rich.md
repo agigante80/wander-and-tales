@@ -1,7 +1,7 @@
 # El Jardín Dormido
 
 *La misma aventura que la versión sencilla, con un poco más de espacio para
-respirar. Leedla en voz alta, o dejad que un niño mayor la lea solo. Los momentos
+respirar. Leedla en voz alta, o dejad que un peque mayor la lea solo. Los momentos
 y los puzles son idénticos; solo el lenguaje se ha hecho mayor.*
 
 ## Antes de empezar
@@ -46,7 +46,7 @@ despierta, solo un poquito.
 Tras la puerta hay un ancho cantero de flores, y aquí algo se ha torcido con
 suavidad. Cuatro flores se han caído y han olvidado dónde van, con los colores
 revueltos. Cuando os acercáis, un hilo de voz canturrea una vieja rima de
-jardinería, de esas que un jardinero enseñaría a un niño: "Primero el sol, luego
+jardinería, de esas que un jardinero enseñaría a un peque: "Primero el sol, luego
 el mar, después la fresa y a volar."
 
 Está claro que las flores quieren volver a su orden. Sencillamente han olvidado

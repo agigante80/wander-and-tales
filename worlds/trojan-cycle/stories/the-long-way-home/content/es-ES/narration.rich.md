@@ -1,6 +1,6 @@
 # El Largo Camino a Casa
 
-*Leed en voz alta, o dejad que un niño mayor lo lea él mismo. Haced una pausa en
+*Leed en voz alta, o dejad que un peque mayor lo lea por su cuenta. Haced una pausa en
 cada pregunta para que los héroes decidan juntos. Aquí no hay respuestas
 equivocadas, solo ideas más valientes para probar.*
 

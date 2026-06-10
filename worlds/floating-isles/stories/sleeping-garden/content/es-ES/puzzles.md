@@ -1,8 +1,7 @@
 # El Jardín Dormido: Puzles y soluciones
 
-*Para vuestros ojos, no los de los niños. Cada parada indica su banda, lo que los
-jugadores tienen que averiguar, la solución prevista y un apoyo amable para que un
-niño atascado siempre avance. Cualquier buena idea debería ser válida; premiad las
+*Para vuestros ojos, no los de los peques. Cada parada indica su banda, lo que los
+jugadores tienen que averiguar, la solución prevista y un apoyo amable para que quien se atasque siempre avance. Cualquier buena idea debería ser válida; premiad las
 ideas y la amabilidad por encima de la respuesta "correcta".*
 
 ## Parada 1: La Puerta de Enredaderas (Fácil)
@@ -42,7 +41,7 @@ Así que el orden es **amarillo, azul, rojo, blanco**. Construid o colocad cuatr
 flores en ese orden. Aquí trabajan la lógica y un poco de vocabulario, no una
 magia.
 
-**Apoyo.** Si los niños dudan, leed la rima otra vez despacio, verso a verso, y
+**Apoyo.** Si los peques dudan, leed la rima otra vez despacio, verso a verso, y
 dejad que coloquen una flor por verso. Llegar con ayuda cuenta igual como un éxito
 completo, y recupera una estrella de energía.
 
@@ -59,7 +58,7 @@ fuente y le levantan el ánimo: le cantan una canción, le cuentan un chiste o l
 dicen unas palabras amables. Cualquier intento sincero de animarla debería
 funcionar. Luz (un brillo cálido) o una magia combinada son buenas alternativas.
 
-**Apoyo.** Si los niños se quedan en blanco, haced que la fuente les haga una
+**Apoyo.** Si los peques se quedan en blanco, haced que la fuente les haga una
 preguntilla suya ("¿Sabéis alguna canción sobre el agua?") para darles un hilo del
 que tirar. En cuanto lo intenten, dejad que el agua salte y cante.
 
@@ -72,8 +71,8 @@ Esto es el desenlace, no un puzle, así que no hay banda ni tirada. Los jugadore
 encuentran al **Duende Solitario** hecho un ovillo en el centro. Durmió el jardín
 porque estaba solo y no sabía cómo pedir un amigo.
 
-Jugadlo con suavidad. Dejad que los niños decidan cómo acercarse: una palabra
+Jugadlo con suavidad. Dejad que los peques decidan cómo acercarse: una palabra
 amable, una invitación a jugar, la promesa de volver. No hay pelea ni truco.
 Cuando le ofrecen su amistad, el duende sonríe y todo el jardín se despierta de
-golpe. Terminad en esa calidez. Los niños han ganado siendo amables y con muchas ideas, que
+golpe. Terminad en esa calidez. Los peques han ganado siendo amables y con muchas ideas, que
 es la única manera de ganar en las Islas.

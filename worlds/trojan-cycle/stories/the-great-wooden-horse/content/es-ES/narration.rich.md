@@ -1,6 +1,6 @@
 # El Gran Caballo de Madera
 
-*Leed en voz alta, o dejad que un niño mayor lo lea solo. Haced una pausa en cada
+*Leed en voz alta, o dejad que un peque mayor lo lea solo. Haced una pausa en cada
 pregunta para que los héroes decidan juntos. Aquí no hay respuestas equivocadas,
 solo ideas más valientes que probar.*
 

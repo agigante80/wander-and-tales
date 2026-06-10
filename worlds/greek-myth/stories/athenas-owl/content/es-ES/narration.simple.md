@@ -1,6 +1,6 @@
 # El Pequeño Búho de Atenea
 
-*Leed en voz alta, despacio y con calidez. Parad a menudo para dejar que los niños
+*Leed en voz alta, despacio y con calidez. Parad a menudo para dejar que los peques
 respondan. Aquí no hay respuestas equivocadas, solo ideas nuevas y amables que
 probar.*
 

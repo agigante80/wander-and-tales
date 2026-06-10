@@ -38,7 +38,7 @@ toque. La Guía explica cómo funciona.
 
 En esta historia no hay ningún malvado. El guardia serio solo está cumpliendo con su
 deber, y se le gana con la honestidad, no se le derrota. El clímax es el dulce
-milagro por el que la leyenda es famosa: el pan que los niños llevan se convierte en
+milagro por el que la leyenda es famosa: el pan que los peques llevan se convierte en
 rosas, así que una amabilidad secreta queda protegida y a nadie se le reprende.
 Jugadlo como una recompensa a la honestidad y a la generosidad discreta, no como un
 truco para engañar a nadie. La lección es que la amabilidad dada con discreción, sin

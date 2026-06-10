@@ -1,8 +1,7 @@
 # El Gran Caballo de Madera: Puzles y Soluciones
 
-*Para vuestros ojos, no para los niños. Cada parada indica su nivel, lo que los
-jugadores deben averiguar, la solución prevista y un apoyo amable para que un niño
-atascado siempre avance. Cualquier buena idea debería ser válida; premiad la imaginación y
+*Para vuestros ojos, no para los peques. Cada parada indica su nivel, lo que los
+jugadores deben averiguar, la solución prevista y un apoyo amable para que quien se atasque siempre avance. Cualquier buena idea debería ser válida; premiad la imaginación y
 la amabilidad por encima de la respuesta "correcta".*
 
 ## Parada 1: Construir el Caballo (Normal)
@@ -19,7 +18,7 @@ coincida y el cuerpo se equilibre. Ordenar las piezas por forma, o trazar un pla
 sencillo antes de construir, vale igual de bien. Acordar cualquier plan sensato y
 equilibrado supera la parada.
 
-**Apoyo.** Si los niños dudan, que un carpintero amable sostenga dos tablones y
+**Apoyo.** Si los peques dudan, que un carpintero amable sostenga dos tablones y
 pregunte: "¿Cuál de estos es más largo, qué pensáis?", o dejad que gasten una
 estrella de energía para "medir dos veces y cortar una". Contar juntos en voz alta
 siempre llega a la meta. Cualquier plan firme levanta el caballo y recupera una
@@ -37,10 +36,10 @@ es nunca gente armada ni nada que dé miedo, solo cosas amistosas.
 **Solución prevista.** Es un momento suave de lo Social y Emocional y de Lógica. Vale
 cualquier elección cálida y acogedora: **La Cesta de Miel e Higos** para compartir,
 guirnaldas de **flores** de colores y un **tamborcillo** para hacer música alegre.
-Preguntad a los niños qué regalos dicen "seamos amigos", y dejad que expliquen por
+Preguntad a los peques qué regalos dicen "seamos amigos", y dejad que expliquen por
 qué. Nombrar cualquier regalo amable, y decir por qué es amable, supera la parada.
 
-**Apoyo.** Si un niño propone algo fiero, preguntaos juntos con cariño: "¿Cómo se
+**Apoyo.** Si un peque propone algo fiero, preguntaos juntos con cariño: "¿Cómo se
 sentiría la gente de la ciudad si abriera la puerta y encontrara eso? ¿Qué les haría
 sonreír en su lugar?" Guiad con calidez hacia los higos, las flores y el tambor.
 Elegir cualquier cosa amable es un éxito completo y recupera una estrella de energía.
@@ -62,8 +61,8 @@ caballo, compartir los **higos**, decir una palabra amable o tocar el tamborcill
 Cuando la sorpresa de la amistad cala, las grandes puertas se abren. Mostrar a la
 ciudad cualquier señal clara de amistad supera la parada.
 
-**Apoyo.** Si los niños se quedan parados, o imaginan que las puertas no se abrirán
-nunca, que un solo niño curioso asome en lo alto de la muralla y llame: "¿Eso es...
+**Apoyo.** Si los peques se quedan parados, o imaginan que las puertas no se abrirán
+nunca, que un solo peque curioso asome en lo alto de la muralla y llame: "¿Eso es...
 para nosotros?" La menor bondad, un saludo con la mano, un higo en alto, una suave
 nota en la caracola, derrite el recelo y las puertas empiezan a abrirse.
 

@@ -1,8 +1,7 @@
 # El Viaje a la Tierra de la Juventud: Puzles y Soluciones
 
-*Para vuestros ojos, no para los niños. Cada parada indica su nivel, lo que los
-jugadores deben averiguar, la solución prevista y un apoyo amable para que un niño
-atascado siempre avance. Cualquier buena idea debería ser válida; premiad la imaginación y
+*Para vuestros ojos, no para los peques. Cada parada indica su nivel, lo que los
+jugadores deben averiguar, la solución prevista y un apoyo amable para que quien se atasque siempre avance. Cualquier buena idea debería ser válida; premiad la imaginación y
 la amabilidad por encima de la respuesta "correcta".*
 
 ## Parada 1: El Acertijo del Salmón (Normal)
@@ -18,7 +17,7 @@ y desaparezco en cuanto te vuelves a mirar. ¿Qué soy?"* La respuesta es **la b
 lago).
 
 **Solución prevista.** Es un reto de pensar, de Imaginación y un poco de paciencia.
-Dejad que los niños lo hablen entre ellos. El salmón acepta la respuesta correcta y, como
+Dejad que los peques lo hablen entre ellos. El salmón acepta la respuesta correcta y, como
 es amable, también acepta una conjetura valiente y meditada.
 
 **Apoyo.** Si se atascan, el salmón ofrece una pista ("Habéis caminado a través de
@@ -39,10 +38,10 @@ cruce a través de la bruma. Esto nunca se gana por la fuerza ni exigiendo.
 **Solución prevista.** Es un momento de Bondad y Valor. Vale cualquier calidez
 sincera: una palabra dulce, decirle que no está sola, preguntarle su nombre, o
 compartir la **torta de avena y miel**. Hace falta un poco de valor para hablar
-primero a una desconocida tímida. Cuando los niños son amables, Sorcha sonríe, toma
+primero a una desconocida tímida. Cuando los peques son amables, Sorcha sonríe, toma
 los remos y los cruza al otro lado.
 
-**Apoyo.** Si los niños se quedan parados o no saben qué decir, que Sorcha sorba por
+**Apoyo.** Si los peques se quedan parados o no saben qué decir, que Sorcha sorba por
 la nariz y murmure: "Nadie se para nunca a hablar conmigo." Una sola palabra amable
 derrite su timidez. Compartir aunque sea una miga de la torta cuenta como un éxito
 completo y recupera una estrella de energía.
@@ -65,9 +64,9 @@ desandar el camino de vuelta a través de la bruma. Cuando la amiga recuerda, to
 eligen, juntos, regresar. Después de esa elección no hay tirada: simplemente se toma
 el camino a casa.
 
-**Apoyo.** Si los niños dudan, que la amiga se detenga y pregunte, muy bajito:
+**Apoyo.** Si los peques dudan, que la amiga se detenga y pregunte, muy bajito:
 "Esperad... ¿había alguien que me cantaba por las noches?" Cualquier recuerdo cálido
-que los niños ofrezcan trae a la amiga el resto del camino de vuelta. La lana roja
+que los peques ofrezcan trae a la amiga el resto del camino de vuelta. La lana roja
 garantiza que nadie pierda el sendero, por muy brumoso que se ponga.
 
 **Hazlo más fácil.** Para los más pequeños, pedidles que digan el nombre de una persona

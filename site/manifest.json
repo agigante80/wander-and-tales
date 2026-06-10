@@ -114,12 +114,12 @@
       "es-ES": {
         "guide": {
           "path": "kits/guides/Guide_for_the_Grown-Up_es-ES.pdf",
-          "version": "v11.0",
+          "version": "v11.0+",
           "updated": "2026-06-07"
         },
         "how_to_play": {
           "path": "kits/guides/How_to_Play_es-ES.pdf",
-          "version": "v11.0",
+          "version": "v11.0+",
           "updated": "2026-06-07"
         }
       },
@@ -153,7 +153,7 @@
       "stories": 21,
       "languages": 4
     },
-    "generated_at": "2026-06-07",
+    "generated_at": "2026-06-10",
     "note": "Story text lives in the content_paths markdown files (kid-facing narration.simple and narration.rich); render those for the online reader. rules.md and puzzles.md are grown-up-only."
   },
   "worlds": [
@@ -759,7 +759,7 @@
         "es-ES": {
           "world_book": {
             "path": "kits/es-ES/celtic-myth/celtic-myth-world-book-es-ES.pdf",
-            "version": "v12.0",
+            "version": "v12.0+",
             "updated": "2026-06-07"
           },
           "example_heroes": {
@@ -973,17 +973,17 @@
             "es-ES": {
               "tale_simple": {
                 "path": "kits/es-ES/celtic-myth/pooks-tangled-paths/celtic-myth-pooks-tangled-paths-tale-book-simple-es-ES.pdf",
-                "version": "v9.0",
+                "version": "v9.0+",
                 "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/es-ES/celtic-myth/pooks-tangled-paths/celtic-myth-pooks-tangled-paths-tale-book-rich-es-ES.pdf",
-                "version": "v9.0",
+                "version": "v9.0+",
                 "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/es-ES/celtic-myth/pooks-tangled-paths/celtic-myth-pooks-tangled-paths-atlas-es-ES.pdf",
-                "version": "v7.0",
+                "version": "v7.0+",
                 "updated": "2026-06-06"
               }
             },
@@ -1202,17 +1202,17 @@
             "es-ES": {
               "tale_simple": {
                 "path": "kits/es-ES/celtic-myth/swan-childrens-lullaby/celtic-myth-swan-childrens-lullaby-tale-book-simple-es-ES.pdf",
-                "version": "v9.0",
+                "version": "v9.0+",
                 "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/es-ES/celtic-myth/swan-childrens-lullaby/celtic-myth-swan-childrens-lullaby-tale-book-rich-es-ES.pdf",
-                "version": "v9.0",
+                "version": "v9.0+",
                 "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/es-ES/celtic-myth/swan-childrens-lullaby/celtic-myth-swan-childrens-lullaby-atlas-es-ES.pdf",
-                "version": "v8.0",
+                "version": "v8.0+",
                 "updated": "2026-06-06"
               }
             },
@@ -1431,17 +1431,17 @@
             "es-ES": {
               "tale_simple": {
                 "path": "kits/es-ES/celtic-myth/the-land-of-youth/celtic-myth-the-land-of-youth-tale-book-simple-es-ES.pdf",
-                "version": "v8.0",
+                "version": "v8.0+",
                 "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/es-ES/celtic-myth/the-land-of-youth/celtic-myth-the-land-of-youth-tale-book-rich-es-ES.pdf",
-                "version": "v8.0",
+                "version": "v8.0+",
                 "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/es-ES/celtic-myth/the-land-of-youth/celtic-myth-the-land-of-youth-atlas-es-ES.pdf",
-                "version": "v6.2",
+                "version": "v6.2+",
                 "updated": "2026-06-06"
               }
             },
@@ -2127,7 +2127,7 @@
         "es-ES": {
           "world_book": {
             "path": "kits/es-ES/enchanted-springs/enchanted-springs-world-book-es-ES.pdf",
-            "version": "v11.0",
+            "version": "v11.0+",
             "updated": "2026-06-07"
           },
           "example_heroes": {
@@ -2358,17 +2358,17 @@
             "es-ES": {
               "tale_simple": {
                 "path": "kits/es-ES/enchanted-springs/galos-silent-dawn/enchanted-springs-galos-silent-dawn-tale-book-simple-es-ES.pdf",
-                "version": "v6.0",
+                "version": "v6.0+",
                 "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/es-ES/enchanted-springs/galos-silent-dawn/enchanted-springs-galos-silent-dawn-tale-book-rich-es-ES.pdf",
-                "version": "v7.0",
+                "version": "v7.0+",
                 "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/es-ES/enchanted-springs/galos-silent-dawn/enchanted-springs-galos-silent-dawn-atlas-es-ES.pdf",
-                "version": "v6.0",
+                "version": "v6.0+",
                 "updated": "2026-06-07"
               }
             },
@@ -2604,17 +2604,17 @@
             "es-ES": {
               "tale_simple": {
                 "path": "kits/es-ES/enchanted-springs/mouras-lost-comb/enchanted-springs-mouras-lost-comb-tale-book-simple-es-ES.pdf",
-                "version": "v7.0",
+                "version": "v7.0+",
                 "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/es-ES/enchanted-springs/mouras-lost-comb/enchanted-springs-mouras-lost-comb-tale-book-rich-es-ES.pdf",
-                "version": "v7.0",
+                "version": "v7.0+",
                 "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/es-ES/enchanted-springs/mouras-lost-comb/enchanted-springs-mouras-lost-comb-atlas-es-ES.pdf",
-                "version": "v8.0",
+                "version": "v8.0+",
                 "updated": "2026-06-07"
               }
             },
@@ -2850,17 +2850,17 @@
             "es-ES": {
               "tale_simple": {
                 "path": "kits/es-ES/enchanted-springs/queen-isabels-roses/enchanted-springs-queen-isabels-roses-tale-book-simple-es-ES.pdf",
-                "version": "v6.0",
+                "version": "v6.0+",
                 "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/es-ES/enchanted-springs/queen-isabels-roses/enchanted-springs-queen-isabels-roses-tale-book-rich-es-ES.pdf",
-                "version": "v6.0",
+                "version": "v6.0+",
                 "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/es-ES/enchanted-springs/queen-isabels-roses/enchanted-springs-queen-isabels-roses-atlas-es-ES.pdf",
-                "version": "v6.0",
+                "version": "v6.0+",
                 "updated": "2026-06-07"
               }
             },
@@ -3593,7 +3593,7 @@
         "es-ES": {
           "world_book": {
             "path": "kits/es-ES/floating-isles/floating-isles-world-book-es-ES.pdf",
-            "version": "v22.0",
+            "version": "v22.0+",
             "updated": "2026-06-07"
           },
           "example_heroes": {
@@ -3820,17 +3820,17 @@
             "es-ES": {
               "tale_simple": {
                 "path": "kits/es-ES/floating-isles/lantern-festival/floating-isles-lantern-festival-tale-book-simple-es-ES.pdf",
-                "version": "v13.0",
+                "version": "v13.0+",
                 "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/es-ES/floating-isles/lantern-festival/floating-isles-lantern-festival-tale-book-rich-es-ES.pdf",
-                "version": "v13.0",
+                "version": "v13.0+",
                 "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/es-ES/floating-isles/lantern-festival/floating-isles-lantern-festival-atlas-es-ES.pdf",
-                "version": "v11.0",
+                "version": "v11.0+",
                 "updated": "2026-06-07"
               }
             },
@@ -4048,17 +4048,17 @@
             "es-ES": {
               "tale_simple": {
                 "path": "kits/es-ES/floating-isles/mixed-up-market/floating-isles-mixed-up-market-tale-book-simple-es-ES.pdf",
-                "version": "v13.0",
+                "version": "v13.0+",
                 "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/es-ES/floating-isles/mixed-up-market/floating-isles-mixed-up-market-tale-book-rich-es-ES.pdf",
-                "version": "v13.0",
+                "version": "v13.0+",
                 "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/es-ES/floating-isles/mixed-up-market/floating-isles-mixed-up-market-atlas-es-ES.pdf",
-                "version": "v11.0",
+                "version": "v11.0+",
                 "updated": "2026-06-07"
               }
             },
@@ -4278,12 +4278,12 @@
             "es-ES": {
               "tale_simple": {
                 "path": "kits/es-ES/floating-isles/sleeping-garden/floating-isles-sleeping-garden-tale-book-simple-es-ES.pdf",
-                "version": "v13.0",
+                "version": "v13.0+",
                 "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/es-ES/floating-isles/sleeping-garden/floating-isles-sleeping-garden-tale-book-rich-es-ES.pdf",
-                "version": "v13.0",
+                "version": "v13.0+",
                 "updated": "2026-06-07"
               },
               "atlas": {
@@ -5004,7 +5004,7 @@
         "es-ES": {
           "world_book": {
             "path": "kits/es-ES/greek-myth/greek-myth-world-book-es-ES.pdf",
-            "version": "v21.0",
+            "version": "v21.0+",
             "updated": "2026-06-07"
           },
           "example_heroes": {
@@ -5218,17 +5218,17 @@
             "es-ES": {
               "tale_simple": {
                 "path": "kits/es-ES/greek-myth/athenas-owl/greek-myth-athenas-owl-tale-book-simple-es-ES.pdf",
-                "version": "v10.0",
+                "version": "v10.0+",
                 "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/es-ES/greek-myth/athenas-owl/greek-myth-athenas-owl-tale-book-rich-es-ES.pdf",
-                "version": "v10.0",
+                "version": "v10.0+",
                 "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/es-ES/greek-myth/athenas-owl/greek-myth-athenas-owl-atlas-es-ES.pdf",
-                "version": "v7.2",
+                "version": "v7.2+",
                 "updated": "2026-06-06"
               }
             },
@@ -5447,17 +5447,17 @@
             "es-ES": {
               "tale_simple": {
                 "path": "kits/es-ES/greek-myth/honey-cake-feast/greek-myth-honey-cake-feast-tale-book-simple-es-ES.pdf",
-                "version": "v11.0",
+                "version": "v11.0+",
                 "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/es-ES/greek-myth/honey-cake-feast/greek-myth-honey-cake-feast-tale-book-rich-es-ES.pdf",
-                "version": "v11.0",
+                "version": "v11.0+",
                 "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/es-ES/greek-myth/honey-cake-feast/greek-myth-honey-cake-feast-atlas-es-ES.pdf",
-                "version": "v9.0",
+                "version": "v9.0+",
                 "updated": "2026-06-06"
               }
             },
@@ -5676,17 +5676,17 @@
             "es-ES": {
               "tale_simple": {
                 "path": "kits/es-ES/greek-myth/the-singing-spring/greek-myth-the-singing-spring-tale-book-simple-es-ES.pdf",
-                "version": "v12.0",
+                "version": "v12.0+",
                 "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/es-ES/greek-myth/the-singing-spring/greek-myth-the-singing-spring-tale-book-rich-es-ES.pdf",
-                "version": "v12.0",
+                "version": "v12.0+",
                 "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/es-ES/greek-myth/the-singing-spring/greek-myth-the-singing-spring-atlas-es-ES.pdf",
-                "version": "v10.2",
+                "version": "v10.2+",
                 "updated": "2026-06-06"
               }
             },
@@ -6348,7 +6348,7 @@
         "es-ES": {
           "world_book": {
             "path": "kits/es-ES/japanese-myth/japanese-myth-world-book-es-ES.pdf",
-            "version": "v12.0",
+            "version": "v12.0+",
             "updated": "2026-06-07"
           },
           "example_heroes": {
@@ -6562,17 +6562,17 @@
             "es-ES": {
               "tale_simple": {
                 "path": "kits/es-ES/japanese-myth/firefly-lanterns/japanese-myth-firefly-lanterns-tale-book-simple-es-ES.pdf",
-                "version": "v9.0",
+                "version": "v9.0+",
                 "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/es-ES/japanese-myth/firefly-lanterns/japanese-myth-firefly-lanterns-tale-book-rich-es-ES.pdf",
-                "version": "v9.0",
+                "version": "v9.0+",
                 "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/es-ES/japanese-myth/firefly-lanterns/japanese-myth-firefly-lanterns-atlas-es-ES.pdf",
-                "version": "v7.2",
+                "version": "v7.2+",
                 "updated": "2026-06-06"
               }
             },
@@ -6791,17 +6791,17 @@
             "es-ES": {
               "tale_simple": {
                 "path": "kits/es-ES/japanese-myth/river-dragons-long-sleep/japanese-myth-river-dragons-long-sleep-tale-book-simple-es-ES.pdf",
-                "version": "v8.0",
+                "version": "v8.0+",
                 "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/es-ES/japanese-myth/river-dragons-long-sleep/japanese-myth-river-dragons-long-sleep-tale-book-rich-es-ES.pdf",
-                "version": "v8.0",
+                "version": "v8.0+",
                 "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/es-ES/japanese-myth/river-dragons-long-sleep/japanese-myth-river-dragons-long-sleep-atlas-es-ES.pdf",
-                "version": "v6.2",
+                "version": "v6.2+",
                 "updated": "2026-06-06"
               }
             },
@@ -7020,17 +7020,17 @@
             "es-ES": {
               "tale_simple": {
                 "path": "kits/es-ES/japanese-myth/tanukis-tidy-up/japanese-myth-tanukis-tidy-up-tale-book-simple-es-ES.pdf",
-                "version": "v8.0",
+                "version": "v8.0+",
                 "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/es-ES/japanese-myth/tanukis-tidy-up/japanese-myth-tanukis-tidy-up-tale-book-rich-es-ES.pdf",
-                "version": "v8.0",
+                "version": "v8.0+",
                 "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/es-ES/japanese-myth/tanukis-tidy-up/japanese-myth-tanukis-tidy-up-atlas-es-ES.pdf",
-                "version": "v6.2",
+                "version": "v6.2+",
                 "updated": "2026-06-06"
               }
             },
@@ -7674,7 +7674,7 @@
         "es-ES": {
           "world_book": {
             "path": "kits/es-ES/norse-myth/norse-myth-world-book-es-ES.pdf",
-            "version": "v12.0",
+            "version": "v12.0+",
             "updated": "2026-06-07"
           },
           "example_heroes": {
@@ -7888,17 +7888,17 @@
             "es-ES": {
               "tale_simple": {
                 "path": "kits/es-ES/norse-myth/ratatosks-message/norse-myth-ratatosks-message-tale-book-simple-es-ES.pdf",
-                "version": "v8.0",
+                "version": "v8.0+",
                 "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/es-ES/norse-myth/ratatosks-message/norse-myth-ratatosks-message-tale-book-rich-es-ES.pdf",
-                "version": "v8.0",
+                "version": "v8.0+",
                 "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/es-ES/norse-myth/ratatosks-message/norse-myth-ratatosks-message-atlas-es-ES.pdf",
-                "version": "v5.2",
+                "version": "v5.2+",
                 "updated": "2026-06-06"
               }
             },
@@ -8117,17 +8117,17 @@
             "es-ES": {
               "tale_simple": {
                 "path": "kits/es-ES/norse-myth/the-long-winters-night/norse-myth-the-long-winters-night-tale-book-simple-es-ES.pdf",
-                "version": "v8.0",
+                "version": "v8.0+",
                 "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/es-ES/norse-myth/the-long-winters-night/norse-myth-the-long-winters-night-tale-book-rich-es-ES.pdf",
-                "version": "v8.0",
+                "version": "v8.0+",
                 "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/es-ES/norse-myth/the-long-winters-night/norse-myth-the-long-winters-night-atlas-es-ES.pdf",
-                "version": "v5.2",
+                "version": "v5.2+",
                 "updated": "2026-06-06"
               }
             },
@@ -8346,17 +8346,17 @@
             "es-ES": {
               "tale_simple": {
                 "path": "kits/es-ES/norse-myth/the-lost-little-aurora/norse-myth-the-lost-little-aurora-tale-book-simple-es-ES.pdf",
-                "version": "v8.0",
+                "version": "v8.0+",
                 "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/es-ES/norse-myth/the-lost-little-aurora/norse-myth-the-lost-little-aurora-tale-book-rich-es-ES.pdf",
-                "version": "v8.0",
+                "version": "v8.0+",
                 "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/es-ES/norse-myth/the-lost-little-aurora/norse-myth-the-lost-little-aurora-atlas-es-ES.pdf",
-                "version": "v5.2",
+                "version": "v5.2+",
                 "updated": "2026-06-06"
               }
             },
@@ -8982,7 +8982,7 @@
         "es-ES": {
           "world_book": {
             "path": "kits/es-ES/trojan-cycle/trojan-cycle-world-book-es-ES.pdf",
-            "version": "v12.0",
+            "version": "v12.0+",
             "updated": "2026-06-07"
           },
           "example_heroes": {
@@ -9196,17 +9196,17 @@
             "es-ES": {
               "tale_simple": {
                 "path": "kits/es-ES/trojan-cycle/argos-and-the-keepsake/trojan-cycle-argos-and-the-keepsake-tale-book-simple-es-ES.pdf",
-                "version": "v9.0",
+                "version": "v9.0+",
                 "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/es-ES/trojan-cycle/argos-and-the-keepsake/trojan-cycle-argos-and-the-keepsake-tale-book-rich-es-ES.pdf",
-                "version": "v9.0",
+                "version": "v9.0+",
                 "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/es-ES/trojan-cycle/argos-and-the-keepsake/trojan-cycle-argos-and-the-keepsake-atlas-es-ES.pdf",
-                "version": "v7.2",
+                "version": "v7.2+",
                 "updated": "2026-06-06"
               }
             },
@@ -9425,17 +9425,17 @@
             "es-ES": {
               "tale_simple": {
                 "path": "kits/es-ES/trojan-cycle/the-great-wooden-horse/trojan-cycle-the-great-wooden-horse-tale-book-simple-es-ES.pdf",
-                "version": "v8.0",
+                "version": "v8.0+",
                 "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/es-ES/trojan-cycle/the-great-wooden-horse/trojan-cycle-the-great-wooden-horse-tale-book-rich-es-ES.pdf",
-                "version": "v8.0",
+                "version": "v8.0+",
                 "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/es-ES/trojan-cycle/the-great-wooden-horse/trojan-cycle-the-great-wooden-horse-atlas-es-ES.pdf",
-                "version": "v6.2",
+                "version": "v6.2+",
                 "updated": "2026-06-06"
               }
             },
@@ -9654,17 +9654,17 @@
             "es-ES": {
               "tale_simple": {
                 "path": "kits/es-ES/trojan-cycle/the-long-way-home/trojan-cycle-the-long-way-home-tale-book-simple-es-ES.pdf",
-                "version": "v8.0",
+                "version": "v8.0+",
                 "updated": "2026-06-07"
               },
               "tale_rich": {
                 "path": "kits/es-ES/trojan-cycle/the-long-way-home/trojan-cycle-the-long-way-home-tale-book-rich-es-ES.pdf",
-                "version": "v8.0",
+                "version": "v8.0+",
                 "updated": "2026-06-07"
               },
               "atlas": {
                 "path": "kits/es-ES/trojan-cycle/the-long-way-home/trojan-cycle-the-long-way-home-atlas-es-ES.pdf",
-                "version": "v6.2",
+                "version": "v6.2+",
                 "updated": "2026-06-06"
               }
             },

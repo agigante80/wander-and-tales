@@ -1,6 +1,6 @@
 # El Peine Perdido de la Moura
 
-*Leed en voz alta, despacio y con cariño. Parad a menudo para que los niños
+*Leed en voz alta, despacio y con cariño. Parad a menudo para que los peques
 respondan. Aquí no hay respuestas equivocadas, solo ideas nuevas que probar.*
 
 ## Antes de empezar
@@ -78,7 +78,7 @@ agua volverá a cantar."
 ## La Fuente Vuelve a Cantar
 
 Bajáis corriendo al pueblo. La Fuente Vieja borbotea clara y brillante, y el agua casi
-canta. Los niños ríen y llenan sus jarras. La Moura envía una bendición fresca y dulce
+canta. Los peques ríen y llenan sus jarras. La Moura envía una bendición fresca y dulce
 con el agua.
 
 Lo conseguisteis juntos. Fuisteis amables, y estuvisteis llenos de ideas. Bien hecho.

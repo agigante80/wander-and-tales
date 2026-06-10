@@ -1,6 +1,6 @@
 # El Banquete del Pastel de Miel
 
-*Leed en voz alta, o dejad que un niño mayor lo lea solo. Haced una pausa en cada
+*Leed en voz alta, o dejad que un peque mayor lo lea solo. Haced una pausa en cada
 pregunta para que los héroes decidan juntos. Aquí no hay respuestas equivocadas, solo
 ideas más amables que probar.*
 
@@ -46,7 +46,7 @@ mucho gusto."
 De vuelta en el cálido bullicio del pueblo, Milo el Panadero había sacado de su horno
 un pastel de miel tan inmenso que ocupaba toda su mesa. Pero un pastel solo es tan
 bueno como el modo en que se reparte, y aquí estaba el rompecabezas: cómo cortarlo para
-que cada invitado tuviera un trozo, lo mismo el niño más pequeño que el enorme Cíclope,
+que cada invitado tuviera un trozo, lo mismo el más pequeño que el enorme Cíclope,
 y nadie se quedara sin nada.
 
 *Resolvámoslo juntos. ¿Cuántos amigos vienen al banquete? ¿Cómo podríais cortar el

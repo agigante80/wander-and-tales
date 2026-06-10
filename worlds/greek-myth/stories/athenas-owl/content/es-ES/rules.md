@@ -16,7 +16,7 @@ derrota; nadie pierde.
   cinco cualidades: **Imaginación** (inventar ideas), **Valor** (un corazón firme),
   **Corazón** (cuidar de los demás), **Curiosidad** (fijarse en lo que otros no ven)
   o **Astucia** (una idea lista y amable). En la ficha de héroe, donde dice magia,
-  que cada niño escriba la cualidad que más le guste. Dos cualidades distintas
+  que cada peque escriba la cualidad que más le guste. Dos cualidades distintas
   funcionan mejor juntas.
 - Dad a cada jugador cinco estrellas de energía (cinco fichas o piezas pequeñas). Se
   gastan y se recuperan durante el juego.
@@ -44,6 +44,6 @@ corresponda. La Guía explica cómo funciona.
 En este cuento no hay ningún enemigo, solo un pequeño búho perdido y la amabilidad
 que hace falta para llevarlo a casa. La aventura se gana ayudando a Glaux a sentirse
 a salvo, eligiendo el sendero verdadero con ojos agudos y echándole al cansado
-pequeño búho una mano amable para subir a su percha. Dejad que los niños lleven la
+pequeño búho una mano amable para subir a su percha. Dejad que los peques lleven la
 voz cantante con cuidado; eso es lo más importante. En la página de puzles tenéis los
 tres retos y sus soluciones.

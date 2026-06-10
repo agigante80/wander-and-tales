@@ -1,8 +1,7 @@
 # El Mercado de la Magia Revuelta: Puzles y soluciones
 
-*Para vuestros ojos, no los de los niños. Cada parada indica su banda, lo que los
-jugadores tienen que averiguar, la solución prevista y un apoyo amable para que un
-niño atascado siempre avance. Cualquier buena idea debería ser válida; premiad las
+*Para vuestros ojos, no los de los peques. Cada parada indica su banda, lo que los
+jugadores tienen que averiguar, la solución prevista y un apoyo amable para que quien se atasque siempre avance. Cualquier buena idea debería ser válida; premiad las
 ideas y la amabilidad por encima de la respuesta "correcta".*
 
 ## Parada 1: Los Puestos Revueltos (Fácil)
@@ -18,7 +17,7 @@ una forma de averiguar dónde va de verdad cada cosa.
 - **Cambio** puede arreglar una etiqueta rota para que el puesto vuelva a leerse.
 
 **Apoyo.** Si una tirada falla, el Gato de Niebla coge un objeto con la boca y lo
-lleva con mucha intención hasta el puesto correcto, para enseñar a los niños cómo se
+lleva con mucha intención hasta el puesto correcto, para enseñar a los peques cómo se
 hace, y entonces gastan una estrella de energía o combinan dos magias para terminar
 los fáciles. Aquí nadie espera mucho rato.
 
@@ -36,7 +35,7 @@ como era: qué mercancía iba en qué puesto.
 - los zapatos van al **zapatero**
 - los juguetes van al **juguetero**
 
-La Flor Parlante canturrea los puestos en orden para ayudar. Dejad que los niños
+La Flor Parlante canturrea los puestos en orden para ayudar. Dejad que los peques
 recuerden y coloquen cada pareja. Resolverlo con la ayuda de la flor cuenta igual
 como un éxito completo.
 
@@ -61,7 +60,7 @@ pasos:
 - el **juguetero** le pasa el pan al **panadero**.
 
 Entonces cada uno tiene lo suyo. Colocad tres objetos y tres puestos para que los
-niños los puedan mover de verdad; la lógica encaja en cuanto lo ven como un círculo.
+peques los puedan mover de verdad; la lógica encaja en cuanto lo ven como un círculo.
 
 **Apoyo.** Si se quedan atascados, el Gato de Niebla empuja las botas hacia el
 zapatero para arrancar la cadena ("las botas van con los zapatos"), y lo demás suele
@@ -77,9 +76,9 @@ puesto los jugadores encuentran a **Pip**, un aprendiz de mago amable en su
 primerísimo día, a quien se le escurrió un hechizo de Cambio y revolvió el mercado,
 y que se escondió por preocupación y timidez.
 
-Jugadlo con suavidad. Dejad que los niños decidan cómo acercarse: una palabra
+Jugadlo con suavidad. Dejad que los peques decidan cómo acercarse: una palabra
 amable, un recordatorio de que todos nos equivocamos, la oferta de quedarse al lado
-de Pip mientras vuelve a intentarlo. No hay regañina ni truco. Cuando los niños
+de Pip mientras vuelve a intentarlo. No hay regañina ni truco. Cuando los peques
 tranquilizan a Pip, Pip encuentra el valor de poner bien la última cosa con un
-Cambio cuidadoso, y el mercado os vitorea. Terminad en esa calidez. Los niños han
+Cambio cuidadoso, y el mercado os vitorea. Terminad en esa calidez. Los peques han
 ganado siendo amables y con muchas ideas, que es la única manera de ganar en las Islas.

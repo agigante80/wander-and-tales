@@ -1,8 +1,7 @@
 # La Nana de los Niños Cisne: Puzles y Soluciones
 
-*Para vuestros ojos, no para los niños. Cada parada indica su nivel, lo que los
-jugadores deben averiguar, la solución prevista y un apoyo amable para que un niño
-atascado siempre avance. Cualquier buena idea debería ser válida; premiad la imaginación y
+*Para vuestros ojos, no para los peques. Cada parada indica su nivel, lo que los
+jugadores deben averiguar, la solución prevista y un apoyo amable para que quien se atasque siempre avance. Cualquier buena idea debería ser válida; premiad la imaginación y
 la amabilidad por encima de la respuesta "correcta".*
 
 ## Parada 1: La Bruma Gris (Fácil)
@@ -16,7 +15,7 @@ plumas, y luego llamar con dulzura y calidez para que los cisnes sepan que ha
 llegado un amigo. Los acercamientos ruidosos o bruscos hacen que los cisnes se
 encojan dentro de la bruma; uno tranquilo y amable los hace salir deslizándose.
 
-**Apoyo.** Si los niños no están seguros, dejad que una sola pluma blanca baje
+**Apoyo.** Si los peques no están seguros, dejad que una sola pluma blanca baje
 flotando hasta sus pies, o que la cisne más pequeña dé una llamada suave que puedan
 seguir. Cualquier acercamiento suave y amable vale, y en cuanto los cisnes ven una
 cara amistosa se acercan por su cuenta.
@@ -31,7 +30,7 @@ salen deslizándose a su encuentro.
 bruma todos en desorden, y la canción no funcionará hasta que los jugadores los
 pongan en su sitio.
 
-**Los versos.** Leedlos en voz alta en orden revuelto, y luego pedid a los niños que
+**Los versos.** Leedlos en voz alta en orden revuelto, y luego pedid a los peques que
 los ordenen. Numeradlos solo para vosotros.
 
 1. *Cae blando el ocaso en el lago de plata,*
@@ -41,7 +40,7 @@ los ordenen. Numeradlos solo para vosotros.
 3. *Dormid ahora, dormid, hasta que el sol de la mañana*
    *despierte al mundo con la canción que regala.*
 
-**La pista del orden.** Decid a los niños que la nana recorre una noche entera:
+**La pista del orden.** Decid a los peques que la nana recorre una noche entera:
 empieza en el ocaso, sube por la oscuridad y termina con el sol de la mañana. Las
 palabras que nombran la hora del día delatan el orden: el **ocaso** va primero,
 luego la **bruma que sube** en rosa y oro, y por último **el sol de la mañana**. Así
@@ -52,7 +51,7 @@ escuchan las palabras de la hora del día (ocaso, luego la bruma que sube, luego
 mañana) y las usan para colocar los versos en orden, del ocaso al amanecer. Pedirle
 su pista a **Pook el Puca** vale igual de bien.
 
-**Apoyo.** Si los niños se atascan, dejad que Pook el Puca tararee la primera línea,
+**Apoyo.** Si los peques se atascan, dejad que Pook el Puca tararee la primera línea,
 o señalad las palabras "ocaso" y "mañana" y preguntad cuál llega antes en una noche.
 Llegar con ayuda cuenta igual como un éxito completo y recupera una estrella de
 energía.
@@ -73,7 +72,7 @@ solo, y le dicen una palabra amable a la niña cisne más tímida para que sepa 
 sola. Cuando los jugadores van primero y se quedan a su lado, ella encuentra su nota
 y los demás la siguen.
 
-**Apoyo.** Si los niños se quedan parados, o esperan a que empiecen los cisnes,
+**Apoyo.** Si los peques se quedan parados, o esperan a que empiecen los cisnes,
 dejad que la niña cisne más tímida susurre: "¿La cantáis conmigo?" En cuanto los
 jugadores tararean cualquier melodía y la invitan, su primera notita se le escapa y
 los cuatro niños cisne se unen a la canción.

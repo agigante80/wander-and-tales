@@ -14,7 +14,7 @@ esta aventura. Una tirada fallida nunca es una derrota; nadie pierde.
 - Dad a cada jugador cinco estrellas de energía (cinco fichas o piezas pequeñas).
   Se gastan y se recuperan durante el juego.
 - Construid con piezas y cosas de casa las mercancías revueltas (una hogaza, un par
-  de botas, una cometa, algo de fruta), para que los niños las puedan mover de un
+  de botas, una cometa, algo de fruta), para que los peques las puedan mover de un
   lado a otro. Cualquier cosa puede ser cualquier cosa.
 - Tened cerca vuestros dados y la tabla de bandas y dados del final del kit.
 
@@ -36,7 +36,7 @@ toque. La Guía explica cómo funciona.
 
 El mercado no se arregla pillando a nadie en falta. El lío lo montó Pip, un aprendiz
 de mago amable en su primer día, a quien se le escurrió un hechizo de Cambio y que
-era demasiado tímido para confesarlo. La aventura se gana cuando los niños
+era demasiado tímido para confesarlo. La aventura se gana cuando los peques
 tranquilizan a Pip, le enseñan que los errores se arreglan juntos y le dan el valor
 de poner bien la última cosa. Dejad que ese momento caiga con suavidad; es lo más
 importante de todo. Mirad la página de puzles para saber cómo jugar el final, y

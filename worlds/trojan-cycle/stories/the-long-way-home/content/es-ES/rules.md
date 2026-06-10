@@ -14,7 +14,7 @@ ideas y la amabilidad siguen ganando siempre, y nadie sale herido de verdad.
   cinco cualidades: **Imaginación** (inventar ideas), **Valor** (un corazón firme
   en un mar ancho), **Lealtad** (mantener la lealtad con un amigo), **Astucia** (una
   idea lista y amable) o **Paciencia** (esperar y volver a intentarlo). En la ficha de
-  héroe, donde dice magia, que cada niño escriba la cualidad que más le guste. Dos
+  héroe, donde dice magia, que cada peque escriba la cualidad que más le guste. Dos
   cualidades distintas funcionan mejor juntas.
 - Dad a cada jugador cinco estrellas de energía (cinco fichas o piezas pequeñas). Se
   gastan y se recuperan durante el juego.

@@ -34,7 +34,7 @@ toque. La Guía explica cómo funciona.
 ## Cómo termina
 
 El Corazón del Jardín no es una batalla. El "malo" es el Duende Solitario, que
-durmió el jardín solo porque quería un amigo. La aventura se gana cuando los niños
+durmió el jardín solo porque quería un amigo. La aventura se gana cuando los peques
 le ofrecen su amistad. Dejad que ese momento caiga con suavidad; es lo más
 importante de todo. Mirad la página de puzles para saber cómo jugar el corazón, y
 para las soluciones de las tres paradas.

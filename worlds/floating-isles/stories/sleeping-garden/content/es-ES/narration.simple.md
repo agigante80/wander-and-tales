@@ -1,6 +1,6 @@
 # El Jardín Dormido
 
-*Leed en voz alta, despacio y con cariño. Parad a menudo para que los niños
+*Leed en voz alta, despacio y con cariño. Parad a menudo para que los peques
 respondan. Aquí no hay respuestas equivocadas, solo ideas nuevas que probar.*
 
 ## Antes de empezar

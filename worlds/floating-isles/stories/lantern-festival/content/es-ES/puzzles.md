@@ -1,8 +1,7 @@
 # La Fiesta de las Luces Perdida: Puzles y soluciones
 
-*Para vuestros ojos, no los de los niños. Cada parada indica su banda, lo que los
-jugadores tienen que averiguar, la solución prevista y un apoyo amable para que un
-niño atascado siempre avance. Cualquier buena idea debería ser válida; premiad las
+*Para vuestros ojos, no los de los peques. Cada parada indica su banda, lo que los
+jugadores tienen que averiguar, la solución prevista y un apoyo amable para que quien se atasque siempre avance. Cualquier buena idea debería ser válida; premiad las
 ideas y la amabilidad por encima de la respuesta "correcta".*
 
 ## Parada 1: La Plaza Apagada (Fácil)
@@ -38,7 +37,7 @@ con **Voz** (pedid a la Mariposa Mensajera o a la brisa que las bajen), con
 **Flotar** (elevad con suavidad a un jugador hasta las nubes brillantes) o con una
 magia combinada.
 
-**Apoyo.** Si los niños dudan, haced que la Mariposa Mensajera revolotee junto a una
+**Apoyo.** Si los peques dudan, haced que la Mariposa Mensajera revolotee junto a una
 nube brillante para enseñarles cómo es eso de "cálida y brillante", y luego dejad
 que encuentren las demás. Llegar con un empujoncito cuenta igual como un éxito
 completo, y recupera una estrella de energía.
@@ -63,7 +62,7 @@ atrevida:
 Cualquier plan para bajarlo sin peligro sirve. Recalcad que nadie necesita trepar
 ni arriesgarse a caer.
 
-**Apoyo.** Si los niños se quedan en blanco, haced que la brisa dé un soplido
+**Apoyo.** Si los peques se quedan en blanco, haced que la brisa dé un soplido
 pequeño y esperanzado que mezca el farol, para que vean que se lo puede engatusar en
 vez de agarrarlo. En cuanto prueben una idea suave, dejad que el farol baje flotando
 hasta sus manos.
@@ -78,9 +77,9 @@ nubes, los jugadores encuentran a **Nimbo**, una ballenita de nube joven, con la
 recogida de los faroles brillando suave en su interior. Nimbo se llevó los faroles
 porque estaba sola en el cielo vacío y amaba su calor, no para estropear la fiesta.
 
-Jugadlo con suavidad. Dejad que los niños decidan cómo acercarse: una palabra
+Jugadlo con suavidad. Dejad que los peques decidan cómo acercarse: una palabra
 amable, una invitación a la fiesta, la promesa de visitar las nubes. No hay pelea ni
 truco. Cuando le ofrecen su amistad, Nimbo deja libre la luz, los faroles se elevan
 todos juntos, y Nimbo baja flotando para unirse a las familias, brillando más que
-nadie. Terminad en esa calidez. Los niños han ganado siendo amables y con muchas ideas, que es
+nadie. Terminad en esa calidez. Los peques han ganado siendo amables y con muchas ideas, que es
 la única manera de ganar en las Islas.

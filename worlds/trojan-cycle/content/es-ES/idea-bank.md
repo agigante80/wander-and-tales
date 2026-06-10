@@ -1,6 +1,6 @@
 # Banco de Ideas: Las Costas Ventosas de Troya
 
-*Sugerencias de improvisación para la persona adulta. Cuando los niños quieran probar
+*Sugerencias de improvisación para la persona adulta. Cuando los peques quieran probar
 algo que la página no había previsto, echad mano de esto. Aquí no hay respuestas
 equivocadas; cada idea se inclina hacia la imaginación, la amistad y que nadie pierda.*
 

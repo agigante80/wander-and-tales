@@ -37,6 +37,6 @@ toque. La Guía explica cómo funciona.
 La fiesta no se gana atrapando a nadie ni arreglando nada por la fuerza. Quien
 recogió los faroles es Nimbo, una ballenita de nube joven que estaba sola y que
 amaba tanto las luces que no podía dejarlas marchar. La aventura se gana cuando los
-niños le ofrecen a Nimbo su amistad y un sitio en la fiesta. Dejad que ese momento
+peques le ofrecen a Nimbo su amistad y un sitio en la fiesta. Dejad que ese momento
 caiga con suavidad; es lo más importante de todo. Mirad la página de puzles para
 saber cómo jugar el final, y para las soluciones de las tres paradas.

@@ -1,8 +1,7 @@
 # El Largo Camino a Casa: Puzles y Soluciones
 
-*Para vuestros ojos, no para los niños. Cada parada indica su nivel, lo que los
-jugadores deben averiguar, la solución prevista y un apoyo amable para que un niño
-atascado siempre avance. Cualquier buena idea debería ser válida; premiad la imaginación y
+*Para vuestros ojos, no para los peques. Cada parada indica su nivel, lo que los
+jugadores deben averiguar, la solución prevista y un apoyo amable para que quien se atasque siempre avance. Cualquier buena idea debería ser válida; premiad la imaginación y
 la amabilidad por encima de la respuesta "correcta".*
 
 ## Parada 1: La Isla de los Vientos (Normal)
@@ -24,7 +23,7 @@ vientos para mirar dentro. Resolver su pequeño acertijo del viento vale igual d
 Premiad los buenos modales, una petición honesta y cualquier promesa de no ser
 codiciosos.
 
-**Apoyo.** Si los niños se atascan, que Eolo les dé una pista cálida ("Una palabra
+**Apoyo.** Si los peques se atascan, que Eolo les dé una pista cálida ("Una palabra
 amable y una promesa es todo lo que pido, jóvenes marineros") o dejad que gasten una
 estrella de energía para encontrar juntos las palabras adecuadas. Una petición hecha
 con valentía y cortesía siempre se gana el viento favorable.
@@ -43,12 +42,12 @@ cosas.
 son malas, solo están solas; nadie se ha quedado nunca a ser su amigo. Vale cualquier
 amabilidad sincera: cantarles una canción cálida en respuesta, hacer sonar La
 **Caracola** para que su nota amable llegue a las rocas, compartir La **Cesta de Miel
-e Higos** o simplemente saludarlas con un hola cariñoso. Cuando los niños responden a
+e Higos** o simplemente saludarlas con un hola cariñoso. Cuando los peques responden a
 la soledad con amabilidad, las Sirenas se animan, y su nuevo canto luminoso guía al
 barco sano y salvo más allá de las rocas. No hay tirada para escapar; la amabilidad es
 la respuesta.
 
-**Apoyo.** Si los niños se quedan parados, o quieren "ganar" remando a toda prisa,
+**Apoyo.** Si los peques se quedan parados, o quieren "ganar" remando a toda prisa,
 que una Sirena llame sobre el agua, muy bajito: "¿Nadie se detendrá nunca a cantar con
 nosotras?" Una sola palabra amable o una nota de La Caracola vuelve alegre el canto
 triste y las Sirenas se hacen amigas al instante.
@@ -68,7 +67,7 @@ una vieja amiga y, sobre todo, **Argos el Sabueso Fiel** junto al hogar, que los
 reconoce al instante. Nombrar lo que recuerdan, o llamar al viejo perro por su nombre,
 lo resuelve sin sombra de duda y empieza la vuelta a casa.
 
-**Apoyo.** Si los niños no están seguros de si de verdad es su casa, dejad que Argos lo
+**Apoyo.** Si los peques no están seguros de si de verdad es su casa, dejad que Argos lo
 resuelva: el viejo sabueso levanta su cabeza gris, capta su olor y trota derecho hacia
 ellos moviendo la cola, porque nunca ha olvidado a un amigo. Reconocer la casa con la
 ayuda del perro cuenta igual como un éxito completo y recupera una estrella de energía.
