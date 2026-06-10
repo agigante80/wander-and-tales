@@ -14,7 +14,7 @@ héroes ganan poniendo fin a la riña con una sorpresa amable.
   cinco cualidades: **Imaginación** (inventar ideas), **Valor** (un corazón firme),
   **Lealtad** (mantenerse fiel a un amigo), **Astucia** (una idea lista y amable) o
   **Paciencia** (esperar y volver a intentarlo). En la ficha de héroe, donde dice
-  magia, que cada niño escriba la cualidad que más le guste. Dos cualidades distintas
+  magia, que cada peque escriba la cualidad que más le guste. Dos cualidades distintas
   funcionan mejor juntas.
 - Dad a cada jugador cinco estrellas de energía (cinco fichas o piezas pequeñas). Se
   gastan y se recuperan durante el juego.

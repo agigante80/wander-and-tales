@@ -1,6 +1,6 @@
 # La Fuente Cantarina: Banco de Ideas
 
-*Combustible para improvisar cuando un niño se sale del guion con alegría. Tirad de
+*Combustible para improvisar cuando un peque se sale del guion con alegría. Tirad de
 esto con libertad; nada de aquí puede romper la historia. Todo es valiente y amable,
 en consonancia con estas colinas, donde los héroes ganan con imaginación, valor y
 corazón, nunca por la fuerza.*

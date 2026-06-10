@@ -1,8 +1,7 @@
 # Los Faroles de las Luciérnagas: Puzles y Soluciones
 
-*Para vuestros ojos, no para los niños. Cada parada indica su nivel, lo que los
-jugadores deben averiguar, la solución prevista y un apoyo amable para que un niño
-atascado siempre avance. Cualquier buena idea debería ser válida; premiad la imaginación y
+*Para vuestros ojos, no para los peques. Cada parada indica su nivel, lo que los
+jugadores deben averiguar, la solución prevista y un apoyo amable para que quien se atasque siempre avance. Cualquier buena idea debería ser válida; premiad la imaginación y
 la amabilidad por encima de la respuesta "correcta".*
 
 ## Parada 1: El Bambú Oscuro (Fácil)
@@ -17,7 +16,7 @@ ofrecer el dulce **pastel de arroz** para que los espíritus se sientan lo basta
 seguros para acercarse por sí solos. Lo que los conquista es la paciencia y un modo
 tranquilo y amistoso, no la prisa.
 
-**Apoyo.** Si los niños se impacientan o intentan agarrar las luces, que **Kon el
+**Apoyo.** Si los peques se impacientan o intentan agarrar las luces, que **Kon el
 Zorro** murmure: "Vienen a los corazones tranquilos, no a las manos rápidas", y les
 enseñe a quedarse quietos. En cuanto se serenan y esperan con cariño, una luciérnaga
 baja flotando hasta ellos, y las demás la siguen. Un intento amable siempre funciona.
@@ -35,7 +34,7 @@ espíritus tímidos se sientan seguros de seguir.
 es encontrar un patrón calmado y claro: encender del **farol más pequeño al más grande**
 para que el camino crezca con suavidad, o simplemente seguir el **hilo rojo** que ata
 los faroles en su fila correcta de uno al siguiente. Cualquier orden bien pensado que
-los niños sepan explicar vale igual de bien.
+los peques sepan explicar vale igual de bien.
 
 **Apoyo.** Si no saben por dónde empezar, dejad que el **hilo rojo** muestre el camino
 (seguidlo de farol en farol), o que **Kon el Zorro** apunte el hocico hacia la fila con
@@ -55,10 +54,10 @@ jugadores quizá quieran empujarla o meterle prisa. No deberían.
 **Solución prevista.** Es un momento de Bondad y Valor. La pequeña luciérnaga solo
 necesita ánimo. Vale cualquier bondad sincera y tranquilizadora: hablar con voz suave y
 firme, decir "creo en ti" y "estaré aquí mismo", o recordarle lo valiente que ya ha sido
-esta noche. Cuando los niños la animan con dulzura, reúne su valor, vuela hacia arriba y
+esta noche. Cuando los peques la animan con dulzura, reúne su valor, vuela hacia arriba y
 El Gran Farol florece con la luz más cálida de todas.
 
-**Apoyo.** Si los niños se quedan parados, o intentan empujar a la luciérnaga hacia
+**Apoyo.** Si los peques se quedan parados, o intentan empujar a la luciérnaga hacia
 arriba por la fuerza, que ella se encoja y susurre: "¿Te quedarás conmigo?" Una sola
 palabra amable y tranquila basta. En cuanto los jugadores le ofrecen cualquier ánimo
 cálido, el pequeño espíritu encuentra su valor y el gran farol se enciende.

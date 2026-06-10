@@ -4,7 +4,7 @@
 nombre, un empujoncito o una sorpresa. Nada de esto es fijo: coge lo que te sirva e
 inventa el resto.*
 
-## Las cuatro magias, con palabras de un niño
+## Las cuatro magias, con palabras de un peque
 
 - **Floración:** "Hago que crezcan flores y cosas buenas." Suaviza un momento
   difícil, repara una red rota con enredaderas, llena de flores una habitación
@@ -32,7 +32,7 @@ inventa el resto.*
 - **La Reina Isabel** es el espíritu de la bondad discreta: un pan compartido se
   convierte en un regalo de rosas.
 
-## Chispas de "¿y si...?" cuando los niños se atascan o se inquietan
+## Chispas de "¿y si...?" cuando los peques se atascan o se inquietan
 
 - Un pan que se deja fuera se vuelve rosas por la mañana. ¿Quién lo dejó, y para
   quién?

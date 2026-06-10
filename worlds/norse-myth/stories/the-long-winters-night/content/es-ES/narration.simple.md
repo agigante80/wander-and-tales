@@ -1,6 +1,6 @@
 # La Noche del Largo Invierno
 
-*Leed en voz alta, despacio y con calidez. Parad a menudo para que los niños
+*Leed en voz alta, despacio y con calidez. Parad a menudo para que los peques
 respondan. Aquí no hay respuestas incorrectas, solo ideas nuevas y valientes que
 probar.*
 

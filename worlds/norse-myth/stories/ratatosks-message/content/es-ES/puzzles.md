@@ -1,8 +1,7 @@
 # El Mensaje Enredado de Ratatosk: Puzles y Soluciones
 
-*Para vuestros ojos, no para los niños. Cada parada indica su nivel, lo que los
-jugadores deben averiguar, la solución prevista y un apoyo amable para que un niño
-atascado siempre avance. Cualquier buena idea debería ser válida; premiad la imaginación y
+*Para vuestros ojos, no para los peques. Cada parada indica su nivel, lo que los
+jugadores deben averiguar, la solución prevista y un apoyo amable para que quien se atasque siempre avance. Cualquier buena idea debería ser válida; premiad la imaginación y
 la amabilidad por encima de la respuesta "correcta".*
 
 ## Parada 1: Atrapad a la Ardilla (Fácil)
@@ -15,10 +14,10 @@ el enredo.
 **Solución prevista.** Es un momento de Corazón y Observación. La jugada amable es
 ir ellos mismos muy despacio: quedarse quietos, hablar con suavidad, mirar cómo
 corre Ratatosk y, en el momento justo, ofrecerle la **golosina** que les dio Edda.
-Un niño paciente y dulce que siga el recorrido de la ardilla y la espere se ganará su
+Un peque paciente y dulce que siga el recorrido de la ardilla y la espere se ganará su
 confianza enseguida.
 
-**Apoyo.** Si los niños dudan, haced que Ratatosk se pare a tomar aire justo a su
+**Apoyo.** Si los peques dudan, haced que Ratatosk se pare a tomar aire justo a su
 lado, para que la golosina sea fácil de ofrecer, o dejad que gasten una estrella de
 energía para decir en voz alta algo que lo calme y él lo oiga. Cualquier amabilidad
 sincera lo serena. Una vez calmado, se sienta, mordisquea y les da las gracias, y la
@@ -34,12 +33,12 @@ despacio tres veces, hasta quedaros quietos.
 quién vive dónde y emparejar cada mensaje con el amigo al que pertenece, usando una
 pista escondida dentro de cada uno.
 
-**Los tres amigos.** Leedlos en voz alta para que los niños se imaginen el árbol:
+**Los tres amigos.** Leedlos en voz alta para que los peques se imaginen el árbol:
 **el Águila** vive en lo más alto, allá arriba en el viento y el cielo ancho; **el
 Búho** se posa en una rama de en medio, amable y aficionado a un saludo; y **el
 amiguito** vive allá abajo, entre las raíces hondas y oscuras.
 
-**Los tres mensajes y sus pistas.** Leed cada mensaje y dejad que los niños
+**Los tres mensajes y sus pistas.** Leed cada mensaje y dejad que los peques
 averigüen a quién pertenece:
 
 - *"Hoy el viento está fuerte aquí arriba, pero me encanta el cielo ancho."* La
@@ -57,7 +56,7 @@ un ululato) y emparejarla con el amigo que encaja. Emparejar los tres ordena el
 enredo. Los **Dos Cuervos** están a mano para confirmar una buena conjetura o dar un
 empujoncito a una atascada.
 
-**Apoyo.** Si los niños dudan, haced que un Cuervo lea un mensaje en voz alta otra
+**Apoyo.** Si los peques dudan, haced que un Cuervo lea un mensaje en voz alta otra
 vez, despacio, y pregunte: "Y bien, ¿a quién le gusta el viento de lo alto?" Ordenar
 aunque sea un solo mensaje hace que los demás empiecen a encajar, y llegar con la
 ayuda de los Cuervos cuenta igual como un éxito completo y recupera una estrella de
@@ -80,7 +79,7 @@ el **farolillo** para las raíces hondas y oscuras. Luego viene la parte amable:
 a cada amigo su mensaje verdadero con calidez, para que el Águila y el amiguito se
 den cuenta de que las palabras poco amables nunca fueron reales, solo una confusión.
 
-**Apoyo.** Si a los niños la subida les parece demasiado alta, dejad que Ratatosk
+**Apoyo.** Si a los peques la subida les parece demasiado alta, dejad que Ratatosk
 trepe a su lado para mostrar las ramas más seguras, o que gasten una estrella de
 energía para trepar de la mano. Si no saben qué decir, el mensaje amable puede ser
 tan sencillo como "Tu amigo nunca estuvo enfadado contigo; fue todo una confusión."

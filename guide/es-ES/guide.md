@@ -5,11 +5,11 @@ listo para cualquier kit de la biblioteca. Te llevará unos minutos.*
 
 ## Qué es esto
 
-Si nunca has jugado a algo así, imagina un cuento antes de dormir que tu hijo ayuda a
+Si nunca has jugado a algo así, imagina un cuento antes de dormir que tu peque ayuda a
 llevar, un poco como un libro de "elige tu propia aventura" representado en voz alta
-entre todos. En el fondo es solo eso. Lo juegas con un niño, o con unos cuantos niños,
+entre todos. En el fondo es solo eso. Lo juegas con un peque, o con unos cuantos peques,
 en voz alta, con un kit impreso y unas pocas cosas de casa. No hay aplicación ni
-pantalla. Tú lees un poco de historia, los niños dicen qué quieren hacer y, juntos,
+pantalla. Tú lees un poco de historia, los peques dicen qué quieren hacer y, juntos,
 superáis pequeños retos con una tirada de dado. Jugáis todos en el mismo equipo,
 ayudándoos entre vosotros, nunca unos contra otros. El único objetivo es pasarlo bien
 juntos, y toda idea es buena. No hace falta ninguna experiencia: si sabes leer
@@ -17,11 +17,11 @@ un cuento antes de dormir, sabes dirigir esto.
 
 ## Cómo es jugar, en la práctica
 
-Así es un turno entero, para que te lo imagines. Tú lees una línea, un niño responde y
+Así es un turno entero, para que te lo imagines. Tú lees una línea, un peque responde y
 una tirada del dado añade una pizca de sorpresa:
 
 - **Tú lees:** "La puerta de enredaderas está toda anudada. ¿Qué hacéis?"
-- **Un niño:** "Le pido a mi búho que la abra a picotazos."
+- **Un peque:** "Le pido a mi búho que la abra a picotazos."
 - **Tú:** "Bonita idea. Es un reto Normal, así que tira el dado." Sacan un tres. "El
   búho tira con fuerza y un nudo se suelta. Una buena idea más y estáis al otro lado."
 
@@ -42,7 +42,7 @@ La biblioteca se construye con **mundos**, **historias** y los **kits** que impr
   en el orden que queráis.
 - Un **kit** es todo lo que necesitas para jugar una historia. Eliges un mundo, eliges
   una historia e imprimes ese kit. Cada historia viene en un nivel de lectura ajustado
-  a la edad de tus niños, y en más de un idioma.
+  a la edad de tus peques, y en más de un idioma.
 
 Nunca hace falta leerse un mundo entero para empezar. Una historia es una tarde.
 
@@ -51,18 +51,18 @@ Nunca hace falta leerse un mundo entero para empezar. Una historia es una tarde.
 Un kit llega como unos cuantos PDF cortos. No tienes por qué imprimirlos todos.
 
 - **El Tale Book.** Es el que lees y desde el que diriges el juego, y es **tuyo**, no de
-  los niños: la historia para leer en voz alta, cómo dirigirla y las **soluciones** de
+  los peques: la historia para leer en voz alta, cómo dirigirla y las **soluciones** de
   los puzles. Léelo en una pantalla o imprímelo, y guárdalo para ti, así las sorpresas
   siguen siendo sorpresas. Viene en dos niveles de lectura (uno sencillo para 3 a 8
   años, uno completo para 9 a 12).
 - **El Atlas.** El mapa, una imagen para cada lugar que vas mostrando al llegar y, al
-  final, una **ficha de aventura** en blanco. Es la única parte que ven los niños.
+  final, una **ficha de aventura** en blanco. Es la única parte que ven los peques.
   Imprímelo, muéstralo en una pantalla o hazlo a mano (ver más abajo).
 - **El Libro del Mundo** (opcional). Un "quién es quién" de los personajes y criaturas
   del mundo, además de un banco de ideas extra, para cuando quieras más. Está bien
   tenerlo, pero nunca es imprescindible.
 - **Los Héroes de Ejemplo** (opcional). Una página de héroes ya hechos, rellenados,
-  para enseñar a tus niños cómo puede ser un héroe.
+  para enseñar a tus peques cómo puede ser un héroe.
 - **Esta Guía** (se lee una vez). Lo que estás leyendo ahora. Después de esto estarás
   listo para cualquier kit de la biblioteca.
 
@@ -71,7 +71,7 @@ del **Atlas** al llegar a ese lugar, y dale a cada jugador una ficha de aventura
 
 **¿Sin impresora? No pasa nada.** Nunca hace falta imprimirlo todo. Puedes leer la
 historia desde una pantalla, y el mapa y las fichas de aventura son fáciles de hacer a
-mano: un niño puede dibujar su propia ficha de héroe en cualquier papel, y el mapa se
+mano: un peque puede dibujar su propia ficha de héroe en cualquier papel, y el mapa se
 puede dibujar, o simplemente montar en la mesa con monedas y botones. Hacerlos juntos es
 una bonita primera parte de la aventura.
 
@@ -86,7 +86,7 @@ rápido y anota las pocas cosas que lleva consigo.
 
 Con una o dos fortalezas basta, y no hay elección equivocada. Una fortaleza es solo una
 manera en que a este héroe le gusta ayudar, y "lo que hace" es una línea corta con las
-palabras del niño. Ofrece algunas y deja que invente las suyas:
+palabras del peque. Ofrece algunas y deja que invente las suyas:
 
 - **Imaginación**: "Se me ocurre una idea nueva."
 - **Valor**: "Voy primero cuando da miedo."
@@ -98,7 +98,7 @@ palabras del niño. Ofrece algunas y deja que invente las suyas:
 - **Buena memoria**: "Recuerdo lo que vimos."
 - **Una voz amable**: "Calmo a una criatura asustada."
 
-La gracia está en elegir, así que deja que el niño te sorprenda. Las cinco **estrellas
+La gracia está en elegir, así que deja que el peque te sorprenda. Las cinco **estrellas
 de energía** se colorean a medida que se gastan durante el juego, así que usa una ficha
 nueva para cada jugador y cada aventura (o dibuja la tuya en cualquier papel). Los
 **Héroes de Ejemplo** enseñan cómo queda una terminada. Crear un héroe lleva un par de
@@ -122,10 +122,10 @@ Eso es toda la preparación que un kit necesita.
 
 Eres el **Guía del Juego**, que no es más que unos pequeños trabajos a la vez. Y eres
 también un aventurero más en la mesa, no un árbitro que mira desde fuera: juegas del
-lado de los niños, ayudándoles a encontrar el camino.
+lado de los peques, ayudándoles a encontrar el camino.
 
 - **El narrador.** Lee las partes de la historia en voz alta, con cariño. Pon una
-  voz graciosa si te apetece. Para en las preguntas y deja que los niños respondan.
+  voz graciosa si te apetece. Para en las preguntas y deja que los peques respondan.
 - **El árbitro amable.** Cuando los jugadores intentan algo, tú decides cómo sale,
   inclinándote siempre hacia el sí. Las páginas de puzles traen las soluciones, así
   que nunca te pillan desprevenido.
@@ -133,16 +133,16 @@ lado de los niños, ayudándoles a encontrar el camino.
   el motor de todo el juego.
 - **Un aventurero más.** Coge un héroe propio y juega con ellos. Has leído la historia
   antes, pero no tienes por qué actuar como si la supieras: déjate sorprender,
-  asómbrate en voz alta y descubre cada turno con los niños. Lo importante es
+  asómbrate en voz alta y descubre cada turno con los peques. Lo importante es
   ayudarles a salir adelante, no ser quien lo sabe todo.
 
-## Cómo presentárselo a los niños
+## Cómo presentárselo a los peques
 
 Empieza por la promesa, cread un héroe cada uno y luego a empezar.
 
 - **Haz primero la promesa.** Diles la única regla antes que nada: "En este juego no
   pierde nadie. Estamos todos en el mismo equipo, y si algo no sale, sencillamente
-  buscamos otra manera." Esa sola frase libera al niño para atreverse.
+  buscamos otra manera." Esa sola frase da permiso para atreverse.
 - **Cread un héroe cada uno.** Reparte las fichas de aventura y haced los héroes
   juntos, tú incluido. Que elijan un nombre y una o dos magias o fortalezas, y que dibujen
   su retrato. Los Héroes de Ejemplo están ahí si alguien quiere un modelo.
@@ -153,11 +153,11 @@ Luego seguid jugando, con el resto de esta Guía. Ahora sois todos aventureros.
 
 ## La regla de oro: sí, y...
 
-Sea lo que sea lo que proponga tu hijo, intenta decir **"sí, y..."** en vez de "no".
+Sea lo que sea lo que proponga tu peque, intenta decir **"sí, y..."** en vez de "no".
 Si quiere hacerse amigo del monstruo, hablar con el río o volar en una nube prestada,
 déjale, y añade un pequeño giro que mantenga la historia en marcha. "Sí, las
 enredaderas se apartan, y al hacerlo ves algo que brilla debajo." Decir que sí
-mantiene al niño metido en el juego. Decir que no, una y otra vez, es la manera más
+mantiene al peque metido en el juego. Decir que no, una y otra vez, es la manera más
 segura de perderlo.
 
 ## Aquí nadie pierde, nunca
@@ -166,7 +166,7 @@ Este es el corazón de cada kit: **una tirada fallida nunca es una derrota, solo
 desvío.** Si un dado se queda corto, no pares la historia. Los jugadores pueden
 gastar una estrella de energía y volver a intentarlo, combinar sus fuerzas,
 aceptar un empujoncito de una criatura amable o, sencillamente, buscar otro camino.
-Trata un fallo como una sorpresa divertida, no como un fracaso. A ningún niño se le
+Trata un fallo como una sorpresa divertida, no como un fracaso. A nadie se le
 elimina, se le deja atrás ni se le hace sentir que ha fallado al equipo.
 
 ## Cómo funciona un reto
@@ -203,10 +203,10 @@ Atascarse es normal. Echa mano de esto, por orden:
 - **Baja la dificultad** un nivel, o deja que la tirada de ayuda lo resuelva.
 - Deja que **combinen sus fuerzas** para un éxito automático.
 - Si nada funciona, **deja que lo consigan sin más.** El impulso importa más que el
-  rigor. Un niño que se siente orgulloso de sus ideas jugará una hora; uno que se siente atascado se
+  rigor. Quien se siente orgulloso de sus ideas jugará una hora; quien se siente atascado se
   irá a otra cosa.
 
-## Mantener enganchado a un niño pequeño
+## Mantener enganchados a los más pequeños
 
 - Pon **voces** a los personajes; es la mitad de la magia.
 - **Dale los dados** y deja que tire. Tener los dados es tener la historia.
@@ -218,7 +218,7 @@ Atascarse es normal. Echa mano de esto, por orden:
 
 ## Respuestas absurdas o imposibles
 
-Son un regalo, no un problema. Si tu hijo dice que la puerta se abre porque "un
+Son un regalo, no un problema. Si tu peque dice que la puerta se abre porque "un
 dragón se la come", sonríe y tira de ahí: "el dragón se traga la puerta de un bocado,
 eructa y se marcha trotando, y ahora el camino está libre." Si una idea de verdad no
 puede funcionar, deja que el mundo responda con amabilidad: "la roca pesa demasiado
@@ -229,7 +229,7 @@ cierres el paso sin más; ofrécele siempre una puerta.
 
 Apunta a entre quince y treinta minutos por sentada, menos con los más pequeños.
 Puedes **saltarte un puzle**, acortar la lectura o **parar pronto** y seguir la
-próxima vez. No hay reloj ni puntuación. El mejor final es un niño que pide volver
+próxima vez. No hay reloj ni puntuación. El mejor final es un peque que pide volver
 a jugar.
 
 ## Unas cuantas frases listas para usar

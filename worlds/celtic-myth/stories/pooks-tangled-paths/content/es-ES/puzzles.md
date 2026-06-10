@@ -1,8 +1,7 @@
 # Los Senderos Enredados de Pook: Puzles y Soluciones
 
-*Para vuestros ojos, no para los niños. Cada parada indica su nivel, lo que los
-jugadores deben averiguar, la solución prevista y un apoyo amable para que un niño
-atascado siempre avance. Cualquier buena idea debería ser válida; premiad la imaginación y
+*Para vuestros ojos, no para los peques. Cada parada indica su nivel, lo que los
+jugadores deben averiguar, la solución prevista y un apoyo amable para que quien se atasque siempre avance. Cualquier buena idea debería ser válida; premiad la imaginación y
 la amabilidad por encima de la respuesta "correcta".*
 
 ## Parada 1: El Robledal Enredado (Fácil)
@@ -17,7 +16,7 @@ soltadlo a medida que avanzáis, así siempre podéis volver sobre vuestros paso
 nunca recorréis dos veces el mismo camino equivocado. Marcar cada giro, o seguir el
 hilo de vuelta para probar un camino nuevo, vale igual de bien.
 
-**Apoyo.** Si los niños dudan, dejad que la lana roja tire con suavidad hacia el
+**Apoyo.** Si los peques dudan, dejad que la lana roja tire con suavidad hacia el
 sendero verdadero, o que un petirrojo amistoso salte por delante de rama en rama.
 Llegar al final con un poco de ayuda cuenta igual como un éxito completo y recupera
 una estrella de energía.
@@ -40,7 +39,7 @@ de la derecha** es el camino: la pista de la izquierda dice claramente que te
 devuelve, la del medio admite que cuenta mentiras, y la de la derecha es la única
 que se llama a sí misma verdadera.
 
-**Solución prevista.** Es un momento de Lógica y Observación. Dejad que los niños
+**Solución prevista.** Es un momento de Lógica y Observación. Dejad que los peques
 hablen las pistas juntos y escuchen cuál puerta dice que es verdadera mientras las
 otras se delatan solas. Una conjetura meditada también es bienvenida.
 
@@ -56,17 +55,17 @@ puerta correcta es la que dice que sí.
 ## Parada 3: Ganarse a Pook (Normal, luego sin tirada)
 
 **El reto.** Los jugadores encuentran a Pook el Puca acurrucado en una seta, ya sin
-reír. Parece pequeño y apenado. Los niños pueden preguntarse cómo arreglar las
+reír. Parece pequeño y apenado. Los peques pueden preguntarse cómo arreglar las
 cosas.
 
 **Solución prevista.** Es un momento de Bondad y Valor. Pook simplemente está un
 poco avergonzado y no sabe cómo pedir perdón. Vale cualquier bondad sincera:
 compartir la **torta de avena y miel**, sentarse a su lado, decirle que hay sitio
 para él en la feria de mayo, decirle que todos hacemos un lío de vez en cuando.
-Cuando los niños son amables, a Pook se le ilumina la cara y promete arreglar todos los
+Cuando los peques son amables, a Pook se le ilumina la cara y promete arreglar todos los
 senderos.
 
-**Apoyo.** Si los niños se quedan parados, o quieren reñirle, que Pook sorba por la
+**Apoyo.** Si los peques se quedan parados, o quieren reñirle, que Pook sorba por la
 nariz y pregunte, muy bajito: "¿Vosotros también estáis enfadados conmigo?" Una sola
 palabra amable lo derrite. En cuanto los jugadores ofrecen cualquier gesto amistoso,
 se levanta de un brinco y deshace todo el enredo.

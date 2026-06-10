@@ -1,6 +1,6 @@
 # Banco de Ideas: Las Islas Esmeralda de los Celtas
 
-*Combustible para improvisar, para la persona adulta. Cuando los niños quieran probar
+*Combustible para improvisar, para la persona adulta. Cuando los peques quieran probar
 algo que la página no había previsto, tirad de aquí. Nada es una respuesta
 equivocada; cada idea se inclina hacia la calidez, la imaginación y que nadie pierda.*
 

@@ -1,8 +1,8 @@
 # El Amanecer Silencioso del Galo: Retos y soluciones
 
-*Para vuestros ojos, no para los de los niños. Cada parada indica su banda, lo que
+*Para vuestros ojos, no para los de los peques. Cada parada indica su banda, lo que
 los jugadores tienen que averiguar, la solución prevista y un apoyo amable para que
-un niño atascado siempre pueda avanzar. Cualquier buena idea debería ser válida;
+quien se atasque siempre pueda avanzar. Cualquier buena idea debería ser válida;
 premiad las buenas ideas y la amabilidad por encima de la respuesta "correcta".*
 
 ## Parada 1: El Gallinero Silencioso (Fácil)
@@ -19,11 +19,11 @@ voz hasta que los jugadores lo animen y lo cuiden.
 - Un acto sencillo de amabilidad sin magia: sentarse con él, cantarle bajito o
   prometer en voz alta que limpiaréis el nombre del viajero.
 
-**Apoyo.** Si los niños dudan, haced que el Galo logre un único cloqueo débil en
+**Apoyo.** Si los peques dudan, haced que el Galo logre un único cloqueo débil en
 respuesta a cualquier amabilidad, para mostrarles que está funcionando. Cualquier
 cariño sincero le devuelve parte de la voz y rellena una estrella de energía.
 
-**Hazlo más sencillo.** Para un niño más pequeño, basta con acariciar las plumas del
+**Hazlo más sencillo.** Para los más pequeños, basta con acariciar las plumas del
 gallo o decir una cosa amable, y que eso baste para que susurre la siguiente pista.
 
 ## Parada 2: El Mercado de Barcelos (Normal)
@@ -40,12 +40,12 @@ la **Luz de Estrella** puede hacer más fácil ver un brillo tenue, el **Canto d
 Río** puede preguntarle a la plaza qué vio, y el **Canto de los Pájaros** puede
 preguntar a los pájaros del mercado por dónde voló el pequeño ladrón brillante.
 
-**Apoyo.** Si los niños se atascan, haced que un vendedor del mercado mencione "ese
+**Apoyo.** Si los peques se atascan, haced que un vendedor del mercado mencione "ese
 pájaro travieso de la torre ha vuelto a llevarse mis botones", dándoles el enlace.
 Llegar a la respuesta con un empujoncito cuenta igual como éxito completo y rellena
 una estrella de energía.
 
-**Hazlo más sencillo.** Para un niño más pequeño, colocad tres objetos brillantes en
+**Hazlo más sencillo.** Para los más pequeños, colocad tres objetos brillantes en
 fila apuntando hacia una "torre" alta (una pila de vasos) y preguntad solo "¿adónde
 llevan las cosas brillantes?".
 
@@ -66,11 +66,11 @@ arrebatarle la copa.
 - **Canto de los Pájaros** para hablarle en su propio parloteo de grajilla, para
   que se quede tranquila y salga en lugar de asustarse.
 
-**Apoyo.** Si los niños se quedan parados, haced que la propia grajilla empuje un
+**Apoyo.** Si los peques se quedan parados, haced que la propia grajilla empuje un
 botón brillante hacia ellos, como proponiendo el cambio. En cuanto ofrecen cualquier
 amabilidad o cambio, dejad que salte a un lado y suelte la copa.
 
-**Hazlo más sencillo.** Para un niño más pequeño, un solo cambio brillante es de
+**Hazlo más sencillo.** Para los más pequeños, un solo cambio brillante es de
 sobra; la grajilla es tímida pero se contenta con facilidad.
 
 ## Parada 4: La Copa Devuelta (Fácil)
@@ -84,17 +84,17 @@ amabilidad: una invitación, una hogaza compartida, una cálida bienvenida para 
 viajero. No hay tirada que fallar. La **Verdad** encaja de forma natural aquí, pero
 unas palabras amables sencillas también valen.
 
-**Apoyo.** Si un niño no sabe qué decir, haced que el viajero sonría y ofrezca su
+**Apoyo.** Si un peque no sabe qué decir, haced que el viajero sonría y ofrezca su
 perdón primero, para que a la gente del pueblo le resulte fácil seguirlo. El éxito
 está garantizado; esta parada va de la cálida sensación de la justicia restaurada.
 
-**Hazlo más sencillo.** Para un niño más pequeño, basta con darle al viajero un trozo
+**Hazlo más sencillo.** Para los más pequeños, basta con darle al viajero un trozo
 de pan y pedirle perdón todos juntos.
 
 ## El Canto del Alba (sin tirada)
 
 Esto es el desenlace, no un reto, así que no hay banda ni tirada. La copa vuelve a su
 cojín, el Galo de Barcelos canta por fin, y el sol sale sobre Barcelos. Dejad que los
-niños sientan despertar el mercado y al viajero marcharse feliz. Ganaron siendo
+peques sientan despertar el mercado y al viajero marcharse feliz. Ganaron siendo
 delicados con la grajilla y justos con un forastero, que es la única manera en que
 alguien gana entre los Manantiales Encantados.

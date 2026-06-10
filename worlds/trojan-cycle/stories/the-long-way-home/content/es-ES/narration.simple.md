@@ -1,6 +1,6 @@
 # El Largo Camino a Casa
 
-*Leed en voz alta, despacio y con cariño. Parad a menudo para que los niños
+*Leed en voz alta, despacio y con cariño. Parad a menudo para que los peques
 respondan. Aquí no hay respuestas equivocadas, solo ideas nuevas y valientes para
 probar.*
 

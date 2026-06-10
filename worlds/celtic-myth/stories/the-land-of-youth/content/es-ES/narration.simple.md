@@ -1,6 +1,6 @@
 # El Viaje a la Tierra de la Juventud
 
-*Leed en voz alta, despacio y con calidez. Parad a menudo para que los niños
+*Leed en voz alta, despacio y con calidez. Parad a menudo para que los peques
 contesten. Aquí no hay respuestas equivocadas, solo ideas nuevas y valientes que
 probar.*
 

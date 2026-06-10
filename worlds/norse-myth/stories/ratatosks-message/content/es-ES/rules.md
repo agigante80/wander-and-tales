@@ -17,7 +17,7 @@ se rompe de verdad, solo se enreda y luego se arregla.
   cualidades: **Imaginación** (inventar ideas), **Valor** (un corazón firme y cálido),
   **Corazón** (cuidar de los demás), **Paciencia** (esperar y volver a intentarlo) o
   **Bondad** (una mano cálida y amiga). En la ficha de héroe, donde dice magia, que
-  cada niño escriba la cualidad que más le guste. Dos cualidades distintas funcionan
+  cada peque escriba la cualidad que más le guste. Dos cualidades distintas funcionan
   mejor juntas.
 - Dad a cada jugador cinco estrellas de energía (cinco fichas o piezas pequeñas). Se
   gastan y se recuperan durante el juego.

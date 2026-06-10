@@ -1,8 +1,7 @@
 # El Largo Sueño del Dragón del Río: Puzles y Soluciones
 
-*Para vuestros ojos, no para los niños. Cada parada indica su nivel, lo que los
-jugadores deben averiguar, la solución prevista y un apoyo amable para que un niño
-atascado siempre avance. Cualquier buena idea debería ser válida; premiad la imaginación y
+*Para vuestros ojos, no para los peques. Cada parada indica su nivel, lo que los
+jugadores deben averiguar, la solución prevista y un apoyo amable para que quien se atasque siempre avance. Cualquier buena idea debería ser válida; premiad la imaginación y
 la bondad por encima de la respuesta "correcta".*
 
 ## Parada 1: La Puerta de los Guardianes (Normal)
@@ -17,7 +16,7 @@ por mi nombre. ¿Qué soy?"* La respuesta es **la lluvia** (justo lo que el vall
 esperando).
 
 **Solución prevista.** Es un reto de pensar, de Imaginación y un poco de paciencia.
-Dejad que los niños lo hablen entre ellos. Los Perros-León Guardianes aceptan la respuesta
+Dejad que los peques lo hablen entre ellos. Los Perros-León Guardianes aceptan la respuesta
 correcta y, como son justos y amables, también aceptan una conjetura valiente y
 meditada.
 
@@ -39,7 +38,7 @@ pasar al otro lado sanos y salvos.
 vez de precipitarse asustados. Atar el **hilo rojo** entre ellos para no separarse, o
 contar un ritmo lento y regular mientras caminan, vale igual de bien.
 
-**Apoyo.** Si los niños están inquietos, dejad que respiren hondo y vuelvan a
+**Apoyo.** Si los peques están inquietos, dejad que respiren hondo y vuelvan a
 intentarlo sin penalización, o que Kon el Zorro marque un ritmo sereno para seguir al
 caminar. Cruzar con ayuda cuenta igual como un éxito completo y recupera una estrella
 de energía.
@@ -58,10 +57,10 @@ poco solo, y un ruido fuerte solo lo sobresaltaría. La jugada amable y valiente
 despertarlo **con suavidad**: hacer sonar la **campanilla**, cuyo sonido claro y dulce
 despierta a un amigo sin sobresalto, y cantarle una canción tranquila y serena.
 Hablarle con dulzura, u ofrecerle el **pastel de arroz** cuando despierte, ahonda la
-amistad. Cuando los niños son dulces, el dragón abre sus ojos soñolientos y se alegra
+amistad. Cuando los peques son dulces, el dragón abre sus ojos soñolientos y se alegra
 de que alguien haya venido.
 
-**Apoyo.** Si los niños se quedan parados, o quieren "ganar" por la fuerza, que el
+**Apoyo.** Si los peques se quedan parados, o quieren "ganar" por la fuerza, que el
 dragón se remueva y murmure en sueños: "Por favor, no tan fuerte", para que el camino
 amable quede claro. En cuanto los jugadores hacen cualquier sonido suave y amable, la
 campanilla o una melodía tarareada, el gran dragón despierta con calidez y se alegra

@@ -1,6 +1,6 @@
 # La Fuente Cantarina
 
-*Leed en voz alta, o dejad que un niño mayor lo lea por sí mismo. Parad en cada
+*Leed en voz alta, o dejad que un peque mayor lo lea por sí mismo. Parad en cada
 pregunta para que los héroes decidan juntos. Aquí no hay respuestas equivocadas,
 solo ideas más valientes que probar.*
 

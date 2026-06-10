@@ -1,8 +1,7 @@
 # La Pequeña Aurora Perdida: Puzles y Soluciones
 
-*Para vuestros ojos, no para los niños. Cada parada indica su nivel, lo que los
-jugadores deben averiguar, la solución prevista y un apoyo amable para que un niño
-atascado siempre avance. Cualquier buena idea debería ser válida; premiad la imaginación y
+*Para vuestros ojos, no para los peques. Cada parada indica su nivel, lo que los
+jugadores deben averiguar, la solución prevista y un apoyo amable para que quien se atasque siempre avance. Cualquier buena idea debería ser válida; premiad la imaginación y
 la amabilidad por encima de la respuesta "correcta".*
 
 ## Parada 1: El Bosque Oscuro (Fácil)
@@ -17,7 +16,7 @@ seguir las huellas pequeñas en la nieve y hablar bajito para que no se asuste.
 Pedirle una pista a **Nori el Duende del Hogar**, el duende del gorro rojo, vale
 igual de bien.
 
-**Apoyo.** Si los niños no la encuentran, que su propia luz parpadee un momento
+**Apoyo.** Si los peques no la encuentran, que su propia luz parpadee un momento
 detrás de un árbol concreto, o dejad que Nori asome y señale con un guiño. La mirada
 más suave o la palabra más amable la hacen salir; cualquier intento sincero de
 encontrarla cuenta como un éxito completo y recupera una estrella de energía.
@@ -54,10 +53,10 @@ arriba.
 
 **Solución prevista.** Es un momento de Corazón y Valor. Vale cualquier ánimo cálido:
 subir el pino más alto a su lado, animarla, contarle hasta el salto o usar la **lana
-roja** para darle un suave empujoncito hacia el aire. Cuando los niños le prestan su
+roja** para darle un suave empujoncito hacia el aire. Cuando los peques le prestan su
 valor, ella respira hondo y salta.
 
-**Apoyo.** Si duda, o los niños no saben bien cómo ayudar, que ella pregunte
+**Apoyo.** Si duda, o los peques no saben bien cómo ayudar, que ella pregunte
 bajito: "¿Contáis conmigo?" Una sola palabra amable y valiente basta. En cuanto los
 jugadores la animan de cualquier manera, ella se serena y se eleva.
 

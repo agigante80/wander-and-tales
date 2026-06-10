@@ -1,6 +1,6 @@
 # El Peine Perdido de la Moura
 
-*Leed en voz alta, o dejad que un niño mayor lo lea él mismo. Parad a menudo para que
+*Leed en voz alta, o dejad que un peque mayor lo lea por su cuenta. Parad a menudo para que
 todos puedan pensar, asombrarse y probar ideas. Aquí no hay respuestas equivocadas,
 solo caminos nuevos que seguir.*
 
@@ -115,7 +115,7 @@ Por eso el agua confía en vosotros. Ahora id, y escuchadla."
 Bajasteis corriendo por el camino serpenteante, y oísteis la plaza antes de verla: un
 sonido brillante, borboteante, chapoteante, y por debajo algo casi como una canción. La
 Fuente Vieja estaba otra vez clara y llena, el agua bailando hacia la luz del sol
-mientras los niños reían y metían sus jarras y todo el pueblo se agolpaba alrededor.
+mientras los peques reían y metían sus jarras y todo el pueblo se agolpaba alrededor.
 
 Fresca y dulce, la bendición de la Moura bajó con el agua, como había hecho durante cien
 años y haría durante cien más.

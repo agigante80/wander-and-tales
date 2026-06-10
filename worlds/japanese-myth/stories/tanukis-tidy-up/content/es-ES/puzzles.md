@@ -1,8 +1,7 @@
 # El Lío del Tanuki: Puzles y Soluciones
 
-*Para vuestros ojos, no para los niños. Cada parada indica su nivel, lo que los
-jugadores deben averiguar, la solución prevista y un apoyo amable para que un niño
-atascado siempre avance. Cualquier buena idea debería ser válida; premiad la imaginación y la
+*Para vuestros ojos, no para los peques. Cada parada indica su nivel, lo que los
+jugadores deben averiguar, la solución prevista y un apoyo amable para que quien se atasque siempre avance. Cualquier buena idea debería ser válida; premiad la imaginación y la
 amabilidad por encima de la respuesta "correcta".*
 
 ## Parada 1: Los puestos revueltos (Fácil)
@@ -18,7 +17,7 @@ alguna vez, o prometerle que el lío es más pequeño cuando lo arreglan los ami
 juntos. Compartir el pastel de arroz también funciona de maravilla. Cualquier bondad
 sincera le levanta las orejas y lo pone en pie.
 
-**Apoyo.** Si los niños no saben qué decir, que Pon solloce y pregunte, muy bajito:
+**Apoyo.** Si los peques no saben qué decir, que Pon solloce y pregunte, muy bajito:
 "¿Creéis que soy un mal tanuki?" Un solo "no" cariñoso derrite la preocupación al
 instante. Una palmadita amistosa o un pastel de arroz compartido también funcionan, y
 Pon se levanta de un salto, dispuesto a ayudar.

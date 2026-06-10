@@ -1,6 +1,6 @@
 # El Jardín Dormido: Banco de Ideas
 
-*Combustible de improvisación para cuando un niño se sale del guion, encantado.
+*Combustible de improvisación para cuando un peque se sale del guion, encantado.
 Tirad de aquí con libertad; nada de esto puede romper la historia. Todo es amable
 y servicial, en consonancia con las Islas, donde la magia nunca hace daño.*
 

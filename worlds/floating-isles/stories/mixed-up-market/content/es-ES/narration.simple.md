@@ -1,6 +1,6 @@
 # El Mercado de la Magia Revuelta
 
-*Leed en voz alta, o dejad que lo lea un niño mayor. Parad a menudo para que cada
+*Leed en voz alta, o dejad que lo lea un peque mayor. Parad a menudo para que cada
 uno comparta sus ideas. Aquí no hay respuestas equivocadas, solo otras nuevas que
 probar.*
 

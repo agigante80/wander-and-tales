@@ -1,6 +1,6 @@
 # El Amanecer Silencioso del Galo
 
-*Leed en voz alta, o dejad que un niño mayor lo lea solo. Parad a menudo para que
+*Leed en voz alta, o dejad que un peque mayor lo lea solo. Parad a menudo para que
 todos puedan pensar, imaginar y probar ideas. Aquí no hay respuestas equivocadas,
 solo caminos nuevos que seguir.*
 

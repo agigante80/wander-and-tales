@@ -1,6 +1,6 @@
 # Banco de Ideas: Los Fiordos Nevados del Norte
 
-*Combustible para improvisar, para la persona adulta. Cuando los niños quieran probar
+*Combustible para improvisar, para la persona adulta. Cuando los peques quieran probar
 algo que la página no había previsto, recurrid a estas ideas. Nada es una respuesta
 equivocada; cada idea se inclina hacia la calidez, la imaginación y que nadie pierda.*
 

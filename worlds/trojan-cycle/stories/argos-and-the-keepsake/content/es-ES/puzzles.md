@@ -1,8 +1,7 @@
 # Argos y el Recuerdo Perdido: Puzles y Soluciones
 
-*Para vuestros ojos, no para los niños. Cada parada indica su nivel, lo que los
-jugadores deben averiguar, la solución prevista y un apoyo amable para que un niño
-atascado siempre avance. Cualquier buena idea debería ser válida; premiad la imaginación y
+*Para vuestros ojos, no para los peques. Cada parada indica su nivel, lo que los
+jugadores deben averiguar, la solución prevista y un apoyo amable para que quien se atasque siempre avance. Cualquier buena idea debería ser válida; premiad la imaginación y
 la lealtad por encima de la respuesta "correcta".*
 
 ## Parada 1: Siguiendo a Argos (Fácil)
@@ -11,12 +10,12 @@ la lealtad por encima de la respuesta "correcta".*
 pistas de la costa para elegir hacia dónde caminó su amigo. Algunas marcas llevan
 adelante; otras no llevan a ninguna parte.
 
-**Solución prevista.** Es un momento de Observación y Lealtad. Que los niños miren de
+**Solución prevista.** Es un momento de Observación y Lealtad. Que los peques miren de
 cerca con Argos y ordenen las pistas: las pisadas que siguen en una dirección clara,
 el higo caído y la marca de descanso que están en esa misma línea, frente a
 cualquier marca suelta que dé la vuelta o se desvanezca. Seguir las pistas que
 concuerdan entre sí, y confiar en Argos cuando ladra contento, los lleva por el buen
-camino. Cualquier niño que vaya despacio, mire con cuidado y se mantenga en el rastro
+camino. Cualquier peque que vaya despacio, mire con cuidado y se mantenga en el rastro
 lo ha resuelto.
 
 **Apoyo.** Si dudan, dejad que Argos dé unos pasos en la dirección correcta y mire
@@ -48,7 +47,7 @@ lista es recordar las dos pistas de Argos y usarlas para ir descartando pozas un
 una hasta que quede una sola. Contar con los dedos, señalar cada poza por turno o
 poner una ficha junto a cada una mientras razonan valen todos.
 
-**Apoyo.** Si los niños pierden el hilo, simplificad a una pista cada vez: "Argos
+**Apoyo.** Si los peques pierden el hilo, simplificad a una pista cada vez: "Argos
 dice que la concha blanca no, así que ¿qué pozas quedan?", luego "Argos dice que el
 guijarro no, así que ¿cuál es?". O dejad que gasten una estrella de energía mientras
 Argos olfatea directo hasta la poza correcta. Llegar a la poza dos por cualquier
@@ -70,7 +69,7 @@ madera de olivo en vez de escarbar y esparcirla. Cuando lo hacen, la prenda tall
 sale caliente y entera, y Argos libera lo último con una pata suave. La paciencia y
 el cuidado, no la fuerza, ganan el día.
 
-**Apoyo.** Si un niño cava en el lugar equivocado o se frustra, que Argos se acerque,
+**Apoyo.** Si un peque cava en el lugar equivocado o se frustra, que Argos se acerque,
 olfatee una vez y empiece a cavar él mismo justo donde debe ser, para que puedan
 unirse. Gastar una estrella de energía para "mirar más de cerca" también revela el
 destello de la madera. El recuerdo siempre aparece; la única pregunta es con cuánta

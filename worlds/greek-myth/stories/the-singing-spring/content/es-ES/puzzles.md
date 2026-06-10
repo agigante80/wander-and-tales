@@ -1,8 +1,7 @@
 # La Fuente Cantarina: Puzles y Soluciones
 
-*Para vuestros ojos, no para los niños. Cada parada indica su nivel, lo que los
-jugadores deben averiguar, la solución prevista y un apoyo amable para que un niño
-atascado siempre avance. Cualquier buena idea debería ser válida; premiad las ideas nuevas y
+*Para vuestros ojos, no para los peques. Cada parada indica su nivel, lo que los
+jugadores deben averiguar, la solución prevista y un apoyo amable para que quien se atasque siempre avance. Cualquier buena idea debería ser válida; premiad las ideas nuevas y
 la amabilidad por encima de la respuesta "correcta".*
 
 ## Parada 1: La Puerta de los Acertijos (Normal)
@@ -16,7 +15,7 @@ el árbol más alto. Subo y subo y subo, y sin embargo nunca crezco. ¿Qué soy?
 respuesta es **una montaña** (pensad en el Olimpo que se alza sobre vosotros).
 
 **Solución prevista.** Es un reto de pensar, de Imaginación y un poco de Vocabulario.
-Dejad que los niños lo hablen entre ellos. La esfinge acepta la respuesta correcta y, como
+Dejad que los peques lo hablen entre ellos. La esfinge acepta la respuesta correcta y, como
 es amable, también acepta una conjetura valiente y meditada.
 
 **Apoyo.** Si se atascan, la esfinge ofrece una pista ("Me ves desde tu pueblo y los
@@ -37,11 +36,11 @@ siempre podéis volver sobre vuestros pasos y nunca recorréis dos veces el mism
 camino equivocado. Marcar cada giro, o pedirle una pista a **Zarza el Sátiro**, vale
 igual de bien.
 
-**Apoyo.** Si los niños dudan, que Zarza asome y señale el camino con un chiste, o
+**Apoyo.** Si los peques dudan, que Zarza asome y señale el camino con un chiste, o
 dejad que gasten una estrella de energía para "recordar" la ruta. Llegar al final con
 ayuda cuenta igual como un éxito completo y recupera una estrella de energía.
 
-**Hazlo más fácil.** Que el niño deje un trozo de cuerda o lana de verdad por el
+**Hazlo más fácil.** Que el peque deje un trozo de cuerda o lana de verdad por el
 laberinto del mapa y luego la siga de vuelta: con eso queda resuelto.
 
 ## Parada 3: El Cíclope Solitario (Difícil, luego sin tirada)
@@ -53,15 +52,15 @@ es.
 **Solución prevista.** Es un momento de Corazón y Valor. El gigante simplemente está
 solo; nunca lo visita nadie. Vale cualquier bondad sincera: compartir el **pastel de
 miel**, preguntarle su nombre, decirle que no está solo, invitarlo a ser amigo.
-Cuando los niños son amables, se aparta con lágrimas de alegría. Luego despiertan la
+Cuando los peques son amables, se aparta con lágrimas de alegría. Luego despiertan la
 fuente tocando la **pequeña lira**, y las **Ninfas Cantarinas** se alzan y cantan.
 
-**Apoyo.** Si los niños se quedan parados, o quieren "ganar" por la fuerza, que el
+**Apoyo.** Si los peques se quedan parados, o quieren "ganar" por la fuerza, que el
 gigante resople y pregunte, muy bajito: "¿Vosotros también me tenéis miedo?" Una sola
 palabra amable lo derrite. En cuanto los jugadores prueban cualquier melodía, las
 ninfas despiertan y el agua canta.
 
-**Hazlo más fácil.** Que el niño salude al gigante solitario con la mano y un abrazo y
+**Hazlo más fácil.** Que el peque salude al gigante solitario con la mano y un abrazo y
 le ofrezca un trozo de pastel, y luego tararee cualquier cancioncilla para despertar la
 fuente.
 

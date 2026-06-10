@@ -146,7 +146,7 @@ export const UI: Record<LangCode, Dict> = {
     nav_help: "Cómo se juega",
     nav_why: "Por qué funciona",
     meta_help: "Cómo se juega a Wander & Tales: la preparación, las reglas sencillas y la forma amable y sin perdedores de estas aventuras cooperativas, con la guía gratuita.",
-    meta_why: "Por qué estas aventuras cooperativas, gratuitas y sin pantallas son buenas para los niños, con un lenguaje prudente y enlaces a la investigación.",
+    meta_why: "Por qué estas aventuras cooperativas, gratuitas y sin pantallas son buenas para niñas y niños, con un lenguaje prudente y enlaces a la investigación.",
     meta_privacy: "Cómo trata los datos Wander & Tales: analítica sin cookies, ningún dato de menores y tus derechos según el RGPD.",
     meta_legal: "Aviso legal de Wander & Tales: el editor, las licencias abiertas y la nota sobre las ilustraciones con IA.",
     meta_terms: "Términos de uso de Wander & Tales: gratis para leer e imprimir, la licencia de contenido CC BY-SA y la cláusula de exención.",
