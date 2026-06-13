@@ -2,11 +2,11 @@
   "hooks": {
     "PreToolUse": [
       {
-        "matcher": "Write|Edit|MultiEdit|NotebookEdit",
+        "matcher": "Write|Edit|MultiEdit|NotebookEdit|Bash",
         "hooks": [
           {
             "type": "command",
-            "command": "\"$CLAUDE_PROJECT_DIR/.claude/hooks/block-dashes.sh\"",
+            "command": "\"$CLAUDE_PROJECT_DIR/.claude/hooks/block-dashes.py\"",
             "statusMessage": "Checking for em and en dashes",
             "timeout": 10
           }

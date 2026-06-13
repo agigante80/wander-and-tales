@@ -196,8 +196,10 @@ the voice, reading-level, peril-tone, and canon-name rules.
 **Never use em dashes or en dashes anywhere**, in any file or text. Use a hyphen
 only to connect words; do not use a hyphen as a substitute for an em or en dash.
 Rewrite with commas, parentheses, a colon, or separate sentences. For number
-ranges write "3 to 5", not a dash. A `PreToolUse` hook in `.claude/` enforces
-this for file writes and edits (it activates on a normal session start).
+ranges write "3 to 5", not a dash. A `PreToolUse` hook in `.claude/`
+(`block-dashes.py`, the canonical forge-kit version 1) enforces this for file
+writes and edits and for Bash commands (so a dash in a commit message or echo is
+caught too); it activates on a normal session start.
 
 ## Core conventions (from the spec)
 
