@@ -7,7 +7,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 Wander & Tales is a public, multilingual library of **printable, cooperative,
 adult-led story-adventure kits for kids** (print-and-play PDFs played with simple
 dice and household objects). It is not a digital game. Worlds contain stories;
-content is data and a layout-only build renders the PDFs.
+content is data and a layout-only build renders the PDFs. A companion **website**
+(the `web/` Astro site) lets people read every story online and download the
+printable kits; it is a reading and discovery surface, not a way to play.
 
 ## Status
 
@@ -45,6 +47,21 @@ Use the project virtualenv at `.venv/`.
 .venv/bin/python -m build render-guide --root . --locale en-GB  # build the Guide PDF
 .venv/bin/python -m build prompts --root .            # export image generation prompts
 .venv/bin/python -m build generate-images --root .    # generate PNGs (needs OPENAI_API_KEY in .env)
+
+.venv/bin/python -m build manifest --root .     # regenerate site/manifest.json (the website's data feed)
+.venv/bin/python -m build render-maps --root .  # render every story map to a PNG into maps/ (for the website)
+.venv/bin/python -m build check --root .        # LanguageTool findings for a locale (needs a LanguageTool server; see langcheck.py)
+```
+
+The website lives in `web/` (an Astro + Tailwind app deployed to Cloudflare
+Workers). It is a separate npm project; run its commands from `web/`:
+
+```bash
+cd web && npm install
+npm run dev      # prepare-assets (resize art, copy kits/maps/fonts) then astro dev
+npm run build    # prepare-assets then astro build into web/dist/
+npm run deploy    # build then wrangler deploy
+npm run audit     # Lighthouse pass via unlighthouse
 ```
 
 Install (editable) into a fresh venv with `pip install -e ".[dev,render]"`. Core
@@ -89,6 +106,11 @@ so there is no clash. Data flows in one direction:
 - **`spelling.py` is a deliberate stub.** The path-scoped en-GB/es-ES spelling
   lint is deferred until locale content exists; `check_text` returns no findings
   today so callers can wire the seam in safely.
+- **`langcheck.py` is the grammar-checker seam.** It strips a locale's Markdown
+  to plain text (preserving offsets), POSTs it to a self-hosted LanguageTool
+  server, and returns normalized `Finding`s with line numbers. It is a candidate
+  finder for the locale-quality skills (`es-es-quality`, `it-it-quality`,
+  `pt-pt-quality`), not an auto-fixer; the CLI exposes it as `build check`.
 - **`fontspec.py` is the font vocabulary.** It is the single source of truth for
   which typefaces exist (family key to TTF faces); the model validates the world
   `fonts` block against it. A world declares its typeface in `world.yaml` under
@@ -151,6 +173,19 @@ so there is no clash. Data flows in one direction:
   canon ids); only the wording on the sheet changes, driven by the world. `sheets.py`
   resolves the label keys from `hero_powers`, so the panel never calls a quality a
   "magic".
+- **The website consumes the build's output; it never re-derives content.** Data
+  flows Python -> web in one direction. The Python CLI emits three feeds at the
+  repo root: `site/manifest.json` (worlds, stories, tags, and per-PDF entries, via
+  `build manifest` / `build/render/manifest.py`), the published PDFs under `kits/`,
+  and story-map PNGs under `maps/` (via `build render-maps` /
+  `build/render/web_map.py`). The `web/` Astro app reads these: `web/src/lib/content.ts`
+  loads `site/manifest.json` and repo content, and `web/scripts/prepare-assets.mjs`
+  (the prebuild step) resizes the source art to responsive WebP and copies the
+  kits, maps, and brand fonts into `web/public/`. Pages are localized under
+  `web/src/pages/[lang]/`. So a content change reaches the site by rebuilding the
+  feeds (`build rebuild` / `build manifest` / `build render-maps`) and then
+  rebuilding the web app; the site holds no story text of its own beyond the
+  per-locale "why" pages in `web/src/content/why/`.
 
 Authoring any kid-facing or grown-up-facing prose or YAML content is a content
 task, not a coding task: use the `authoring-story-content` skill, which encodes
