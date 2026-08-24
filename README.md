@@ -288,3 +288,9 @@ By contributing, you agree to license your contribution under these same terms.
 This is an open project. Whatever you build with it, keep the promise the games
 make: cooperative play, nobody left out, no losers, and the quiet lesson that you
 get furthest by being kind and full of ideas.
+
+## Sponsor
+
+I build and maintain this in my own time. It is free, it stays free, and it gets maintained either way.
+
+If it saved you some time and you feel like saying thanks, you can do that at [github.com/sponsors/agigante80](https://github.com/sponsors/agigante80). Entirely optional, and nothing about the project changes either way.
