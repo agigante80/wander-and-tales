@@ -4,3 +4,6 @@
 root proj
 # web/src/pages/[lang]/{legal,privacy,terms}.astro: the site's own published contact address
 email privacy@wanderandtales.com
+
+# /home/claude/ in older kit scripts is a sandbox placeholder, not a person (12 historical blobs).
+prefix /home/claude
