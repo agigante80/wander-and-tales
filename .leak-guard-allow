@@ -1,0 +1,6 @@
+# Things this project has decided it may show. Tracked and public on purpose.
+# Keys: root, prefix, email (public scanner); skip (both).
+# NEVER put a private NAME here — the file is public, and a name would be an index.
+root proj
+# web/src/pages/[lang]/{legal,privacy,terms}.astro: the site's own published contact address
+email privacy@wanderandtales.com
