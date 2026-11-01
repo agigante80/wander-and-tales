@@ -23,4 +23,4 @@ export const codeOfLocale = (locale: string) =>
 
 // Cloudflare Turnstile site key for the contact form (public by design; the
 // secret is the TURNSTILE_SECRET Worker secret). See worker/README.md.
-export const TURNSTILE_SITE_KEY = "";
+export const TURNSTILE_SITE_KEY = "0x4AAAAAAFu3JZEG3on7Bsaa";
