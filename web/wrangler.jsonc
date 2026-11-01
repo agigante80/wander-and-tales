@@ -16,5 +16,8 @@
     "not_found_handling": "404-page",
     "run_worker_first": ["/api/*"]
   },
+  "d1_databases": [
+    { "binding": "DB", "database_name": "wander-and-tales-contact", "database_id": "494c8530-6ae9-41af-97bd-a39b2a444ce2" }
+  ],
   "triggers": { "crons": ["17 3 * * *"] }
 }
