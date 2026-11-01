@@ -11,6 +11,9 @@ From its own domain. Each message is:
 3. forwarded through Resend's shared sender `onboarding@resend.dev` to the
    `CONTACT_TO` secret, with the visitor's address only in `Reply-To`.
 
+The visitor sees success only when the forward worked. If it fails, they are
+told to try again later, and the D1 copy is kept with `sent = 0`.
+
 Resend's shared sender only delivers to the address the Resend account was
 registered with, so `CONTACT_TO` must be that address. It is a secret: never
 put it in the site, the repo, or a commit message.
@@ -38,6 +41,13 @@ npx wrangler secret put CONTACT_TO
 ```bash
 npx wrangler d1 execute wander-and-tales-contact --remote \
   --command "SELECT id, created_at, topic, name, email, message FROM messages ORDER BY id DESC LIMIT 20"
+```
+
+Messages whose forward failed (check these after any Resend or secret change):
+
+```bash
+npx wrangler d1 execute wander-and-tales-contact --remote \
+  --command "SELECT id, created_at, topic, email, message FROM messages WHERE sent = 0 ORDER BY id DESC"
 ```
 
 ## Local test

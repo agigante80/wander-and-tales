@@ -7,6 +7,7 @@ CREATE TABLE IF NOT EXISTS messages (
   topic TEXT NOT NULL,
   name TEXT,
   email TEXT NOT NULL,
-  message TEXT NOT NULL
+  message TEXT NOT NULL,
+  sent INTEGER NOT NULL DEFAULT 0 -- 1 once forwarded through Resend
 );
 CREATE INDEX IF NOT EXISTS messages_created_at ON messages (created_at);

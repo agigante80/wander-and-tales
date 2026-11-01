@@ -13,8 +13,8 @@
 // Bindings and secrets (see web/worker/README.md):
 //   DB               D1 database (optional until created; storage is skipped)
 //   TURNSTILE_SECRET Turnstile secret key (required)
-//   RESEND_API_KEY   Resend API key (optional only if DB is bound)
-//   CONTACT_TO       destination inbox, the Resend account's own address
+//   RESEND_API_KEY   Resend API key (required: success means forwarded)
+//   CONTACT_TO       destination inbox, the Resend account's own address (required)
 
 const RETENTION_DAYS = 365;
 const LIMITS = { name: 100, email: 200, topic: 20, message: 5000 };
@@ -71,20 +71,10 @@ async function handleContact(request, env) {
     return reply(wantsJson, lang, 403, "challenge");
   }
 
-  let stored = false;
-  if (env.DB) {
-    try {
-      await env.DB.prepare(
-        "INSERT INTO messages (created_at, lang, topic, name, email, message) VALUES (datetime('now'), ?1, ?2, ?3, ?4, ?5)",
-      )
-        .bind(lang, topic, name, email, message)
-        .run();
-      stored = true;
-    } catch (err) {
-      console.error("contact: D1 insert failed", err);
-    }
-  }
-
+  // The forward is what reaches the maintainer, so it alone decides success:
+  // a message only stored in D1 would never be read. The D1 row is the backup
+  // copy, flagged sent=0 when the forward failed so it can be listed (README).
+  const safeName = name.replace(/[\r\n]+/g, " ");
   let sent = false;
   if (env.RESEND_API_KEY && env.CONTACT_TO) {
     try {
@@ -95,8 +85,8 @@ async function handleContact(request, env) {
           from: "Wander & Tales contact <onboarding@resend.dev>",
           to: [env.CONTACT_TO],
           reply_to: email,
-          subject: `[Wander & Tales] ${topic}: message from ${name || email}`,
-          text: `Topic: ${topic}\nLanguage: ${lang}\nName: ${name || "(not given)"}\nEmail: ${email}\n\n${message}\n`,
+          subject: `[Wander & Tales] ${topic}: message from ${safeName || email}`,
+          text: `Topic: ${topic}\nLanguage: ${lang}\nName: ${safeName || "(not given)"}\nEmail: ${email}\n\n${message}\n`,
         }),
       });
       sent = res.ok;
@@ -104,9 +94,23 @@ async function handleContact(request, env) {
     } catch (err) {
       console.error("contact: Resend error", err);
     }
+  } else {
+    console.error("contact: RESEND_API_KEY or CONTACT_TO not set");
   }
 
-  return stored || sent ? reply(wantsJson, lang, 200, "ok") : reply(wantsJson, lang, 502, "failed");
+  if (env.DB) {
+    try {
+      await env.DB.prepare(
+        "INSERT INTO messages (created_at, lang, topic, name, email, message, sent) VALUES (datetime('now'), ?1, ?2, ?3, ?4, ?5, ?6)",
+      )
+        .bind(lang, topic, name, email, message, sent ? 1 : 0)
+        .run();
+    } catch (err) {
+      console.error("contact: D1 insert failed", err);
+    }
+  }
+
+  return sent ? reply(wantsJson, lang, 200, "ok") : reply(wantsJson, lang, 502, "failed");
 }
 
 async function turnstileOk(env, token, request) {
