@@ -1,0 +1,106 @@
+---
+// Contact form. Posts to the Worker at /api/contact (web/worker/index.js), which
+// checks Turnstile, keeps the message in D1 and forwards it privately. No email
+// address is shown anywhere: the domain takes no mail, by design.
+import Legal from "../../layouts/Legal.astro";
+import { LANGS, TURNSTILE_SITE_KEY } from "../../consts";
+import { t } from "../../lib/i18n";
+export function getStaticPaths() {
+  return LANGS.map((l) => ({ params: { lang: l.code } }));
+}
+const { lang } = Astro.params;
+const L = lang!;
+const msgs = {
+  ok: t(L, "contact_ok"),
+  invalid: t(L, "contact_invalid"),
+  challenge: t(L, "contact_challenge"),
+  failed: t(L, "contact_failed"),
+  sending: t(L, "contact_sending"),
+};
+---
+
+<Legal lang={L} route="contact" heading={t(L, "nav_contact")} description={t(L, "meta_contact")}>
+  <p>{t(L, "contact_intro")}</p>
+
+  <form id="contact-form" class="contact-form" method="post" action="/api/contact" data-msgs={JSON.stringify(msgs)}>
+    <input type="hidden" name="lang" value={L} />
+    <div class="hp" aria-hidden="true">
+      <label>Website <input type="text" name="website" tabindex="-1" autocomplete="off" /></label>
+    </div>
+
+    <label for="cf-name">{t(L, "contact_name")}</label>
+    <input id="cf-name" name="name" type="text" maxlength="100" autocomplete="name" />
+
+    <label for="cf-email">{t(L, "contact_email")}</label>
+    <input id="cf-email" name="email" type="email" maxlength="200" autocomplete="email" required />
+
+    <label for="cf-topic">{t(L, "contact_topic")}</label>
+    <select id="cf-topic" name="topic">
+      <option value="privacy">{t(L, "topic_privacy")}</option>
+      <option value="content">{t(L, "topic_content")}</option>
+      <option value="other" selected>{t(L, "topic_other")}</option>
+    </select>
+
+    <label for="cf-message">{t(L, "contact_message")}</label>
+    <textarea id="cf-message" name="message" rows="7" maxlength="5000" required></textarea>
+
+    <div class="cf-turnstile" data-sitekey={TURNSTILE_SITE_KEY} data-language={L} data-theme="auto"></div>
+
+    <p class="note">{t(L, "contact_note")} <a href={`/${L}/privacy`}>{t(L, "contact_note_link")}</a>.</p>
+
+    <button type="submit" class="btn btn-primary">{t(L, "contact_send")}</button>
+    <p id="contact-status" class="status" role="status" aria-live="polite"></p>
+  </form>
+
+  <script is:inline src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+  <script is:inline>
+    (function () {
+      var form = document.getElementById("contact-form");
+      var status = document.getElementById("contact-status");
+      var msgs = JSON.parse(form.dataset.msgs);
+      var show = function (key) {
+        status.textContent = msgs[key] || msgs.failed;
+        status.dataset.kind = key;
+      };
+      // result from a no-JavaScript post, redirected back here
+      var r = new URLSearchParams(location.search).get("result");
+      if (r) show(r);
+      form.addEventListener("submit", function (e) {
+        e.preventDefault();
+        var btn = form.querySelector("button[type=submit]");
+        btn.disabled = true;
+        show("sending");
+        fetch(form.action, { method: "POST", body: new FormData(form), headers: { Accept: "application/json" } })
+          .then(function (res) { return res.json().catch(function () { return { result: "failed" }; }); })
+          .then(function (data) {
+            show(data.result);
+            if (data.result === "ok") form.reset();
+          })
+          .catch(function () { show("failed"); })
+          .finally(function () {
+            btn.disabled = false;
+            if (window.turnstile) window.turnstile.reset();
+          });
+      });
+    })();
+  </script>
+</Legal>
+
+<style>
+  .contact-form { display: grid; gap: var(--sp-2); margin-top: var(--sp-6); max-width: 36rem; }
+  .contact-form label { font-weight: 700; margin-top: var(--sp-3); }
+  .contact-form input, .contact-form select, .contact-form textarea {
+    font: inherit; color: var(--ink); background: var(--surface-2);
+    border: 1px solid var(--line); border-radius: var(--r-sm); padding: .65rem .8rem; width: 100%;
+  }
+  .contact-form textarea { resize: vertical; }
+  .contact-form .cf-turnstile { margin-top: var(--sp-4); min-height: 65px; }
+  .contact-form .note { font-size: var(--fs-small); color: var(--ink-soft); }
+  .contact-form button { justify-self: start; margin-top: var(--sp-2); }
+  .contact-form button:disabled { opacity: .6; cursor: progress; }
+  .contact-form .status:empty { display: none; }
+  .contact-form .status { font-weight: 700; color: var(--pine); }
+  .contact-form .status[data-kind="invalid"], .contact-form .status[data-kind="challenge"],
+  .contact-form .status[data-kind="failed"] { color: var(--gold); }
+  .hp { position: absolute; left: -10000px; width: 1px; height: 1px; overflow: hidden; }
+</style>

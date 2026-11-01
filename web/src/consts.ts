@@ -20,3 +20,7 @@ export const localeOf = (code: string) =>
   (LANGS.find((l) => l.code === code) ?? LANGS[0]).locale;
 export const codeOfLocale = (locale: string) =>
   (LANGS.find((l) => l.locale === locale) ?? LANGS[0]).code;
+
+// Cloudflare Turnstile site key for the contact form (public by design; the
+// secret is the TURNSTILE_SECRET Worker secret). See worker/README.md.
+export const TURNSTILE_SITE_KEY = "";

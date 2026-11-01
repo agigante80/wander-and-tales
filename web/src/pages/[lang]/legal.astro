@@ -12,7 +12,7 @@ const { lang } = Astro.params;
   <p class="text-sm text-ink/50">This notice is currently provided in English; localized versions will follow.</p>
 
   <h2>Publisher</h2>
-  <p>Wander &amp; Tales is a free, non-commercial educational project that offers printable cooperative story-adventure kits for children. It sells nothing and runs no advertising. Contact: <a href="mailto:privacy@wanderandtales.com">privacy@wanderandtales.com</a>. The project is run from Spain.</p>
+  <p>Wander &amp; Tales is a free, non-commercial educational project that offers printable cooperative story-adventure kits for children. It sells nothing and runs no advertising. Contact: <a href={`/${lang}/contact`}>the contact form</a>. The project is run from Spain.</p>
 
   <h2>Source and licence</h2>
   <p>All content and source code are public on GitHub: <a href={REPO} rel="noopener">{REPO}</a>. The stories, prose, and illustrations are licensed under Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0); the software is licensed under MIT.</p>

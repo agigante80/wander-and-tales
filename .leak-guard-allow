@@ -2,8 +2,10 @@
 # Keys: root, prefix, email (public scanner); skip (both).
 # NEVER put a private NAME here — the file is public, and a name would be an index.
 root proj
-# web/src/pages/[lang]/{legal,privacy,terms}.astro: the site's own published contact address
+# The site's former published contact address (dead since 2026-11-01, still in git history).
 email privacy@wanderandtales.com
+# web/worker/: Resend's public shared sender used by the contact form, not a person.
+email onboarding@resend.dev
 
 # /home/claude/ in older kit scripts is a sandbox placeholder, not a person (12 historical blobs).
 prefix /home/claude

@@ -10,3 +10,4 @@ public/kits/
 
 # Unlighthouse audit output
 .unlighthouse/
+.dev.vars
